@@ -1,0 +1,2476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue authorContact="https://gitter.im/BSData/wh40k" authorName="Kohato" authorUrl="https://github.com/BSData/wh40k/issues" battleScribeVersion="2.01" book="Index: Forces of the Astra Militarum" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="10" id="f944-98a5-b73d-f132" name="Imperium - Adeptus Titanicus-BR" revision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <profiles/>
+ <rules/>
+ <infoLinks/>
+ <costTypes/>
+ <profileTypes>
+  <profileType id="d663-48aa-4a14-260b" name="Wound Track (Titan)">
+   <characteristicTypes>
+    <characteristicType id="e2cf-9e28-4707-93ed" name="Remaining W"/>
+    <characteristicType id="de5d-f33d-4b13-f788" name="M"/>
+    <characteristicType id="4091-938f-6dde-201f" name="WS"/>
+    <characteristicType id="cf3d-e3af-f39b-e247" name="BS"/>
+    <characteristicType id="6635-b157-0e68-49a4" name="Void Shield"/>
+   </characteristicTypes>
+  </profileType>
+  <profileType id="30af-0cff-c525-cc81" name="Explosion">
+   <characteristicTypes>
+    <characteristicType id="6188-7536-f170-854c" name="Dice roll"/>
+    <characteristicType id="5e73-d374-9bac-af83" name="Distance"/>
+    <characteristicType id="0923-e0f5-5fcb-aad8" name="Mortal wounds"/>
+   </characteristicTypes>
+  </profileType>
+ </profileTypes>
+ <categoryEntries>
+  <categoryEntry hidden="false" id="c361-6f00-d06e-772c" name="Faction: Imperium">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry hidden="false" id="6fcd-85b1-186b-77bb" name="Faction: Adeptus Titanicus">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry hidden="false" id="fecb-f56e-7bdc-4636" name="Faction: &lt;Titan Legion&gt;">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry hidden="false" id="b371-aaaa-dc65-2d3c" name="God-engine">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry book="" hidden="false" id="1d69-432f-3c5c-8a11" name="Warhound Scout Titan">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry hidden="false" id="e88f-d384-6f8b-f722" name="Reaver Battle Titan">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry hidden="false" id="d1a4-5db2-fd8b-b76b" name="Warlord Battle Titan">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+  <categoryEntry hidden="false" id="dfe0-5bea-c7b7-ff75" name="Warbringer Nemesis Titan">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+  </categoryEntry>
+ </categoryEntries>
+ <forceEntries/>
+ <selectionEntries/>
+ <entryLinks>
+  <entryLink hidden="false" id="fa37-8fca-c79d-33bf" name="Warhound Scout Titan" targetId="de5d-f907-4d57-6b9f" type="selectionEntry">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="91de-4735-8161-421e" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+  </entryLink>
+  <entryLink hidden="false" id="f073-a627-c033-7b18" name="Reaver Battle Titan" targetId="511d-6de9-90e7-ee72" type="selectionEntry">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="d786-e626-e328-27c1" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+  </entryLink>
+  <entryLink hidden="false" id="e053-59e4-293d-c39f" name="Warlord Battle Titan" targetId="2faf-9e73-a849-c4f5" type="selectionEntry">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="2fe1-22b8-47fb-7236" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+  </entryLink>
+  <entryLink hidden="false" id="e18f-f254-be0d-7c6b" name="Warbringer Nemesis Titan" targetId="b5df-a492-0d86-c697" type="selectionEntry">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="dee5-5cd2-cd43-f517" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+  </entryLink>
+ </entryLinks>
+ <sharedSelectionEntries>
+  <selectionEntry collective="false" hidden="false" id="ef19-0c8d-5045-17ac" name="Titanic Stride" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="fa6a-3960-d232-ff0e" name="Titanic Stride" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas de acerto para cada ataque feito com esta arma em vez de 1."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="3281-8187-4885-206c" name="Arioch Titan Power Claw" type="upgrade">
+   <profiles/>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="2471-c931-1903-6899" name="Arioch Titan Power Claw" targetId="4ff8-df5e-7a4d-edbc" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="a258-7ace-458c-6259" name="Reaver Power Fist" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="20d6-9b2c-5ba7-6600" name="Reaver Power Fist" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="10"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Se você matar um VEÍCULO ou MONSTRO que não tenha a palavra-chave TITÂNIC com o punho de poder Reaver, selecione uma unidade inimiga dentro de 12" e role um D6; em um 4+ essa unidade sofre D6 ferimentos mortais quando o cadáver ou detritos forem lançados Nisso.'/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="c203-6331-716d-99b9" name="Reaver Chainfist" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="83e9-5caf-4999-3c7f" name="Reaver Chainfist" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="10"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Subtraia 1 das jogadas de acerto feitas com esta arma. Qualquer jogada de um 6 feito com este ataque em qualquer VEÍCULO, MONSTRO ou CONSTRUÇÃO automaticamente inflige um adicional de feridas mortais 2D6 no alvo."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="13c9-4105-9cc5-f147" name="Mori Quake Cannon" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="a2e9-c9fd-eed4-726b" name="Mori Quake Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='24"-360"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 3D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="20"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="As unidades atingidas por essa arma devem reduzir pela metade sua característica de movimento e não podem avançar em sua fase seguinte de movimento."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="fbae-99c4-a6bc-0791" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry book="" collective="false" hidden="false" id="98cf-89cc-d0b4-c84c" name="Sunfury Plasma Annihilator" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="6af8-640e-217e-c334" name="Sunfury Plasma Annihilator" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 2D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Depois de resolver todos os danos na unidade alvo, role um D6 para cada outra unidade dentro de 6" da unidade alvo; em um 4+ essa unidade também sofrerá ataques D3 usando o perfil da arma.'/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="69ea-aeb4-31a4-c645" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="470d-8b9c-14e2-d70e" name="Warlord Gatling Blaster" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="26c7-9f6b-7785-ae92" name="Warlord Gatling Blaster" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 12"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra unidades de INFANTARIA, cada golpe bem sucedido infligido por esta arma, em vez disso, se torna 3 acertos."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="318d-0649-dfd0-43fe" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="25f2-abba-80e9-0810" name="Apocalypse Missile Launcher" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="b6b7-9d87-1d64-2c9e" name="Apocalypse Missile Launcher" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='24"-360"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 12"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades que não são visíveis para o portador."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="5118-8b5c-9821-bfe2" name="Reaver Gatling Blaster" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="8c67-4fc8-c10c-f1d4" name="Reaver Gatling Blaster" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra unidades de INFANTARIA, cada jogada de sucesso infligida por esta arma, em vez disso, se torna 3 acertos."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="d5ef-6062-bb9e-4767" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="2db2-d04a-2d7f-3bb2" name="Reaver Laser Blaster" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="66cc-a888-f681-f752" name="Reaver Laser Blaster" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='96"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 3D3"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer jogada de um 6 feito com este ataque automaticamente inflige mais feridas mortais D3 no alvo."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="e747-ab95-6e81-9998" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="4824-64bc-7569-e740" name="Saturnyne Lascutter" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="97b0-d5f7-03e1-b672" name="Saturnyne Lascutter (Melee)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="20"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="12"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de resultados com falha para esta arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3445-2b1e-4c52-2fbe" name="Saturnyne Lascutter (Shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='18"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="12"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois de você ter acertado com sucesso com esta arma, você pode imediatamente lançar um golpe adicional contra a mesma unidade alvo, se esta jogada adicional for bem sucedida, você pode rolar para acertar de novo e de novo até que você perca ou um total de 12 sucessos foram alcançados. Depois que o número total de acertos tiver sido determinado para a arma, resolva o ataque."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="f405-e1db-1bc4-b84c" name="Dual Turbo-Laser Destructor" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="18fc-161b-db3f-f9a5" name="Dual Turbo-Laser Destructor" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='96"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 2D3"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer jogada de um 6 feito com este ataque automaticamente inflige mais feridas mortais D3 no alvo."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="cfb2-5185-7a4a-a317" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry book="" collective="false" hidden="false" id="08d8-d3eb-f056-7a67" name="Belicosa Volcano Cannon" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="93f9-147b-096e-b6fb" name="Belicosa Volcano Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='180"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="30"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-6"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="12"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer jogada de um 6 feito com este ataque automaticamente inflige mais D6 mortal no alvo."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="dfa7-b336-48f1-d605" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="c02c-108f-8e6d-d727" name="Titan Plasma Blastgun" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="16bf-3834-542f-474c" name="Titan Plasma Blastgun (Standard)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 2D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="-"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="d4f0-87dc-b422-e13b" name="Titan Plasma Blastgun (Overcharged)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 2D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="4"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao usar este modo de tiro, para cada teste de acerto de 1, o Titã sofre uma ferida mortal após todos os tiros da arma terem sido resolvidos. Essas feridas mortais não podem ser impedidas pelos próprios escudos vazios do Titã."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="0781-0439-7914-ce56" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="b45c-9c9a-ccd6-c3d0" name="Titan Mega-Bolter" type="upgrade">
+   <profiles/>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="8f3c-324e-802f-896b" name="Titan Mega-Bolter" targetId="7676-9998-283f-a8bd" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="23f1-7a9b-bdc9-7138" name="Twin Titan Mega-Bolter" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="216e-dd30-86d0-f3e2" name="Twin Titan Mega-Bolter" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 40"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="-"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="1e3c-af20-3d43-9d96" name="Incinerator Missile Bank" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="31d3-3838-f37b-3023" name="Incinerator Missile Bank" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='24"-360"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 10"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra o INFANTARIADO, o número de acertos de sucesso obtidos por essa arma é dobrado. Unidades atacadas por esta arma não ganham nenhum bônus em seus testes de resistência por estarem em cobertura. Esta arma pode segmentar unidades que não são visíveis para o portador."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="7a0d-cb6d-b516-d0e9" name="Ardex-Defensor Maulers" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="5f12-5737-92d2-4cad" name="Ardex-Defensor Maulers" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='36"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Overwatch ataca com esta arma atingida em 5+, independentemente dos modificadores."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="0729-3662-7e87-177f" name="Ardex-Defensor Twin Lascannon" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="bf35-8d08-ddfe-ef87" name="Ardex-Defensor Twin Lascannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='48"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 2"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="9"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Overwatch ataca com esta arma atingida em 5+, independentemente dos modificadores. Essas armas só podem disparar contra alvos atrás do Titã."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="1fa0-b612-71de-c36a" name="Reaver Volcano Cannon" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="2e7b-7302-602f-715e" name="Reaver Volcano Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='180"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="25"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="12"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="-"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="324e-b7f9-69ab-d356" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="5727-942c-dc11-4ad7" name="Reaver Melta Cannon" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="cef9-f2e9-38f5-55c8" name="Reaver Melta Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='48"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 2D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="-"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="0304-221e-dd30-ab6d" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="0878-b6b5-5bff-6705" name="Titan Inferno Gun" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="f35c-38ee-634e-32a7" name="Titan Inferno Gun" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='18"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="4"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="c5da-02c5-1022-8de9" name="Titan Vulcan Mega-Bolter" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="75f9-eb2c-5e48-2911" name="Titan Vulcan Mega-Bolter" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 20"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="-"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="de5d-f907-4d57-6b9f" name="Warhound Scout Titan" type="model">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="7608-7065-dc22-dd49" name="Warhound Scout Titan 1" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="30-35+"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='24"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="2+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="4+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="6cd9-3fec-4bde-00ba" name="Warhound Scout Titan 2" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="20-29"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='18"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="3+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="5+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="0957-f601-6387-d2a6" name="Warhound Scout Titan 3" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="10-19"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='12"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="6+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="4+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="6+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="55ab-ad10-599b-594b" name="Warhound Scout Titan 4" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="1-9"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='8"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="6+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="4+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="7+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="0d54-f9ac-41a8-2020" name="Warhound Scout Titan" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value="*"/>
+      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="*"/>
+      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="*"/>
+      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="10"/>
+      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="9"/>
+      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="35"/>
+      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="4"/>
+      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="10"/>
+      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="3+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="d01c-5fc1-1082-e0ed" name="Flank Speed" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando este modelo avança, aumenta sua característica de movimento por 12" em vez de rolar um dado.'/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="9f6a-f274-dbd2-a2bb" name="Cataclysmic Explosion" targetId="5f60-a334-0ca7-5eb6" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="16c2-6395-0312-788f" name="Imperial God-engine" targetId="4698-5968-4940-9fd2" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="9275-b266-f777-03c8" name="Titan Void Shields" targetId="b18f-3b99-479f-3612" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="24f6-3f42-21ad-0bda" name="New CategoryLink" primary="false" targetId="fecb-f56e-7bdc-4636">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="5c0b-1747-4b36-46d2" name="New CategoryLink" primary="false" targetId="6fcd-85b1-186b-77bb">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="9462-4b1f-d63b-00de" name="New CategoryLink" primary="false" targetId="c361-6f00-d06e-772c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="7916-fa52-c427-6a76" name="New CategoryLink" primary="false" targetId="b371-aaaa-dc65-2d3c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="a660-efce-e3f0-c64c" name="New CategoryLink" primary="false" targetId="bdda-36f0-4f32-1639">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="f7e3-1209-5c53-95f7" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="ea18-d491-a84e-4565" name="New CategoryLink" primary="false" targetId="1d69-432f-3c5c-8a11">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+   <selectionEntries/>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="2a9a-da2e-62b1-511c" name="Arm-Mounted Weapons">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="967e-a850-0182-0f1d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="9de9-46f4-a9e2-596b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+     <selectionEntries/>
+     <selectionEntryGroups/>
+     <entryLinks>
+      <entryLink hidden="false" id="2820-de26-7548-414c" name="Dual turbo-laser destructor" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="a1fa-a665-b304-9613" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="1993-3dff-e14e-7d55" name="Titan plasma blastgun" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="f9b9-6ecd-ec9b-7b5c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="827e-6671-79df-1885" name="Titan inferno gun" targetId="0878-b6b5-5bff-6705" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="70c5-d6e3-22c6-38c1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="271e-4b1a-5491-a2be" name="Titan vulcan mega-bolter" targetId="c5da-02c5-1022-8de9" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="c18b-a55f-62dc-e580" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink hidden="false" id="ee27-42c1-ccfe-c65d" name="Titanic Stride" targetId="ef19-0c8d-5045-17ac" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="dc3c-cc1c-4334-8feb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="a3ea-fefa-81ce-65a1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="690b-9569-897b-62b0" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="4cee-46dc-9486-71e7" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+   </entryLinks>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="75.0"/>
+    <cost costTypeId="points" name="pts" value="2000.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="511d-6de9-90e7-ee72" name="Reaver Battle Titan" page="105" type="model">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="01d5-e6bb-7ba5-3fe6" name="Reaver Battle Titan 1" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="50-60+"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='20"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="4+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="2+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="3+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="1220-aede-1fc4-dab3" name="Reaver Battle Titan 2" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="35-49"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='18"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="4+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="3+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="4+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="ff67-58c7-2b37-95a8" name="Reaver Battle Titan 3" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="20-34"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='15"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="4+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="5+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="163d-292c-a1ba-9106" name="Reaver Battle Titan 4" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="10-19"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='12"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="5+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="6+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="58cb-6e18-cd85-7e84" name="Reaver Battle Titan 5" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="1-9"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='10"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="6+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="6+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="7+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3e4f-9dd4-05c6-c470" name="Reaver Battle Titan" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value="*"/>
+      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="*"/>
+      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="*"/>
+      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="10"/>
+      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="10"/>
+      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="60"/>
+      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="5"/>
+      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="10"/>
+      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="3"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="3176-a4a4-4ac0-c25e" name="Cataclysmic Explosion" targetId="5f60-a334-0ca7-5eb6" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="e958-b030-ca55-712a" name="Icon of Imperial Might" targetId="9492-d2be-1544-faf6" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="ff05-f660-6bdd-a1b4" name="Imperial God-engine" targetId="4698-5968-4940-9fd2" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="f158-333c-4de4-2b99" name="Titan Void Shields" targetId="b18f-3b99-479f-3612" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="b380-d4df-98d6-ac43" name="Titanic Gait" targetId="3b6e-b7a5-153f-5929" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="b2bb-da53-777b-38ab" name="New CategoryLink" primary="false" targetId="fecb-f56e-7bdc-4636">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="3ea6-9ff4-bbe7-4510" name="New CategoryLink" primary="false" targetId="6fcd-85b1-186b-77bb">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="169d-b373-c6c0-ccee" name="New CategoryLink" primary="false" targetId="c361-6f00-d06e-772c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="7200-1a25-cb90-2042" name="New CategoryLink" primary="false" targetId="b371-aaaa-dc65-2d3c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="720b-0e6f-54b4-2f66" name="New CategoryLink" primary="false" targetId="e88f-d384-6f8b-f722">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="eafd-8b7e-1cbf-3dff" name="New CategoryLink" primary="false" targetId="bdda-36f0-4f32-1639">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="9c19-5ed8-df85-f66a" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+   <selectionEntries/>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="0247-1c6e-7080-9bc9" name="Carapace-Mounted Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="d29c-7f33-f90c-9660" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="accc-59df-7c1b-90e9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+     <selectionEntries/>
+     <selectionEntryGroups/>
+     <entryLinks>
+      <entryLink hidden="false" id="404e-b9ac-714e-69fb" name="Dual turbo-laser destructor" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="e21c-23a6-d6a0-5b69" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="2815-92c9-0a83-aa51" name="Titan plasma blastgun" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="f691-5cbe-7bff-5d11" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="54a5-eb69-4e85-bd1e" name="Titan inferno gun" targetId="0878-b6b5-5bff-6705" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="adf6-361b-9990-1471" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="2a9e-3699-7c88-de54" name="Titan vulcan mega-bolter" targetId="c5da-02c5-1022-8de9" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="88d8-3c41-6945-136e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="ea3e-483f-54a5-bc19" name="Apocalypse missile launcher" targetId="25f2-abba-80e9-0810" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="3a40-46b1-435a-009a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="fa02-7d6f-50dc-fb57" name="Incinerator missile bank" targetId="1e3c-af20-3d43-9d96" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="306d-eb01-724b-37d6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" hidden="false" id="c7bd-43c5-a3ed-73be" name="Arm-Mounted Weapons">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="92be-5abe-4109-7ac8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="32af-6263-910a-b44e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+     <selectionEntries/>
+     <selectionEntryGroups/>
+     <entryLinks>
+      <entryLink hidden="false" id="2963-5260-e67a-086c" name="Reaver gatling blaster" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="5562-1ba1-425e-560c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="9171-1239-0d2d-c878" name="Reaver laser blaster" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="0ea6-efa2-d4bd-ca99" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="f63d-e11e-e847-0e00" name="Reaver volcano cannon" targetId="1fa0-b612-71de-c36a" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="54d1-291f-913c-7b51" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="3154-3d3b-b604-89f2" name="Reaver melta cannon" targetId="5727-942c-dc11-4ad7" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="74b4-7002-8d3c-8235" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="3ac8-37b7-17d6-504d" name="Reaver power fist" targetId="a258-7ace-458c-6259" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="ad44-5f4d-e157-0e47" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="db72-12bf-5e06-ede6" name="Reaver chainfist" targetId="c203-6331-716d-99b9" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="669c-732f-b2b6-7b19" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink hidden="false" id="eb35-2bfc-a84e-2c04" name="Titanic Stride" targetId="ef19-0c8d-5045-17ac" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="fe7a-adb2-376c-7840" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="3e38-7633-56b5-9fb8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="5fac-49f0-f1b3-0446" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="f93d-c29e-d289-4301" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+   </entryLinks>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="120.0"/>
+    <cost costTypeId="points" name="pts" value="4000.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="2faf-9e73-a849-c4f5" name="Warlord Battle Titan" page="107" type="model">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="6d30-e842-5372-0d54" name="Warlord Battle Titan 1" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="60-70+"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='18"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="4+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="2+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="3+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="0984-ce25-9f38-99cc" name="Warlord Battle Titan 2" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="40-59"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='14"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="4+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="3+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="4+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="f63c-3cf7-1e25-67dd" name="Warlord Battle Titan 3" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="20-39"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='12"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="4+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="4+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="c81b-ea7b-b54c-693e" name="Warlord Battle Titan 4" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="10-19"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='10"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="4+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="5+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="04e7-b92d-e0cc-d22f" name="Warlord Battle Titan 5" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="1-9"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='8"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="6+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="5+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="6+"/>
+     </characteristics>
+    </profile>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="014b-f337-7a26-3d48" name="Warlord Battle Titan" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value="*"/>
+      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="*"/>
+      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="*"/>
+      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="16"/>
+      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="16"/>
+      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="70"/>
+      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="5"/>
+      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="10"/>
+      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="2+"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="0077-5d19-0a56-88d3" name="Cataclysmic Explosion" targetId="5f60-a334-0ca7-5eb6" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="db4d-b6b4-339a-707c" name="Icon of Imperial Might" targetId="9492-d2be-1544-faf6" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="9f41-640c-d5c6-539c" name="Imperial God-Engine" targetId="4698-5968-4940-9fd2" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="c98d-24b4-801a-38b3" name="Titan Void Shields" targetId="b18f-3b99-479f-3612" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="2f14-2cc1-be2d-6aa0" name="Titanic Gait" targetId="3b6e-b7a5-153f-5929" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="a044-e2d4-3eb9-f003" name="New CategoryLink" primary="false" targetId="fecb-f56e-7bdc-4636">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="19bc-e94f-4d4c-f953" name="New CategoryLink" primary="false" targetId="6fcd-85b1-186b-77bb">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="19cc-ad28-47c8-f324" name="New CategoryLink" primary="false" targetId="c361-6f00-d06e-772c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="178b-3a44-c85e-3da8" name="New CategoryLink" primary="false" targetId="b371-aaaa-dc65-2d3c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="1d26-3bee-3ce1-7ce0" name="New CategoryLink" primary="false" targetId="bdda-36f0-4f32-1639">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="4f4c-d5fe-8630-9804" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="c1a3-3c02-922e-e48a" name="New CategoryLink" primary="false" targetId="d1a4-5db2-fd8b-b76b">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+   <selectionEntries/>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="5a51-c6a7-faac-5a46" name="Carapace-Mounted Weapons">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="0378-392e-e0ea-f184" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="6f3a-7957-6206-4cae" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+     <selectionEntries/>
+     <selectionEntryGroups/>
+     <entryLinks>
+      <entryLink hidden="false" id="c3d1-ec38-b678-e11b" name="Dual turbo-laser destructor" targetId="f405-e1db-1bc4-b84c" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="c780-a6af-6a4e-1070" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="7322-ebf4-debf-dc99" name="Titan plasma blastgun" targetId="c02c-108f-8e6d-d727" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="8869-6217-6455-4881" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="6d3d-6815-fb3f-17e2" name="Reaver laser blaster" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="bc69-1a33-dab0-d8f6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="dc3b-e187-2b33-65e9" name="Twin Titan mega-bolter" targetId="23f1-7a9b-bdc9-7138" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="476f-1b57-ee64-a452" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="288c-687e-5f27-e4bb" name="Apocalypse missile launcher" targetId="25f2-abba-80e9-0810" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="2576-8480-5c04-35a0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="452d-5be5-d0dd-7a8a" name="Incinerator missile bank" targetId="1e3c-af20-3d43-9d96" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="4e4d-3991-f0b3-7b68" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="3932-025f-f0f1-93fc" name="Reaver gatling blaster" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="aa02-365b-38a5-8217" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" hidden="false" id="c65f-d01a-337c-2800" name="Arm-Mounted Weapons">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="5a9c-25ff-f9b9-59de" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="46b3-cf35-e75f-ba5d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+     <selectionEntries/>
+     <selectionEntryGroups/>
+     <entryLinks>
+      <entryLink hidden="false" id="2f81-4167-c3de-b028" name="Sunfury plasma annihilator" targetId="98cf-89cc-d0b4-c84c" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="3174-26bd-34ff-02fc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="9f26-836e-6d70-a5d3" name="Mori Quake Cannon" targetId="13c9-4105-9cc5-f147" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="3987-7092-5c8b-8b33" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="034e-2cc7-60ef-a42c" name="Saturnyne lascutter" targetId="4824-64bc-7569-e740" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="e6af-68fd-cec2-0d4e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="0f36-1141-eb10-743f" name="Warlord gatling blaster" targetId="470d-8b9c-14e2-d70e" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="c87b-0e69-5535-d9c7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="84d5-3da8-6aac-c055" name="Belicosa Volcano Cannon" targetId="08d8-d3eb-f056-7a67" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="3311-2efb-629b-a0f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="3566-a91b-e7db-b59b" name="Arioch Titan Power Claw w/ Titan Mega-Bolter" targetId="26de-87ea-7bb6-55fe" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="9cec-1691-50a7-d312" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink hidden="false" id="15c7-95de-ff6f-d1aa" name="Greater Titanic Stride" targetId="4165-84e5-a324-7564" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="86eb-c0cb-b431-4dc4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="9e4c-4abe-182f-2eb5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="84e7-f8b4-9e10-5d88" name="Ardex-Defensor Maulers" targetId="7a0d-cb6d-b516-d0e9" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="5456-2387-fc7e-ba19" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="55b8-58ef-c93a-e55a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="d236-60ae-5d16-b39b" name="Ardex-Defensor Twin Lascannon" targetId="0729-3662-7e87-177f" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="e151-cf57-8744-b5d3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="d1fe-91c9-2e4d-58fd" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="e0ea-b937-b972-9197" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="c96e-74d3-c138-3bb3" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+   </entryLinks>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="200.0"/>
+    <cost costTypeId="points" name="pts" value="6000.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="4165-84e5-a324-7564" name="Greater Titanic Stride" type="upgrade">
+   <profiles>
+    <profile book="Index: Forces of the Astra Militarum" hidden="false" id="27e1-c1cf-e28f-25a0" name="Greater Titanic Stride" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 4 jogadas de acerto para cada ataque feito com esta arma em vez de 1."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="26de-87ea-7bb6-55fe" name="Arioch Titan Power Claw w/ Titan Mega-Bolter" type="upgrade">
+   <profiles/>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="150d-ae5a-cd67-0cf0" name="Titan Mega-Bolter" targetId="7676-9998-283f-a8bd" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+    <infoLink hidden="false" id="834d-04df-6459-8c88" name="Arioch Titan Power Claw" targetId="4ff8-df5e-7a4d-edbc" type="profile">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry book="Forgeworld Datasheet" collective="false" hidden="false" id="b5df-a492-0d86-c697" name="Warbringer Nemesis Titan" page="" type="model">
+   <profiles>
+    <profile book="Forgeworld Datasheet" hidden="false" id="e351-b856-ab11-1893" name="Warbringer Nemesis Titan 1" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="40-65+"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='18"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="4+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="2+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="3+"/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="209a-f910-dd49-bc12" name="Warbringer Nemesis Titan 2" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="30-39"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='14"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="4+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="3+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="4+"/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="e02c-c0b8-7191-e109" name="Warbringer Nemesis Titan 3" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="20-29"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='12"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="5+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="4+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="5+"/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="02c4-2f19-7232-58c2" name="Warbringer Nemesis Titan 4" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="10-19"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='10"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="6+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="5+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="5+"/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="26a4-ec51-f91e-1e59" name="Warbringer Nemesis Titan 5" profileTypeId="d663-48aa-4a14-260b" profileTypeName="Titan Wound Tracker">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="e2cf-9e28-4707-93ed" name="Remaining W" value="1-9"/>
+      <characteristic characteristicTypeId="de5d-f33d-4b13-f788" name="M" value='8"'/>
+      <characteristic characteristicTypeId="4091-938f-6dde-201f" name="WS" value="6+"/>
+      <characteristic characteristicTypeId="cf3d-e3af-f39b-e247" name="BS" value="6+"/>
+      <characteristic characteristicTypeId="6635-b157-0e68-49a4" name="Void Shield" value="6+"/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="77cc-6e57-6305-1a40" name="Warbringer Nemesis Titan" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value="*"/>
+      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="*"/>
+      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="*"/>
+      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="13"/>
+      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="13"/>
+      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="65"/>
+      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="5"/>
+      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="10"/>
+      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="2+"/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="87eb-a4d6-9740-eb47" name="Icon of Imperial Might (Warbringer)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione D6 ao resultado de testes de Moral para unidades enquanto elas estiverem dentro de 12" de qualquer unidade inimiga com essa habilidade.'/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="edec-7bc0-0227-5786" name="Titan Void Shields (Warbringer)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de fazer um teste de resistência ou um teste de resistência invulnerável para uma ferida atribuída a este modelo como resultado de um ataque com uma arma de longo alcance, você pode rolar um D6; se o resultado for igual ou maior que o valor de Escudos de Vácuo mostrado na tabela de danos acima, o dano é evitado e a sequência de ataque termina. Além disso, cada vez que este modelo sofrer uma ferida mortal, role um D6; se o resultado for igual ou maior que o valor de Escudos de Vazio mostrado na tabela de danos acima, a ferida mortal é ignorada."/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="2f7e-467d-608b-12cb" name="Imperial God-Engine (Warbringer)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair de volta na fase de movimento e ainda atirar e / ou carregar no mesmo turno. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARAR, embora deva terminar seu movimento mais de 1" de qualquer unidade inimiga. Este modelo pode disparar na fase de Tiro mesmo se houver modelos inimigos dentro de 1" dele a menos que esses modelos sejam TITANIC. Além disso, este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas de acerto. Por fim, esse modelo só se beneficia quando está pelo menos metade do modelo obscurecido pelo firer.'/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="2d76-def1-4eef-8c24" name="Titanic Gait (Warbringer)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando este modelo avança, adicione 8" à sua característica de movimento para essa fase de movimento em vez de rolar um D6.'/>
+     </characteristics>
+    </profile>
+    <profile book="Forgeworld Datasheet" hidden="false" id="c04c-8649-9acd-8a8c" name="Cataclysmic Explosion (Warbringer)" profileTypeId="30af-0cff-c525-cc81" profileTypeName="Explosion">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6188-7536-f170-854c" name="Dice roll" value="5+"/>
+      <characteristic characteristicTypeId="5e73-d374-9bac-af83" name="Distance" value='3D6"'/>
+      <characteristic characteristicTypeId="0923-e0f5-5fcb-aad8" name="Mortal wounds" value="2D6"/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="5eb6-6fe3-12ca-c513" name="New CategoryLink" primary="false" targetId="fecb-f56e-7bdc-4636">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="40f4-87f4-a1e4-8146" name="New CategoryLink" primary="false" targetId="6fcd-85b1-186b-77bb">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="60a4-9134-8be7-c088" name="New CategoryLink" primary="false" targetId="c361-6f00-d06e-772c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="ecec-1378-43b9-93bc" name="New CategoryLink" primary="false" targetId="b371-aaaa-dc65-2d3c">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="a445-cfa7-12bc-58c2" name="New CategoryLink" primary="false" targetId="bdda-36f0-4f32-1639">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="67e8-787b-bcaf-4dae" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="640c-8bcd-8022-05c4" name="Warbringer Nemesis Titan" primary="false" targetId="dfe0-5bea-c7b7-ff75">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+   <selectionEntries/>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="de22-0fca-22ef-1524" name="Arm-Mounted Weapons">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="056e-624d-8466-19df" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="13db-4065-227d-1deb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+     <selectionEntries/>
+     <selectionEntryGroups/>
+     <entryLinks>
+      <entryLink hidden="false" id="4d88-bf70-b559-434e" name="Reaver Volcano Cannon" targetId="1fa0-b612-71de-c36a" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="0022-31ca-13ce-1c13" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="0ad5-490f-9e9a-4e78" name="Reaver Laser Blaster" targetId="2db2-d04a-2d7f-3bb2" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="6b71-0f3e-e0b8-70c6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="8f2a-638c-56b0-ee91" name="Reaver Melta Cannon" targetId="5727-942c-dc11-4ad7" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="54f1-df3a-b6f3-6959" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+      <entryLink hidden="false" id="6c53-08a2-87b6-08a4" name="Reaver Gatling Blaster" targetId="5118-8b5c-9821-bfe2" type="selectionEntry">
+       <profiles/>
+       <rules/>
+       <infoLinks/>
+       <modifiers/>
+       <constraints>
+        <constraint field="selections" id="7580-e527-f47b-8862" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <categoryLinks/>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink hidden="false" id="b6cd-239d-64ed-511f" name="Titanic Stride" targetId="ef19-0c8d-5045-17ac" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="70fa-5646-0103-5b38" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="ea4b-3bbf-c66c-e4ab" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="958a-8930-296e-2385" name="Ardex-Defensor Maulers" targetId="7a0d-cb6d-b516-d0e9" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="f3a3-639f-1060-d36b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3.0"/>
+      <constraint field="selections" id="105f-3774-658b-88e1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="4ce1-d5af-bd5c-a818" name="Anvillus-Pattern Defence Battery" targetId="02d1-0e29-0ae4-ae27" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="0f4b-97d0-7711-d847" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="44f8-23c7-d6d6-a9f0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="ac74-3209-9189-2614" name="Nemesis Quake Cannon" targetId="9d88-9a94-95f8-ae7c" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="658a-8693-d42a-f124" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="f874-1a34-b176-f503" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="53cf-747c-ca9a-fcda" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="7158-6c35-d2d5-fbf9" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+   </entryLinks>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="175.0"/>
+    <cost costTypeId="points" name="pts" value="5000.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="17d7-7d78-1245-74d4" name="Ardex-Defensor Maulers (Warbringer)" type="upgrade">
+   <profiles>
+    <profile book="Forgeworld Datasheet" hidden="false" id="0671-e4d2-be4e-30d5" name="Ardex-Defensor Maulers (Warbringer)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='36"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao acertar Overwatch com esta arma, acertar rolos de 5 ou 6 pontos na unidade de carregamento."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="02d1-0e29-0ae4-ae27" name="Anvillus-Pattern Defence Battery" type="upgrade">
+   <profiles>
+    <profile book="Forgeworld Datasheet" hidden="false" id="4eff-0d61-3e5f-20db" name="Anvillus-Pattern Defence Battery" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 8"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode segmentar unidades que podem voar."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="9d88-9a94-95f8-ae7c" name="Nemesis Quake Cannon" type="upgrade">
+   <profiles>
+    <profile book="Forgeworld Datasheet" hidden="false" id="f8cd-b982-fc4b-a010" name="Nemesis Quake Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='24-480"'/>
+      <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Macro 3D6"/>
+      <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
+      <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+      <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades que não são visíveis para o portador. Se uma unidade é atingida por qualquer ataque feito com esta arma, até o final de sua próxima fase de Movimento, sua característica Mover é reduzida para metade e não pode Avançar."/>
+     </characteristics>
+    </profile>
+   </profiles>
+   <rules/>
+   <infoLinks>
+    <infoLink hidden="false" id="1776-7be4-0cfc-e8b1" name="Macro Weapons" targetId="b3d0-a69c-59f0-15ba" type="rule">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+    </infoLink>
+   </infoLinks>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks/>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks/>
+   <costs>
+    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="points" name="pts" value="0.0"/>
+   </costs>
+  </selectionEntry>
+ </sharedSelectionEntries>
+ <sharedSelectionEntryGroups/>
+ <sharedRules>
+  <rule book="Index: Forces of the Astra Militarum" hidden="false" id="b3d0-a69c-59f0-15ba" name="Macro Weapons">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <description description="Um modelo armado com uma arma Macro pode não dispará-lo se tiver movido anteriormente no turno, a menos que a unidade de disparo também tenha a palavra-chave TITANIC. Nenhuma arma Macro pode ser usada para fazer ataques Overwatch. Quando usado contra unidades com a palavra-chave TITANIC ou BUILDING, o dano infligido por uma arma Macro é dobrado (esta duplicação ocorre após qualquer dano aleatório ter sido lançado).">
+    A model armed with a Macro weapon may not fire it if it has moved previously in the turn, unless the firing unit also has the TITANIC keyword. No Macro weapon may be used to make Overwatch attacks. When used against units with the TITANIC or BUILDING keyword, the damage inflicted by a Macro weapon is doubled (this doubling takes place after any randomised damage has been rolled for).
+   </description>
+  </rule>
+ </sharedRules>
+ <sharedProfiles>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="5f60-a334-0ca7-5eb6" name="Cataclysmic Explosion" profileTypeId="30af-0cff-c525-cc81" profileTypeName="Explosion">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="6188-7536-f170-854c" name="Dice roll" value="5+"/>
+    <characteristic characteristicTypeId="5e73-d374-9bac-af83" name="Distance" value='3D6"'/>
+    <characteristic characteristicTypeId="0923-e0f5-5fcb-aad8" name="Mortal wounds" value="D6"/>
+   </characteristics>
+  </profile>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="4698-5968-4940-9fd2" name="Imperial God-Engine" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos da INFANTARIA, embora no final do movimento deva estar a mais de 1" de distância de todas as unidades inimigas. Este modelo pode disparar suas armas mesmo se houver modelos inimigos dentro de 1" a menos que esses modelos inimigos sejam TITANIC. Neste caso, ele pode atirar na unidade inimiga que estiver dentro de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, este modelo pode se mover e disparar armas Pesadas sem qualquer penalidade em suas jogadas de acerto. Por fim, este modelo só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido pelo atirador.'/>
+   </characteristics>
+  </profile>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="b18f-3b99-479f-3612" name="Titan Void Shields" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os titãs são protegidos por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos de Titã são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. Como salva invulnerável, as proteções de escudo vazias de Titã não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar ferimentos mortais. Neste caso, no entanto, jogue um dado para cada ferimento mortal que tenha sido infligido no Titã, com a ferida mortal sendo ignorada se o teste de resistência for passado. Escudos de titânio vazio devem ser continuamente reenergizados e renovados em operações de combate e assim como o Titã é danificado, o potencial defensivo de seus escudos vazios é reduzido."/>
+   </characteristics>
+  </profile>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="9492-d2be-1544-faf6" name="Icon of Imperial Might" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todos os modelos inimigos dentro de 9" acrescentam um D6 adicional ao resultado de qualquer teste de Moral.'/>
+   </characteristics>
+  </profile>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3b6e-b7a5-153f-5929" name="Titanic Gait" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando este modelo avança, aumenta sua característica de movimento por 8" em vez de rolar um dado.'/>
+   </characteristics>
+  </profile>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="4ff8-df5e-7a4d-edbc" name="Arioch Titan Power Claw" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
+    <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+    <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
+    <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
+    <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="12"/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Se você matar um VEÍCULO ou MONSTRO que não tiver a palavra-chave TITÂNIC com a garra de poder de Arioch Titan, selecione uma unidade inimiga dentro de 12" e role um D6; em um 4+ essa unidade sofre D6 ferimentos mortais como corpo morto ou detritos é jogado para ele.'/>
+   </characteristics>
+  </profile>
+  <profile book="Index: Forces of the Astra Militarum" hidden="false" id="7676-9998-283f-a8bd" name="Titan Mega-Bolter" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <characteristics>
+    <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
+    <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 20"/>
+    <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
+    <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
+    <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="-"/>
+   </characteristics>
+  </profile>
+ </sharedProfiles>
+</catalogue>
