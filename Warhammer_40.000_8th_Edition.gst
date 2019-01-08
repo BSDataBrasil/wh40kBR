@@ -10220,7 +10220,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 às jogadas de acerto deste modelo ao fazer ataques de arremesso contra modelos com a palavra-chave TITANIC."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 às jogadas de ataque quando atira contra modelos com a palavra-chave TITANIC."/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Astra Militarum" hidden="false" id="888f-fcce-8911-d3c3" name="Force Dome" page="53" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11819,7 +11819,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode configurar este modelo, juntamente com quaisquer unidades embarcadas dentro dele, no subsolo, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque subterrâneo - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo. Todas as unidades embarcadas no interior podem ser imediatamente desembarcadas. configure mais de 9" a partir de qualquer modelo inimigo. Quaisquer modelos que não podem ser configurados porque não há espaço suficiente são mortos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode posicionar este modelo, juntamente com quaisquer unidades embarcadas dentro dele, no subterraneo, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque subterrâneo - posicione-o em qualquer lugar do campo de batalha desde de que a mais de 9" de distância de qualquer modelo inimigo. Todas as unidades embarcadas no interior podem ser imediatamente desembarcadas. posicioneas a mais de 9" a partir de qualquer modelo inimigo. Quaisquer modelos que não podem ser posicionados porque não há espaço suficiente são mortos.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="6ffa-9c01-3f7a-5787" name="Explodes" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11828,7 +11828,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ferida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode e cada unidade dentro de 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 wounds, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode e cada unidade dentro de 6" sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c848-0146-6c8a-c89e" name="Transport (Space Marines)" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -12691,7 +12691,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um ponto de comando de bônus - isso só pode ser gasto em uma estratagema do Planetstrike."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um Command Point de bônus - isso só pode ser gasto em uma estratagema do Planetstrike."/>
          </characteristics>
         </profile>
        </profiles>
@@ -12791,7 +12791,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um ponto de comando de bônus - isso só pode ser gasto em uma estratagema do Planetstrike."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um Command Point de bônus - isso só pode ser gasto em uma estratagema do Planetstrike."/>
          </characteristics>
         </profile>
        </profiles>
@@ -12891,7 +12891,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um ponto de comando de bônus - isso só pode ser gasto em uma estratagema de assalto da fortaleza."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um Command Point de bônus - isso só pode ser gasto com um estratagema de Stronghold Assault."/>
          </characteristics>
         </profile>
        </profiles>
@@ -12965,7 +12965,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolos enrolados de 1 para unidades aliadas ​​que estejam dentro de 6" do seu Warlord quando eles atingirem um BUILDING.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​que estejam dentro de 6" do seu Warlord quando eles atingirem um BUILDING.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -12991,7 +12991,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um ponto de comando de bônus - isso só pode ser gasto em uma estratagema de assalto da fortaleza."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você tem um Command Point de bônus - isso só pode ser gasto com um estratagema de Stronghold Assault."/>
          </characteristics>
         </profile>
        </profiles>
@@ -16216,7 +16216,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Seu oponente deve subtrair 1 das jogadas de ataque para os ataques que visam esse modelo na fase de Tiro.">
+   <description description="Seu oponente deve subtrair 1 das jogadas de ataque para os ataques que visam esse modelo na fase de tiro.">
     Your opponent must subtract 1 from hit rolls for attacks that target this model in the Shooting phase.
    </description>
   </rule>
@@ -17264,7 +17264,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo na capa atrás de uma barricada ou parede tem um 4 + salvar capa. Modelos que estão em contato de base com uma barricada ou parede são tratados como estando em contato de base com qualquer modelo inimigo que esteja diretamente em frente a eles e em contato com a base do outro lado da barricada ou parede. Unidades que cobram um inimigo que está por trás de uma barricada ou contagem de parede, cobrando através de um terreno difícil."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo em cobertura atrás de uma barricada ou parede tem um save de cobertura de 4+. Modelos que estão em contato de base com uma barricada ou parede são tratados como estando em contato de base com qualquer modelo inimigo que esteja diretamente em frente a eles e em contato com a base do outro lado da barricada ou parede. Unidades que efetuam uma carga contra um inimigo que está por trás de uma barricada ou de uma parede, contam como se estivessem efetuando uma carga em terreno difícil."/>
    </characteristics>
   </profile>
   <profile book="Stronghold Assault" hidden="false" id="e158-7adf-1565-ef08" name="Tanglewire" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -17382,7 +17382,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um modelo dos Exércitos do Império que fica a 2" do terreno da Estatuária Imperial tem a regra especial Sem Medo. Um modelo na capa por trás da Estatuária Imperial tem uma proteção de 3+ na capa.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um modelo dos Exércitos do Império a até 2" do terreno da Estatuária Imperial tem a regra especial Sem Medo. Um modelo com cobertura da Estatuária Imperial tem uma proteção de 3+ nos saves.'/>
    </characteristics>
   </profile>
   <profile book="Stronghold Assault" hidden="false" id="7d5c-1af6-942c-8ca2" name="Wreckage and Rubble" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -17428,7 +17428,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um modelo só pode disparar cada um dos seus mísseis assassinos caçador uma vez por batalha."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um modelo só pode disparar cada um dos seus hunter killer missiles uma vez por batalha."/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="acb5-7b58-0d17-a33a" name="Plasma gun, Supercharge" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -18594,7 +18594,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='5 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e desenhando a linha de visão de qualquer ponto neste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='5 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="220a-170b-5fd7-36f2" name="Fire Points (10)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18603,7 +18603,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='10 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e desenhando a linha de visão de qualquer ponto neste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='10 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="298d-b8cf-d3ed-04d8" name="Fire Points (15)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18612,7 +18612,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='15 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e desenhando a linha de visão de qualquer ponto neste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='15 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="57f6-edd9-6170-5c91" name="Automated Weapons (Gun Emplacement)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">

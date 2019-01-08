@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.01" book="Codex: Dark Angels" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="b8fe-8d38-37ec-90e8" name="Imperium - Dark Angels-BR" revision="77" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.01" book="Codex: Dark Angels" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="b8fe-8d38-37ec-90e8" name="Imperium - Dark Angels-BR" revision="78" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks>
@@ -2243,39 +2243,7 @@
     </categoryLink>
    </categoryLinks>
   </entryLink>
-  <entryLink hidden="false" id="c92e-7e3a-a9dc-fbf2" name="Stratagem: Relics of the Rock (-1 CP)" targetId="5b08-f67b-3a08-b699" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks>
-    <categoryLink hidden="false" id="6eaa-53da-1df3-27e7" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-   </categoryLinks>
-  </entryLink>
-  <entryLink hidden="false" id="b6be-3348-d232-597d" name="Relics of the Rock (3 CP)" targetId="56a1-5b88-b044-96ad" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks>
-    <categoryLink hidden="false" id="adc5-8687-afed-4f13" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-   </categoryLinks>
-  </entryLink>
-  <entryLink hidden="false" id="e855-6b4a-78e3-27a7" name="Specialist Detachment: Ravenwing Attack Squadron (-1 CP)" targetId="5d09-415f-8f33-073f" type="selectionEntry">
+  <entryLink hidden="false" id="e855-6b4a-78e3-27a7" name="Specialist Detachment: Ravenwing Attack Squadron" targetId="5d09-415f-8f33-073f" type="selectionEntry">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -2307,6 +2275,22 @@
    <constraints/>
    <categoryLinks>
     <categoryLink hidden="false" id="62fd-aefd-96ec-ab5a" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+  </entryLink>
+  <entryLink hidden="false" id="be9a-5b17-fcdc-0229" name="New EntryLink" targetId="9a84-3679-c78f-b0bb" type="selectionEntry">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="3f95-4bff-a7de-cad1" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -2458,6 +2442,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="69.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c4ab-433a-ad56-2172" name="Company Champion" type="unit">
@@ -2615,6 +2600,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="40.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a0b8-6a5c-ea09-44f9" name="Master" type="model">
@@ -2936,6 +2922,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="74.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="181e-0718-160e-2e75" name="Jump Pack" type="upgrade">
@@ -2978,6 +2965,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="79ab-3318-ac01-06d2" name="Master in Terminator Armour" type="model">
@@ -3111,6 +3099,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -3265,6 +3254,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="95.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5854-3db8-6043-ce0b" name="Master in Gravis Armour" type="upgrade">
@@ -3460,6 +3450,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="90.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e0af-48b6-0d42-6525" name="Librarian" type="unit">
@@ -3718,6 +3709,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="88.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="33b2-f596-1a44-a2a0" name="Librarian in Terminator Armor" type="unit">
@@ -3960,6 +3952,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="102.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ddf0-3cff-f619-d42f" name="Librarian on Bike" type="unit">
@@ -4235,6 +4228,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="119.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="410f-eff8-c527-d49c" name="Rhino" type="upgrade">
@@ -4423,6 +4417,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="70.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f8cb-6182-08e4-e22b" name="Techmarine" type="upgrade">
@@ -4676,6 +4671,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="45.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5eb6-9cce-4e27-6252" name="Servo-harness" type="upgrade">
@@ -4725,6 +4721,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="400e-bbea-4690-6942" name="Chaplain" type="unit">
@@ -4962,6 +4959,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="72.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f3b6-1ac6-0a68-68c7" name="Chaplain on Bike" type="unit">
@@ -5192,6 +5190,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="95.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4739-10df-55b8-6330" name="Apothecary" type="unit">
@@ -5331,6 +5330,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="55.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ae36-9fd7-dd79-0826" name="Primaris Lieutenants" type="unit">
@@ -5571,6 +5571,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="70.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -5579,6 +5580,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0e51-de2e-2557-b79e" name="Company Ancient" type="unit">
@@ -5770,6 +5772,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="63.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="339f-3bb9-0c10-034b" name="Company Veterans" type="upgrade">
@@ -5946,6 +5949,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="14.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="0675-d000-0e91-89dd" name="Space Marine Veteran" type="upgrade">
@@ -6156,6 +6160,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="14.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -6181,6 +6186,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8699-3820-0f9d-7bbc" name="Tactical Squad" type="unit">
@@ -6286,6 +6292,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="13.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -6383,6 +6390,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6ad4-2695-93d6-f1e4" name="Scout Squad" type="upgrade">
@@ -6668,6 +6676,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="11.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -6753,6 +6762,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="6f52-33b7-0b4a-cb13" name="Scout (Shotgun)" type="model">
@@ -6793,6 +6803,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="78d1-ac2c-5ead-721f" name="Scout (Boltgun)" type="model">
@@ -6833,6 +6844,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="5ea4-3f68-00f3-a142" name="Scout (Combat Knife)" type="model">
@@ -6873,6 +6885,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="f0d9-b90d-ec6f-dc5c" name="Scout (Sniper rifle)" type="model">
@@ -6913,6 +6926,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -6959,6 +6973,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e89e-4431-97de-4b38" name="Intercessor Squad" type="unit">
@@ -7076,6 +7091,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="17.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4706-df9f-bada-7fd4" name="Intercessor Sergeant" type="model">
@@ -7280,6 +7296,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="17.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7335,6 +7352,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="2994-8598-b3f6-9cc9" name="Stalker Bolt Rifles" type="upgrade">
@@ -7364,6 +7382,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="3867-616a-b3c0-eefa" name="Bolt rifles" type="upgrade">
@@ -7393,6 +7412,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -7439,6 +7459,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="fde4-48fe-5b25-d8c3" name="Imperial Space Marine" type="unit">
@@ -7538,6 +7559,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="60.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="002e-7c43-59e8-3496" name="Dreadnought" type="unit">
@@ -7649,6 +7671,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="60.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ab51-c3f2-9c5a-ecd2" name="Venerable Dreadnought" type="unit">
@@ -7773,6 +7796,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="80.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="70bc-0516-df21-bbb8" name="Inceptor Squad" type="unit">
@@ -7901,6 +7925,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="25.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="80db-bc1b-47d8-9595" name="Inceptor Sergeant" type="model">
@@ -7937,6 +7962,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="25.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7985,6 +8011,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="103b-63dc-840a-6dd7" name="Plasma exterminators" type="upgrade">
@@ -8020,6 +8047,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -8048,6 +8076,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1900-32d2-fe05-df9a" name="Rhino Primaris" type="upgrade">
@@ -8222,6 +8251,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="100.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dc39-0cd6-c078-1242" name="Assault Squad" type="unit">
@@ -8487,6 +8517,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="13.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -8548,6 +8579,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="13.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="e939-da97-a421-930a" name="Space Marine (Eviscerator)" type="model">
@@ -8603,6 +8635,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="13.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -8655,6 +8688,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="13.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="318f-7c20-3b52-5697" name="Space Marine (Plasma pistol)" type="model">
@@ -8706,6 +8740,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="13.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -8760,6 +8795,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="510a-162c-558b-6e18" name="Space Marine Sergeant" type="upgrade">
@@ -8916,6 +8952,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="13.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="94e5-4ff9-dde4-4d96" name="Chainsword" type="upgrade">
@@ -8941,6 +8978,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="627c-770b-1a7f-5aca" name="Eviscerator" type="upgrade">
@@ -8963,6 +9001,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="22.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="562f-09e1-a5c4-9965" name="Plasma pistol" type="upgrade">
@@ -8994,6 +9033,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="749f-0de8-be0f-245b" name="Flamer" type="upgrade">
@@ -9016,6 +9056,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a648-ad2f-fbdf-b180" name="Devastators" type="unit">
@@ -9111,6 +9152,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="5.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -9169,6 +9211,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="13.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="7bcd-70b7-d54d-92c7" name="Space Marine (Plasma Cannon)" type="model">
@@ -9203,6 +9246,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="13.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="25b6-e533-702c-129b" name="Space Marine (Multi-melta)" type="model">
@@ -9237,6 +9281,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="13.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="7094-261b-e7bd-258f" name="Space Marine (Lascannon)" type="model">
@@ -9271,6 +9316,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="13.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="4514-61f0-4039-82a3" name="Space Marine (Heavy Bolter)" type="model">
@@ -9305,6 +9351,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="13.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="6a35-4c69-0d3f-7237" name="Space Marine (Missile launcher)" type="model">
@@ -9339,6 +9386,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="13.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -9389,6 +9437,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8813-4647-edd7-182c" name="Space Marine" type="model">
@@ -9461,6 +9510,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="13.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="c4ce-791a-959f-e849" name="Boltgun" type="upgrade">
@@ -9483,6 +9533,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b393-643a-4879-9b41" name="Drop Pod" type="unit">
@@ -9630,6 +9681,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="5.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -9669,6 +9721,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="63.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="d9e7-6efa-6cc0-6219" name="Assault bolter" type="upgrade">
@@ -9691,6 +9744,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="c559-4194-55b6-0054" name="Bolt rifle" type="upgrade">
@@ -9713,6 +9767,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f4da-5cf0-20ee-4133" name="Hellblaster Squad" type="unit">
@@ -9844,6 +9899,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="18.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="fd87-c942-60c7-d344" name="Hellblaster Sergeant" type="model">
@@ -9928,6 +9984,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="18.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -9984,6 +10041,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="3b67-7c1e-f746-551a" name="Heavy Plasma Incinerators" type="upgrade">
@@ -10027,6 +10085,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="b318-e5dc-b7a5-934c" name="Plasma incinerators" type="upgrade">
@@ -10070,6 +10129,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -10098,6 +10158,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="c71a-6c02-da91-295e" name="Plasma incinerator" type="upgrade">
@@ -10126,6 +10187,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="15.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0dd4-61da-7a58-8db6" name="Land Raider" type="unit">
@@ -10317,6 +10379,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="19.0"/>
     <cost costTypeId="points" name="pts" value="200.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ad13-2d55-93c6-9046" name="Smoke Launchers" type="upgrade">
@@ -10342,6 +10405,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a9cb-4599-e14e-3fad" name="Land Raider Crusader" type="unit">
@@ -10535,6 +10599,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="16.0"/>
     <cost costTypeId="points" name="pts" value="200.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0642-eab5-bbb8-6287" name="Land Raider Redeemer" type="unit">
@@ -10741,6 +10806,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="18.0"/>
     <cost costTypeId="points" name="pts" value="180.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="275a-6e1b-bf25-0315" name="Land Raider Excelsior" type="unit">
@@ -10983,6 +11049,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="24.0"/>
     <cost costTypeId="points" name="pts" value="300.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a43c-be7a-b081-b8fa" name="Predator" type="model">
@@ -11190,6 +11257,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="019e-9f52-0613-4302" name="Two lascannons" type="upgrade">
@@ -11219,6 +11287,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -11267,6 +11336,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="90.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="52be-ab2b-f6a4-cc4d" name="Razorback" type="model">
@@ -11460,6 +11530,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -11549,6 +11620,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="70.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="62f3-5ce0-dc45-e0f7" name="Servitor" type="model">
@@ -11593,6 +11665,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f5a6-291a-54be-1e6e" name="Heavy bolter" type="upgrade">
@@ -11615,6 +11688,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="3448-fbca-8c15-067a" name="Plasma cannon" type="upgrade">
@@ -11643,6 +11717,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="16.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="fb94-0f13-899f-f26c" name="Multi-melta" type="upgrade">
@@ -11665,6 +11740,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="22.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f828-6deb-c214-88af" name="Servo-arm" type="upgrade">
@@ -11687,6 +11763,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0a91-d903-beb0-c6bb" name="Servitors" type="unit">
@@ -11760,6 +11837,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="84e5-1384-d482-6db4" name="Servitor (Plasma Cannon)" type="model">
@@ -11812,6 +11890,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="69d4-f824-8f40-7bc4" name="Servitor (multi-melta)" type="model">
@@ -11864,6 +11943,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="d0b1-6453-2333-93c2" name="Servitor (Heavy Bolter)" type="model">
@@ -11916,6 +11996,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -11944,6 +12025,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ecca-f653-031f-b1b1" name="Vindicator" type="model">
@@ -12122,6 +12204,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="125.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c1f5-8e61-9502-be9e" name="Whirlwind" type="model">
@@ -12304,6 +12387,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="70.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e178-fe8e-6928-48c2" name="Azrael" type="unit">
@@ -12463,6 +12547,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4552-4d42-793e-f811" name="Lion's Wrath" type="upgrade">
@@ -12517,6 +12602,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="ee0a-dac0-7607-3e33" name="Plasma gun" type="upgrade">
@@ -12550,6 +12636,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -12558,6 +12645,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -12597,6 +12685,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="180.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7d3f-a10f-0a57-d488" name="Belial" type="unit">
@@ -12787,6 +12876,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -12813,6 +12903,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -12852,6 +12943,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="150.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3c90-6f2b-42c0-a9a8" name="Iron halo" type="upgrade">
@@ -12877,6 +12969,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="28b1-58d0-9871-9f8a" name="Sammael on Corvex" type="model">
@@ -13077,6 +13170,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -13121,6 +13215,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
     <cost costTypeId="points" name="pts" value="183.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9a11-29c8-e37f-9c37" name="Twin storm bolter" type="upgrade">
@@ -13151,6 +13246,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1eca-e59b-cd4e-d3d6" name="Sammael in Sableclaw" type="model">
@@ -13355,6 +13451,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -13388,6 +13485,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="11.0"/>
     <cost costTypeId="points" name="pts" value="216.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="142a-563b-2ad5-8477" name="Raven Sword" type="upgrade">
@@ -13421,6 +13519,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b522-207b-e408-8948" name="Interrogator-Chaplain" type="unit">
@@ -13689,6 +13788,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="80.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="fc5f-fe4d-4bcb-3727" name="Interrogator-Chaplain in Terminator Armor" type="unit">
@@ -13911,6 +14011,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="100.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7fc2-e1ed-6a70-1677" name="Interrogator-Chaplain on Bike" type="unit">
@@ -14185,6 +14286,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="117.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1895-aed1-30e4-117b" name="Space Marine bike" type="upgrade">
@@ -14215,6 +14317,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="892e-81b4-2047-a5ac" name="Asmodai" type="upgrade">
@@ -14374,6 +14477,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -14424,6 +14528,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="130.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f142-6890-334c-0994" name="Ezekiel" type="upgrade">
@@ -14536,6 +14641,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="dd99-9fc2-f0c1-b48b" name="The Deliverer" type="upgrade">
@@ -14569,6 +14675,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -14611,6 +14718,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="135.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6648-67c7-27ff-5159" name="Deathwing Apothecary" type="unit">
@@ -14769,6 +14877,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="75.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e029-2f17-ce92-b816" name="Deathwing Ancient" type="unit">
@@ -14962,6 +15071,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -15015,6 +15125,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="103.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5ff5-08c4-47b5-97c1" name="Thunder Hammer &amp; Storm Shield" type="upgrade">
@@ -15078,6 +15189,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ee31-899d-c6e9-2d6e" name="Deathwing Champion" type="unit">
@@ -15228,6 +15340,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15261,6 +15374,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="118.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1f47-c287-f37d-7211" name="Deathwing Terminators" type="unit">
@@ -15531,6 +15645,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="23.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4dfa-3f64-64b1-039a" name="Deathwing Sergeant" type="model">
@@ -15589,6 +15704,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="6.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -15617,6 +15733,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="23.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15650,6 +15767,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="13.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="eda8-1768-0a9c-6189" name="Watcher in the Dark" type="upgrade">
@@ -15674,6 +15792,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b995-3b91-9b2a-f645" name="Deathwing Knights" type="unit">
@@ -15828,6 +15947,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -15854,6 +15974,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="35.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="6e6b-80d9-c427-892f" name="Knight Master" type="model">
@@ -15916,6 +16037,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -15942,6 +16064,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="35.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15975,6 +16098,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="12.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="205b-411d-c9da-9276" name="Storm shield" type="upgrade">
@@ -16005,6 +16129,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="93f0-5272-7b0c-f986" name="Ravenwing Apothecary" type="unit">
@@ -16190,6 +16315,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="92.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="84fe-f60d-9f1e-1764" name="Corvus Hammer" type="upgrade">
@@ -16223,6 +16349,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="a48b-52b0-8f7f-04a6" name="Black Knight Bike" type="upgrade">
@@ -16314,6 +16441,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="true" hidden="true" id="3989-7610-af1c-dcc2" name="Ravenwing grenade launcher" type="upgrade">
@@ -16375,6 +16503,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -16386,6 +16515,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d5ec-3ee9-3440-0768" name="Ravenwing Ancient" type="unit">
@@ -16576,6 +16706,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="112.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="abf2-77c1-5d1c-b171" name="Ravenwing Champion" type="unit">
@@ -16774,6 +16905,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="106.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="037d-64b8-304c-3eed" name="Ravenwing Bike Squad" type="upgrade">
@@ -16987,6 +17119,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="21.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="300c-7254-fe13-7e75" name="Ravenwing Sergeant" type="model">
@@ -17079,6 +17212,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="21.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -17114,6 +17248,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0b95-eb8c-65ad-ba62" name="Ravenwing Attack Bike" type="upgrade">
@@ -17170,6 +17305,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -17223,6 +17359,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="25.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9708-ae44-dfd5-4b22" name="Ravenwing Attack Bike Squad" type="upgrade">
@@ -17293,6 +17430,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b8d1-315d-2536-dbc4" name="Ravenwing Land Speeders" type="unit">
@@ -17409,6 +17547,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="65e9-22ca-74c9-9b10" name="Ravenwing Land Speeder" type="model">
@@ -17569,6 +17708,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="50.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="bf46-c4c7-3108-6908" name="Ravenwing Darkshroud" type="upgrade">
@@ -17741,6 +17881,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="128.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c6fa-e9ba-d968-0ac8" name="Nephilim Jetfighter" type="upgrade">
@@ -17930,6 +18071,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -17975,6 +18117,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="35.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -18025,6 +18168,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="123.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2c44-5bdd-2f53-bf37" name="Ravenwing Dark Talon" type="model">
@@ -18232,6 +18376,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -18268,6 +18413,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="180.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3ad2-8136-cedd-d3f5" name="Blade of Caliban" type="upgrade">
@@ -18290,6 +18436,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5db6-09fd-b607-e027" name="Ravenwing Black Knights" type="unit">
@@ -18492,6 +18639,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -18500,6 +18648,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -18528,6 +18677,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -18571,6 +18721,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="38.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="525e-7a34-1a93-1848" name="Ravenwing Huntmaster" type="model">
@@ -18718,6 +18869,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="38.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4724-0b43-76a6-4456" name="Ravenwing Black Knight (Grenade Launcher)" type="model">
@@ -18819,6 +18971,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -18827,6 +18980,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -18866,6 +19020,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="38.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -18891,6 +19046,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="cb80-763d-da3f-5798" name="Ravenwing Land Speeder Vengeance" type="unit">
@@ -19047,6 +19203,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -19108,6 +19265,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="122.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c32c-2b35-222a-6b63" name="Cyclone missile launcher" type="upgrade">
@@ -19136,6 +19294,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="38.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c640-9c93-4e48-1c91" name="Techmarine on Bike" type="upgrade">
@@ -19427,6 +19586,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="70.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1d7c-dc03-489d-5917" name="Heavy Weapon Marine" type="model">
@@ -19465,6 +19625,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="13.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f17c-85cc-bdc3-585f" name="Grav-cannon and grav-amp" type="upgrade">
@@ -19487,6 +19648,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="28.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="3e4d-ab6d-981e-e7be" name="Lascannon" type="upgrade">
@@ -19509,6 +19671,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="25.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f633-3357-9365-9c8f" name="Missile launcher" type="upgrade">
@@ -19537,6 +19700,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="17d3-d2c4-7141-f3a8" name="Sniper rifle" type="upgrade">
@@ -19559,6 +19723,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d586-bb8d-c825-fdc6" name="Fragstorm Grenade Launcher" type="upgrade">
@@ -19589,6 +19754,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="097d-b119-c2e6-04e9" name="Flamestorm Gauntlets" type="upgrade">
@@ -19633,6 +19799,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="15.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2d98-986d-0b4c-1186" name="Auto Boltstorm Gauntlets" type="upgrade">
@@ -19677,6 +19844,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="12.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="14a0-2401-84ce-ee69" name="Aggressor Squad" type="model">
@@ -19818,6 +19986,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="21.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="true" hidden="false" id="b993-9af6-5bd8-0414" name="Aggressor" type="model">
@@ -19854,6 +20023,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="21.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -19925,6 +20095,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="c071-38a9-e801-dbbe" name="Flamestorm Gauntlets" type="upgrade">
@@ -19966,6 +20137,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -19994,6 +20166,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ad3a-0af6-bb47-2450" name="Primaris Apothecary" type="upgrade">
@@ -20129,6 +20302,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -20184,6 +20358,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="68.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7f2a-d7f9-7991-a78e" name="Master-crafted stalker bolt rifle" type="upgrade">
@@ -20214,6 +20389,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="bdc9-7961-488a-82c9" name="Primaris Chaplain" type="upgrade">
@@ -20395,6 +20571,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="77.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f686-5b49-62fa-7e0f" name="Absolver Bolt pistol" type="upgrade">
@@ -20428,6 +20605,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7f9a-c35b-c628-75b8" name="Primaris Librarian" type="upgrade">
@@ -20630,6 +20808,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="93.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dbaf-a152-8d79-f565" name="Heavy Onslaught Gatling Cannon" type="upgrade">
@@ -20660,6 +20839,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="30.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b45c-a6b0-b9fd-d948" name="Macro Plasma Incinerator" type="upgrade">
@@ -20704,6 +20884,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="31.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6368-ca9b-ecbf-1510" name="Onslaught Gatling Cannon" type="upgrade">
@@ -20734,6 +20915,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="16.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4cde-c596-7b58-649a" name="Icarus Rocket Pod" type="upgrade">
@@ -20764,6 +20946,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0e24-4f77-9708-a015" name="Redemptor Fist" type="upgrade">
@@ -20794,6 +20977,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0302-b9be-57f5-aa03" name="Redemptor Dreadnought" type="upgrade">
@@ -21015,6 +21199,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="b182-bf6f-0a24-dc39" name="Storm Bolters" type="upgrade">
@@ -21042,6 +21227,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -21091,6 +21277,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
     <cost costTypeId="points" name="pts" value="105.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d7e2-7547-8118-04d9" name="Reiver Squad" type="unit">
@@ -21333,6 +21520,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="18.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="true" hidden="false" id="8980-84de-4a90-966b" name="Reiver" type="model">
@@ -21403,6 +21591,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="18.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -21496,6 +21685,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="07e6-282a-35d9-81b9" name="Bolt Carbine" type="upgrade">
@@ -21526,6 +21716,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ecb2-3724-9099-8fad" name="Grapnel Launcher" type="upgrade">
@@ -21551,6 +21742,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="2.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="1842-7cf8-e39e-2731" name="Heavy Bolt Pistol" type="upgrade">
@@ -21581,6 +21773,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="62da-9654-dc82-4021" name="Shock Grenades" type="upgrade">
@@ -21611,6 +21804,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9562-6d03-e6b6-0a02" name="Grav Chutes" type="upgrade">
@@ -21636,6 +21830,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="2.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0884-ae94-d12a-da29" name="Repulsor" type="model">
@@ -21708,7 +21903,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 2 de qualquer teste feito para unidades que declararem uma acusação contra um Repulidor."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 2 de qualquer teste feito para unidades que declararem carga contra um Repulsor."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="8c40-d5e2-d87e-9356" name="Transport" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -21935,6 +22130,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="136d-0c99-8bd5-5649" name="Storm Bolters" type="upgrade">
@@ -21962,6 +22158,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -22059,6 +22256,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -22117,6 +22315,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="16.0"/>
     <cost costTypeId="points" name="pts" value="185.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ec8a-d4d9-3b81-370b" name="Ironhail Heavy Stubber" type="upgrade">
@@ -22147,6 +22346,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="20f1-91a7-a2f7-6fc5" name="Icarus Ironhail Heavy Stubber" type="upgrade">
@@ -22177,6 +22377,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b2bb-62e5-9072-2a7e" name="Auto Launchers" type="upgrade">
@@ -22202,6 +22403,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="" collective="false" hidden="false" id="b938-c8ee-9b04-f0a4" name="Krakstorm Grenade Launcher" type="upgrade">
@@ -22232,6 +22434,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="1d5e-98a8-ff3b-0ecc" name="Auto Bolt Rifle" type="upgrade">
@@ -22262,6 +22465,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="1.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f9ff-959a-d135-f18d" name="Stalker Bolt Rifle" type="upgrade">
@@ -22292,6 +22496,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f608-a1a2-c729-4ef5" name="Auxiliary Grenade Launcher" type="upgrade">
@@ -22317,6 +22522,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b568-fae3-fb1c-62ee" name="Plasma Exterminator" type="upgrade">
@@ -22361,6 +22567,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="483d-e95f-9094-1553" name="Assault plasma incinerator" type="upgrade">
@@ -22405,6 +22612,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="17.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="e7c2-c74c-9760-4ae9" name="Heavy Plasma Incinerator" type="upgrade">
@@ -22449,6 +22657,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="17.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7a97-bfd8-a34b-5c04" name="Warlord" type="upgrade">
@@ -22487,6 +22696,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="60ad-e9d6-88a0-bf07" name="Stormraven Gunship" type="model">
@@ -22619,6 +22829,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="20.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="8b4f-ae2c-a805-8c5c" name="Two Stormstrike Missile Launchers" type="upgrade">
@@ -22644,6 +22855,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="42.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -22760,6 +22972,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="15.0"/>
     <cost costTypeId="points" name="pts" value="192.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ce25-8a2c-603c-fc8a" name="Land Speeder Storm" type="upgrade">
@@ -22899,6 +23112,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="70.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6bfe-e436-08b8-501a" name="Stalker" type="upgrade">
@@ -23014,6 +23228,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="20.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -23072,6 +23287,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="75.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="865e-4dae-7778-4e5f" name="Hunter" type="upgrade">
@@ -23220,6 +23436,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="80.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5ce7-801f-bb07-2424" name="Skyspear missile launcher" type="upgrade">
@@ -23245,6 +23462,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9a9c-07d7-ad44-6790" name="Scout Bike Squad" type="upgrade">
@@ -23422,6 +23640,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="21.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -23526,6 +23745,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="21.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="e1ee-492e-9f00-6d91" name="Scout Biker" type="model">
@@ -23617,6 +23837,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="21.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -23645,6 +23866,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="484c-8965-80df-17b1" name="Contemptor Dreadnought" type="upgrade">
@@ -23798,6 +24020,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="98.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e03c-a941-a096-325e" name="Deathwing Tartaros Terminator Squad" type="unit">
@@ -24041,6 +24264,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="23.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="5c4e-ab09-769e-4f57" name="Tartaros Sergeant" type="model">
@@ -24094,6 +24318,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -24204,6 +24429,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="23.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -24229,6 +24455,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="12.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3a87-be52-f814-2950" name="Deathwing Cataphractii Terminator Squad" type="unit">
@@ -24445,6 +24672,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="26.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="6da2-ec80-e426-bdf8" name="Cataphractii Sergeant" type="model">
@@ -24586,6 +24814,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="26.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -24611,6 +24840,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="12.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b138-43e3-b9c2-6daa" name="Ravenwing Talonmaster" type="upgrade">
@@ -24647,7 +24877,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-enrolar rolos enrolados de 1 para unidades DARK ANGELS em 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-enrolar 1s nas jogadas para ferir para unidades DARK ANGELS em 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -24703,6 +24933,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="da1a-afd9-b158-e26a" name="Land Speeder" type="upgrade">
@@ -24744,6 +24975,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -24793,6 +25025,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="123.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c156-7d94-e0df-7439" name="Master in Cataphractii Armour" type="model">
@@ -25036,6 +25269,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="95.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="81c7-a7e8-990d-77c7" name="Primaris Master" type="model">
@@ -25189,6 +25423,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="1093-9805-c5ad-c6b9" name="Stalker Bolt Rifle &amp; Bolt Pistol" type="upgrade">
@@ -25235,6 +25470,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="55d1-611a-8094-9f43" name="Power fist &amp; Plasma Pistol" type="upgrade">
@@ -25273,6 +25509,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -25328,6 +25565,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="78.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="acf9-b64e-8f7a-7352" name="Lieutenants" type="unit">
@@ -25607,6 +25845,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="60.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -25615,6 +25854,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7d52-db0c-c6c7-c561" name="Relic" type="upgrade">
@@ -25649,6 +25889,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="769f-7a12-b6de-25cb" name="Chapter Ancient" type="upgrade">
@@ -25855,6 +26096,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="85.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7f8d-2ca2-a622-13cd" name="Auto Bolt Rifle" type="upgrade">
@@ -25885,6 +26127,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="1.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8924-6053-f28c-171e" name="Stalker Bolt Rifle" type="upgrade">
@@ -25915,6 +26158,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="077c-3b4b-1310-a7f2" name="Heavenfall Blade" type="upgrade">
@@ -25956,6 +26200,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="4.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5fff-76e5-2e55-6088" name="Solemnus Aggressor" type="model">
@@ -26083,6 +26328,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="c7cd-3986-6fe4-55ce" name="Two heavy bolters" type="upgrade">
@@ -26113,6 +26359,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -26163,9 +26410,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="30.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="5b08-f67b-3a08-b699" name="Stratagem: Relics of the Rock (-1 CP)" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="5b08-f67b-3a08-b699" name="Relics of the Rock" type="upgrade">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -26196,9 +26444,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="56a1-5b88-b044-96ad" name="Stratagem: Relics of the Rock (-3 CP)" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="56a1-5b88-b044-96ad" name="Relics of the Rock" type="upgrade">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -26229,9 +26478,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-3.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry book="Chapter Approved" collective="false" hidden="false" id="5d09-415f-8f33-073f" name="Specialist Detachment: Ravenwing Attack Squadron (-1 CP)" type="upgrade">
+  <selectionEntry book="Chapter Approved" collective="false" hidden="false" id="5d09-415f-8f33-073f" name="Specialist Detachment: Ravenwing Attack Squadron" type="upgrade">
    <profiles/>
    <rules>
     <rule hidden="false" id="5675-b607-10b0-9a86" name="Ravenwing Attack Squadron">
@@ -26256,6 +26506,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4046-1aa3-f8c5-6ddf" name="Lightning-fast Reactions" type="upgrade">
@@ -26291,6 +26542,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c595-dc6a-67b0-b0c9" name="Monster Slayer of Caliban" type="upgrade">
@@ -26323,7 +26575,37 @@
    <costs>
     <cost costTypeId="points" name="pts" value="4.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="9a84-3679-c78f-b0bb" name="Stratagem: Relics of the Rock" type="upgrade">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints/>
+   <categoryLinks>
+    <categoryLink hidden="false" id="e5ef-8007-ebdc-4d1b" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks>
+    <entryLink hidden="false" id="f60b-e06e-5ab7-9aca" name="New EntryLink" targetId="21ff-a85f-b17c-5c37" type="selectionEntryGroup">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+   </entryLinks>
+   <costs/>
   </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
@@ -26923,6 +27205,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="70a2-640c-cff2-8ff2" name="2) Aversion" type="upgrade">
@@ -26952,6 +27235,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="11f8-69ae-07a5-6c17" name="3) Righteous Repugnance" type="upgrade">
@@ -26981,6 +27265,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="479b-e49a-8c67-deb5" name="4) Trephination" type="upgrade">
@@ -27010,6 +27295,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="d9ca-2572-8516-c878" name="6) Mind Wipe" type="upgrade">
@@ -27039,6 +27325,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="a2ef-bfca-1703-4379" name="5) Engulfing Fear" type="upgrade">
@@ -27068,6 +27355,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -27357,6 +27645,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="43e2-6ac8-74d9-96b2" name="Courage of the First Legion" type="upgrade">
@@ -27393,6 +27682,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="4065-d934-63b5-8d1f" name="Fury of the Lion" type="upgrade">
@@ -27429,6 +27719,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="64bb-dc1d-a985-d63a" name="Huntsman" type="upgrade">
@@ -27465,6 +27756,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="35eb-9927-127e-7fca" name="Master of Maneuvre" type="upgrade">
@@ -27507,6 +27799,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="2a82-7578-df2a-39a5" name="Stubborn Tenacity" type="upgrade">
@@ -27534,6 +27827,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -27716,6 +28010,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="2.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -27792,6 +28087,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="6572-074e-5387-be05" name="The Eye of the Unseen" type="upgrade">
@@ -27828,6 +28124,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -27919,6 +28216,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="11.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -28000,6 +28298,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="4.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -28051,6 +28350,45 @@
      <constraints>
       <constraint field="selections" id="e802-d9c4-eb01-7480" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
+     <categoryLinks/>
+    </entryLink>
+   </entryLinks>
+  </selectionEntryGroup>
+  <selectionEntryGroup collective="false" defaultSelectionEntryId="0e4f-de02-85c7-c3f1" hidden="false" id="21ff-a85f-b17c-5c37" name="Relics of the Rock">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+   <constraints>
+    <constraint field="selections" id="804e-d920-137f-809d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="5686-ab0c-a9e3-cf77" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <categoryLinks>
+    <categoryLink hidden="false" id="923d-48bf-3445-8569" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+   </categoryLinks>
+   <selectionEntries/>
+   <selectionEntryGroups/>
+   <entryLinks>
+    <entryLink hidden="false" id="0e4f-de02-85c7-c3f1" name="New EntryLink" targetId="5b08-f67b-3a08-b699" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+     <categoryLinks/>
+    </entryLink>
+    <entryLink hidden="false" id="52b3-7690-c281-1786" name="New EntryLink" targetId="56a1-5b88-b044-96ad" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
      <categoryLinks/>
     </entryLink>
    </entryLinks>
