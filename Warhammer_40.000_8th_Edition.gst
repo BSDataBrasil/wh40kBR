@@ -4069,7 +4069,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6, sua revista explode, e cada unidade dentro de 2D6" sofre ferimentos mortais D6.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6, sua revista explode, e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -4109,7 +4109,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque, seus mísseis vortex explodem. Cada unidade dentro de 2D6" sofre ferimentos mortais de D6. Se um modelo é ferido, mas não morto desta maneira, jogue outro dado; em um 6, o modelo é sugado para dentro do vórtice espiral e morto.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque, seus mísseis vortex explodem. Cada unidade em até 2D6" sofre ferimentos mortais de D6. Se um modelo é ferido, mas não morto desta maneira, jogue outro dado; em um 6, o modelo é sugado para dentro do vórtice espiral e morto.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -4805,7 +4805,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="IMPERIUM INFANTRY adicionam 1 à sua característica de Liderança enquanto estão dentro de uma Linha de Defesa Imperial."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="IMPERIUM INFANTRY adicionam 1 à sua característica de Liderança enquanto estão em até uma Linha de Defesa Imperial."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4967,7 +4967,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 4+ seu núcleo de plasma explode, e cada unidade dentro de D6" sofre feridas mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 4+ seu núcleo de plasma explode, e cada unidade em até D6" sofre feridas mortais D6.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5072,7 +5072,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início do seu turno, se não houver modelos inimigos dentro de 1" do Landing Pad Skyshield, um modelo aliada dentro de 1" dele pode alterar a configuração do Skyshield Landing Pad para um dos que estão na tabela abaixo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início do seu turno, se não houver modelos inimigos em até 1" do Landing Pad Skyshield, um modelo aliada em até 1" dele pode alterar a configuração do Skyshield Landing Pad para um dos que estão na tabela abaixo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="e98f-a12b-8266-2b17" name="Wrecked Landing Pad" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5090,7 +5090,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos Inimigos podem se mover dentro de 1" de uma Plataforma de Pouso Skyshield (e pode mover-se sobre ela) como se fosse um recurso de terreno. Além disso, eles não precisam recuar para se afastarem dela se iniciarem virar dentro de 1" dele e estar dentro de 1" de um Pára-Brisas Skyshield na fase de Tiro não impede que uma unidade inimiga dispare'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos Inimigos podem se mover em até 1" de uma Plataforma de Pouso Skyshield (e pode mover-se sobre ela) como se fosse um recurso de terreno. Além disso, eles não precisam recuar para se afastarem dela se iniciarem virar em até 1" dele e estar em até 1" de um Pára-Brisas Skyshield na fase de Tiro não impede que uma unidade inimiga dispare'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c01d-4736-944f-b007" name="Shielded" profileTypeId="002f-cc4a-c4e3-0261" profileTypeName="Landing Pad Configuration">
@@ -5347,7 +5347,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades totalmente dentro de 6" de um Void Shield Generator recebem um save invulnerável de 5+ contra quaisquer ataques feitos na fase de Tiro (a menos que o modelo de disparo também esteja dentro de 6" do Void Shield Generator).'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades totalmente em até 6" de um Void Shield Generator recebem um save invulnerável de 5+ contra quaisquer ataques feitos na fase de Tiro (a menos que o modelo de disparo também esteja em até 6" do Void Shield Generator).'/>
      </characteristics>
     </profile>
    </profiles>
@@ -8498,7 +8498,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolos de 1 jogador feitos para unidades FALLEN aliadas ​​dentro de 6" do Cypher'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolos de 1 jogador feitos para unidades FALLEN aliadas ​​em até 6" do Cypher'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="86fe-c023-4f7d-0825" name="No-one's Puppet" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9919,7 +9919,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que os modelos sejam desembarcados. Em um 6 ele explode, e cada unidade dentro de 3D6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que os modelos sejam desembarcados. Em um 6 ele explode, e cada unidade em até 3D6" sofre ferimentos mortais D6.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10238,7 +10238,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que os modelos sejam desembarcados. Em um 6 seu reator explode, e cada unidade dentro de 2D6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que os modelos sejam desembarcados. Em um 6 seu reator explode, e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4766-36e8-d6fa-53a2" name="Primus Redoubt" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -10693,7 +10693,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​dentro de 6" deste Warlord podem adicionar 1 à sua característica de liderança.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​em até 6" deste Warlord podem adicionar 1 à sua característica de liderança.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10998,7 +10998,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Depois do deploy este modelo, qualquer unidade AELDARI que você ainda não tenha configurado Durante o deploy, que não sejam fortificações, pode ser configurada em um spar da web em vez de ser configurada no campo de batalha. Uma unidade em um spar da web pode emergir de cada porta da Webway aliada no final de cada uma das fases do seu movimento - Configure-as totalmente dentro de 3" do portal da web e mais de 9" longe de quaisquer modelos inimigos. Se todos os portões aliadas ​​da Webway tiverem sido destruídos, quaisquer unidades que ainda não tenham chegado de uma longarina da web são consideradas mortas'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Depois do deploy este modelo, qualquer unidade AELDARI que você ainda não tenha configurado Durante o deploy, que não sejam fortificações, pode ser configurada em um spar da web em vez de ser configurada no campo de batalha. Uma unidade em um spar da web pode emergir de cada porta da Webway aliada no final de cada uma das fases do seu movimento - Configure-as totalmente em até 3" do portal da web e mais de 9" longe de quaisquer modelos inimigos. Se todos os portões aliadas ​​da Webway tiverem sido destruídos, quaisquer unidades que ainda não tenham chegado de uma longarina da web são consideradas mortas'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1b16-1941-d120-15ee" name="Webway Gate" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11819,7 +11819,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode posicionar este modelo, juntamente com quaisquer unidades embarcadas dentro dele, no subterraneo, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque subterrâneo - posicione-o em qualquer lugar do campo de batalha desde de que a mais de 9" de distância de qualquer modelo inimigo. Todas as unidades embarcadas no interior podem ser imediatamente desembarcadas. posicioneas a mais de 9" a partir de qualquer modelo inimigo. Quaisquer modelos que não podem ser posicionados porque não há espaço suficiente são mortos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode posicionar este modelo, juntamente com quaisquer unidades embarcadas em atéle, no subterraneo, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque subterrâneo - posicione-o em qualquer lugar do campo de batalha desde de que a mais de 9" de distância de qualquer modelo inimigo. Todas as unidades embarcadas no interior podem ser imediatamente desembarcadas. posicioneas a mais de 9" a partir de qualquer modelo inimigo. Quaisquer modelos que não podem ser posicionados porque não há espaço suficiente são mortos.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="6ffa-9c01-3f7a-5787" name="Explodes" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11828,7 +11828,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 wounds, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode e cada unidade dentro de 6" sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 wounds, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode e cada unidade em até 6" sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c848-0146-6c8a-c89e" name="Transport (Space Marines)" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -12739,7 +12739,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de 1 para unidades aliadas dentro de 6" do seu Warlord se mirar em uma unidade de Ataque que chegou como reforços neste turno.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de 1 para unidades aliadas em até 6" do seu Warlord se mirar em uma unidade de Ataque que chegou como reforços neste turno.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -12765,7 +12765,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de Moral com falha para unidades aliadas ​​enquanto eles estiverem dentro de 6" do seu Warlord.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de Moral com falha para unidades aliadas ​​enquanto eles estiverem em até 6" do seu Warlord.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -12839,7 +12839,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados fracassados ​​para unidades aliadas ​​dentro de 6" de seu Warlord (isso inclui qualquer EDIFÍCIO em que eles estejam envolvidos e quaisquer outras unidades embarcadas no mesmo prédio).'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados fracassados ​​para unidades aliadas ​​em até 6" de seu Warlord (isso inclui qualquer EDIFÍCIO em que eles estejam envolvidos e quaisquer outras unidades embarcadas no mesmo prédio).'/>
          </characteristics>
         </profile>
        </profiles>
@@ -12865,7 +12865,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se o seu Warlord estiver dentro de um EDIFÍCIO, jogue um dado toda vez que o prédio perder uma ferida; em um 6+, o edifício não perde uma ferida."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se o seu Warlord estiver em até um EDIFÍCIO, jogue um dado toda vez que o prédio perder uma ferida; em um 6+, o edifício não perde uma ferida."/>
          </characteristics>
         </profile>
        </profiles>
@@ -12939,7 +12939,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente rolagens de cobranças com falha para unidades aliadas ​​que estejam dentro de 6" do seu Warlord quando declararem uma cobrança contra um EDIFÍCIO.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente rolagens de cobranças com falha para unidades aliadas ​​que estejam em até 6" do seu Warlord quando declararem uma cobrança contra um EDIFÍCIO.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -12965,7 +12965,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​que estejam dentro de 6" do seu Warlord quando eles atingirem um BUILDING.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​que estejam em até 6" do seu Warlord quando eles atingirem um BUILDING.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -13250,7 +13250,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role novamente os testes de acerto de 1 na fase de combate para unidades &lt;Sub-facção&gt; aliadas ​​dentro de 6" deste modelo.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role novamente os testes de acerto de 1 na fase de combate para unidades &lt;Sub-facção&gt; aliadas ​​em até 6" deste modelo.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -13306,7 +13306,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode executar uma Intervenção Heróica se, depois de o inimigo ter completado todos os seus movimentos de carga, ele estiver dentro de 6" de qualquer unidade inimiga, e pode mover até 6" ao fazer isso.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode executar uma Intervenção Heróica se, depois de o inimigo ter completado todos os seus movimentos de carga, ele estiver em até 6" de qualquer unidade inimiga, e pode mover até 6" ao fazer isso.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -13418,7 +13418,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas não ganham o benefício de cobertura para seus testes de resistência contra ataques feitos por unidades &lt;Sub-facção&gt; amistosas dentro de 6" deste modelo quando o ataque é feito.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas não ganham o benefício de cobertura para seus testes de resistência contra ataques feitos por unidades &lt;Sub-facção&gt; amistosas em até 6" deste modelo quando o ataque é feito.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -13558,7 +13558,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando este modelo dispara Overwatch, ele atinge com sucesso em rolos de 5 ou 6, em vez de apenas 6."/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando este modelo dispara Overwatch, ele atinge com sucesso em resultados de 5 ou 6, em vez de apenas 6."/>
            </characteristics>
           </profile>
          </profiles>
@@ -13754,7 +13754,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode configurar esse modelo em emboscada, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, ele pode revelar sua localização - configurá-lo em qualquer lugar do campo de batalha que esteja a mais de 9" de qualquer modelo inimigo.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esse modelo em emboscada, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, ele pode revelar sua localização - configurá-lo em qualquer lugar do campo de batalha que esteja a mais de 9" de qualquer modelo inimigo.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -13838,7 +13838,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da primeira rodada de batalha, mas antes do primeiro turno começar, você pode escolher uma unidade &lt;Sub-facção&gt; aliada dentro de 6" deste modelo e configurá-la novamente, em qualquer lugar dentro de sua zona de desdobramento. unidades com habilidades semelhantes, roll off, começando com o vencedor do roll-off, revezar para resolver essas habilidades.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da primeira rodada de batalha, mas antes do primeiro turno começar, você pode escolher uma unidade &lt;Sub-facção&gt; aliada em até 6" deste modelo e configurá-la novamente, em qualquer lugar em até sua zona de desdobramento. unidades com habilidades semelhantes, roll off, começando com o vencedor do roll-off, revezar para resolver essas habilidades.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -13950,7 +13950,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de Moral com falha para unidades &lt;Sub-faction&gt; aliadas ​​enquanto estiverem dentro de 6" deste modelo.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de Moral com falha para unidades &lt;Sub-faction&gt; aliadas ​​enquanto estiverem em até 6" deste modelo.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -13978,7 +13978,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que um modelo &lt;Sub-facção&gt; amistoso dentro de 6" deste modelo for morto na fase de combate. Em um 6, a unidade que fez o ataque que matou o modelo sofre 1 ferida mortal após terminar de fazer sua ataques.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que um modelo &lt;Sub-facção&gt; amistoso em até 6" deste modelo for morto na fase de combate. Em um 6, a unidade que fez o ataque que matou o modelo sofre 1 ferida mortal após terminar de fazer sua ataques.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -14034,7 +14034,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem dentro de 3" deste modelo.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem em até 3" deste modelo.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -14146,7 +14146,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo, e unidades aliadas ​​de &lt;Sub-facção&gt; dentro de 6" deles, podem carregar mesmo que tenham Recuado naquele turno.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo, e unidades aliadas ​​de &lt;Sub-facção&gt; em até 6" deles, podem carregar mesmo que tenham Recuado naquele turno.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -14202,7 +14202,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo é morto, você pode selecionar uma unidade inimiga dentro de 3" do mesmo e rolar um D6; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo é morto, você pode selecionar uma unidade inimiga em até 3" do mesmo e rolar um D6; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -14230,7 +14230,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que você fizer um teste de ferimento de 6+  na Fase de Tiro para uma unidade &lt;Sub-facção&gt; aliada dentro de 6" deste modelo, a característica AP daquele ataque é melhorada em 1 (por exemplo, AP -1 se torna AP -2) .'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que você fizer um teste de ferimento de 6+  na Fase de Tiro para uma unidade &lt;Sub-facção&gt; aliada em até 6" deste modelo, a característica AP daquele ataque é melhorada em 1 (por exemplo, AP -1 se torna AP -2) .'/>
            </characteristics>
           </profile>
          </profiles>
@@ -15256,7 +15256,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem dentro de 6" desta unidade.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem em até 6" desta unidade.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -15557,7 +15557,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Após este modelo completar um movimento de carga, role um D6 para cada unidade inimiga dentro de 1" disto. Em um 4+ essa unidade sofre 1 ferida mortal.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Após este modelo completar um movimento de carga, role um D6 para cada unidade inimiga em até 1" disto. Em um 4+ essa unidade sofre 1 ferida mortal.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -15613,7 +15613,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem dentro de 6" deste modelo.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem em até 6" deste modelo.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -15809,7 +15809,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da primeira rodada de batalha, mas antes do primeiro turno começar, você pode mover este modelo até 5" . Ele não pode terminar este movimento dentro de 9" de qualquer modelo inimigo. Se ambos os jogadores tiverem unidades que podem fazer isso, o jogador que está no primeiro turno move suas unidades primeiro.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da primeira rodada de batalha, mas antes do primeiro turno começar, você pode mover este modelo até 5" . Ele não pode terminar este movimento em até 9" de qualquer modelo inimigo. Se ambos os jogadores tiverem unidades que podem fazer isso, o jogador que está no primeiro turno move suas unidades primeiro.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -16118,7 +16118,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 à característica de Liderança de unidades amistosas enquanto elas estiverem dentro de 6" desta unidade. Subtraia 1 da característica de Liderança de unidades inimigas enquanto elas estiverem dentro de 6" desta unidade.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 à característica de Liderança de unidades amistosas enquanto elas estiverem em até 6" desta unidade. Subtraia 1 da característica de Liderança de unidades inimigas enquanto elas estiverem em até 6" desta unidade.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -16225,7 +16225,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade dentro de 6" sofre ferimentos mortais D3.'>
+   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers D3 mortal wounds.
    </description>
   </rule>
@@ -16234,7 +16234,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto no modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam ao passageiro; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver dentro de 1" de uma unidade inimiga, e assim por diante.'>
+   <description description='Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto no modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam ao passageiro; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver em até 1" de uma unidade inimiga, e assim por diante.'>
     Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on the model. When they do so, any restrictions or modifiers that apply to this model also apply to its passenger; for example, the passengers cannot shoot if this model has Fallen Back in the same turn, cannot shoot (except with Pistols) if this model is within 1" of an enemy unit, and so on.
    </description>
   </rule>
@@ -16261,7 +16261,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se o seu Warlord é um personagem, ele pode usar um Warlord Trait. Imediatamente antes que qualquer um dos jogadores comece a usar seu exército, você pode rolar uma D3 na tabela Traço do Warlord aqui para determinar o que o Warlord Trait seu Warlord possui. Alternativamente, escolha a característica que mais se adapte ao temperamento do Warlord ou ao estilo de guerra.1) Legendary Fighter: Se este Warlord cobrar na fase Charge, some 1 à sua característica Attacks até o final da fase de Fight.2) Líder Inspirador: Unidades aliadas ​​dentro de 6" deste Warlord podem adicionar 1 à sua característica de Liderança.3) Tenacious Survivor: Jogue um dado cada vez que este Warlord perder uma ferida. Em um 6, o Warlord dá de ombros e não perde a ferida.'>
+   <description description='Se o seu Warlord é um personagem, ele pode usar um Warlord Trait. Imediatamente antes que qualquer um dos jogadores comece a usar seu exército, você pode rolar uma D3 na tabela Traço do Warlord aqui para determinar o que o Warlord Trait seu Warlord possui. Alternativamente, escolha a característica que mais se adapte ao temperamento do Warlord ou ao estilo de guerra.1) Legendary Fighter: Se este Warlord cobrar na fase Charge, some 1 à sua característica Attacks até o final da fase de Fight.2) Líder Inspirador: Unidades aliadas ​​em até 6" deste Warlord podem adicionar 1 à sua característica de Liderança.3) Tenacious Survivor: Jogue um dado cada vez que este Warlord perder uma ferida. Em um 6, o Warlord dá de ombros e não perde a ferida.'>
     If your Warlord is a CHARACTER, it can use a Warlord Trait. Immediately before either player starts to deploy their army, you can roll a D3 on the Warlord Trait table here to determine what Warlord Trait your Warlord has. Alternatively, choose the trait that most suits your Warlord's temperament or style of war.
 
 1) Legendary Fighter: If this Warlord charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.
@@ -17219,7 +17219,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um modelo na capa atrás de um depósito de munição tem uma proteção de capa de 5+. Qualquer modelo dentro de 2" de um despejo de munição re-rola falhou ao atingir jogadas de 1 na fase de tiro.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um modelo na capa atrás de um depósito de munição tem uma proteção de capa de 5+. Qualquer modelo em até 2" de um despejo de munição re-rola falhou ao atingir jogadas de 1 na fase de tiro.'/>
    </characteristics>
   </profile>
   <profile book="Stronghold Assault" hidden="false" id="e144-1293-ec28-d3a9" name="Void Shield" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -17246,7 +17246,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando este edifício é ocupado pela primeira vez, o jogador proprietário pode colocar um marcador de escape em qualquer lugar dentro de 12" do edifício que não seja terreno intransponível ou dentro de outro prédio. O marcador de saída é um ponto de acesso adicional para o edifício, mas modelos usando não pode usar a regra especial Repelir o Inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando este edifício é ocupado pela primeira vez, o jogador proprietário pode colocar um marcador de escape em qualquer lugar em até 12" do edifício que não seja terreno intransponível ou em até outro prédio. O marcador de saída é um ponto de acesso adicional para o edifício, mas modelos usando não pode usar a regra especial Repelir o Inimigo.'/>
    </characteristics>
   </profile>
   <profile book="Planetary Onslaught" hidden="false" id="2a6f-53c2-d2ea-092f" name="Booby Traps" page="110" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -17317,7 +17317,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Qualquer jogador com um modelo não engatilhado dentro de 2" de um revezamento de comunicação pode re-rolar Rolos de reserva. Um modelo na capa atrás de um revezamento de comunicação tem uma proteção de 5+ de cobertura.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Qualquer jogador com um modelo não engatilhado em até 2" de um revezamento de comunicação pode re-rolar Rolos de reserva. Um modelo na capa atrás de um revezamento de comunicação tem uma proteção de 5+ de cobertura.'/>
    </characteristics>
   </profile>
   <profile book="Planetary Onslaught" hidden="false" id="39bf-dff4-053a-7360" name="Macro Shell" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -18576,7 +18576,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A menos que uma unidade aliada seja embarcada dentro desse modelo, cada uma de suas armas só pode mirar no inimigo visível mais próximo. Se duas unidades estão igualmente próximas, você pode escolher o que é segmentado."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A menos que uma unidade aliada seja embarcada em atésse modelo, cada uma de suas armas só pode mirar no inimigo visível mais próximo. Se duas unidades estão igualmente próximas, você pode escolher o que é segmentado."/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="429b-91d2-8356-7150" name="Magazine Explosion" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18585,7 +18585,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 sua revista explode, e cada unidade dentro de 2D6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 sua revista explode, e cada unidade em até 2D6" sofre ferimentos mortais D3.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="e433-6678-6be1-355c" name="Fire Points (5)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18594,7 +18594,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='5 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='5 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem em até 1" desse modelo.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="220a-170b-5fd7-36f2" name="Fire Points (10)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18603,7 +18603,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='10 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='10 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem em até 1" desse modelo.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="298d-b8cf-d3ed-04d8" name="Fire Points (15)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18612,7 +18612,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='15 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem dentro de 1" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='15 modelos embarcados neste modelo podem atirar em sua fase de tiro, medindo e traçando a linha de visão de qualquer ponto deste modelo. Eles podem fazer isso mesmo se os modelos inimigos estiverem em até 1" desse modelo.'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="57f6-edd9-6170-5c91" name="Automated Weapons (Gun Emplacement)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18630,7 +18630,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de INFANTARIA dentro de 1" de uma linha de defesa, e atrás dele do ponto de vista da unidade de tiro, recebem o benefício da cobertura. Ao carregar uma unidade do lado oposto de uma linha de defesa, a carga é bem sucedida se a unidade de carregamento pode se mover dentro de 2" dessa unidade. Ao resolver lutas entre unidades em dois lados opostos de uma linha de defesa, unidade pode ser escolhida para lutar e fazer seus ataques se o inimigo estiver dentro de 2" em vez do normal 1".'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de INFANTARIA em até 1" de uma linha de defesa, e atrás dele do ponto de vista da unidade de tiro, recebem o benefício da cobertura. Ao carregar uma unidade do lado oposto de uma linha de defesa, a carga é bem sucedida se a unidade de carregamento pode se mover em até 2" dessa unidade. Ao resolver lutas entre unidades em dois lados opostos de uma linha de defesa, unidade pode ser escolhida para lutar e fazer seus ataques se o inimigo estiver em até 2" em vez do normal 1".'/>
    </characteristics>
   </profile>
   <profile book="" hidden="false" id="c60f-7b10-88fd-9eba" name="Static Defence Network" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -18648,7 +18648,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade dentro de 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="62af-9a2b-23f4-850b" name="Master-crafted stalker bolt rifle" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18680,7 +18680,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​dentro de 6" deste Warlord podem adicionar 1 à sua característica de Liderança.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​em até 6" deste Warlord podem adicionar 1 à sua característica de Liderança.'/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000" hidden="false" id="7a19-046d-bf4e-bae3" name="Tenacious Survivor" page="186" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18698,7 +18698,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça rolagens de sucesso. No entanto, este modelo ainda pode disparar se houver modelos inimigos dentro de 1" , e unidade aliada ainda pode direcionar unidades inimigas que estão dentro de 1" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça rolagens de sucesso. No entanto, este modelo ainda pode disparar se houver modelos inimigos em até 1" , e unidade aliada ainda pode direcionar unidades inimigas que estão em até 1" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="76e8-a8df-d243-1673" name="Frag Assault Launchers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18707,7 +18707,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 toda vez que este modelo terminar uma jogada de carga dentro de 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 toda vez que este modelo terminar uma jogada de carga em até 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7b08-1e6d-69a9-932d" name="Havoc launcher" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

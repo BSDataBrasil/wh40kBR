@@ -504,7 +504,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Subtraia 1 das jogadas de acerto pelos ataques feitos com esta arma. Se você matar um veículo ou Monstro com uma manopla de trovoada, selecione uma unidade inimiga dentro de 9" e role um D6: em um 4+ aquela unidade sofre D3 ferimentos mortais enquanto o cadáver ou detritos são jogados nela.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Subtraia 1 das jogadas de acerto pelos ataques feitos com esta arma. Se você matar um veículo ou Monstro com uma manopla de trovoada, selecione uma unidade inimiga em até 9" e role um D6: em um 4+ aquela unidade sofre D3 ferimentos mortais enquanto o cadáver ou detritos são jogados nela.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1709,7 +1709,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades inimigas subtraem 1 de sua característica de Liderança quando dentro de 6" de um Cavaleiro Renegado Atropos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades inimigas subtraem 1 de sua característica de Liderança quando em até 6" de um Cavaleiro Renegado Atropos.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2545,7 +2545,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a rolos enrolados feitos para esta arma se o alvo for um VEÍCULO."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a jogadas de ferimento feitos para esta arma se o alvo for um VEÍCULO."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2820,7 +2820,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao ocupar espaços dentro de um TRANSPORTE, esse modelo ocupa três espaços, em vez de um."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao ocupar espaços em até um TRANSPORTE, esse modelo ocupa três espaços, em vez de um."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1881-39f9-1f59-0da6" name="Warp-flux Shield" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3544,7 +3544,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Quando este modelo cai, ele pode até mesmo passar por cima de modelos de INFANTARIAS inimigas, embora no final de seu movimento ele deva ter mais de 1" de todas as unidades inimigas. Este modelo pode disparar se houver modelos inimigos dentro de 1" desde que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver dentro de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o modelo pode se mover e disparar armas Pesadas sem sofrer a penalidade em suas jogadas de acerto. Finalmente, ele só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do portador.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Quando este modelo cai, ele pode até mesmo passar por cima de modelos de INFANTARIAS inimigas, embora no final de seu movimento ele deva ter mais de 1" de todas as unidades inimigas. Este modelo pode disparar se houver modelos inimigos em até 1" desde que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver em até 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o modelo pode se mover e disparar armas Pesadas sem sofrer a penalidade em suas jogadas de acerto. Finalmente, ele só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do portador.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="977d-25bc-3918-a164" name="Ion shield" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3562,7 +3562,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 5 + save invulnerável, aumentando para 4 + invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC dentro de 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 5 + save invulnerável, aumentando para 4 + invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC em até 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6992-df69-b9bb-ea8d" name="Infernal Veil" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3580,7 +3580,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, um Hellwright pode consertar um único DAEMON ENGINE / QUESTOR TRAITOROUS ou DARK MECHANICUS VEHICLE (exceto modelos que podem voar) dentro de 1" . Esse modelo recupera D3 feridas perdidas. Um Hellwright pode amaldiçoar um único inimigo VEÍCULO dentro de 18" . Role um D6; em um rolo de 2+ que VEÍCULO sofre uma ferida mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um Hellwright no mesmo turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, um Hellwright pode consertar um único DAEMON ENGINE / QUESTOR TRAITOROUS ou DARK MECHANICUS VEHICLE (exceto modelos que podem voar) em até 1" . Esse modelo recupera D3 feridas perdidas. Um Hellwright pode amaldiçoar um único inimigo VEÍCULO em até 18" . Role um D6; em um rolo de 2+ que VEÍCULO sofre uma ferida mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um Hellwright no mesmo turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4bcb-b16c-694a-a7d3" name="Death to the False Emperor" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3626,7 +3626,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Qualquer modelo HELLFORGED dentro de 6" do Hellwright adiciona +1 às suas características de Ataques e Liderança.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Qualquer modelo HELLFORGED em até 6" do Hellwright adiciona +1 às suas características de Ataques e Liderança.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a77a-098d-282c-1d8a" name="Infernal Augmetics" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3650,7 +3650,7 @@
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 6+ ele explode e cada unidade dentro de 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 6+ ele explode e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9159-5022-cf53-6052" name="Empyreal Preysight" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3668,7 +3668,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 5+ ele explode e cada unidade dentro de 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 5+ ele explode e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
  </sharedProfiles>

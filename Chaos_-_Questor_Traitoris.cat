@@ -542,7 +542,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Subtraia 1 das jogadas de acerto pelos ataques feitos com esta arma. Se você matar um VEÍCULO ou MONSTRO com uma manopla de trovoada, selecione uma unidade inimiga dentro de 9" e role um D6: em um 4+ aquela unidade sofre D3 ferimentos mortais como o cadáver ou detritos são lançados nele.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Subtraia 1 das jogadas de acerto pelos ataques feitos com esta arma. Se você matar um VEÍCULO ou MONSTRO com uma manopla de trovoada, selecione uma unidade inimiga em até 9" e role um D6: em um 4+ aquela unidade sofre D3 ferimentos mortais como o cadáver ou detritos são lançados nele.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1978,7 +1978,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades inimigas subtraem 1 de sua característica Ld quando dentro de 6" de um Cavaleiro Renegado Atropos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades inimigas subtraem 1 de sua característica Ld quando em até 6" de um Cavaleiro Renegado Atropos.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3167,7 +3167,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role 2D6 antes de removê-lo do campo de batalha. Se você rolar um 6 em cada um dos dados, ele explodirá, e cada unidade dentro de 2D6" sofre ferimentos mortais D6; se você rolar um 6 em ambos os dados, cada unidade dentro de 3D6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role 2D6 antes de removê-lo do campo de batalha. Se você rolar um 6 em cada um dos dados, ele explodirá, e cada unidade em até 2D6" sofre ferimentos mortais D6; se você rolar um 6 em ambos os dados, cada unidade em até 3D6" sofre ferimentos mortais D6.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3634,7 +3634,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada, todos os seus modelos devem ser colocados dentro de 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada, todos os seus modelos devem ser colocados em até 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4445,7 +4445,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades inimigas devem subtrair 1 de sua característica de Liderança enquanto estiverem dentro de 12" do portador. Enquanto estiverem dentro de 6" do portador, subtraia 2 de sua característica de Liderança.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades inimigas devem subtrair 1 de sua característica de Liderança enquanto estiverem em até 12" do portador. Enquanto estiverem em até 6" do portador, subtraia 2 de sua característica de Liderança.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -4504,7 +4504,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 5 + save invulnerável, aumentando para 4 + invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC dentro de 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 5 + save invulnerável, aumentando para 4 + invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC em até 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6992-df69-b9bb-ea8d" name="Infernal Veil" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4528,7 +4528,7 @@
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 6+ ele explode e cada unidade dentro de 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 6+ ele explode e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6023-11c8-544d-663b" name="Explodes (Unstable Reactor)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4537,7 +4537,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 5+ ele explode e cada unidade dentro de 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 5+ ele explode e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="8249-9086-022b-10ab" name="Titanic feet" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

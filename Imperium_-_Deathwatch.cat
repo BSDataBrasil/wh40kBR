@@ -1749,7 +1749,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode definir esse modelo, junto com qualquer unidade embarcada dentro dele, em órbita, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque de pod de queda. - configure-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo. Todos os modelos embarcados devem ser imediatamente desembarcados, mas devem ser colocados a mais de 9" de qualquer modelo inimigo. Quaisquer modelos que não podem ser configurados porque não há espaço suficiente são mortos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode definir esse modelo, junto com qualquer unidade embarcada em atéle, em órbita, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque de pod de queda. - configure-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo. Todos os modelos embarcados devem ser imediatamente desembarcados, mas devem ser colocados a mais de 9" de qualquer modelo inimigo. Quaisquer modelos que não podem ser configurados porque não há espaço suficiente são mortos.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d98d-7e56-4c84-5335" name="Transport" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -4006,7 +4006,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados com falha para unidades de DEATHWATCH aliadas ​​dentro de 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados com falha para unidades de DEATHWATCH aliadas ​​em até 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5582,7 +5582,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se esta unidade tiver um homer de teleporte da Deathwatch, coloque-o em qualquer lugar na sua zona de implantação quando o seu exército implantar. Se um modelo inimigo estiver a 9" do homer teletransportado pelo Deathwatch, ele será desativado e removido do campo de batalha. Enquanto houver um Homer teleportável no campo de batalha, uma unidade que contenha um ou mais Terminadores do Olho da Morte pode realizar um teleporte de emergência. em vez de se mover em sua fase de movimento.No final da fase de movimento, remova a unidade e, em seguida, configure-a com todos os modelos dentro de 6" de um homer de teleporte aliada Deathwatch. Aquele homer teletransportado da Deathwatch então se distrai e é removido do campo de batalha.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se esta unidade tiver um homer de teleporte da Deathwatch, coloque-o em qualquer lugar na sua zona de implantação quando o seu exército implantar. Se um modelo inimigo estiver a 9" do homer teletransportado pelo Deathwatch, ele será desativado e removido do campo de batalha. Enquanto houver um Homer teleportável no campo de batalha, uma unidade que contenha um ou mais Terminadores do Olho da Morte pode realizar um teleporte de emergência. em vez de se mover em sua fase de movimento.No final da fase de movimento, remova a unidade e, em seguida, configure-a com todos os modelos em até 6" de um homer de teleporte aliada Deathwatch. Aquele homer teletransportado da Deathwatch então se distrai e é removido do campo de batalha.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5804,7 +5804,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode configurar esta unidade no alto dos céus, em vez de colocá-la no campo de batalha, no final de qualquer uma das fases do Movimento que esta unidade pode atacar de cima - configurá-la em qualquer lugar do campo de batalha com mais de 9" . longe de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar esta unidade no alto dos céus, em vez de colocá-la no campo de batalha, no final de qualquer uma das fases do Movimento que esta unidade pode atacar de cima - configurá-la em qualquer lugar do campo de batalha com mais de 9" . longe de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6387,7 +6387,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade dentro de 6" sofre ferimentos mortais D6.'>
+     <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade em até 6" sofre ferimentos mortais D6.'>
       If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it crashes in a fiery explosion and each unit within 6" suffers D6 mortal wounds.
      </description>
     </rule>
@@ -8339,7 +8339,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 toda vez que um modelo desta unidade terminar uma carga se mover dentro de 1" de uma unidade inimiga; em um 6, essa unidade sofrerá uma ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 toda vez que um modelo desta unidade terminar uma carga se mover em até 1" de uma unidade inimiga; em um 6, essa unidade sofrerá uma ferida mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="103b-5f7f-7f80-29b1" name="Meteoric Descent" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10154,7 +10154,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando modelos com lançadores de grapnel se movem na fase de Movimento, não conte qualquer distância vertical que eles movem contra o total que eles podem mover (ou seja, mover verticalmente é livre para esses modelos na fase de Movimento). Além disso, durante a implantação, você pode configurar essa unidade se ela estiver equipada com lançadores de grapel behing linhas inimigas em vez de colocá-la no campo de batalha. No final da sua fase de movimento, esta unidade pode participar da batalha. Configure-o dentro de 6" de uma borda de campo de sua escolha e mais de 9" longe de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando modelos com lançadores de grapnel se movem na fase de Movimento, não conte qualquer distância vertical que eles movem contra o total que eles podem mover (ou seja, mover verticalmente é livre para esses modelos na fase de Movimento). Além disso, durante a implantação, você pode colocar essa unidade se ela estiver equipada com lançadores de grapel behing linhas inimigas em vez de colocá-la no campo de batalha. No final da sua fase de movimento, esta unidade pode participar da batalha. Configure-o em até 6" de uma borda de campo de sua escolha e mais de 9" longe de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11890,7 +11890,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um D6 toda vez que um modelo DEATHWATCH do seu exército dentro de 6" do seu Warlord perder sua última ferida. Em um 6 a ferida não é perdida.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um D6 toda vez que um modelo DEATHWATCH do seu exército em até 6" do seu Warlord perder sua última ferida. Em um 6 a ferida não é perdida.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11917,7 +11917,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início de cada fase de tiro, escolha uma unidade inimiga em qualquer lugar no campo de batalha. Durante a fase, essa unidade não recebe o benefício de cobertura contra ataques feitos por unidades DEATHWATCH de seu exército que estejam dentro de 6" de seu Warlord.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início de cada fase de tiro, escolha uma unidade inimiga em qualquer lugar no campo de batalha. Durante a fase, essa unidade não recebe o benefício de cobertura contra ataques feitos por unidades DEATHWATCH de seu exército que estejam em até 6" de seu Warlord.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -12201,7 +12201,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades inimigas devem subtrair 1 de suas características de Liderança se estiverem dentro de 3" de qualquer unidade Reiver, ou unidades que incluam qualquer modelo Reiver.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades inimigas devem subtrair 1 de suas características de Liderança se estiverem em até 3" de qualquer unidade Reiver, ou unidades que incluam qualquer modelo Reiver.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -12441,7 +12441,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um Inceptor terminar uma carga, mova-se dentro de 1" de uma unidade inimiga; em um 6, essa unidade sofre uma ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um Inceptor terminar uma carga, mova-se em até 1" de uma unidade inimiga; em um 6, essa unidade sofre uma ferida mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f127-cfdf-b499-2c66" name="Inceptor Strike" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13932,7 +13932,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer uma das fases do seu Movimento, o Boticário pode tentar curar ou reviver um único modelo. Selecione uma unidade de INFANTARIA ou MOTOCICLISTA DEATHWATCH aliada dentro de 3" do Boticário. Se essa unidade contiver um modelo ferido, ela recuperará imediatamente as feridas perdidas D3. Se a unidade escolhida não contiver modelos feridos, um ou mais de seus modelos foram mortos durante o batalha, role um D6 Em um 4+ um único modelo morto é retornado para a unidade com 1 ferida restante Se o Boticário não reviver um modelo ele não pode fazer mais nada pelo resto do turno (atirar, carregar, lutar, etc.) enquanto ele recupera a semente genética do guerreiro caído, uma unidade só pode ser o alvo da habilidade do Nartúnium uma vez em cada turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer uma das fases do seu Movimento, o Boticário pode tentar curar ou reviver um único modelo. Selecione uma unidade de INFANTARIA ou MOTOCICLISTA DEATHWATCH aliada em até 3" do Boticário. Se essa unidade contiver um modelo ferido, ela recuperará imediatamente as feridas perdidas D3. Se a unidade escolhida não contiver modelos feridos, um ou mais de seus modelos foram mortos durante o batalha, role um D6 Em um 4+ um único modelo morto é retornado para a unidade com 1 ferida restante Se o Boticário não reviver um modelo ele não pode fazer mais nada pelo resto do turno (atirar, carregar, lutar, etc.) enquanto ele recupera a semente genética do guerreiro caído, uma unidade só pode ser o alvo da habilidade do Nartúnium uma vez em cada turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -16242,7 +16242,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por batalha, no final da sua fase de Movimento, o portador pode usar o Beacon Angelis para teletransportar uma unidade aliada para a sua posição. Quando ele fizer isso, selecione uma unidade DEATHWATCH INFANTRY ou BIKER que esteja no campo de batalha, ou que esteja em um teleportarium. Em ambos os casos, remova esta unidade e, em seguida, configure-a totalmente dentro de 6" do portador e mais de 9" de qualquer modelo inimigo (qualquer modelo que não possa ser configurado é morto).'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por batalha, no final da sua fase de Movimento, o portador pode usar o Beacon Angelis para teletransportar uma unidade aliada para a sua posição. Quando ele fizer isso, selecione uma unidade DEATHWATCH INFANTRY ou BIKER que esteja no campo de batalha, ou que esteja em um teleportarium. Em ambos os casos, remova esta unidade e, em seguida, configure-a totalmente em até 6" do portador e mais de 9" de qualquer modelo inimigo (qualquer modelo que não possa ser configurado é morto).'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16315,7 +16315,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos com um escudo de tempestade apenas. O Dominus Aegis substitui o escudo contra tempestade do portador. O portador tem um 3 + save invulnerável. Além disso, se o portador não se mover na sua fase de Movimento, então, até o início da sua próxima fase de Movimento, os modelos de DEATHWATCH aliadas ​​dentro de 6" do portador ganharão um 5 + invulnerável salvar'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos com um escudo de tempestade apenas. O Dominus Aegis substitui o escudo contra tempestade do portador. O portador tem um 3 + save invulnerável. Além disso, se o portador não se mover na sua fase de Movimento, então, até o início da sua próxima fase de Movimento, os modelos de DEATHWATCH aliadas ​​em até 6" do portador ganharão um 5 + invulnerável salvar'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16359,7 +16359,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Observe somente os mestres. VEÍCULOS inimigos subtraem 1 de suas jogadas de acerto enquanto estiverem dentro de 9" deste modelo. Cada vez que o portador lutar, você pode fazer um ataque adicional com a Chave de Osseus contra um VEÍCULO inimigo dentro de 1" deles; Se este ataque ocorrer, a unidade alvo sofre D3 ferimentos mortais.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Observe somente os mestres. VEÍCULOS inimigos subtraem 1 de suas jogadas de acerto enquanto estiverem em até 9" deste modelo. Cada vez que o portador lutar, você pode fazer um ataque adicional com a Chave de Osseus contra um VEÍCULO inimigo em até 1" deles; Se este ataque ocorrer, a unidade alvo sofre D3 ferimentos mortais.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16403,7 +16403,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início de cada um de seus turnos, escolha uma Mission Tactic (pg 94). Até o início do seu próximo turno, você pode optar por aplicar os efeitos da Mission Tactic que está atualmente ativa ou a Mission Tactic que você escolheu para o Tome of Ectoclades para qualquer unidade DEATHWATCH de seu exército dentro de 6" do portador cada vez que eles atacam'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início de cada um de seus turnos, escolha uma Mission Tactic (pg 94). Até o início do seu próximo turno, você pode optar por aplicar os efeitos da Mission Tactic que está atualmente ativa ou a Mission Tactic que você escolheu para o Tome of Ectoclades para qualquer unidade DEATHWATCH de seu exército em até 6" do portador cada vez que eles atacam'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16444,7 +16444,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao configurar o portador, escolha uma das seguintes palavras-chave: ORK, TYRANID, T'AU EMPIRE, AELDARIor NECRONS. Você pode re-rolar rolagens de dano nessa arma ao atacar unidades inimigas com aquela palavra-chave."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao colocar o portador, escolha uma das seguintes palavras-chave: ORK, TYRANID, T'AU EMPIRE, AELDARIor NECRONS. Você pode re-rolar rolagens de dano nessa arma ao atacar unidades inimigas com aquela palavra-chave."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16536,7 +16536,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade dentro de 6" sofre ferimentos mortais D6.'>
+   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D6.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers D6 mortal wounds.
    </description>
   </rule>
@@ -16574,7 +16574,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades &lt;CAPÍTULO&gt; aliadas ​​dentro de 6" deste modelo podem usar a Liderança do Capelão em vez da sua.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades &lt;CAPÍTULO&gt; aliadas ​​em até 6" deste modelo podem usar a Liderança do Capelão em vez da sua.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="8cf4-50e8-6b2b-00f8" name="Tactical Precision" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16583,7 +16583,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente jogadas enrolados de 1 para unidades &lt;CHAPTER&gt; aliadas ​​que estejam dentro de 6" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente jogadas enrolados de 1 para unidades &lt;CHAPTER&gt; aliadas ​​que estejam em até 6" desse modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7e82-cdc9-6125-be30" name="Rosarius" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16601,7 +16601,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar as jogadas de 1 feitas para unidades &lt;CHAPTER&gt; aliadas ​​dentro de 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar as jogadas de 1 feitas para unidades &lt;CHAPTER&gt; aliadas ​​em até 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1367-6963-1239-8308" name="Psychic Hood" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16610,7 +16610,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes Deny the Witch que você leva para este modelo contra PSYKERS inimigos dentro de 12" .'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes Deny the Witch que você leva para este modelo contra PSYKERS inimigos em até 12" .'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b7b9-274a-1b87-3b67" name="Litanies of Hate" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16619,7 +16619,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados com falha na fase de combate para unidades &lt;CHPATER&gt; aliadas ​​dentro de 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados com falha na fase de combate para unidades &lt;CHPATER&gt; aliadas ​​em até 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="83c5-c731-4688-c8eb" name="Iron Halo" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16673,7 +16673,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode configurar este modelo em uma câmara de teleportarium em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode se teletransportar para a batalha - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar este modelo em uma câmara de teleportarium em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode se teletransportar para a batalha - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a3b8-74b3-06b9-db2c" name="Frag Assault Launchers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16682,7 +16682,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar um movimento de carga dentro de 1" de uma unidade de emeny; em um 4+ essa unidade sofre D3 feridas totais.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar um movimento de carga em até 1" de uma unidade de emeny; em um 4+ essa unidade sofre D3 feridas totais.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3311-4a28-ced2-0d5b" name="Unyielding Ancient" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16882,7 +16882,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer uma das fases do seu Movimento, o Boticário pode tentar curar ou reviver um modelo de singel. Selecione uma &lt;CHAPTER&gt; INFANTRY ou BIKER unidade aliada dentro de 3" do Boticário. Se essa unidade contém um modelo ferido, ele imediatamente recupera D3 feridas perdidas. Se a unidade escolhida não contém modelos feridos, mas um ou mais dos seus modelos foram mortos Durante a batalha, role um D6 Em um 4+ um único modelo morto é retornado para a unidade com 1 ferida restante Eu não posso reviver um modelo que ele não pode fazer mais nada pelo resto do turno (atirar, carregar, luta, ect.) como ele recupera gene-semente do guerreiro caído.Uma unidade só pode ser o alvo da habilidade Narthecium uma vez em cada turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer uma das fases do seu Movimento, o Boticário pode tentar curar ou reviver um modelo de singel. Selecione uma &lt;CHAPTER&gt; INFANTRY ou BIKER unidade aliada em até 3" do Boticário. Se essa unidade contém um modelo ferido, ele imediatamente recupera D3 feridas perdidas. Se a unidade escolhida não contém modelos feridos, mas um ou mais dos seus modelos foram mortos Durante a batalha, role um D6 Em um 4+ um único modelo morto é retornado para a unidade com 1 ferida restante Eu não posso reviver um modelo que ele não pode fazer mais nada pelo resto do turno (atirar, carregar, luta, ect.) como ele recupera gene-semente do guerreiro caído.Uma unidade só pode ser o alvo da habilidade Narthecium uma vez em cada turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ac67-1fe2-ecff-e890" name="Heavy Onslaught Gatling Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
