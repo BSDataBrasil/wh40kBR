@@ -576,7 +576,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga em até 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -666,7 +666,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades que não são visíveis para o portador."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades que não são visíveis para o portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -786,7 +786,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de ataque feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de ataque feitas para esta arma contra todos os outros alvos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2878,7 +2878,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="14"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar os testes de acerto e as jogadas de dano dessa arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar os testes de acerto e testes para ferir malsucedidos dessa arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
      </characteristics>
     </profile>
     <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3ee7-0b58-bf44-ec3e" name="Atropos Lascutter (shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -2922,7 +2922,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 a cada vez antes que esta arma seja disparada. Em um 1, o portador sofre uma ferida mortal e a arma dispara normalmente (se o portador sobreviver a isso). Em um 2-5, o ataque é realizado normalmente usando o perfil listado. Em um 6, os ataques da arma são realizados em Força 16, AP -4, Dano 6 em vez de seu perfil normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 a cada vez antes que esta arma seja disparada. Em um 1, o portador sofre uma Ferimento Mortal e a arma dispara normalmente (se o portador sobreviver a isso). Em um 2-5, o ataque é realizado normalmente usando o perfil listado. Em um 6, os ataques da arma são realizados em Força 16, AP -4, Dano 6 em vez de seu perfil normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2952,7 +2952,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-lançar as jogadas de acerto com esta arma se o Cerastus Knight-Lancer tiver carregado com sucesso na sua fase de cobrança."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes de acerto malsucedidos com esta arma se o Cerastus Knight-Lancer tiver realizado uma carga com sucesso na sua fase de carga."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3184,7 +3184,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de ataque feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de ataque feitas para esta arma contra todos os outros alvos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3378,7 +3378,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma acerta automaticamente, e sempre causa 3 + exceto contra unidades TITANIC e VEHICLE, contra as quais ela sempre fere em 6+."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma acerta automaticamente, e sempre causa 3+ exceto contra unidades TITANIC e VEHICLE, contra as quais ela sempre fere em 6+."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5748,7 +5748,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada, todos os seus modelos devem ser colocados em até 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada, todos os seus modelos devem ser colocados a no máximo 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="467a-7d68-5924-b42f" name="Armiger Warglaive 1" profileTypeId="9005-1a1f-3971-8480" profileTypeName="Wound Track (Knights)">
@@ -7524,7 +7524,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O CANIS REX pode retornar à fase de movimento e ainda disparar e / ou carregar no mesmo turno. Quando o CANIS REX cai para trás, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARRO, embora deva terminar seu movimento a mais de 1" de qualquer unidade inimiga. Além disso, o CANIS REX pode mover e disparar armas pesadas sem sofrer penalidade em suas jogadas de ataque Por fim, o CANIS REX só ganha um bônus, exceto pelo fato de que pelo menos metade do modelo é obscurecido pelo atirador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O CANIS REX pode retornar à fase de movimento e ainda disparar e / ou carregar no mesmo turno. Quando o CANIS REX cai para trás, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARRO, embora deva terminar seu movimento a mais de 1" de qualquer unidade inimiga. Além disso, o CANIS REX pode mover e disparar armas pesadas sem sofrer penalidade em suas testes de acerto Por fim, o CANIS REX só ganha um bônus, exceto pelo fato de que pelo menos metade do modelo é obscurecido pelo atirador.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="1168-311b-7592-1c1a" name="Chainbreaker" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7533,7 +7533,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um modelo IMPERIUM aliada estiver a voar enquanto estiver em até 6" do CANIS REX; em um 6 esse modelo não foge.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um modelo IMPERIUM aliada estiver a voar enquanto estiver a no máximo 6" do CANIS REX; em um 6 esse modelo não foge.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="cb04-ad51-1fc6-d00c" name="Sir Hekhtur" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7542,7 +7542,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se o CANIS REX for reduzido a 0 feridas, mas não explodir, configure Sir Hekhtur a menos de 3" dele antes que o CANIS REX seja removido. Ele é tratado como um passageiro desembarcando de um transporte destruído. Supondo que ele sobreviva, Sir Hekhtur usa seu próprio perfil acima e suas próprias palavras-chave abaixo e está armado com uma pistola Archotech.Esta unidade não é considerada como tendo sido destruída até Sir Hekhtur é morto.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se o CANIS REX for reduzido a 0 ponto de vida, mas não explodir, configure Sir Hekhtur a menos de 3" dele antes que o CANIS REX seja removido. Ele é tratado como um passageiro desembarcando de um transporte destruído. Supondo que ele sobreviva, Sir Hekhtur usa seu próprio perfil acima e suas próprias palavras-chave abaixo e está armado com uma pistola Archotech.Esta unidade não é considerada como tendo sido destruída até Sir Hekhtur é morto.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="c7a0-796e-58fc-6a25" name="Ion Shield (Canis Rex)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7940,7 +7940,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada, todos os seus modelos devem ser colocados em até 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada, todos os seus modelos devem ser colocados a no máximo 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="7cee-aebb-761d-b4cb" name="Armiger Helverin 1" profileTypeId="9005-1a1f-3971-8480" profileTypeName="Wound Track (Knights)">
@@ -9110,7 +9110,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o portador sofre 1 ferida mortal após todos os tiros da arma terem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o portador sofre 1 Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="6a35-2fc7-5cc7-8003" name="Plasma Decimator (Standard)" page="" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -9244,7 +9244,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="14"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano quando mirar unidades TITANIC com esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos quando mirar unidades TITANIC com esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9274,7 +9274,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-6"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="10"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar novamente os testes de resultados com falha ao segmentar unidades VEHICLE ou MONSTER com essa arma. Além disso, se esta arma infligir algum dano, a unidade alvo sofre mais ferimentos mortais D3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar novamente os testes de resultados com falha ao mirar em unidades VEHICLE ou MONSTER com essa arma. Além disso, se esta arma infligir algum dano, a unidade alvo sofre mais ferimentos mortais D3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9346,7 +9346,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Volte a jogar os rolos de 1 para unidades de &lt;ARMIGER CLASSE ARMIGER&gt; aliadas ​​em até 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Volte a jogar as testes de acerto de 1 para unidades de &lt;ARMIGER CLASSE ARMIGER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="c363-e03c-e058-92e8" name="Knight Preceptor 1" profileTypeId="9005-1a1f-3971-8480" profileTypeName="Wound Track (Knights)">
@@ -9857,7 +9857,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por rodada de batalha, no início de sua fase de Tiro ou fase de combate, você pode escolher uma unidade do exército do seu oponente que esteja em até 24" do portador. Até o final da fase, adicione 1 às jogadas de ataque. pelos modelos &lt;HOUSEHOLD&gt; ARMIGER CLASS contra aquela unidade inimiga, quando estão em até 6" do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por rodada de batalha, no início de sua fase de Tiro ou fase de combate, você pode escolher uma unidade do exército do seu oponente que esteja a no máximo 24" do portador. Até o final da fase, adicione 1 às testes de acerto. pelos modelos &lt;HOUSEHOLD&gt; ARMIGER CLASS contra aquela unidade inimiga, quando estão a no máximo 6" do portador.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9917,7 +9917,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Jogue um D6 no começo do seu turno. Em um 6 o portador recupera D3 feridas perdidas; em qualquer outro resultado, recupera 1 ferida perdida."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Jogue um D6 no começo do seu turno. Em um 6 o portador recupera D3 Pontos de Vida perdidas; em qualquer outro resultado, recupera 1 Ponto de Vida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9989,7 +9989,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="9"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Decimador Plasma do portador. Para cada jogada de 1, o portador sofre 1 ferida mortal após todos os tiros da arma terem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Decimador Plasma do portador. Para cada jogada de 1, o portador sofre 1 Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10179,7 +10179,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que o portador completar um movimento de carga, escolha uma unidade inimiga em até 1" disto e role um D6. Em um 2+ aquela unidade sofre D3 ferimentos mortais; em um 6 ela sofre 3 feridas mortais em vez disso.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que o portador completar um movimento de carga, escolha uma unidade inimiga a menos de 1" disto e role um D6. Em um 2+ aquela unidade sofre D3 ferimentos mortais; em um 6 ela sofre 3 Ferimentos Mortais em vez disso.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10220,7 +10220,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que o portador sofrer uma ferida mortal na fase psíquica do seu oponente; em um 4+ a ferida sendo rolada não está perdida."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que o portador sofrer uma Ferimento Mortal na fase psíquica do seu oponente; em um 4+ a ferida sendo rolada não está perdida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10308,7 +10308,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-rolar os testes de acerto de 1 na fase de combate para as modelos House Raven enquanto eles estiverem em até 6" do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-rolar os testes de acerto de 1 na fase de combate para as modelos House Raven enquanto eles estiverem a no máximo 6" do portador.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10357,7 +10357,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Aumente o dano característico das armas do portador em 1 para ataques feitos contra unidades inimigas contendo modelos com uma característica de Feridas de 10 ou mais. Aumente a característica de dano em 2 para ataques feitos contra unidades TITANIC."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Aumente o dano característico das armas do portador em 1 para ataques feitos contra unidades inimigas contendo modelos com uma característica de Pontos de Vida de 10 ou mais. Aumente a característica de dano em 2 para ataques feitos contra unidades TITANIC."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10403,7 +10403,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Canhão de Conflagração do portador. Esta arma atinge automaticamente seu alvo. Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Canhão de Conflagração do portador. Esta arma atinge automaticamente seu alvo. Você pode re-rolar rolagens de dano malsucedidas para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10458,7 +10458,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O jogador adversário deve rolar um D6 extra ao fazer um teste de Moral para uma unidade em até 12" do portador e usar o resultado mais alto.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O jogador adversário deve rolar um D6 extra ao fazer um teste de Moral para uma unidade a no máximo 12" do portador e usar o resultado mais alto.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10499,7 +10499,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 às jogadas de acerto feitas para os ataques do usuário na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes de acerto feitas para os ataques do usuário na fase de combate."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10605,7 +10605,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Pod de foguete de lança-tempestade. Você pode re-lançar as jogadas de acerto falhadas para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Pod de foguete de lança-tempestade. Você pode re-rolar as jogadas de acerto malsucedidos para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10640,7 +10640,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 à característica de Liderança de unidades IMPERIUM amistosas em até 6" do portador. Além disso, se o portador estiver dentro do alcance de um marcador objetivo (conforme especificado pela missão), ele controla esse marcador objetivo mesmo se houver mais modelos inimigos dentro do alcance do mesmo marcador objetivo.Se uma unidade inimiga dentro do alcance do mesmo marcador objetivo tiver uma habilidade similar, então o marcador objetivo é controlado pelo jogador que tem a maioria dos modelos dentro do alcance normal - neste caso, no entanto , o portador conta como 10 modelos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 à característica de Liderança de unidades IMPERIUM amistosas a no máximo 6" do portador. Além disso, se o portador estiver dentro do alcance de um marcador objetivo (conforme especificado pela missão), ele controla esse marcador objetivo mesmo se houver mais modelos inimigos dentro do alcance do mesmo marcador objetivo.Se uma unidade inimiga dentro do alcance do mesmo marcador objetivo tiver uma habilidade similar, então o marcador objetivo é controlado pelo jogador que tem a maioria dos modelos dentro do alcance normal - neste caso, no entanto , o portador conta como 10 modelos.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10767,7 +10767,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="8"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Substitui a Manopla de Trovoada do portador. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga em até 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Substitui a Manopla de Trovoada do portador. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10807,7 +10807,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Chainsword Reaper do portador. Re-role os lançamentos de 1 para esta arma. Se o portador tiver a Tradição Doméstica da Fúria Fria, você poderá re-rolar todos os testes de acerto falhados para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Chainsword Reaper do portador. Re-role os lançamentos de 1 para esta arma. Se o portador tiver a Tradição Doméstica da Fúria Fria, você poderá re-rolar todos os testes de acerto malsucedidos para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10878,7 +10878,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O veículo recupera D3 feridas perdidas. Se há um TECH-PRIEST ou TECHMARINE de seu exército no Sacristan Forgeshrine, e eles não usaram sua habilidade para consertar outro veículo neste turno, eles podem ajudar no ritual de conserto ao invés de usar essa habilidade neste turno. Se o fizerem, o veículo recupera 3 feridas perdidas em vez disso."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O veículo recupera D3 Pontos de Vida. Se há um TECH-PRIEST ou TECHMARINE de seu exército no Sacristan Forgeshrine, e eles não usaram sua habilidade para consertar outro veículo neste turno, eles podem ajudar no ritual de conserto ao invés de usar essa habilidade neste turno. Se o fizerem, o veículo recupera 3 Pontos de Vida em vez disso."/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="9b8e-54e0-915d-de0d" name="Ritual of Reloading" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10908,7 +10908,7 @@
      <modifiers/>
      <description description="Depois que ele é colocado em jogo, um Sarcistan Forgeshrine é tratado como um recurso de terreno do Setor Mecânico. Ele não pode se mover por qualquer razão, não é tratado como um modo aliada ou inimigo e não pode ser alvo ou afetado por quaisquer ataques ou habilidades.
 
-A menos que possam FLY, VEHICLES, MONSTERS, CAVALRY e BIKERS só podem ser configurados e terminam seus movimentos no piso térreo de uma Estrutura Mecânica do Setor. A menos que possam FLY, INFANTRY, BEASTS e SWARMS, devem escalar escadas, vigas ou paredes para subir ou descer entre diferentes níveis de uma estrutura do Sector Mecânico. A INFANTARIA também é supostamente capaz de atravessar vigas, contrafortes e correntes suspensas, e assim passar por elas sem impedimentos.
+A menos que possam FLY, VEHICLES, MONSTERS, CAVALRY e BIKERS só podem ser colocados em jogo e terminam seus movimentos no piso térreo de uma Estrutura Mecânica do Setor. A menos que possam FLY, INFANTRY, BEASTS e SWARMS, devem escalar escadas, vigas ou paredes para subir ou descer entre diferentes níveis de uma estrutura do Sector Mecânico. A INFANTARIA também é supostamente capaz de atravessar vigas, contrafortes e correntes suspensas, e assim passar por elas sem impedimentos.
 
 As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mecânico recebem o bônus em suas proteções de blindagem por estarem em cobertura (outras unidades que estão inteiramente na estrutura recebem este bônus somente se pelo menos 50% de cada modelo for obscurecido do ponto de vista de a unidade de tiro).">
       After it is set up, a Sarcistan Forgeshrine is treated as a Sector Mechanicus terrain feature.  It cannot move for any reason, is not treated as a friendly or enemy mode, and cannot be targeted or affected by any attacks or abilities.
@@ -11856,7 +11856,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Trate qualquer dano menor que 6 feito com esta arma como 6. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga em até 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Trate qualquer dano menor que 6 feito com esta arma como 6. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -13261,7 +13261,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem 4 + poupe invulnerável contra ataques de tiros, e um 5 + invulnerável salvar contra ataques corpo a corpo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem 4+ poupe invulnerável contra ataques de tiros, e um 5+ invulnerável salvar contra ataques corpo a corpo."/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="5b05-e703-5860-0f1e" name="Macro-Extinction Protocols" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13279,7 +13279,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O modelo tem um 5 + invulnerável salvar aumentando para 4 + invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC em até 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O modelo tem um 5+ invulnerável salvar aumentando para 4+ invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC a menos de 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3db7-ad30-051c-f1c6" name="Empyreal Preysight" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13288,7 +13288,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Unidades que não VEÍCULOS não podem reivindicar o bônus +1 para a sua poupança por estar em cobertura contra este modelo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Units other than VEHICLES cannot claim the bonus +1 to their save for being in cover against this model."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="a8e9-4bb4-443b-2332" name="Ion Shield (Armiger)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13326,7 +13326,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Imediatamente após o seu Warlord completar um movimento de carga, escolha uma unidade inimiga em até 1" e role um D6: em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Imediatamente após o seu Warlord completar um movimento de carga, escolha uma unidade inimiga a menos de 1" e role um D6: em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="47ce-3aba-3019-8142" name="Duty of the Forsworn" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13371,7 +13371,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Escolha uma arma (não uma herança das casas nobres) com a qual seu Warlord esteja equipado. Cada vez que você fizer um teste de ferimento 6 não modificado para aquela arma, o alvo sofre uma ferida mortal além do dano normal."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Escolha uma arma (não uma herança das casas nobres) com a qual seu Warlord esteja equipado. Cada vez que você fizer um teste de ferimento 6 não modificado para aquela arma, o alvo sofre uma Ferimento Mortal além do dano normal."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="aede-42a1-aac1-d84e" name="Adamantium Knight" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13398,7 +13398,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Seu Warlord tem 4 + save invulnerável contra armas de longo alcance."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Seu Warlord tem 4+ save invulnerável contra armas de longo alcance."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="b78a-733c-e458-2099" name="Champion of the Household" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13407,7 +13407,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Você pode re-lançar rolagens de cobranças com falha para seu Warlord."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Você pode re-rolar rolagens de cargas com falha para seu Warlord."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="316e-ccd3-fa69-dcf6" name="Master of the Trial" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13434,7 +13434,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='As unidades inimigas devem subtrair 1 de sua característica de Liderança enquanto estiverem em até 12" do seu Senhor da Guerra. Enquanto estiverem em até 6" do seu Senhor da Guerra, subtraia 2 da Liderança deles.'/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='As unidades inimigas devem subtrair 1 de sua característica de Liderança enquanto estiverem a no máximo 12" do seu Senhor da Guerra. Enquanto estiverem a no máximo 6" do seu Senhor da Guerra, subtraia 2 da Liderança deles.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="d965-eda5-7264-bf82" name="Firestorm Protocols" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13452,7 +13452,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Jogue um dado toda vez que um modelo com essa Tradição Doméstica perder uma ferida, a menos que essa ferida tenha sido perdida como resultado de uma ferida mortal; em um 6 a ferida sendo rolada não está perdida."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Jogue um dado toda vez que um modelo com essa Tradição Doméstica perder uma ferida, a menos que essa ferida tenha sido perdida como resultado de uma Ferimento Mortal; em um 6 a ferida sendo rolada não está perdida."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="fd9a-9acd-1f1e-2d63" name="Relentless Advance" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13470,7 +13470,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Você pode re-rolar os testes de acerto falhados na fase de combate para um modelo com essa Tradição dos Agregados Familiares durante qualquer turno em que cobrou, foi cobrado ou realizou uma Intervenção Heroica. Além disso, você pode re-rolar todos os testes de acerto falhados na fase de combate para um modelo com esta Tradição dos Agregados Familiares contra Unidades TITANICAS."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Você pode re-rolar os testes de acerto malsucedidos na fase de combate para um modelo com essa Tradição dos Agregados Familiares durante qualquer turno em que realizou uma carga, sofreu uma carga ou realizou uma Intervenção Heroica. Além disso, você pode re-rolar todos os testes de acerto malsucedidos na fase de combate para um modelo com esta Tradição dos Agregados Familiares contra Unidades TITANICAS."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="2fce-ca27-e931-e29b" name="Close-Quarters Killers" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13479,7 +13479,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Adicione 1 a acertar jogadas na fase de combate para ataques feitos por um modelo com esta Tradição Doméstica durante qualquer turno em que cobrou, foi cobrado ou realizou uma Intervenção Heróica."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Adicione 1 a acertar jogadas na fase de combate para ataques feitos por um modelo com esta Tradição Doméstica durante qualquer turno em que realizou uma carga, sofreu uma carga ou realizou uma Intervenção Heróica."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="a2ac-9014-671c-2f43" name="Glory of the Charge" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13488,7 +13488,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Adicione 1 à característica Ataques de um modelo com esta Tradição dos Agregados Familiares durante qualquer turno em que ele tenha cobrado ou realizado uma Intervenção Heróica. Além disso, um modelo com essa tradição doméstica pode executar intervenções heróicas como se fosse um personagem."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Adicione 1 à característica Ataques de um modelo com esta Tradição dos Agregados Familiares durante qualquer turno em que ele tenha realizado uma carga ou uma Intervenção Heróica. Além disso, um modelo com essa tradição doméstica pode executar intervenções heróicas como se fosse um personagem."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="1962-f864-3a6b-7529" name="Hunters of the Foe" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13497,7 +13497,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Re-roll de enrolamentos de 1 na fase de combate para ataques feitos por modelos com esta Tradição dos Agregados Familiares contra unidades que só contenham modelos com uma característica de Feridas de 12 ou menos."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Re-role testes para ferir de 1 na fase de combate para ataques feitos por modelos com esta Tradição dos Agregados Familiares contra unidades que só contenham modelos com uma característica de Pontos de Vida de 12 ou menos."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="8452-4728-7f81-9a8a" name="Oathkeepers" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13524,7 +13524,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="Acrescenta 1 às características de Feridas e Liderança do Freeblade"/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="Acrescenta 1 às características de Pontos de Vida e Liderança do Freeblade"/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="dc41-a707-e931-05a4" name="Legendary Hero" profileTypeId="7cbd-dd14-7b99-0b84" profileTypeName="Quality">
@@ -13542,7 +13542,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value='Quando esta Qualidade é escolhida ou gerada, role um D6: em um 1-3 add 2" para esta característica do Move do Freeblade; em um 4-5 melhore sua característica Weapon Skill em 1 (por exemplo, WS3 + se torna WS2 +); em um 6 melhore seu Habilidade balística característica de 1 (por exemplo, BS3 + se torna BS2 +).'/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value='Quando esta Qualidade é escolhida ou gerada, role um D6: em um 1-3 add 2" para esta característica do Move do Freeblade; em um 4-5 melhore sua característica Weapon Skill em 1 (por exemplo, WS3+ se torna WS2+); em um 6 melhore seu Habilidade balística característica de 1 (por exemplo, BS3+ se torna BS2+).'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="3ffb-3ead-539b-caa3" name="Driven to Slaughter" profileTypeId="6da8-0171-efd2-dd94" profileTypeName="Burden">
@@ -13560,7 +13560,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value='Este Freeblade pode executar Intervenções Heróicas como se fosse um PERSONAGEM, ele pode fazê-lo se qualquer unidade inimiga estiver em até 6" ao final da fase de carga do inimigo, e pode mover até 6" ao fazer isso.'/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value='Este Freeblade pode executar Intervenções Heróicas como se fosse um PERSONAGEM, ele pode fazê-lo se qualquer unidade inimiga estiver a no máximo 6" ao final da fase de carga do inimigo, e pode mover até 6" ao fazer isso.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="7253-653a-95fa-449d" name="Weary Machine Spirit" profileTypeId="6da8-0171-efd2-dd94" profileTypeName="Burden">
@@ -13578,7 +13578,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="4b0a-bc39-def5-9052" name="Description" value='Enquanto este Burden se aplica, cada movimento que o Freeblade faz deve aproximá-lo do modelo inimigo mais próximo, e - a menos que esteja a 1" de uma unidade inimiga - ele deve declarar uma carga contra cada unidade inimiga em até 12" dele sua fase de cobrança.'/>
+    <characteristic characteristicTypeId="4b0a-bc39-def5-9052" name="Description" value='Enquanto este Burden se aplica, cada movimento que o Freeblade faz deve aproximá-lo do modelo inimigo mais próximo, e - a menos que esteja a 1" de uma unidade inimiga - ele deve declarar uma carga contra cada unidade inimiga a no máximo 12" dele sua fase de carga.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="14b1-b99d-f951-6768" name="Obsessed with Vengeance" profileTypeId="6da8-0171-efd2-dd94" profileTypeName="Burden">
@@ -13605,7 +13605,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="4b0a-bc39-def5-9052" name="Description" value="Embora este Burden se aplique, o Freeblade não pode ser afetado por qualquer Estratagema (isso inclui usar o Stratagem de Re-rolagem de Comando para re-lançar um dado para este Freeblade)."/>
+    <characteristic characteristicTypeId="4b0a-bc39-def5-9052" name="Description" value="Embora este Burden se aplique, o Freeblade não pode ser afetado por qualquer Estratagema (isso inclui usar o Stratagem de Re-rolagem de Comando para re-rolar um dado para este Freeblade)."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="f468-68a3-63ef-a922" name="Sworn to a Quest" profileTypeId="7cbd-dd14-7b99-0b84" profileTypeName="Quality">
@@ -13623,7 +13623,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="O re-roll atinge os testes de 1 para os ataques do Freeblade contra unidades contendo 10 ou mais modelos."/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="re-role os testes de acerto de 1 para os ataques do Freeblade contra unidades contendo 10 ou mais modelos."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="7476-ae76-f808-5391" name="Dual Plasma Core Explosion" profileTypeId="6535-c5b9-7431-63ec" profileTypeName="Explosion">
@@ -13635,7 +13635,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
     <characteristic characteristicTypeId="3684-f9d8-8984-a2bc" name="Dice Roll" value="6+"/>
     <characteristic characteristicTypeId="0cfb-ee72-50d6-0cfb" name="Distance" value='2D6"/3D6"'/>
     <characteristic characteristicTypeId="a56d-fa6c-e1ee-bbe0" name="Mortal Wounds" value="D6"/>
-    <characteristic characteristicTypeId="b93e-b54e-b204-2ee2" name="Description" value='Se este modelo for reduzido a 0 feridas, role 2D6 antes de removê-lo do campo de batalha. Se você rolar um 6 em cada um dos dados, ele explodirá e cada unidade em até 2D6" sofrerá ferimentos mortais D6; se você rolar um 6 em ambos os dados, cada unidade em até 3D6" sofrerá ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="b93e-b54e-b204-2ee2" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role 2D6 antes de removê-lo do campo de batalha. Se você rolar um 6 em cada um dos dados, ele explodirá e cada unidade a no máximo 2D6" sofrerá ferimentos mortais D6; se você rolar um 6 em ambos os dados, cada unidade a no máximo 3D6" sofrerá ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="686d-11be-ed9b-a649" name="Tenacious Survivor" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13653,7 +13653,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Unidades aliadas ​​em até 6" deste Warlord podem adicionar 1 à sua característica de liderança.'/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Unidades aliadas ​​a no máximo 6" deste Warlord podem adicionar 1 à sua característica de liderança.'/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="d1dd-c7ad-e0fd-31ed" name="Legendary Fighter" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13671,7 +13671,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Adicione 2 a todas as jogadas avançadas e de carga feitas para unidades &lt;HOUSEHOLD&gt; aliadas ​​em até 6" do seu Warlord.'/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Adicione 2 a todas as jogadas avançadas e de carga feitas para unidades &lt;HOUSEHOLD&gt; aliadas ​​a no máximo 6" do seu Warlord.'/>
    </characteristics>
   </profile>
  </sharedProfiles>

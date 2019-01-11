@@ -1148,7 +1148,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você lança um teste de acerto de 6+ para esta arma ao mirar em um (Psyker) ou (Daemon), o alvo sofre uma ferida mortal em vez do dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você lança um teste de acerto de 6+ para esta arma ao mirar em um (Psyker) ou (Daemon), o alvo sofre uma Ferimento Mortal em vez do dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2283,7 +2283,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description="Este modelo tem um 4 + save invulnerável.">
+     <description description="Este modelo tem um 4+ save invulnerável.">
       This model has a 4+ invulnerable save.
      </description>
     </rule>
@@ -2574,7 +2574,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description="Todos os modelos nesta unidade têm um 5 + save invulnerável.">
+     <description description="Todos os modelos nesta unidade têm um 5+ save invulnerável.">
       All models in this unit have a 5+ invulnerable save.
      </description>
     </rule>
@@ -2599,7 +2599,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description='Friendly Grey Knights unidades em até 6" de qualquer banners sagrados adicionar 1 às suas características de liderança. Além disso, os modelos de unidades de infantaria Grey Knights aliadas ​​que estão em até 6" de quaisquer bandeiras sagradas quando eles lutam podem fazer 1 ataque adicional nessa fase.'>
+     <description description='Friendly Grey Knights unidades a no máximo 6" de qualquer banners sagrados adicionar 1 às suas características de liderança. Além disso, os modelos de unidades de infantaria Grey Knights aliadas ​​que estão a no máximo 6" de quaisquer bandeiras sagradas quando eles lutam podem fazer 1 ataque adicional nessa fase.'>
       Friendly Grey Knights units within 6" of any sacred banners add 1 to their Leadership characteristics. In addition, models from friendly Grey Knights Infantry units that are within 6" of any sacred banners when they fight can make 1 additional attack that phase.
      </description>
     </rule>
@@ -2653,7 +2653,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description="Em cada um dos seus turnos, você pode escolher re-rolar um único golpe falhado ou rolagem de falha, ou um único teste de falta falhado para o Irmão-Capitão Stern. Entretanto, se você fizer isso, seu oponente pode re-rolar um único golpe falhado ou rolagem de falha, ou um único teste de falha falhado para um de seus modelos no próximo turno.">
+     <description description="Em cada um dos seus turnos, você pode escolher re-rolar um único teste de acerto falhado ou rolagem de falha, ou um único teste de falta falhado para o Irmão-Capitão Stern. Entretanto, se você fizer isso, seu oponente pode re-rolar um único teste de acero falhado ou rolagem de falha, ou um único teste de falha falhado para um de seus modelos no próximo turno.">
       In each of your turns, you can choose to re-roll a single failed hit or wound roll, or a single failed saving throw for Brother-Captain Stern. However, if you do so, your opponent can re-roll a single failed hit or wound roll, or a single failed saving throw for one of their models in their next turn.
      </description>
     </rule>
@@ -6650,7 +6650,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description='No final da sua fase de movimento, o boticário pode tentar curar ou reviver um único modelo. Selecione uma unidade de Infantaria Cinzenta Cavaleiro em até 3" do Boticário. Se essa unidade contiver um modelo ferido, ela recuperará imediatamente as feridas perdidas D3. Se a unidade escolhida não contiver modelos feridos, mas um ou mais de seus modelos foram mortos durante a batalha Rola um D6. Em um 4+, um único modelo morto é retornado para a unidade com 1 ferida restante.Se um Boticário não reviver um modelo desta maneira, ele não pode fazer mais nada pelo resto do turno (atirar, carregar, luta, etc), como ele recupera a semente genética do guerreiro caído.Uma unidade só pode ser o alvo da habilidade Narthecium uma vez em cada turno.'>
+     <description description='No final da sua fase de movimento, o boticário pode tentar curar ou reviver um único modelo. Selecione uma unidade de Infantaria Cinzenta Cavaleiro a no máximo 3" do Boticário. Se essa unidade contiver um modelo ferido, ela recuperará imediatamente as D3 Pontos de Vida. Se a unidade escolhida não contiver modelos feridos, mas um ou mais de seus modelos foram mortos durante a batalha Rola um D6. Em um 4+, um único modelo morto é retornado para a unidade com 1 ferida restante.Se um Boticário não reviver um modelo desta maneira, ele não pode fazer mais nada pelo resto do turno (atirar, carregar, luta, etc), como ele recupera a semente genética do guerreiro caído.Uma unidade só pode ser o alvo da habilidade Narthecium uma vez em cada turno.'>
       At the end of your Movement phase, the Apothecary can attempt to heal or revive a single model. Select a friendly Grey Knight Infantry unit within 3" of the Apothecary. If that unit contains a wounded model, it immediately regains D3 lost wounds. If the chosen unit contains no wounded models but one or more of its models have been slain during the battle, roll a D6. On a 4+ a single slain model is returned to the unit with 1 wound remaining. If an Apothecary fails to revive a model in this manner he can do nothing else for the remainder of the turn (shoot, charge, fight, etc) as he recovers the gene-seed of the fallen warrior. A unit can only be the target of the Narthecium ability once in each turn.
      </description>
     </rule>
@@ -10401,7 +10401,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo com um escudo contra tempestades tem um save invulnerável de 3+."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo com um Storm shield tem um save invulnerável de 3+."/>
          </characteristics>
         </profile>
        </profiles>
@@ -10737,7 +10737,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer jogada de um 6 feito com este ataque automaticamente inflige mais feridas mortais D3 no alvo."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer jogada de um 6 feito com este ataque automaticamente inflige mais Ferimentos Mortais D3 no alvo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11081,7 +11081,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description='Se este modelo for reduzido a 0, um D6 rola antes de removê-lo do battlefied; em um 6 ele explode e cada unidade em até 6" sofre ferimentos mortais D6.'>
+     <description description='Se este modelo for reduzido a 0, um D6 rola antes de removê-lo do battlefied; em um 6 ele explode e cada unidade a no máximo 6" sofre ferimentos mortais D6.'>
       If this model is reduced to 0 wounds rolls a D6 before removing it from the battlefied; on a 6 it explodes and each unit within 6" suffers D6 mortal wounds.
      </description>
     </rule>
@@ -11548,7 +11548,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele cai e cada unidade em até 6" sofre 2D6 feridas mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele cai e cada unidade a no máximo 6" sofre 2D6 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11730,7 +11730,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Gunship de Cavaleiro Cinzento Cavaleiro de Trovão equipado com bombas de fragmentação Thunderhawk pode fazer um bombardeio contra uma única unidade inimiga que ele moveu durante uma de suas fases de Movimento. Depois que o Thunderhawk Gunship se moveu, escolha uma unidade inimiga que esta sobrevoando. Role 3D6 para cada (Veículo) ou (Monstro), ou um D6 para qualquer outro modelo, até um máximo de 12D6. Para cada rolo de 5+, a unidade sofre uma ferida mortal. Unidades que consistem apenas em (Personagens) podem não ser alvo desta habilidade."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Gunship de Cavaleiro Cinzento Cavaleiro de Trovão equipado com bombas de fragmentação Thunderhawk pode fazer um bombardeio contra uma única unidade inimiga que ele moveu durante uma de suas fases de Movimento. Depois que o Thunderhawk Gunship se moveu, escolha uma unidade inimiga que esta sobrevoando. Role 3D6 para cada (Veículo) ou (Monstro), ou um D6 para qualquer outro modelo, até um máximo de 12D6. Para cada jogada de 5+, a unidade sofre uma Ferimento Mortal. Unidades que consistem apenas em (Personagens) podem não ser alvo desta habilidade."/>
          </characteristics>
         </profile>
        </profiles>
@@ -12803,7 +12803,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description="Este modelo tem um 4 + save invulnerável.">
+     <description description="Este modelo tem um 4+ save invulnerável.">
       This model has a 4+ invulnerable save.
      </description>
     </rule>
@@ -15453,7 +15453,7 @@
        <rules/>
        <infoLinks/>
        <modifiers/>
-       <description description="Você pode adicionar 1 à rolagem do seu Warlord na fase de combate se ele tiver cobrado com sucesso neste turno.">
+       <description description="Você pode adicionar 1 ao teste para ferir do seu Warlord na fase de combate se ele tiver realizado uma carga com sucesso neste turno.">
         You can add 1 to wound rolls for your Warlord in the Fight phase if he successfully charged this turn.
        </description>
       </rule>
@@ -15495,7 +15495,7 @@
        <rules/>
        <infoLinks/>
        <modifiers/>
-       <description description='As unidades Friendly Grey Knights que estão em até 6" do seu Warlord passam automaticamente nos testes de Moral.'>
+       <description description='As unidades Friendly Grey Knights que estão a no máximo 6" do seu Warlord passam automaticamente nos testes de Moral.'>
         Friendly Grey Knights units that are within 6" of your Warlord automatically pass Morale tests.
        </description>
       </rule>
@@ -15537,7 +15537,7 @@
        <rules/>
        <infoLinks/>
        <modifiers/>
-       <description description='Você pode re-rolar os lançamentos de faltas para o seu Warlord e unidades aliadas ​​de Grey Knights que estejam em até 6" dele no início da fase de cobrança.'>
+       <description description='Você pode re-rolar os lançamentos de faltas para o seu Warlord e unidades aliadas ​​de Grey Knights que estejam a no máximo 6" dele no início da fase de carga.'>
         You can re-roll failed charge rolls for your Warlord and friendly Grey Knights units that are within 6" of him at the start of the Charge phase.
        </description>
       </rule>
@@ -15668,7 +15668,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Se esta unidade atacar qualquer Daemon na fase de combate, você poderá re-lançar rolagens de falha com sucesso nesses ataques.">
+   <description description="Se esta unidade atacar qualquer Daemon na fase de combate, você poderá re-rolar rolagens de falha com sucesso nesses ataques.">
     If this unit attacks any Daemon in the Fight phase, you can re-roll failed wound rolls for those attacks.
    </description>
   </rule>
@@ -15677,7 +15677,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Durante a implantação, você pode colocar esta unidade em uma câmara de tele-portaria em vez de colocá-la no campo de batalha. No final de qualquer uma das fases do seu Movimento, esta unidade pode se teletransportar para a batalha - configure-a em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'>
+   <description description='Durante o deploy, você pode colocar esta unidade em uma câmara de tele-portaria em vez de colocá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, esta unidade pode se teletransportar para a batalha - configure-a em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'>
     During deployment, you can set up this unit in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases this unit can teleport into battle - set it up anywhere on the battlefield that is more than 9" away from any enemy models.
    </description>
   </rule>
@@ -15686,7 +15686,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Quando um aliada Cavaleiro Cinza unidades em até 6" de um (Brother-Capitães) manifesta o poder Smite, o dobro do seu alcance.'>
+   <description description='Quando um aliada Cavaleiro Cinza unidades a no máximo 6" de um (Brother-Capitães) manifesta o poder Smite, o dobro do seu alcance.'>
     When a friendly Grey Knights units within 6" of a (Brother-Captains) manifests the Smite power, double its range.
    </description>
   </rule>
@@ -15695,7 +15695,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-lançar as jogadas de 1 para unidades aliadas ​​(Grey Knights) em até 6" deste modelo.'>
+   <description description='Você pode re-rolar 1s nos testes de acerto para unidades aliadas ​​(Grey Knights) a no máximo 6" deste modelo.'>
     You can re-roll hit rolls of 1 for friendly (Grey Knights) units within 6" of this model.
    </description>
   </rule>
@@ -15704,7 +15704,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Quando esta unidade manifesta o poder psíquico Smite, ela tem um alcance de 12" ao invés de 18". Além disso, a unidade alvo sofre apenas 1 ferida mortal em vez de D3 (independentemente de o resultado do teste psíquico ser maior que 10) - a menos que o alvo seja um Daemon, caso em que sofra 3 feridas mortais em vez de D3.'>
+   <description description='Quando esta unidade manifesta o poder psíquico Smite, ela tem um alcance de 12" ao invés de 18". Além disso, a unidade alvo sofre apenas 1 Ferimento Mortal em vez de D3 (independentemente de o resultado do teste psíquico ser maior que 10) - a menos que o alvo seja um Daemon, caso em que sofra 3 Ferimentos Mortais em vez de D3.'>
     When this unit manifests the Smite psychic power, it has a range of 12" rather than 18". Additionally, the target unit suffers only 1 mortal wound rather than D3 (whether or not the result of the Psychic test is more than 10) - unless the target is a Daemon in which case it suffers 3 mortal wounds instead of D3.
    </description>
   </rule>
@@ -15731,7 +15731,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Todos os modelos nesta unidade têm um 5 + save invulnerável.">
+   <description description="Todos os modelos nesta unidade têm um 5+ save invulnerável.">
     All models in this unit have a 5+ invulnerable save.
    </description>
   </rule>
@@ -15740,7 +15740,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Quando esta unidade manifesta o poder psíquico Smite, tem apenas um alcance de 3" , mas inflige D6 feridas mortais em vez de D3 (seja ou não o resultado do teste psíquico maior que 10).'>
+   <description description='Quando esta unidade manifesta o poder psíquico Smite, tem apenas um alcance de 3" , mas inflige D6 Ferimentos Mortais em vez de D3 (seja ou não o resultado do teste psíquico maior que 10).'>
     When this unit manifests the Smite psychic power, it only has a range of 3", but it inflicts D6 mortal wounds instead of D3 (whether or not the result of the psychic test is more than 10).
    </description>
   </rule>
@@ -15758,7 +15758,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que os modelos embarcados desembarquem. Em um 6 ele explode, e cada unidade em até 6" sofre D6 feridas morais.'>
+   <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que os modelos embarcados desembarquem. Em um 6 ele explode, e cada unidade a no máximo 6" sofre D6 Ferimentos Mortais.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before embarked models disembark. On a 6 it explodes, and each unit within 6" suffers D6 moral wounds.
    </description>
   </rule>
@@ -15767,7 +15767,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Role um D6 toda vez que este modelo terminar uma jogada de carga em até 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'>
+   <description description='Role um D6 toda vez que este modelo terminar uma jogada de carga a menos de 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'>
     Roll a D6 each time this model finishes a charge move within 1" of an enemy unit; on a 	4+ that unit suffers D3 mortal wounds.
    </description>
   </rule>
@@ -15785,7 +15785,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='No final da sua fase de movimento, este modelo pode reparar um único veículo (Capítulo) em até 1" . Esse modelo recupera as feridas perdidas D3. Um modelo só pode ser reparado uma vez por turno.'>
+   <description description='No final da sua fase de movimento, este modelo pode reparar um único veículo (Capítulo) a menos de 1" . Esse modelo recupera as D3 Pontos de Vida. Um modelo só pode ser reparado uma vez por turno.'>
     At the end of your Movement phase this model can repair a single (Chapter) Vehicle within 1". That model regains D3 lost wounds. A model can only be repaired once per turn.
    </description>
   </rule>
@@ -15794,7 +15794,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Servidores melhoram tanto sua habilidade de arma e habilidade de balística para 4 +, liderança para 9, enquanto eles estão em até 6" de qualquer Techmarines aliada.'>
+   <description description='Servidores melhoram tanto sua habilidade de arma e habilidade de balística para 4+, liderança para 9, enquanto eles estão a no máximo 6" de qualquer Techmarines aliada.'>
     Servitors improve both their Weapon Skill and Ballistic Skill to 4+, Leadership to 9, whilst they are within 6" of any friendly Techmarines.
    </description>
   </rule>
@@ -15803,7 +15803,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode adicionar 1 aos testes Deny the Witch que você usa para este modelo contra unidades Psyker inimigas em até 12" .'>
+   <description description='Você pode adicionar 1 aos testes Deny the Witch que você usa para este modelo contra unidades Psyker inimigas a no máximo 12" .'>
     You can add 1 to Deny the Witch tests you take for this model against enemy Psyker units within 12".
    </description>
   </rule>
@@ -15857,7 +15857,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Role um D6 toda vez que este modelo terminar uma jogada de carga em até 1" de uma unidade inimiga; em um 4+ essa unidade sofre 1 ferimento mortal, aumentando para D3 ferimentos mortais se aquela unidade for uma (Psyker).'>
+   <description description='Role um D6 toda vez que este modelo terminar uma jogada de carga a menos de 1" de uma unidade inimiga; em um 4+ essa unidade sofre 1 ferimento mortal, aumentando para D3 ferimentos mortais se aquela unidade for uma (Psyker).'>
     Roll a D6 each time this model finished a charge move within 1" of an enemy unit; on a 4+ that unit suffers 1 mortal wound, increasing to D3 mortal wounds if that unit is a (Psyker).
    </description>
   </rule>
@@ -15875,7 +15875,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo tem um teleporter Dreadknight, então durante a implantação, você pode configurá-lo em uma câmara de teleportarium em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode se teletransportar para a batalha - configure-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância dos modelos inimigos.'>
+   <description description='Se este modelo tem um teleporter Dreadknight, então durante a implantação, você pode colocá-lo em uma câmara de teleportarium em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode se teletransportar para a batalha - configure-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância dos modelos inimigos.'>
     If this model has a Dreadknight teleporter, then during deployment, you can set it up in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases this model can teleport into battle - set it up anywhere on the battlefield that is more than 9" away from enemy models.
    </description>
   </rule>
@@ -15893,7 +15893,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Durante a implantação, você pode colocar o Lorde Kaldor Draigo na urdidura, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, Lord Kaldor Draigo pode emergir da urdidura - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'>
+   <description description='Durante o deploy, você pode colocar o Lorde Kaldor Draigo na urdidura, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, Lord Kaldor Draigo pode emergir da urdidura - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'>
     During deployment, you can set up Lord Kaldor Draigo in the warp instead of placing him on the battlefield. At the end of any of your Movement phases Lord Kaldor Draigo can emerge from the warp – set him up anywhere on the battlefield that is more than 9" away from any enemy models.
    </description>
   </rule>
@@ -15902,7 +15902,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Quando uma unidade aliada (GREY KNIGHTS) em até 6" do Lorde Kaldor Draigo fizer um ataque contra uma unidade (DAEMON) na fase de combate, você pode re-lançar as jogadas de dano daquela unidade.'>
+   <description description='Quando uma unidade aliada (GREY KNIGHTS) a no máximo 6" do Lorde Kaldor Draigo fizer um ataque contra uma unidade (DAEMON) na fase de combate, você pode re-rolar as jogadas de dano daquela unidade.'>
     When a friendly (GREY KNIGHTS) unit within 6" of Lord Kaldor Draigo makes an attack against a (DAEMON) unit in the Fight phase, you can re-roll damage rolls for that unit.
    </description>
   </rule>
@@ -15911,7 +15911,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-rolar rolagens de sucesso para unidades de GREY KNIGHTS que estejam em até 6" de Lord Kaldor Draigo.'>
+   <description description='Você pode re-rolar testes de acerto para unidades de GREY KNIGHTS que estejam a no máximo 6" de Lord Kaldor Draigo.'>
     You can re-roll failed hit rolls for friendly GREY KNIGHTS units that are within 6" of Lord Kaldor Draigo.
    </description>
   </rule>
@@ -15920,7 +15920,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Ao manifestar ou negar um poder psíquico, primeiro selecione um modelo na unidade - meça o alcance, a visibilidade, etc. deste modelo. Se a unidade sofrer Perigos da Urdidura, ela sofrerá D3 ferimentos mortais como descrito nas regras centrais, mas unidades em até 6" sofrerão apenas dano se os Perigos da Urdidura causarem a morte do último modelo na unidade manifestante.'>
+   <description description='Ao manifestar ou negar um poder psíquico, primeiro selecione um modelo na unidade - meça o alcance, a visibilidade, etc. deste modelo. Se a unidade sofrer Perigos da Urdidura, ela sofrerá D3 ferimentos mortais como descrito nas regras centrais, mas unidades a no máximo 6" sofrerão apenas dano se os Perigos da Urdidura causarem a morte do último modelo na unidade manifestante.'>
     When manifesting or denying a psychic power, first select a model in the unit - measure range, visibility, etc. from this model. If the unit suffers Perils of the Warp, it suffers D3 mortal wounds as described in the core rules, but units within 6" with only suffer damage if the Perils of the Warp cause the last model in the manifesting unit to be slain.
    </description>
   </rule>
@@ -15938,7 +15938,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Este modelo tem um 4 + save invulnerável.">
+   <description description="Este modelo tem um 4+ save invulnerável.">
     This model has a 4+ invulnerable save.
    </description>
   </rule>
@@ -15947,7 +15947,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-rolar rolagens de sucesso falhadas na fase de combate para unidades aliadas ​​de Cavaleiro Cinza em até 6" deste modelo.'>
+   <description description='Você pode re-rolar testes de acerto malsucedidos na fase de combate para unidades aliadas ​​de Cavaleiro Cinza a no máximo 6" deste modelo.'>
     You can re-roll failed hit rolls in the Fight phase for friendly Grey Knight units within 6" of this model.
    </description>
   </rule>
@@ -15956,7 +15956,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Todas as unidades aliadas ​​dos Cavaleiros Cinzentos em até 6" deste modelo podem usar a Liderança dos Capelães em vez da sua.'>
+   <description description='Todas as unidades aliadas ​​dos Cavaleiros Cinzentos a no máximo 6" deste modelo podem usar a Liderança dos Capelães em vez da sua.'>
     All friendly Grey Knights units within 6" of this model can use the Chaplains Leadership instead of thier own.
    </description>
   </rule>
@@ -15974,7 +15974,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha; em um 6 ele cai e explode, e cada unidade em até 6" sofre D3 feridas morais.'>
+   <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre D3 Ferimentos Mortais.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield; on a 6 it crashes and explodes, and each unit within 6" suffers D3 moral wounds.
    </description>
   </rule>
@@ -16001,7 +16001,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Você pode adicionar 1 às jogadas de ataque para este modelo ao mirar um inimigo na fase de Tiro que não pode FLY.">
+   <description description="Você pode adicionar 1 às testes de acerto para este modelo ao mirar um inimigo na fase de Tiro que não pode FLY.">
     You can add 1 to hit rolls for this model when targeting an enemy in the Shooting phase that cannot FLY.
    </description>
   </rule>
@@ -16010,7 +16010,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Todas as unidades inimigas (Daemon) devem subtrair 1 de seu personagem de Liderança enquanto estiverem em até 6" do portador.'>
+   <description description='Todas as unidades inimigas (Daemon) devem subtrair 1 de seu personagem de Liderança enquanto estiverem a no máximo 6" do portador.'>
     All enemy (Daemon) units must subtract 1 from their Leadership charachteristic whilst they are within 6" of the bearer.
    </description>
   </rule>
@@ -16028,7 +16028,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Você pode adicionar 1 às jogadas de ataque para este modelo ao mirar um inimigo na fase de Tiro que pode FLY.">
+   <description description="Você pode adicionar 1 às testes de acerto para este modelo ao mirar um inimigo na fase de Tiro que pode FLY.">
     You can add 1 to hit rolls for this model when targeting an enemy in the Shooting phase that can FLY.
    </description>
   </rule>
@@ -16672,7 +16672,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Paladino Antigo ou Fraternidade Antigo somente. A Bandeira da Chama de Refino é uma bandeira sagrada. Um modelo equipado com este banner perde a habilidade Ritos de Banimento. Instruir, quando o portador manifestar o poder psíquico Smite, ele só tem um alcance de 6" , mas inflige D6 feridas mortais em vez de D3 (quer o resultado do teste psíquico seja maior que 10).'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Paladino Antigo ou Fraternidade Antigo somente. A Bandeira da Chama de Refino é uma bandeira sagrada. Um modelo equipado com este banner perde a habilidade Ritos de Banimento. Instruir, quando o portador manifestar o poder psíquico Smite, ele só tem um alcance de 6" , mas inflige D6 Ferimentos Mortais em vez de D3 (quer o resultado do teste psíquico seja maior que 10).'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5a0e-235a-0970-04a4" name="Stormtalon Gunship" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -16787,7 +16787,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar lançamentos falhados e enrolados feitos para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes de acerto e testes para ferir feitos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="f6f3-8933-f1e9-d4b1" name="Psyker (Sanctic 2/1)" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">

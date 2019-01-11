@@ -1708,7 +1708,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar o rolo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar a jogada."/>
      </characteristics>
     </profile>
    </profiles>
@@ -1746,7 +1746,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar o rolo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar a jogada."/>
      </characteristics>
     </profile>
    </profiles>
@@ -1811,7 +1811,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais jogadas de 1, o portador sofre uma ferida mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais testes de acerto de 1, o portador sofre uma Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2385,7 +2385,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 a qualquer teste de teste psíquico feito para este modelo para cada 10 modelos de ORK aliadas, excluindo a gretchina em até 10" quando o teste for feito, até um máximo de +3. No entanto, se o resultado do teste for 12+, este modelo imediatamente sofre Perigos da urdidura.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Add 1 to any Psychic test rolls made for this model for every 10 friendly ORK models excluding gretchin within 10" of it when the roll is made, to a maximum of +3.  However, if result of the test is 12+, this model immediately suffers Perils of the Warp.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2982,7 +2982,7 @@
       </modifier>
      </modifiers>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for equipado com um campo de força kustom, unidades aliadas ​​de ORK têm uma proteção invulnerável de 5+ contra ataques feitos com armas de longo alcance enquanto estão totalmente em até 9" dele. Enquanto um modelo equipado com um campo de força kustom é embarcado, o veículo transportando-o tem uma proteção invulnerável de 5+ contra ataques feitos com armas de longo alcance.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for equipado com um campo de força kustom, unidades aliadas ​​de ORK têm uma proteção invulnerável de 5+ contra ataques feitos com armas de longo alcance enquanto estão totalmente a no máximo 9" dele. Enquanto um modelo equipado com um campo de força kustom é embarcado, o veículo transportando-o tem uma proteção invulnerável de 5+ contra ataques feitos com armas de longo alcance.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4dc2-965d-25c8-8625" name="Kustom Force Field (Vehicle)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -3009,7 +3009,7 @@
       </modifier>
      </modifiers>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for equipado com um campo de força kustom, unidades aliadas ​​de ORK que estejam totalmente em até 9" têm uma proteção invulnerável de 5+ contra armas de longo alcance.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for equipado com um campo de força kustom, unidades aliadas ​​de ORK que estejam totalmente a no máximo 9" têm uma proteção invulnerável de 5+ contra armas de longo alcance.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3039,7 +3039,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2D6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Antes de disparar esta arma, role uma vez para determinar a força de todas as suas tacadas. Se o resultado for 11+, não faça rolagens de feridas - em vez disso, cada golpe bem sucedido causa ferimentos mortais a D3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Antes de disparar esta arma, role uma vez para determinar a força de todas as suas tacadas. Se o resultado for 11+, não faça rolagens para ferir - em vez disso, cada acerto bem sucedido causa ferimentos mortais a D3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3839,7 +3839,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem em até 6" de Boss Snikrot'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da característica de Liderança das unidades inimigas enquanto elas estiverem a no máximo 6" de Boss Snikrot'/>
      </characteristics>
     </profile>
     <profile book="Codex: Orks" hidden="false" id="b4d4-4d4b-a01f-cee7" name="Sneakiest Git" page="88" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -3857,7 +3857,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar jogadas de acerto de 1 na fase de combate para unidades aliadas de Blood Axe Kommandos em até 6" de Boss Snikrot'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas de acerto de 1 na fase de combate para unidades aliadas de Blood Axe Kommandos a no máximo 6" de Boss Snikrot'/>
      </characteristics>
     </profile>
     <profile book="Codex: Orks" hidden="false" id="4da6-e3ff-934f-cfe3" name="Kunnin' Infiltrator" page="88" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -3866,7 +3866,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar o chefe Snikrot escondido, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, Snikrot pode sair de seu esconderijo - Coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar o chefe Snikrot escondido, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, Snikrot pode sair de seu esconderijo - Coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4427,7 +4427,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, o louco Dok Grotsnik pode tentar curar uma única (CLAN) INFANTARIA ou BIK BIKER em até 1" . Faça um D6; em um 1 a cirurgia falha, o modelo que você estava tentando curar perde uma ferida , mas em qualquer outro resultado que o modelo recuperar D3 perdeu feridas.Um modelo só pode ser alvo de uma tentativa de cirurgia uma vez por turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, o louco Dok Grotsnik pode tentar curar uma única (CLAN) INFANTARIA ou BIK BIKER a menos de 1" . Faça um D6; em um 1 a cirurgia falha, o modelo que você estava tentando curar perde uma ferida , mas em qualquer outro resultado que o modelo recupera D3 Pontos de Vida.Um modelo só pode ser alvo de uma tentativa de cirurgia uma vez por turno.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f604-0d4d-40ad-6bf4" name="Grot Orderly" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -4836,7 +4836,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de INFANTARIA ORK aliadas ​​em até 6" deste modelo no início da fase de Carga podem cobrar mesmo se Avançadas neste turno. Além disso, os modelos aliadas ​​de INFANTARIA ORK adicionam 1 à sua característica de Ataques se cobraram este turno e Ghaz está em até 6" de sua unidade quando eles são escolhidos para lutar.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de INFANTARIA ORK aliadas ​​a no máximo 6" deste modelo no início da fase de Carga podem efetuar uma carga mesmo se Avançadas neste turno. Além disso, os modelos aliadas ​​de INFANTARIA ORK adicionam 1 à sua característica de Ataques se efetuar uma cargaam este turno e Ghaz está a no máximo 6" de sua unidade quando eles são escolhidos para lutar.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Orks" hidden="false" id="9d50-5568-fdbd-ea17" name="The Boss is Watchin'" page="84" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -4845,7 +4845,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se uma unidade aliada de ORK falhar em um teste de moral em até 6" de Ghaz, ele pode restaurar a ordem com uma demonstração brutal de violência. Se o fizer, a unidade sofre ferimentos mortais D3, mas o teste de moral é então considerado aprovado.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se uma unidade aliada de ORK falhar em um teste de moral a no máximo 6" de Ghaz, ele pode restaurar a ordem com uma demonstração brutal de violência. Se o fizer, a unidade sofre ferimentos mortais D3, mas o teste de moral é então considerado aprovado.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Orks" hidden="false" id="bf8c-2628-fb11-0dd4" name="Prophet of Gork and Mork" page="84" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4854,7 +4854,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ghazghkull Thraka tem um 4 + save invul."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ghazghkull Thraka tem um 4+ save invul."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5070,7 +5070,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que esta unidade atira, ao fazer os lançamentos, você pode re-lançar um dado para cada munição que o acompanha. Ao rolar para ferir esta unidade, use sempre a Resistência da Unidade (Enquanto estiver no campo de batalha). A morte de um Ammo Runt é ignorada para fins de moral. Se a unidade tiver CHARACTER, então o Ammo Runt é considerado como tendo a palavra-chave CHARACTER para os ataques."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que esta unidade atira, ao fazer os lançamentos, você pode re-rolar um dado para cada munição que o acompanha. Ao rolar para ferir esta unidade, use sempre a Resistência da Unidade (Enquanto estiver no campo de batalha). A morte de um Ammo Runt é ignorada para fins de moral. Se a unidade tiver CHARACTER, então o Ammo Runt é considerado como tendo a palavra-chave CHARACTER para os ataques."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5143,7 +5143,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar as jogadas de 1 na fase de Tiro para unidades aliadas ​​de Flash Gitz em até 6" de Kaptin Badrukk.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto na fase de Tiro para unidades aliadas ​​de Flash Gitz a no máximo 6" de Kaptin Badrukk.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5271,7 +5271,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais jogadas não-modificadas de 1, o portador sofre 1 ferida mortal depois que todas as tacadas desta arma forem resolvidas."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais jogadas não-modificadas de 1, o portador sofre 1 Ferimento Mortal depois que todas as tacadas desta arma forem resolvidas."/>
        </characteristics>
       </profile>
      </profiles>
@@ -5376,7 +5376,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde uma ferida, role um D6; em um rolo de 5+, essa ferida não é perdida. Você não pode fazer um teste de Ferramentas do Dok para este modelo se você fizer isso."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde uma ferida, role um D6; em uma jogada de 5+, essa ferida não é perdida. Você não pode fazer um teste de Ferramentas do Dok para este modelo se você fizer isso."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="80f1-0297-40d0-3219" name="Full Throttle" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -5394,7 +5394,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​de GOFF STORMBOYZ em até 6" de Boss Zagstruk passam automaticamente testes de Morale.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​de GOFF STORMBOYZ a no máximo 6" de Boss Zagstruk passam automaticamente testes de Morale.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7ee3-3228-2b35-b598" name="Stormboyz Strike" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5403,7 +5403,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar esta unidade voando alto nos céus, em vez de colocá-la no campo de batalha. No final de qualquer uma das fases do seu Movimento, esta unidade pode despencar no campo de batalha - montá-las em qualquer lugar no campo de batalha, a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esta unidade voando alto nos céus, em vez de colocá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, esta unidade pode despencar no campo de batalha - montá-las em qualquer lugar no campo de batalha, a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5656,7 +5656,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se, no início da fase de cobrança, não houver unidades de INFANTARIA ORK aliadas ​​em até 3" de Mad Dok, ele tentará carregar a unidade inimiga mais próxima, se houver uma em até 12". Ele fará isso mesmo que ele tenha avançado ou desistido neste turno, mas não se ele já estiver em até 1" de um Inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se, no início da fase de carga, não houver unidades de INFANTARIA ORK aliadas ​​a no máximo 3" de Mad Dok, ele tentará carregar a unidade inimiga mais próxima, se houver uma a no máximo 12". Ele fará isso mesmo que ele tenha avançado ou desistido neste turno, mas não se ele já estiver a menos de 1" de um Inimigo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="9377-38d5-4071-8484" name="Cybork Body" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5665,7 +5665,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde uma ferida, role um D6; em um 5+ que ferida não está perdida. Você não pode fazer um teste de Ferramentas do Dok para este modelo se você fizer isso."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde uma ferida, role um D6; em um 5+ ele não sofre o dano. Você não pode fazer um teste de Ferramentas do Dok para este modelo se você fizer isso."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="94a9-1292-4402-857b" name="Dok's Tools" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -5674,7 +5674,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que uma unidade ORK INFANTRY ou ORK BIKER perder uma ferida enquanto estiver em até 3" de Mad Dok Grotsnik. Em um 6, essa unidade não perde aquela ferida. Isso não é cumulativo com outras ferramentas de Dok.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que uma unidade ORK INFANTRY ou ORK BIKER perder uma ferida enquanto estiver a no máximo 3" de Mad Dok Grotsnik. Em um 6, essa unidade não perde aquela ferida. Isso não é cumulativo com outras ferramentas de Dok.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7497-6af7-9ccb-c48d" name="Sawbones" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5683,7 +5683,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, o louco Dok Grotsnik pode tentar curar um único modelo ORK INFANTRY ou ORK BIKER em até 1" . Faça um D6; em um 1 a cirurgia falha, o modelo que você estava tentando curar perde uma ferida, mas em qualquer outro resultado, o modelo recupera as feridas perdidas no D3 Um modelo só pode ser o alvo de uma tentativa de cirurgia uma vez por turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, o louco Dok Grotsnik pode tentar curar um único modelo ORK INFANTRY ou ORK BIKER a menos de 1" . Faça um D6; em um 1 a cirurgia falha, o modelo que você estava tentando curar perde uma ferida, mas em qualquer outro resultado, o modelo recupera as Pontos de Vida no D3 Um modelo só pode ser o alvo de uma tentativa de cirurgia uma vez por turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6291,7 +6291,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos rolos de acerto para os modelos nesta unidade, enquanto esta unidade inclui 20 ou mais modelos."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes de acerto para os modelos nesta unidade, enquanto esta unidade inclui 20 ou mais modelos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6552,7 +6552,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se uma unidade composta inteiramente de Infantaria GRETCHIN falhar em um teste de Moral e estiver em até 3" de qualquer Runtherds aliada com um cão de caça, ignore o resultado. Os modelos D3 da unidade são mortos em vez disso.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se uma unidade composta inteiramente de Infantaria GRETCHIN falhar em um teste de Moral e estiver a no máximo 3" de qualquer Runtherds aliada com um cão de caça, ignore o resultado. Os modelos D3 da unidade são mortos em vez disso.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -6579,7 +6579,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Rerolls atingem jogadas de 1 na fase de combate para unidades constituídas inteiramente de INFANTARIA DE GRETCHIN enquanto em até 3" de um Runtherd aliada com um Grot Lash.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Rerolls atingem testes de acerto de 1 na fase de combate para unidades constituídas inteiramente de INFANTARIA DE GRETCHIN enquanto a no máximo 3" de um Runtherd aliada com um Grot Lash.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -6993,7 +6993,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que um modelo com um corpo de Cybork perde uma ferida, role um D6; em um 6 que ferida não está perdida. Você não pode fazer um teste de Ferramentas do Dok para este modelo se você fizer isso."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que um modelo com um corpo de Cybork perde uma ferida, role um D6; em um 6 ele não sofre o dano. Você não pode fazer um teste de Ferramentas do Dok para este modelo se você fizer isso."/>
      </characteristics>
     </profile>
    </profiles>
@@ -7178,7 +7178,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='(Clã); unidades em até 6" de qualquer bandeira aliada de Waaagh! acrescentam 1 às suas jogadas de acerto na fase de combate.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='(Clã); unidades a no máximo 6" de qualquer bandeira aliada de Waaagh! acrescentam 1 às suas jogadas de acerto na fase de combate.'/>
        </characteristics>
       </profile>
       <profile hidden="false" id="7a25-a0ea-bb52-7eac" name="Waaagh! Banner" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8464,7 +8464,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar uma unidade de Kommandos em vez de colocá-los no campo de batalha. No final de qualquer uma das fases do seu Movimento, eles podem sair de seu esconderijo - coloque-os em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar uma unidade de Kommandos em vez de colocá-los no campo de batalha. No final de qualquer uma das suas fases de Movimento, eles podem sair de seu esconderijo - coloque-os em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c01e-faa9-8da1-53c2" name="Sneaky Gits" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -9188,7 +9188,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando esta unidade avança, você pode adicionar 6" ao seu movimento, em vez de rolar um dado. Mas, se você fizer isso, você rola um D6 para cada modelo na unidade no final da fase; para cada rolo de 1, a unidade sofre 1 ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando esta unidade avança, você pode adicionar 6" ao seu movimento, em vez de rolar um dado. Mas, se você fizer isso, você rola um D6 para cada modelo na unidade no final da fase; para cada jogada de 1, a unidade sofre 1 Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="3a04-f936-098a-323b" name="Stormboyz Strike" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9197,7 +9197,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar esta unidade voando alto nos céus, em vez de colocá-la no campo de batalha. No final de qualquer uma das fases do seu Movimento, esta unidade pode despencar no campo de batalha - montá-las em qualquer lugar no campo de batalha, a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esta unidade voando alto nos céus, em vez de colocá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, esta unidade pode despencar no campo de batalha - montá-las em qualquer lugar no campo de batalha, a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9479,7 +9479,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar uma unidade de Deffkoptas atrás das linhas inimigas, em vez de colocá-la no campo de batalha. No final de qualquer uma das fases do seu Movimento, os Deffkoptas podem atacar emboscadas - coloque-as em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo e a 14" de um campo de batalha.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar uma unidade de Deffkoptas atrás das linhas inimigas, em vez de colocá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, os Deffkoptas podem atacar emboscadas - coloque-as em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo e a 14" de um campo de batalha.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9805,7 +9805,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo equipado com um bigbomm pode derrubá-lo enquanto voa sobre as unidades inimigas em sua fase de movimento. Depois que o modelo for movido, escolha uma unidade inimiga sobre a qual ele voou. então, role um D6 para cada modelo na unidade inimiga (até um máximo de 5 dados). Para cada jogada de 5+, a unidade alvo sofre 1 ferida mortal. Só pode fazer isso uma vez por batalha."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo equipado com um bigbomm pode derrubá-lo enquanto voa sobre as unidades inimigas em sua fase de movimento. Depois que o modelo for movido, escolha uma unidade inimiga sobre a qual ele voou. então, role um D6 para cada modelo na unidade inimiga (até um máximo de 5 dados). Para cada jogada de 5+, a unidade alvo sofre 1 Ferimento Mortal. Só pode fazer isso uma vez por batalha."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9847,7 +9847,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a golpes de sucesso para os ataques deste modelo na fase de Tiro se todos esses ataques atingirem a mesma unidade daquela fase."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a testes de acerto para os ataques deste modelo na fase de Tiro se todos esses ataques atingirem a mesma unidade daquela fase."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="df75-26da-69d4-7c94" name="Dakkajet1" profileTypeId="1355-1e88-8ca1-9111" profileTypeName="Flier Wound Track">
@@ -10057,7 +10057,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo é reduzido a 0 feridas, jogue um d6 antes de removê-lo do campo de batalha, em um 4+ ele cai e explode, e cada unidade em até 6" sofre 3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo é reduzido a 0 ponto de vida, jogue um d6 antes de removê-lo do campo de batalha, em um 4+ ele cai e explode, e cada unidade a no máximo 6" sofre 3 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="46fd-04f6-cb22-d618" name="BurnaBom1" profileTypeId="1355-1e88-8ca1-9111" profileTypeName="Flier Wound Track">
@@ -10188,7 +10188,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um bombardeiro pode soltar uma bomba burna enquanto sobrevoa unidades inimigas em sua fase de movimento. Depois que o Bomba-bombardeiro se moveu, escolha uma unidade inimiga que voou e role um D6 para cada modelo na unidade (até um máximo de 10). Adicione 1 aos rolos de dados se a unidade inimiga for INFANTARIA. Para cada rolo de 5+, a unidade que está sendo bombardeada sofre uma ferida mortal. Cada bomba burna só pode ser usada uma vez por batalha."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um bombardeiro pode soltar uma bomba burna enquanto sobrevoa unidades inimigas em sua fase de movimento. Depois que o Bomba-bombardeiro se moveu, escolha uma unidade inimiga que voou e role um D6 para cada modelo na unidade (até um máximo de 10). Adicione 1 às jogadas de dados se a unidade inimiga for INFANTARIA. Para cada jogada de 5+, a unidade que está sendo bombardeada sofre uma Ferimento Mortal. Cada bomba burna só pode ser usada uma vez por batalha."/>
        </characteristics>
       </profile>
      </profiles>
@@ -10440,7 +10440,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um bombardeiro de Blitza pode derrubar uma bomba de lança enquanto voa sobre unidades inimigas em sua fase de movimento. Depois que o Blitza-bommer se moveu, escolha uma unidade inimiga que voou e role um D6 para cada modelo na unidade (até um máximo de 12). Role 3 dados em vez de cada VEÍCULO ou MONSTRO na unidade. Para cada jogada de 4+, a unidade que está sendo bombardeada sofre uma ferida mortal. Cada bomba boom só pode ser usada uma vez por batalha."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um bombardeiro de Blitza pode derrubar uma bomba de lança enquanto voa sobre unidades inimigas em sua fase de movimento. Depois que o Blitza-bommer se moveu, escolha uma unidade inimiga que voou e role um D6 para cada modelo na unidade (até um máximo de 12). Role 3 dados em vez de cada VEÍCULO ou MONSTRO na unidade. Para cada jogada de 4+, a unidade que está sendo bombardeada sofre uma Ferimento Mortal. Cada bomba boom só pode ser usada uma vez por batalha."/>
        </characteristics>
       </profile>
      </profiles>
@@ -10568,7 +10568,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um Wazbom Blastajet não sofre a penalidade para acertar as jogadas para mover e disparar armas Pesadas. Além disso, este modelo pode escolher uma única unidade inimiga em cada fase de Tiro - adicione 1 a todas as jogadas de ataque para ataques feitos contra aquela unidade com a arma da smasha deste modelo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um Wazbom Blastajet não sofre a penalidade para acertar as jogadas para mover e disparar armas Pesadas. Além disso, este modelo pode escolher uma única unidade inimiga em cada fase de Tiro - adicione 1 a todas as testes de acerto para ataques feitos contra aquela unidade com a arma da smasha deste modelo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10677,7 +10677,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais jogadas de 1, o portador sofre uma ferida mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais testes de acerto de 1, o portador sofre uma Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
          </characteristics>
         </profile>
        </profiles>
@@ -11161,7 +11161,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar uma unidade de Wartrakks nos flancos do exército, em vez de no campo de batalha. No final de qualquer uma das fases do seu Movimento, os Wartrakks podem correr para cercar o inimigo - configurá-los de modo que cada modelo esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar uma unidade de Wartrakks nos flancos do exército, em vez de no campo de batalha. No final de qualquer uma das suas fases de Movimento, os Wartrakks podem correr para cercar o inimigo - configurá-los de modo que cada modelo esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11378,7 +11378,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar uma unidade de Skorchas nos flancos do exército, em vez de no campo de batalha. No final de qualquer uma das fases do seu Movimento, os Skorchas podem correr para cercar o inimigo - configurá-los de modo que cada modelo esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar uma unidade de Skorchas nos flancos do exército, em vez de no campo de batalha. No final de qualquer uma das suas fases de Movimento, os Skorchas podem correr para cercar o inimigo - configurá-los de modo que cada modelo esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11559,7 +11559,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar uma unidade de Warbuggies nos flancos do exército, em vez de no campo de batalha. No final de qualquer uma das fases do seu Movimento, os Warbuggies podem correr para cercar o inimigo - configurá-los de modo que cada modelo esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar uma unidade de Warbuggies nos flancos do exército, em vez de no campo de batalha. No final de qualquer uma das suas fases de Movimento, os Warbuggies podem correr para cercar o inimigo - configurá-los de modo que cada modelo esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11763,7 +11763,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma unidade de artilharia e seus Grot Gunners devem ser implantados com cada modelo em até 3" de pelo menos um outro modelo de sua unidade. A partir desse ponto, cada modelo de artilharia e 2 ou 5 grupos de modelo de Grot Gunners atuam como uma única unidade. .'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma unidade de artilharia e seus Grot Gunners devem ser implantados com cada modelo a no máximo 3" de pelo menos um outro modelo de sua unidade. A partir desse ponto, cada modelo de artilharia e 2 ou 5 grupos de modelo de Grot Gunners atuam como uma única unidade. .'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="2052-f783-b1e4-ac53" name="Take Cover" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -11868,7 +11868,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades que não são visíveis para o portador"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades que não são visíveis para o portador"/>
      </characteristics>
     </profile>
    </profiles>
@@ -11898,7 +11898,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2D6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Antes de disparar esta arma, role para determinar a Força do tiro. se o resultado for 11+, não faça um teste de ferida - em vez disso, se o ataque atingir, causa 3 ferimentos mortais. O portador então sofre uma ferida mortal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Antes de disparar esta arma, role para determinar a Força do tiro. se o resultado for 11+, não faça um teste de ferida - em vez disso, se o ataque atingir, causa 3 ferimentos mortais. O portador então sofre uma Ferimento Mortal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -12100,7 +12100,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade estiver configurada no campo de batalha, cada arma Mek deve ser colocada em até 6" de pelo menos uma outra arma Mek, com cada grove Krew em até 1" do seu Mek Gun. A partir desse ponto, cada arma Mek opera de forma independente e é tratada como uma unidade separada para todos os fins de regras.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade estiver configurada no campo de batalha, cada arma Mek deve ser colocada a no máximo 6" de pelo menos uma outra arma Mek, com cada grove Krew a menos de 1" do seu Mek Gun. A partir desse ponto, cada arma Mek opera de forma independente e é tratada como uma unidade separada para todos os fins de regras.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7a01-5911-f421-1d43" name="Grot Krew" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12109,7 +12109,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada Mek Gun e sua grot krew são tratados como um modelo único para todos os fins de regras. o Krew deve permanecer em até 1" do seu Mek Gun e não pode ser alvo ou atacado separadamente. O alcance ea visibilidade de todos os ataques feitos por um Mek Gun são medidos a partir do Mek Gun, não o krew.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada Mek Gun e sua grot krew são tratados como um modelo único para todos os fins de regras. o Krew deve permanecer a menos de 1" do seu Mek Gun e não pode ser alvo ou atacado separadamente. O alcance ea visibilidade de todos os ataques feitos por um Mek Gun são medidos a partir do Mek Gun, não o krew.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -12699,7 +12699,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada no campo de batalha, todos os seus modelos devem ser colocados em até 6" de pelo menos um outro modelo da unidade. A partir daí, cada um operado independentemente e é tratado como uma unidade separada para todas as regras finalidades.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que esta unidade é configurada no campo de batalha, todos os seus modelos devem ser colocados a no máximo 6" de pelo menos um outro modelo da unidade. A partir daí, cada um operado independentemente e é tratado como uma unidade separada para todas as regras finalidades.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -13393,7 +13393,7 @@
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um teste não modificado de 6 a ferida, você faz 1 ferida mortal além de qualquer outro dano."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um teste não modificado de 6 a ferida, você faz 1 Ferimento Mortal além de qualquer outro dano."/>
              </characteristics>
             </profile>
            </profiles>
@@ -13723,7 +13723,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você lançar uma ou mais jogadas de 1 para esta arma, o portador sofre uma ferida mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você lançar uma ou mais testes de acerto de 1 para esta arma, o portador sofre uma Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -14505,7 +14505,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="+1 para acertar as jogadas de Ataques de Tiro feitos pelo Kaptain."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="+1 para acertar as testes de acertos de Tiro feitos pelo Kaptain."/>
          </characteristics>
         </profile>
        </profiles>
@@ -14824,7 +14824,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades em até 6" de um Stompa aliada podem re-rolar os testes de Moral falhados.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades a no máximo 6" de um Stompa aliada podem re-rolar os testes de Moral falhados.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f0b1-f98a-3cc5-b48f" name="Wound Track" profileTypeId="5f4f-ea74-0630-4afe" profileTypeName="Wound Track">
@@ -14845,7 +14845,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os manipuladores deste modelo podem tentar reparos no final da sua fase de movimento. Se eles fizerem isso, role um D6; em um 2+ este modelo recupera D3 feridas perdidas. Um modelo só pode ser reparado uma vez em cada turno."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os manipuladores deste modelo podem tentar reparos no final da sua fase de movimento. Se eles fizerem isso, role um D6; em um 2+ este modelo recupera D3 Pontos de Vida. Um modelo só pode ser reparado uma vez em cada turno."/>
      </characteristics>
     </profile>
    </profiles>
@@ -15129,7 +15129,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-lançar rolagens de resultados com falha para os ataques feitos por essa unidade que segmentam VEHICLES"/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar rolagens de resultados com falha para os ataques feitos por essa unidade que miram em VEHICLES"/>
      </characteristics>
     </profile>
    </profiles>
@@ -15553,7 +15553,7 @@
             <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
             <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-"/>
             <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="-"/>
-            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça um único teste de acerto ao atacar com esta arma. Se ele acertar, infligir D3 mortal feridas no alvo, em seguida, retire o portador."/>
+            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça um único teste de acerto ao atacar com esta arma. Se ele acertar, infligir D3 Ferimentos Mortais no alvo, em seguida, retire o portador."/>
            </characteristics>
           </profile>
          </profiles>
@@ -15936,7 +15936,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se o alvo de um teste de acerto de 6 feito para esta arma for um modelo INFANTARIO ou MONSTRO inimigo, ele sofrerá uma ferida mortal além de qualquer outro dano."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se o alvo de um teste de acerto de 6 feito para esta arma for um modelo INFANTARIO ou MONSTRO inimigo, ele sofrerá uma Ferimento Mortal além de qualquer outro dano."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16296,7 +16296,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo estiver equipado com um campo de força kustom, unidades de ORK aliadas ​​que estejam inteiramente em até 9" têm uma proteção invulnerável de 5+ contra armas de longo alcance. Se a unidade estiver embarcada, o veículo transportador tem uma proteção invulnerável de 5+ contra armas de longo alcance .'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo estiver equipado com um campo de força kustom, unidades de ORK aliadas ​​que estejam inteiramente a no máximo 9" têm uma proteção invulnerável de 5+ contra armas de longo alcance. Se a unidade estiver embarcada, o veículo transportador tem uma proteção invulnerável de 5+ contra armas de longo alcance .'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16797,7 +16797,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da fase de tiro, role um D6. Em um 1, nenhuma das armas deste modelo pode ser disparada neste turno quando uma briga irrompe dentro do tanque. Em um 6, a equipe de Grot entra na linha e segue as ordens do Kommanda muito literalmente e todas as armas do modelo devem ser disparadas no mesmo alvo, mas adicione 1 às jogadas de acerto."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da fase de tiro, role um D6. Em um 1, nenhuma das armas deste modelo pode ser disparada neste turno quando uma briga irrompe dentro do tanque. Em um 6, a equipe de Grot entra na linha e segue as ordens do Kommanda muito literalmente e todas as armas do modelo devem ser disparadas no mesmo alvo, mas adicione 1 aos testes de acerto."/>
      </characteristics>
     </profile>
    </profiles>
@@ -17178,7 +17178,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados no Squiggoth podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto no Squiggoth. Quando o fizerem, quaisquer restrições de modificadores que se aplicam a este Squiggoth também se aplicam a seus passageiros, no entanto, se houver unidades inimigas em até 1" do Squiggoth, tanto a sua arma pesada quanto a unidade embarcada no Squiggoth podem disparar sua arma. normal, mas não pode ter como alvo as unidades atualmente em até 1" do Squiggoth.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados no Squiggoth podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto no Squiggoth. Quando o fizerem, quaisquer restrições de modificadores que se aplicam a este Squiggoth também se aplicam a seus passageiros, no entanto, se houver unidades inimigas a menos de 1" do Squiggoth, tanto a sua arma pesada quanto a unidade embarcada no Squiggoth podem disparar sua arma. normal, mas não pode ter como alvo as unidades atualmente a menos de 1" do Squiggoth.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="72b3-cb3e-8e88-adf3" name="Stampede!" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -17187,7 +17187,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo terminar um movimento de carga, role um D6 para cada unidade inimiga em até 1" disto; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo terminar um movimento de carga, role um D6 para cada unidade inimiga a menos de 1" disto; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -17470,7 +17470,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por batalha, este modelo pode subir para um adicional de 8" em sua fase de Movimento. No entanto, antes disso, role um D6. Em um 1, o Meka-Dread não pode Avançar ou cobrar até o início do seu próximo turno e sofre 1 ferida mortal e pode avançar de acordo com as regras normais depois que essa habilidade tiver sido usada.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por batalha, este modelo pode subir para um adicional de 8" em sua fase de Movimento. No entanto, antes disso, role um D6. Em um 1, o Meka-Dread não pode Avançar ou efetuar uma carga até o início do seu próximo turno e sofre 1 Ferimento Mortal e pode avançar de acordo com as regras normais depois que essa habilidade tiver sido usada.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -17502,7 +17502,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades não visíveis para o portador"/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades não visíveis para o portador"/>
          </characteristics>
         </profile>
        </profiles>
@@ -18699,7 +18699,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2D6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="4"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Antes de disparar esta arma, role para determinar a Força do tiro. Se o resultado for 12, não faça um rolo enrolado. Em vez disso, se o ataque ocorrer, cada um causa 3 ferimentos mortais. Então o portador sofre uma ferida mortal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Antes de disparar esta arma, role para determinar a Força do tiro. Se o resultado for 12, não faça um testes para ferir. Em vez disso, se o ataque ocorrer, cada um causa 3 ferimentos mortais. Então o portador sofre uma Ferimento Mortal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -18729,7 +18729,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades que não são visíveis para o portador."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades que não são visíveis para o portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -19238,7 +19238,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados em um tanque de matança podem atacar em sua fase de tiro, mas só podem acertar em um 6+. Meça o alcance e desenhe a linha de visão de qualquer ponto neste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros. Por exemplo, os passageiros não podem atirar se o modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com pistolas) se este modelo estiver em até 1" de uma unidade inimiga, e assim por diante.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados em um tanque de matança podem atacar em sua fase de tiro, mas só podem acertar em um 6+. Meça o alcance e desenhe a linha de visão de qualquer ponto neste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros. Por exemplo, os passageiros não podem atirar se o modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com pistolas) se este modelo estiver a menos de 1" de uma unidade inimiga, e assim por diante.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -19508,7 +19508,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar um Warkopta atrás das linhas inimigas em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, o Warkopta pode atacar e emboscar o inimigo - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar um Warkopta atrás das linhas inimigas em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, o Warkopta pode atacar e emboscar o inimigo - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="906d-de98-b3ed-7dec" name="'Chinork' Warkopta" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -19543,7 +19543,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e a linha de visão de qualquer ponto na base deste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não pode atirar (exceto com Pistols) se este modelo estiver em até 1&quot; de uma unidade inimiga, e assim por diante. Note que os passageiros não podem atirar se este modelo cair De volta, mesmo que o 'Chinork' Warkopta possa. '"/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e a linha de visão de qualquer ponto na base deste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não pode atirar (exceto com Pistols) se este modelo estiver a menos de 1&quot; de uma unidade inimiga, e assim por diante. Note que os passageiros não podem atirar se este modelo cair De volta, mesmo que o 'Chinork' Warkopta possa. '"/>
      </characteristics>
     </profile>
    </profiles>
@@ -19862,7 +19862,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades em até 6" de um Stompa aliada podem re-rolar os testes de Moral falhados.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades a no máximo 6" de um Stompa aliada podem re-rolar os testes de Moral falhados.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="15ad-6e62-986c-54a2" name="Repair Krew" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -19871,7 +19871,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No começo do turno, o sargento de Kustom Stompa pode tentar consertar ferimentos perdidos. Em um teste de 5+, o Kustom Stompa repara uma ferida e, em 6+, repara as feridas D3."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No começo do turno, o sargento de Kustom Stompa pode tentar consertar ferimentos perdidos. Em um teste de 5+, o Kustom Stompa repara uma ferida e, em 6+, recupera D3 pontos de vida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -20245,7 +20245,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="-"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma acerta automaticamente. Cada vez que uma unidade inimiga é atingida por essa arma, role 2D6. Se o resultado for igual ou maior que a Força do alvo, ele sofrerá uma ferida mortal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma acerta automaticamente. Cada vez que uma unidade inimiga é atingida por essa arma, role 2D6. Se o resultado for igual ou maior que a Força do alvo, ele sofrerá uma Ferimento Mortal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -20332,7 +20332,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados no Squiggoth Gargantuan podem atacar em sua fase de Tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto no Squiggoth. Quando o fizerem, quaisquer restrições de modificadores que se aplicam a este Squiggoth também se aplicam a seus passageiros, no entanto, se houver unidades inimigas em até 1" do Squiggoth, tanto a sua arma pesada quanto a unidade embarcada no Squiggoth podem disparar sua arma. normal, mas não pode ter como alvo as unidades atualmente em até 1" do Squiggoth.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados no Squiggoth Gargantuan podem atacar em sua fase de Tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto no Squiggoth. Quando o fizerem, quaisquer restrições de modificadores que se aplicam a este Squiggoth também se aplicam a seus passageiros, no entanto, se houver unidades inimigas a menos de 1" do Squiggoth, tanto a sua arma pesada quanto a unidade embarcada no Squiggoth podem disparar sua arma. normal, mas não pode ter como alvo as unidades atualmente a menos de 1" do Squiggoth.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="6cf0-74ac-0472-200e" name="Stampede!" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -20341,7 +20341,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo terminar um movimento de carga, role um D6 para cada unidade inimiga em até 1" disto; em um 2+ essa unidade sofre D6 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo terminar um movimento de carga, role um D6 para cada unidade inimiga a menos de 1" disto; em um 2+ essa unidade sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -20577,7 +20577,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um VEÍCULO com cargas de aríete reforçado aumenta sua característica de Força em 2 até o final do turno, ele faz um gráfico de sucesso. Além disso, toda vez que um modelo com um Golpe Reforçado finalizar um movimento de carga, selecione uma unidade inimiga com 1" e jogue um dado; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um VEÍCULO com cargas de aríete reforçado aumenta sua característica de Força em 2 até o final do turno em ele fez uma carga bemsucedida. Além disso, toda vez que um modelo com um Reinforced Ram finalizar um movimento de carga, selecione uma unidade inimiga com 1" e jogue um dado; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -20622,7 +20622,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 para acertar os rolos feitos para esta arma"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 para acertar as jogadas feitos para esta arma"/>
      </characteristics>
     </profile>
    </profiles>
@@ -20729,7 +20729,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser disparada uma vez por batalha. Esta arma pode segmentar unidades que não são visíveis para o atirador. Você pode re-rolar os testes de acerto falhados feitos para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser disparada uma vez por batalha. Esta arma pode mirar em unidades que não são visíveis para o atirador. Você pode re-rolar os testes de acerto malsucedidos feitos para esta arma."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="28fe-5585-246b-12cf" name="Outriders" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -20738,7 +20738,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar esse modelo no flanco do exército, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode competir para cercar o inimigo - configure-o de forma que ele esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esse modelo no flanco do exército, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode competir para cercar o inimigo - configure-o de forma que ele esteja tocando uma borda do campo de batalha e esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -20990,7 +20990,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo equipado com pequenos bombardeamentos pode derrubar um bombardeiro a cada curva enquanto sobrevoa unidades inimigas em sua fase de movimento. Depois que o modelo for movido, selecione uma unidade inimiga que ela moveu e role um D6 para cada modelo naquela unidade, até um máximo de 5 dados. Para cada jogada de 6, a unidade inimiga sofre 1 ferida mortal."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo equipado com pequenos bombardeamentos pode derrubar um bombardeiro a cada curva enquanto sobrevoa unidades inimigas em sua fase de movimento. Depois que o modelo for movido, selecione uma unidade inimiga que ela moveu e role um D6 para cada modelo naquela unidade, até um máximo de 5 dados. Para cada jogada de 6, a unidade inimiga sofre 1 Ferimento Mortal."/>
          </characteristics>
         </profile>
        </profiles>
@@ -21221,7 +21221,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo equipado com pequenos bombardeamentos pode derrubar um bombardeiro a cada curva enquanto sobrevoa unidades inimigas em sua fase de movimento. Depois que o modelo for movido, selecione uma unidade inimiga que ela moveu e role um D6 para cada modelo naquela unidade, até um máximo de 5 dados. Para cada jogada de 6, a unidade inimiga sofre 1 ferida mortal."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo equipado com pequenos bombardeamentos pode derrubar um bombardeiro a cada curva enquanto sobrevoa unidades inimigas em sua fase de movimento. Depois que o modelo for movido, selecione uma unidade inimiga que ela moveu e role um D6 para cada modelo naquela unidade, até um máximo de 5 dados. Para cada jogada de 6, a unidade inimiga sofre 1 Ferimento Mortal."/>
          </characteristics>
         </profile>
        </profiles>
@@ -21251,7 +21251,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser disparada uma vez por batalha. Esta arma pode segmentar unidades que não são visíveis para o atirador. Você pode re-rolar os testes de acerto falhados feitos para esta arma."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser disparada uma vez por batalha. Esta arma pode mirar em unidades que não são visíveis para o atirador. Você pode re-rolar os testes de acerto malsucedidos feitos para esta arma."/>
          </characteristics>
         </profile>
        </profiles>
@@ -21491,7 +21491,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você lançar uma ou mais jogadas de 1 para esta arma, o portador sofre uma ferida mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você lançar uma ou mais testes de acerto de 1 para esta arma, o portador sofre uma Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -21533,7 +21533,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades &lt;CLAN&gt; e &lt;b&gt; BIKER e VEHICLE &lt;/ b&gt; aliadas ​​em até 6" deste modelo no início da fase de Carga podem cobrar mesmo que sejam avançadas neste turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades &lt;CLAN&gt; e &lt;b&gt; BIKER e VEHICLE &lt;/ b&gt; aliadas ​​a no máximo 6" deste modelo no início da fase de Carga podem efetuar uma carga mesmo que sejam avançadas neste turno.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="afa4-8883-87c6-ef64" name="Fuel Mixa Grot" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21818,7 +21818,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 2 às jogadas de acerto dos ataques feitos por este modelo Kustom Shokk Rifle."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 2 aos testes de acerto dos ataques feitos por este modelo Kustom Shokk Rifle."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="2529-8abf-916a-7776" name="Shokk tunnel" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21827,7 +21827,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se você fizer um 4 + ao avançar com este modelo, remova-o do campo de batalha e configure-o a mais de 9" de distância das unidades inimigas. Depois disso, role um D6 em um 6, o modelo sofre 1 ferimento mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se você fizer um 4+ ao avançar com este modelo, remova-o do campo de batalha e configure-o a mais de 9" de distância das unidades inimigas. Depois disso, role um D6 em um 6, o modelo sofre 1 ferimento mortal.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -21962,7 +21962,7 @@
             <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
             <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
             <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais jogadas não-modificadas de 1 para esta arma, o portador sofre 1 ferida mortal depois que todos os ataques desta arma tiverem sido resolvidos. Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre 1 ferimento mortal além de qualquer outro dano."/>
+            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais jogadas não-modificadas de 1 para esta arma, o portador sofre 1 Ferimento Mortal depois que todos os ataques desta arma tiverem sido resolvidos. Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre 1 ferimento mortal além de qualquer outro dano."/>
            </characteristics>
           </profile>
          </profiles>
@@ -22236,7 +22236,7 @@
            <infoLinks/>
            <modifiers/>
            <characteristics>
-            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por batalha, na fase de movimento, esse modelo pode implantar uma mina de squig. Em qualquer ponto durante o movimento deste modelo, coloque a mina quig em até 1" disto e mais de 3" de qualquer modelo inimigo. O meu squig é representado pelo modelo de mina de squig, mas não conta como um modelo para fins de regras. Do começo da próxima fase, aquela mina é detonada se qualquer unidade (aliada ou inimiga) se mover em até 3" dela. Resolva a detonação depois que a unidade que detonou terminou seu movimento. Quando uma mina é detonada, role um D6: em um 2-3 ele inflige 1 ferida mortal na unidade que o detonou, em um 4-5 ele inflige D3 ferimentos mortais na unidade que o detonou, e em um 6 inflige 3 ferimentos mortais na unidade que o detonou A mina do squig é então removida do campo de batalha.'/>
+            <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por batalha, na fase de movimento, esse modelo pode implantar uma mina de squig. Em qualquer ponto durante o movimento deste modelo, coloque a mina quig a menos de 1" disto e mais de 3" de qualquer modelo inimigo. O meu squig é representado pelo modelo de mina de squig, mas não conta como um modelo para fins de regras. Do começo da próxima fase, aquela mina é detonada se qualquer unidade (aliada ou inimiga) se mover a no máximo 3" dela. Resolva a detonação depois que a unidade que detonou terminou seu movimento. Quando uma mina é detonada, role um D6: em um 2-3 ele inflige 1 Ferimento Mortal na unidade que o detonou, em um 4-5 ele inflige D3 ferimentos mortais na unidade que o detonou, e em um 6 inflige 3 ferimentos mortais na unidade que o detonou A mina do squig é então removida do campo de batalha.'/>
            </characteristics>
           </profile>
          </profiles>
@@ -22506,7 +22506,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="-1 para acertar os rolos feitos com armas de longo alcance para atingir esse modelo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="-1 para acertar as jogadas feitos com armas de longo alcance para atingir esse modelo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -23281,7 +23281,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo termina um movimento de carga, selecione uma unidade inimiga em até 1" dele e em um 4+ que a unidade sofre D3 mortal feridas'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo termina um movimento de carga, selecione uma unidade inimiga a menos de 1" dele e em um 4+ que a unidade sofre D3 Ferimentos Mortais'/>
      </characteristics>
     </profile>
    </profiles>
@@ -23535,7 +23535,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo terminar um movimento de carga, selecione uma unidade inimiga em até 1" e role um D6". Em um teste de 4+ essa unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo terminar um movimento de carga, selecione uma unidade inimiga a menos de 1" e role um D6". Em um teste de 4+ essa unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="9371-f5c7-9733-8787" name="Grot Gunner" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -23844,7 +23844,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da fase de combate, antes de qualquer unidade ter sido escolhida para lutar, uma unidade ORK INFANTRY de seu exército que esteja a menos de 1" deste modelo pode operar o grabk klaw do Mekboy Wrokshop. Se isso acontecer, selecione uma unidade inimiga em até 1" deste modelo e role um D6; em um 4+ essa unidade inimiga sofre feridas mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da fase de combate, antes de qualquer unidade ter sido escolhida para lutar, uma unidade ORK INFANTRY de seu exército que esteja a menos de 1" deste modelo pode operar o grabk klaw do Mekboy Wrokshop. Se isso acontecer, selecione uma unidade inimiga a menos de 1" deste modelo e role um D6; em um 4+ essa unidade inimiga sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1957-8c7a-159c-4f7e" name="Kustom Job" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -23853,7 +23853,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No final da sua fase de movimento, uma unidade ORK VEHICLE do seu exército que esteja a 1&quot; deste modelo pode receber um Kustom Job. Se o fizer, até o final do seu turno, essa unidade não poderá disparar ou carregar, e os ataques característica dos modelos nessa unidade são reduzidos para 1, mas você pode escolher e resolver um dos seguintes efeitos: Mais velocidade - até o final da sua próxima fase de movimento aumentar a característica de movimento dos modelos na unidade por 6&quot; Além disso, rolo um D6 para ver se a unidade recebe algo 'extra speshul'; em um 6 Adicionar 1&quot; à carga da unidade se move para o resto da batalha. Mais Rivvets - Essa unidade recupera as feridas D3. Se houver uma MEK ou BIG MEK do seu exército em até 1&quot; deste modelo que não usou é mekaniak capacidade de reparar um veículo ainda neste turno pode supervisionar o trabalho kustom; se o fizer, a unidade recupera 3 feridas perdidas em vez de D3, e o modelo que supervisionou o Kustom Job não pode usar seu grande mekaniak ou mekaniak neste turno. Além disso, role um D6 para ver se a unidade recebe algo 'extra speshul'; em um 6 adicionar 1 para a característica de resistência para os modelos nessa unidade para o resto da batalha. Mais Dakka - Escolheu uma arma (excluindo um bubblechukka) que um modelo naquela unidade está equipado. A próxima vez que qualquer modelo na unidade disparar essa arma, a arma fará o número máximo de ataques (por exemplo, uma arma com o tipo Heavy 2D6 disparará 12 tiros). Além disso, role um D6 para ver se a unidade recebe algo 'extra speshul'; em um 6 adicionar 1 à característica de dano da arma escolhida para o resto da batalha. Uma unidade só pode receber um trabalho de kustom uma vez por turno."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No final da sua fase de movimento, uma unidade ORK VEHICLE do seu exército que esteja a 1&quot; deste modelo pode receber um Kustom Job. Se o fizer, até o final do seu turno, essa unidade não poderá disparar ou carregar, e os ataques característica dos modelos nessa unidade são reduzidos para 1, mas você pode escolher e resolver um dos seguintes efeitos: Mais velocidade - até o final da sua próxima fase de movimento aumentar a característica de movimento dos modelos na unidade por 6&quot; Além disso, role um D6 para ver se a unidade recebe algo 'extra speshul'; em um 6 Adicionar 1&quot; à carga da unidade se move para o resto da batalha. Mais Rivvets - Essa unidade recupera D3 Pontos de Vida. Se houver uma MEK ou BIG MEK do seu exército a menos de 1&quot; deste modelo que não usou é mekaniak capacidade de reparar um veículo ainda neste turno pode supervisionar o trabalho kustom; se o fizer, a unidade recupera 3 Pontos de Vida em vez de D3, e o modelo que supervisionou o Kustom Job não pode usar seu grande mekaniak ou mekaniak neste turno. Além disso, role um D6 para ver se a unidade recebe algo 'extra speshul'; em um 6 adicionar 1 para a característica de resistência para os modelos nessa unidade para o resto da batalha. Mais Dakka - Escolheu uma arma (excluindo um bubblechukka) que um modelo naquela unidade está equipado. A próxima vez que qualquer modelo na unidade disparar essa arma, a arma fará o número máximo de ataques (por exemplo, uma arma com o tipo Heavy 2D6 disparará 12 tiros). Além disso, role um D6 para ver se a unidade recebe algo 'extra speshul'; em um 6 adicionar 1 à característica de dano da arma escolhida para o resto da batalha. Uma unidade só pode receber um trabalho de kustom uma vez por turno."/>
      </characteristics>
     </profile>
    </profiles>
@@ -24022,7 +24022,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com este Kultur têm um 6 + save invulnerável. Além disso, você pode re-rolar um único teste de acerto, um único enrolado e um único dano para cada unidade com este kultur cada vez que ele disparar ou lutar. Além disso, unidades de INFANTARIA com este kultur ganham o 'Dis is Ours! Zogg Off! habilidade, mesmo se eles não têm o papel de campo de batalha de tropas."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com este Kultur têm um 6+ save invulnerável. Além disso, você pode re-rolar um único teste de acerto, um único teste para ferir e uma única jogada de dano para cada unidade com este kultur cada vez que ele disparar ou lutar. Além disso, unidades de INFANTARIA com este kultur ganham o 'Dis is Ours! Zogg Off! habilidade, mesmo se eles não têm o papel de campo de batalha de tropas."/>
          </characteristics>
         </profile>
        </profiles>
@@ -24072,7 +24072,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O re-roll acerta rolos de 1 para ataques feitos por modelos com este kultur na fase de Tiro."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-role testes de acerto de 1 para ataques feitos por modelos com este kultur na fase de Tiro."/>
          </characteristics>
         </profile>
        </profiles>
@@ -24097,7 +24097,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 a jogadas de acerto para ataques feitos por modelos com este kultur se qualquer outra unidade aliada com este kultur em até 24" destruir uma unidade inimiga nesta fase.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 a jogadas de acerto para ataques feitos por modelos com este kultur se qualquer outra unidade aliada com este kultur a no máximo 24" destruir uma unidade inimiga nesta fase.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -24374,7 +24374,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Modelo com apenas Big Choppa. Rolos de ferimentos de 6+ feitos para esta arma infligem 2 ferimentos mortais em vez do dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Modelo com apenas Big Choppa. testes para ferir de 6+ feitos para esta arma infligem 2 ferimentos mortais em vez do dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -24496,7 +24496,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Modelo com Power Klaw apenas. Você pode rolar rolagens de dano falhadas para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Modelo com Power Klaw apenas. Você pode rolar rolagens de dano malsucedidas para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -24634,7 +24634,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar o rolo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar a jogada."/>
      </characteristics>
     </profile>
    </profiles>
@@ -24672,7 +24672,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar o rolo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar os dois perfis, -1 para acertar a jogada."/>
      </characteristics>
     </profile>
    </profiles>
@@ -24767,7 +24767,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais jogadas de 1, o portador sofre uma ferida mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais testes de acerto de 1, o portador sofre uma Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -25085,7 +25085,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os testes de acerto falhados para seu warlord na fase de combate. Além disso, aumenta em 1 o dano característico das armas de combate corpo-a-corpo de seus senhores da guerra se ele terminar uma jogada de carga ou fizer uma intervenção heróica neste turno."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os testes de acerto malsucedidos para seu warlord na fase de combate. Além disso, aumenta em 1 o dano característico das armas de combate corpo-a-corpo de seus senhores da guerra se ele terminar uma jogada de carga ou fizer uma intervenção heróica neste turno."/>
      </characteristics>
     </profile>
    </profiles>
@@ -25388,7 +25388,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente testes de moral fracassados ​​para Snakebitez aliada em até 6" do seu warlord. Friendly Snakebitez gretchin unidades withn 12" de yor warlord automaticamente passar testes de moral.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente testes de moral fracassados ​​para Snakebitez aliada a no máximo 6" do seu warlord. Friendly Snakebitez gretchin unidades withn 12" de yor warlord automaticamente passar testes de moral.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -25515,7 +25515,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Pontos de tiro: os modelos embarcados neste veículo podem disparar na fase de tiro. Eles medem o alcance e desenham a linha de visão de qualquer ponto do veículo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver em até 1" de uma unidade inimiga, e assim por diante.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Pontos de tiro: os modelos embarcados neste veículo podem disparar na fase de tiro. Eles medem o alcance e desenham a linha de visão de qualquer ponto do veículo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver a menos de 1" de uma unidade inimiga, e assim por diante.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d0fc-aee2-c395-4850" name="Grot Riggers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25875,7 +25875,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados neste veículo podem atirar na fase de tiro, mas atingem apenas 6+. Eles medem o alcance e desenham a linha de visão de qualquer ponto do veículo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver em até 1" de uma unidade inimiga, e assim por diante.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados neste veículo podem atirar na fase de tiro, mas atingem apenas 6+. Eles medem o alcance e desenham a linha de visão de qualquer ponto do veículo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver a menos de 1" de uma unidade inimiga, e assim por diante.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="5b28-c000-4126-3bd6" name="Grot Riggers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -26060,7 +26060,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Aumente a característica de Força desse modelo em 2 até o final de um turno em que ela faz uma carga bem-sucedida. Além disso, cada vez que este modelo terminar um movimento de carga, selecione uma unidade inimiga em até 1" e role um D6; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Aumente a característica de Força desse modelo em 2 até o final de um turno em que ela faz uma carga bem-sucedida. Além disso, cada vez que este modelo terminar um movimento de carga, selecione uma unidade inimiga a menos de 1" e role um D6; em um 2+ essa unidade sofre D3 ferimentos mortais.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -26702,7 +26702,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um modelo tem um rig grot, o grot pode tentar reparos no final da fase de movimento. Role um D6, em um teste de 2+, este modelo recupera 1 feridas perdidas no início da batalha."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um modelo tem um rig grot, o grot pode tentar reparos no final da fase de movimento. Role um D6, em um teste de 2+, este modelo recupera 1 Pontos de Vida no início da batalha."/>
        </characteristics>
       </profile>
      </profiles>
@@ -26812,7 +26812,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O portador pode rolar novamente qualquer jogada de golpe e golpe na fase de combate. Além disso, quaisquer personagens aliadas ​​de Goff em até 6" do portador podem adicionar 1 às suas jogadas de acerto na fase de combate.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O portador pode rolar novamente qualquer jogada de acerto e jogada para ferir na fase de combate. Além disso, quaisquer personagens aliadas ​​de Goff a no máximo 6" do portador podem adicionar 1 às suas jogadas de acerto na fase de combate.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -26853,7 +26853,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 à característica de movimento de qualquer transporte em que o portador está atualmente embarcado. Além disso, se o portador embarcar em qualquer transporte no início de sua fase de movimento, jogue d6 para cada unidade inimiga em até 6" daquele modelo. Em um 4+ essa unidade sofre d3 ferimentos mortais.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Adicione 1 à característica de movimento de qualquer transporte em que o portador está atualmente embarcado. Além disso, se o portador embarcar em qualquer transporte no início de sua fase de movimento, jogue d6 para cada unidade inimiga a no máximo 6" daquele modelo. Em um 4+ essa unidade sofre d3 ferimentos mortais.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -26894,7 +26894,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O portador recebe a habilidade Big Mekaniak, se ele já tiver essa habilidade, ele recupera 3 feridas em vez de D3."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O portador recebe a habilidade Big Mekaniak, se ele já tiver essa habilidade, ele recupera 3 Pontos de Vida em vez de D3."/>
        </characteristics>
       </profile>
      </profiles>
@@ -26940,7 +26940,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Esta arma acerta automaticamente. Depois de resolver o ataque, você pode escolher outra unidade inimiga em até 6" e atacá-lo com a mesma arma, mas apenas 2D6 tiros.'/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Esta arma acerta automaticamente. Depois de resolver o ataque, você pode escolher outra unidade inimiga a no máximo 6" e atacá-lo com a mesma arma, mas apenas 2D6 tiros.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -27022,7 +27022,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que o portador perde uma ferida, role um d6; em um rolo de 5+ que ferida não está perdida. Você não pode fazer um teste das Ferramentas do Dokk para este modelo se você fizer isso."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que o portador perde uma ferida, role um d6; em uma jogada de 5+ ele não sofre o dano. Você não pode fazer um teste das Ferramentas do Dokk para este modelo se você fizer isso."/>
        </characteristics>
       </profile>
      </profiles>
@@ -27318,7 +27318,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Você pode re-rolar os rolos de carga para esta unidade. Ao fazer isso, você pode relançar todo ou qualquer dado.">
+   <description description="Você pode re-rolar as jogadas de carga para esta unidade. Ao fazer isso, você pode relançar todo ou qualquer dado.">
     You can re-roll charge rolls for this unit.  When doing so, you can re-roll all or any of the dice.
    </description>
   </rule>
@@ -27327,7 +27327,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Ao usar a característica de Liderança desta unidade, você pode usar sua própria característica de Liderança, ou pode escolher que a característica seja igual ao número de modelos na unidade ou ao número de modelos em outra unidade aliada em até 6" . que tem essa habilidade.'>
+   <description description='Ao usar a característica de Liderança desta unidade, você pode usar sua própria característica de Liderança, ou pode escolher que a característica seja igual ao número de modelos na unidade ou ao número de modelos em outra unidade aliada a no máximo 6" . que tem essa habilidade.'>
     When using the Leadership characteristic of this unit, you can use either its own Leadership characteristic, or you can choose for the characteristic to be equal to either the number of models in the unit, or the number of models in another friendly unit within 6" that has this ability.
    </description>
   </rule>
@@ -27336,7 +27336,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele cai e explode, e cada unidade em até 6" sofre ferimentos mortais D3.'>
+   <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield.  On a 6 it crashes and explodes, and each unit within 6" suffers D3 mortal wounds.
    </description>
   </rule>
@@ -27345,9 +27345,9 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Cada vez que você rola um acerto de 6 unidades não modificado para um ataque com uma arma de longo alcance por um modelo nesta unidade, essa jogada de sucesso é bem-sucedida, independentemente de modificadores.
+   <description description="Cada vez que você rola um acerto de 6 unidades não modificado para um ataque com uma arma de longo alcance por um modelo nesta unidade, essa teste de acerto é bem-sucedida, independentemente de modificadores.
 
-Além disso, faça imediatamente um teste de acerto adicional contra o mesmo alvo usando a mesma arma. Esses hits adicionais não podem gerar rolos de acertos extras. Ao disparar uma arma com características determinadas aleatoriamente (por exemplo, Bubblechukka), qualquer teste de acerto adicional usa as mesmas características do teste de acerto que gerou o teste de acerto adicional. Essa habilidade não afeta armas que atingem automaticamente seu alvo.">
+Além disso, faça imediatamente um teste de acerto adicional contra o mesmo alvo usando a mesma arma. Esses teste adicionais não podem gerar teste de acertos extras. Ao disparar uma arma com características determinadas aleatoriamente (por exemplo, Bubblechukka), qualquer teste de acerto adicional usa as mesmas características do teste de acerto que gerou o teste de acerto adicional. Essa habilidade não afeta armas que atingem automaticamente seu alvo.">
     Each time you roll an unmoddified hit roll of 6 for an attack with a ranged weapon by a model in this unit, that hit roll succeeds regardless of modifiers.
 
 In addition, immediately make an additional hit roll against the same target using the same weapon. These additional hit rolls cannot themselves generate extra hit rolls. When firing a weapon with randomly determined characteristics (ie. Bubblechukka), any additional hit rolls use the same characteristics as the hit roll that generated the additional hit roll.  This ability does not affect weapons that automatically hit their target.
@@ -27358,7 +27358,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='A primeira vez que esta unidade se estabelece no campo de batalha, todos os seus modelos devem ser colocados em até 6" de pelo menos um outro modelo da unidade. Desse ponto em diante, cada modelo opera independentemente e é tratado como uma unidade separada para todas as regras. .'>
+   <description description='A primeira vez que esta unidade se estabelece no campo de batalha, todos os seus modelos devem ser colocados a no máximo 6" de pelo menos um outro modelo da unidade. Desse ponto em diante, cada modelo opera independentemente e é tratado como uma unidade separada para todas as regras. .'>
     The first time this unit sets up on the battlefield, all of its models must be placed within 6" of at least one other  model from the unit.  From that point onwards each model operates independently and is treated as a seperate unit for all rules purposes.
    </description>
   </rule>
@@ -27444,7 +27444,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um D6 cada vez que uma unidade &lt;CLAN&gt; INFANTRY ou &lt;CLAN&gt; BIKER perder uma ferida enquanto estiver em até 3" de qualquer &lt;CLAN&gt; PAINBOYZ aliada. Em um 6, essa unidade não perde aquela ferida.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um D6 cada vez que uma unidade &lt;CLAN&gt; INFANTRY ou &lt;CLAN&gt; BIKER perder uma ferida enquanto estiver a no máximo 3" de qualquer &lt;CLAN&gt; PAINBOYZ aliada. Em um 6, essa unidade não perde aquela ferida.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1b10-4a6f-f6d0-3a91" name="Biker Dok's Tools" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27453,7 +27453,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que uma unidade &lt;CLAN&gt; INFANTRY ou &lt;CLAN&gt; BIKER perder uma ferida enquanto estiver em até 3&quot; de qualquer &lt;CLAN&gt; PAINBOYZ aliada. Em um 6, essa unidade não perde aquela ferida. Além disso, no final do sua fase de movimento, se ele não se mover mais do que 5&quot; este modelo pode tentar curar um único modelo &lt;CLAN&gt; INFANTRY ou &lt;CLAN&gt; BIKER em até 1&quot;. Faça um D6; em um 1, o modelo que você estava tentando heal perde uma ferida, mas qualquer outro resultado, esse modelo recupera as feridas D3 perdidas anteriormente na batalha.Você só pode fazer uma tentativa de curar um determinado modelo com a habilidade Dok's Tools ou Biker Dok's Tools em cada turno."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que uma unidade &lt;CLAN&gt; INFANTRY ou &lt;CLAN&gt; BIKER perder uma ferida enquanto estiver a no máximo 3&quot; de qualquer &lt;CLAN&gt; PAINBOYZ aliada. Em um 6, essa unidade não perde aquela ferida. Além disso, no final do sua fase de movimento, se ele não se mover mais do que 5&quot; este modelo pode tentar curar um único modelo &lt;CLAN&gt; INFANTRY ou &lt;CLAN&gt; BIKER a menos de 1&quot;. Faça um D6; em um 1, o modelo que você estava tentando heal perde uma ferida, mas qualquer outro resultado, esse modelo recupera D3 Pontos de Vida perdidas anteriormente na batalha.Você só pode fazer uma tentativa de curar um determinado modelo com a habilidade Dok's Tools ou Biker Dok's Tools em cada turno."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6a6c-07a0-01b0-89eb" name="Stikkbombs" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -27538,7 +27538,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto neste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver em até 1" de uma unidade inimiga, e assim por diante.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto neste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver a menos de 1" de uma unidade inimiga, e assim por diante.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="869f-1549-caf7-29d3" name="Supersonic" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27556,7 +27556,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um modelo de artilharia só pode disparar sua arma de longo alcance se uma unidade aliada de Grot Armado estiver em até 3" . Um único Artilheiro Grot não pode operar múltiplos modelos de artilharia em um único turno. Se todos os Artilheiros Grot em até 6" de um Big Gun forem mortos, Ele imediatamente desliga e é removido do jogo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um modelo de artilharia só pode disparar sua arma de longo alcance se uma unidade aliada de Grot Armado estiver a no máximo 3" . Um único Artilheiro Grot não pode operar múltiplos modelos de artilharia em um único turno. Se todos os Artilheiros Grot a no máximo 6" de um Big Gun forem mortos, Ele imediatamente desliga e é removido do jogo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e5ad-516c-ad0a-54a1" name="Mekaniak" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27565,7 +27565,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único &lt;CLAN&gt; VEÍCULO aliada em até 1" . Esse modelo recupera 1 ferida perdida no início da batalha. Um veículo só pode ser reparado uma vez em cada turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único &lt;CLAN&gt; VEÍCULO aliada a menos de 1" . Esse modelo recupera 1 Ponto de Vida no início da batalha. Um veículo só pode ser reparado uma vez em cada turno.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Orks" hidden="false" id="0a24-5217-fb9c-c81c" name="Big Mekaniak" page="86" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27574,7 +27574,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, este modelo pode reparar um modelo de Veículo único e aliada (CLAN) em até 3" . Esse modelo recupera as feridas perdidas D3. Um modelo só pode ser reparado uma vez por turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, este modelo pode reparar um modelo de Veículo único e aliada (CLAN) a no máximo 3" . Esse modelo recupera as D3 Pontos de Vida. Um modelo só pode ser reparado uma vez por turno.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Orks" hidden="false" id="e5b1-5297-5794-d878" name="Breakin' Heads" page="85" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27583,7 +27583,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se uma unidade &lt;CLAN&gt; falhar em um teste Moral em até 3" de um WARBOSS &lt;CLAN&gt; aliada, eles podem restaurar a ordem com uma exibição brutal de violência. Se o fizerem, a unidade sofre D3 ferimentos mortais, mas o teste de Moral é então considerado ter sido passado.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se uma unidade &lt;CLAN&gt; falhar em um teste Moral a no máximo 3" de um WARBOSS &lt;CLAN&gt; aliada, eles podem restaurar a ordem com uma exibição brutal de violência. Se o fizerem, a unidade sofre D3 ferimentos mortais, mas o teste de Moral é então considerado ter sido passado.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3202-2878-7cb1-93a2" name="Keepin' Order" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27592,7 +27592,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 para cada modelo que foge de uma unidade &lt;CLAN&gt; que esteja em até 3" de qualquer unidade &lt;CLAN&gt; aliada com essa habilidade. Em um 6, esse modelo não foge.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 para cada modelo que foge de uma unidade &lt;CLAN&gt; que esteja a no máximo 3" de qualquer unidade &lt;CLAN&gt; aliada com essa habilidade. Em um 6, esse modelo não foge.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Orks" hidden="false" id="5dbe-c4d8-6c28-07fa" name="Waaagh!" page="85" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27601,7 +27601,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de infantaria aliadas ​​(CLAN) em até 6" deste modelo no início da fase de Carga podem cobrar mesmo se Avançadas neste turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de infantaria aliadas ​​(CLAN) a no máximo 6" deste modelo no início da fase de Carga podem efetuar uma carga mesmo se Avançadas neste turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9649-855b-5c2e-57da" name="Big Bike Mekaniak" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -27610,7 +27610,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, se não se mover mais de 6" , este modelo pode reparar um único aliada (clã); VEÍCULO (que não modelos que podem voar) em até 1". Esse modelo recupera as feridas D3 perdidas no início da batalha. Um veículo só pode ser reparado uma vez em cada turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, se não se mover mais de 6" , este modelo pode reparar um único aliada (clã); VEÍCULO (que não modelos que podem voar) a menos de 1". Esse modelo recupera D3 Pontos de Vida perdidas no início da batalha. Um veículo só pode ser reparado uma vez em cada turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="f05d-1990-b3e0-4a44" name="Grotzooka" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -27638,7 +27638,7 @@ In addition, immediately make an additional hit roll against the same target usi
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais jogadas de 1, o portador sofre uma ferida mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você rolar uma ou mais testes de acerto de 1, o portador sofre uma Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile book="Xenos 2" hidden="false" id="674c-6501-898c-16d6" name="Big Shoota" page="132" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -27713,7 +27713,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode e cada unidade em até 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode e cada unidade a no máximo 2D6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="56f0-3891-61a7-c830" name='Explodes (6+/6"/D3)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27728,7 +27728,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="8159-a610-444f-d93c" name='Explodes (6+/6"/D6)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27743,7 +27743,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a590-a0e8-a3ed-ffbb" name='Explodes (6+/3"/1)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27758,7 +27758,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 3" sofre 1 ferida mortal.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 3" sofre 1 Ferimento Mortal.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="25fa-64ad-bee1-8725" name='Explodes (6+/9"/D6)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27773,7 +27773,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade em até 9" sofre D6 mortal feridas.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 9" sofre D6 Ferimentos Mortais.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="251e-c04f-873e-60a9" name='Explodes (6+/2D6"/2D6)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27788,7 +27788,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode e cada unidade em até 2D6" sofre ferimentos mortais 2D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode e cada unidade a no máximo 2D6" sofre ferimentos mortais 2D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2f33-34ac-7209-6d7c" name='Explodes (6+/3"/D3)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27803,7 +27803,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 3" sofre D3 mortal ferida.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 3" sofre D3 mortal ferida.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6829-dbf1-bf22-c9e5" name="Waaagh! (Biker)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27812,7 +27812,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de Infantaria e Motociclista Ork em até 6" deste modelo no início da fase de Carga podem cobrar mesmo que sejam avançadas neste turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de Infantaria e Motociclista Ork a no máximo 6" deste modelo no início da fase de Carga podem efetuar uma carga mesmo que sejam avançadas neste turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4350-a8e0-753d-fa9a" name="Throat Slittas" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27821,7 +27821,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a jogadas de dano para ataques feitos com as armas corpo a corpo desta unidade ao mirar unidades inimigas totalmente dentro ou em um recurso de terreno."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes para ferir para ataques feitos com as armas corpo a corpo desta unidade ao mirar unidades inimigas totalmente dentro ou em um recurso de terreno."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5e32-7bb6-7a93-a0b6" name='Explodes (4+/D6"/D3)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27836,7 +27836,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 4+ ele explode, e cada unidade em até D6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 4+ ele explode, e cada unidade a no máximo D6" sofre ferimentos mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5e48-9578-edcc-a0fc" name='Explodes (4+/6"/D6)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27851,7 +27851,7 @@ In addition, immediately make an additional hit roll against the same target usi
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 4+ ele explode, e cada unidade em até 6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 4+ ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="64c4-54d0-c6b6-e809" name="Speed Freek" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27860,7 +27860,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu senhor da guerra e qualquer unidade do Malz Sunz em até 6" dele pode cobrar mesmo se eles caírem de volta neste turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu senhor da guerra e qualquer unidade do Malz Sunz a no máximo 6" dele pode efetuar uma carga mesmo se eles caírem de volta neste turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5acd-6c6c-9f1a-bdc4" name="Proper Killy" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27869,7 +27869,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 à característica de ataques do seu Warlord. Além disso, melhore a característica de Penetração de Armadura de armas corpo a corpo que este Senhor da Guerra está equipado por 1 durante qualquer turno em que eles fizeram um movimento de carga, foram cobrados ou executaram uma Intervenção Heróica (por exemplo, AP -1 se torna AP -2)."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 à característica de ataques do seu Warlord. Além disso, melhore a característica de Penetração de Armadura de armas corpo a corpo que este Senhor da Guerra está equipado por 1 durante qualquer turno em que eles fizeram um movimento de carga, sofreram uma carga ou executaram uma Intervenção Heróica (por exemplo, AP -1 se torna AP -2)."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7325-d533-498c-3d6c" name="Opportunist" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27878,7 +27878,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Roloque jogadas de ferimento de 1 que segmentam veículos. Além disso, o seu senhor da guerra pode mirar os personagens inimigos em até 18" , mesmo que eles não sejam o modelo mais próximo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Roloque jogadas de ferimento de 1 que miram em veículos. Além disso, o seu senhor da guerra pode mirar os personagens inimigos a no máximo 18" , mesmo que eles não sejam o modelo mais próximo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7016-4e17-cd46-ebd3" name="Killa Reputation" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27887,7 +27887,7 @@ In addition, immediately make an additional hit roll against the same target usi
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role 1s para acertar na fase de combate para Freebootas aliadas, enquanto eles estão em até 6" do seu senhor da guerra.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role 1s para acertar na fase de combate para Freebootas aliadas, enquanto eles estão a no máximo 6" do seu senhor da guerra.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="f68d-2b28-1041-a7a9" name="I've Got A Plan, Ladz!" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">

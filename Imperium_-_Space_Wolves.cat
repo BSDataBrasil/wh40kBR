@@ -1963,7 +1963,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A morte de Svangir ou Ulfgir é ignorada para fins de moral. Svangir e Ulfgir são considerados como tendo a palavra-chave CHARACTER para os ataques e Intervenções heróicas, e a palavra-chave INFANTRY para embarcar em até um transporte."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A morte de Svangir ou Ulfgir é ignorada para fins de moral. Svangir e Ulfgir são considerados como tendo a palavra-chave CHARACTER para os ataques e Intervenções heróicas, e a palavra-chave INFANTRY para embarcar a no máximo um transporte."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2288,7 +2288,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 a qualquer teste de Deny the Witch que você fizer para um modelo equipado com um capuz psíquico contra um PSYKER inimigo em até 12" .'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 a qualquer teste de Deny the Witch que você fizer para um modelo equipado com um capuz psíquico contra um PSYKER inimigo a no máximo 12" .'/>
      </characteristics>
     </profile>
    </profiles>
@@ -7339,7 +7339,7 @@
       </modifier>
      </modifiers>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a jogadas de dano para ataques feitos por uma unidade afetada por essa saga que tenha como alvo um MONSTRO ou VEÍCULO. Deed of Legend: Mate o MONSTER ou o VEÍCULO inimigo com o seu Warlord."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes para ferir para ataques feitos por uma unidade afetada por essa saga que tenha como alvo um MONSTRO ou VEÍCULO. Deed of Legend: Mate o MONSTER ou o VEÍCULO inimigo com o seu Warlord."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9904,7 +9904,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar rolagens de carga falhadas para Murderfang. Além disso, em um turno em que Murderfang faz uma carga bem sucedida, aumenta sua característica de Ataques em 2 até o final do turno."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar rolagens de carga malsucedidas para Murderfang. Além disso, em um turno em que Murderfang faz uma carga bem sucedida, aumenta sua característica de Ataques em 2 até o final do turno."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f519-b6f1-cfaa-5ef8" name="Force of Untamed Destruction" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10007,7 +10007,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -13608,7 +13608,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar uma jogada de carga em até 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar uma jogada de carga a menos de 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -13820,7 +13820,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar uma jogada de carga em até 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar uma jogada de carga a menos de 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -19060,7 +19060,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='WOLVES DE ESPAÇO unidades em até 6" de qualquer SPACE WOLVES AMIGOS ANCIENTS acrescentam 1 à Liderança deles / delas. Além disso, role um D6 cada vez um &lt;CHAPTER&gt; INFANTARIA modelo é destruído dentro 6" de qualquer LUGARES DE ESPAÇO ANTIGOS aliadas, antes de remover o modelo como um acidente. Em um 4+, esse modelo reúne uma última onda de força antes de sucumbir às feridas; Ele pode atirar com uma de suas armas como se fosse a fase de tiro, ou fazer um único ataque como se fosse a fase de combate.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='WOLVES DE ESPAÇO unidades a no máximo 6" de qualquer SPACE WOLVES AMIGOS ANCIENTS acrescentam 1 à Liderança deles / delas. Além disso, role um D6 cada vez um &lt;CHAPTER&gt; INFANTARIA modelo é destruído dentro 6" de qualquer LUGARES DE ESPAÇO ANTIGOS aliadas, antes de remover o modelo como um acidente. Em um 4+, esse modelo reúne uma última onda de força antes de sucumbir às feridas; Ele pode atirar com uma de suas armas como se fosse a fase de tiro, ou fazer um único ataque como se fosse a fase de combate.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -19721,7 +19721,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Servidores melhoram tanto sua habilidade de arma e sua habilidade balística para 4 +, e sua liderança para 9, enquanto eles estão em até 6" de qualquer TECHMARINES aliados.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Servidores melhoram tanto sua habilidade de arma e sua habilidade balística para 4+, e sua liderança para 9, enquanto eles estão a no máximo 6" de qualquer TECHMARINES aliados.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="e2ff-f376-7790-9b48" name="Servitor" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -21726,7 +21726,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os modelos nesta unidade não sofrem a penalidade de suas jogadas de ataque para Advancingnd disparar armas de assalto."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os modelos nesta unidade não sofrem a penalidade de suas testes de acerto para Advancingnd disparar armas de assalto."/>
      </characteristics>
     </profile>
    </profiles>
@@ -22995,7 +22995,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="0"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="0"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um choque não causa dano algum. Em vez disso, cada vez que uma granada de choque atinge uma unidade INFANTARIA inimiga, ela fica atordoada até o final do turno - ela não pode disparar Overwatch e seu oponente deve subtrair 1 de qualquer jogada de sucesso feita para a unidade. O segundo e os sucessivos hits de uma granada de choque não têm efeito adicional."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um choque não causa dano algum. Em vez disso, cada vez que uma granada de choque atinge uma unidade INFANTARIA inimiga, ela fica atordoada até o final do turno - ela não pode disparar Overwatch e seu oponente deve subtrair 1 de qualquer teste de acerto feita para a unidade. O segundo e os sucessivos hits de uma granada de choque não têm efeito adicional."/>
      </characteristics>
     </profile>
    </profiles>
@@ -23064,7 +23064,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando os modelos com lançadores de grapnel se movem, não contam qualquer distância vertical que eles movem contra o total que eles podem mover naquele turno. Além disso, Durante o deploy, você pode colocar essa unidade se ela estiver equipada com lançadores de grapel behing linhas inimigas em vez de colocá-la no campo de batalha. No final da sua fase de movimento, esta unidade pode participar da batalha. Configure-o em até 6" de uma borda de campo de sua escolha e mais de 9" longe de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando os modelos com lançadores de grapnel se movem, não contam qualquer distância vertical que eles movem contra o total que eles podem mover naquele turno. Além disso, Durante o deploy, você pode colocar essa unidade se ela estiver equipada com lançadores de grapel behing linhas inimigas em vez de colocá-la no campo de batalha. No final da sua fase de movimento, esta unidade pode participar da batalha. Configure-o a no máximo 6" de uma borda de campo de sua escolha e mais de 9" longe de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -23089,7 +23089,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode configurá-lo em alta órbita em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, esta unidade pode descer - configurá-lo em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocá-lo em alta órbita em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, esta unidade pode descer - colocá-lo em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -23114,7 +23114,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades inimigas devem subtrair 1 de suas características de liderança se estiverem em até 3" de qualquer Reivers.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades inimigas devem subtrair 1 de suas características de liderança se estiverem a no máximo 3" de qualquer Reivers.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -23635,7 +23635,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 2 de qualquer teste feito para unidades que declararem carga contra um Repulsor."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 2 de qualquer teste de carga feito para unidades que declararem carga contra um Repulsor."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="9541-b958-e3c8-dbc1" name="Transport" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -23966,7 +23966,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um modelo tiver o Padrão do Imperador Ascendente, você pode adicionar 1 ao teste de dados feito para ver se os modelos CAPTER aliadas ​​em até 6" do portador podem convocar a força para fazer um ataque final quando abatidos. Além disso, enquanto em até 6" do portador, os modelos ADEPTUS ASTARTES aliadas ​​passam automaticamente os testes de Morale, enquanto as unidades inimigas devem subtrair 1 de suas características de Liderança.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um modelo tiver o Padrão do Imperador Ascendente, você pode adicionar 1 ao teste de dados feito para ver se os modelos CAPTER aliadas ​​a no máximo 6" do portador podem convocar a força para fazer um ataque final quando abatidos. Além disso, enquanto a no máximo 6" do portador, os modelos ADEPTUS ASTARTES aliadas ​​passam automaticamente os testes de Morale, enquanto as unidades inimigas devem subtrair 1 de suas características de Liderança.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -24851,7 +24851,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar qualquer teste de carga falhadas para este modelo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar qualquer teste de carga malsucedidas para este modelo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -25343,7 +25343,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='WOLVES DE ESPAÇO unidades em até 6" de qualquer SPACE WOLVES AMIGOS ANCIENTS acrescentam 1 à Liderança deles / delas. Além disso, role um D6 cada vez um &lt;CHAPTER&gt; INFANTARIA modelo é destruído dentro 6" de qualquer LUGARES DE ESPAÇO ANTIGOS aliadas, antes de remover o modelo como um acidente. Em um 4+, esse modelo reúne uma última onda de força antes de sucumbir às feridas; Ele pode atirar com uma de suas armas como se fosse a fase de tiro, ou fazer um único ataque como se fosse a fase de combate.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='WOLVES DE ESPAÇO unidades a no máximo 6" de qualquer SPACE WOLVES AMIGOS ANCIENTS acrescentam 1 à Liderança deles / delas. Além disso, role um D6 cada vez um &lt;CHAPTER&gt; INFANTARIA modelo é destruído dentro 6" de qualquer LUGARES DE ESPAÇO ANTIGOS aliadas, antes de remover o modelo como um acidente. Em um 4+, esse modelo reúne uma última onda de força antes de sucumbir às feridas; Ele pode atirar com uma de suas armas como se fosse a fase de tiro, ou fazer um único ataque como se fosse a fase de combate.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -25593,7 +25593,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo deve fazer uma Intervenção Heróica se for capaz de fazê-lo. Além disso, você pode rolar rolagens de resultados falhadas para este modelo na fase de combate ao segmentar um PERSONAGEM."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo deve fazer uma Intervenção Heróica se for capaz de fazê-lo. Além disso, você pode rolar rolagens de resultados malsucedidas para este modelo na fase de combate ao mirar em um PERSONAGEM."/>
      </characteristics>
     </profile>
    </profiles>
@@ -26882,7 +26882,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha, em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais em D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha, em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais em D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="95d4-a091-ba7d-4b41" name="Atomantic Shielding" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -27525,7 +27525,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -27736,7 +27736,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -27889,7 +27889,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 1" sofre ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a menos de 1" sofre ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -28142,7 +28142,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 às jogadas de ataque para este modelo ao mirar um inimigo na fase de Tiro que pode FLY."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 às testes de acerto para este modelo ao mirar um inimigo na fase de Tiro que pode FLY."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="2eea-671e-3463-be92" name="Supersonic" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -28160,7 +28160,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele cai e explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -28463,7 +28463,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a jogadas de dano para ataques feitos por uma unidade afetada por essa saga que tenha como alvo um MONSTRO ou VEÍCULO. Deed of Legend: Mate o MONSTER ou o VEÍCULO inimigo com o seu Warlord."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes para ferir para ataques feitos por uma unidade afetada por essa saga que tenha como alvo um MONSTRO ou VEÍCULO. Deed of Legend: Mate o MONSTER ou o VEÍCULO inimigo com o seu Warlord."/>
      </characteristics>
     </profile>
    </profiles>
@@ -28488,7 +28488,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade afetada por esta saga na sua fase de Carga pode cobrar mesmo que seja avançada antes no turno. Deed of Legend: carregue com sucesso uma unidade inimiga com seu Warlord."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade afetada por esta saga na sua fase de Carga pode efetuar uma carga mesmo que seja avançada antes no turno. Deed of Legend: carregue com sucesso uma unidade inimiga com seu Warlord."/>
      </characteristics>
     </profile>
    </profiles>
@@ -28582,7 +28582,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se seu exército for forjado em batalha, em qualquer turno em que uma unidade com essa habilidade fez um movimento de carga, foi cobrado ou feito uma Intervenção Heroica, você pode adicionar 1 às suas jogadas de ataque na fase de combate. Além disso, PERSONAGENS com esta habilidade podem realizar uma Intervenção Heroica se, após o inimigo completar todos os seus movimentos de carga, houver qualquer unidade inimiga em até 6" deles. Eles podem mover até 6" ao executar uma Intervenção Heroica, então desde que eles terminem o movimento mais perto do modelo inimigo mais próximo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se seu exército for forjado em batalha, em qualquer turno em que uma unidade com essa habilidade fez um movimento de carga, sofreu uma carga ou realizou uma Intervenção Heroica, você pode adicionar 1 às suas testes de acerto na fase de combate. Além disso, PERSONAGENS com esta habilidade podem realizar uma Intervenção Heroica se, após o inimigo completar todos os seus movimentos de carga, houver qualquer unidade inimiga a no máximo 6" deles. Eles podem mover até 6" ao executar uma Intervenção Heroica, então desde que eles terminem o movimento mais perto do modelo inimigo mais próximo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -31268,7 +31268,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a jogadas de dano para ataques feitos por uma unidade afetada por essa saga que tenha como alvo um MONSTRO ou VEÍCULO. Deed of Legend: Mate o MONSTER ou o VEÍCULO inimigo com o seu Warlord."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes para ferir para ataques feitos por uma unidade afetada por essa saga que tenha como alvo um MONSTRO ou VEÍCULO. Deed of Legend: Mate o MONSTER ou o VEÍCULO inimigo com o seu Warlord."/>
          </characteristics>
         </profile>
        </profiles>
@@ -31296,7 +31296,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade afetada por esta saga na sua fase de Carga pode cobrar mesmo que seja avançada antes no turno. Deed of Legend: carregue com sucesso uma unidade inimiga com seu Warlord."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade afetada por esta saga na sua fase de Carga pode efetuar uma carga mesmo que seja avançada antes no turno. Deed of Legend: carregue com sucesso uma unidade inimiga com seu Warlord."/>
          </characteristics>
         </profile>
        </profiles>
@@ -31696,7 +31696,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 4 + save invulnerável. Além disso, no início da fase de combate, escolha uma unidade inimiga em até 1" deste modelo. Essa unidade não pode ser escolhida para lutar na fase de combate até que todas as outras unidades capazes de lutar o façam. Se a unidade alvo tiver uma habilidade que permite que ele lute primeiro na fase de combate, ele luta como se não tivesse essa habilidade.Se ambos os jogadores tiverem unidades que não podem lutar até que todas as outras unidades o façam, então escolha alternar entre elas para lutar com, começando com o jogador cuja vez está ocorrendo.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 4+ save invulnerável. Além disso, no início da fase de combate, escolha uma unidade inimiga a menos de 1" deste modelo. Essa unidade não pode ser escolhida para lutar na fase de combate até que todas as outras unidades capazes de lutar o façam. Se a unidade alvo tiver uma habilidade que permite que ele lute primeiro na fase de combate, ele luta como se não tivesse essa habilidade.Se ambos os jogadores tiverem unidades que não podem lutar até que todas as outras unidades o façam, então escolha alternar entre elas para lutar com, começando com o jogador cuja vez está ocorrendo.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -31799,7 +31799,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode fazer 1 ataque adicional por modelos em unidades de infantaria, motoneta e cavalaria que estão em até 3" do portador quando eles fazem seus ataques na fase de combate. Unidades de Wulfen não são afetadas, nem unidades que fizeram uma carga enquanto estiver dentro do alcance da habilidade Maldição do Wulfen (Caça) no início do turno.Além disso, uma unidade não pode ser afetada tanto pela Maldição do Wulfen (Matar) quanto pela Pedra Wulfen na mesma fase de combate.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode fazer 1 ataque adicional por modelos em unidades de infantaria, motoneta e cavalaria que estão a no máximo 3" do portador quando eles fazem seus ataques na fase de combate. Unidades de Wulfen não são afetadas, nem unidades que fizeram uma carga enquanto estiver dentro do alcance da habilidade Maldição do Wulfen (Caça) no início do turno.Além disso, uma unidade não pode ser afetada tanto pela Maldição do Wulfen (Matar) quanto pela Pedra Wulfen na mesma fase de combate.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -31840,7 +31840,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofre qualquer ferida não salva desta arma, mas não é morto, role um D6, em um 4+ o alvo sofre uma ferida mortal."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofre qualquer ferida não salva desta arma, mas não é morto, role um D6, em um 4+ o alvo sofre uma Ferimento Mortal."/>
        </characteristics>
       </profile>
      </profiles>
@@ -31887,7 +31887,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas enrolados para esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -31934,7 +31934,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-rolar os testes de acerto falhados para unidades aliadas de SPACE WOLVES que estejam em até 6" do Logan Grimnar.'>
+   <description description='Você pode re-rolar os testes de acerto malsucedidos para unidades aliadas de SPACE WOLVES que estejam a no máximo 6" do Logan Grimnar.'>
     You can re-roll failed hit rolls for friendly SPACE WOLVES units that are within 6" of Logan Grimnar.
    </description>
   </rule>
@@ -31943,7 +31943,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você não precisa fazer testes de moral para as unidades WOLF GUARD em até 6" de Logan Grimnar.'>
+   <description description='Você não precisa fazer testes de moral para as unidades WOLF GUARD a no máximo 6" de Logan Grimnar.'>
     You do not need to take Morale tests for friendly WOLF GUARD units within 6" of Logan Grimnar.
    </description>
   </rule>
@@ -31952,7 +31952,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Durante o deploy, você pode colocar Logan Grimnar em uma câmara de teleportarium, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, ele pode usar um ataque de teletransporte para chegar ao campo de batalha - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'>
+   <description description='Durante o deploy, você pode colocar Logan Grimnar em uma câmara de teleportarium, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, ele pode usar um ataque de teletransporte para chegar ao campo de batalha - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'>
     During deployment, you can set up Logan Grimnar in a teleportarium chamber instead of placing him on the battlefield.  At the end of any of your Movement phases he can use a teleport strike to arrive on the battlefield - set him up anywhere on the battlefield that is more than 9" away from any enemy models.
    </description>
   </rule>
@@ -31961,7 +31961,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Você pode rolar novamente os jogadas de carga falhadas para esta unidade.">
+   <description description="Você pode rolar novamente os jogadas de carga malsucedidas para esta unidade.">
     You can re-roll failed charge rolls for this unit.
    </description>
   </rule>
@@ -31970,7 +31970,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-rolar as jogadas de 1 para as unidades aliadas ​​do SPACE WOLVES em até 6" deste modelo.'>
+   <description description='Você pode re-rolar as testes de acerto de 1 para as unidades aliadas ​​do SPACE WOLVES a no máximo 6" deste modelo.'>
     You can re-roll hit rolls of 1 for friendly SPACE WOLVES units within 6" of this model.
    </description>
   </rule>
@@ -31979,7 +31979,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-rolar as rolagens de carga falhadas para unidades aliadas ​​de SPACE WOLVES em até 6" de Ragnar Blackmane.'>
+   <description description='Você pode re-rolar as rolagens de carga malsucedidas para unidades aliadas ​​de SPACE WOLVES a no máximo 6" de Ragnar Blackmane.'>
     You can re-roll failed charge rolls for friendly SPACE WOLVES units within 6" of Ragnar Blackmane.
    </description>
   </rule>
@@ -31988,7 +31988,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Ragnar Blackmane pode realizar uma Intervenção Heróica se ele estiver em até 6" de uma unidade inimiga ao invés de apenas 3", e se ele fizer isso ele pode mover 6" ao invés de 3".'>
+   <description description='Ragnar Blackmane pode realizar uma Intervenção Heróica se ele estiver a no máximo 6" de uma unidade inimiga ao invés de apenas 3", e se ele fizer isso ele pode mover 6" ao invés de 3".'>
     Ragnar Blackmane can perform a Heroic Intervention if he is within 6" of an enemy unit instead of only 3", and if he does so he can move 6" rather than 3".
    </description>
   </rule>
@@ -31997,7 +31997,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Durante o deploy, você pode colocar o Harald Deathwolf pronto para flanquear sua presa em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, ele pode participar da batalha - configurá-lo para que ele esteja a 12" de qualquer borda de campo de sua escolha e a mais de 9" de distância de qualquer modelo inimigo.'>
+   <description description='Durante o deploy, você pode colocar o Harald Deathwolf pronto para flanquear sua presa em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, ele pode participar da batalha - colocá-lo para que ele esteja a 12" de qualquer borda de campo de sua escolha e a mais de 9" de distância de qualquer modelo inimigo.'>
     During deployment, you can set up Harald Deathwolf ready to outflank his prey instead of placing him on the battlefield.  At the end of any of your Movement phases he can join the battle - set him up so that he is within 12" of any battlefield edge of your choice and more than 9" away from any enemy models.
    </description>
   </rule>
@@ -32006,7 +32006,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Todas as unidades de THUNDERWOLF e unidades aliadas ​​de Lobos Fenrisianos ou Cyberwolves em até 6" na fase de Moral podem usar a Liderança de Harald Lobo Morto em vez da sua própria.'>
+   <description description='Todas as unidades de THUNDERWOLF e unidades aliadas ​​de Lobos Fenrisianos ou Cyberwolves a no máximo 6" na fase de Moral podem usar a Liderança de Harald Lobo Morto em vez da sua própria.'>
     All friendly THUNDERWOLF units and friendly units of Fenrisian Wolves or Cyberwolves within 6" in the Morale phase can use Harald Deathwolf's Leadership instead of their own.
    </description>
   </rule>
@@ -32015,7 +32015,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode fazer 1 ataque adicional de Dentes e Garras ou Dentes e Garras Esmagadores na fase de combate para todos os modelos aliadas ​​em unidades THUNDERWOLF, Lobos Fenrisianos ou Cyberwolves que estão em até 6" de Canis Wolfborn no início da fase.'>
+   <description description='Você pode fazer 1 ataque adicional de Dentes e Garras ou Dentes e Garras Esmagadores na fase de combate para todos os modelos aliadas ​​em unidades THUNDERWOLF, Lobos Fenrisianos ou Cyberwolves que estão a no máximo 6" de Canis Wolfborn no início da fase.'>
     You can make 1 additional Teeth and Claws or Crushing Teeth and Claws attack in the Fight phase for all friendly models in THUNDERWOLF, Fenrisian Wolves or Cyberwolves units that are within 6" of Canis Wolfborn at the start of the phase.
    </description>
   </rule>
@@ -32033,7 +32033,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão em até 6" de Canis Wolfborn.'>
+   <description description='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão a no máximo 6" de Canis Wolfborn.'>
     You can re-roll wound rolls of 1 for friendly SPACE WOLVES units that are within 6" of Canis Wolfborn.
    </description>
   </rule>
@@ -32042,7 +32042,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo tiver um pacote de salto, quando você configurá-lo Durante o deploy, ele pode ser configurado alto nos céus, pronto para atacar, em vez de ser colocado no campo de batalha. Se for, pode fazer um assalto súbito chegar ao campo de batalha no final de qualquer uma das fases do seu Movimento, quando o fizer em qualquer lugar que esteja a mais de 9" de qualquer modelo inimigo.'>
+   <description description='Se este modelo tiver um pacote de salto, quando você colocá-lo Durante o deploy, ele pode ser configurado alto nos céus, pronto para atacar, em vez de ser colocado no campo de batalha. Se for, pode fazer um assalto súbito chegar ao campo de batalha no final de qualquer uma das suas fases de Movimento, quando o fizer em qualquer lugar que esteja a mais de 9" de qualquer modelo inimigo.'>
     If this model has a jump pack, when you set it up during deployment, it can be set up high in the skies, ready to strike, instead of being placed on the battlefield.  If it is, it can make a sudden assault to arrive on the battlefield at the end of any of your Movement phases, when it does so set it up anywhere that is more than 9" from any enemy models.
    </description>
   </rule>
@@ -32051,7 +32051,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="No início de cada fase de tiro, escolha uma unidade inimiga no campo de batalha. Você pode re-rolar as jogadas de 1 para qualquer modelo desta unidade que tenha como alvo a unidade inimiga escolhida.">
+   <description description="No início de cada fase de tiro, escolha uma unidade inimiga no campo de batalha. Você pode re-rolar as testes de acerto de 1 para qualquer modelo desta unidade que tenha como alvo a unidade inimiga escolhida.">
     At the start of each of your Shooting phases, pick one enemy unit on the battlefield.  You can re-roll hit rolls of 1 for any models from this unit that target that enemy unit you picked that phase.
    </description>
   </rule>
@@ -32060,7 +32060,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D6.'>
+   <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers D6 mortal wounds.
    </description>
   </rule>
@@ -32210,7 +32210,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="54ce-166e-5705-6f83" name="Crushing teeth and claws" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32294,7 +32294,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta, ele pode fazer 1 ataque adicional com esta arma. Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta, ele pode fazer 1 ataque adicional com esta arma. Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b8fb-84b1-6dee-808f" name="Frost sword" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32322,7 +32322,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="d6f6-2514-f9be-d6f4" name="Great frost axe" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32350,7 +32350,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7b96-84b1-63c7-c790" name="The Murderclaws" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32364,7 +32364,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="d569-efbe-104f-1795" name="Runic axe" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32434,7 +32434,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal. Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal. Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6658-dc2b-d2b1-9743" name="Trueclaw" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32448,7 +32448,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+5"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="958f-d250-8357-b90b" name="Wolf claw" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32462,7 +32462,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma. Um modelo armado com duas garras de lobo pode fazer 1 ataque adicional com esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma. Um modelo armado com duas garras de lobo pode fazer 1 ataque adicional com esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0208-7b0b-f071-c56c" name="Wulfen claws" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32518,7 +32518,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e800-0021-1c14-c68b" name="Helfrost cannon - Focused beam" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32532,7 +32532,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="af62-2c69-81b6-e4b7" name="Helfrost destructor - Dispersed beam" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32546,7 +32546,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="c86d-f551-666e-d9dc" name="Helfrost destructor - Focused beam" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32560,7 +32560,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b4de-d970-d0f3-8f0f" name="Helfrost pistol" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32574,7 +32574,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0eb6-98ab-0d30-2044" name="Nightwing" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32616,7 +32616,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e190-3ff1-9dca-3c87" name="Twin helfrost canon - Focused beam" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -32630,7 +32630,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma ferida mortal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um modelo sofrer algum dano não salvo desta arma, mas não for morto, role um D6; em um 6, o alvo sofre uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="403c-2ee6-e548-cc9b" name="Blizzard shield" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32675,7 +32675,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Fornece ao usuário um 4 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Fornece ao usuário um 4+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0413-6a1d-81b6-a5c0" name="Insane Bravado" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32693,7 +32693,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de 1 para as unidades aliadas ​​do SPACE WOLVES em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as testes de acerto de 1 para as unidades aliadas ​​do SPACE WOLVES a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Space Wolves" hidden="false" id="c214-2c0f-696b-73c6" name="War Howl" page="83" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32702,7 +32702,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente as rolagens de carga falhadas para unidades aliadas de SPACE WOLVES (exceto VEÍCULOS) em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente as rolagens de carga malsucedidas para unidades aliadas de SPACE WOLVES (exceto VEÍCULOS) a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7069-fc30-01b8-23ea" name="Logan Grimnar" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -32728,7 +32728,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de sucesso falhadas para unidades aliadas ​​de SPACE WOLVES que estejam em até 6" .'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de acerto malsucedidos para unidades aliadas ​​de SPACE WOLVES que estejam a no máximo 6" .'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2972-3c4c-b8ba-6b01" name="High King of Fenris" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32737,7 +32737,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você não precisa fazer testes de moral para as unidades WOLF GUARD em até 6" de Logan Grimnar.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você não precisa fazer testes de moral para as unidades WOLF GUARD a no máximo 6" de Logan Grimnar.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="c089-ba71-dd6e-0a10" name="Teleport Strike" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32746,7 +32746,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar o modelo em uma câmara de teleporte ao invés de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, ele pode usar um ataque de teletransporte para chegar ao campo de batalha - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar o modelo em uma câmara de teleporte ao invés de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, ele pode usar um ataque de teletransporte para chegar ao campo de batalha - coloque-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3548-22dc-e873-c892" name="Logan Grimnar on Stormrider" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -32805,7 +32805,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente rolagens de carga falhadas para este modelo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente rolagens de carga malsucedidas para este modelo."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b195-7f25-449e-1303" name="Wolf Lord on Thunderwolf" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -32848,7 +32848,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas que estão em até 3" de Krom Dragongaze devem reduzir sua liderança em 1.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas que estão a no máximo 3" de Krom Dragongaze devem reduzir sua liderança em 1.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="79e1-3d03-5493-fc75" name="Harald Deathwolf" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -32874,7 +32874,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar a unidade pronta para flanquear sua presa em vez de colocá-la no campo de batalha. No final de qualquer uma das fases do seu Movimento, ele pode participar da batalha - configurá-lo para que ele esteja a 12" de qualquer borda de campo de sua escolha e a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar a unidade pronta para flanquear sua presa em vez de colocá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, ele pode participar da batalha - colocá-lo para que ele esteja a 12" de qualquer borda de campo de sua escolha e a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="cf00-2a59-e3c8-22ed" name="Lord of the Wolfkin" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32883,7 +32883,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades THUNDERWOLF e unidades aliadas ​​de Lobos Fenrisianos ou Cyberwolves em até 6" de Harald Deathwolf podem usar sua Liderança em vez da sua.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades THUNDERWOLF e unidades aliadas ​​de Lobos Fenrisianos ou Cyberwolves a no máximo 6" de Harald Deathwolf podem usar sua Liderança em vez da sua.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e877-af01-a51d-c266" name="Mantle of the Troll King" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -32952,7 +32952,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo tiver um pacote de salto, quando você configurá-lo Durante o deploy, ele pode ser configurado alto nos céus, pronto para atacar, em vez de ser colocado no campo de batalha. Se for, pode atacar repentinamente o campo de batalha no final de qualquer uma das fases do seu Movimento; quando o fizer, configure-o em qualquer lugar com mais de 9" de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo tiver um pacote de salto, quando você colocá-lo Durante o deploy, ele pode ser configurado alto nos céus, pronto para atacar, em vez de ser colocado no campo de batalha. Se for, pode atacar repentinamente o campo de batalha no final de qualquer uma das suas fases de Movimento; quando o fizer, configure-o em qualquer lugar com mais de 9" de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="588e-2d8e-7485-24fe" name="Crux Terminatus" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -32996,7 +32996,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode fazer 1 dentes adicionais e garras ou esmagar dentes e garras atacar na fase de combate para todos os modelos aliadas ​​em unidades THUNDERWOLF, Lobos Fenrisianos ou Cyberwolves que estão em até 6" de Canis Wolfborn no início da fase.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode fazer 1 ataque adicional com 'Teeth and Claws' ou 'Crushing teeth and claws' na fase de combate para todos os modelos aliadas ​​em unidades THUNDERWOLF, Lobos Fenrisianos ou Cyberwolves que estão a no máximo 6&quot; de Canis Wolfborn no início da fase."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="fa9b-3ce5-ea38-74a5" name="Champion of the Deathwolves" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33005,7 +33005,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão em até 6" do modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão a no máximo 6" do modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2180-23c7-3f6c-7b12" name="Njal Stormcaller" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33078,7 +33078,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados falhadas na fase de combate para unidades aliadas ​​de LOBAS DE ESPAÇO em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados malsucedidas na fase de combate para unidades aliadas ​​de LOBAS DE ESPAÇO a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="98aa-9a8e-dfae-98d9" name="Spiritual Leader" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33087,7 +33087,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas ​​do LOBO do ESPAÇO em até 6" deste modelo na fase da moral podem usar sua liderança em vez do seus próprios.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas ​​do LOBO do ESPAÇO a no máximo 6" deste modelo na fase da moral podem usar sua liderança em vez do seus próprios.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="08bd-845a-0d9f-82f6" name="Wolf Amulet" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33096,7 +33096,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="34bf-85f7-a4c2-a494" name="Healing Balms" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33105,7 +33105,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, um sacerdote pode tentar curar um único modelo. Para isso, selecione uma unidade INFANTARIA, MOTOCICLISTA ou Cavalaria do LUGAR DOS ESPAÇOS em até 3" dele. Se essa unidade contiver um modelo ferido, ele será curado e recuperará imediatamente até D3 feridas perdidas. Uma unidade só pode ser alvo de Bálsamos de Cura. uma vez a cada turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, um sacerdote pode tentar curar um único modelo. Para isso, selecione uma unidade INFANTARIA, MOTOCICLISTA ou Cavalaria de SPACE WOLVES a no máximo 3" dele. Se essa unidade contiver um modelo ferido, ele será curado e recuperará imediatamente até D3 Pontos de Vida. Uma unidade só pode ser alvo de Bálsamos de Cura. uma vez a cada turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="fe04-1322-f3ce-33a5" name="Wolf Priest" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33148,7 +33148,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0ecd-eae9-fbfa-b174" name="Ulrik The Slayer" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33174,7 +33174,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de sucesso falhadas na fase de combate para unidades de SPACE WOLVES aliadas ​​em até 6" deste modelo. Se o modelo matar um personagem inimigo ou MONSTRO, então para o resto da batalha, você pode adicionar 1 a qualquer dano. você faz na fase de combate para quaisquer unidades aliadas de SPACE WOLVES em até 6" dele.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de acerto malsucedidos na fase de combate para unidades de SPACE WOLVES aliadas ​​a no máximo 6" deste modelo. Se o modelo matar um personagem inimigo ou MONSTRO, então para o resto da batalha, você pode adicionar 1 a qualquer dano. você faz na fase de combate para quaisquer unidades aliadas de SPACE WOLVES a no máximo 6" dele.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="cc32-6aa5-ef4c-9267" name="Wolf Helm of Russ" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33183,7 +33183,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas de SPACE WOLVES em até 9" de Ulrik o assassino podem usar sua liderança em vez do seus próprios.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas de SPACE WOLVES a no máximo 9" de Ulrik o assassino podem usar sua liderança em vez do seus próprios.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3e07-4693-cf8a-0b2c" name="Bjorn the Fell-handed" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33218,7 +33218,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de 1 para unidades aliadas ​​de SPACE WOLVES que estão em até 6" do modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as testes de acerto de 1 para unidades aliadas ​​de SPACE WOLVES que estão a no máximo 6" do modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="57c9-78fb-2a6d-bcb0" name="Legendary Tenacity" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33227,7 +33227,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 cada vez que Bjorn, o Fell-handed, perde uma ferida; em uma jogada de 5+ que ferida não está perdida."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 cada vez que Bjorn, o Fell-handed, perde uma ferida; em uma jogada de 5+ ele não sofre o dano."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1652-d61f-7126-b658" name="Arjac Rockfist" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33262,7 +33262,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de sucesso falhadas para Arjac Rockfist na fase de combate ao direcionar um PERSONAGEM. Além disso, você pode fazer 1 ataque adicional na fase de combate para todos os modelos em unidades aliadas ​​do WOLF GUARD em até 6" de Arjac Rockfist no início da fase.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de acerto malsucedidos para Arjac Rockfist na fase de combate ao direcionar um PERSONAGEM. Além disso, você pode fazer 1 ataque adicional na fase de combate para todos os modelos em unidades aliadas ​​do WOLF GUARD a no máximo 6" de Arjac Rockfist no início da fase.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0a3f-af33-bc82-9f86" name="Thane to the High King" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33271,7 +33271,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a7d5-d07f-266a-8653" name="Iron Priest" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33297,7 +33297,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único VEÍCULO DE SPACE WOLVES em até 1" dele. Esse modelo recupera imediatamente as feridas D3 perdidas no início da batalha. Um modelo só pode ser reparado uma vez por turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único VEÍCULO DE SPACE WOLVES a menos de 1" dele. Esse modelo recupera imediatamente D3 Pontos de Vida perdidas no início da batalha. Um modelo só pode ser reparado uma vez por turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2a55-144c-0bdc-0aee" name="Lukas The Trickster" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33323,7 +33323,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades de Blood Claws que estejam em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades de Blood Claws que estejam a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ca24-1713-e31f-023f" name="Master of Mischief" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33332,7 +33332,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da liderança de todas as unidades (amigo ou inimigo) em até 3" de Lukas o Malandro no início da fase de Moral durante a fase.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Subtraia 1 da liderança de todas as unidades (amigo ou inimigo) a no máximo 3" de Lukas o Malandro no início da fase de Moral durante a fase.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7e41-990b-9df2-d3e7" name="The Last Laugh" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33341,7 +33341,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se Lukas, o Malandro, for morto na fase de combate, ambos os jogadores rolam um dado, enrolando novamente os empates; se você rolar mais baixo, nada acontece; se você rolar mais alto, a unidade que conseguiu o golpe sofrerá D6 mortalmente."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se Lukas, the Trickster, for morto na fase de combate, ambos os jogadores rolam um dado, rolando novamente os empates; se você rolar mais baixo, nada acontece; se você rolar mais alto, a unidade que conseguiu o acerto o sofrerá D6 FErimentos Mortais."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="f284-1dd2-f1c1-be66" name="Pelt of the Doppegangrel" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33350,7 +33350,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de qualquer jogada de ataque que tenham como alvo Lukas The Trickster na fase de combate."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de qualquer teste de acerto que tenham como alvo Lukas The Trickster na fase de combate."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3929-077e-c130-e6c7" name="Blood Claw" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33462,7 +33462,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os jogadas de carga falhadas para esta unidade."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os jogadas de carga malsucedidas para esta unidade."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="dabb-fa86-646d-3c57" name="Lone Wolf" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -33488,7 +33488,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que este modelo perder sua ferida final; em uma jogada de um 4+ que ferida não está perdida. Além disso, se este modelo for morto na fase de combate, uma vez que a unidade que o matou tenha feito seus ataques, você pode atacar com ele antes de remover seu modelo como uma baixa, mesmo que ele já tenha atacado essa fase."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que este modelo perder sua ferida final; em uma jogada de um 4+ ele não sofre o dano. Além disso, se este modelo for morto na fase de combate, uma vez que a unidade que o matou tenha feito seus ataques, você pode atacar com ele antes de remover seu modelo como uma baixa, mesmo que ele já tenha atacado essa fase."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e397-e71a-033d-2111" name="...Worthy of a Saga" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33497,7 +33497,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas enrolados falhadas de 1 para este modelo ao atacar um PERSONAGEM ou MONSTER na fase de combate."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar testes para ferir malsucedidos de 1 para este modelo ao atacar um PERSONAGEM ou MONSTER na fase de combate."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6500-ec7b-81cb-8a1a" name="An Army of One" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33584,7 +33584,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que um modelo nesta unidade perder uma ferida; em uma jogada de 5+ que ferida não está perdida. Se um modelo nesta unidade for morto na fase de combate, uma vez que a unidade inimiga tenha terminado seus ataques, você pode atacar com esse modelo antes de removê-lo como uma baixa, mesmo que ele já tenha atacado essa fase. Essa habilidade não é cumulativa com a habilidade de banner de grande empresa."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que um modelo nesta unidade perder uma ferida; em uma jogada de 5+ ele não sofre o dano. Se um modelo nesta unidade for morto na fase de combate, uma vez que a unidade inimiga tenha terminado seus ataques, você pode atacar com esse modelo antes de removê-lo como uma baixa, mesmo que ele já tenha atacado essa fase. Essa habilidade não é cumulativa com a habilidade de banner de grande empresa."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5a12-3817-16bd-e139" name="Curse of the Wulfen (Hunt)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33593,7 +33593,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de carga falhadas para unidades de INFANTARIA, MOTOCICLISTA e CAVALARIA aliadas ​​que estão em até 6" desta unidade no início da fase de Carga. Essa faixa dessa capacidade é dobrada para 12" para unidades de BLOOD CLAW aliadas.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de carga malsucedidas para unidades de INFANTARIA, MOTOCICLISTA e CAVALARIA aliadas ​​que estão a no máximo 6" desta unidade no início da fase de Carga. Essa faixa dessa capacidade é dobrada para 12" para unidades de BLOOD CLAW aliadas.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ac61-0f78-c1f9-50b0" name="Curse of the Wulfen (Kill)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -33602,7 +33602,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode fazer 1 ataque adicional por modelos nas unidades de SPACE WOLVES, BIKER e CAVALRY que estão em até 6" de qualquer unidade aliada com essa habilidade quando eles fazem seus ataques na fase de combate. O alcance dessa habilidade é dobrado para 12" para Unidades de BLOOD CLAWS. Unidades de Wulfen nunca são afetadas por essa habilidade, nem unidades que fizeram uma carga enquanto estavam dentro do alcance da habilidade Maldição do Wulfen (Caça) no início do jogo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode fazer 1 ataque adicional por modelos nas unidades de SPACE WOLVES, BIKER e CAVALRY que estão a no máximo 6" de qualquer unidade aliada com essa habilidade quando eles fazem seus ataques na fase de combate. O alcance dessa habilidade é dobrado para 12" para Unidades de BLOOD CLAWS. Unidades de Wulfen nunca são afetadas por essa habilidade, nem unidades que fizeram uma carga enquanto estavam dentro do alcance da habilidade Maldição do Wulfen (Caça) no início do jogo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="512b-f378-79d2-141a" name="Wolf Guard" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -34256,7 +34256,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade em até 6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3e91-db47-a782-de78" name="Hover Jet" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34274,7 +34274,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas de ataque."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas testes de acerto."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e4e1-09af-93b7-8e2e" name="Airborne" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34283,7 +34283,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo não pode cobrar, só pode ser cobrado por unidades que podem voar e só pode atacar ou ser atacado na fase de combate por unidades que podem voar."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo não pode efetuar uma carga, só pode sofrer uma carga por unidades que podem voar e só pode atacar ou ser atacado na fase de combate por unidades que podem voar."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="24d6-d367-0a52-c0c6" name="Hard to Hit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34406,7 +34406,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 a qualquer teste de Deny the Witch que você fizer para um modelo equipado com um bem psíquico contra um PSYKER inimigo em até 12" .'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 a qualquer teste de Deny the Witch que você fizer para um modelo equipado com um bem psíquico contra um PSYKER inimigo a no máximo 12" .'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4c6f-8f9a-ff98-60c4" name="Pack Mentality" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34424,7 +34424,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os jogadas de carga falhadas para esta unidade."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os jogadas de carga malsucedidas para esta unidade."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6f3b-e2b4-0e6b-0410" name="Fenrisian Wolf" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -34476,7 +34476,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esta unidade atrás das linhas inimigas, em vez de colocá-la no campo de batalha. No final de qualquer uma das fases do seu Movimento, a unidade pode participar da batalha - configure-a para que fique a 6" de qualquer borda de campo de sua escolha e a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esta unidade atrás das linhas inimigas, em vez de colocá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, a unidade pode participar da batalha - configure-a para que fique a 6" de qualquer borda de campo de sua escolha e a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6faa-5f0d-bd78-f2cc" name="Wolf Scout" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -34621,7 +34621,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada fase de tiro, escolha uma unidade inimiga no campo de batalha. Você pode re-rolar as jogadas de 1 para qualquer modelo desta unidade que tenha como alvo a unidade inimiga escolhida nessa fase."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada fase de tiro, escolha uma unidade inimiga no campo de batalha. Você pode re-rolar as testes de acerto de 1 para qualquer modelo desta unidade que tenha como alvo a unidade inimiga escolhida nessa fase."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a437-7f9d-508c-42b4" name="Thunderwolf Cavalry" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -34681,7 +34681,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="721c-d70e-d813-ec16" name="Drop Pod Assault" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34690,7 +34690,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode definir esse modelo, junto com qualquer unidade embarcada em atéle, em órbita, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode realizar um ataque de pod de queda. - configure-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo. Todos os modelos embarcados devem ser imediatamente desembarcados, mas devem ser colocados a mais de 9" de qualquer modelo inimigo. Quaisquer modelos que não podem ser configurados porque não há espaço suficiente são mortos.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode definir esse modelo, junto com qualquer unidade embarcada dentro dele, em órbita, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode realizar um ataque de pod de queda. - configure-o em qualquer lugar no campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo. Todos os modelos embarcados devem ser imediatamente desembarcados, mas devem ser colocados a mais de 9" de qualquer modelo inimigo. Quaisquer modelos que não podem ser colocados em jogo porque não há espaço suficiente são mortos.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="fa12-ca28-0687-8aa8" name="Drop Pod" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -34776,7 +34776,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um Inceptor terminar uma carga movida em até 1" de uma unidade inimiga; em um 6, aquela unidade sofre uma ferida mortal.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um Inceptor terminar uma carga movida a menos de 1" de uma unidade inimiga; em um 6, aquela unidade sofre uma Ferimento Mortal.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="33ea-29e3-151e-9f9b" name="Meteoric Descent" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34785,7 +34785,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode configurá-lo em alta órbita em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, esta unidade pode usar uma descida meteórica - configure-a em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocá-lo em alta órbita em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, esta unidade pode usar uma descida meteórica - configure-a em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="fb24-ed64-acc4-e5ee" name="Transport Landraider" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -34803,7 +34803,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar uma jogada de carga em até 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que este modelo terminar uma jogada de carga a menos de 1" de uma unidade inimiga; em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="87a7-bfb8-548c-23b0" name="Aquila Aegis Field" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34821,7 +34821,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Enquanto este modelo estiver a 24" de qualquer CAPÍTULO Rhino Primaris, adicione 1 às suas jogadas de ataque para disparar ataques.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Enquanto este modelo estiver a 24" de qualquer CAPÍTULO Rhino Primaris, adicione 1 às suas testes de acerto para disparar ataques.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9396-ba74-a305-56ff" name="Rites of Battle" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -34830,7 +34830,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de 1 feitas para unidades CHAPTER aliadas ​​em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades CHAPTER aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ab45-de36-5093-3c20" name="Transport Landraider Redeemer" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -34857,7 +34857,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Os modelos nesta unidade têm um movimento de 20" , em vez de 16", enquanto a unidade contém 3 modelos.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Os modelos nesta unidade têm um movimento de 20" , em vez de 16", enquanto a unidade contiver 3 modelos.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b6ba-39af-6402-3665" name="Company Heroes" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -34866,7 +34866,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Durante o deploy, todos os modelos nesta unidade devem ser configurados ao mesmo tempo, embora não precisem ser configurados em coerência de unidade. A partir desse ponto, cada Tenente Primaris é tratado como uma unidade separada."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Durante o deploy, todos os modelos nesta unidade devem ser colocados em jogo ao mesmo tempo, embora não precisem ser colocados em jogo em coerência de unidade. A partir desse ponto, cada Tenente Primaris é tratado como uma unidade separada."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ca86-a970-9bab-d29a" name="Huskarl to the Jarl" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -34875,7 +34875,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para ferir para unidades aliadas ​​de SPACE WOLVES que estão a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4010-66d8-1e19-352d" name="Razorback (1)" profileTypeId="29af-65db-c2dc-cfa1" profileTypeName="Stat Damage - M/BS/A">
@@ -34938,7 +34938,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Em cada uma das suas fases de tiro, escolha um dos seguintes efeitos: &lt;br&gt; Crânio de Dados de Segmentação: Adicione 1 aos testes de impacto feitos para uma única unidade aliada de LUGARES ESPACIAIS em até 12" deste modelo até o final da fase. &lt;br&gt; &lt;br&gt; Repair Skull: Escolha um único VEÍCULO DE SPACE WOLVES em até 12" deste modelo. Esse modelo recupera 1 ferida perdida. &lt;br&gt; &lt;br&gt; Vox Skull: Subtraia 1 dos testes de moral realizados para unidades aliadas de SPACE WOLVES em até 12" deste modelo até sua próxima fase de tiro.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Em cada uma das suas fases de tiro, escolha um dos seguintes efeitos: &lt;br&gt; Crânio de Dados de Segmentação: Adicione 1 aos testes de impacto feitos para uma única unidade aliada de LUGARES ESPACIAIS a no máximo 12" deste modelo até o final da fase. &lt;br&gt; &lt;br&gt; Repair Skull: Escolha um único VEÍCULO DE SPACE WOLVES a no máximo 12" deste modelo. Esse modelo recupera 1 Ponto de Vida. &lt;br&gt; &lt;br&gt; Vox Skull: Subtraia 1 dos testes de moral realizados para unidades aliadas de SPACE WOLVES a no máximo 12" deste modelo até sua próxima fase de tiro.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9af5-224e-592a-23ae" name="Transport Primaris" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -34970,7 +34970,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das jogadas de ataque."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das testes de acerto."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a17c-a340-f209-daf9" name="Flamestorm Gauntlets (Shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -34998,7 +34998,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das jogadas de ataque."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das testes de acerto."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1afe-bee0-a712-cb8b" name="Auto Boltstorm Gauntlets (Shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35035,7 +35035,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="82d0-248f-3b0e-985b" name="Rites of Battle" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -35044,7 +35044,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de 1 feitas para unidades CHAPTER aliadas ​​em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades CHAPTER aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a787-3173-c913-ee34" name="Absolver Bolt Pistol" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35067,7 +35067,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas falhadas na fase de combate para unidades CHAPTER aliadas ​​em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acertos malsucedidos na fase de combate para unidades CHAPTER aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1d0b-823c-e845-e5df" name="Rosarius" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -35076,7 +35076,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b9a2-0bae-358e-0b9b" name="Spiritual Leader" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -35085,7 +35085,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas ​​dos SPACE WOLVES em até 6" deste modelo podem usar a liderança do sacerdote de lobo em vez do seus próprios.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas ​​dos SPACE WOLVES a no máximo 6" deste modelo podem usar a liderança do sacerdote de lobo em vez do seus próprios.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6c05-eb77-0860-0889" name="Psychic Hood" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -35094,7 +35094,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes Deny the Witch que você leva para este modelo contra PSYKERS inimigos em até 12" .'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes Deny the Witch que você leva para este modelo contra PSYKERS inimigos a no máximo 12" .'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4fa7-3fc0-8910-a15b" name="Heavy Onslaught Gatling Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35136,7 +35136,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="9"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o portador sofre 1 ferida mortal após todos os tiros da arma terem sido resolvidos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o portador sofre 1 Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="137d-a10b-0575-57ab" name="Onslaught Gatling Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35178,7 +35178,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de ataque feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de ataque feitas para esta arma contra todos os outros alvos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="19a0-4c12-f35e-7851" name="Heavy Bolt Pistol" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35234,7 +35234,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de ataque feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de ataque feitas para esta arma contra todos os outros alvos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="50ea-a0de-bbfa-8449" name="Auto Launchers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -35243,7 +35243,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de disparar armas na fase de tiro, o veículo pode usar seus lançadores automáticos; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas de ataque para armas de longo alcance que tenham como alvo este veículo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de disparar armas na fase de tiro, o veículo pode usar seus lançadores automáticos; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0385-2744-d0c8-c271" name="Krakstorm Grenade Launcher" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35275,7 +35275,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades do &lt;CHAPTER&gt;  em até 6" de qualquer aliado &lt;CHAPTER&gt; ANCIENTS adicionam 1 à sua Liderança. Além disso, role um D6 cada vez que um modelo &lt;CHAPTER&gt; INFANTARIA é destruído em até 6" de qualquer aliado &lt;CHAPTER&gt; ANCIENTES, antes de remover o modelo, Em um 4+, esse modelo tem um última surto de força antes de sucumbir às feridas; Ele pode atirar com uma de suas armas como se fosse a fase de tiro, ou fazer um único ataque como se fosse a fase de combate.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades do &lt;CHAPTER&gt;  a no máximo 6" de qualquer aliado &lt;CHAPTER&gt; ANCIENTS adicionam 1 à sua Liderança. Além disso, role um D6 cada vez que um modelo &lt;CHAPTER&gt; INFANTARIA é destruído a no máximo 6" de qualquer aliado &lt;CHAPTER&gt; ANCIENTES, antes de remover o modelo, Em um 4+, esse modelo tem um última surto de força antes de sucumbir às feridas; Ele pode atirar com uma de suas armas como se fosse a fase de tiro, ou fazer um único ataque como se fosse a fase de combate.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9e18-63db-ac98-610b" name="Assault Plasma Incinerator, Standard" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -35368,7 +35368,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acerto falhados para unidades aliadas de SPACE WOLVES que estejam em até 6" do Logan Grimnar.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acerto malsucedidos para unidades aliadas de SPACE WOLVES que estejam a no máximo 6" do Logan Grimnar.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="94c2-bd02-53f9-64f1" name="Explodes (Dreadnought)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -35377,7 +35377,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha, em um 6 ele explode, e cada unidade em até 3" sofre ferimentos mortais em D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha, em um 6 ele explode, e cada unidade a no máximo 3" sofre ferimentos mortais em D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="c692-ac99-26a6-b7f1" name="Rune Priest Psyker" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
@@ -35420,7 +35420,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 2 jogadas de ataque para cada ataque feito com esta arma em vez de 1"/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 2 testes de acerto para cada ataque feito com esta arma em vez de 1"/>
    </characteristics>
   </profile>
  </sharedProfiles>

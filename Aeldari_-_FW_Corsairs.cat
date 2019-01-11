@@ -2254,7 +2254,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade em até 6" sofre 1 ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre 1 Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c43b-2dd1-c73e-01af" name="Venom" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -2289,7 +2289,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto neste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver em até 1" de uma unidade inimiga, e assim por diante.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos embarcados neste modelo podem atacar em sua fase de tiro. Meça o alcance e desenhe a linha de visão de qualquer ponto neste modelo. Quando o fazem, quaisquer restrições ou modificadores que se apliquem a esse modelo também se aplicam a seus passageiros; por exemplo, os passageiros não podem atirar se este modelo tiver Fallen Back no mesmo turno, não podem atirar (exceto com Pistols) se este modelo estiver a menos de 1" de uma unidade inimiga, e assim por diante.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2670,7 +2670,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3183,7 +3183,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um D6 toda vez que um modelo fugir de uma unidade que esteja em até 6" de qualquer modelo inimigo com troféus terríveis. Para cada jogada de 6, um modelo adicional foge dessa unidade (eles não podem fazer com que modelos adicionais fujam).'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um D6 toda vez que um modelo fugir de uma unidade que esteja a no máximo 6" de qualquer modelo inimigo com troféus terríveis. Para cada jogada de 6, um modelo adicional foge dessa unidade (eles não podem fazer com que modelos adicionais fujam).'/>
        </characteristics>
       </profile>
      </profiles>
@@ -3218,7 +3218,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-roll acerta rolos de 1 para um modelo com armadilhas sempre que ele atacar com seus bladevanes"/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-roll testes de acerto de 1 para um modelo com armadilhas sempre que ele atacar com seus bladevanes"/>
        </characteristics>
       </profile>
      </profiles>
@@ -3288,7 +3288,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que um modelo com pedras espirituais sofrer uma ferida não salva ou uma ferida mortal: em um 6 a ferida é ignorada."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que um modelo com pedras espirituais sofrer uma ferida não salva ou uma Ferimento Mortal: em um 6 a ferida é ignorada."/>
        </characteristics>
       </profile>
      </profiles>
@@ -3323,7 +3323,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um modelo com motores vetorizados Avança, seu oponente deve subtrair 1 de todas as jogadas de ataque para armas de longo alcance que o atingem até sua próxima fase de Movimento."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um modelo com motores vetorizados Avança, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que o atinga no máximo sua próxima fase de Movimento."/>
        </characteristics>
       </profile>
      </profiles>
@@ -3396,7 +3396,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se uma unidade com essa habilidade infligir uma ou mais baixas em uma unidade inimiga enquanto estiver atirando em Overwatch, ela pode fazer um movimento de 3" em qualquer direção que não termine em até 3" de um modelo inimigo quando o ataque de Overwatch for totalmente resolvido e antes a unidade inimiga fez sua carga se mover.'>
+   <description description='Se uma unidade com essa habilidade infligir uma ou mais baixas em uma unidade inimiga enquanto estiver atirando em Overwatch, ela pode fazer um movimento de 3" em qualquer direção que não termine a no máximo 3" de um modelo inimigo quando o ataque de Overwatch for totalmente resolvido e antes a unidade inimiga fez sua carga se mover.'>
     If a unit with this ability inflicts one or more casualties on an enemy unit while firing Overwatch, it may make a 3" move in any direction that does not end within 3" of an enemy model once the Overwatch attack has been fully resolved and before the enemy unit has made its charge move.
    </description>
   </rule>
@@ -3405,7 +3405,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Ao fazer testes de Moral, uma unidade com essa habilidade pode lançar um dado adicional e descartar o resultado mais alto, mas se algum modelo fugir da unidade devido ao resultado do teste, o número de modelos que fogem é aumentado em +1.">
+   <description>
     When making Morale tests, a unit with this ability may roll an additional dice and discard the highest result, but if any models flee from the unit due to the result of the test, the number of models that flee is increased by +1.
    </description>
   </rule>
@@ -3422,12 +3422,12 @@
      <conditionGroups/>
     </modifier>
    </modifiers>
-   <description description='Essa habilidade é comum a todas as unidades YNNARI INFANTRY e YNNARI BIKER e Yncarne. Cada vez que uma unidade é completamente destruída em até 7" de uma ou mais unidades com essa habilidade, exceto na fase de Moral, escolha uma dessas unidades para fazer uma ação de Soulburst. Essa unidade pode executar imediatamente uma das seguintes ações, mesmo que tenha já fez isso neste turno (se a unidade foi destruída como resultado da ação de uma unidade - por exemplo, fazendo um ataque de tiro ou lutando - a ação Soulburst é resolvida após a unidade ter resolvido completamente sua ação atual, por exemplo seus ataques de tiros ou depois de ter terminado a luta, incluindo qualquer movimento de consolidação):
+   <description description='Essa habilidade é comum a todas as unidades YNNARI INFANTRY e YNNARI BIKER e Yncarne. Cada vez que uma unidade é completamente destruída a no máximo 7" de uma ou mais unidades com essa habilidade, exceto na fase de Moral, escolha uma dessas unidades para fazer uma ação de Soulburst. Essa unidade pode executar imediatamente uma das seguintes ações, mesmo que tenha já fez isso neste turno (se a unidade foi destruída como resultado da ação de uma unidade - por exemplo, fazendo um ataque de tiro ou lutando - a ação Soulburst é resolvida após a unidade ter resolvido completamente sua ação atual, por exemplo seus ataques de tiros ou depois de ter terminado a luta, incluindo qualquer movimento de consolidação):
 
 -A unidade pode se mover como se fosse sua fase de movimento. Pode Avançar ou Recuar como parte deste movimento.
 -A unidade pode, se for um PSYKER, tentar imediatamente manifestar um único poder psíquico como se fosse a fase psíquica.
 -A unidade pode atirar como se fosse sua fase de tiro, mesmo que seja Advanced ou Fell Back neste turno.
--A unidade pode carregar como se fosse a fase Charge, mesmo que seja Advanced ou Fell Back neste turno (unidades inimigas podem disparar Overwatch normalmente). Uma unidade não pode fazer isso se estiver em até 1" de uma unidade inimiga.
+-A unidade pode carregar como se fosse a fase Charge, mesmo que seja Advanced ou Fell Back neste turno (unidades inimigas podem disparar Overwatch normalmente). Uma unidade não pode fazer isso se estiver a menos de 1" de uma unidade inimiga.
 -A Unidade pode lutar como se fosse a fase de combate.
 
 Note que isso significa que uma unidade pode atirar ou lutar duas vezes no mesmo turno.

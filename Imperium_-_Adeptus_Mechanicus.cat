@@ -705,7 +705,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada um dos seus turnos, Belisarius Cawl recupera D3, perdendo as feridas."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada um dos seus turnos, Belisarius Cawl recupera D3 pontos de vida."/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="07b5-79d7-1181-176d" name="Lord of Mars" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -714,7 +714,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar todas as jogadas de acerto na fase de Tiro para unidades MARS aliadas ​​em até 6" '/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas de acerto na fase de Tiro para unidades MARS aliadas ​​a no máximo 6" '/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="f59b-7342-e493-cf03" name="Master of Machines (Cawl)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -723,7 +723,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento Belisarius Cawl pode reparar um único modelo IMPERIUM aliada em até 3" (mas não ele mesmo). O modelo a ser recuperado recupera 1 ferida perdida, a menos que seja um modelo ADEPTUS MECHANICUS, caso em que recupera as feridas perdidas D3 Um modelo pode não ser o alvo da habilidade Master of Machines mais de uma vez por turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento Belisarius Cawl pode reparar um único modelo IMPERIUM aliada a no máximo 3" (mas não ele mesmo). O modelo a ser recuperado recupera 1 Ponto de Vida, a menos que seja um modelo ADEPTUS MECHANICUS, caso em que recupera as D3 Pontos de Vida Um modelo pode não ser o alvo da habilidade Master of Machines mais de uma vez por turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -905,7 +905,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar as jogadas de 1 na fase de Tiro para unidades &lt;FORGE WORLD&gt; aliadas ​​em até 6" '/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto na fase de Tiro para unidades &lt;FORGE WORLD&gt; aliadas ​​a no máximo 6" '/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="c0c4-a119-9fe4-401f" name="Masterwork Bionics" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -914,7 +914,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada um dos seus turnos, este modelo recupera D3 feridas perdidas."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada um dos seus turnos, este modelo recupera D3 Pontos de Vida."/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="2969-1698-f489-c6dc" name="Master of Machines (Dominus)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -923,7 +923,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único modelo aliada &lt;FORGE WORLD&gt; ou QUESTOR MECHANICUS em até 3" (mas não em si). Se o modelo a ser reparado for um modelo &lt;FORGE WORLD&gt;, recupera as feridas perdidas D3; se for um modelo QUESTOR MECHANNICUS, ele recupera 1 ferida perdida.Um modelo pode não ser o alvo da habilidade Mestre de Máquinas mais de uma vez por turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único modelo aliada &lt;FORGE WORLD&gt; ou QUESTOR MECHANICUS a no máximo 3" (mas não em si). Se o modelo a ser reparado for um modelo &lt;FORGE WORLD&gt;, recupera as D3 Pontos de Vida; se for um modelo QUESTOR MECHANNICUS, ele recupera 1 Ponto de Vida.Um modelo pode não ser o alvo da habilidade Mestre de Máquinas mais de uma vez por turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1173,7 +1173,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único veículo aliada &lt;FORGE WORLD&gt; VEÍCULO ASTRA MILITARUM ou modelo QUESTOR MECHANICUS em até 3" . Se o modelo a ser reparado for um modelo &lt;FORGE WORLD&gt; ou ASTRA MILITARUM, recupera a D3 feridas perdidas, se for um modelo QUESTOR MECHANICUS, ele recupera 1 ferida perdida.Um modelo pode não ser o alvo da habilidade Mestre de Máquinas mais de uma vez por turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único veículo aliada &lt;FORGE WORLD&gt; VEÍCULO ASTRA MILITARUM ou modelo QUESTOR MECHANICUS a no máximo 3" . Se o modelo a ser reparado for um modelo &lt;FORGE WORLD&gt; ou ASTRA MILITARUM, recupera a D3 Pontos de Vida, se for um modelo QUESTOR MECHANICUS, ele recupera 1 Ponto de Vida.Um modelo pode não ser o alvo da habilidade Mestre de Máquinas mais de uma vez por turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1869,7 +1869,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando esta unidade está configurada, o Protocolo Aegis (veja abaixo) está em vigor. Você pode tentar mudar o protocolo de batalha da unidade no início de cada uma das fases do seu Movimento, se houver um &lt;FANTASMA&gt; Cidadão Datasmith Cibernético em até 6" . Para fazer isso, role um D6; em um 2+ a tentativa é bem-sucedida e você pode selecionar qualquer um dos três protocolos de batalha para entrar em vigor a partir do início da próxima rodada de batalha, caso contrário, a tentativa falhará e o protocolo atual da unidade permanecerá em vigor.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando esta unidade está configurada, o Protocolo Aegis (veja abaixo) está em vigor. Você pode tentar mudar o protocolo de batalha da unidade no início de cada uma das fases do seu Movimento, se houver um &lt;FANTASMA&gt; Cidadão Datasmith Cibernético a no máximo 6" . Para fazer isso, role um D6; em um 2+ a tentativa é bem-sucedida e você pode selecionar qualquer um dos três protocolos de batalha para entrar em vigor a partir do início da próxima rodada de batalha, caso contrário, a tentativa falhará e o protocolo atual da unidade permanecerá em vigor.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="a1e3-941c-7235-5f5c" name="Repulsor Grid" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1878,7 +1878,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Todos os modelos desta unidade têm uma proteção invulnerável de 5+ contra ataques de tiro. Além disso, cada vez que você rolar um 6 (depois de re-rolar, mas antes de modificadores) para um teste de resistência invulnerável da grade do repulsor, a unidade que fez com que o ataque sofra uma ferida mortal."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Todos os modelos desta unidade têm uma proteção invulnerável de 5+ contra ataques de tiro. Além disso, cada vez que você rolar um 6 (depois de re-rolar, mas antes de modificadores) para um teste de resistência invulnerável da grade do repulsor, a unidade que fez com que o ataque sofra uma Ferimento Mortal."/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="7a01-c204-b1cf-4ab5" name="Battle Protocols: Protector" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2016,7 +2016,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único Kastelan Robot aliada em até 3" . Esse modelo recupera as feridas perdidas D3. Um modelo pode não ser o alvo da habilidade Master of Machines mais de uma vez por turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, este modelo pode reparar um único Kastelan Robot aliada a no máximo 3" . Esse modelo recupera as D3 Pontos de Vida. Um modelo pode não ser o alvo da habilidade Master of Machines mais de uma vez por turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2189,7 +2189,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Servidores melhoram tanto sua habilidade de arma e habilidade de balística para 4 +, e sua liderança para 9, enquanto eles estão em até 6" de um aliada PRÍNCIPE TECNOLOGIA.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Servidores melhoram tanto sua habilidade de arma e habilidade de balística para 4+, e sua liderança para 9, enquanto eles estão a no máximo 6" de um aliada PRÍNCIPE TECNOLOGIA.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2621,7 +2621,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Reduza em 1 a Resistência das unidades inimigas (exceto VEÍCULOS) enquanto elas estiverem em até 1" de qualquer unidade Skitarii Vanguard.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Reduza em 1 a Resistência das unidades inimigas (exceto VEÍCULOS) enquanto elas estiverem a menos de 1" de qualquer unidade Skitarii Vanguard.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2876,7 +2876,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar essa unidade em ocultação em vez de passá-la no campo de batalha. No final de qualquer uma das fases do seu movimento, esta unidade pode revelar a sua localização - configure-a em qualquer ponto do campo de batalha que esteja a mais de 9" de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar essa unidade em ocultação em vez de passá-la no campo de batalha. No final de qualquer uma das suas fases de Movimento, esta unidade pode revelar a sua localização - configure-a em qualquer ponto do campo de batalha que esteja a mais de 9" de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="c102-ee77-e7b6-b90f" name="Neurostatic Aura" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2885,7 +2885,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas em até 3" de qualquer Infiltrador Sicariano deve subtrair 1 de sua liderança.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas a no máximo 3" de qualquer Infiltrador Sicariano deve subtrair 1 de sua liderança.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3373,7 +3373,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='&lt;FORGE WORLD&gt; unidades em até 3" de quaisquer modelos aliadas ​​equipados com uma corrente de dados de amplo espectro no início da fase de Moral adicionam 1 à sua liderança durante a fase.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='&lt;FORGE WORLD&gt; unidades a no máximo 3" de quaisquer modelos aliadas ​​equipados com uma corrente de dados de amplo espectro no início da fase de Moral adicionam 1 à sua liderança durante a fase.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3444,7 +3444,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 5 + save invulnerável. Você pode re-lançar lances de salvamento invulneráveis ​​de 1 para qualquer Oner Dunecrawler se estiver em até 6" de pelo menos um outro" FORGE WORLD »Onager Dunecrawler.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo tem um 5+ save invulnerável. Você pode re-rolar lances de salvamento invulneráveis ​​de 1 para qualquer Oner Dunecrawler se estiver a no máximo 6" de pelo menos um outro" FORGE WORLD »Onager Dunecrawler.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Adeptus Mechanicus" hidden="false" id="8609-c72d-5469-d6d7" name="Onager Dunecrawler" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -3794,7 +3794,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma não pode ser disparada se o modelo de tiro se mover durante a fase de movimento. Esta arma pode ter como alvo um PERSONAGEM, mesmo que não seja a unidade inimiga mais próxima. Cada vez que você faz um teste de ferimento de 6+ para esta arma, ela inflige uma ferida mortal além de seu dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma não pode ser disparada se o modelo de tiro se mover durante a fase de movimento. Esta arma pode ter como alvo um PERSONAGEM, mesmo que não seja a unidade inimiga mais próxima. Cada vez que você faz um teste de ferimento de 6+ para esta arma, ela inflige uma Ferimento Mortal além de seu dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4018,7 +4018,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada um dos seus turnos, o portador desta relíquia cura 1 ferida. Além disso, quando o portador usa uma habilidade para consertar um modelo aliada ADEPTUS MECHANICUS (como Mestre das Máquinas), você pode re-jogar os dados para determinar quantas feridas são recuperadas."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada um dos seus turnos, o portador desta relíquia cura 1 ferida. Além disso, quando o portador usa uma habilidade para consertar um modelo aliada ADEPTUS MECHANICUS (como Mestre das Máquinas), você pode re-rolar os dados para determinar quantos pontos de vida são recuperadas."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4079,7 +4079,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que o portador do traje do Technomartyr perde uma ferida. Em um 6 esse modelo não perde uma ferida. Além disso, cada vez que um modelo &lt;FORGE WORLD&gt; amistoso em até 6" do portador atira Obverwatch e você lança um 6 para acertar, você pode fazer um ataque de bônus pela mesma arma contra as unidades de carregamento (esses ataques não podem gerar novos ataques) .'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que o portador do traje do Technomartyr perde uma ferida. Em um 6 esse modelo não perde uma ferida. Além disso, cada vez que um modelo &lt;FORGE WORLD&gt; amistoso a no máximo 6" do portador atira Obverwatch e você lança um 6 para acertar, você pode fazer um ataque de bônus pela mesma arma contra as unidades de carregamento (esses ataques não podem gerar novos ataques) .'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4107,7 +4107,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por jogo, na sua fase de Tiro, o portador pode liberar o poder ligado dentro da Caveira do Ancião Nikola. Se o portador fizer isso, jogue um dado para cada unidade VEÍCULO inimigo em até 2D6" deles; em um teste de 2+, essa unidade sofre uma ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por jogo, na sua fase de Tiro, o portador pode liberar o poder ligado dentro da Caveira do Ancião Nikola. Se o portador fizer isso, jogue um dado para cada unidade VEÍCULO inimigo a no máximo 2D6" deles; em um teste de 2+, essa unidade sofre uma Ferimento Mortal.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4184,7 +4184,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de sucesso falhadas na fase de combate para unidades SKITARII aliadas ​​que estejam em até 6" do portador da Máscara Omnisciente.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de acerto malsucedidos na fase de combate para unidades SKITARII aliadas ​​que estejam a no máximo 6" do portador da Máscara Omnisciente.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4266,7 +4266,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por jogo, no final de qualquer uma das fases do seu Movimento, o portador do Flare Solar pode se teletransportar em vez de se mover normalmente. Quando eles fizerem isso, remova-os do campo de batalha e, em seguida, substitua-os em qualquer lugar que esteja a 30" de sua posição inicial e a mais de 9" de qualquer modelo inimigo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por jogo, no final de qualquer uma das suas fases de Movimento, o portador do Flare Solar pode se teletransportar em vez de se mover normalmente. Quando eles fizerem isso, remova-os do campo de batalha e, em seguida, substitua-os em qualquer lugar que esteja a 30" de sua posição inicial e a mais de 9" de qualquer modelo inimigo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4308,7 +4308,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado no final de cada fase de combate para cada unidade inimiga que esteja em até 1" do portador da Mão do Omnissias; em um 4+ essa unidade sofre uma ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado no final de cada fase de combate para cada unidade inimiga que esteja a menos de 1" do portador da Mão do Omnissias; em um 4+ essa unidade sofre uma Ferimento Mortal.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4355,7 +4355,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre uma ferida mortal além de qualquer outro dano. Esta arma substitui o Volkite Blaster do portador."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre uma Ferimento Mortal além de qualquer outro dano. Esta arma substitui o Volkite Blaster do portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4409,7 +4409,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre uma ferida mortal além de qualquer outro dano."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre uma Ferimento Mortal além de qualquer outro dano."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4435,7 +4435,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início de cada uma das fases de tiro, escolha uma unidade VEÍCULO inimigo em até 18" do portador. Você pode rebobinar jogadas de ferimento de 1 para unidades AGRIPINAA aliadas ​​que tenham como alvo a unidade que você escolheu para o resto da fase. A unidade que você escolheu é um VEÍCULO DE CAOS, você pode, em vez disso, re-laminar os jogadas de ferimento com falha para unidades AGRIPINAA aliadas ​​que tenham como alvo a unidade.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início de cada uma das fases de tiro, escolha uma unidade VEÍCULO inimigo a no máximo 18" do portador. Você pode rebobinar jogadas de ferimento de 1 para unidades AGRIPINAA aliadas ​​que tenham como alvo a unidade que você escolheu para o resto da fase. A unidade que você escolheu é um VEÍCULO DE CAOS, você pode, em vez disso, re-laminar os jogadas de ferimento com falha para unidades AGRIPINAA aliadas ​​que tenham como alvo a unidade.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4709,7 +4709,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, em vez de atirar na fase de tiro, esta unidade pode disparar uma barragem cega; até o início de sua próxima fase de Tiro, seu oponente deve subtrair 1 das jogadas de ataque por ataques feitos com armas de longo alcance que tenham como alvo esta unidade."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, em vez de atirar na fase de tiro, esta unidade pode disparar uma barragem cega; até o início de sua próxima fase de Tiro, seu oponente deve subtrair 1 das testes de acerto por ataques feitos com armas de longo alcance que tenham como alvo esta unidade."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6012,7 +6012,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode disparar esta arma mesmo que o modelo de disparo seja Avançado, mas você deve subtrair 2 de qualquer jogada de sucesso se você o fizer."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode disparar esta arma mesmo que o modelo de disparo seja Avançado, mas você deve subtrair 2 de qualquer teste de acerto se você o fizer."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6227,7 +6227,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de ferimentos falhos para esta arma se atacar um VEÍCULO"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma se atacar um VEÍCULO"/>
      </characteristics>
     </profile>
    </profiles>
@@ -6364,7 +6364,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode disparar esta arma mesmo que o modelo de disparo seja Avançado, mas você deve subtrair 2 de qualquer jogada de sucesso se você o fizer."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode disparar esta arma mesmo que o modelo de disparo seja Avançado, mas você deve subtrair 2 de qualquer teste de acerto se você o fizer."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6395,7 +6395,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="9"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode disparar esta arma mesmo que o modelo de disparo seja Avançado, mas você deve subtrair 2 de qualquer jogada de sucesso se você o fizer."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode disparar esta arma mesmo que o modelo de disparo seja Avançado, mas você deve subtrair 2 de qualquer teste de acerto se você o fizer."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9466,7 +9466,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode ter como alvo um PERSONAGEM, mesmo que não seja a unidade inimiga mais próxima. Cada vez que você faz um teste de ferimento de 6+ para esta arma, ela inflige uma ferida mortal além de seu dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode ter como alvo um PERSONAGEM, mesmo que não seja a unidade inimiga mais próxima. Cada vez que você faz um teste de ferimento de 6+ para esta arma, ela inflige uma Ferimento Mortal além de seu dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9662,7 +9662,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, um modelo equipado com lançadores de fumaça pode usá-los em vez de atirar quaisquer armas na fase de Tiro; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas de ataque para armas de longo alcance que tenham como alvo este veículo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, um modelo equipado com lançadores de fumaça pode usá-los em vez de atirar quaisquer armas na fase de Tiro; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9693,7 +9693,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar unidades em até 12" , mude o tipo desta arma para Heavy D3, mas resolva as tacadas com um AP de -4 e um Dano de D6.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar unidades a no máximo 12" , mude o tipo desta arma para Heavy D3, mas resolva as tacadas com um AP de -4 e um Dano de D6.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9783,7 +9783,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Trate os testes de dano de 1 ou 2 feitos por esta arma como 3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Trate qualquer dano de 1 ou 2 feitos por esta arma como 3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9963,7 +9963,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, você pode escolher uma unidade de SERVIDORES a 6" de seuWarlord e uma unidade de KATAPHRON BREACHERS ou KATAPHRON DESTROYERS em até 6" do seu modelo Warlord.1 daquela unidade de SERVIDORES iis imediatamente mortos. 1 modelo naquela unidade de KATAPHRON BREACHERS ou KATAPHRON DESTROYERS então recupera D3 ferida perdida, ou, se não houver modelos feridos e quaisquer modelos naquela unidade foram mortos, você pode retornar 1 modelo morto naquela unidade com 1 ferida restante (isto o modelo é configurado em coerência e não pode ser configurado em até 1" dos modelos inimigos - se não for possível colocar este modelo, ele não será retornado para a unidade).'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, você pode escolher uma unidade de SERVIDORES a 6" de seuWarlord e uma unidade de KATAPHRON BREACHERS ou KATAPHRON DESTROYERS a no máximo 6" do seu modelo Warlord.1 daquela unidade de SERVIDORES iis imediatamente mortos. 1 modelo naquela unidade de KATAPHRON BREACHERS ou KATAPHRON DESTROYERS então recupera D3 ferida perdida, ou, se não houver modelos feridos e quaisquer modelos naquela unidade foram mortos, você pode retornar 1 modelo morto naquela unidade com 1 ferida restante (isto o modelo é configurado em coerência e não pode ser configurado a menos de 1" dos modelos inimigos - se não for possível colocar este modelo, ele não será retornado para a unidade).'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10035,7 +10035,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades amistosas de ROBÔS CIBERNÉTICOS COBEDNETICA COHORT KASTELAN podem tentar mudar seus procotols de batalha no início de cada uma de suas fases de movimento se estiverem em até 9" do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades amistosas de ROBÔS CIBERNÉTICOS COBEDNETICA COHORT KASTELAN podem tentar mudar seus procotols de batalha no início de cada uma de suas fases de movimento se estiverem a no máximo 9" do portador.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10876,31 +10876,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Todas as unidades com essa habilidade ganham um bônus durante a batalha, dependendo do Cântico do Omnissias sendo atualmente inclinado.
-
-No início de cada rodada de batalha, escolha qual Cântico do Omnissias da tabela abaixo está em vigor durante a rodada de batalha. O mesmo cântico não pode ser escolhido duas vezes durante a mesma batalha.
-
-Alternativamente, você pode determinar aleatoriamente qual Cântico do Omnissias está em vigor rolando um D6 e consultando a tabela abaixo. Observe que, se você determinar aleatoriamente um Cântico, ele entrará em vigor mesmo se o mesmo Cântico estiver em vigor no início da batalha.
-
-Se você tem um exército forjado de batalha, as unidades só recebem o bônus se cada modelo do Destacamento tiver essa habilidade.
-
-1. Encantamento da Alma de Ferro:
-Você pode re-rolar testes de moral com falha para as unidades afetadas.
-
-2. Litania do Eletromancer:
-Role um D6 para cada unidade inimiga que esteja em até 1" de qualquer unidade afetada; em um teste de 6, a unidade sendo rolada sofre ferimentos mortais de D3.
-
-3. Canto do Punho Remorseless:
-Você pode re-rolar qualquer teste de acerto com falha de 1 para unidades afetadas na fase de combate.
-
-4. Shroudpsalm:
-As unidades afetadas ganham o bônus em seus testes de resistência da armadura como se estivessem em cobertura. Unidades já na capa não são afetadas.
-
-5. A invocação da máquina pode:
-As unidades afetadas têm +1 de força.
-
-6. Benediction do Omnissiah:
-Você pode re-lançar as jogadas com falha de 1 para as unidades afetadas na fase de tiro.'>
+   <description>
     All units with this ability gain a bonus during the battle depending on the Canticle of the Omnissiah currently being canted.
 
 At the start of each battle round, pick which Canticle of the Omnissiah from the table below is in effect for the duration of the battle round. The same Canticle may not be picked twice during the same battle. 
@@ -10953,7 +10929,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que um modelo nesta unidade perde uma ferida, role um D6; em um rolo de 5 ou 6, o modelo não perde aquela ferida."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que um modelo nesta unidade perde uma ferida, role um D6; em uma jogada de 5 ou 6, o modelo não perde aquela ferida."/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="fcc4-da6a-c4fa-5903" name="Voltagheist Field" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10962,7 +10938,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Todos os modelos nesta unidade têm um 5 + save invulnerável. Quando esta unidade concluir um movimento de carga, escolha uma das unidades alvo que você cobra e role um D6 para cada modelo na unidade de carregamento. Quaisquer rolos de 6 causam uma ferida mortal na unidade que você pegou."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Todos os modelos nesta unidade têm um 5+ save invulnerável. Quando esta unidade concluir um movimento de carga, escolha uma das unidades alvo que você cobra e role um D6 para cada modelo na unidade que realiza uma carga. Quaisquer resultados de 6 causam uma Ferimento Mortal na unidade que você escolheu como alvo."/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="d060-09ec-5fdb-2f06" name="Bionics" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11107,7 +11083,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo / unidade tem um 5 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo / unidade tem um 5+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="c943-2e72-aa1f-81d2" name="Static Psalm-Code" profileTypeId="7df1-74bd-09c9-492c" profileTypeName="Warlord Trait">
@@ -11158,7 +11134,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  com esta arma, o alvo sofre uma ferida mortal em vez do dano normal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  com esta arma, o alvo sofre uma Ferimento Mortal em vez do dano normal."/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="9970-ee6e-072a-a13f" name="Transonic Razor" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11172,7 +11148,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  com esta arma, o alvo sofre uma ferida mortal em vez do dano normal."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  com esta arma, o alvo sofre uma Ferimento Mortal em vez do dano normal."/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="9472-3e1d-2bc5-6b7c" name="Flechette Blaster" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11259,7 +11235,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode segmentar unidades que não são visíveis ao fogo."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades que não são visíveis ao fogo."/>
    </characteristics>
   </profile>
   <profile book="Forgeworld Datasheet" hidden="false" id="db52-68c5-709a-3ef0" name="Galvanic Caster (Kinetic hammershot)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11310,7 +11286,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 5 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 5+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile book="Forgeworld Datasheet" hidden="false" id="0d4c-edf0-a3ac-5a96" name="Titan Guard" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11328,7 +11304,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com um escudo mag-inverter têm uma proteção 4+ invulnerável contra ataques feitos com armas corpo-a-corpo. Além disso, cada vez que você faz um teste de resistência de 6 para um modelo com um escudo mag-inverter contra um ataque feito com uma arma branca, a unidade atacante sofre 1 ferida mortal depois de ter feito todos os seus ataques."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com um escudo mag-inverter têm uma proteção 4+ invulnerável contra ataques feitos com armas corpo-a-corpo. Além disso, cada vez que você faz um teste de resistência de 6 para um modelo com um escudo mag-inverter contra um ataque feito com uma arma branca, a unidade atacante sofre 1 Ferimento Mortal depois de ter feito todos os seus ataques."/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="98dc-754a-8328-5376" name="Galvanic Rifle" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -11396,7 +11372,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value='Modelos em unidades GRAIA aliadas ​​em até 6" do seu Warlord podem atirar com armas de assalto e fogo rápido, mesmo que existam unidades inimigas em até 1" de sua própria unidade, mas apenas se eles visam a unidade inimiga mais próxima. Em tais circunstâncias, o modelo pode disparar mesmo que outras unidades aliadas ​​estejam a 1" da mesma unidade.'/>
+    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value='Modelos em unidades GRAIA aliadas ​​a no máximo 6" do seu Warlord podem atirar com armas de assalto e fogo rápido, mesmo que existam unidades inimigas a menos de 1" de sua própria unidade, mas apenas se eles visam a unidade inimiga mais próxima. Em tais circunstâncias, o modelo pode disparar mesmo que outras unidades aliadas ​​estejam a 1" da mesma unidade.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="a97f-5cb6-d5d2-7c14" name="Prime Hermeticon" profileTypeId="7df1-74bd-09c9-492c" profileTypeName="Warlord Trait">
@@ -11405,7 +11381,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value='Friendly &lt;FORGE WORLD&gt; unidades INFANTRY em até 6" do seu Warlord pode re-roll não conseguiu acertar jogadas na fase de combate.'/>
+    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value='Friendly &lt;FORGE WORLD&gt; unidades INFANTRY a no máximo 6" do seu Warlord pode re-roll não conseguiu acertar jogadas na fase de combate.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Adeptus Mechanicus" hidden="false" id="290a-cd53-9daf-e3e6" name="Chorister Technis" profileTypeId="7df1-74bd-09c9-492c" profileTypeName="Warlord Trait">
@@ -11441,7 +11417,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value="Você pode re-rolar rolagens de dano quando atacar unidades INFANTARIA, BESTA ou MONSTRO inimigas com seu Warlord."/>
+    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value="Você pode re-rolar testes para ferir malsucedidos quando atacar unidades INFANTARIA, BESTA ou MONSTRO inimigas com seu Warlord."/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="7c84-9fec-5e37-9734" name="Legendary Fighter" profileTypeId="7df1-74bd-09c9-492c" profileTypeName="Warlord Trait">
@@ -11450,7 +11426,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value="Se este Warlord cobrar na fase de Cobrança, acrescente 1 à sua característica de Ataques até o final da fase de combate subsequente."/>
+    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value="Se este Warlord efetuar uma carga na fase de Cobrança, acrescente 1 à sua característica de Ataques até o final da fase de combate subsequente."/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="79e8-4d72-2956-e80f" name="Tenacious Survivor" profileTypeId="7df1-74bd-09c9-492c" profileTypeName="Warlord Trait">
@@ -11468,7 +11444,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value="Uma vez por batalha, você pode re-rolar um único golpe, rolagem, rolagem de dano ou rolagem de dano feita para o seu senhor da guerra. Além disso, se seu exército for Forjado em Batalha e seu Warlord estiver no campo de batalha, role um D6 toda vez que você ou seu oponente usarem um estratagema; em um 6, você ganha um ponto de comando."/>
+    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value="Uma vez por batalha, você pode re-rolar um único teste de acero, teste para ferir, rolagem de dano, rolagem de dano feita para o seu senhor da guerra. Além disso, se seu exército for Forjado em Batalha e seu Warlord estiver no campo de batalha, role um D6 toda vez que você ou seu oponente usarem um estratagema; em um 6, você ganha um ponto de comando."/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="10e5-f9dd-2784-1df2" name="Inspiring Leader" profileTypeId="7df1-74bd-09c9-492c" profileTypeName="Warlord Trait">
@@ -11477,7 +11453,7 @@ You can re-roll failed hit rolls of 1 for affected units in the shooting phase.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value='Unidades aliadas ​​em até 6" deste Warlord podem adicionar 1 à sua característica de Liderança.'/>
+    <characteristic characteristicTypeId="696e-7a95-ff17-7c91" name="Description" value='Unidades aliadas ​​a no máximo 6" deste Warlord podem adicionar 1 à sua característica de Liderança.'/>
    </characteristics>
   </profile>
  </sharedProfiles>

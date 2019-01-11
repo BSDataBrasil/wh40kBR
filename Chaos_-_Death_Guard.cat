@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="BSData team" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Codex: Death Guard, Index: Chaos" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard-BR" revision="54" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="BSData team" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Codex: Death Guard, Index: Chaos" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard-BR" revision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules>
   <rule hidden="false" id="f7c7-963e-3fda-16f4" name="Plague Weapon">
@@ -931,6 +931,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="74.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9765-6363-9d49-b571" name="Chaos Predator" page="0" type="model">
@@ -1104,6 +1105,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="40.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -1154,6 +1156,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="c9f2-0a93-bb22-e49b" name="Two lascannons" type="upgrade">
@@ -1181,6 +1184,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -1236,6 +1240,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="90.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="abee-429f-503a-074f" name="Chaos Spawn" page="0" type="unit">
@@ -1246,7 +1251,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas em até 1" de qualquer Cao Spawn devem subtrair 1 de seu Ld.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas a menos de 1" de qualquer Cao Spawn devem subtrair 1 de seu Ld.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="3937-7401-45fc-31ba" name="Mutated Beyond Reason" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1255,7 +1260,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando uma unidade de Chaos Spawn faz seus ataques de combate corpo a corpo, role uma D3 e consulte a tabela abaixo. &lt;table&gt; &lt;tr&gt; &lt;th&gt; D3 &lt;/ th&gt; &lt;th&gt; Resultado &lt;/ th&gt; &lt;/ tr&gt; &lt;tr&gt; &lt;td&gt; 1 &lt;/ td&gt; &lt;td&gt; Garras de Navalha: As mutações hediondas de todas as Crias de Caos na unidade tem um AP de -4 até o final da fase de combate. &lt;/ td&gt; &lt;/ tr&gt; &lt;tr&gt; &lt;td&gt; 2 &lt;/ td&gt; &lt;td&gt; Pseudopods de Agarramento: Cada Spawn do Caos na unidade adiciona 2 à sua característica Ataques até o final da fase de combate. &lt;/ td&gt; &lt;/ tr&gt; &lt;tt&gt; &lt;td&gt; 3 &lt;/ td&gt; &lt;td&gt; Hemorragia Tóxica: Você pode re-rolar rolos de enrolamento com falha para esta unidade até final da fase de combate. &lt;/ td&gt; &lt;/ tr&gt; &lt;/ table&gt;"/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando uma unidade de Chaos Spawn faz seus ataques de combate corpo a corpo, role uma D3 e consulte a tabela abaixo. &lt;table&gt; &lt;tr&gt; &lt;th&gt; D3 &lt;/ th&gt; &lt;th&gt; Resultado &lt;/ th&gt; &lt;/ tr&gt; &lt;tr&gt; &lt;td&gt; 1 &lt;/ td&gt; &lt;td&gt; Garras de Navalha: As mutações hediondas de todas as Crias de Caos na unidade tem um AP de -4 até o final da fase de combate. &lt;/ td&gt; &lt;/ tr&gt; &lt;tr&gt; &lt;td&gt; 2 &lt;/ td&gt; &lt;td&gt; Pseudopods de Agarramento: Cada Spawn do Caos na unidade adiciona 2 à sua característica Ataques até o final da fase de combate. &lt;/ td&gt; &lt;/ tr&gt; &lt;tt&gt; &lt;td&gt; 3 &lt;/ td&gt; &lt;td&gt; Hemorragia Tóxica: Você pode re-rolar testes para ferir com falha para esta unidade até final da fase de combate. &lt;/ td&gt; &lt;/ tr&gt; &lt;/ table&gt;"/>
      </characteristics>
     </profile>
    </profiles>
@@ -1375,6 +1380,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="0.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -1383,6 +1389,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="25.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1408,6 +1415,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c5a2-5d3b-99c9-7b99" name="Daemon Prince of Nurgle" page="0" type="upgrade">
@@ -1568,6 +1576,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
       <cost costTypeId="points" name="pts" value="24.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1715,6 +1724,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="146.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="67df-ff04-b483-f1c3" name="Defiler" page="0" type="model">
@@ -1905,6 +1915,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1948,6 +1959,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="12.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -2001,13 +2013,7 @@
        </profiles>
        <rules/>
        <infoLinks/>
-       <modifiers>
-        <modifier field="points" type="set" value="15">
-         <repeats/>
-         <conditions/>
-         <conditionGroups/>
-        </modifier>
-       </modifiers>
+       <modifiers/>
        <constraints/>
        <categoryLinks/>
        <selectionEntries/>
@@ -2016,6 +2022,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="15.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -2029,7 +2036,7 @@
        <constraints/>
        <categoryLinks/>
       </entryLink>
-      <entryLink hidden="false" id="a0a5-40b4-d658-8b6d" name="New EntryLink" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
+      <entryLink hidden="false" id="a0a5-40b4-d658-8b6d" name="Twin heavy bolter" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
        <profiles/>
        <rules/>
        <infoLinks/>
@@ -2097,6 +2104,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="120.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="11.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9832-6438-ea96-d6d6" name="Sorcerer" page="" type="model">
@@ -2246,6 +2254,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
       <cost costTypeId="points" name="pts" value="24.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2337,6 +2346,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="90.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="172a-9105-e028-28a8" name="Poxwalkers" type="unit">
@@ -2497,6 +2507,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -2505,6 +2516,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="6.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2530,6 +2542,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="391f-4490-3ba2-a551" name="Foetid Bloat-drone" type="model">
@@ -2605,7 +2618,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de removê-lo do campo de batalha; em um 4+ explode, e cada unidade em até 7" sofre 1 ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 4+ explode, e cada unidade a no máximo 7" sofre 1 Ferimento Mortal.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2730,6 +2743,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="25.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2767,6 +2781,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="34.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="205b-8820-fcfe-660b" name="Heavy blight launcher" type="upgrade">
@@ -2799,6 +2814,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="35.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="2c41-a1e6-d64b-2461" name="Fleshmower" type="upgrade">
@@ -2831,6 +2847,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="12.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -2859,6 +2876,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="99.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2551-97d8-11cb-d026" name="Icon of Despair" page="0" type="upgrade">
@@ -2886,6 +2904,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="967b-647e-7fec-3469" name="Chaos Lord in Terminator Armour" page="0" type="model">
@@ -3059,6 +3078,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="95.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e9b8-3691-eed5-b0c7" name="Chaos Lord on Palanquin of Nurgle" page="0" type="model">
@@ -3086,7 +3106,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas de 1 para unidades Nurgle &lt;Legion&gt; em até 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as testes de acerto de 1 para unidades Nurgle &lt;Legion&gt; a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3204,6 +3224,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -3274,6 +3295,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="99.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e7d3-6be5-3af7-070e" name="Chaos Lord with Jump Pack" page="0" type="model">
@@ -3465,6 +3487,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="93.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4445-6367-dac4-307a" name="Daemon Prince [INDEX]" page="0" type="model">
@@ -3619,6 +3642,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
       <cost costTypeId="points" name="pts" value="24.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -3758,6 +3782,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="146.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="313d-d939-4be9-9e48" name="Sorcerer in Terminator Armour" page="" type="model">
@@ -3965,6 +3990,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="102.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="35e1-54d6-7565-dd03" name="Sorcerer with Jump Pack" page="" type="model">
@@ -4169,6 +4195,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="114.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="262d-dbbf-8474-791c" name="Chainaxe" type="upgrade">
@@ -4191,6 +4218,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="1.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7d05-2c25-26b8-d4da" name="Hellforged sword" type="upgrade">
@@ -4221,6 +4249,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="73f0-ec59-a8ea-4ce9" name="Daemonic axe" type="upgrade">
@@ -4251,6 +4280,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ab5a-b591-31e2-e0d0" name="Malefic talon" type="upgrade">
@@ -4281,6 +4311,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7aa9-b4b1-f87b-6ef6" name="Warp bolter" type="upgrade">
@@ -4311,6 +4342,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="9.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f668-0ff7-69d5-be65" name="Havoc launcher" type="upgrade">
@@ -4335,6 +4367,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a8f6-49e7-ea35-aca5" name="Smoke launchers" type="upgrade">
@@ -4359,6 +4392,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="429c-a1b7-b65a-0358" name="Possessed" type="unit">
@@ -4524,6 +4558,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -4532,6 +4567,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="20.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4565,6 +4601,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5cae-15dc-4a5d-0b9b" name="Helbrute" page="" type="model">
@@ -4620,7 +4657,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou ferimentos mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos em até 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos em até 1". Se não houver um alvo visível dentro do alcance, nada acontece.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou ferimentos mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="a3d2-cbb8-77f5-44d3" name="Battering Onslaught" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4764,6 +4801,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="30.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="ce8d-9406-bcf1-fdae" name="Power scourge" type="upgrade">
@@ -4794,6 +4832,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="35.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -4857,7 +4896,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o Hellbrute sofre uma ferida mortal após todos os tiros da arma terem sido resolvidos."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o Hellbrute sofre uma Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
          </characteristics>
         </profile>
        </profiles>
@@ -4872,6 +4911,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="16.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -4965,6 +5005,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="60.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a008-7caa-0650-327c" name="Chaos Rhino" page="" type="model">
@@ -5183,6 +5224,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="70.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="25f1-c2ff-203f-8173" name="Typhus" page="" type="model">
@@ -5222,7 +5264,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​de Poxwalkers aumentam sua Força e Resistência em 1, enquanto estão em até 7" de Typhus.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades aliadas ​​de Poxwalkers aumentam sua Força e Resistência em 1, enquanto estão a no máximo 7" de Typhus.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5388,6 +5430,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="3894-2cb7-a910-d056" name="Master-crafted manreaper" type="upgrade">
@@ -5421,6 +5464,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -5472,6 +5516,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="175.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8fbe-2b19-a2d3-8f50" name="Lord of Contagion" page="" type="model">
@@ -5637,6 +5682,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="20.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="6685-7482-8fa4-2845" name="Manreaper" type="upgrade">
@@ -5669,6 +5715,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="17.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -5723,6 +5770,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="95.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="299f-6b03-4963-d522" name="Malignant Plaguecaster" type="model">
@@ -5750,7 +5798,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo manifesta com sucesso um poder psíquico com um teste psíquico de 7 ou mais, a unidade inimiga mais próxima em até 7" sofre uma ferida mortal após os efeitos do poder psíquico terem sido resolvidos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo manifesta com sucesso um poder psíquico com um teste psíquico de 7 ou mais, a unidade inimiga mais próxima a no máximo 7" sofre uma Ferimento Mortal após os efeitos do poder psíquico terem sido resolvidos.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d4c4-089d-fc0a-eeb8" name="Malignant Plaguecaster" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
@@ -5880,6 +5928,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -5986,6 +6035,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="110.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="605b-3c14-2a67-f8e4" name="Chaos Cultists" page="" type="unit">
@@ -6145,6 +6195,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -6173,6 +6224,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="5.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -6243,6 +6295,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="5.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="1d7d-fd1a-264d-0691" name="Chaos Cultist w/ autopistol and brutal assault weapon" type="model">
@@ -6294,6 +6347,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -6313,6 +6367,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="5.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="1dd1-500a-fb2a-2942" name="Chaos Cultist w/ Autogun" type="model">
@@ -6364,6 +6419,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -6372,6 +6428,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="5.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -6400,6 +6457,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="64e4-21f2-e032-ad64" name="Noxious Blightbringer" type="model">
@@ -6427,7 +6485,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades devem subtrair 1 de sua Liderança enquanto estiverem em até 7" de quaisquer inimigos nocivos inimigos (os PSYKERS devem subtrair 2). Além disso, se uma unidade de MORTE estiver em até 7" deste modelo, clique duas vezes e descarte. o menor resultado ao determinar a distância.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades devem subtrair 1 de sua Liderança enquanto estiverem a no máximo 7" de quaisquer inimigos nocivos inimigos (os PSYKERS devem subtrair 2). Além disso, se uma unidade de MORTE estiver a no máximo 7" deste modelo, clique duas vezes e descarte. o menor resultado ao determinar a distância.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6538,6 +6596,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -6622,6 +6681,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="50.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6c90-74d4-6e66-cb10" name="Chaos Land Raider" page="0" type="model">
@@ -6706,7 +6766,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode, e cada unidade em até 6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6853,6 +6913,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="200.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="19.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Chaos  -- FAQ 1.0" collective="false" hidden="false" id="6a69-f097-e443-531d" name="Sorcerer on Palanquin of Nurgle" page="24" type="model">
@@ -7002,6 +7063,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="6.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7134,6 +7196,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="123.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7841-ab80-2a2a-9ee6" name="3. Plague Wind" type="upgrade">
@@ -7163,6 +7226,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="99bd-b1b2-e84c-a226" name="2. Gift of Contagion" type="upgrade">
@@ -7222,6 +7286,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="922e-5c7d-e439-842b" name="Blight Grenades" type="upgrade">
@@ -7247,6 +7312,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="e298-8e5d-be7f-e27d" name="Blight Grenades" type="upgrade">
@@ -7272,6 +7338,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b339-aeff-d933-715c" name="Infernal Gaze" type="upgrade">
@@ -7296,6 +7363,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7879-4959-e68e-9cac" name="Warptime" type="upgrade">
@@ -7320,6 +7388,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0007-8465-9875-a29f" name="Prescience" type="upgrade">
@@ -7344,6 +7413,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="b26c-9e69-51a0-2fbf" name="Brutal assault weapon" type="upgrade">
@@ -7368,6 +7438,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0e51-2a41-8394-7f6b" name="Mortarion" type="model">
@@ -7395,7 +7466,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas em até 7" de Mortarion devem subtrair 1 de sua característica Toughness.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas a no máximo 7" de Mortarion devem subtrair 1 de sua característica Toughness.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="68bc-31ba-9722-e94e" name="Host of Plagues" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7404,7 +7475,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado para cada unidade inimiga que esteja em até 7" de Mortarion no início da fase de combate e consulte a tabela de danos de Mortarion; se a rolagem for igual ou exceder o valor requerido, a unidade sendo rolada sofre D3 mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado para cada unidade inimiga que esteja a no máximo 7" de Mortarion no início da fase de combate e consulte a tabela de danos de Mortarion; se a rolagem for igual ou exceder o valor requerido, a unidade sendo rolada sofre D3 mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="a293-4399-5c9e-a88d" name="Mortarion 1" profileTypeId="c295-780c-d1dd-e59f" profileTypeName="Mortarion Damage Table">
@@ -7449,7 +7520,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acerto falhados de 1 feitos para unidades de DEATH GUARD aliadas ​​em até 7" de Mortarion.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acerto malsucedidos de 1 feitos para unidades de DEATH GUARD aliadas ​​a no máximo 7" de Mortarion.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="0919-2831-5b19-e6b8" name="The Barbaran Plate" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7458,7 +7529,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Mortarion tem um 4 + save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Mortarion tem um 4+ save invulnerável."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7868-12b9-8bb3-7d42" name="Putrid Demise" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7467,7 +7538,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando Mortarion perder seu último golpe (depois de falhar em seu teste Disgustingly Resilient), jogue um dado antes de remover o modelo do campo de batalha; em um 4+ ele explode, chovendo todos nas proximidades em sujeira pútrida e doença - cada unidade em até 7" sofre ferimentos mortais D3, a menos que tenha a palavra-chave NURGLE.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando Mortarion perder seu último ponto de vida (depois de falhar em seu teste Disgustingly Resilient), jogue um dado antes de remover o modelo do campo de batalha; em um 4+ ele explode, chovendo sobre todos nas proximidades uma sujeira pútrida cheia de doença - cada unidade a no máximo 7" sofre D3 ferimentos mortais, a menos que tenha a palavra-chave NURGLE.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="055e-9cce-da4e-9f73" name="Mortarion" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
@@ -7646,6 +7717,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="9119-ee25-d5af-ab8c" name="The Lantern" type="upgrade">
@@ -7661,7 +7733,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você acertar com esta arma, desenhe uma linha reta entre o ponto mais próximo da base de Mortarion e o do modelo mais próximo na unidade alvo. Faça um único rolo enrolado contra a unidade alvo e cada unidade o centro da linha passa."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você acertar com esta arma, desenhe uma linha reta entre o ponto mais próximo da base de Mortarion e o do modelo mais próximo na unidade alvo. Faça um único testes para ferir contra a unidade alvo e cada unidade o centro da linha passa."/>
        </characteristics>
       </profile>
      </profiles>
@@ -7679,6 +7751,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="8a67-df1e-c7b9-3aa3" name="Attendant's claws and teeth" type="upgrade">
@@ -7712,6 +7785,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7760,6 +7834,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="24.0"/>
     <cost costTypeId="points" name="pts" value="470.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="07ed-5393-a5f5-7a4a" name="4. Blades of Putrefaction" type="upgrade">
@@ -7789,6 +7864,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="90d9-18fc-f9a9-df82" name="5. Putrescent Vitality" type="upgrade">
@@ -7818,6 +7894,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="00f1-d9e0-cd71-79f0" name="Deathshroud Terminators" type="unit">
@@ -7828,7 +7905,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que um personagem de MORTE DE GUERRA MORTE for atingido por um ataque de arma à distância ou a distância, enquanto ele estiver a 3" desta unidade. Em um dos mais de dois o Deathshroud intercepta aquele golpe - o personagem não é atingido por aquele ataque mas esta unidade é em vez disso.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que um personagem de MORTE DE GUERRA MORTE for atingido por um ataque de arma à distância ou a distância, enquanto ele estiver a 3" desta unidade. Em um dos mais de dois o Deathshroud intercepta aquele acerto - o personagem não é atingido por aquele ataque mas esta unidade é em vez disso.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="b471-fca7-86f5-ed86" name="Eyes of Mortarion" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7837,7 +7914,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='CARACTERES DE GUARDA DE MORTE (excluindo Mortarion) em até 3" de quaisquer unidades aliadas ​​do Terminador da Morte da Morte adicionam 1 à sua característica de Ataques.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='CARACTERES DE GUARDA DE MORTE (excluindo Mortarion) a no máximo 3" de quaisquer unidades aliadas ​​do Terminador da Morte da Morte adicionam 1 à sua característica de Ataques.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -7989,6 +8066,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="ee44-3d0f-e5e9-6f69" name="Manreaper" type="upgrade">
@@ -8022,6 +8100,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="17.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -8030,6 +8109,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="35.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="05ab-df01-8c1d-7ab0" name="Deathshroud Terminator" type="model">
@@ -8092,6 +8172,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="17.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="true" hidden="false" id="3d6a-1dbe-0e74-02e4" name="Plaguespurt gauntlets" type="upgrade">
@@ -8117,6 +8198,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -8125,6 +8207,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="35.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -8150,6 +8233,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="11.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4124-8ae3-177a-4767" name="Plague Marines" page="0" type="unit">
@@ -8379,6 +8463,7 @@
              <costs>
               <cost costTypeId="points" name="pts" value="20.0"/>
               <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+              <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
              </costs>
             </selectionEntry>
            </selectionEntries>
@@ -8414,6 +8499,7 @@
                <costs>
                 <cost costTypeId="points" name="pts" value="1.0"/>
                 <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+                <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
                </costs>
               </selectionEntry>
              </selectionEntries>
@@ -8459,6 +8545,7 @@
            <costs>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
             <cost costTypeId="points" name="pts" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
           <selectionEntry collective="false" hidden="false" id="5f4b-100e-c4f0-b657" name="Codex" type="upgrade">
@@ -8513,6 +8600,7 @@
                  <costs>
                   <cost costTypeId="points" name="pts" value="1.0"/>
                   <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+                  <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
                  </costs>
                 </selectionEntry>
                </selectionEntries>
@@ -8610,6 +8698,7 @@
            <costs>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
             <cost costTypeId="points" name="pts" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
          </selectionEntries>
@@ -8647,6 +8736,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="16.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -8693,6 +8783,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="0.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="true" hidden="false" id="324c-dcbb-397c-c193" name="Boltgun" type="upgrade">
@@ -8718,6 +8809,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="0.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="true" hidden="false" id="f9d0-f272-f2fc-afda" name="Krak Grenades" type="upgrade">
@@ -8743,6 +8835,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="0.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -8763,6 +8856,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="16.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="c24e-9d31-6349-2f1f" name="Plague Marine w/ Special Weapon" type="model">
@@ -8880,6 +8974,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="16.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="3575-35fd-5faf-a4db" name="Plague Marine w/ melee weapons" type="model">
@@ -8932,6 +9027,7 @@
            <costs>
             <cost costTypeId="points" name="pts" value="5.0"/>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
           <selectionEntry collective="false" hidden="false" id="51e7-2808-d025-f526" name="2nd Plague knife" type="upgrade">
@@ -8949,6 +9045,7 @@
            <costs>
             <cost costTypeId="points" name="pts" value="0.0"/>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
           <selectionEntry collective="false" hidden="false" id="5bdb-3a19-530f-910d" name="Mace of Contagion and bubotic axe" type="upgrade">
@@ -8996,6 +9093,7 @@
            <costs>
             <cost costTypeId="points" name="pts" value="12.0"/>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
           <selectionEntry collective="false" hidden="false" id="d80e-9e85-5652-20c6" name="Great plague cleaver" type="upgrade">
@@ -9044,6 +9142,7 @@
            <costs>
             <cost costTypeId="points" name="pts" value="15.0"/>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
           <selectionEntry collective="false" hidden="false" id="5f1f-bfbd-b009-f6b9" name="Flail of Corruption" type="upgrade">
@@ -9083,6 +9182,7 @@
            <costs>
             <cost costTypeId="points" name="pts" value="10.0"/>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
          </selectionEntries>
@@ -9128,6 +9228,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="16.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -9180,6 +9281,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7f68-8da3-6de9-a091" name="Instrument of Chaos" type="upgrade">
@@ -9190,7 +9292,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade que inclui quaisquer Instrumentos do Caos adiciona 1 ao seu avanço e carrega rolos."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade que inclui quaisquer Instrumentos do Caos adiciona 1 ao seus testes de avanço e jogadas de carga."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9205,6 +9307,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8c07-d16f-292e-0268" name="Death Hex" type="upgrade">
@@ -9234,6 +9337,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7aad-b00e-c64d-57a2" name="Diabolic Strength" type="upgrade">
@@ -9263,6 +9367,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="de00-0bea-31a0-4a92" name="Gift of Chaos" type="upgrade">
@@ -9292,6 +9397,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d7b9-f572-bb23-bc8d" name="1. Miasma of Pestilence" type="upgrade">
@@ -9321,6 +9427,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e9b4-1d6e-8021-095f" name="Blightlord Terminators" type="unit">
@@ -9522,6 +9629,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="34.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -9623,6 +9731,7 @@
            <costs>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
             <cost costTypeId="points" name="pts" value="10.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
          </selectionEntries>
@@ -9759,6 +9868,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="34.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -9787,6 +9897,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="14.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c87b-80f6-93b3-ddf6" name="Myphitic Blight-haulers" type="unit">
@@ -9814,7 +9925,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="As unidades inimigas devem subtrair 1 de qualquer jogada de sucesso que tenha como alvo esta unidade na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="As unidades inimigas devem subtrair 1 de qualquer teste de acerto que tenha como alvo esta unidade na fase de combate."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7429-0902-e503-3882" name="Putrescent Fog" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9823,7 +9934,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de INFANTARIA DE GUARDA DE MORTE amistosas que estão inteiramente em até 7" de um caminhão-destruidor Mefítico obtêm o benefício de cobertura ao fazer blindagens de armadura.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades de INFANTARIA DE GUARDA DE MORTE amistosas que estão inteiramente a no máximo 7" de um caminhão-destruidor Mefítico obtêm o benefício de cobertura ao fazer blindagens de armadura.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="a64f-9447-536a-2598" name="Tri-lobe" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9840,7 +9951,7 @@
       </modifier>
      </modifiers>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a todos os rolos de sucesso feitos para esta unidade, enquanto contém 3 modelos."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a todos as testes de acerto feitos para esta unidade, enquanto contém 3 modelos."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f1f9-e1a4-da53-7120" name="Tri-tracked" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9858,7 +9969,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um Myphitic Blight-hauler for reduzido a 0 Wounds, jogue um dado antes de removê-lo do campo de batalha, em um 4+ ele explode, e cada unidade em até 7" sofre 1 ferida mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um Myphitic Blight-hauler for reduzido a 0 Wounds, jogue um dado antes de removê-lo do campo de batalha, em um 4+ ele explode, e cada unidade a no máximo 7" sofre 1 Ferimento Mortal.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9987,6 +10098,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="74a2-b7ee-117d-1aae" name="Bile spurt" type="upgrade">
@@ -10020,6 +10132,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -10059,6 +10172,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
       <cost costTypeId="points" name="pts" value="75.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -10076,6 +10190,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8f2f-be3d-146f-2253" name="6. Curse of the Leper" type="upgrade">
@@ -10105,6 +10220,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e909-3b20-4914-4907" name="Plagueburst Crawler" type="upgrade">
@@ -10265,7 +10381,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Arma da Peste. Esta arma pode segmentar unidades que não são visíveis para o portador."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Arma da Peste. Esta arma pode mirar em unidades que não são visíveis para o portador."/>
        </characteristics>
       </profile>
      </profiles>
@@ -10283,6 +10399,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -10328,6 +10445,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="30.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="1b3f-567e-f1d9-53df" name="2x Plaguespitter" type="upgrade">
@@ -10352,6 +10470,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="34.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -10399,6 +10518,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="6.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="020e-3dc9-24b6-b163" name="Rothail volley gun" type="upgrade">
@@ -10429,6 +10549,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="12.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -10457,6 +10578,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="100.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8a0c-47ec-020b-1cde" name="Plaguespitter" type="upgrade">
@@ -10479,6 +10601,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="17.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="56e6-7785-729b-7138" name="Phosphex bombs" type="upgrade">
@@ -10512,6 +10635,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d740-2c84-b2b6-0c1b" name="Balesword" type="upgrade">
@@ -10542,6 +10666,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="36f3-205a-9a21-726d" name="Plague spewer" type="upgrade">
@@ -10557,7 +10682,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar teste para ferir de 1 para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10572,6 +10697,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2eec-d159-0db6-6df9" name="Plague belcher" type="upgrade">
@@ -10587,7 +10713,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar rolos de ferimentos de 1 para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar testes para ferir de 1 para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10602,6 +10728,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="66c9-8e12-9b38-aadc" name="Blight launcher" type="upgrade">
@@ -10632,6 +10759,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0bf4-3bb0-c99c-b188" name="Biologus Putrifier" type="model">
@@ -10659,7 +10787,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, jogue um dado antes de removê-lo do campo de batalha. Em um 4+, seus racks de granadas de ferrugem explodem, e cada unidade em até 7" sofre 1 ferida mortal a menos que tenha a palavra-chave NURGLE.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha. Em um 4+, seus racks de granadas de ferrugem explodem, e cada unidade a no máximo 7" sofre 1 Ferimento Mortal a menos que tenha a palavra-chave NURGLE.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c549-cba5-9b73-141f" name="Blight Racks" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10668,7 +10796,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Aumenta em 1 a Força e o Dano de todas as granadas de praga levadas por unidades de DEATH GUARD aliadas, enquanto elas estiverem em até 3" de qualquer Putrifiers Biologus. Além disso, enquanto uma unidade estiver a 3" deste modelo, cada rolo de 6+ atacar com uma granada causará uma ferida mortal além de qualquer outro dano.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Aumenta em 1 a Força e o Dano de todas as granadas de praga levadas por unidades de DEATH GUARD aliadas, enquanto elas estiverem a no máximo 3" de qualquer Putrifiers Biologus. Além disso, enquanto uma unidade estiver a 3" deste modelo, cada jogada de 6+ atacar com uma granada causará uma Ferimento Mortal além de qualquer outro dano.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10779,6 +10907,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -10863,6 +10992,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="60.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="03e6-b580-5112-328f" name="Hyper Blight Grenades" type="upgrade">
@@ -10888,6 +11018,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d633-7874-7780-7ab8" name="Plague Surgeon" type="model">
@@ -10915,7 +11046,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar quaisquer rolos Disjuntamente Resilientes de 1 feitos para unidades de INFANTARIA DE GUARDA DE MORTE aliadas ​​em até 3" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s de quaisquer jogadas de Disgustingly Resilient feitos para unidades de INFANTARIA DE GUARDA DE MORTE aliadas ​​a no máximo 3" deste modelo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1b9e-8a81-7886-2ef0" name="Gene-seed Thief" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11096,6 +11227,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="54.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6f36-bc00-152e-a734" name="Tallyman" type="model">
@@ -11123,7 +11255,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todos os testes de acerto falhados na fase de combate para unidades de DEATH GUARD aliadas ​​que estejam em até 7" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todos os testes de acerto malsucedidos na fase de combate para unidades de DEATH GUARD aliadas ​​que estejam a no máximo 7" deste modelo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="5c3b-a6a0-4014-38bd" name="The Seven-fold Chant" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11293,6 +11425,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="50.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b785-15f0-966e-73c4" name="Lightning Claw" type="upgrade">
@@ -11323,6 +11456,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="8.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="21ec-740e-ec22-cf7c" name="Foul Blightspawn" type="model">
@@ -11350,7 +11484,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada Foul Blightspawn carrega uma única granada de cabeça de morte profana. Uma vez por batalha, um Foul Blightspawn, ou outro aliada DEATH GUARD CHARACTER em até 3" dele, pode lançar uma granada de cabeça de morte profana ao invés de uma granada ou uma granada hyper. Quando eles fizerem isso, troque o tipo de arma para Grenade. 2D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada Foul Blightspawn carrega uma única granada de cabeça de morte profana. Uma vez por batalha, um Foul Blightspawn, ou outro aliada DEATH GUARD CHARACTER a no máximo 3" dele, pode lançar uma granada de cabeça de morte profana ao invés de uma granada ou uma granada hyper. Quando eles fizerem isso, troque o tipo de arma para Grenade. 2D6.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4faf-e50c-48b2-53af" name="Revolting Stench" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11359,7 +11493,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas que cobraram este turno e estão em até 7" deste modelo no início da fase de combate são atingidas por um fedor tão ruim que elas vacilam, perdendo seu ímpeto. Tal unidade não consegue lutar primeiro na fase de combate, mas pode ser escolhido para lutar como outras unidades que não cobram.Esta habilidade também afeta as unidades que têm habilidades que lhes permitiriam lutar primeiro como se tivessem cobrado.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Unidades inimigas que efetuar uma cargaam este turno e estão a no máximo 7" deste modelo no início da fase de combate são atingidas por um fedor tão ruim que elas vacilam, perdendo seu ímpeto. Tal unidade não consegue lutar primeiro na fase de combate, mas pode ser escolhido para lutar como outras unidades que não cobram.Esta habilidade também afeta as unidades que têm habilidades que lhes permitiriam lutar primeiro como se tivessem realizado uma carga.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11470,6 +11604,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -11543,6 +11678,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="77.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="3c50-86ac-7b5b-6d71" name="Death's heads" type="upgrade">
@@ -11576,6 +11712,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="d795-9d93-4144-5336" name="Rot Fly" type="upgrade">
@@ -11599,7 +11736,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois que este modelo pilotando um Rot Fly fizer seus ataques de combate corpo-a-corpo, você pode atacar com sua montaria. Faça 4 ataques adicionais usando este perfil de arma. Você pode re-lançar rolagens de dano falhadas em seus ataques."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois que este modelo pilotando um Rot Fly fizer seus ataques de combate corpo-a-corpo, você pode atacar com sua montaria. Faça 4 ataques adicionais usando este perfil de arma. Você pode re-rolar rolagens de dano malsucedidas em seus ataques."/>
        </characteristics>
       </profile>
      </profiles>
@@ -11617,6 +11754,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -11625,6 +11763,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="75e1-0c0e-227c-91a9" name="Plaguebringer" type="upgrade">
@@ -11640,7 +11779,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Arma da Peste. Cada vez que você faz um teste de 6+ com esta arma, o alvo sofre uma ferida mortal, além de qualquer outro dano."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Arma da Peste. Cada vez que você faz um teste de 6+ com esta arma, o alvo sofre uma Ferimento Mortal, além de qualquer outro dano."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ef39-8946-1a4b-bab1" name="Plaguebringer" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11679,6 +11818,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7b8e-9da8-a600-83a6" name="Plague knife" type="upgrade">
@@ -11701,6 +11841,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c3a5-b40c-b588-9387" name="The Plague Brethren" type="upgrade">
@@ -11871,6 +12012,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="17.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="316e-cb4d-8414-7968" name="Plague Marine" type="upgrade">
@@ -11934,6 +12076,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="17.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="69a4-bb67-a110-8637" name="Plague Marine" type="model">
@@ -11997,6 +12140,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="17.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -12022,6 +12166,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a7f3-c34e-be7d-d3c2" name="Helbrute fist" type="upgrade">
@@ -12083,6 +12228,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dd30-03a4-3c18-4c5c" name="Felthius' Cohort" type="unit">
@@ -12230,6 +12376,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="38.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="ab5a-7f77-25dd-9cd8" name="Blightlord Terminator" type="model">
@@ -12274,6 +12421,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="5.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -12294,6 +12442,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="38.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="a133-53b6-3014-6ce0" name="Blightlord Terminator" type="model">
@@ -12335,6 +12484,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="38.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -12360,6 +12510,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8e02-debd-f5af-3d20" name="Necrosius the Undying" page="" type="model">
@@ -12399,7 +12550,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 às suas jogadas de acerto para quaisquer unidades aliadas ​​THE TAINTED em até 6" deste modelo durante a fase de combate.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 às suas jogadas de acerto para quaisquer unidades aliadas ​​THE TAINTED a no máximo 6" deste modelo durante a fase de combate.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7fc7-d0a0-61c8-d953" name="Master of the Dead" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12408,7 +12559,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando em até 6" de Necrosius, as unidades POXWALKER podem relançar os resultados de um 1 para sua habilidade Disgustingly Resilient.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando a no máximo 6" de Necrosius, as unidades POXWALKER podem relançar os resultados de um 1 para sua habilidade Disgustingly Resilient.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -12548,6 +12699,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4926-060e-273a-5d87" name="Tainted force blade" type="upgrade">
@@ -12581,6 +12733,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -12648,6 +12801,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="135.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a840-f0b3-abac-6d1c" name="Warlord" type="upgrade">
@@ -12673,6 +12827,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7906-7754-69cd-1c2c" name="Gifts of Decay (1 Relic)" type="upgrade">
@@ -12698,6 +12853,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="fe51-f3fa-7a36-7dcd" name="Gifts of Decay (2 Relics)" type="upgrade">
@@ -12723,6 +12879,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ef5e-8c5d-1f82-96a3" name="Mamon Transfigured" page="" type="model">
@@ -12750,7 +12907,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode reproduzir novamente as tentativas de sucesso de 1 durante a fase de combate para todos os modelos aliadas ​​com a palavra-chave THE TAINTED em 6" desse modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente as tentativas de acerto de 1 durante a fase de combate para todos os modelos aliadas ​​com a palavra-chave THE TAINTED em 6" desse modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -12876,6 +13033,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="de88-d78b-0b7a-bf0a" name="Pustulent stomp" type="upgrade">
@@ -12891,7 +13049,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao mirar uma unidade com essa arma durante a fase de combate, adicione +3 ao dano causado se a unidade de destino tiver a palavra-chave Infantry."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="When targeting a unit with this weapon during the Fight phase, add +3 to the Damage caused if the target unit has the Infantry keyword."/>
        </characteristics>
       </profile>
      </profiles>
@@ -12909,6 +13067,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="b2a4-5c40-06cd-354d" name="Fist of decay" type="upgrade">
@@ -12942,6 +13101,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -12967,6 +13127,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="200.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -13589,7 +13750,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O portador possui uma característica Salvar de 2+. Além disso, jogue um dado toda vez que este modelo passar um teste de resistência na fase de combate. Em um 4+, a unidade que infligiu aquela ferida sofre uma ferida mortal após todos os seus próprios ataques terem sido resolvidos."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O portador possui uma característica Salvar de 2+. Além disso, jogue um dado toda vez que este modelo passar um teste de resistência na fase de combate. Em um 4+, a unidade que infligiu aquela ferida sofre uma Ferimento Mortal após todos os seus próprios ataques terem sido resolvidos."/>
        </characteristics>
       </profile>
      </profiles>
@@ -13606,6 +13767,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="true" id="3640-940d-60fe-1aa4" name="The Pandemic Staff" type="upgrade">
@@ -13641,6 +13803,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="true" id="39d7-c92a-4777-515c" name="Dolorous Knell" type="upgrade">
@@ -13651,7 +13814,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Somente o Blightbringer nocivo. Role um D6 para cada unidade inimiga em até 7" do portador do Dolorous Knell no início de cada fase de Moral. Em um 6, aquela unidade sofre uma ferida mortal. Além disso, se uma unidade inimiga fizer um teste de moral enquanto estiver em até 7" do portador, seu oponente deve rolar dois dados e descartar o resultado mais baixo.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Somente o Blightbringer nocivo. Role um D6 para cada unidade inimiga a no máximo 7" do portador do Dolorous Knell no início de cada fase de Moral. Em um 6, aquela unidade sofre uma Ferimento Mortal. Além disso, se uma unidade inimiga fizer um teste de moral enquanto estiver a no máximo 7" do portador, seu oponente deve rolar dois dados e descartar o resultado mais baixo.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -13676,6 +13839,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="c4c4-af6d-1a20-bf89" name="The Plague Skull of Glothila" type="upgrade">
@@ -13691,7 +13855,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="-"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você só pode usar essa arma uma vez por batalha. Se ele acertar, jogue um dado para cada modelo na unidade inimiga, revertendo todos os resultados de 1 - aquela unidade sofre uma ferida mortal para cada jogada de um 6."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você só pode usar essa arma uma vez por batalha. Se ele acertar, jogue um dado para cada modelo na unidade inimiga, revertendo todos os resultados de 1 - aquela unidade sofre uma Ferimento Mortal para cada jogada de um 6."/>
        </characteristics>
       </profile>
      </profiles>
@@ -13708,6 +13872,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="f1f3-b502-ede4-a665" name="Fugaris' Helm" type="upgrade">
@@ -13735,6 +13900,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -13799,6 +13965,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="5.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -14606,6 +14773,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="1a55-f73b-7163-8bc4" name="2. Living Plague" type="upgrade">
@@ -14630,6 +14798,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="c017-fc04-775f-62b0" name="3. Tainted Regeneration" type="upgrade">
@@ -14654,6 +14823,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4526-6aa5-7a8c-06c7" name="4. Hulking Physique" type="upgrade">
@@ -14678,6 +14848,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="fed3-9701-a766-9c70" name="5. Rotten Constitution" type="upgrade">
@@ -14702,6 +14873,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="bc1d-0acc-5b59-48f7" name="6. Arch-Contaminator" type="upgrade">
@@ -14726,6 +14898,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -14787,9 +14960,9 @@
    <modifiers/>
    <description description='Em vez de se mover em sua fase de Movimento, qualquer personagem MORTE DE GUARDA pode, ao final de sua fase de Movimento, tentar invocar uma unidade de NURGLE DAEMON com esta habilidade executando um Ritual Daemônico (o personagem não pode fazê-lo se chegar como reforços neste turno ).
 
-Roll up to 3 dice - este é o seu teste de convocação. Você pode invocar uma nova unidade NURGLE DAEMON com a habilidade Ritual Daemônico para o campo de batalha que tenha uma Classificação de Energia igual ou menor que o resultado total. Esta unidade é tratada como reforço para o seu exército e pode ser colocada em qualquer lugar no campo de batalha que esteja inteiramente em até 12" do personagem e seja maior que 9" de qualquer modelo inimigo. Se o total rolado é insuficiente para invocar qualquer unidade, o ritual falha e nenhuma nova unidade é convocada.
+Roll up to 3 dice - este é o seu teste de convocação. Você pode invocar uma nova unidade NURGLE DAEMON com a habilidade Ritual Daemônico para o campo de batalha que tenha uma Classificação de Energia igual ou menor que o resultado total. Esta unidade é tratada como reforço para o seu exército e pode ser colocada em qualquer lugar no campo de batalha que esteja inteiramente a no máximo 12" do personagem e seja maior que 9" de qualquer modelo inimigo. Se o total rolado é insuficiente para invocar qualquer unidade, o ritual falha e nenhuma nova unidade é convocada.
 
-Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre uma ferida mortal. Se continha triplos, em vez disso, sofre feridas mortais D3.'>
+Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre uma Ferimento Mortal. Se continha triplos, em vez disso, sofre Ferimentos Mortais D3.'>
     Instead of moving in their Movement phase, any DEATH GUARD CHARACTER can, at the end of their Movement phase, attempt to summon a NURGLE DAEMON unit with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn). 
 
 Roll up to 3 dice - this is your summoning roll. You can summon one new NURGLE DAEMON unit with the Daemonic Ritual ability to the battlefield that has a Power Rating equal to or less than the total result. This unit is treated as reinforcements for your army and can be placed anywhere on the battlefield that is entirely within 12" of the character and is more than 9" from any enemy model. If the total rolled is insufficient to summon any unit, the ritual fails and no new unit is summoned.
@@ -14838,7 +15011,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar rolagens de dano falhadas para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="137e-59b4-ea0e-f84a" name="Blight launcher" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -15014,7 +15187,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades de DEATH GUARD em até 7" de um aliada LORD OF CONTAGION estão cercadas por uma aura mortal de praga e doença. Jogue um dado para cada unidade inimiga que esteja em até 1" de quaisquer unidades aliadas afetadas no início de seu turno; em 4+ essa unidade inimiga sofre uma ferida mortal.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades de DEATH GUARD a no máximo 7" de um aliada LORD OF CONTAGION estão cercadas por uma aura mortal de praga e doença. Jogue um dado para cada unidade inimiga que esteja a menos de 1" de quaisquer unidades aliadas afetadas no início de seu turno; em 4+ essa unidade inimiga sofre uma Ferimento Mortal.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="d147-d281-9501-00b9" name="Mindless" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15074,7 +15247,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar as jogadas de 1 feitas para unidades DEATH GUARD aliadas ​​em até 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades DEATH GUARD aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="88cc-1fee-7767-1ab4" name="Sigil of Corruption" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15083,7 +15256,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4 + save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5528-f83b-71b3-0383" name="Infernal Regeneration" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15133,7 +15306,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-lançar as jogadas de 1 feitas para as unidades DEATH GUARD e NURGLE DAEMON em 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para as unidades DEATH GUARD e NURGLE DAEMON em 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="51dc-2e9c-f739-4584" name="Teleport Strike" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15142,7 +15315,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode colocar este modelo em uma câmara de teleportarium em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, o modelo pode usar um ataque de teletransporte para chegar ao campo de batalha - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar este modelo em uma câmara de teleportarium em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, o modelo pode usar um ataque de teletransporte para chegar ao campo de batalha - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="bf08-247d-4629-3225" name="Flail of Corruption" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -15184,7 +15357,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Arma da Peste. Cada rolo enrolado de 6+ feito para esta arma inflige uma ferida mortal além de qualquer outro dano."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Arma da Peste. Cada testes para ferir de 6+ feito para esta arma inflige uma Ferimento Mortal além de qualquer outro dano."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="33cd-6a54-ffea-e5c0" name="Jump Pack Assault" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15193,7 +15366,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a implantação, você pode configurá-lo no alto, em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode atacar de cima - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocá-lo no alto, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode atacar de cima - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e2d2-f5d7-3993-74f4" name="Plaguespurt gauntlets" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -15216,7 +15389,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado para cada unidade inimiga que esteja a 3" de seu Warlord no início de qualquer fase de combate. Em um teste de 4+ essa unidade sofre uma ferida mortal.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado para cada unidade inimiga que esteja a 3" de seu Warlord no início de qualquer fase de combate. Em um teste de 4+ essa unidade sofre uma Ferimento Mortal.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2416-1836-7dfb-f266" name="Revoltingly Resilient" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15225,7 +15398,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 a qualquer teste de Ressentimento Desagradável que fizer para seu Warlord, a menos que a ferida para a qual você está rolando seja uma ferida mortal."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 a qualquer teste de Ressentimento Desagradável que fizer para seu Warlord, a menos que a ferida para a qual você está rolando seja uma Ferimento Mortal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4b06-4b82-f1b9-87da" name="Tainted Regeneration" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15252,7 +15425,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Reduza em 1 o dano causado ao Warlord (no mínimo 1). Por exemplo, se o seu Senhor da Guerra falhar em um teste de resistência contra uma arma que cause 3 de dano, ele perderá apenas 2 feridas."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Reduza em 1 o dano causado ao Warlord (no mínimo 1). Por exemplo, se o seu Senhor da Guerra falhar em um teste de resistência contra uma arma que cause 3 de dano, ele perderá apenas 2 Pontos de Vida."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7b62-4576-6ae3-ffb1" name="Arch-Contaminator" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15261,7 +15434,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-rolar todos os testes falhados ao resolver ataques feitos com uma arma praga (ou seja, uma espada de praga ou qualquer arma com a habilidade Arma da Peste) para qualquer unidade de GUERRA DE MORTE aliada em até 7" do seu Senhor da Guerra.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-rolar todos os testes falhados ao resolver ataques feitos com uma arma praga (ou seja, uma espada de praga ou qualquer arma com a habilidade Arma da Peste) para qualquer unidade de GUERRA DE MORTE aliada a no máximo 7" do seu Senhor da Guerra.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="97ac-5cfa-84fd-8a85" name="Daemonic Ritual" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15285,7 +15458,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 feridas, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele explode, e cada unidade em até 3" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele explode, e cada unidade a no máximo 3" sofre ferimentos mortais D3.'/>
    </characteristics>
   </profile>
  </sharedProfiles>
