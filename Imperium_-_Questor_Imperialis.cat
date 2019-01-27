@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="https://gitter.im/BSData/wh40k" authorName="Kohato" authorUrl="https://github.com/BSData/wh40k/issues" battleScribeVersion="2.01" book="Codex: Imperial Knights" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="82cd-d24f-9f22-11f3" name="Imperium - Imperial Knights-BR" revision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="https://gitter.im/BSData/wh40k" authorName="@DrTobogganMD" authorUrl="https://github.com/BSData/wh40k/issues" battleScribeVersion="2.01" book="Codex: Imperial Knights" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="82cd-d24f-9f22-11f3" name="Imperium - Imperial Knights-BR" revision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules>
   <rule book="Codex: Imperial Knights" hidden="false" id="018d-3e97-9dda-db9b" name="Knight Lance">
@@ -181,13 +181,6 @@
    <constraints/>
   </categoryEntry>
   <categoryEntry book="Codex: Imperial Knights" hidden="false" id="cc24-5de1-e4fb-f7c3" name="Armiger Warglaive">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry book="Codex: Imperial Knights" hidden="false" id="7e3d-97ba-dddc-b416" name="Faction: Imperial Knights">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -561,6 +554,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="6505-5eeb-f50d-1efe" name="Thunderstrike gauntlet" page="" type="upgrade">
@@ -576,7 +570,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -591,6 +585,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="35.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="4524-229a-e82e-a647" name="Titanic Feet" page="" type="upgrade">
@@ -606,7 +601,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas de acerto para cada ataque feito com esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas para acertar para cada ataque feito com esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -621,6 +616,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="534b-82a7-2512-10e3" name="Avenger Gatling Cannon" page="" type="upgrade">
@@ -651,6 +647,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="75.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="61a4-5046-5328-e81f" name="Ironstorm Missile Pod" page="" type="upgrade">
@@ -681,6 +678,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="16.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="97c7-4a9b-4f99-cb35" name="Rapid-Fire Battle Cannon" page="" type="upgrade">
@@ -711,6 +709,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="100.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="52a5-2cbb-004b-9bc1" name="Stormspear Rocket Pod" page="" type="upgrade">
@@ -741,6 +740,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="45.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="35c4-c945-a85e-d5c6" name="Thermal Cannon" page="" type="upgrade">
@@ -771,6 +771,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="76.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b676-dfe7-2fea-9b58" name="Twin Icarus Autocannon" page="" type="upgrade">
@@ -786,7 +787,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -801,6 +802,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="bce6-bc24-a327-fc1c" name="Knight Crusader" page="" type="model">
@@ -933,6 +935,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="a952-d80f-668c-f9d9" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="c0cc-9fa8-133d-d7fe" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -1153,6 +1162,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="285.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="25.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="f997-b8ab-a3c3-6868" name="Rapid-Fire Battle Cannon w/ Heavy Stubber" type="upgrade">
@@ -1191,6 +1201,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="85f3-42d9-9d08-f487" name="Knight Errant" page="" type="model">
@@ -1323,6 +1334,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="281a-2937-a969-99ba" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="ec76-ad0a-8b66-60e4" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -1515,6 +1533,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="285.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="22.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="602c-d7c6-68b2-0f26" name="Knight Gallant" page="" type="model">
@@ -1647,6 +1666,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="96ac-772a-cb09-a767" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="8465-c6bb-a57d-8f3b" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -1842,6 +1868,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="285.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="20.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="89d4-63ea-2c6f-4b49" name="Knight Paladin" page="" type="model">
@@ -1974,6 +2001,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="9b24-04ee-af2d-c2bc" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="a72a-cf3b-27db-0e76" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -2175,6 +2209,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="285.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="23.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d00a-1a85-1c0b-c4ac" name="Knight Warden" page="" type="model">
@@ -2307,6 +2342,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="a4af-0db8-910f-90b8" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="0951-8248-1aec-c4f9" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -2499,6 +2541,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="285.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="23.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="830c-6885-18f5-d442" name="Heavy Stubber" page="" type="upgrade">
@@ -2521,6 +2564,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="a3f6-5fc6-5aed-656b" name="Heavy Flamer" page="" type="upgrade">
@@ -2543,6 +2587,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="14.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="bd69-2c59-df05-9954" name="Cerastus Knight-Atropos" page="" type="model">
@@ -2692,14 +2737,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="378f-5887-7562-aa45" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="a1df-c688-58d7-e5a4" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="a1df-c688-58d7-e5a4" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
+    <categoryLink hidden="false" id="220c-aa6d-febd-2a46" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -2863,6 +2908,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="29.0"/>
     <cost costTypeId="points" name="pts" value="405.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="6d81-9b6b-5267-b4f9" name="Atropos Lascutter" page="" type="upgrade">
@@ -2878,7 +2924,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="14"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar os testes de acerto e testes para ferir malsucedidos dessa arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar as jogadas para acertar e jogadas para ferir malsucedidas dessa arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
      </characteristics>
     </profile>
     <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3ee7-0b58-bf44-ec3e" name="Atropos Lascutter (shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -2907,6 +2953,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="80.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="1f4a-eb7d-316a-4768" name="Graviton Singularity Cannon" page="" type="upgrade">
@@ -2922,7 +2969,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 a cada vez antes que esta arma seja disparada. Em um 1, o portador sofre uma Ferimento Mortal e a arma dispara normalmente (se o portador sobreviver a isso). Em um 2-5, o ataque é realizado normalmente usando o perfil listado. Em um 6, os ataques da arma são realizados em Força 16, AP -4, Dano 6 em vez de seu perfil normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 a cada vez antes que esta arma seja disparada. Em um 1, o portador sofre um Ferimento Mortal e a arma dispara normalmente (se o portador sobreviver a isso). Em um 2-5, o ataque é realizado normalmente usando o perfil listado. Em um 6, os ataques da arma são realizados em Força 16, AP -4, Dano 6 em vez de seu perfil normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2937,6 +2984,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="70.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="577f-7d01-d772-e3d0" name="Cerastus Shock Lance" type="upgrade">
@@ -2952,7 +3000,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes de acerto malsucedidos com esta arma se o Cerastus Knight-Lancer tiver realizado uma carga com sucesso na sua fase de carga."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para acertar malsucedidas com esta arma se o Cerastus Knight-Lancer tiver realizado uma carga com sucesso na sua fase de carga."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2967,6 +3015,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="60.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Imperial Armour Index: Forces of the Astra Militarum" collective="false" hidden="false" id="ee03-dc51-f812-8ed6" name="Hekaton Siege Claw" page="" type="upgrade">
@@ -2982,7 +3031,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Subtraia 1 das jogadas de acerto feitas com esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Subtraia 1 das jogadas para acertar feitas com esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2997,6 +3046,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="afa8-4bd5-728b-f0fc" name="Reaper Chainfist" page="" type="upgrade">
@@ -3012,7 +3062,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, subtraia 1 do teste de acerto."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, subtraia 1 do jogada para acertar."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3027,6 +3077,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="40.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="7b6f-37af-5ac7-4112" name="Tempest Warblade" page="" type="upgrade">
@@ -3042,7 +3093,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="5"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer resultado de um 6 for rolado em qualquer jogada com esta arma contra um MONSTRO ou VEÍCULO, então um adicional de ferimentos mortais D3 também é infligido na unidade inimiga."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer resultado de um 6 for rolado em qualquer jogada para ferir com esta arma contra um MONSTRO ou VEÍCULO, então um adicional de Ferimentos Mortais D3 também é infligido na unidade inimiga."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3057,6 +3108,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="84c5-c409-1a03-7fbb" name="Acheron Flame Cannon" page="" type="upgrade">
@@ -3087,6 +3139,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="80.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="4bca-9a72-15f8-d798" name="Autocannon" page="" type="upgrade">
@@ -3109,6 +3162,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="f810-8a33-cc88-c0f8" name="Castigator Bolt Cannon" page="" type="upgrade">
@@ -3139,6 +3193,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="50.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="8c02-46ac-69ff-168d" name="Graviton Crusher" page="" type="upgrade">
@@ -3169,6 +3224,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="25.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Imperial Armour Index: Forces of the Astra Militarum" collective="false" hidden="false" id="bed2-c56d-cc4d-8e28" name="Helios Defence Missiles" page="" type="upgrade">
@@ -3184,7 +3240,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3199,6 +3255,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="45.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="6bff-6632-08e2-8afb" name="Lascannon" page="" type="upgrade">
@@ -3221,6 +3278,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="25.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="90d6-7f09-d628-c8f1" name="Lightning Cannon" page="" type="upgrade">
@@ -3236,7 +3294,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+ para essa arma, esse acerto é resolvido com um AP de -3 em vez de -1 e Dano 3 ao invés de D3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+ para essa arma, esse acerto é resolvido com um AP de -3 em vez de -1 e Dano 3 ao invés de D3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3251,6 +3309,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="70.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="c184-1f36-aca4-f303" name="Phased Plasma-Fusil" page="" type="upgrade">
@@ -3281,6 +3340,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="d891-dbab-0f48-d0b2" name="Shock Blast" page="" type="upgrade">
@@ -3311,6 +3371,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="64e3-4020-2d8f-58f8" name="Twin Heavy Bolter" page="" type="upgrade">
@@ -3333,6 +3394,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="17.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="0cf5-a793-1129-ac3b" name="Twin Magna Lascannon" page="" type="upgrade">
@@ -3363,6 +3425,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="100.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Imperial Armour Index: Forces of the Astra Militarum" collective="false" hidden="false" id="b8b9-b2cf-24e6-6d07" name="Twin Rad-Cleanser" page="" type="upgrade">
@@ -3393,6 +3456,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="25.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Imperial Armour Index: Forces of the Astra Militarum" collective="false" hidden="false" id="5c34-c214-e013-7aa0" name="Volkite Chieorovile" page="" type="upgrade">
@@ -3423,6 +3487,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="80.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="4115-84bd-7803-6847" name="Acastus Knight Porphyrion" page="" type="model">
@@ -3577,14 +3642,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="dccb-4702-cfea-9cc8" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="dfd5-e1d2-fb25-1310" name="New CategoryLink" primary="false" targetId="de57-4b12-9f2e-88c8">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="dfd5-e1d2-fb25-1310" name="New CategoryLink" primary="false" targetId="de57-4b12-9f2e-88c8">
+    <categoryLink hidden="false" id="c9da-0c8d-9ac9-b0e1" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -3808,6 +3873,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="40.0"/>
     <cost costTypeId="points" name="pts" value="600.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="03ab-01e9-4319-e4fa" name="Cerastus Knight-Acheron" page="" type="model">
@@ -3951,14 +4017,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="95e8-24b6-b185-1d90" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="4d9c-d2a9-c12a-8e6d" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="4d9c-d2a9-c12a-8e6d" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
+    <categoryLink hidden="false" id="95be-ab7a-1f82-7d42" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -4133,6 +4199,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="25.0"/>
     <cost costTypeId="points" name="pts" value="358.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="052c-72c2-e88b-01a5" name="Cerastus Knight-Castigator" page="" type="model">
@@ -4276,14 +4343,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="37ac-9ffe-f602-6125" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="164f-07f0-cb11-44fd" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="164f-07f0-cb11-44fd" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
+    <categoryLink hidden="false" id="6d27-1a3d-dd6f-af8b" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -4447,6 +4514,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="25.0"/>
     <cost costTypeId="points" name="pts" value="350.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="5c38-afa3-7aed-7116" name="Cerastus Knight-Lancer" page="" type="model">
@@ -4590,14 +4658,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="60be-b227-2102-7724" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="37e2-2462-ef80-1158" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="37e2-2462-ef80-1158" name="New CategoryLink" primary="false" targetId="1c95-cf90-0a3b-b44f">
+    <categoryLink hidden="false" id="ceae-becb-c1e0-b21e" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -4761,6 +4829,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="24.0"/>
     <cost costTypeId="points" name="pts" value="360.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="a3e0-d3af-585c-0b96" name="Questoris Knight Magaera" page="" type="model">
@@ -4904,14 +4973,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="fcdb-2679-b337-70eb" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="c512-58a3-68ce-d381" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="c512-58a3-68ce-d381" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+    <categoryLink hidden="false" id="94e3-5f72-793c-bfe2" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -4970,6 +5039,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -5158,6 +5228,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="380.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="28.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="392e-892e-7b42-b108" name="Questoris Knight Styrix" page="" type="model">
@@ -5301,14 +5372,14 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="b8c1-5899-af9a-1258" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="ae26-e7b9-16b2-b6b1" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="ae26-e7b9-16b2-b6b1" name="New CategoryLink" primary="false" targetId="862d-f263-ff32-5152">
+    <categoryLink hidden="false" id="2036-c6d1-4729-f8a1" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -5367,6 +5438,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -5555,6 +5627,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="340.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="24.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="ddc8-3adf-1dec-34e4" name="Meltagun" page="" type="upgrade">
@@ -5577,6 +5650,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="14.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5973-c86d-b500-4a14" name="Character (Knight Lance)" type="upgrade">
@@ -5619,6 +5693,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="7fcb-f39d-214d-f2b1" name="Warlord Trait: Fearsome Reputation" type="upgrade">
@@ -5652,6 +5727,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Warhammer 40,000: The Rules" collective="false" hidden="false" id="96f2-3321-e974-f12a" name="Warlord" type="upgrade">
@@ -5686,6 +5762,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="aebf-6658-0afa-1c05" name="Armiger Warglaives" type="unit">
@@ -5721,6 +5798,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="960f-39ec-45ea-6929" name="Armiger Warglaive" type="model">
@@ -5848,7 +5926,7 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="6db4-2172-95ad-36b5" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="b37f-ba7f-d3ac-10e8" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -6037,6 +6115,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="160.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="0c32-ce37-511f-bfc6" name="Reaper Chain-Cleaver" type="upgrade">
@@ -6066,7 +6145,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 2 jogadas de acerto para cada ataque feito com esta arma, em vez de 1."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 2 jogadas para acertar para cada ataque feito com esta arma, em vez de 1."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6081,6 +6160,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="ce1b-5c81-426d-ed53" name="Thermal Spear" type="upgrade">
@@ -6111,6 +6191,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d246-93a2-4d85-f578" name="Warlord Trait: Knight Seneschal" type="upgrade">
@@ -6135,6 +6216,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="94fa-8a4f-8d2b-c186" name="Warlord Trait: Blessed by the Sacristans" type="upgrade">
@@ -6159,6 +6241,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="8d85-9653-f1b7-38f6" name="Warlord Trait: Landstrider" type="upgrade">
@@ -6183,6 +6266,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="f8e0-e215-303e-da23" name="Warlord Trait: Cunning Commander" type="upgrade">
@@ -6196,7 +6280,15 @@
      <modifiers/>
     </infoLink>
    </infoLinks>
-   <modifiers/>
+   <modifiers>
+    <modifier field="2d3b-b544-ad49-fb75" type="set" value="0.0">
+     <repeats/>
+     <conditions>
+      <condition childId="44da-9aaf-181b-5ece" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="instanceOf" value="0.0"/>
+     </conditions>
+     <conditionGroups/>
+    </modifier>
+   </modifiers>
    <constraints>
     <constraint field="selections" id="7485-8523-b419-e2e6" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -6207,6 +6299,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b79a-5a1b-d88c-8b59" name="Warlord Trait: Ion Bulwark" type="upgrade">
@@ -6231,6 +6324,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="12d5-da9c-7185-acf0" name="Warlord Trait (Terryn): Champion of the Household" type="upgrade">
@@ -6255,6 +6349,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d790-51db-006d-815f" name="Warlord Trait (Krast): First Knight" type="upgrade">
@@ -6279,6 +6374,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="269a-dfa5-31dc-88d0" name="Warlord Trait (Mortan): Legacy of the Black Pall" type="upgrade">
@@ -6303,6 +6399,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="08bf-f276-8eaf-c02a" name="Warlord Trait (Vulker): Adamantium Knight" type="upgrade">
@@ -6327,6 +6424,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="7020-2326-823a-0da4" name="Warlord Trait (Raven): Master of the Trial" type="upgrade">
@@ -6351,6 +6449,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d0ab-1822-7a8b-874b" name="Warlord Trait (Cadmus): Vereran of Gryphonne IV" type="upgrade">
@@ -6375,6 +6474,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="e338-0993-1683-aa21" name="Warlord Trait (Taranis): Knight of Mars" type="upgrade">
@@ -6399,6 +6499,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="77be-97f3-290e-0aa9" name="Warlord Trait (Hawkshroud): Duty of the Forsworn" type="upgrade">
@@ -6423,6 +6524,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="7497-86f3-53ce-8211" name="Warlord Trait (Griffith): Master of the Joust" type="upgrade">
@@ -6447,6 +6549,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="1599-8972-0135-ab65" name="Household Choice" type="upgrade">
@@ -6490,6 +6593,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="eb48-0271-3b6c-aa85" name="Household Tradition: Cold Fury" type="upgrade">
@@ -6542,6 +6646,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="f799-da81-8e33-486f" name="Household Tradition: Gallant Warriors" type="upgrade">
@@ -6594,6 +6699,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="8822-84d6-96ee-4680" name="Household Tradition: Oathkeepers" type="upgrade">
@@ -6646,6 +6752,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="4a3a-0d9f-3435-a5eb" name="Household Tradition: Hunters of the Foe" type="upgrade">
@@ -6698,6 +6805,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="29f1-d766-fae8-6f0c" name="Household Tradition: Omnissiah's Grace" type="upgrade">
@@ -6750,6 +6858,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="8b05-b932-2769-f64e" name="Household Tradition: Close-Quarters Killers" type="upgrade">
@@ -6802,6 +6911,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="4e80-5172-db74-d245" name="Household Tradition: Glory of the Charge" type="upgrade">
@@ -6854,6 +6964,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="7967-fd17-eedc-4c06" name="Household Tradition: Firestorm Protocols" type="upgrade">
@@ -6906,6 +7017,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="0958-f61f-8933-2c50" name="Household Tradition: Relentless Advance" type="upgrade">
@@ -6958,6 +7070,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="643d-392f-e1cb-8739" name="House Terryn" type="upgrade">
@@ -6993,6 +7106,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="c611-7ad7-b2d5-4c22" name="House Krast" type="upgrade">
@@ -7028,6 +7142,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="9bf4-333b-a60a-49f4" name="House Taranis" type="upgrade">
@@ -7063,6 +7178,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="33f6-664b-bd3a-4f1d" name="House Vulker" type="upgrade">
@@ -7098,6 +7214,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="f648-9f71-21e9-7b3a" name="House Mortan" type="upgrade">
@@ -7133,6 +7250,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3be9-ae63-fcc3-8c2c" name="House Raven" type="upgrade">
@@ -7168,6 +7286,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="1a3e-2757-cab2-5bde" name="House Cadmus" type="upgrade">
@@ -7203,6 +7322,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="46c4-d7d5-e181-3d7c" name="House Griffith" type="upgrade">
@@ -7238,6 +7358,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="c430-2abc-7440-ea3d" name="House Hawkshroud" type="upgrade">
@@ -7273,6 +7394,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="e7b7-7e60-d76d-15fc" name="House &lt;Custom&gt;" type="upgrade">
@@ -7290,6 +7412,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="ce4b-6334-02a0-a7f8" name="Burden: Impetuous Nature" type="upgrade">
@@ -7312,6 +7435,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="9979-259b-b166-140d" name="Burden: Haunted by Failure" type="upgrade">
@@ -7334,6 +7458,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b26e-0170-8e46-10c3" name="Burden: Obsessed with Vengeance" type="upgrade">
@@ -7356,6 +7481,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3cc8-9a60-5777-7e11" name="Burden: Driven to Slaughter" type="upgrade">
@@ -7378,6 +7504,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="6dde-36cf-6109-b787" name="Burden: Weary Machine Spirit" type="upgrade">
@@ -7400,6 +7527,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="10cc-4485-8461-fdce" name="Burden: Exiled in Shame" type="upgrade">
@@ -7422,6 +7550,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="947f-b87a-7936-452b" name="Quality: Mysterious Guardian" type="upgrade">
@@ -7444,6 +7573,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3a62-00de-b0b5-7cf4" name="Canis Rex" type="model">
@@ -7524,7 +7654,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O CANIS REX pode retornar à fase de movimento e ainda disparar e / ou carregar no mesmo turno. Quando o CANIS REX cai para trás, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARRO, embora deva terminar seu movimento a mais de 1" de qualquer unidade inimiga. Além disso, o CANIS REX pode mover e disparar armas pesadas sem sofrer penalidade em suas testes de acerto Por fim, o CANIS REX só ganha um bônus, exceto pelo fato de que pelo menos metade do modelo é obscurecido pelo atirador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O CANIS REX pode retornar à fase de movimento e ainda disparar e / ou carregar no mesmo turno. Quando o CANIS REX cai para trás, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARRO, embora deva terminar seu movimento a mais de 1" de qualquer unidade inimiga. Além disso, o CANIS REX pode mover e disparar armas pesadas sem sofrer penalidade em seus jogadas para acertar Por fim, o CANIS REX só ganha um bônus, exceto pelo fato de que pelo menos metade do modelo é obscurecido pelo atirador.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="1168-311b-7592-1c1a" name="Chainbreaker" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7551,7 +7681,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O CANIS REX tem uma proteção invulnerável de 5+ contra armas de longo alcance."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O CANIS REX tem uma salvamento invulnerável de 5+ contra armas de longo alcance."/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="5c7a-0b03-1987-81ab" name="Explodes (Canis Rex)" profileTypeId="a8d9-0b84-1b10-5a8f" profileTypeName="Explosion">
@@ -7606,13 +7736,6 @@
     <constraint field="selections" id="5e8a-0a4c-dbb5-1c02" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
    <categoryLinks>
-    <categoryLink hidden="false" id="b089-3362-61f9-ff7d" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
     <categoryLink hidden="false" id="f406-0273-f8db-4736" name="New CategoryLink" primary="false" targetId="0dcf-a7d7-3f80-b95e">
      <profiles/>
      <rules/>
@@ -7767,6 +7890,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="23.0"/>
     <cost costTypeId="points" name="pts" value="450.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3fc5-1dd8-87b4-9332" name="Quality: Peerless Warrior" type="upgrade">
@@ -7789,6 +7913,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="4e58-bb7f-de9b-130a" name="Quality: Legendary Hero" type="upgrade">
@@ -7811,6 +7936,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="baa8-9595-3712-9dd1" name="Quality: Sworn to a Quest" type="upgrade">
@@ -7833,6 +7959,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="071a-88f8-30cf-64a6" name="Quality: Indomitable" type="upgrade">
@@ -7855,6 +7982,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="4857-0680-22a6-94ba" name="Quality: Last of their Line" type="upgrade">
@@ -7877,6 +8005,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b852-a5b1-1418-5374" name="Freeblade" type="upgrade">
@@ -7913,6 +8042,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d43e-f557-a2c7-b047" name="Armiger Helverin" type="model">
@@ -8040,7 +8170,7 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="67ee-2abe-b249-c333" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
+    <categoryLink hidden="false" id="00fd-0000-f8e9-2610" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -8218,6 +8348,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
     <cost costTypeId="points" name="pts" value="170.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="e6d7-df2d-5815-0c89" name="Armiger Helverins" type="unit">
@@ -8253,6 +8384,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="715d-814c-ef40-3bf6" name="Armiger Autocannon" type="upgrade">
@@ -8283,6 +8415,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="0879-ab93-76b3-44f1" name="Multi-laser" type="upgrade">
@@ -8313,6 +8446,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="257a-2adb-7c6c-e39d" name="Las-Impulsor" type="upgrade">
@@ -8357,6 +8491,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="7e35-60bc-3a55-5b3d" name="Knight Castellan" type="model">
@@ -8460,13 +8595,6 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="a65f-1654-519f-a18b" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
     <categoryLink hidden="false" id="8823-70e4-801c-efe1" name="New CategoryLink" primary="false" targetId="5f9d-9018-3b95-6c8f">
      <profiles/>
      <rules/>
@@ -8496,6 +8624,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="0b2e-2c41-be0a-5590" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="ffad-65d1-a435-79c1" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -8730,6 +8865,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="30.0"/>
     <cost costTypeId="points" name="pts" value="510.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="5a7f-f8dc-f25a-b090" name="Knight Valiant" type="model">
@@ -8833,13 +8969,6 @@
      <modifiers/>
      <constraints/>
     </categoryLink>
-    <categoryLink hidden="false" id="bcb1-b656-b784-6041" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
     <categoryLink hidden="false" id="668c-840d-3697-862f" name="New CategoryLink" primary="false" targetId="5f9d-9018-3b95-6c8f">
      <profiles/>
      <rules/>
@@ -8869,6 +8998,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="2704-b6e2-05ae-2c4f" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="6d3a-543f-d8ec-e5e2" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -9095,6 +9231,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="30.0"/>
     <cost costTypeId="points" name="pts" value="500.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="220d-0abf-a055-91d7" name="Plasma Decimator" type="upgrade">
@@ -9139,6 +9276,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="4000-8b19-d07b-1073" name="Twin Siegebreaker Cannon" type="upgrade">
@@ -9169,6 +9307,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="35.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d06e-38f1-81eb-0ec6" name="Twin Meltagun" type="upgrade">
@@ -9199,6 +9338,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="f2cb-ccfd-18a8-77d8" name="Shieldbreaker Missile" type="upgrade">
@@ -9229,6 +9369,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="12.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="64cf-a837-cf95-3a01" name="Volcano Lance" type="upgrade">
@@ -9244,7 +9385,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="14"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos quando mirar unidades TITANIC com esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades TITANIC com esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9259,6 +9400,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="c5a2-17e9-32a3-6551" name="Thundercoil Harpoon" type="upgrade">
@@ -9274,7 +9416,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-6"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="10"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar novamente os testes de resultados com falha ao mirar em unidades VEHICLE ou MONSTER com essa arma. Além disso, se esta arma infligir algum dano, a unidade alvo sofre mais ferimentos mortais D3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar os testes de resultados malsucedida ao mirar em unidades VEHICLE ou MONSTER com essa arma. Além disso, se esta arma infligir algum dano, a unidade alvo sofre mais Ferimentos Mortais D3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9289,6 +9431,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="cdd9-c4b5-70b6-dba8" name="Conflagration Cannon" type="upgrade">
@@ -9319,6 +9462,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="e02a-99d0-202d-01fc" name="Knight Preceptor" type="model">
@@ -9346,7 +9490,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Volte a jogar as testes de acerto de 1 para unidades de &lt;ARMIGER CLASSE ARMIGER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Volte a jogar as jogadas para acertar de 1 para unidades de &lt;ARMIGER CLASSE ARMIGER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Imperial Knights" hidden="false" id="c363-e03c-e058-92e8" name="Knight Preceptor 1" profileTypeId="9005-1a1f-3971-8480" profileTypeName="Wound Track (Knights)">
@@ -9410,13 +9554,6 @@
    <modifiers/>
    <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="bf60-d3d6-49a6-dba5" name="New CategoryLink" primary="false" targetId="7e3d-97ba-dddc-b416">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
     <categoryLink hidden="false" id="d52e-ca9b-5d8d-bc7f" name="New CategoryLink" primary="false" targetId="0dcf-a7d7-3f80-b95e">
      <profiles/>
      <rules/>
@@ -9467,6 +9604,13 @@
      <constraints/>
     </categoryLink>
     <categoryLink hidden="false" id="ca57-d2bf-2afe-4e2f" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints/>
+    </categoryLink>
+    <categoryLink hidden="false" id="375c-201c-cdae-8123" name="Faction: Imperial Knights" primary="false" targetId="0116-d165-23e1-4e90">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -9659,6 +9803,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="385.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="23.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="ed38-cefe-b411-75d0" name="One Siegebreaker Cannon and Four Shieldbreaker Missiles" type="upgrade">
@@ -9697,6 +9842,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="c66e-15db-fe05-331a" name="Two Siegebreaker Cannons and Two Shieldbreaker Missiles" type="upgrade">
@@ -9735,6 +9881,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="aa6c-e36b-69dd-0739" name="Exalted Court" type="upgrade">
@@ -9761,9 +9908,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="5fac-c041-e302-f2e0" name="Exalted Court: 2 Extra Warlord Traits (-3CP)" type="upgrade">
+  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="5fac-c041-e302-f2e0" name="Exalted Court: 2 Extra Warlord Traits" type="upgrade">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -9776,9 +9924,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-3.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="cfd0-ba68-323d-b19f" name="Exalted Court: 1 Extra Warlord Trait (-1CP)" type="upgrade">
+  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="cfd0-ba68-323d-b19f" name="Exalted Court: 1 Extra Warlord Trait" type="upgrade">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -9791,6 +9940,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="9630-827b-a78d-63b7" name="Heirlooms of the Household" type="upgrade">
@@ -9817,9 +9967,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b0b1-a088-161c-0745" name="Heirlooms of the Household: 2 Extra Heirlooms (-3CP)" type="upgrade">
+  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b0b1-a088-161c-0745" name="Heirlooms of the Household: 2 Extra Heirlooms" type="upgrade">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -9832,9 +9983,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-3.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="43e8-f5e3-963f-4333" name="Heirlooms of the Household: 1 Extra Heirloom (-1CP)" type="upgrade">
+  <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="43e8-f5e3-963f-4333" name="Heirlooms of the Household: 1 Extra Heirloom" type="upgrade">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -9847,6 +9999,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="abaa-8efe-5fb7-0d66" name="Heirloom: The Helm Dominatus" type="upgrade">
@@ -9857,7 +10010,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por rodada de batalha, no início de sua fase de Tiro ou fase de combate, você pode escolher uma unidade do exército do seu oponente que esteja a no máximo 24" do portador. Até o final da fase, adicione 1 às testes de acerto. pelos modelos &lt;HOUSEHOLD&gt; ARMIGER CLASS contra aquela unidade inimiga, quando estão a no máximo 6" do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma vez por rodada de batalha, no início de sua fase de Tiro ou fase de combate, você pode escolher uma unidade do exército do seu oponente que esteja a no máximo 24" do portador. Até o final da fase, adicione 1 às jogadas para acertar. pelos modelos &lt;HOUSEHOLD&gt; ARMIGER CLASS contra aquela unidade inimiga, quando estão a no máximo 6" do portador.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9907,6 +10060,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="77d6-1309-b603-b6fa" name="Heirloom: Mark of the Omnissiah" type="upgrade">
@@ -9917,7 +10071,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Jogue um D6 no começo do seu turno. Em um 6 o portador recupera D3 Pontos de Vida perdidas; em qualquer outro resultado, recupera 1 Ponto de Vida."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Jogue um D6 no começo do seu turno. Em um 6 o portador recupera D3 Pontos de Vida perdidos; em qualquer outro resultado, recupera 1 Ponto de Vida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9960,6 +10114,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="0e72-6ebb-f135-d7e1" name="Heirloom: Cawl's Wrath" type="upgrade">
@@ -10034,6 +10189,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="188e-66f7-a66f-0434" name="Heirloom (Cadmus): The Hunter's Eye" type="upgrade">
@@ -10075,6 +10231,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3ae1-f2ba-2db8-420b" name="Heirloom (Terryn): Thunder of Voltoris" type="upgrade">
@@ -10122,6 +10279,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="8c6c-0c4e-08d1-a963" name="Heirloom (Mortan): Hondur's Bite" type="upgrade">
@@ -10169,6 +10327,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="ca68-d22c-bfe1-555c" name="Heirloom (Griffith): Mark of the Lance" type="upgrade">
@@ -10179,7 +10338,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que o portador completar um movimento de carga, escolha uma unidade inimiga a menos de 1" disto e role um D6. Em um 2+ aquela unidade sofre D3 ferimentos mortais; em um 6 ela sofre 3 Ferimentos Mortais em vez disso.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que o portador completar um movimento de carga, escolha uma unidade inimiga a menos de 1" disto e role um D6. Em um 2+ aquela unidade sofre D3 Ferimentos Mortais; em um 6 ela sofre 3 Ferimentos Mortais em vez disso.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10210,6 +10369,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="6c29-dcb8-b621-9c65" name="Heirloom (Hawkshroud): Angel's Grace" type="upgrade">
@@ -10220,7 +10380,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que o portador sofrer uma Ferimento Mortal na fase psíquica do seu oponente; em um 4+ a ferida sendo rolada não está perdida."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que o portador sofrer um Ferimento Mortal na fase psíquica do seu oponente; em um 4+ a ferida sendo rolada não está perdida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10251,6 +10411,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="9710-624d-b83a-f300" name="Heirloom (Taranis): Fury of Mars" type="upgrade">
@@ -10298,6 +10459,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="37a4-bf45-ecf4-d33a" name="Heirloom (Raven): The Banner Inviolate" type="upgrade">
@@ -10308,7 +10470,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-rolar os testes de acerto de 1 na fase de combate para as modelos House Raven enquanto eles estiverem a no máximo 6" do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-rolar as jogadas para acertar de 1 na fase de combate para as modelos House Raven enquanto eles estiverem a no máximo 6" do portador.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10347,6 +10509,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3263-3bf8-6069-80ff" name="Heirloom (Krast): The Headsman's Mark" type="upgrade">
@@ -10388,6 +10551,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b3fb-76dc-98e7-89e1" name="Heirloom: Traitor's Pyre" type="upgrade">
@@ -10403,7 +10567,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Canhão de Conflagração do portador. Esta arma atinge automaticamente seu alvo. Você pode re-rolar rolagens de dano malsucedidas para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Canhão de Conflagração do portador. Esta arma atinge automaticamente seu alvo. Você pode re-rolar jogadas para ferir malsucedidas para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10448,6 +10612,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="25e6-ad3d-8419-6d07" name="Heirloom (Vulker): The Auric Mask" type="upgrade">
@@ -10489,6 +10654,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="31aa-3939-9245-ee4e" name="Heirloom: Helm of the Nameless Warrior" type="upgrade">
@@ -10499,7 +10665,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aos testes de acerto feitas para os ataques do usuário na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 aas jogadas para acertar feitas para os ataques do usuário na fase de combate."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10542,6 +10708,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="8a28-fffe-0497-35d8" name="Heirloom: Skyshield" type="upgrade">
@@ -10557,7 +10724,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Autocanhão Twin Icarus do portador. Adicione 1 a todas as jogadas de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de acerto desta arma contra todos os outros alvos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Autocanhão Twin Icarus do portador. Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar desta arma contra todos os outros alvos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10590,6 +10757,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="e7c9-3769-4adc-038e" name="Heirloom: Judgement" type="upgrade">
@@ -10605,7 +10773,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Pod de foguete de lança-tempestade. Você pode re-rolar as jogadas de acerto malsucedidos para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Pod de foguete de lança-tempestade. Você pode re-rolar as jogadas para acertar malsucedidas para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10630,6 +10798,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="c16a-de8f-cc1f-ec59" name="Heirloom: Banner of Macharius Triumphant" type="upgrade">
@@ -10685,6 +10854,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d159-80cb-9d06-cd0c" name="Heirloom: Endless Fury" type="upgrade">
@@ -10725,6 +10895,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="62d0-5f57-75e5-5d4d" name="Heirloom: Armour of the Sainted Ion" type="upgrade">
@@ -10752,6 +10923,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b9a5-e995-b1e8-12f5" name="Heirloom: The Paragon Gauntlet" type="upgrade">
@@ -10767,7 +10939,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="8"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Substitui a Manopla de Trovoada do portador. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Substitui a Manopla de Trovoada do portador. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10792,6 +10964,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="a335-807c-3fc9-54ac" name="Heirloom: Ravager" type="upgrade">
@@ -10807,7 +10980,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Chainsword Reaper do portador. Re-role os lançamentos de 1 para esta arma. Se o portador tiver a Tradição Doméstica da Fúria Fria, você poderá re-rolar todos os testes de acerto malsucedidos para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Substitui o Chainsword Reaper do portador. Re-role os lançamentos de 1 para esta arma. Se o portador tiver a Tradição Doméstica da Fúria Fria, você poderá re-rolar todas as jogadas para acertar malsucedidas para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -10832,6 +11005,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="64b9-dde1-33e6-50c7" name="Heirloom: Sanctuary" type="upgrade">
@@ -10859,6 +11033,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="ec59-dc13-e945-efd2" name="Sacristan Forgeshrine" type="model">
@@ -10937,6 +11112,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="80.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="247d-eee5-6e55-b4f3" name="Avenger Gatling Cannon w/ Heavy Flamer" page="" type="upgrade">
@@ -10975,6 +11151,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="d598-d2c8-de00-16d1" name="Qualities and Burdens" type="upgrade">
@@ -11045,6 +11222,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry book="" collective="false" hidden="false" id="5daf-d153-8a86-1777" name="Random Burdens" type="upgrade">
@@ -11135,6 +11313,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -11240,6 +11419,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry book="" collective="false" hidden="false" id="e0dc-d3bf-29cf-af12" name="Chosen Qualities" type="upgrade">
@@ -11266,6 +11446,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -11277,6 +11458,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3e00-eb05-5e60-6a05" name="[Reference] Warlord Traits (All)" type="upgrade">
@@ -11475,6 +11657,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="dfb9-3e7e-733b-8911" name="[Reference] Burdens (All)" type="upgrade">
@@ -11565,6 +11748,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="3327-6472-1de8-71e3" name="[Reference] Qualities (All)" type="upgrade">
@@ -11655,6 +11839,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0331-f3d9-7e76-8298" name="Questor Imperialis" type="upgrade">
@@ -11672,6 +11857,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="05dc-b991-1a99-40e6" name="Questor Mechanicus" type="upgrade">
@@ -11689,6 +11875,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6a57-dab7-ec3c-4625" name="Freeblade Questor Imperialis" type="upgrade">
@@ -11706,6 +11893,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3d27-e216-2483-792d" name="Freeblade Questor Mechanicus" type="upgrade">
@@ -11723,6 +11911,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="" collective="false" hidden="false" id="b024-daf5-66a7-50c4" name="Character (Heirloom of the House)" type="upgrade">
@@ -11782,6 +11971,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1e10-f41d-ef8a-a6dc" name="Character (Exalted Court)" type="upgrade">
@@ -11841,6 +12031,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="b3ad-a1e7-3a37-8c3d" name="Freedom's Hand" type="upgrade">
@@ -11856,7 +12047,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Trate qualquer dano menor que 6 feito com esta arma como 6. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar. Trate qualquer dano menor que 6 feito com esta arma como 6. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11871,6 +12062,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Imperial Knights" collective="false" hidden="false" id="cd5c-ab21-5b48-2927" name="Archeotech Pistol" type="upgrade">
@@ -11901,6 +12093,7 @@ INFANTRY units that are entirely on a Sector Mechanicus structure receive the bo
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -13214,7 +13407,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma proteção invulnerável de 5+ contra armas de longo alcance."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma salvamento invulnerável de 5+ contra armas de longo alcance."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="184b-c0f6-24c8-8b65" name="Super-Heavy Walker" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13223,7 +13416,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair de volta na fase de movimento e ainda atirar e / ou carregar no mesmo turno. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARRO, embora deva terminar seu movimento a mais de 1" de qualquer unidade inimiga. Além disso, este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas. Por fim, esse modelo só ganha um bônus, exceto pelo fato de que pelo menos metade do modelo é obscurecido pelo firer.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar no mesmo turno. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARRO, embora deva terminar seu movimento a mais de 1" de qualquer unidade inimiga. Além disso, este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas. Por fim, esse modelo só ganha um bônus, exceto pelo fato de que pelo menos metade do modelo é obscurecido pelo firer.'/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="9d73-c55c-3048-df16" name="Blessed Autosimulacra" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13261,7 +13454,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem 4+ poupe invulnerável contra ataques de tiros, e um 5+ invulnerável salvar contra ataques corpo a corpo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem 4+ poupe invulnerável contra ataques de tiros, e um 5+ salvamento invulnerável contra ataques corpo a corpo."/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="5b05-e703-5860-0f1e" name="Macro-Extinction Protocols" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13270,7 +13463,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 às suas jogadas de acerto com este modelo ao fazer ataques de Tiro contra alvos com a palavra-chave TITANIC."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode adicionar 1 às suas jogadas para acertar com este modelo ao fazer ataques de Tiro contra alvos com a palavra-chave TITANIC."/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="869a-af45-3ca3-43a9" name="Ion Gauntlet Shield" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13279,7 +13472,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O modelo tem um 5+ invulnerável salvar aumentando para 4+ invulnerável salvar na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC a menos de 1" devem subtrair 1 de suas jogadas de acerto ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='O modelo tem um 5+ salvamento invulnerável aumentando para 4+ salvamento invulnerável na fase de combate de qualquer turno. Além disso, unidades inimigas com a palavra-chave TITANIC a menos de 1" devem subtrair 1 de suas jogadas para acertar ao direcionar seus ataques contra esse modelo (até um máximo de 6+ para acertar).'/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3db7-ad30-051c-f1c6" name="Empyreal Preysight" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13297,7 +13490,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os modelos nesta unidade têm uma proteção invulnerável de 5+ contra armas de longo alcance."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os modelos nesta unidade têm uma salvamento invulnerável de 5+ contra armas de longo alcance."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="5cc5-1429-861d-0030" name="Explodes (Armiger)" profileTypeId="a8d9-0b84-1b10-5a8f" profileTypeName="Explosion">
@@ -13326,7 +13519,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Imediatamente após o seu Warlord completar um movimento de carga, escolha uma unidade inimiga a menos de 1" e role um D6: em um 4+ essa unidade sofre D3 ferimentos mortais.'/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Imediatamente após o seu Warlord completar um movimento de carga, escolha uma unidade inimiga a menos de 1" e role um D6: em um 4+ essa unidade sofre D3 Ferimentos Mortais.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="47ce-3aba-3019-8142" name="Duty of the Forsworn" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13353,7 +13546,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Uma vez por batalha, você pode relançar um teste de acerto, teste de ferimento, teste de ferimento ou teste de resistência feito para seu Warlord. Além disso, se o seu exército for forjado em batalha, você ganha um ponto de comando adicional."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Uma vez por batalha, você pode re-rolar um jogada para acertar, teste de ferimento, teste de ferimento ou teste de resistência feito para seu Warlord. Além disso, se o seu exército for forjado em batalha, você ganha um ponto de comando adicional."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="b3b3-3344-9354-df83" name="Knight of Mars" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13362,7 +13555,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Cada vez que você faz um teste de ferimento de 6+  para seu Warlord na fase de Tiro, a característica AP desse ataque é melhorada em 1 (por exemplo, AP0 se torna AP-1)."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Cada vez que você faz uma jogada para ferir de 6+  para seu Warlord na fase de Tiro, a característica AP desse ataque é melhorada em 1 (por exemplo, AP0 se torna AP-1)."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="96f0-a851-8433-76e1" name="Blessed by the Sacristans" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13371,7 +13564,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Escolha uma arma (não uma herança das casas nobres) com a qual seu Warlord esteja equipado. Cada vez que você fizer um teste de ferimento 6 não modificado para aquela arma, o alvo sofre uma Ferimento Mortal além do dano normal."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Escolha uma arma (não uma herança das casas nobres) com a qual seu Warlord esteja equipado. Cada vez que você fizer uma jogada para ferir 6 não modificado para aquela arma, o alvo sofre um Ferimento Mortal além do dano normal."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="aede-42a1-aac1-d84e" name="Adamantium Knight" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13380,7 +13573,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Os testes de ferimentos de 1, 2 ou 3 feitos para ataques contra seu Warlord sempre falham, mesmo que o ataque tenha uma característica de Força maior que a característica de Tenacidade do seu Warlord."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="as jogadas para ferirs de 1, 2 ou 3 feitos para ataques contra seu Warlord sempre falham, mesmo que o ataque tenha uma característica de Força maior que a característica de Tenacidade do seu Warlord."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="3c25-2e1b-234e-b52f" name="Knight Seneschal" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13398,7 +13591,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Seu Warlord tem 4+ save invulnerável contra armas de longo alcance."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Seu Warlord tem 4+ salvamento invulnerável contra armas de longo alcance."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="b78a-733c-e458-2099" name="Champion of the Household" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13407,7 +13600,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Você pode re-rolar rolagens de cargas com falha para seu Warlord."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Você pode re-rolar jogadas de cargas malsucedida para seu Warlord."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="316e-ccd3-fa69-dcf6" name="Master of the Trial" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13416,7 +13609,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Adicione 1 ao teste de resistência feito para seu Warlord contra ataques que tenham uma característica AP de -1 (isso não afeta lances de salvamento invulneráveis)."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Adicione 1 ao teste de salvamento feito para seu Warlord contra ataques que tenham uma característica AP de -1 (isso não afeta lances de salvamento invulneráveis)."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="2752-ed42-5fae-d28e" name="Legacy of the Black Pall" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13425,7 +13618,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Subtraia 1 das jogadas de acerto para ataques que tenham como alvo o Senhor da Guerra em um alcance maior que 18" .'/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value='Subtraia 1 das jogadas para acertar para ataques que tenham como alvo o Senhor da Guerra em um alcance maior que 18" .'/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="9651-0818-0929-74e7" name="Fearsome Reputation" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13443,7 +13636,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Rolar novamente os testes de 1 de um modelo com esta Tradição Familiar sempre que você estiver resolvendo um ataque com uma arma de longo alcance que esteja mirando na unidade inimiga mais próxima."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="re-rolar os testes de 1 de um modelo com esta Tradição Familiar sempre que você estiver resolvendo um ataque com uma arma de longo alcance que esteja mirando na unidade inimiga mais próxima."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="cbca-2ab0-4b71-939c" name="Omnissiah's Grace" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13452,7 +13645,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Jogue um dado toda vez que um modelo com essa Tradição Doméstica perder uma ferida, a menos que essa ferida tenha sido perdida como resultado de uma Ferimento Mortal; em um 6 a ferida sendo rolada não está perdida."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Jogue um dado toda vez que um modelo com essa Tradição Doméstica perder um Ponto de Vida, a menos que essa ferida tenha sido perdida como resultado de um Ferimento Mortal; em um 6 a ferida sendo rolada não está perdida."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="fd9a-9acd-1f1e-2d63" name="Relentless Advance" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13461,7 +13654,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Modelos com esta Tradição Familiar não sofrem as penalidades em suas jogadas de acerto por Avançar e disparar armas de Assalto. Além disso, durante um turno em que uma unidade com esta Tradição dos Agregados Familiares avança, todas as suas armas Pesadas são tratadas como armas de Assalto (por exemplo, uma arma Pesada 3 é tratada como uma arma de Assalto 3)."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Modelos com esta Tradição Familiar não sofrem as penalidades em suas jogadas para acertar por Avançar e disparar armas de Assalto. Além disso, durante um turno em que uma unidade com esta Tradição dos Agregados Familiares avança, todas as suas armas Pesadas são tratadas como armas de Assalto (por exemplo, uma arma Pesada 3 é tratada como uma arma de Assalto 3)."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="b926-5885-f957-b6ae" name="Cold Fury" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13470,7 +13663,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Você pode re-rolar os testes de acerto malsucedidos na fase de combate para um modelo com essa Tradição dos Agregados Familiares durante qualquer turno em que realizou uma carga, sofreu uma carga ou realizou uma Intervenção Heroica. Além disso, você pode re-rolar todos os testes de acerto malsucedidos na fase de combate para um modelo com esta Tradição dos Agregados Familiares contra Unidades TITANICAS."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Você pode re-rolar as jogadas para acertar malsucedidas na fase de combate para um modelo com essa Tradição dos Agregados Familiares durante qualquer turno em que realizou uma carga, sofreu uma carga ou realizou uma Intervenção Heroica. Além disso, você pode re-rolar todas as jogadas para acertar malsucedidas na fase de combate para um modelo com esta Tradição dos Agregados Familiares contra Unidades TITANICAS."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="2fce-ca27-e931-e29b" name="Close-Quarters Killers" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13479,7 +13672,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Adicione 1 a acertar jogadas na fase de combate para ataques feitos por um modelo com esta Tradição Doméstica durante qualquer turno em que realizou uma carga, sofreu uma carga ou realizou uma Intervenção Heróica."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Adicione 1 às jogadas para acertar na fase de combate para ataques feitos por um modelo com esta Tradição Doméstica durante qualquer turno em que realizou uma carga, sofreu uma carga ou realizou uma Intervenção Heróica."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="a2ac-9014-671c-2f43" name="Glory of the Charge" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13497,7 +13690,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Re-role testes para ferir de 1 na fase de combate para ataques feitos por modelos com esta Tradição dos Agregados Familiares contra unidades que só contenham modelos com uma característica de Pontos de Vida de 12 ou menos."/>
+    <characteristic characteristicTypeId="9271-9853-fe95-0c04" name="Description" value="Re-role jogadas para ferir de 1 na fase de combate para ataques feitos por modelos com esta Tradição dos Agregados Familiares contra unidades que só contenham modelos com uma característica de Pontos de Vida de 12 ou menos."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="8452-4728-7f81-9a8a" name="Oathkeepers" profileTypeId="dfe7-9b0a-ece9-9141" profileTypeName="Household Tradition">
@@ -13524,7 +13717,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="Acrescenta 1 às características de Pontos de Vida e Liderança do Freeblade"/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="Adicione 1 às características de Pontos de Vida e Liderança do Freeblade"/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="dc41-a707-e931-05a4" name="Legendary Hero" profileTypeId="7cbd-dd14-7b99-0b84" profileTypeName="Quality">
@@ -13533,7 +13726,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="Uma vez por rodada de batalha, você pode relançar um único teste de acerto, teste de ferimento, dano, carga ou defesa para este Freeblade."/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="Uma vez por rodada de batalha, você pode re-rolar um único jogada para acertar, teste de ferimento, dano, carga ou defesa para este Freeblade."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="602d-c7a1-99a6-9e43" name="Peerless Warrior" profileTypeId="7cbd-dd14-7b99-0b84" profileTypeName="Quality">
@@ -13623,7 +13816,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="re-role os testes de acerto de 1 para os ataques do Freeblade contra unidades contendo 10 ou mais modelos."/>
+    <characteristic characteristicTypeId="3cb3-c10d-03f7-5db9" name="Description" value="re-role as jogadas para acertar de 1 para os ataques do Freeblade contra unidades contendo 10 ou mais modelos."/>
    </characteristics>
   </profile>
   <profile book="Codex: Imperial Knights" hidden="false" id="7476-ae76-f808-5391" name="Dual Plasma Core Explosion" profileTypeId="6535-c5b9-7431-63ec" profileTypeName="Explosion">
@@ -13635,7 +13828,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
     <characteristic characteristicTypeId="3684-f9d8-8984-a2bc" name="Dice Roll" value="6+"/>
     <characteristic characteristicTypeId="0cfb-ee72-50d6-0cfb" name="Distance" value='2D6"/3D6"'/>
     <characteristic characteristicTypeId="a56d-fa6c-e1ee-bbe0" name="Mortal Wounds" value="D6"/>
-    <characteristic characteristicTypeId="b93e-b54e-b204-2ee2" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role 2D6 antes de removê-lo do campo de batalha. Se você rolar um 6 em cada um dos dados, ele explodirá e cada unidade a no máximo 2D6" sofrerá ferimentos mortais D6; se você rolar um 6 em ambos os dados, cada unidade a no máximo 3D6" sofrerá ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="b93e-b54e-b204-2ee2" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role 2D6 antes de removê-lo do campo de batalha. Se você rolar um 6 em cada um dos dados, ele explodirá e cada unidade a no máximo 2D6" sofrerá D6 ferimentos mortais; se você rolar um 6 em ambos os dados, cada unidade a no máximo 3D6" sofrerá D6 ferimentos mortais.'/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="686d-11be-ed9b-a649" name="Tenacious Survivor" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">
@@ -13644,7 +13837,7 @@ If a Freeblade from your army has any Burdens, roll 2D6 for them at the start of
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Jogue um dado cada vez que este Warlord perder uma ferida. Em um 6, o Warlord evita o dano e não perde a ferida."/>
+    <characteristic characteristicTypeId="f9f0-1b0a-0e16-84b3" name="Description" value="Jogue um dado cada vez que este Warlord perder um Ponto de Vida. Em um 6, o Warlord evita o dano e não perde a ferida."/>
    </characteristics>
   </profile>
   <profile book="Warhammer 40,000: The Rules" hidden="false" id="d72b-16c2-f129-916e" name="Inspiring Leader" profileTypeId="b2ac-1cb8-8f3c-8ded" profileTypeName="Warlord Trait">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="@MadSpy" battleScribeVersion="2.01" book="Imperial Armour: Forces of the Astra Militarum" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="7" id="2ebb-7865-3983-640d" name="Chaos - Renegades &amp; Heretics-BR" revision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="@MadSpy" battleScribeVersion="2.01" book="Imperial Armour: Forces of the Astra Militarum" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="7" id="2ebb-7865-3983-640d" name="Chaos - Renegades &amp; Heretics-BR" revision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks/>
@@ -2914,7 +2914,7 @@
    <selectionEntryGroups/>
    <entryLinks/>
    <costs>
-    <cost costTypeId="points" name="pts" value="10.0"/>
+    <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
@@ -3451,7 +3451,7 @@
          <selectionEntryGroups/>
          <entryLinks/>
          <costs>
-          <cost costTypeId="points" name="pts" value="10.0"/>
+          <cost costTypeId="points" name="pts" value="5.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
@@ -3752,7 +3752,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase Movement.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase de Movimento.'/>
        </characteristics>
       </profile>
       <profile book="Codex: Astra Militarum" hidden="false" id="8095-130e-b3af-6521" name="Valkyrie" page="48" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -3826,7 +3826,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo se move, primeiro gire-o no local até 90" (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente. Observe que ele não pode girar novamente após o pivô inicial. Avança o modelo, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo se move, primeiro gire-o no local até 90" (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente. Observe que ele não pode girar novamente após o giro inicial. Avança o modelo, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.'/>
        </characteristics>
       </profile>
       <profile hidden="false" id="4c41-8af4-7e8b-31a3" name="Grav Chute Insertion" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3844,7 +3844,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo passar em sua fase de Movimento, adicione 1 a todos os testes de acerto feitos na fase de Tiro a seguir."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo passar em sua fase de Movimento, adicione 1 a todas as jogadas para acertar feitos na fase de Tiro a seguir."/>
        </characteristics>
       </profile>
      </profiles>
@@ -4449,7 +4449,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais testes de acerto de 1, o portador sofre D6 mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais jogadas para acertar de 1, o portador sofre D6 mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="b15f-0b42-4767-bc6e" name="Emergency Plasma Vents" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4458,7 +4458,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo disparar um canhão de plasma sobrecarregado e você rolar um ou mais testes de acerto de 1, ele não será destruído automaticamente. Em vez disso, ele sofre 6 ferimentos mortais e não pode disparar nenhum canhão de plasma pelo resto da batalha."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo disparar um canhão de plasma sobrecarregado e você rolar um ou mais jogadas para acertar de 1, ele não será destruído automaticamente. Em vez disso, ele sofre 6 Ferimentos Mortais e não pode disparar nenhum canhão de plasma pelo resto da batalha."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4601,7 +4601,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades não visíveis para o portador. Você pode re-rolar rolagens de dano malsucedidas para esta arma."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma pode mirar em unidades não visíveis para o portador. Você pode re-rolar jogadas para ferir malsucedidas para esta arma."/>
          </characteristics>
         </profile>
        </profiles>
@@ -4798,7 +4798,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de acerto feitas para esta arma contra todos os outros alvos."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
          </characteristics>
         </profile>
        </profiles>
@@ -6144,7 +6144,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 5+ Invulnerable salvar contra ataques de tiro."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+ contra ataques de tiro."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d4b1-35cb-3b98-5d73" name="Steel Behemoth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6385,7 +6385,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica de movimento se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o começo de sua próxima fase de movimento.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica de movimento se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o começo de sua próxima fase de movimento.'/>
        </characteristics>
       </profile>
       <profile hidden="false" id="01ff-443e-283c-6ca5" name="Repair" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7001,7 +7001,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 5+ Invul salvar"/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+"/>
      </characteristics>
     </profile>
    </profiles>
@@ -7299,7 +7299,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 4+."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="edb4-834b-fe7a-7a0d" name="Malefic Lord" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
@@ -7487,7 +7487,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
        </characteristics>
       </profile>
      </profiles>
@@ -7646,7 +7646,7 @@
             <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
             <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
             <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador entra em combate, ele pode fazer um ataque adicional com esta arma."/>
+            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta na fase de combate, ele pode fazer um ataque adicional com esta arma."/>
            </characteristics>
           </profile>
          </profiles>
@@ -7684,7 +7684,7 @@
             <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
             <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
             <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador entra em combate, ele pode fazer um ataque adicional com esta arma."/>
+            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta na fase de combate, ele pode fazer um ataque adicional com esta arma."/>
            </characteristics>
           </profile>
          </profiles>
@@ -9383,7 +9383,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando uma unidade de Chaos Spawn faz seus ataques de combate corpo a corpo, role uma D3 e consulte a tabela abaixo. 1: Razor Claws: As mutações hediondas de todos os Chaos Spawn na unidade têm um AP de -4 até o final da fase de combate. 2: Agarrando Pseudópodes: Cada Caos Gerado na unidade adiciona 2 à sua característica de Ataques até o final da fase de combate. 3: Hemorragia Tóxica: Você pode re-rolar testes para ferir malsucedidos para esta unidade até o final da fase de combate."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando uma unidade de Chaos Spawn faz seus ataques de combate corpo a corpo, role uma D3 e consulte a tabela abaixo. 1: Razor Claws: As mutações hediondas de todos os Chaos Spawn na unidade têm um AP de -4 até o final da fase de combate. 2: Agarrando Pseudópodes: Cada Caos Gerado na unidade adiciona 2 à sua característica de Ataques até o final da fase de combate. 3: Hemorragia Tóxica: Você pode re-rolar jogadas para ferir malsucedidas para esta unidade até o final da fase de combate."/>
        </characteristics>
       </profile>
       <profile hidden="false" id="8f9c-2109-d520-919e" name="Fearsome" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10797,7 +10797,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente rolagens de resultados com falha para esta unidade na fase de combates."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para acertar malsucedidas para esta unidade na fase de combates."/>
          </characteristics>
         </profile>
        </profiles>
@@ -11145,7 +11145,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador entra em combate, ele pode fazer um ataque adicional com esta arma."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta na fase de combate, ele pode fazer um ataque adicional com esta arma."/>
          </characteristics>
         </profile>
        </profiles>
@@ -11206,7 +11206,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador entra em combate, ele pode fazer um ataque adicional com esta arma."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta na fase de combate, ele pode fazer um ataque adicional com esta arma."/>
          </characteristics>
         </profile>
        </profiles>
@@ -11776,7 +11776,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Reroll falhou em jogadas de ferimento em &lt;VEÍCULO&gt;"/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Reroll falhou em jogadas para ferir em &lt;VEÍCULO&gt;"/>
          </characteristics>
         </profile>
        </profiles>
@@ -11931,7 +11931,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Reroll falhou em jogadas de ferimento em modelos Não - &lt;VEÍCULO&gt;"/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Reroll falhou em jogadas para ferir em modelos Não - &lt;VEÍCULO&gt;"/>
          </characteristics>
         </profile>
        </profiles>
@@ -12612,7 +12612,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 para acertar as jogadas para o modelo ao disparar overwatch."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 às jogadas para acertar para o modelo ao disparar overwatch."/>
      </characteristics>
     </profile>
    </profiles>
@@ -13654,7 +13654,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="9"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um teste de acerto de 1, o portador sofre uma Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um jogada para acertar de 1, o portador sofre um Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
        </characteristics>
       </profile>
      </profiles>
@@ -14615,7 +14615,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Reroll falhou em jogadas de ferimento em &lt;VEÍCULO&gt;"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Reroll falhou em jogadas para ferir em &lt;VEÍCULO&gt;"/>
      </characteristics>
     </profile>
    </profiles>
@@ -14704,7 +14704,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 5+ Invul salvar"/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+"/>
      </characteristics>
     </profile>
     <profile hidden="false" id="2c0b-9aff-9667-fb94" name="Baleful Judge" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15564,7 +15564,7 @@
      <constraints/>
      <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="93c3-a428-e9ad-95b5" name="Lascannon" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+    <entryLink hidden="false" id="93c3-a428-e9ad-95b5" name="Lascannon" targetId="0b65-01bf-2161-a357" type="selectionEntry">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -15731,7 +15731,7 @@
    <selectionEntries/>
    <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="406a-fc77-9a2f-0bd4" name="Heavy bolter" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+    <entryLink hidden="false" id="406a-fc77-9a2f-0bd4" name="Heavy bolter" targetId="0c5c-2a4f-0e90-8aaa" type="selectionEntry">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -16105,7 +16105,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, na fase de Tiro, você pode re-rolar um único teste de acerto para um veículo com um array de augurs."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, na fase de Tiro, você pode re-rolar um único jogada para acertar para um veículo com um array de augurs."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16270,7 +16270,7 @@
      <constraints/>
      <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="fb46-6c88-495c-ddbc" name="Lascannon" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+    <entryLink hidden="false" id="fb46-6c88-495c-ddbc" name="Lascannon" targetId="0b65-01bf-2161-a357" type="selectionEntry">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -16357,7 +16357,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador entra em combate, ele pode fazer um ataque adicional com esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta na fase de combate, ele pode fazer um ataque adicional com esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4fcf-7187-77eb-060b" name="Warp Flux" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
@@ -16607,7 +16607,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7aa0-421d-1067-58a5" name="Explodes (Super-Heavy)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16616,7 +16616,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 2D6" sofre D6 ferimentos mortais.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a2cb-796f-27a4-098b" name="Immobile" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16625,7 +16625,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça testes de acerto. No entanto, este modelo ainda pode disparar se houver modelos inimigos a menos de 1" , e unidades aliadas ​​ainda podem atingir unidades inimigas que estão a menos de 1" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça jogadas para acertar. No entanto, este modelo ainda pode disparar se houver modelos inimigos a menos de 1" , e unidades aliadas ​​ainda podem atingir unidades inimigas que estão a menos de 1" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7ec4-03b3-3612-0cfd" name="Steel Behemoth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16634,7 +16634,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Ele também pode disparar suas armas se as unidades inimigas estiverem a menos de 1" (mas apenas seus bolteros pesados ​​ou flechas pesadas podem atingir unidades que estão a menos de 1" disso - suas outras armas devem mirar em outras unidades). Além disso, este modelo só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do firer.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode recuar na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Ele também pode disparar suas armas se as unidades inimigas estiverem a menos de 1" (mas apenas seus bolteros pesados ​​ou flechas pesadas podem atingir unidades que estão a menos de 1" disso - suas outras armas devem mirar em outras unidades). Além disso, este modelo só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do firer.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1e85-d18e-c910-8938" name="Uncertain Worth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16670,7 +16670,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das testes de acerto para os ataques que visam esse modelo na fase de tiro."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das jogadas para acertar para os ataques que visam esse modelo na fase de tiro."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2e96-df54-e0ec-1896" name="Lumbering Advance" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16706,7 +16706,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo permanecer estacionário ou se mover abaixo da metade da velocidade na sua fase Movimento (isto é, ele mover uma distância em polegadas menor que a metade da sua característica atual de Movimento) ele poderá disparar sua arma duas vezes na seguinte fase de Tiro (a arma da torre deve atingir a mesma unidade ambas as vezes). Além disso, os testes de acerto da arma da torre deste modelo não sofrem a penalidade por se moverem e atirarem com uma arma Pesada. As armas a seguir são armas de torre: canhão de batalha, canhão de batalha Conquistador, canhão Demolidor, canhão Eradicator nova, canhão de plasma carrasco, canhão automático Exterminador, canhão Gatling Punisher, canhão de batalha Stygies Vanquisher, canhão de batalha duplo lascannon e Vanquisher."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo permanecer estacionário ou se mover abaixo da metade da velocidade na sua fase Movimento (isto é, ele mover uma distância em polegadas menor que a metade da sua característica atual de Movimento) ele poderá disparar sua arma duas vezes na seguinte fase de Tiro (a arma da torre deve atingir a mesma unidade ambas as vezes). Além disso, as jogadas para acertar da arma da torre deste modelo não sofrem a penalidade por se moverem e atirarem com uma arma Pesada. As armas a seguir são armas de torre: canhão de batalha, canhão de batalha Conquistador, canhão Demolidor, canhão Eradicator nova, canhão de plasma carrasco, canhão automático Exterminador, canhão Gatling Punisher, canhão de batalha Stygies Vanquisher, canhão de batalha duplo lascannon e Vanquisher."/>
    </characteristics>
   </profile>
  </sharedProfiles>

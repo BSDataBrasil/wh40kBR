@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="GenWilhelm" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Index: Xenos 2" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="83b2-e602-931a-fea1" name="Tyranids - Genestealer Cults-BR" revision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="GenWilhelm" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Index: Xenos 2" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="83b2-e602-931a-fea1" name="Tyranids - Genestealer Cults-BR" revision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules>
   <rule book="Index: Xenos 2" hidden="false" id="69ce-aa80-5a30-5d8b" name="Brood Brothers" page="112">
@@ -480,6 +480,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="17.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="0955-7c86-9f9f-ea59" name="Aberrant (Hammer)" type="model">
@@ -527,6 +528,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="17.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -612,6 +614,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="17.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="ed50-40e2-0f8f-bab3" name="Aberrant Hypermorph (Improvised)" type="model">
@@ -644,7 +647,7 @@
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 2 jogadas de acerto para cada ataque feito com esta arma, em vez de 1. Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 2 jogadas para acertar para cada ataque feito com esta arma, em vez de 1. Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
              </characteristics>
             </profile>
            </profiles>
@@ -662,6 +665,7 @@
            <costs>
             <cost costTypeId="points" name="pts" value="10.0"/>
             <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+            <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
            </costs>
           </selectionEntry>
          </selectionEntries>
@@ -693,6 +697,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="17.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -724,6 +729,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4d55-d44b-8084-5f59" name="Acolyte Hybrids" type="unit">
@@ -952,6 +958,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="11.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1045,6 +1052,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="74dc-eae2-8d0e-d310" name="Acolyte Hybrid (Hand Flamer)" type="model">
@@ -1125,6 +1133,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="9637-2f0e-d676-1688" name="Acolyte Hybrid (Heavy Weapon)" type="model">
@@ -1259,6 +1268,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="11.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -1295,6 +1305,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="bfb8-b61c-009e-2a26" name="Acolyte Iconward" type="model">
@@ -1322,7 +1333,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um modelo de INFANTARIA GENERALIZADA CULTOS a no máximo 6" deste modelo perder uma ferida; em um 6 a ferida é ignorada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um modelo de INFANTARIA GENERALIZADA CULTOS a no máximo 6" deste modelo perder um Ponto de Vida; em um 6 a ferida é ignorada.'/>
      </characteristics>
     </profile>
     <profile book="Index: Xenos 2" hidden="false" id="f466-770b-427d-c21d" name="Sacred Cult Banner" page="115" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1331,7 +1342,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de Moral com falha para unidades de INFANTARIA GENESTEALER CULTS aliadas ​​que estejam a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes de Moral malsucedida para unidades de INFANTARIA GENESTEALER CULTS aliadas ​​que estejam a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="217b-e244-afd0-48ae" name="Acolyte Iconward" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -1423,7 +1434,7 @@
        </constraints>
        <categoryLinks/>
       </entryLink>
-      <entryLink hidden="false" id="9096-1c1a-923f-f348" name="Stratagem: Field Commander (-1 CP)" targetId="d043-3847-e963-fb5d" type="selectionEntry">
+      <entryLink hidden="false" id="9096-1c1a-923f-f348" name="Stratagem: Field Commander" targetId="d043-3847-e963-fb5d" type="selectionEntry">
        <profiles/>
        <rules/>
        <infoLinks/>
@@ -1512,6 +1523,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="53.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3b08-a032-7b88-2116" name="Cult Armoured Sentinels" type="unit">
@@ -1709,6 +1721,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="40.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1734,6 +1747,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9829-488e-364f-3dad" name="Cult Chimera" type="model">
@@ -2010,6 +2024,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="75.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f6f6-2f9e-c4e0-2998" name="Cult Leman Russ" type="model">
@@ -2073,7 +2088,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo permanecer estacionário ou se mover abaixo da metade da velocidade na sua fase Movimento (isto é, ele mover uma distância em polegadas menor que a metade da sua característica atual de Movimento) ele poderá disparar sua arma duas vezes na seguinte fase de Tiro (a arma da torre deve atingir a mesma unidade ambas as vezes). Além disso, os testes de acerto para a arma da torre deste modelo não sofrem a penalidade por mover-se e atirar em uma arma Pesada. As seguintes armas são armas de torre: canhão de batalha, canhão de nova erradicadora, canhão de exterminador e canhão de batalha de vanquisher."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo permanecer estacionário ou se mover abaixo da metade da velocidade na sua fase Movimento (isto é, ele mover uma distância em polegadas menor que a metade da sua característica atual de Movimento) ele poderá disparar sua arma duas vezes na seguinte fase de Tiro (a arma da torre deve atingir a mesma unidade ambas as vezes). Além disso, as jogadas para acertar para a arma da torre deste modelo não sofrem a penalidade por mover-se e atirar em uma arma Pesada. As seguintes armas são armas de torre: canhão de batalha, canhão de nova erradicadora, canhão de exterminador e canhão de batalha de vanquisher."/>
      </characteristics>
     </profile>
     <profile book="Index: Xenos 2" hidden="false" id="9d8a-7ac7-4957-7c48" name="Emergency Plasma Vents" page="123" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2082,7 +2097,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo disparar um canhão de plasma sobrecarregado e você rolar um ou mais testes de acerto de 1, ele não será destruído automaticamente. Em vez disso, ele sofre 6 ferimentos mortais e não pode disparar nenhum canhão de plasma pelo resto da batalha."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo disparar um canhão de plasma sobrecarregado e você rolar um ou mais jogadas para acertar de 1, ele não será destruído automaticamente. Em vez disso, ele sofre 6 Ferimentos Mortais e não pode disparar nenhum canhão de plasma pelo resto da batalha."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="289a-2618-24cd-4c80" name="Cult Leman Russ" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -2383,6 +2398,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="132.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="11.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c927-bf87-e0fa-9891" name="Familiar" type="model">
@@ -2450,6 +2466,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="12.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="26bd-a844-711b-bdf6" name="Cult Scout Sentinels" type="unit">
@@ -2648,6 +2665,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="35.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2673,6 +2691,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="edbd-4366-0054-e184" name="Goliath Rockgrinder" type="model">
@@ -2899,6 +2918,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="94.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f2f6-a9c4-9244-7984" name="Goliath Truck" type="model">
@@ -3091,6 +3111,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="66.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="" collective="false" hidden="false" id="fd95-5d6e-19a4-3d9b" name="Hybrid Metamorphs" page="" type="unit">
@@ -3247,6 +3268,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -3322,6 +3344,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="0.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="4559-ce33-7e63-6511" name="Hand Flamer" type="upgrade">
@@ -3344,6 +3367,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="8.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -3355,6 +3379,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="13.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="7da5-7f59-3333-a33c" name="Metamorph Leader" type="model">
@@ -3442,6 +3467,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -3517,6 +3543,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="0.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="d97a-feb0-dc87-95d2" name="Hand Flamer" type="upgrade">
@@ -3539,6 +3566,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="8.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -3561,6 +3589,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="13.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -3594,6 +3623,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ea83-2ffa-61cf-7347" name="Patriarch" type="model">
@@ -3633,7 +3663,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes de acerto na fase de combate para qualquer unidade aliada da Purestrain Genestealer que esteja a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aas jogadas para acertar na fase de combate para qualquer unidade aliada da Purestrain Genestealer que esteja a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="Index: Xenos 2" hidden="false" id="29ee-79d3-646f-83b8" name="Living Idol" page="114" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3824,6 +3854,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="150.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="35e2-95a7-b5c1-ae3c" name="Primus" type="model">
@@ -3851,7 +3882,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 a todas as jogadas de acerto na fase de combate para unidades GENESTEALER CULTS que estejam a no máximo 6" de qualquer modelo Primus aliada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 a todas as jogadas para acertar na fase de combate para unidades GENESTEALER CULTS que estejam a no máximo 6" de qualquer modelo Primus aliada.'/>
      </characteristics>
     </profile>
     <profile book="Index: Xenos 2" hidden="false" id="25a1-7625-633f-cdb3" name="Meticulous Planner" page="115" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -3860,7 +3891,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando um Primus chega ao campo de batalha usando a habilidade Cult Ambush, você pode relançar o resultado na mesa do Cult Ambush. Se você escolher uma unidade para chegar com eles, o novo resultado também se aplica a essa unidade."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Quando um Primus chega ao campo de batalha usando a habilidade Cult Ambush, você pode re-rolar o resultado na mesa do Cult Ambush. Se você escolher uma unidade para chegar com eles, o novo resultado também se aplica a essa unidade."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="f2a5-c3eb-b730-e140" name="Primus" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -4021,6 +4052,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="71.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f13e-b01e-b464-2d07" name="Purestrain Genestealers" type="unit">
@@ -4180,6 +4212,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="15.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4223,6 +4256,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5135-8801-e158-7591" name="Bonesword" type="upgrade">
@@ -4245,6 +4279,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="183e-a985-718e-26a5" name="Cultist Knife" type="upgrade">
@@ -4267,6 +4302,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4f81-93c1-9ee6-e76e" name="Drilldozer Blade" type="upgrade">
@@ -4289,6 +4325,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7aec-f969-fbcb-772f" name="Heavy Rock Cutter" type="upgrade">
@@ -4311,6 +4348,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="23.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="02d4-3d68-5c2d-2968" name="Heavy Rock Saw" type="upgrade">
@@ -4333,6 +4371,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="14.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="db60-82db-0235-8f80" name="Lash Whip and Bonesword" type="upgrade">
@@ -4355,6 +4394,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="75d4-3468-4cd1-c375" name="Metamorph Claw" type="upgrade">
@@ -4377,6 +4417,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b474-a51a-c087-4a4e" name="Metamorph Talon" type="upgrade">
@@ -4399,6 +4440,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f7b1-2bed-cf76-7693" name="Metamorph Whip" type="upgrade">
@@ -4421,6 +4463,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6853-2b48-35ef-d45c" name="Monstrous Rending Claws" type="upgrade">
@@ -4443,6 +4486,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="9e0e-452e-877f-31b7" name="Power Hammer" type="upgrade">
@@ -4465,6 +4509,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="16.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="9ef9-9e00-e935-43d9" name="Power Pick" type="upgrade">
@@ -4518,6 +4563,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dad7-78b8-4b25-3b75" name="Power Maul" type="upgrade">
@@ -4540,6 +4586,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="4.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4f48-c2bf-69ad-157f" name="Autocannon" type="upgrade">
@@ -4562,6 +4609,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="001e-d0e9-b805-6182" name="Autopistol" type="upgrade">
@@ -4584,6 +4632,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a35f-bd7e-2695-1fa6" name="Battle Cannon" type="upgrade">
@@ -4606,6 +4655,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="22.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="9411-b31c-f3f6-9fbb" name="Blasting Charges" type="upgrade">
@@ -4628,6 +4678,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="efec-1bb9-1d69-458e" name="Bolt Pistol" type="upgrade">
@@ -4650,6 +4701,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="1.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="429e-11b6-4d44-4bc3" name="Cache of Demolition Charges" type="upgrade">
@@ -4672,6 +4724,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="12.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="53a8-7c9b-5285-ae53" name="Clearance Incinerator" type="upgrade">
@@ -4694,6 +4747,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="22.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d203-6046-e275-9f13" name="Demolition Charges" type="upgrade">
@@ -4716,6 +4770,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4f4a-118d-a4fa-79a9" name="Eradicator Nova Cannon" type="upgrade">
@@ -4738,6 +4793,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0519-24af-3679-8f8f" name="Exterminator Autocannon" type="upgrade">
@@ -4760,6 +4816,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="17.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1a2d-dbc0-3f7b-bef1" name="Flamer" type="upgrade">
@@ -4782,6 +4839,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d3ee-98a3-8052-371e" name="Grenade Launcher" type="upgrade">
@@ -4810,6 +4868,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="3.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="18d6-e1b1-ab81-23cb" name="Hand Flamer" type="upgrade">
@@ -4832,6 +4891,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="8.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="778f-017e-aa20-74c1" name="Heavy Bolter" type="upgrade">
@@ -4854,6 +4914,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="8.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="bd55-83d6-4b00-5f2f" name="Heavy Flamer" type="upgrade">
@@ -4876,6 +4937,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="14.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a8ce-45ce-ea8f-f22b" name="Heavy Mining Laser" type="upgrade">
@@ -4898,6 +4960,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="25.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="574b-1765-576b-a693" name="Heavy Seismic Cannon" type="upgrade">
@@ -4926,6 +4989,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6ebe-58fe-449f-121d" name="Heavy Stubber" type="upgrade">
@@ -4948,6 +5012,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="799b-3424-af4c-0958" name="Hunter-killer Missile" type="upgrade">
@@ -4970,6 +5035,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="9.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="db1e-7ae4-bd03-21ca" name="Lascannon" type="upgrade">
@@ -4992,6 +5058,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="e208-26a5-5198-2883" name="Lasgun" type="upgrade">
@@ -5014,6 +5081,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e30a-d924-948a-4e34" name="Lasgun Array" type="upgrade">
@@ -5036,6 +5104,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1d26-0e4c-c46a-7357" name="Laspistol" type="upgrade">
@@ -5058,6 +5127,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7af4-ad23-b97f-64f3" name="Mining Laser" type="upgrade">
@@ -5080,6 +5150,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="14.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="eb20-7e8b-4806-b84e" name="Missile Launcher" type="upgrade">
@@ -5120,6 +5191,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c8a9-b0ac-3f49-81a5" name="Mortar" type="upgrade">
@@ -5142,6 +5214,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1322-8762-d23a-dc0c" name="Multi-laser" type="upgrade">
@@ -5164,6 +5237,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6fe0-23b2-a20c-1f37" name="Multi-melta" type="upgrade">
@@ -5186,6 +5260,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="077b-596a-fc56-222b" name="Plasma Cannon" type="upgrade">
@@ -5214,6 +5289,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a8b1-6a95-53f9-ef1a" name="Seismic Cannon" type="upgrade">
@@ -5242,6 +5318,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="bca5-893f-3e46-4116" name="Shotgun" type="upgrade">
@@ -5264,6 +5341,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="faa0-b7ea-b217-329c" name="Storm Bolter" type="upgrade">
@@ -5286,6 +5364,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c86b-ee60-46b5-c901" name="Twin Autocannon" type="upgrade">
@@ -5308,6 +5387,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="33.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="cf05-7342-c11b-5e43" name="Chainsword" type="upgrade">
@@ -5330,6 +5410,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="733a-e87e-3f20-f1e8" name="Heavy Rock Drill" type="upgrade">
@@ -5350,8 +5431,9 @@
    <selectionEntryGroups/>
    <entryLinks/>
    <costs>
-    <cost costTypeId="points" name="pts" value="14.0"/>
+    <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ae23-eb4c-1596-4e87" name="Purestrain Talons" type="upgrade">
@@ -5374,6 +5456,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="7210-2eea-c54a-c7d5" name="Rending Claw" type="upgrade">
@@ -5396,6 +5479,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="cb83-af6c-95f4-b13c" name="Sentinel Chainsaw" type="upgrade">
@@ -5418,6 +5502,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="54b9-14cf-ec1e-17fe" name="Toxin Injector Claw" type="upgrade">
@@ -5440,6 +5525,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d542-f7ec-dd29-47c0" name="Vanquisher Battle Cannon" type="upgrade">
@@ -5462,6 +5548,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="382f-f99f-f4e9-e7c6" name="Web Pistol" type="upgrade">
@@ -5484,6 +5571,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="3.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="205b-888d-82ab-665a" name="Webber" type="upgrade">
@@ -5506,6 +5594,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b315-890f-0f70-717f" name="Magus" type="model">
@@ -5545,7 +5634,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada unidade GENESTEALER CULTS aliada a no máximo 6" deste modelo no início da fase Psychic do seu oponente pode tentar negar um poder psíquico como se fosse um PSYKER (medida de alcance para qualquer modelo na unidade).'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Each friendly GENESTEALER CULTS units within 6&quot; of this model at the start of the your opponent's Psychic phase can attempt to deny one psychic power that targets them during that phase as if they were themselves a PSYKER (measure range to any model in the unit)."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="f91b-d383-0475-bbd3" name="Magus" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -5725,6 +5814,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="73.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b423-c93c-6df1-6b78" name="Neophyte Hybrids" type="unit">
@@ -5925,6 +6015,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="5.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -6022,6 +6113,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="5.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="e718-1bb3-5fca-788d" name="Neophyte Hybrid (Shotgun)" type="model">
@@ -6091,6 +6183,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="5.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="1fed-8054-99ee-6e54" name="Neophyte Hybrid (Lasgun)" type="model">
@@ -6160,6 +6253,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="5.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="79cf-c170-aab9-425d" name="Neophyte Hybrid (Special Weapon)" type="model">
@@ -6229,6 +6323,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="5.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -6318,6 +6413,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="5.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="c77e-9434-5b70-27c0" name="Neophyte Weapons Team" type="model">
@@ -6387,6 +6483,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="10.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -6426,6 +6523,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="6078-a421-0f9a-04c0" name="Autogun" type="upgrade">
@@ -6448,6 +6546,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6f05-1f3f-cd2e-c3e8" name="Cult Icon" type="upgrade">
@@ -6458,7 +6557,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enquanto o portador de um ícone de culto estiver vivo, você pode re-rolar para acertar testes de acerto de 1 para sua unidade na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enquanto o portador de um ícone de culto estiver vivo, você pode re-rolar para acertar jogadas para acertar de 1 para sua unidade na fase de combate."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6475,6 +6574,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="20.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="036a-59ef-d643-5569" name="Discipline: Broodmind" type="upgrade">
@@ -6535,6 +6635,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ef3b-5329-0708-d49c" name="Power: Smite" type="upgrade">
@@ -6570,6 +6671,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="adaf-84b8-d23c-b2cf" name="Cult Ambush Table" type="upgrade">
@@ -6648,6 +6750,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4ba9-f0ac-394e-31ce" name="1. Mass Hypnosis" type="upgrade">
@@ -6678,6 +6781,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c047-e439-a546-2c7d" name="2. Mind Control" type="upgrade">
@@ -6708,6 +6812,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e6fc-86fe-42c4-f3c1" name="3. Might From Beyond" type="upgrade">
@@ -6738,6 +6843,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="afad-6465-5489-7fb9" name="Warlord" type="upgrade">
@@ -6763,6 +6869,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0302-d2e5-e287-b15f" name="Objective Secured" type="upgrade">
@@ -6798,6 +6905,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8dc3-df9e-5176-b4a8" name="Abominant" type="upgrade">
@@ -6843,7 +6951,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada teste de acerto de 6 não modificado feito na fase de combate para unidades ABERRANT aliadas ​​a no máximo 6" deste modelo marca 2 acertos em vez de 1.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada jogada para acertar de 6 não modificado feito na fase de combate para unidades ABERRANT aliadas ​​a no máximo 6" deste modelo marca 2 acertos em vez de 1.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6953,6 +7061,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="d7b4-b108-5775-c538" name="Familiar Claws" type="upgrade">
@@ -6986,6 +7095,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7012,7 +7122,7 @@
        </constraints>
        <categoryLinks/>
       </entryLink>
-      <entryLink hidden="false" id="4b51-882f-e71d-4657" name="Stratagem: Field Commander (-1 CP)" targetId="d043-3847-e963-fb5d" type="selectionEntry">
+      <entryLink hidden="false" id="4b51-882f-e71d-4657" name="Stratagem: Field Commander" targetId="d043-3847-e963-fb5d" type="selectionEntry">
        <profiles/>
        <rules/>
        <infoLinks/>
@@ -7079,6 +7189,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="80.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4484-5a90-2435-7041" name="Use Index Rules" type="upgrade">
@@ -7106,6 +7217,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="38d0-40eb-f917-b72a" name="Hypermorph Tail" type="upgrade">
@@ -7128,6 +7240,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0985-3683-24db-1b07" name="Autopistol" type="upgrade">
@@ -7150,6 +7263,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c7b0-516a-f031-e4e9" name="Hand Flamer" type="upgrade">
@@ -7172,9 +7286,10 @@
    <costs>
     <cost costTypeId="points" name="pts" value="8.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="e2b7-0466-6972-e284" name="Specialist Detachment: Anointed Throng (-1 CP)" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="e2b7-0466-6972-e284" name="Specialist Detachment: Anointed Throng" type="upgrade">
    <profiles>
     <profile book="Vigilus Defiant" hidden="false" id="acc7-db92-149b-dbee" name="Anointed Throng" page="186" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
      <profiles/>
@@ -7205,6 +7320,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6fba-a8d4-5ef4-06c1" name="Insidious Mindwyrm" type="upgrade">
@@ -7258,9 +7374,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="f397-973e-f469-9950" name="Specialist Detachment: Deliverance Broodsurge (-1 CP)" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="f397-973e-f469-9950" name="Specialist Detachment: Deliverance Broodsurge" type="upgrade">
    <profiles>
     <profile book="Vigilus Defiant" hidden="false" id="ba05-3a99-cc9b-f27f" name="Deliverance Broodsurge" page="187" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
      <profiles/>
@@ -7291,6 +7408,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c63b-53b8-546b-e3ef" name="Augur of the Insurgent" type="upgrade">
@@ -7344,6 +7462,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -7640,6 +7759,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="09c1-406c-f4de-518d" name="Blessed Sledgehammer" type="upgrade">
@@ -7695,6 +7815,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="c225-47eb-53ad-950e" name="Vial of the Grandsire's Blood" type="upgrade">
@@ -7736,6 +7857,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7806,6 +7928,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -7865,7 +7988,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Cada vez que um PERSONALIZADOR GENESTADO PERDER uma ferida enquanto estiver a no máximo 3" de qualquer unidade de INFANTARIA DE PULOSSOS GENESTEIS, escolha uma dessas unidades e jogue um dado; em um 4+ o Personagem não perde uma ferida, mas um modelo na unidade você escolheu (sua escolha) é morto.'>
+   <description description='Cada vez que um PERSONALIZADOR GENESTADO perder um Ponto de Vida enquanto estiver a no máximo 3" de qualquer unidade de INFANTARIA DE PULOSSOS GENESTEIS, escolha uma dessas unidades e jogue um dado; em um 4+ o Personagem não perde um Ponto de Vida, mas um modelo na unidade você escolheu (sua escolha) é morto.'>
     Each time a GENESTEALER CULTS CHARACTER loses a wound whilst they are within 3" of any friendly GENESTEALER CULTS INFANTRY units, pick  one of those units and roll a dice; on a 4+ the Character does not lose a wound but one model in the unit you picked (your choice) is slain.
    </description>
   </rule>
@@ -8022,7 +8145,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Todos os jogadas de ferimento de 6+ têm um AP de -4."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="todas as jogadas para ferir de 6+ têm um AP de -4."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="1c47-ac96-8aa5-2fc5" name="Heavy Seismic Cannon (Short-wave)" page="143" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8036,7 +8159,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Todos os jogadas de ferimento de 6+ têm um AP de -4."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="todas as jogadas para ferir de 6+ têm um AP de -4."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="0e58-9d9d-372a-0ff2" name="Lasgun Array" page="143" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8106,7 +8229,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Todos os jogadas de ferimento de 6+ têm um AP de -4."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="todas as jogadas para ferir de 6+ têm um AP de -4."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="2736-e4a8-0ab1-87a0" name="Seismic Cannon (Short-wave)" page="143" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8120,7 +8243,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Todos os jogadas de ferimento de 6+ têm um AP de -4."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="todas as jogadas para ferir de 6+ têm um AP de -4."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="805d-8596-25f8-b51e" name="Twin Autocannon" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8162,7 +8285,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao fazer um ataque de arremesso com uma arma da teia, você pode usar a característica Força ou Resistência do alvo para determinar o teste para ferir - o que for menor."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao fazer um ataque de arremesso com uma arma da teia, você pode usar a característica Força ou Resistência do alvo para determinar a jogada para ferir - o que for menor."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="ddfb-d8d7-f9da-0be1" name="Webber" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8176,7 +8299,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao fazer um ataque de arremesso com uma arma da teia, você pode usar a característica Força ou Resistência do alvo para determinar o teste para ferir - o que for menor."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao fazer um ataque de arremesso com uma arma da teia, você pode usar a característica Força ou Resistência do alvo para determinar a jogada para ferir - o que for menor."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="41d1-956c-c8e3-148f" name="Bonesword" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8204,7 +8327,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador entra em combate, ele pode fazer um ataque adicional com esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta na fase de combate, ele pode fazer um ataque adicional com esta arma."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="0ed3-40c7-242c-a144" name="Drilldozer Blade" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8232,7 +8355,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Jogue um D6 cada vez que um modelo (que não seja um VEÍCULO) sofra dano desta arma; se você rolar mais alto que o número restante de Pontos de Vida do modelo, ele será instantaneamente morto. Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Jogue um D6 cada vez que um modelo (que não seja um VEÍCULO) sofra dano desta arma; se você rolar mais alto que o número restante de Pontos de Vida do modelo, ele será instantaneamente morto. Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="0016-826e-559b-140b" name="Heavy Rock Drill" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8246,7 +8369,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 toda vez que um modelo sofrer dano dessa arma; em um 2+ o modelo sofre uma Ferimento Mortal e você pode rolar outro D6. Desta vez, o modelo sofre um ferimento mortal em um 3+. Continue rolando um D6 aumentando a pontuação necessária para causar um ferimento mortal de 1 a cada vez, até que o modelo seja morto ou o teste falhe."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 toda vez que um modelo sofrer dano dessa arma; em um 2+ o modelo sofre um Ferimento Mortal e você pode rolar outro D6. Desta vez, o modelo sofre um ferimento mortal em um 3+. Continue rolando um D6 aumentando a pontuação necessária para causar um ferimento mortal de 1 a cada vez, até que o modelo seja morto ou o teste falhe."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="a4b5-3c92-f3ff-89ce" name="Heavy Rock Saw" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8302,7 +8425,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de acerto para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar para esta arma."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="2fe7-e1b2-b00a-6d44" name="Metamorph Whip" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8330,7 +8453,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma. Além disso, cada vez que você fizer um teste de ferimento de 6+ com esta arma, esse dano é resolvido com um AP de -6 e Dano de 3."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma. Além disso, cada vez que você fizer uma jogada para ferir de 6+ com esta arma, esse dano é resolvido com um AP de -6 e Dano de 3."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="4dcd-6060-43d5-8385" name="Power Hammer" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8344,7 +8467,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
    </characteristics>
   </profile>
   <profile book="Tooth and Claw" hidden="false" id="1d9b-91af-1fc1-4471" name="Power Pick" page="23" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8372,7 +8495,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, Você pode re-rolar 1s nos testes de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, Você pode re-rolar 1s nas jogadas para acertar."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="40db-88ed-10e4-c29d" name="Rending Claw(s)" page="144" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8423,7 +8546,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 5+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um salvamento invulnerável de 5+ ."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="f7e7-e08f-beb4-d58c" name="Swift and Deadly" page="119" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8441,7 +8564,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que este modelo perder uma ferida; em um 6 a ferida é ignorada"/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que este modelo perder um Ponto de Vida; em um 6 o dano é ignorado e aquele Ponto de Vida não é perdido."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="9420-2013-27d9-c8cd" name="Explodes (Sentinel)" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8459,7 +8582,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="eb65-363e-41a8-5cf5" name="Smoke Launchers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8468,7 +8591,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; se isso acontecer, até a próxima fase de Tiro, o seu oponente deve subtrair 1 de qualquer teste de acerto que tenha como alvo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; se isso acontecer, até a próxima fase de Tiro, o seu oponente deve subtrair 1 de qualquer jogada para acertar que tenha como alvo."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="85e0-86c8-dc67-9be5" name="Open-topped" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8519,7 +8642,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao infligir dano a este modelo, reduza o dano do ataque em 1 para um mínimo de 1. Além disso, role um D6 toda vez que este modelo perder uma ferida; em um 5+ o modelo não perde aquela ferida."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao infligir dano a este modelo, reduza o dano do ataque em 1 para um mínimo de 1. Além disso, role um D6 toda vez que este modelo perder um Ponto de Vida; em um 5+ o dano é ignorado e aquele Ponto de Vida não é perdido."/>
    </characteristics>
   </profile>
   <profile book="Tooth and Claw" hidden="false" id="d2dd-347b-303c-d2eb" name="Hypermorph Tail" page="23" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

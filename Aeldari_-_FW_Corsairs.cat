@@ -2390,7 +2390,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de todas as jogadas de acerto que visam esse modelo na fase de Tiro."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de todas as jogadas para acertar que visam esse modelo na fase de Tiro."/>
        </characteristics>
       </profile>
      </profiles>
@@ -2418,7 +2418,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma proteção invulnerável de 5+ contra armas de longo alcance."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma salvamento invulnerável de 5+ contra armas de longo alcance."/>
        </characteristics>
       </profile>
      </profiles>
@@ -2670,7 +2670,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3218,7 +3218,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-roll testes de acerto de 1 para um modelo com armadilhas sempre que ele atacar com seus bladevanes"/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-roll jogadas para acertar de 1 para um modelo com armadilhas sempre que ele atacar com seus bladevanes"/>
        </characteristics>
       </profile>
      </profiles>
@@ -3288,7 +3288,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que um modelo com pedras espirituais sofrer uma ferida não salva ou uma Ferimento Mortal: em um 6 a ferida é ignorada."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que um modelo com pedras espirituais sofrer uma ferida não salva ou um Ferimento Mortal: em um 6 a ferida é ignorada."/>
        </characteristics>
       </profile>
      </profiles>
@@ -3323,7 +3323,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um modelo com motores vetorizados Avança, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que o atinga no máximo sua próxima fase de Movimento."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um modelo com motores vetorizados Avança, seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que o atinga no máximo sua próxima fase de Movimento."/>
        </characteristics>
       </profile>
      </profiles>
@@ -3459,7 +3459,7 @@ A unit can only make a Soulburst action once per turn.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de 0."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de 0."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a1b9-5a86-cc2a-2352" name="(AML) Starshot Missile" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3543,7 +3543,7 @@ A unit can only make a Soulburst action once per turn.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de 0."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de 0."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="2140-c48d-dc52-e3dc" name="Sunburst Grenade" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3571,7 +3571,7 @@ A unit can only make a Soulburst action once per turn.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de 0."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de 0."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="c847-04aa-7250-b592" name="Shardcarbine" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3627,7 +3627,7 @@ A unit can only make a Soulburst action once per turn.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar uma unidade de INFANTARIA, você pode rolar novamente as jogadas com falha dessa arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar uma unidade de INFANTARIA, você pode re-rolar as jogadas malsucedida dessa arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="86fd-2c8b-04ca-41b7" name="Spar-glaive" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3697,7 +3697,7 @@ A unit can only make a Soulburst action once per turn.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de acerto de 6+ para essa arma, esse acerto é resolvido com Força de 6 e AP de -3 ao invés de Força 5 e AP -2."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um jogada para acertar de 6+ para essa arma, esse acerto é resolvido com Força de 6 e AP de -3 ao invés de Força 5 e AP -2."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7dbd-a66c-9a3e-0663" name="Dissonance Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3711,7 +3711,7 @@ A unit can only make a Soulburst action once per turn.
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de acerto de 6+ para essa arma, esse acerto é resolvido com Força de 6 e AP de -3 ao invés de Força 5 e AP -2."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um jogada para acertar de 6+ para essa arma, esse acerto é resolvido com Força de 6 e AP de -3 ao invés de Força 5 e AP -2."/>
    </characteristics>
   </profile>
   <profile book="IA - Index Xenos" hidden="false" id="cd6a-1758-3586-c7bf" name="Corsair Cloud Dancer" page="75" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">

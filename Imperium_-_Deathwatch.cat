@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="Github or gitter" authorName="Acebaur" battleScribeVersion="2.01" book="Codex: Deathwatch" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="203b-f8dd-2a64-2676" name="Imperium - Deathwatch-BR" revision="53" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="Github or gitter" authorName="Acebaur" battleScribeVersion="2.01" book="Codex: Deathwatch" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="203b-f8dd-2a64-2676" name="Imperium - Deathwatch-BR" revision="54" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks>
@@ -22,6 +22,12 @@
    <modifiers/>
   </infoLink>
   <infoLink hidden="false" id="5a1c-648c-e9ea-a80b" name="Vengeance Rounds" targetId="d167-1f3e-fef6-45ac" type="rule">
+   <profiles/>
+   <rules/>
+   <infoLinks/>
+   <modifiers/>
+  </infoLink>
+  <infoLink hidden="false" id="d925-d620-8207-a223" name="Bolter Discipline" targetId="5a7e-f984-487c-d767" type="rule">
    <profiles/>
    <rules/>
    <infoLinks/>
@@ -1003,8 +1009,8 @@
      <infoLinks/>
      <modifiers/>
      <constraints>
-      <constraint field="selections" id="5f41-e688-40f3-97a6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-      <constraint field="selections" id="7ec3-d294-381f-7f72" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="5f41-e688-40f3-97a6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
+      <constraint field="selections" id="7ec3-d294-381f-7f72" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
      </constraints>
      <categoryLinks/>
     </entryLink>
@@ -3700,7 +3706,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f38a-2748-a106-fd59" name="DW Shotgun - Xenopurge Slug" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -4030,7 +4036,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados com falha para unidades de DEATHWATCH aliadas ​​a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas para acertar malsucedidas para unidades de DEATHWATCH aliadas ​​a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4250,7 +4256,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 sempre que o Capitão de Serviço Artemis perder uma ferida. Em um 6, ele não perde essa ferida."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 sempre que o Capitão de Serviço Artemis perder um Ponto de Vida. Em um 6, ele não perde essa ferida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4359,7 +4365,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao atacar com esta arma, escolha um ou ambos os perfis abaixo. Se você escolher ambos, subtraia 1 de todas as jogadas de acerto feitas para esta arma."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao atacar com esta arma, escolha um ou ambos os perfis abaixo. Se você escolher ambos, subtraia 1 de todas as jogadas para acertar feitas para esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -4400,7 +4406,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="-"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser usada uma vez por batalha. Se o ataque acertar, cause D6 mortal ao seu alvo. Se falhar, observe o capitão Artemis sofrer ferimentos mortais em D6."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser usada uma vez por batalha. Se o ataque acertar, cause D6 mortal ao seu alvo. Se falhar, observe o capitão Artemis sofrer Ferimentos Mortais em D6."/>
        </characteristics>
       </profile>
      </profiles>
@@ -5263,7 +5269,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Cada vez que você faz um teste de 6+ com esta arma, o dano é resolvido com um dano de 6."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar. Cada vez que você faz um teste de 6+ com esta arma, o dano é resolvido com um dano de 6."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6420,7 +6426,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o começo de sua próxima fase Movement.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o começo de sua próxima fase de Movimento.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c489-dace-fa17-699a" name="Blackstar Cluster Launcher" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6439,7 +6445,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre ferimentos mortais D6.'>
+     <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre D6 ferimentos mortais.'>
       If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark.  On a 6 it crashes in a fiery explosion and each unit within 6" suffers D6 mortal wounds.
      </description>
     </rule>
@@ -6448,7 +6454,7 @@
      <rules/>
      <infoLinks/>
      <modifiers/>
-     <description description='Cada vez que este modelo se move, primeiro gire-o no local até 90 graus (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente, Note que ele não pode girar novamente após o pivô inicial. Quando este modelo avança, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.'>
+     <description description='Cada vez que este modelo se move, primeiro gire-o no local até 90 graus (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente, Note que ele não pode girar novamente após o giro inicial. Quando este modelo avança, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.'>
       Each time this model moves, first pivot it on the spot up to 90 degrees (this does not contribute to how far the model moves), and then move the model straight forwards, Note that it cannot pivot again after the initial pivot.  When this model Advances, increase its Move characteristic by 20" until the end of the phase - do not roll a dice.
      </description>
     </rule>
@@ -6714,7 +6720,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a testes de acerto para esta arma ao mirar uma unidade que possa voar"/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 às jogadas para acertar para esta arma ao mirar uma unidade que possa voar"/>
        </characteristics>
       </profile>
       <profile hidden="false" id="645a-74ab-54f3-dd3f" name="Dracos Warhead" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -6728,7 +6734,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura"/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 às jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura"/>
        </characteristics>
       </profile>
      </profiles>
@@ -6766,7 +6772,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar 1s nos testes de acerto para um modelo com um array de auspex ao mirar um inimigo na fase de Tiro que não pode FLY"/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar 1s nas jogadas para acertar para um modelo com um array de auspex ao mirar um inimigo na fase de Tiro que não pode FLY"/>
      </characteristics>
     </profile>
    </profiles>
@@ -6792,7 +6798,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='"Se uma unidade inimiga que pode voar tem como alvo um modelo supersônico com um halo-lançador de infernum na fase de Tiro, seu oponente deve subtrair 1 das jogadas de acerto subseqüentes.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='"Se uma unidade inimiga que pode voar tem como alvo um modelo supersônico com um halo-lançador de infernum na fase de Tiro, seu oponente deve subtrair 1 das jogadas para acertar subseqüentes.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -7470,7 +7476,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os modelos nesta unidade não sofrem a penalidade de suas jogadas de acerto por Avançar e disparar Armas de Assalto."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os modelos nesta unidade não sofrem a penalidade de suas jogadas para acertar por Avançar e disparar Armas de Assalto."/>
      </characteristics>
     </profile>
    </profiles>
@@ -8420,7 +8426,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 toda vez que um modelo desta unidade terminar uma carga se mover a menos de 1" de uma unidade inimiga; em um 6, essa unidade sofrerá uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 toda vez que um modelo desta unidade terminar uma carga se mover a menos de 1" de uma unidade inimiga; em um 6, essa unidade sofrerá um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="103b-5f7f-7f80-29b1" name="Meteoric Descent" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10621,7 +10627,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="0"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="0"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um choque não causa dano algum. Em vez disso, cada vez que uma granada de choque atinge uma unidade INFANTARIA inimiga, ela fica atordoada até o final do turno - ela não pode disparar Overwatch e seu oponente deve subtrair 1 de qualquer teste de acerto feita para a unidade. O segundo e os sucessivos hits de uma granada de choque não têm efeito adicional."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um choque não causa dano algum. Em vez disso, cada vez que uma granada de choque atinge uma unidade INFANTARIA inimiga, ela fica atordoada até o final do turno - ela não pode disparar Overwatch e seu oponente deve subtrair 1 de qualquer jogada para acertar feita para a unidade. Os acertos subsequentes de uma granada de choque não têm efeito adicional."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11568,7 +11574,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar testes para ferir malsucedidos para o seu Warlord ao atacar VEHICLES ou MONSTERS inimigos."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para ferir malsucedidas para o seu Warlord ao atacar VEHICLES ou MONSTERS inimigos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11816,7 +11822,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="0"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="0"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um choque não causa dano algum. Em vez disso, cada vez que uma granada de choque atinge uma unidade INFANTARIA inimiga, ela fica atordoada até o final do turno - ela não pode disparar Overwatch e seu oponente deve subtrair 1 de qualquer teste de acerto feita para a unidade. O segundo e os sucessivos hits de uma granada de choque não têm efeito adicional."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um choque não causa dano algum. Em vez disso, cada vez que uma granada de choque atinge uma unidade INFANTARIA inimiga, ela fica atordoada até o final do turno - ela não pode disparar Overwatch e seu oponente deve subtrair 1 de qualquer jogada para acertar feita para a unidade. Os acertos subsequentes de uma granada de choque não têm efeito adicional."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11994,7 +12000,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, se seu Warlord estiver no campo de batalha, você pode re-rolar um teste de acerto, um teste de ferimento, um dano ou um teste de resistência. Além disso, se seu exército for forjado em batalha e seu Warlord estiver no campo de batalha, role um D6 cada vez que usar um Stratagem; em um 5+, você ganha um ponto de comando."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, se seu Warlord estiver no campo de batalha, você pode re-rolar um jogada para acertar, uma jogada para ferir, um dano ou um teste de resistência. Além disso, se seu exército for forjado em batalha e seu Warlord estiver no campo de batalha, role um D6 cada vez que usar um Stratagem; em um 5+, você ganha um ponto de comando."/>
      </characteristics>
     </profile>
    </profiles>
@@ -12474,7 +12480,7 @@
       </modifier>
      </modifiers>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade de Intercessores que inclua qualquer Agressor não sofrerá nenhuma penalidade em suas jogadas de acerto por Avançar e disparar armas de Assalto, ou por mover e disparar armas Pesadas."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade de Intercessores que inclua qualquer Agressor não sofrerá nenhuma penalidade em suas jogadas para acertar por Avançar e disparar armas de Assalto, ou por mover e disparar armas Pesadas."/>
      </characteristics>
     </profile>
    </profiles>
@@ -12581,7 +12587,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um Inceptor terminar uma carga, mova-se a menos de 1" de uma unidade inimiga; em um 6, essa unidade sofre uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que um Inceptor terminar uma carga, mova-se a menos de 1" de uma unidade inimiga; em um 6, essa unidade sofre um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f127-cfdf-b499-2c66" name="Inceptor Strike" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12926,7 +12932,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="b4b4-0788-6b4b-4fce" name="Heavy Bolt Pistol - Vengeance" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13066,7 +13072,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="9d83-0c31-4647-7a61" name="Absolver Bolt Pistol - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13108,7 +13114,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ab8c-f2b0-59b3-42d8" name="Auto Bolt Rifle - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13150,7 +13156,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="2536-7b8c-18ec-a22d" name="Bolt Carbine - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13192,7 +13198,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1335-8448-a4a2-2e99" name="Bolt Pistol - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13234,7 +13240,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="5a34-0ffb-6d42-0ab4" name="Bolt rifle - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13276,7 +13282,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="209d-0f26-e796-7325" name="Boltgun - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13318,7 +13324,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="32e4-35f8-b160-c52e" name="Guardian Spear - Vengeance" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13402,7 +13408,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ae7f-09a6-85c1-130b" name="Master-crafted Auto bolt rifle - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13444,7 +13450,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="6e69-6f39-f4ce-8289" name="Master-crafted Boltgun - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13486,7 +13492,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ab22-d101-4138-21b8" name="Master-crafted stalker bolt rifle - Hellfire" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13514,7 +13520,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="68ba-2ce7-955e-12e3" name="Master-crafted stalker bolt rifle - Vengeance" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13570,7 +13576,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="746f-2d19-01d6-6a5f" name="Stalker Pattern Boltgun - Kraken" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13612,7 +13618,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura."/>
      </characteristics>
     </profile>
    </profiles>
@@ -13669,7 +13675,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 5+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um salvamento invulnerável de 5+ ."/>
      </characteristics>
     </profile>
    </profiles>
@@ -14084,7 +14090,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer uma das suas fases de Movimento, o Boticário pode tentar curar ou reviver um único modelo. Selecione uma unidade de INFANTARIA ou MOTOCICLISTA DEATHWATCH aliada a no máximo 3" do Boticário. Se essa unidade contiver um modelo ferido, ela recuperará imediatamente as D3 Pontos de Vida. Se a unidade escolhida não contiver modelos feridos, um ou mais de seus modelos foram mortos durante o batalha, role um D6 Em um 4+ um único modelo morto é retornado para a unidade com 1 ferida restante Se o Boticário não reviver um modelo ele não pode fazer mais nada pelo resto do turno (atirar, carregar, lutar, etc.) enquanto ele recupera a semente genética do guerreiro caído, uma unidade só pode ser o alvo da habilidade do Nartúnium uma vez em cada turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer uma das suas fases de Movimento, o Boticário pode tentar curar ou reviver um único modelo. Selecione uma unidade de INFANTARIA ou BIKER DEATHWATCH aliada a no máximo 3" do Boticário. Se essa unidade contiver um modelo ferido, ela recuperará imediatamente as D3 Pontos de Vida. Se a unidade escolhida não contiver modelos feridos, um ou mais de seus modelos foram mortos durante o batalha, role um D6 Em um 4+ um único modelo morto é retornado para a unidade com 1 ferida restante Se o Boticário não reviver um modelo ele não pode fazer mais nada pelo resto do turno (atirar, carregar, lutar, etc.) enquanto ele recupera a semente genética do guerreiro caído, uma unidade só pode ser o alvo da habilidade do Nartúnium uma vez em cada turno.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -16441,7 +16447,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com a habilidade Special Issue Munition apenas. Adicione 1 ao dano de qualquer munição de edição especial disparada pelo portador. Além disso, para cada jogada de 6+ feita para qualquer munição de edição especial disparada pelo portador, o alvo sofre uma Ferimento Mortal além do dano normal."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com a habilidade Special Issue Munition apenas. Adicione 1 ao dano de qualquer munição de edição especial disparada pelo portador. Além disso, para cada jogada de 6+ feita para qualquer munição de edição especial disparada pelo portador, o alvo sofre um Ferimento Mortal além do dano normal."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16478,7 +16484,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos com um escudo de tempestade apenas. O Dominus Aegis substitui o escudo contra tempestade do portador. O portador tem um 3+ save invulnerável. Além disso, se o portador não se mover na sua fase de Movimento, então, até o início da sua próxima fase de Movimento, os modelos de DEATHWATCH aliadas ​​a no máximo 6" do portador ganharão um 5+ invulnerável salvar'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Modelos com um escudo de tempestade apenas. O Dominus Aegis substitui o escudo contra tempestade do portador. O portador tem um salvamento invulnerável de 3+. Além disso, se o portador não se mover na sua fase de Movimento, então, até o início da sua próxima fase de Movimento, os modelos de DEATHWATCH aliadas ​​a no máximo 6" do portador ganharão um 5+ salvamento invulnerável'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16523,7 +16529,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Observe somente os mestres. VEÍCULOS inimigos subtraem 1 de suas jogadas de acerto enquanto estiverem a no máximo 9" deste modelo. Cada vez que o portador lutar, você pode fazer um ataque adicional com a Chave de Osseus contra um VEÍCULO inimigo a menos de 1" deles; Se este ataque ocorrer, a unidade alvo sofre D3 ferimentos mortais.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Observe somente os mestres. VEÍCULOS inimigos subtraem 1 de suas jogadas para acertar enquanto estiverem a no máximo 9" deste modelo. Cada vez que o portador lutar, você pode fazer um ataque adicional com a Chave de Osseus contra um VEÍCULO inimigo a menos de 1" deles; Se este ataque ocorrer, a unidade alvo sofre D3 Ferimentos Mortais.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16610,7 +16616,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao colocar o portador, escolha uma das seguintes palavras-chave: ORK, TYRANID, T'AU EMPIRE, AELDARIor NECRONS. Você pode re-rolar rolagens de dano nessa arma ao atacar unidades inimigas com aquela palavra-chave."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao colocar o portador, escolha uma das seguintes palavras-chave: ORK, TYRANID, T'AU EMPIRE, AELDARIor NECRONS. Você pode re-rolar jogadas para ferir nessa arma ao atacar unidades inimigas com aquela palavra-chave."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16667,7 +16673,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Adicione 1 aos testes de acerto para esta arma ao mirar uma unidade que esteja em cobertura.">
+   <description description="Adicione 1 aas jogadas para acertar para esta arma ao mirar uma unidade que esteja em cobertura.">
     Add 1 to the hit rolls for this weapon when targeting a unit that is in cover.
    </description>
   </rule>
@@ -16703,7 +16709,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'>
+   <description description='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre D6 ferimentos mortais.'>
     If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers D6 mortal wounds.
    </description>
   </rule>
@@ -16750,7 +16756,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode rolar novamente testes para ferir de 1 para unidades &lt;CHAPTER&gt; aliadas ​​que estejam a no máximo 6" desse modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas para ferir de 1 para unidades &lt;CHAPTER&gt; aliadas ​​que estejam a no máximo 6" desse modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7e82-cdc9-6125-be30" name="Rosarius" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16759,7 +16765,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 4+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5043-8c45-ff63-01bb" name="Rites of Battle" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16768,7 +16774,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades &lt;CHAPTER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar feitos para unidades &lt;CHAPTER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1367-6963-1239-8308" name="Psychic Hood" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16786,7 +16792,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar rolagens de resultados com falha na fase de combate para unidades &lt;CHPATER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas para acertar malsucedidas na fase de combate para unidades &lt;CHPATER&gt; aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="83c5-c731-4688-c8eb" name="Iron Halo" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16795,7 +16801,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 4+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="daa1-9682-4f79-bdc3" name="Crux Terminatus" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16804,7 +16810,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Terminadores têm um 5+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Terminadores têm um salvamento invulnerável de 5+ ."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="1baf-0fae-82e1-da51" name="Combat Squads" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -16858,7 +16864,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que este modelo perder uma ferida; em um 6 o dano é ignorado e esse ferimento é perdido."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Role um D6 toda vez que este modelo perder um Ponto de Vida; em um 6 o dano é ignorado e aquele Ponto de Vida não é perdido."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="af84-b41c-ffc1-c23f" name="Auto Boltstorm Gauntlets (Melee)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16872,7 +16878,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das testes de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das jogadas para acertar."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="20a5-77d9-63d9-1c86" name="Auto Boltstorm Gauntlets (Shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16900,7 +16906,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das testes de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 das jogadas para acertar."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="506c-2031-8015-b906" name="Flamstorm Gauntlets (Shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16970,7 +16976,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="9"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um teste de acerto de 1, o portador é morto depois que todos os tiros da arma tiverem sido resolvidos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um jogada para acertar de 1, o portador é morto depois que todos os tiros da arma tiverem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="33ee-ef79-0e46-18d5" name="Assault Plasma Incinerator, Standard" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -16998,7 +17004,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um teste de acerto de 1, o portador é morto depois que todos os tiros da arma tiverem sido resolvidos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um jogada para acertar de 1, o portador é morto depois que todos os tiros da arma tiverem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="efc2-1566-feba-15ab" name="Plasma Exterminator, Standard" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17026,7 +17032,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um teste de acerto de 1, o portador é morto depois que todos os tiros da arma tiverem sido resolvidos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Em um jogada para acertar de 1, o portador é morto depois que todos os tiros da arma tiverem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="7703-e82b-f506-9f57" name="Reductor Pistol" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17077,7 +17083,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3c42-62bf-9661-e95d" name="Onslaught Gatling Cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17203,7 +17209,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as testes de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das testes de acerto feitas para esta arma contra todos os outros alvos."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6710-38a3-8a32-3619" name="Auto Launchers" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -17212,7 +17218,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de disparar armas na fase de tiro, o veículo pode usar seus lançadores automáticos; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de disparar armas na fase de tiro, o veículo pode usar seus lançadores automáticos; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que tenham como alvo este veículo."/>
    </characteristics>
   </profile>
  </sharedProfiles>

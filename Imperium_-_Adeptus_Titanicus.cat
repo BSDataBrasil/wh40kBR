@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="https://gitter.im/BSData/wh40k" authorName="Kohato" authorUrl="https://github.com/BSData/wh40k/issues" battleScribeVersion="2.01" book="Index: Forces of the Astra Militarum" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="10" id="f944-98a5-b73d-f132" name="Imperium - Adeptus Titanicus-BR" revision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="https://gitter.im/BSData/wh40k" authorName="@DrTobogganMD" authorUrl="https://github.com/BSData/wh40k/issues" battleScribeVersion="2.01" book="Index: Forces of the Astra Militarum" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="10" id="f944-98a5-b73d-f132" name="Imperium - Adeptus Titanicus-BR" revision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks/>
@@ -162,7 +162,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas de acerto para cada ataque feito com esta arma em vez de 1."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas para acertar para cada ataque feito com esta arma em vez de 1."/>
      </characteristics>
     </profile>
    </profiles>
@@ -177,6 +177,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3281-8187-4885-206c" name="Arioch Titan Power Claw" type="upgrade">
@@ -199,6 +200,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a258-7ace-458c-6259" name="Reaver Power Fist" type="upgrade">
@@ -214,7 +216,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="10"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Se você matar um VEÍCULO ou MONSTRO que não tenha a palavra-chave TITÂNIC com o punho de poder Reaver, selecione uma unidade inimiga a no máximo 12" e role um D6; em um 4+ essa unidade sofre D6 ferimentos mortais quando o cadáver ou detritos forem lançados Nisso.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Se você matar um VEÍCULO ou MONSTRO que não tenha a palavra-chave TITÂNIC com o punho de poder Reaver, selecione uma unidade inimiga a no máximo 12" e role um D6; em um 4+ essa unidade sofre D6 Ferimentos Mortais quando o cadáver ou detritos forem lançados Nisso.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -229,6 +231,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c203-6331-716d-99b9" name="Reaver Chainfist" type="upgrade">
@@ -244,7 +247,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="10"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Subtraia 1 das jogadas de acerto feitas com esta arma. Qualquer jogada de um 6 feito com este ataque em qualquer VEÍCULO, MONSTRO ou CONSTRUÇÃO automaticamente inflige um adicional de Ferimentos Mortais 2D6 no alvo."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Subtraia 1 das jogadas para acertar feitas com esta arma. Qualquer jogada de um 6 feito com este ataque em qualquer VEÍCULO, MONSTRO ou CONSTRUÇÃO automaticamente inflige um adicional de Ferimentos Mortais 2D6 no alvo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -259,6 +262,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="13c9-4105-9cc5-f147" name="Mori Quake Cannon" type="upgrade">
@@ -296,6 +300,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="" collective="false" hidden="false" id="98cf-89cc-d0b4-c84c" name="Sunfury Plasma Annihilator" type="upgrade">
@@ -333,6 +338,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="470d-8b9c-14e2-d70e" name="Warlord Gatling Blaster" type="upgrade">
@@ -348,7 +354,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra unidades de INFANTARIA, Cada teste de acerto bem sucedido infligido por esta arma, em vez disso, se torna 3 acertos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra unidades de INFANTARIA, Cada jogada para acertar bem sucedido infligido por esta arma, em vez disso, se torna 3 acertos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -370,6 +376,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="25f2-abba-80e9-0810" name="Apocalypse Missile Launcher" type="upgrade">
@@ -400,6 +407,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5118-8b5c-9821-bfe2" name="Reaver Gatling Blaster" type="upgrade">
@@ -415,7 +423,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra unidades de INFANTARIA, cada teste de acerto infligida por esta arma, em vez disso, se torna 3 acertos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra unidades de INFANTARIA, cada jogada para acertar infligida por esta arma, em vez disso, se torna 3 acertos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -437,6 +445,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2db2-d04a-2d7f-3bb2" name="Reaver Laser Blaster" type="upgrade">
@@ -474,6 +483,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4824-64bc-7569-e740" name="Saturnyne Lascutter" type="upgrade">
@@ -489,7 +499,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="20"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="12"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes de acerto malsucedidos para esta arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para acertar malsucedidas para esta arma contra alvos com a palavra-chave MONSTER, BUILDING ou VEHICLE."/>
      </characteristics>
     </profile>
     <profile book="Index: Forces of the Astra Militarum" hidden="false" id="3445-2b1e-4c52-2fbe" name="Saturnyne Lascutter (Shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -503,7 +513,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="12"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois de você ter acertado com sucesso com esta arma, você pode imediatamente um teste de acerto adicional contra a mesma unidade alvo, se esta jogada adicional for bem sucedida, você pode rolar para acertar de novo e de novo até que você perca ou um total de 12 sucessos foram alcançados. Depois que o número total de acertos tiver sido determinado para a arma, resolva o ataque."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois de você ter acertado com sucesso com esta arma, você pode imediatamente um jogada para acertar adicional contra a mesma unidade alvo, se esta jogada adicional for bem sucedida, você pode rolar para acertar de novo e de novo até que você perca ou um total de 12 sucessos foram alcançados. Depois que o número total de acertos tiver sido determinado para a arma, resolva o ataque."/>
      </characteristics>
     </profile>
    </profiles>
@@ -518,6 +528,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f405-e1db-1bc4-b84c" name="Dual Turbo-Laser Destructor" type="upgrade">
@@ -555,6 +566,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="" collective="false" hidden="false" id="08d8-d3eb-f056-7a67" name="Belicosa Volcano Cannon" type="upgrade">
@@ -592,6 +604,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c02c-108f-8e6d-d727" name="Titan Plasma Blastgun" type="upgrade">
@@ -621,7 +634,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="4"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao usar este modo de tiro, para cada teste de acerto de 1, o Titã sofre uma Ferimento Mortal após todos os tiros da arma terem sido resolvidos. Essas Ferimentos Mortais não podem ser impedidas pelos próprios escudos vazios do Titã."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao usar este modo de tiro, para cada jogada para acertar de 1, o Titã sofre um Ferimento Mortal após todos os tiros da arma terem sido resolvidos. Essas Ferimentos Mortais não podem ser impedidas pelos próprios escudos vazios do Titã."/>
      </characteristics>
     </profile>
    </profiles>
@@ -643,6 +656,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b45c-9c9a-ccd6-c3d0" name="Titan Mega-Bolter" type="upgrade">
@@ -665,6 +679,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="23f1-7a9b-bdc9-7138" name="Twin Titan Mega-Bolter" type="upgrade">
@@ -695,6 +710,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1e3c-af20-3d43-9d96" name="Incinerator Missile Bank" type="upgrade">
@@ -710,7 +726,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra o INFANTARIADO, o número de testes de acertos obtidos por essa arma é dobrado. Unidades atacadas por esta arma não ganham nenhum bônus em seus testes de resistência por estarem em cobertura. Esta arma pode mirar em unidades que não são visíveis para o portador."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra o INFANTARIADO, o número de jogadas para acertars obtidos por essa arma é dobrado. Unidades atacadas por esta arma não ganham nenhum bônus em seus testes de resistência por estarem em cobertura. Esta arma pode mirar em unidades que não são visíveis para o portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -725,6 +741,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7a0d-cb6d-b516-d0e9" name="Ardex-Defensor Maulers" type="upgrade">
@@ -755,6 +772,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0729-3662-7e87-177f" name="Ardex-Defensor Twin Lascannon" type="upgrade">
@@ -785,6 +803,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1fa0-b612-71de-c36a" name="Reaver Volcano Cannon" type="upgrade">
@@ -822,6 +841,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5727-942c-dc11-4ad7" name="Reaver Melta Cannon" type="upgrade">
@@ -859,6 +879,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0878-b6b5-5bff-6705" name="Titan Inferno Gun" type="upgrade">
@@ -889,6 +910,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c5da-02c5-1022-8de9" name="Titan Vulcan Mega-Bolter" type="upgrade">
@@ -919,6 +941,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="de5d-f907-4d57-6b9f" name="Warhound Scout Titan" type="model">
@@ -1166,6 +1189,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="75.0"/>
     <cost costTypeId="points" name="pts" value="2000.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="511d-6de9-90e7-ee72" name="Reaver Battle Titan" page="105" type="model">
@@ -1524,6 +1548,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="120.0"/>
     <cost costTypeId="points" name="pts" value="4000.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Index: Forces of the Astra Militarum" collective="false" hidden="false" id="2faf-9e73-a849-c4f5" name="Warlord Battle Titan" page="107" type="model">
@@ -1914,6 +1939,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="200.0"/>
     <cost costTypeId="points" name="pts" value="6000.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4165-84e5-a324-7564" name="Greater Titanic Stride" type="upgrade">
@@ -1929,7 +1955,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 4 jogadas de acerto para cada ataque feito com esta arma em vez de 1."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 4 jogadas para acertar para cada ataque feito com esta arma em vez de 1."/>
      </characteristics>
     </profile>
    </profiles>
@@ -1944,6 +1970,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="26de-87ea-7bb6-55fe" name="Arioch Titan Power Claw w/ Titan Mega-Bolter" type="upgrade">
@@ -1972,6 +1999,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Forgeworld Datasheet" collective="false" hidden="false" id="b5df-a492-0d86-c697" name="Warbringer Nemesis Titan" page="" type="model">
@@ -2073,7 +2101,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de fazer um teste de resistência ou um teste de resistência invulnerável para uma ferida atribuída a este modelo como resultado de um ataque com uma arma de longo alcance, você pode rolar um D6; se o resultado for igual ou maior que o valor de Escudos de Vácuo mostrado na tabela de danos acima, o dano é evitado e a sequência de ataque termina. Além disso, cada vez que este modelo sofrer uma Ferimento Mortal, role um D6; se o resultado for igual ou maior que o valor de Escudos de Vazio mostrado na tabela de danos acima, a Ferimento Mortal é ignorada."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Em vez de fazer um teste de resistência ou um teste de resistência invulnerável para uma ferida atribuída a este modelo como resultado de um ataque com uma arma de longo alcance, você pode rolar um D6; se o resultado for igual ou maior que o valor de Escudos de Vácuo mostrado na tabela de danos acima, o dano é evitado e a sequência de ataque termina. Além disso, cada vez que este modelo sofrer um Ferimento Mortal, role um D6; se o resultado for igual ou maior que o valor de Escudos de Vazio mostrado na tabela de danos acima, a Ferimento Mortal é ignorada."/>
      </characteristics>
     </profile>
     <profile book="Forgeworld Datasheet" hidden="false" id="2f7e-467d-608b-12cb" name="Imperial God-Engine (Warbringer)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2082,7 +2110,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair de volta na fase de movimento e ainda atirar e / ou carregar no mesmo turno. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARAR, embora deva terminar seu movimento mais de 1" de qualquer unidade inimiga. Este modelo pode disparar na fase de Tiro mesmo se houver modelos inimigos a menos de 1" dele a menos que esses modelos sejam TITANIC. Além disso, este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas de acerto. Por fim, esse modelo só se beneficia quando está pelo menos metade do modelo obscurecido pelo firer.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar no mesmo turno. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos INFANTARIA e SWARAR, embora deva terminar seu movimento mais de 1" de qualquer unidade inimiga. Este modelo pode disparar na fase de Tiro mesmo se houver modelos inimigos a menos de 1" dele a menos que esses modelos sejam TITANIC. Além disso, este modelo pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas para acertar. Por fim, esse modelo só se beneficia quando está pelo menos metade do modelo obscurecido pelo firer.'/>
      </characteristics>
     </profile>
     <profile book="Forgeworld Datasheet" hidden="false" id="2d76-def1-4eef-8c24" name="Titanic Gait (Warbringer)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2284,6 +2312,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="175.0"/>
     <cost costTypeId="points" name="pts" value="5000.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="17d7-7d78-1245-74d4" name="Ardex-Defensor Maulers (Warbringer)" type="upgrade">
@@ -2299,7 +2328,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao acertar Overwatch com esta arma, testes de acerto de 5 ou 6 pontos na unidade de carregamento."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao acertar Overwatch com esta arma, jogadas para acertar de 5 ou 6 pontos na unidade de carregamento."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2314,6 +2343,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="02d1-0e29-0ae4-ae27" name="Anvillus-Pattern Defence Battery" type="upgrade">
@@ -2344,6 +2374,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9d88-9a94-95f8-ae7c" name="Nemesis Quake Cannon" type="upgrade">
@@ -2381,6 +2412,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -2414,7 +2446,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode cair na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos da INFANTARIA, embora no final do movimento deva estar a mais de 1" de distância de todas as unidades inimigas. Este modelo pode disparar suas armas mesmo se houver modelos inimigos a menos de 1" a menos que esses modelos inimigos sejam TITANIC. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, este modelo pode se mover e disparar armas Pesadas sem qualquer penalidade em suas jogadas de acerto. Por fim, este modelo só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido pelo atirador.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode recuar na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Quando este modelo cai, ele pode mover-se sobre os modelos inimigos da INFANTARIA, embora no final do movimento deva estar a mais de 1" de distância de todas as unidades inimigas. Este modelo pode disparar suas armas mesmo se houver modelos inimigos a menos de 1" a menos que esses modelos inimigos sejam TITANIC. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, este modelo pode se mover e disparar armas Pesadas sem qualquer penalidade em suas jogadas para acertar. Por fim, este modelo só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido pelo atirador.'/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="b18f-3b99-479f-3612" name="Titan Void Shields" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2423,7 +2455,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os titãs são protegidos por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos de Titã são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. Como salva invulnerável, as proteções de escudo vazias de Titã não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar ferimentos mortais. Neste caso, no entanto, jogue um dado para cada ferimento mortal que tenha sido infligido no Titã, com a Ferimento Mortal sendo ignorada se o teste de resistência for passado. Escudos de titânio vazio devem ser continuamente reenergizados e renovados em operações de combate e assim como o Titã é danificado, o potencial defensivo de seus escudos vazios é reduzido."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Os titãs são protegidos por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos de Titã são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. Como salva invulnerável, as proteções de escudo vazias de Titã não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar Ferimentos Mortais. Neste caso, no entanto, jogue um dado para cada ferimento mortal que tenha sido infligido no Titã, com a Ferimento Mortal sendo ignorada se o teste de resistência for passado. Escudos de titânio vazio devem ser continuamente reenergizados e renovados em operações de combate e assim como o Titã é danificado, o potencial defensivo de seus escudos vazios é reduzido."/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="9492-d2be-1544-faf6" name="Icon of Imperial Might" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2455,7 +2487,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="12"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Se você matar um VEÍCULO ou MONSTRO que não tiver a palavra-chave TITÂNIC com a garra de poder de Arioch Titan, selecione uma unidade inimiga a no máximo 12" e role um D6; em um 4+ essa unidade sofre D6 ferimentos mortais como corpo morto ou detritos é jogado para ele.'/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Se você matar um VEÍCULO ou MONSTRO que não tiver a palavra-chave TITÂNIC com a garra de poder de Arioch Titan, selecione uma unidade inimiga a no máximo 12" e role um D6; em um 4+ essa unidade sofre D6 Ferimentos Mortais como corpo morto ou detritos é jogado para ele.'/>
    </characteristics>
   </profile>
   <profile book="Index: Forces of the Astra Militarum" hidden="false" id="7676-9998-283f-a8bd" name="Titan Mega-Bolter" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

@@ -416,7 +416,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="*"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="*"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role 3D6 se uma unidade for atingida por esta arma; se o teste for igual ou maior que a característica de Liderança mais alta da unidade alvo, então ele sofrerá D3 ferimentos mortais."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role 3D6 se uma unidade for atingida por esta arma; se o teste for igual ou maior que a característica de Liderança mais alta da unidade alvo, então ele sofrerá D3 Ferimentos Mortais."/>
        </characteristics>
       </profile>
      </profiles>
@@ -697,7 +697,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você lança um teste de acerto de 6+ para esta arma ao mirar um PSYKER ou DAEMON, o alvo sofre uma Ferimento Mortal em vez do dano normal."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você lança um jogada para acertar de 6+ para esta arma ao mirar um PSYKER ou DAEMON, o alvo sofre um Ferimento Mortal em vez do dano normal."/>
        </characteristics>
       </profile>
      </profiles>
@@ -776,7 +776,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O reroll não passou por testes de acerto para este modelo quando aciona o Overwatch."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O reroll não passou por jogadas para acertar para este modelo quando aciona o Overwatch."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ac6a-7eac-95a4-487f" name="Bio-meltdown" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -895,7 +895,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma se o alvo for um VEÍCULO"/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma se o alvo for um VEÍCULO"/>
        </characteristics>
       </profile>
      </profiles>
@@ -928,7 +928,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar rolagens de dano malsucedidas para esta arma se o alvo for um modelo INFANTRY"/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar jogadas para ferir malsucedidas para esta arma se o alvo for um modelo INFANTRY"/>
        </characteristics>
       </profile>
      </profiles>
@@ -1023,7 +1023,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das jogadas de acerto que visam esse modelo na fase de tiro. Se esse modelo estiver em cobertura, eles devem subtrair 2."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das jogadas para acertar que visam esse modelo na fase de tiro. Se esse modelo estiver em cobertura, eles devem subtrair 2."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="2f1e-0051-0924-f5a5" name="Deadshot" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
@@ -1134,7 +1134,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="*"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="*"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma não inflige nenhum dano no alvo. Em vez disso, se uma unidade é atingida por qualquer granada cega, seu oponente deve subtrair 1 de todas as jogadas de acerto feitas até o final do turno."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma não inflige nenhum dano no alvo. Em vez disso, se uma unidade é atingida por qualquer granada cega, seu oponente deve subtrair 1 de todas as jogadas para acertar feitas até o final do turno."/>
        </characteristics>
       </profile>
      </profiles>
@@ -1262,7 +1262,7 @@
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description="Um modelo com esta regra especial tem um 4+ save invulnerável.">
+   <description description="Um modelo com esta regra especial tem um salvamento invulnerável de 4+ .">
     A model with this special rule has a 4+ invulnerable save.
    </description>
   </rule>

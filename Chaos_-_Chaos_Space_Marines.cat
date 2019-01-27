@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines-BR" revision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines-BR" revision="74" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules>
   <rule hidden="false" id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy">
@@ -1543,7 +1543,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Abaddon the Despoiler tem um 4+ save invulnerável. Além disso, todo o dano sofrido por Abaddon, o Despoiler, é reduzido pela metade (arredondamento para cima)."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Abaddon the Despoiler tem um salvamento invulnerável de 4+ . Além disso, todo o dano sofrido por Abaddon, o Despoiler, é reduzido pela metade (arredondamento para cima)."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="c621-6a0e-8fd2-bf4a" name="Lord of the Black Legion" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1552,7 +1552,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar qualquer teste de acerto malsucedido para unidades aliadas ​​do BLACK LEGION que estejam a no máximo 6" de Abaddon, o Despoiler.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar qualquer jogada para acertar malsucedida para unidades aliadas ​​do BLACK LEGION que estejam a no máximo 6" de Abaddon, o Despoiler.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7337-3435-3d29-0797" name="Mark of Chaos Ascendant" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1722,7 +1722,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 cada vez que Abaddon, o Despoiler, lutar. Em um 1 ele sofre uma Ferimento Mortal e não pode usar essa arma ainda mais durante esta fase. Em um 2+ ele pode fazer muitos ataques adicionais com esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role um D6 cada vez que Abaddon, o Despoiler, lutar. Em um 1 ele sofre um Ferimento Mortal e não pode usar essa arma ainda mais durante esta fase. Em um 2+ ele pode fazer muitos ataques adicionais com esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -2301,7 +2301,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode, e cada unidade a no máximo 6" sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3763,7 +3763,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acerto malsucedidos na fase de combate para unidades &lt;LEGION&gt; aliadas ​​que estejam a no máximo 6" de um Apóstolo das Trevas.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas para acertar malsucedidas na fase de combate para unidades &lt;LEGION&gt; aliadas ​​que estejam a no máximo 6" de um Apóstolo das Trevas.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="5b7c-9678-aab9-717a" name="Demagogue" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5029,7 +5029,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar modelos que voam, você pode adicionar 1 ao teste de acerto desta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar modelos que voam, você pode adicionar 1 ao jogada para acertar desta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -5200,7 +5200,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto para unidades aliadas ​​RED CORSAIRS a no máximo 6" de Huron Blackheart.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar para unidades aliadas ​​RED CORSAIRS a no máximo 6" de Huron Blackheart.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="dd1f-3ded-29d7-550e" name="The Hamadrya" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5342,7 +5342,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
        </characteristics>
       </profile>
       <profile hidden="false" id="a9b9-b6db-778e-1140" name="Tyrant's Claw (shooting)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -5471,7 +5471,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de acerto malsucedidos feitos para unidades aliadas ​​do WORLD EATERS em 1" de Kharn, o Traidor.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas para acertar malsucedidas feitos para unidades aliadas ​​do WORLD EATERS em 1" de Kharn, o Traidor.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="9a72-df9f-afb2-ed1f" name="The Betrayer" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5480,7 +5480,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você não pode re-rolar ou modificar os testes de acerto de 1 feitos para Kharn the Betrayer na fase de combate. Em vez disso, esses ataques atingem automaticamente uma unidade aliada a menos de 1" . Determinar aleatoriamente qual unidade é atingida se houver mais de uma. Se não houver unidades aliadas ​​a menos de 1" de Kharn, as ocorrências são descartadas.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você não pode re-rolar ou modificar as jogadas para acertar de 1 feitos para Kharn the Betrayer na fase de combate. Em vez disso, esses ataques atingem automaticamente uma unidade aliada a menos de 1" . Determinar aleatoriamente qual unidade é atingida se houver mais de uma. Se não houver unidades aliadas ​​a menos de 1" de Kharn, as ocorrências são descartadas.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -5630,7 +5630,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você joga uma jogada de 1 quando atira esta arma, o portador sofre uma Ferimento Mortal."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você joga uma jogada de 1 quando atira esta arma, o portador sofre um Ferimento Mortal."/>
        </characteristics>
       </profile>
      </profiles>
@@ -6210,7 +6210,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Khorne Lord of Skulls pode atirar se houver modelos inimigos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que está a menos de 1" dele, ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, um Khorne Lord of Skulls pode se mover e disparar armas pesadas sem sofrer penalidade em suas jogadas de acerto. Finalmente, apenas um Khorne Lord of Skulls ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do firer.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Khorne Lord of Skulls pode atirar se houver modelos inimigos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que está a menos de 1" dele, ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, um Khorne Lord of Skulls pode se mover e disparar armas pesadas sem sofrer penalidade em suas jogadas para acertar. Finalmente, apenas um Khorne Lord of Skulls ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do firer.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="27f6-92fe-840d-91f8" name="Explodes" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6219,7 +6219,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode, e cada unidade a no máximo 2D6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes que qualquer modelo embarcado desembarque; em um 6 ele explode, e cada unidade a no máximo 2D6" sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6326,7 +6326,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas de acerto para cada ataque feito com esta arma, em vez de 1."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas para acertar para cada ataque feito com esta arma, em vez de 1."/>
        </characteristics>
       </profile>
      </profiles>
@@ -6584,7 +6584,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar todas as testes de acerto de 1 jogador feitas para unidades aliadas ​​do EMPEROR'S CHILDREN a no máximo 6&quot; deste modelo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar todas as jogadas para acertar de 1 jogador feitas para unidades aliadas ​​do EMPEROR'S CHILDREN a no máximo 6&quot; deste modelo."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="8705-2d85-3452-957b" name="Armour of Shrieking Souls" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6593,7 +6593,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Lúcio, o Eterno, tem um salvamento invulnerável de 5+. Sempre que você fizer um teste de resistência bem-sucedido para Lucius na fase de combate, role um D6. Em um teste de 4+, a unidade que fez o ataque sofre uma Ferimento Mortal depois que todos os ataques foram feitos."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Lúcio, o Eterno, tem um salvamento invulnerável de 5+. Sempre que você fizer um teste de resistência bem-sucedido para Lucius na fase de combate, role um D6. Em um teste de 4+, a unidade que fez o ataque sofre um Ferimento Mortal depois que todos os ataques foram feitos."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="0012-7e7a-f5a7-5891" name="Duellist's Pride" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7974,7 +7974,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
            </profiles>
@@ -8007,7 +8007,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar testes para ferir de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
            </profiles>
@@ -8040,7 +8040,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar teste para ferir de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma atinge automaticamente seu alvo. Você pode re-rolar jogada para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
            </profiles>
@@ -8176,7 +8176,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
            </profiles>
@@ -8227,7 +8227,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
             <profile hidden="false" id="510c-f0f1-6120-4efc" name="Mace of Contagion and bubotic axe" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -8241,7 +8241,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+2"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar. Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
            </profiles>
@@ -8275,7 +8275,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto. Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar. Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
              </characteristics>
             </profile>
            </profiles>
@@ -8324,7 +8324,7 @@ If your summoning roll included any doubles, your character then suffers a morta
               <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+2"/>
               <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
               <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma. Faça o D3 acertar as roladas toda vez que você atacar com esta arma, ao invés de apenas uma. O dano excessivo desta arma não é perdido; em vez disso, continue alocando dano para outro modelo na unidade até que todo o dano tenha sido alocado ou o alvo seja destruído."/>
+              <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma. Faça o D3 acertar as roladas toda vez que você atacar com esta arma, ao invés de apenas uma. O dano excessivo desta arma não é perdido; em vez disso, continue alocando dano para outro modelo na unidade até que todo o dano tenha sido alocado ou o alvo seja destruído."/>
              </characteristics>
             </profile>
            </profiles>
@@ -9646,7 +9646,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todos os testes de acerto de 1 feitos para unidades aliadas ​​TZEENTCH &lt;LEGION&gt; a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas para acertar de 1 feitos para unidades aliadas ​​TZEENTCH &lt;LEGION&gt; a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -9887,7 +9887,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades aliadas ​​de KHORNE &lt;LEGION&gt; a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar feitos para unidades aliadas ​​de KHORNE &lt;LEGION&gt; a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10112,7 +10112,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas de acerto de 1 feitas para unidades NURGLE &lt;LEGION&gt; aliadas ​​a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas para acertar de 1 feitas para unidades NURGLE &lt;LEGION&gt; aliadas ​​a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10212,7 +10212,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois que esse modelo fizer seus ataques de combate próximo, você poderá atacar com sua montaria. Faça D6 ataques adicionais usando este perfil de arma. Você pode re-rolar jogadas de ferimento de 1 para esses ataques."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois que esse modelo fizer seus ataques de combate próximo, você poderá atacar com sua montaria. Faça D6 ataques adicionais usando este perfil de arma. Você pode re-rolar jogadas para ferir de 1 para esses ataques."/>
        </characteristics>
       </profile>
      </profiles>
@@ -10337,7 +10337,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as testes de acerto de 1 para unidades de Slaanesh (Legion) a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas para acertar de 1 para unidades de Slaanesh (Legion) a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -11504,7 +11504,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ba89-37d9-fe9f-9271" name="Sorcerer" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
@@ -11938,7 +11938,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois que esse modelo fizer seus ataques de combate próximo, você poderá atacar com sua montaria. Faça D6 ataques adicionais usando este perfil de arma. Você pode re-rolar jogadas de ferimento de 1 para esses ataques."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Depois que esse modelo fizer seus ataques de combate próximo, você poderá atacar com sua montaria. Faça D6 ataques adicionais usando este perfil de arma. Você pode re-rolar jogadas para ferir de 1 para esses ataques."/>
        </characteristics>
       </profile>
      </profiles>
@@ -12972,7 +12972,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
      </characteristics>
     </profile>
    </profiles>
@@ -13085,7 +13085,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que tenham como alvo este veículo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -14773,7 +14773,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou ferimentos mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1" . Se não houver um alvo visível dentro do alcance, nada acontece.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou Ferimentos Mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1" . Se não houver um alvo visível dentro do alcance, nada acontece.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="a3d2-cbb8-77f5-44d3" name="Battering Onslaught" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14900,7 +14900,7 @@ If your summoning roll included any doubles, your character then suffers a morta
             <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
             <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
             <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o Helbrute sofre uma Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
+            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Para cada jogada de 1, o Helbrute sofre um Ferimento Mortal após todos os tiros da arma terem sido resolvidos."/>
            </characteristics>
           </profile>
          </profiles>
@@ -16302,7 +16302,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Todos os modelos nesta unidade têm um 5+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Todos os modelos nesta unidade têm um salvamento invulnerável de 5+ ."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1c10-0c20-681d-d1cc" name="Rubric Marine" page="0" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -17988,7 +17988,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça testes de acerto. No entanto, este modelo ainda pode disparar se houver modelos inimigos a menos de 1" , e unidades aliadas ​​ainda podem atingir unidades inimigas que estão a menos de 1" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça jogadas para acertar. No entanto, este modelo ainda pode disparar se houver modelos inimigos a menos de 1" , e unidades aliadas ​​ainda podem atingir unidades inimigas que estão a menos de 1" deste modelo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7947-7a1a-e91c-92cb" name="Automated Weapons" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18015,7 +18015,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, antes de remover o modelo do campo de batalha * e antes de qualquer modelo desembarcar, role um D6; em um 6 seu magazine explode, e cada unidade dentro do 2D6" sofre ferimentos mortais D3. * Se você não pode fisicamente remover este modelo do seu campo de batalha quando ele é destruído (porque, por exemplo, ele está colado à superfície), quer a revista exploda ou não, ela é destruída - a partir daí, os modelos não podem mais entrar nela, não podem mais fotografar, etc.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, antes de remover o modelo do campo de batalha * e antes de qualquer modelo desembarcar, role um D6; em um 6 seu magazine explode, e cada unidade dentro do 2D6" sofre Ferimentos Mortais D3. * Se você não pode fisicamente remover este modelo do seu campo de batalha quando ele é destruído (porque, por exemplo, ele está colado à superfície), quer a revista exploda ou não, ela é destruída - a partir daí, os modelos não podem mais entrar nela, não podem mais fotografar, etc.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="27b4-226e-b7a2-6b91" name="Chaos Bastion" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -18537,7 +18537,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+3"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Você não pode re-rolar ou modificar para acertar testes de acerto de 1 para ataques feitos com o Axe of Blind Fury. Em vez disso, esses ataques atingem automaticamente uma unidade aliada a menos de 1" . Determinar aleatoriamente qual unidade é atingida se houver mais de 1. Se não houver unidades aliadas ​​a menos de 1", a ocorrência será ignorada.'/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Você não pode re-rolar ou modificar para acertar jogadas para acertar de 1 para ataques feitos com o Axe of Blind Fury. Em vez disso, esses ataques atingem automaticamente uma unidade aliada a menos de 1" . Determinar aleatoriamente qual unidade é atingida se houver mais de 1. Se não houver unidades aliadas ​​a menos de 1", a ocorrência será ignorada.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="b00e-1bc3-17d1-f972" name="Axe of Blind Fury" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18680,7 +18680,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O portador do Talismã do Sangue Ardente pode Avançar e atacar no mesmo turno. Além disso, o portador pode re-rolar jogadas de carga com falha."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O portador do Talismã do Sangue Ardente pode Avançar e atacar no mesmo turno. Além disso, o portador pode re-rolar jogadas de carga malsucedida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -18754,7 +18754,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Portador pode liberar o poder do Olho da Noite uma vez por batalha, em sua fase de Tiro, em vez de disparar quaisquer outras armas. Quando o fizerem, selecione uma unidade VEÍCULO visível e role um D6; em um 2+, essa unidade sofre D3 ferimentos mortais."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Portador pode liberar o poder do Olho da Noite uma vez por batalha, em sua fase de Tiro, em vez de disparar quaisquer outras armas. Quando o fizerem, selecione uma unidade VEÍCULO visível e role um D6; em um 2+, essa unidade sofre D3 Ferimentos Mortais."/>
      </characteristics>
     </profile>
    </profiles>
@@ -18785,7 +18785,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="No início da primeira rodada de batalha, mas antes do primeiro turno começar, você deve nomear um personagem CHARACTER para ser o alvo do portador da Espada de Assassinato (este pode ser um personagem ainda não estabelecido no campo de batalha). Lembre-se de dizer ao seu oponente qual personagem você indicou. Cada ataque feito com a Espada de Assassinato que atinge o personagem selecionado inflige automaticamente uma Ferimento Mortal àquele personagem em vez do dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="No início da primeira rodada de batalha, mas antes do primeiro turno começar, você deve nomear um personagem CHARACTER para ser o alvo do portador da Espada de Assassinato (este pode ser um personagem ainda não estabelecido no campo de batalha). Lembre-se de dizer ao seu oponente qual personagem você indicou. Cada ataque feito com a Espada de Assassinato que atinge o personagem selecionado inflige automaticamente um Ferimento Mortal àquele personagem em vez do dano normal."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4077-c7d8-c4c8-a795" name="The Murder Sword" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18833,7 +18833,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Re-rolar todos os testes com falha dessa arma ao mirar uma unidade IMPERIUM."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Re-rolar todos os testes malsucedida dessa arma ao mirar uma unidade IMPERIUM."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d1c8-a7b5-79d6-8627" name="The Cursed Crozius" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18981,7 +18981,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Aumente a característica de Ataques do usuário em 1. Além disso, você pode rolar novamente os testes para ferir malsucedidos para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Aumente a característica de Ataques do usuário em 1. Além disso, você pode re-rolar as jogadas para ferir malsucedidas para esta arma."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="e85c-a0d2-d338-6a2d" name="Claws of the Black Hunt" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -19089,7 +19089,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes para ferir malsucedidos na fase de combate para unidades &lt;LEGION&gt; aliadas ​​que estejam a no máximo 6" de um Campeão Exaltado.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas para ferir malsucedidas na fase de combate para unidades &lt;LEGION&gt; aliadas ​​que estejam a no máximo 6" de um Campeão Exaltado.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -19354,7 +19354,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer ataque com um teste de ferimento de 6+ para esta arma tem uma característica de dano de 2 ao invés de 1."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Qualquer ataque com uma jogada para ferir de 6+ para esta arma tem uma característica de dano de 2 ao invés de 1."/>
      </characteristics>
     </profile>
    </profiles>
@@ -19400,7 +19400,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar testes para ferir malsucedidos na fase de combate para unidades de MATANÇAS CRIMSON SLAUGHTER que estejam a no máximo 6" de Vrosh Tattersoul.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas para ferir malsucedidas na fase de combate para unidades de MATANÇAS CRIMSON SLAUGHTER que estejam a no máximo 6" de Vrosh Tattersoul.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -20474,7 +20474,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="testes de acerto com esta arma infligem ferimentos mortais. Se qualquer jogada feita em uma determinada fase com esta arma resultar em uma pontuação de '1', então a unidade de tiro sofre uma Ferimento Mortal no final da fase."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="jogadas para acertar com esta arma infligem Ferimentos Mortais. Se qualquer jogada feita em uma determinada fase com esta arma resultar em uma pontuação de '1', então a unidade de tiro sofre um Ferimento Mortal no final da fase."/>
      </characteristics>
     </profile>
    </profiles>
@@ -20505,7 +20505,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a jogadas de ferimento feitos para esta arma se o alvo for um VEÍCULO."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a jogadas para ferir feitos para esta arma se o alvo for um VEÍCULO."/>
      </characteristics>
     </profile>
    </profiles>
@@ -20557,7 +20557,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7462-5880-32b3-e80f" name="Implacable" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -20566,7 +20566,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo só pode Avançar D3" , mas ignora a penalidade de -1 em suas jogadas de acerto por mover e disparar uma arma Pesada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo só pode Avançar D3" , mas ignora a penalidade de -1 em suas jogadas para acertar por mover e disparar uma arma Pesada.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -20860,7 +20860,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 5+ save invulnerável. Além disso, subtraia 1 de todas as jogadas de acerto feitas na fase de Tiro."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+ . Além disso, subtraia 1 de todas as jogadas para acertar feitas na fase de Tiro."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="cb29-afcf-81f6-5a81" name="Lord of the Faithless" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -20976,7 +20976,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todos os testes de dano desta arma contra qualquer alvo que não seja um Veículo."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todos as jogadas para ferir desta arma contra qualquer alvo que não seja um Veículo."/>
        </characteristics>
       </profile>
      </profiles>
@@ -21081,7 +21081,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto para unidades de SKULLTAKERS aliadas ​​a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar para unidades de SKULLTAKERS aliadas ​​a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="5ea5-7443-7134-002f" name="Favour of the Blood God" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21265,7 +21265,7 @@ If your summoning roll included any doubles, your character then suffers a morta
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
      </characteristics>
     </profile>
    </profiles>
@@ -21403,7 +21403,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
-    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a59c-245b-0fff-5543" name="Gifts of Chaos (2 Relics)" type="upgrade">
@@ -21437,7 +21437,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
-    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-3.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="bf6f-3391-2534-c75a" name="Haarken Worldclaimer" type="model">
@@ -21474,7 +21474,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas de acerto para ataques feitos com armas corpo-a-corpo usadas por unidades de RAPTOR aliadas ​​a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar jogadas para acertar para ataques feitos com armas corpo-a-corpo usadas por unidades de RAPTOR aliadas ​​a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="be45-45a5-8316-89ee" name="Herald of the Apocalypse" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21676,7 +21676,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Obsidius Mallex tem um 4+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Obsidius Mallex tem um salvamento invulnerável de 4+ ."/>
      </characteristics>
     </profile>
    </profiles>
@@ -21772,7 +21772,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, subtraia 1 do teste de acerto."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, subtraia 1 do jogada para acertar."/>
        </characteristics>
       </profile>
      </profiles>
@@ -22358,7 +22358,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <rules/>
      <infoLinks/>
      <modifiers>
-      <modifier field="33c1-4aa6-bd08-49eb" type="set" value="0">
+      <modifier field="hidden" type="set" value="true">
        <repeats/>
        <conditions>
         <condition childId="012f-abfc-397b-3519" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
@@ -22400,7 +22400,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <rules/>
      <infoLinks/>
      <modifiers>
-      <modifier field="bfa3-4e03-9fc4-824c" type="set" value="0">
+      <modifier field="hidden" type="set" value="true">
        <repeats/>
        <conditions>
         <condition childId="0fb6-fcaf-b180-5dda" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
@@ -22418,7 +22418,7 @@ If your summoning roll included any doubles, your character then suffers a morta
      <rules/>
      <infoLinks/>
      <modifiers>
-      <modifier field="c656-d8e7-428c-6d5c" type="set" value="0">
+      <modifier field="hidden" type="set" value="true">
        <repeats/>
        <conditions>
         <condition childId="1da2-76db-f76f-6b6c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
@@ -23239,7 +23239,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades &lt;LEGION&gt; e KHORNE DAEMON aliadas ​​a no máximo 6" .'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar feitos para unidades &lt;LEGION&gt; e KHORNE DAEMON aliadas ​​a no máximo 6" .'/>
        </characteristics>
       </profile>
      </profiles>
@@ -23302,7 +23302,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades &lt;LEGION&gt; e NURGLE DAEMON aliadas ​​a no máximo 6" .'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar feitos para unidades &lt;LEGION&gt; e NURGLE DAEMON aliadas ​​a no máximo 6" .'/>
        </characteristics>
       </profile>
      </profiles>
@@ -23401,7 +23401,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades &lt;LEGION&gt; e SLAANESH DAEMON aliadas ​​a no máximo 6" .'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar feitos para unidades &lt;LEGION&gt; e SLAANESH DAEMON aliadas ​​a no máximo 6" .'/>
        </characteristics>
       </profile>
      </profiles>
@@ -23510,7 +23510,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto jogador feitas para as unidades &lt;LEGION&gt; e TZEENTCH DAEMON aliadas ​​a no máximo 6" .'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar jogador feitas para as unidades &lt;LEGION&gt; e TZEENTCH DAEMON aliadas ​​a no máximo 6" .'/>
        </characteristics>
       </profile>
      </profiles>
@@ -23640,7 +23640,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se o seu exército for Forjado em Batalha, todas as unidades Daemon Prince, INFANTRY, BIKERS e HELBRUTE em um Destacamento IRON WARRIORS ganham a seguinte habilidade: Unidades inimigas atacadas por unidades com esta característica não ganham nenhum bônus em seus testes de resistência por estarem cobertas. Além disso, você pode rolar novamente rolagens com falha para unidades com esse atributo quando elas mirar emem um EDIFÍCIO."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se o seu exército for Forjado em Batalha, todas as unidades Daemon Prince, INFANTRY, BIKERS e HELBRUTE em um Destacamento IRON WARRIORS ganham a seguinte habilidade: Unidades inimigas atacadas por unidades com esta característica não ganham nenhum bônus em seus testes de resistência por estarem cobertas. Além disso, você pode re-rolar jogadas para ferir malsucedidas para unidades com esse atributo quando elas mirar emem um EDIFÍCIO."/>
        </characteristics>
       </profile>
      </profiles>
@@ -23668,7 +23668,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se seu exército for Forjado em Batalha, todas as unidades Daemon Prince, INFANTARIA, MOTOCICLISTAS e HELBRUTO em um Destacamento de Capítulos Renegados ganham a seguinte habilidade: Unidades com este traço podem Avançar e efetuar uma carga no mesmo turno."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se seu exército for Forjado em Batalha, todas as unidades Daemon Prince, INFANTARIA, BIKERS e HELBRUTO em um Destacamento de Capítulos Renegados ganham a seguinte habilidade: Unidades com este traço podem Avançar e efetuar uma carga no mesmo turno."/>
        </characteristics>
       </profile>
      </profiles>
@@ -23780,7 +23780,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se o seu exército for Forjado em Batalha, todas as unidades Daemon Prince, INFANTRY, BIKER e HELBRUTE em um ALFA LEGION Detachment ganham a seguinte habilidade: Seu oponente deve subtrair 1 das testes de acerto que atingem as unidades com esta característica se estiverem a mais de 12" de distância .'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se o seu exército for Forjado em Batalha, todas as unidades Daemon Prince, INFANTRY, BIKER e HELBRUTE em um ALFA LEGION Detachment ganham a seguinte habilidade: Seu oponente deve subtrair 1 das jogadas para acertar que atingem as unidades com esta característica se estiverem a mais de 12" de distância .'/>
        </characteristics>
       </profile>
      </profiles>
@@ -23808,7 +23808,7 @@ If your summoning roll included any doubles, your character then suffers a morta
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se seu exército for forjado em batalha, todas as unidades Daemon Prince, INFANTRY, BIKERS e HELBRUTE em um Destacamento de WORD BEARERS ganham a seguinte habilidade: Você pode re-rolar testes de moral com falha para unidades com esta característica."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se seu exército for forjado em batalha, todas as unidades Daemon Prince, INFANTRY, BIKERS e HELBRUTE em um Destacamento de WORD BEARERS ganham a seguinte habilidade: Você pode re-rolar testes de moral malsucedida para unidades com esta característica."/>
        </characteristics>
       </profile>
      </profiles>
@@ -25266,7 +25266,7 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
        </characteristics>
       </profile>
      </profiles>
@@ -25431,7 +25431,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b62d-7cc2-1b2a-ca61" name="Plague knife" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -25445,7 +25445,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value=""/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0fa4-ab8b-8cd0-d19f" name="Plaguesword" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -25459,7 +25459,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="137e-59b4-ea0e-f84a" name="Blight launcher" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -25473,7 +25473,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="você pode re-rolar jogadas para ferir de 1 para esta arma."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="fef2-642b-6b1b-e7e6" name="Hellforged siege claw" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -25608,7 +25608,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4e93-ccd6-c332-0eeb" name="Brutal assault weapon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -25640,7 +25640,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9676-5c4d-7ae8-461b" name="Daemonic Machine Spirit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25658,7 +25658,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você executar um teste de acerto de 6+ para um modelo com essa habilidade na fase de combate, ele poderá, imediatamente, se atacar uma unidade IMPERIUM, atacar imediatamente a mesma unidade usando a mesma arma. Esses ataques extras não podem gerar ataques adicionais."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você executar um jogada para acertar de 6+ para um modelo com essa habilidade na fase de combate, ele poderá, imediatamente, se atacar uma unidade IMPERIUM, atacar imediatamente a mesma unidade usando a mesma arma. Esses ataques extras não podem gerar ataques adicionais."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a46b-e84f-ab7b-a4e4" name="Infernal Regeneration" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25676,7 +25676,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto feitos para unidades &lt;LEGION&gt; aliadas ​​a no máximo 6" deste modelo.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar feitos para unidades &lt;LEGION&gt; aliadas ​​a no máximo 6" deste modelo.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="c237-7aca-a961-6c59" name="Sigil of Corruption" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25685,7 +25685,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 4+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="aa2e-f0e5-04d3-aae3" name="Terminator Armour" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25694,7 +25694,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 5+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um salvamento invulnerável de 5+ ."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="649e-7454-0be4-7a71" name="Disgustingly Resilient" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25703,7 +25703,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde uma ferida, role um D6; em um 5-6, não perde aquela ferida."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde um Ponto de Vida, role um D6; em um 5-6, não perde aquela ferida."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="3923-a411-2e7b-dc9c" name="Turbo-boost" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25730,7 +25730,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a qualquer teste de resistência invulnerável feito para um TZEENTCH DAEMON com esta habilidade."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a qualquer teste de salvamento invulnerável feito para um TZEENTCH DAEMON com esta habilidade."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e4c7-f469-f22d-f31b" name="Unholy Speed" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25757,7 +25757,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele cai em uma explosão de fogo e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ba8c-82d5-79c0-d0d9" name="Ectoplasma cannon" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -25789,7 +25789,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, um Warpsmith pode reparar um único &lt;LEGION&gt; VEÍCULO (exceto modelos que podem voar) a menos de 1" . Esse modelo recupera D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único inimigo VEHICLE a no máximo 18". Role um D6; em um 2+ esse veículo sofre uma Ferimento Mortal. No final da sua fase de Movimento, um Warpsmith pode consertar um único Veículo (Legião) (além de modelos que podem voar) a menos de 1" . Esse modelo recupera D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único veículo inimigo a no máximo 18" . Role um D6; em um 2+ esse veículo sofre uma Ferimento Mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um modelo com o Mestre dos Mecanismos no mesmo turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de movimento, um Warpsmith pode reparar um único &lt;LEGION&gt; VEÍCULO (exceto modelos que podem voar) a menos de 1" . Esse modelo recupera D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único inimigo VEHICLE a no máximo 18". Role um D6; em um 2+ esse veículo sofre um Ferimento Mortal. No final da sua fase de Movimento, um Warpsmith pode consertar um único Veículo (Legião) (além de modelos que podem voar) a menos de 1" . Esse modelo recupera D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único veículo inimigo a no máximo 18" . Role um D6; em um 2+ esse veículo sofre um Ferimento Mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um modelo com o Mestre dos Mecanismos no mesmo turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="53ef-5b96-07e4-1cbe" name="Unstoppable Ferocity" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25816,7 +25816,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar testes de acerto malsucedidos para este personagem se o alvo for um personagem CHARACTER inimigo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para acertar malsucedidas para este personagem se o alvo for um personagem CHARACTER inimigo."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6862-b0e9-3af0-00f4" name="Eternal Vendetta" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25825,7 +25825,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar rolagens malsucedidas dos ataques feitos por seu Warlord na fase de combate contra alvos com a palavra-chave ADEPTUS ASTARTES."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para ferir malsucedidas dos ataques feitos por seu Warlord na fase de combate contra alvos com a palavra-chave ADEPTUS ASTARTES."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e2a4-7eda-404d-1d3f" name="Flames of Spite" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25843,7 +25843,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 à característica Wounds do seu Warlord. Além disso, jogue um dado cada vez que seuWarlord perde uma ferida. Em um teste de 6, o seu warlord evita o dano e não perde a ferida."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 à característica Wounds do seu Warlord. Além disso, jogue um dado cada vez que seuWarlord perde um Ponto de Vida. Em um teste de 6, o seu warlord evita o dano e não perde a ferida."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ffae-8a85-b011-9f14" name="Hatred Incarnate" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25852,7 +25852,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas de ferimento de 1 para ataques feitos pelo seu Warlord."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para ferir de 1 para ataques feitos pelo seu Warlord."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="07a0-ed58-d05e-9ff0" name="Lord of Terror" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25906,7 +25906,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por rodada de batalha, você pode re-rolar um único teste de acerto, testes para ferir, dano, rolamento Avançado, teste de carga ou teste de resistência feito para seu Warlord."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por rodada de batalha, você pode re-rolar um único jogada para acertar, jogadas para ferir, dano, rolamento Avançado, teste de carga ou teste de resistência feito para seu Warlord."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="4c67-249d-36d7-4bfc" name="Slaughterborn" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25966,7 +25966,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, um Hellwright pode consertar um único &lt;LEGION&gt; / DAEMON ENGINE / QUESTOR TRAITOROUS ou DARK MECHANICUS VEHICLE (exceto modelos que podem FLY) a menos de 1" . Esse modelo recupera as D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único VEÍCULO inimigo a no máximo 18" . Role um D6; em um 2+ esse veículo sofre uma Ferimento Mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um modelo com o Mestre dos Mecanismos no mesmo turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da sua fase de Movimento, um Hellwright pode consertar um único &lt;LEGION&gt; / DAEMON ENGINE / QUESTOR TRAITOROUS ou DARK MECHANICUS VEHICLE (exceto modelos que podem FLY) a menos de 1" . Esse modelo recupera as D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único VEÍCULO inimigo a no máximo 18" . Role um D6; em um 2+ esse veículo sofre um Ferimento Mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um modelo com o Mestre dos Mecanismos no mesmo turno.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="f0c9-8eea-7208-9da6" name="Jump Pack Assault" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -25990,7 +25990,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     </modifier>
    </modifiers>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele explode, e cada unidade a no máximo 3" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 6 ele explode, e cada unidade a no máximo 3" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
  </sharedProfiles>

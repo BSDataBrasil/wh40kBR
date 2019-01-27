@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="GenWilhelm" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Codex: Tyranids" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="7150-5917-ae80-68c5" name="Tyranids-BR" revision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="GenWilhelm" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Codex: Tyranids" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="7150-5917-ae80-68c5" name="Tyranids-BR" revision="46" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks/>
@@ -796,6 +796,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="50.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -829,6 +830,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7d3f-defb-b3ba-0c65" name="Broodlord" type="upgrade">
@@ -868,7 +870,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes de acerto na fase de combate para as unidades &lt;HIVE FLEET&gt; Genestealer a no máximo 6" e amistosos &lt;Brooke County&gt;.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aas jogadas para acertar na fase de combate para as unidades &lt;HIVE FLEET&gt; Genestealer a no máximo 6" e amistosos &lt;Brooke County&gt;.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="aad7-01b8-2160-d974" name="Broodlord" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -1039,6 +1041,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="115.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="96c9-795a-8498-07e6" name="Carnifexes" type="unit">
@@ -1253,6 +1256,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="15.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -1416,6 +1420,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="67.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1424,6 +1429,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a886-3ba1-c505-1200" name="Exocrine" type="model">
@@ -1487,7 +1493,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo não se moveu na sua fase de Movimento, você pode adicionar 1 às suas jogadas de acerto na fase seguinte de Tiro. Se você fizer isso, não poderá efetuar uma carga no mesmo turno."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo não se moveu na sua fase de Movimento, você pode adicionar 1 às suas jogadas para acertar na fase seguinte de Tiro. Se você fizer isso, não poderá efetuar uma carga no mesmo turno."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="9205-7102-f657-b657" name="Exocrine" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -1599,6 +1605,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="170.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="11.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="21fc-05c5-6fd6-2d0a" name="Gargoyles" type="unit">
@@ -1770,6 +1777,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="6.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1795,6 +1803,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="593d-594c-e42d-02f5" name="Genestealers" type="unit">
@@ -1973,6 +1982,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="2.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -1982,7 +1992,15 @@
        <profiles/>
        <rules/>
        <infoLinks/>
-       <modifiers/>
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <repeats/>
+         <conditions>
+          <condition childId="8169-8c75-51bf-6f4c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="593d-594c-e42d-02f5" shared="true" type="atLeast" value="1.0"/>
+         </conditions>
+         <conditionGroups/>
+        </modifier>
+       </modifiers>
        <constraints>
         <constraint field="selections" id="6ecb-f102-0a4a-cec9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
@@ -2012,6 +2030,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="10.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2080,6 +2099,13 @@
        <conditions/>
        <conditionGroups/>
       </modifier>
+      <modifier field="hidden" type="set" value="true">
+       <repeats/>
+       <conditions>
+        <condition childId="5416-b052-f3c7-6502" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="593d-594c-e42d-02f5" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+       <conditionGroups/>
+      </modifier>
      </modifiers>
      <constraints>
       <constraint field="selections" id="801a-2524-69b2-3f91" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0.0"/>
@@ -2114,6 +2140,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ee16-7977-eb9b-88e7" name="Harpy" type="model">
@@ -2186,7 +2213,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma Harpia pode derrubar Minas do Esporo enquanto sobrevoa unidades inimigas na fase do Movimento. Para fazer isso, depois que a Harpia tiver se movido, escolha uma unidade inimiga que voou e role um D6 para cada modelo na unidade, até o máximo de 3 dados. Cada vez que você rola uma 4+ uma Spore Mine atingiu o alvo e explode. Role um D6 para descobrir quanto dano é infligido; em um 1 a Mina do Esporo não causa nenhum dano, em 2-5 inflige 1 Ferimento Mortal, e em 6 inflige D3 ferimentos mortais. Cada vez que uma Spore Mine errar o alvo, configure uma única &lt;HYE FLEET&gt; Spore Mine em qualquer lugar a no máximo 6" da unidade alvo e mais de 3" de qualquer modelo inimigo (se a Spore Mine não puder ser colocada, ela será destruída). Isso segue as regras para uma Mina do Esporo (pág. 99) que faz parte do seu exército, mas não pode se mover ou realizar uma carga durante o turno em que foi colocada em jogo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma Harpia pode derrubar Minas do Esporo enquanto sobrevoa unidades inimigas na fase do Movimento. Para fazer isso, depois que a Harpia tiver se movido, escolha uma unidade inimiga que voou e role um D6 para cada modelo na unidade, até o máximo de 3 dados. Cada vez que você rola uma 4+ uma Spore Mine atingiu o alvo e explode. Role um D6 para descobrir quanto dano é infligido; em um 1 a Mina do Esporo não causa nenhum dano, em 2-5 inflige 1 Ferimento Mortal, e em 6 inflige D3 Ferimentos Mortais. Cada vez que uma Spore Mine errar o alvo, configure uma única &lt;HYE FLEET&gt; Spore Mine em qualquer lugar a no máximo 6" da unidade alvo e mais de 3" de qualquer modelo inimigo (se a Spore Mine não puder ser colocada, ela será destruída). Isso segue as regras para uma Mina do Esporo (pág. 99) que faz parte do seu exército, mas não pode se mover ou realizar uma carga durante o turno em que foi colocada em jogo.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="671d-a7eb-2a78-5cdc" name="Harpy" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -2354,6 +2381,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="105.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a753-2d35-9437-02d3" name="Haruspex" type="model">
@@ -2426,7 +2454,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha; em um 6, ele ataca em agonia, e cada unidade a no máximo 3" sofre 3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha; em um 6, ele ataca em agonia, e cada unidade a no máximo 3" sofre 3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="8a3c-b8d1-5324-7107" name="Haruspex" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -2543,6 +2571,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="170.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7c4f-3eb2-a044-15a8" name="Hive Crone" type="model">
@@ -2736,6 +2765,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="135.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c941-0aa1-f972-429c" name="Hive Guard" type="unit">
@@ -2888,6 +2918,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="18.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2913,6 +2944,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="add7-3535-a4cd-9ba5" name="Hive Tyrant" type="model">
@@ -3198,6 +3230,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="47.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -3257,6 +3290,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="20.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -3394,6 +3428,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="143.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0843-c3c5-0340-2a53" name="Hormagaunts" type="unit">
@@ -3413,7 +3448,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se esta unidade contiver 20 ou mais modelos, você poderá re-rolar jogadas de ferimento de 1 quando ele lutar."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se esta unidade contiver 20 ou mais modelos, você poderá re-rolar jogadas para ferir de 1 quando ele lutar."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="c4dc-1fa9-caff-0341" name="Hormagaunts" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -3550,6 +3585,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="5.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -3575,6 +3611,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a5e2-a0a5-57f0-27b6" name="Lictor" type="model">
@@ -3602,7 +3639,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de suas testes de acerto por ataques direcionados a esse modelo. Além disso, adicione 2 em vez de 1 aos testes de resistência para este modelo quando estiver em capa."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de seus jogadas para acertar para ataques direcionados a esse modelo. Além disso, adicione 2 em vez de 1 aos testes de resistência para este modelo quando estiver em capa."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="1b43-59b1-5a23-a17e" name="Lictor" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -3720,6 +3757,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9801-59fc-296b-6b85" name="Maleceptor" type="model">
@@ -3795,7 +3833,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Em vez de manifestar quaisquer poderes psíquicos em sua fase psíquica, um Maleceptor pode liberar tentáculos psíquicos estourando o cérebro. Se isso acontecer, jogue um dado para cada unidade inimiga a no máximo 6" , para um número máximo de unidades mostradas na tabela de danos. Em um 2+ o Maleceptor causa 1 ferimento mortal àquela unidade, mas em um 6 ele causa 3 ferimentos mortais a essa unidade em vez disso.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Em vez de manifestar quaisquer poderes psíquicos em sua fase psíquica, um Maleceptor pode liberar tentáculos psíquicos estourando o cérebro. Se isso acontecer, jogue um dado para cada unidade inimiga a no máximo 6" , para um número máximo de unidades mostradas na tabela de danos. Em um 2+ o Maleceptor causa 1 ferimento mortal àquela unidade, mas em um 6 ele causa 3 Ferimentos Mortais a essa unidade em vez disso.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="f7b4-baff-cc8d-0cf4" name="Maleceptor" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -3936,6 +3974,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="150.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="92ec-64fb-e5a7-65c1" name="Mawloc" type="model">
@@ -4174,6 +4213,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="104.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9773-03e8-68e5-8ea1" name="Mucolid Spores" type="unit">
@@ -4282,6 +4322,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="20.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4307,6 +4348,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="cb6d-b756-8436-074e" name="Pyrovores" type="unit">
@@ -4317,7 +4359,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Pyrovore é morto, jogue um dado. Em um 4+ ele irrompe em uma chuva de ácido - a unidade inimiga mais próxima a no máximo 3" (se houver) sofre uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Pyrovore é morto, jogue um dado. Em um 4+ ele irrompe em uma chuva de ácido - a unidade inimiga mais próxima a no máximo 3" (se houver) sofre um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="b5f7-cbc7-92cb-e0eb" name="Pyrovores" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -4451,6 +4493,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="25.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4476,6 +4519,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="eda6-2686-5153-3ac8" name="Raveners" type="unit">
@@ -4669,6 +4713,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="23.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4694,6 +4739,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="04a7-33a3-6396-b371" name="Ripper Swarms" type="unit">
@@ -4831,6 +4877,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="11.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4839,6 +4886,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d7ba-bc0a-efeb-36f3" name="Sky-slasher Swarms" type="unit">
@@ -4974,6 +5022,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="11.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4999,6 +5048,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0a0b-c7ca-2804-4f90" name="Spore Mines" type="unit">
@@ -5107,6 +5157,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="10.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -5132,6 +5183,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4fe0-a701-3f44-b703" name="Sporocyst" type="model">
@@ -5320,7 +5372,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que um nodo de esporos atinge seu alvo, role um D6 para descobrir quanto dano é infligido na unidade; em um 1 a mina falha em infligir um dano, em um 2-5 eles infligem ferimentos mortais D3, e em um 6 eles infligem D6 Ferimentos Mortais. Toda vez que um ataque de nodo de esporos errar seu alvo, adicione uma nova unidade de 3 &lt;Hive Fleet&gt; Spore Mines ou 1 &lt;Hive Fleet&gt; Mucolid Spore ao seu exército e configure-a no campo de batalha de modo que fique totalmente a 6" do unidade alvo e mais de 3" de qualquer modelo inimigo (quaisquer modelos que não possam ser colocados são destruídos). Estes então seguem a regra para Esporos de Mucolim ou Minas de Esporo (pág. 99) que fazem parte do seu exército, mas eles não podem se mover ou carregar durante o turno em que foram montados. Esta arma não pode ser usada para disparar Overwatch.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que um nodo de esporos atinge seu alvo, role um D6 para descobrir quanto dano é infligido na unidade; em um 1 a mina falha em infligir um dano, em um 2-5 eles infligem Ferimentos Mortais D3, e em um 6 eles infligem D6 Ferimentos Mortais. Toda vez que um ataque de nodo de esporos errar seu alvo, adicione uma nova unidade de 3 &lt;Hive Fleet&gt; Spore Mines ou 1 &lt;Hive Fleet&gt; Mucolid Spore ao seu exército e configure-a no campo de batalha de modo que fique totalmente a 6" do unidade alvo e mais de 3" de qualquer modelo inimigo (quaisquer modelos que não possam ser colocados são destruídos). Estes então seguem a regra para Esporos de Mucolim ou Minas de Esporo (pág. 99) que fazem parte do seu exército, mas eles não podem se mover ou carregar durante o turno em que foram montados. Esta arma não pode ser usada para disparar Overwatch.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -5338,6 +5390,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="52ea-1173-ae84-1da8" name="Show Mucolid Spore Rules" type="upgrade">
@@ -5399,6 +5452,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="8104-3776-34b1-7c85" name="Show Spore Mine Rules" type="upgrade">
@@ -5479,6 +5533,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="0.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -5577,6 +5632,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="79.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2e2b-aedb-e20b-9c8b" name="Termagants" type="unit">
@@ -5707,6 +5763,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="4.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -5715,6 +5772,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="4.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="8d26-77af-ee8e-cf53" name="Termagant (Fleshborer)" type="model">
@@ -5751,6 +5809,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="4.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="a040-b49e-fa48-42bf" name="Termagant (Spinefists)" type="model">
@@ -5793,6 +5852,7 @@
          <costs>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
           <cost costTypeId="points" name="pts" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -5801,6 +5861,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="4.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="66bd-c2f8-05d3-17d5" name="Termagant (Spike Rifle)" type="model">
@@ -5837,6 +5898,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="4.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="128c-1160-dad5-c800" name="Termagant (Strangleweb)" type="model">
@@ -5881,6 +5943,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="4.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -5950,6 +6013,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0507-f341-5267-7cc5" name="Tervigon" type="model">
@@ -6025,7 +6089,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nos testes de acerto na fase de Tiro para unidades &lt;Terrorismo &lt;HIVE FLEET&gt; a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar 1s nas jogadas para acertar na fase de Tiro para unidades &lt;Terrorismo &lt;HIVE FLEET&gt; a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="487b-31a8-414e-4ade" name="Synaptic Backlash" page="87" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6247,6 +6311,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="180.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="13.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="cdd9-7d89-df58-3760" name="Toxicrene" type="model">
@@ -6310,7 +6375,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada modelo inimigo a menos de 1" de qualquer Toxicrene. Em um 6, a unidade deste modelo sofre uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada modelo inimigo a menos de 1" de qualquer Toxicrene. Em um 6, a unidade deste modelo sofre um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="e5e4-e3a4-ed00-16c8" name="Frenzied Death Throes" page="101" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6319,7 +6384,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha; em um 6, ele ataca em agonia, e cada unidade a no máximo 3" sofre 3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha; em um 6, ele ataca em agonia, e cada unidade a no máximo 3" sofre 3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="7443-7c70-9387-bb23" name="Toxicrene" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -6425,6 +6490,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="140.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f628-1bb2-0620-3beb" name="Trygon" type="model">
@@ -6662,6 +6728,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="108.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="9.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1864-f6fc-3f51-0c34" name="Trygon Prime" type="model">
@@ -6938,6 +7005,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="138.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0435-abe8-4398-eff8" name="Tyranid Shrikes" type="unit">
@@ -7254,6 +7322,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="26.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="2a3b-f3ff-ef3e-22ab" name="Tyranid Shrike (Bio-cannon)" type="model">
@@ -7422,6 +7491,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="26.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7447,6 +7517,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8ffc-a0f3-766e-8ae4" name="Tyranid Warriors" type="unit">
@@ -7756,6 +7827,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="20.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="f379-a3a8-94bb-d0de" name="Tyranid Warrior (Bio-cannon)" type="model">
@@ -7924,6 +7996,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="20.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -7949,6 +8022,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0daf-d491-1f32-1322" name="Tyrannocyte" type="model">
@@ -8178,6 +8252,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="75.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f535-4e40-2b57-2bf7" name="Tyrannofex" type="model">
@@ -8241,7 +8316,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo não sofre a penalidade de suas jogadas de acerto por mover e disparar armas pesadas."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo não sofre a penalidade de suas jogadas para acertar por mover e disparar armas pesadas."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="723c-66ad-999a-67ac" name="Tyrannofex" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -8413,6 +8488,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="151.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="11.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="66df-c9ba-5ea8-e524" name="Tyrant Guard" type="unit">
@@ -8432,7 +8508,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que um amistoso &lt;HIVE FLEET&gt; HIVE TYRANT perde uma ferida enquanto eles estão a no máximo 3" desta unidade; em um modelo 2+ a partir desta unidade pode interceptar esse acerto - o Hive Tyrant não perde uma ferida, mas esta unidade sofre uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Jogue um dado cada vez que um amistoso &lt;HIVE FLEET&gt; HIVE TYRANT perde um Ponto de Vida enquanto eles estão a no máximo 3" desta unidade; em um modelo 2+ a partir desta unidade pode interceptar esse acerto - o Hive Tyrant não perde um Ponto de Vida, mas esta unidade sofre um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="960b-666f-d39f-8da1" name="Tyrant Guard" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -8602,6 +8678,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="35.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -8627,6 +8704,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="90b8-1695-18c9-1512" name="Venomthropes" type="unit">
@@ -8637,7 +8715,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu oponente deve subtrair 1 das testes de acerto para armas de longo alcance que tenham como alvo &lt;FROTA DE acerto&gt; unidades (excluindo MONSTERS) a no máximo 6" de quaisquer tropas de Vênus amistosas. Além disso, seu oponente deve subtrair 1 das jogadas de acerto daquele alvo &lt;FROTA DE VIOLÊNCIA &gt; MONSTERS, enquanto estiverem a no máximo 6" de qualquer &lt;unidade de soroterapia&gt; unidades de tracção venométrica que contenham 3 ou mais modelos. Aumente o alcance de ambos os efeitos enquanto esta unidade contém 6 modelos.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu oponente deve subtrair 1 das jogadas para acertar para armas de longo alcance que tenham como alvo &lt;FROTA DE acerto&gt; unidades (excluindo MONSTERS) a no máximo 6" de quaisquer tropas de Vênus amistosas. Além disso, seu oponente deve subtrair 1 das jogadas para acertar daquele alvo &lt;FROTA DE VIOLÊNCIA &gt; MONSTERS, enquanto estiverem a no máximo 6" de qualquer &lt;unidade de soroterapia&gt; unidades de tracção venométrica que contenham 3 ou mais modelos. Aumente o alcance de ambos os efeitos enquanto esta unidade contém 6 modelos.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="44c1-9d44-bc91-a356" name="Toxic Miasma" page="95" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8646,7 +8724,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" de qualquer Venomthropes. Em um 5+, aquela unidade sofre uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" de qualquer Venomthropes. Em um 5+, aquela unidade sofre um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="e2b6-3097-ea9f-e1e4" name="Venomthropes" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -8763,6 +8841,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="30.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -8788,6 +8867,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c1b3-01e5-3175-3107" name="Zoanthropes" type="unit">
@@ -8952,6 +9032,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="40.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -8987,6 +9068,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0e09-72a3-df36-ebd8" name="Deathleaper" type="model">
@@ -9014,7 +9096,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 2 de seus testes de acerto para ataques que visam esse modelo. Além disso, adicione 2 em vez de 1 aos lançamentos de salvamento para o Deathleaper quando estiver em cobertura."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 2 de seus jogadas para acertar para ataques que visam esse modelo. Além disso, adicione 2 em vez de 1 aos lançamentos de salvamento para o Deathleaper quando estiver em cobertura."/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="a912-7831-ab57-fb1c" name="It's After Me!" page="93" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9023,7 +9105,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da primeira rodada de batalha, mas antes do primeiro turno começar, escolha um PERSONAGEM do exército adversário. Você pode re-rolar as jogadas de acerto e dano na fase de combate para qualquer ataque do Morte-Légua que tenha como alvo aquele CARÁTER."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da primeira rodada de batalha, mas antes do primeiro turno começar, escolha um PERSONAGEM do exército adversário. Você pode re-rolar as jogadas para acertar e dano na fase de combate para qualquer ataque do Morte-Légua que tenha como alvo aquele CARÁTER."/>
      </characteristics>
     </profile>
     <profile hidden="true" id="2a2c-f444-9ca7-15f9" name="Deathleaper" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -9164,6 +9246,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="60.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d83b-acf3-2677-40e1" name="Old One Eye" type="model">
@@ -9191,7 +9274,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando Velho Olho termina uma jogada, jogue um dado; em 4+ uma unidade inimiga a menos de 1" sofre D3 ferimentos mortais. Além disso, adicione 1 a todas as jogadas de acerto para Old One Eye na fase de combate se ele for alvo de uma carga no mesmo turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando Velho Olho termina uma jogada, jogue um dado; em 4+ uma unidade inimiga a menos de 1" sofre D3 Ferimentos Mortais. Além disso, adicione 1 a todas as jogadas para acertar para Old One Eye na fase de combate se ele for alvo de uma carga no mesmo turno.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="0313-99d7-45a4-d42b" name="Alpha Leader" page="88" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9200,7 +9283,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes de acerto na fase de combate para unidades aliadas ​​que estejam a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aas jogadas para acertar na fase de combate para unidades aliadas ​​que estejam a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="0328-ab0b-6a9f-f1b8" name="Berserk Rampage" page="88" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9209,7 +9292,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você fizer um teste de acerto de 6+ para Old One Eye (exceto pelo ataque scythe debulhador), você pode imediatamente fazer 1 ataque adicional com a mesma arma contra a mesma unidade. Esses ataques adicionais não conferem ataques extras."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você fizer um jogada para acertar de 6+ para Old One Eye (exceto pelo ataque scythe debulhador), você pode imediatamente fazer 1 ataque adicional com a mesma arma contra a mesma unidade. Esses ataques adicionais não conferem ataques extras."/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="25a3-8981-fb26-9e0f" name="Regeneration" page="88" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9365,6 +9448,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="200.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6bad-120f-afa0-1745" name="The Red Terror" type="model">
@@ -9392,7 +9476,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aos testes de acerto na fase de combate para unidades &lt;FIFE FLEET&gt; RAVENER aliadas ​​que estejam a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode adicionar 1 aas jogadas para acertar na fase de combate para unidades &lt;FIFE FLEET&gt; RAVENER aliadas ​​que estejam a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="b052-96ba-ae38-b177" name="Swallow Whole" page="98" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9525,6 +9609,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="50.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5a85-738f-f138-2640" name="The Swarmlord" type="model">
@@ -9754,6 +9839,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -9808,6 +9894,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="250.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="15.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d254-4969-7e67-32a9" name="Tyranid Prime" type="model">
@@ -10115,6 +10202,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="70.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1801-fc74-929b-2aa7" name="Acid Spray" type="upgrade">
@@ -10137,6 +10225,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="25.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="eaa6-717f-8aca-64fb" name="Barbed Strangler" type="upgrade">
@@ -10159,6 +10248,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0ca0-0fa5-0424-a5e1" name="Bio-electric Pulse" type="upgrade">
@@ -10181,6 +10271,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ba25-050e-d5e7-f837" name="Bio-electric Pulse with Containment Spines" type="upgrade">
@@ -10203,6 +10294,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="377e-aeca-721c-5858" name="Bio-plasma" type="upgrade">
@@ -10225,6 +10317,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="9.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c045-e3db-568a-7ed0" name="Bio-plasmic Cannon" type="upgrade">
@@ -10247,6 +10340,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7384-6f13-08f3-7802" name="Chocking Spores" type="upgrade">
@@ -10269,6 +10363,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7af8-70de-cfec-20d3" name="Deathspitter" type="upgrade">
@@ -10291,6 +10386,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="5.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5e67-78b4-1c50-05bd" name="Deathspitter with Slimer Maggots" type="upgrade">
@@ -10323,6 +10419,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e730-b801-5c8e-9dfe" name="Devourer" type="upgrade">
@@ -10345,6 +10442,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="4.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9376-4ab0-2043-a0e2" name="Devourer with Brainleech Worms" type="upgrade">
@@ -10367,6 +10465,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5baa-33b7-07e3-3f4d" name="Drool Cannon" type="upgrade">
@@ -10389,6 +10488,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="7839-5645-f962-5ff8" name="Flamespurt" type="upgrade">
@@ -10411,6 +10511,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e8ab-6677-781d-991b" name="Flesh Hooks" type="upgrade">
@@ -10433,6 +10534,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="b888-86b7-cb7a-866f" name="Fleshborer" type="upgrade">
@@ -10455,6 +10557,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="61b1-091c-d500-46ba" name="Fleshborer Hive" type="upgrade">
@@ -10477,6 +10580,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="371b-9683-13d1-6060" name="Grasping Tougue" type="upgrade">
@@ -10499,6 +10603,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7616-cf27-58d6-0899" name="Heavy Venom Cannon" type="upgrade">
@@ -10531,6 +10636,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="18.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7783-52f4-1bff-cd54" name="Impaler Cannon" type="upgrade">
@@ -10553,6 +10659,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="30.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7dac-01e5-386c-ede6" name="Massive Toxic Lashes" type="upgrade">
@@ -10581,6 +10688,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="de4c-737e-cf2a-72ba" name="Rupture Cannon" type="upgrade">
@@ -10603,6 +10711,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="49.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a692-c72a-54f1-5134" name="Shockcannon" type="upgrade">
@@ -10625,6 +10734,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="21.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="2f52-8adf-3c3e-bbc6" name="Spike Rifle" type="upgrade">
@@ -10647,6 +10757,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="42fd-353d-bc2a-ef69" name="Spinefists" type="upgrade">
@@ -10690,6 +10801,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="8017-6992-ddd7-5882" name="Spinemaws" type="upgrade">
@@ -10712,6 +10824,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f2f0-5874-f1e1-1dd5" name="Spore Mine Launcher" type="upgrade">
@@ -10722,7 +10835,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Toda vez que um lançador de mina de esporos atingir o alvo, role um D6 para descobrir quanto dano é infligido ao alvo; em um 1 a Mina do Esporo não causa nenhum dano, em 2-5 inflige 1 Ferimento Mortal, e em 6 inflige D3 ferimentos mortais. Cada vez que um lançador de mina de esporos não atingir seu objetivo, configure um único modelo de “Mina de esporos” em qualquer lugar a no máximo 6" da unidade alvo e mais de 3" de qualquer modelo inimigo (se a Mina de Esporos não puder ser colocada, ela será destruída) . Isso segue as regras para uma Mina do Esporo (pág. 99) que faz parte do seu exército, mas não pode se mover ou carregar durante a curva que foi configurada. Esta arma pode mirar unidades que não são visíveis ao atirador, mas não pode ser usada para disparar Overwatch.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Toda vez que um lançador de mina de esporos atingir o alvo, role um D6 para descobrir quanto dano é infligido ao alvo; em um 1 a Mina do Esporo não causa nenhum dano, em 2-5 inflige 1 Ferimento Mortal, e em 6 inflige D3 Ferimentos Mortais. Cada vez que um lançador de mina de esporos não atingir seu objetivo, configure um único modelo de “Mina de esporos” em qualquer lugar a no máximo 6" da unidade alvo e mais de 3" de qualquer modelo inimigo (se a Mina de Esporos não puder ser colocada, ela será destruída) . Isso segue as regras para uma Mina do Esporo (pág. 99) que faz parte do seu exército, mas não pode se mover ou carregar durante a curva que foi configurada. Esta arma pode mirar unidades que não são visíveis ao atirador, mas não pode ser usada para disparar Overwatch.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -10744,6 +10857,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6657-6c6f-5778-34e7" name="Stinger Salvo" type="upgrade">
@@ -10766,6 +10880,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="8.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0d1b-6f84-2224-a225" name="Stranglethorn Cannon" type="upgrade">
@@ -10798,6 +10913,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="b993-883f-105f-a3a5" name="Strangleweb" type="upgrade">
@@ -10820,6 +10936,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="938d-a7a3-928b-e958" name="Tentaclids" type="upgrade">
@@ -10842,6 +10959,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="205b-4334-56fd-a9e4" name="Toxic Lashes" type="upgrade">
@@ -10870,6 +10988,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8ca0-202f-634d-67de" name="Venom Cannon" type="upgrade">
@@ -10892,6 +11011,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="12.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="f571-04c9-570f-c924" name="Acid Maw" type="upgrade">
@@ -10914,6 +11034,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ca51-6037-f6a9-44f0" name="Biostatic Rattle" type="upgrade">
@@ -10936,6 +11057,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="6d44-8ab7-93ea-0f51" name="Blinding Venom" type="upgrade">
@@ -10958,6 +11080,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d6a4-47c4-d958-e3d4" name="Bone Mace" type="upgrade">
@@ -10980,6 +11103,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="506e-1334-6b64-53db" name="Boneswords" type="upgrade">
@@ -11002,6 +11126,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="2634-0525-7b04-6f89" name="Claws and Teeth" type="upgrade">
@@ -11024,6 +11149,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c801-8e20-f9ff-bba0" name="Crushing Claws" type="upgrade">
@@ -11046,6 +11172,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="12.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9dba-3b4b-128e-9ede" name="Distensible Jaws" type="upgrade">
@@ -11068,6 +11195,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2fca-289b-5d26-71a3" name="Grasping Talons" type="upgrade">
@@ -11090,6 +11218,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="591b-c551-1088-230b" name="Lash Whip and Bonesword" type="upgrade">
@@ -11128,6 +11257,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="eda8-1541-116e-f6aa" name="Lash Whip and Monstrous Bonesword" type="upgrade">
@@ -11166,6 +11296,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a038-a7a5-5878-3699" name="Massive Crushing Claws" type="upgrade">
@@ -11188,6 +11319,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f906-1281-9e25-d59e" name="Massive Scything Talons" type="upgrade">
@@ -11210,6 +11342,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8b03-dbb8-885e-42e6" name="Monstrous Boneswords" type="upgrade">
@@ -11242,6 +11375,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ad36-e646-f921-335f" name="Monstrous Rending Claws" type="upgrade">
@@ -11264,6 +11398,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e641-8fab-45bd-d886" name="Monstrous Crushing Claws" type="upgrade">
@@ -11286,6 +11421,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="12.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="086e-c796-ac9a-a766" name="Monstrous Scything Talons" type="upgrade">
@@ -11323,6 +11459,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="14.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="178d-3d9c-81ba-e703" name="Powerful Limbs" type="upgrade">
@@ -11345,6 +11482,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="73d5-dcb1-c0a2-b103" name="Prehensile Pincer Tail" type="upgrade">
@@ -11367,6 +11505,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f218-b32a-5399-a164" name="Ravenous Maw" type="upgrade">
@@ -11389,6 +11528,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1e30-0c48-a9cb-bdbe" name="Shovelling Claws" type="upgrade">
@@ -11411,6 +11551,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2b06-87d5-7b1e-8d82" name="Scything Talons" type="upgrade">
@@ -11433,6 +11574,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b869-1860-8dc6-211b" name="Scything Wings" type="upgrade">
@@ -11455,6 +11597,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c3f4-9aab-7e7f-2f46" name="Thresher Scythe" type="upgrade">
@@ -11477,6 +11620,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="15b2-5fa5-0482-9757" name="Toxic Lashes" type="upgrade">
@@ -11505,6 +11649,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="481f-cb43-34ae-a207" name="Toxinspike" type="upgrade">
@@ -11527,6 +11672,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="1.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9e49-2978-25df-b085" name="Wicked Spur" type="upgrade">
@@ -11549,6 +11695,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9837-af87-3cfd-a48c" name="Adrenal Glands" type="upgrade">
@@ -11579,6 +11726,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="1.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0ad6-5e03-5112-d194" name="Toxin Sacs" type="upgrade">
@@ -11656,6 +11804,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a50e-4043-d535-0f3a" name="Rending Claws" type="upgrade">
@@ -11678,6 +11827,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="b9ad-3827-329a-0e6e" name="Adrenal Glands" type="upgrade">
@@ -11708,6 +11858,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="1.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="8191-100c-b4d2-9879" name="Toxin Sacs" type="upgrade">
@@ -11785,6 +11936,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="64fd-9b59-e4c3-a28a" name="Flesh Hooks" type="upgrade">
@@ -11807,6 +11959,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="e552-a95b-c018-994d" name="Scything Talons" type="upgrade">
@@ -11829,6 +11982,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b2e2-50ef-bfed-5f84" name="Discipline: Hive Mind" type="upgrade">
@@ -11917,6 +12071,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ac8a-fb61-d587-36fb" name="Power: Smite" type="upgrade">
@@ -11944,6 +12099,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="35c3-a8c2-fe10-325f" name="Barbed Hierodule" type="model">
@@ -12007,7 +12163,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Hieródulo Farpado pode cair na fase de Movimento e ainda atirar e / ou carregar durante a sua vez. Quando um Hierodule Farpado rebate, ele pode até mesmo ultrapassar os modelos inimigos da INFANTARIA, embora no final do movimento ele deva estar a mais de 1" de distância de todas as unidades inimigas. Um Hieródulo Farpado pode atirar mesmo se houver modelos inimigos a menos de 1" disso, contanto que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Hierodule Farpado pode se mover e disparar armas pesadas sem sofrer a penalidade em seus testes de acerto. Finalmente, o Hieródulo Farpado só ganha o benefício de cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Hieródulo Farpado pode recuar na fase de Movimento e ainda atirar e / ou carregar durante a sua vez. Quando um Hierodule Farpado rebate, ele pode até mesmo ultrapassar os modelos inimigos da INFANTARIA, embora no final do movimento ele deva estar a mais de 1" de distância de todas as unidades inimigas. Um Hieródulo Farpado pode atirar mesmo se houver modelos inimigos a menos de 1" disso, contanto que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Hierodule Farpado pode se mover e disparar armas pesadas sem sofrer a penalidade em seus jogadas para acertar. Finalmente, o Hieródulo Farpado só ganha o benefício de cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="a8ee-415f-1c64-45f1" name="Barbed Hierodule" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -12132,6 +12288,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="420.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="22.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="31b7-cfad-2be9-9997" name="Dimachaeron" type="model">
@@ -12304,6 +12461,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="200.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d1cb-8964-788a-7e66" name="Harridan" type="model">
@@ -12379,7 +12537,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 5+, ele ataca em agonia, e cada unidade a no máximo 3" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 5+, ele ataca em agonia, e cada unidade a no máximo 3" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="ac15-5268-6ee6-b779" name="Frenzied Metabolism" page="19" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12388,7 +12546,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da fase de Tiro, você pode optar por fazer com que o Harridan sofra ferimentos mortais D3, mas adicione D6 à Força do seu bio-canhão durante o seu turno atual."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da fase de Tiro, você pode optar por fazer com que o Harridan sofra Ferimentos Mortais D3, mas adicione D6 à Força do seu bio-canhão durante o seu turno atual."/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="4d1e-5670-3da4-4e85" name="Sky Attack" page="19" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12397,7 +12555,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao mover um Harridan na fase do Movimento, escolha uma unidade inimiga que ela tenha passado. Essa unidade sofre imediatamente D3 ferimentos mortais. Essa habilidade pode não ter como alvo unidades compostas inteiramente de PERSONAGENS."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao mover um Harridan na fase do Movimento, escolha uma unidade inimiga que ela tenha passado. Essa unidade sofre imediatamente D3 Ferimentos Mortais. Essa habilidade pode não ter como alvo unidades compostas inteiramente de PERSONAGENS."/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="699a-fcfb-82c8-47d9" name="Flying Titanic Monster" page="19" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12406,7 +12564,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Harridan pode cair de volta na fase de movimento e ainda atirar e / ou carregar durante a sua vez. Quando um Harridan cai para trás, ele pode até mesmo ultrapassar os modelos inimigos da INFANTARIA, embora no final do movimento deva estar a mais de 1" de distância de todas as unidades inimigas. Um Harridan pode atirar mesmo se houver modelos inimigos a menos de 1" , desde que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Harridan pode se mover e disparar armas pesadas sem sofrer a penalidade em seus testes de acerto. Finalmente, o Harridan só ganha o benefício da cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Harridan pode recuar na fase de movimento e ainda atirar e / ou carregar durante a sua vez. Quando um Harridan cai para trás, ele pode até mesmo ultrapassar os modelos inimigos da INFANTARIA, embora no final do movimento deva estar a mais de 1" de distância de todas as unidades inimigas. Um Harridan pode atirar mesmo se houver modelos inimigos a menos de 1" , desde que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Harridan pode se mover e disparar armas pesadas sem sofrer a penalidade em seus jogadas para acertar. Finalmente, o Harridan só ganha o benefício da cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="9736-ab71-746c-de3d" name="Harridan" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -12535,6 +12693,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="740.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="32.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="fb84-bb9f-5abe-be3f" name="Malanthropes" type="unit">
@@ -12545,7 +12704,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu oponente deve subtrair 1 das testes de acerto das armas de longo alcance que atingem as &lt;FROTA DE HIVF&gt; a no máximo 3" de quaisquer Malantrópios amistosos. Esta penalidade não é acumulativa com a mesma penalidade de VENOMROPAIROS.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu oponente deve subtrair 1 das jogadas para acertar das armas de longo alcance que atingem as &lt;FROTA DE HIVF&gt; a no máximo 3" de quaisquer Malantrópios amistosos. Esta penalidade não é acumulativa com a mesma penalidade de VENOMROPAIROS.'/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="8e02-bdab-c2bb-700f" name="Prey Adaption" page="17" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12563,7 +12722,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" de qualquer Malantropia. Em um 4+, aquela unidade sofre uma Ferimento Mortal.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" de qualquer Malantropia. Em um 4+, aquela unidade sofre um Ferimento Mortal.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="6f95-c29b-d837-2acc" name="Malanthrope" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -12717,6 +12876,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="140.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="f5bd-2184-b333-4ac1" name="Malanthrope (Custom Character)" type="model">
@@ -12786,6 +12946,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="140.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -12824,6 +12985,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dec0-7f71-801a-6d37" name="Meiotic Spores" type="unit">
@@ -12962,6 +13124,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="18.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -12987,6 +13150,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="633b-45d1-420d-61ba" name="Scythed Hierodule" type="model">
@@ -13050,7 +13214,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Hieródulo Cisado pode cair na fase de Movimento e ainda atirar e / ou carregar durante a sua vez. Quando um Hierodule cai, ele pode até mover-se sobre os modelos inimigos da INFANTARIA, embora no final do movimento ele esteja a mais de 1" de distância de todas as unidades inimigas. Um Hieródulo Cego pode atirar mesmo se houver modelos inimigos a menos de 1" disso, contanto que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Hierodule Scythed pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas de acerto. Finalmente, o Hierodule de Scythed só ganha o benefício de cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Hieródulo Cisado pode recuar na fase de Movimento e ainda atirar e / ou carregar durante a sua vez. Quando um Hierodule cai, ele pode até mover-se sobre os modelos inimigos da INFANTARIA, embora no final do movimento ele esteja a mais de 1" de distância de todas as unidades inimigas. Um Hieródulo Cego pode atirar mesmo se houver modelos inimigos a menos de 1" disso, contanto que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Hierodule Scythed pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas para acertar. Finalmente, o Hierodule de Scythed só ganha o benefício de cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="e1a5-bc54-40a5-d19e" name="Scythed Hierodule" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -13175,6 +13339,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="350.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="22.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8d05-bafd-ea07-c4af" name="Hierophant Bio-titan" type="model">
@@ -13250,7 +13415,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 5+ invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="cfbd-1769-3c05-5643" name="Death Throes (Hierophant)" page="20" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13259,7 +13424,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 4+, ele ataca em agonia, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 4+, ele ataca em agonia, e cada unidade a no máximo 6" sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="f617-0a79-669a-e24b" name="Frenzied Metabolism" page="19" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13268,7 +13433,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar o bio-canhão do Hierofante, você pode aproveitar seu metabolismo frenético. Se o fizer, o Bio-Titã Hierofante sofre D3 ferimentos mortais, mas alimenta a Força de seu terrível canhão biológico."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao usar o bio-canhão do Hierofante, você pode aproveitar seu metabolismo frenético. Se o fizer, o Bio-Titã Hierofante sofre D3 Ferimentos Mortais, mas alimenta a Força de seu terrível canhão biológico."/>
      </characteristics>
     </profile>
     <profile book="Imperial Armour - Index: Xenos" hidden="false" id="e31b-5933-1a4b-5224" name="Titanic Monster" page="20" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13277,7 +13442,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Hierofante Bio-titânico pode cair de volta na fase de Movimento e ainda atirar e / ou carregar durante seu turno. Quando um Hierofante Bio-titânico recua, ele pode até se mover sobre modelos de INFANTARIA inimigos, embora no final de seu movimento ele esteja a mais de 1" de distância de todas as unidades inimigas. Um Hierofante Bio-Titã pode atirar mesmo se houver inimigos modelos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Bio-titã Hierofante pode se mover e disparar armas pesadas sem sofrer a penalidade em seus testes de acerto. Finalmente, o Hierophant Bio-titan só ganha o benefício da cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Hierofante Bio-titânico pode recuar na fase de Movimento e ainda atirar e / ou carregar durante seu turno. Quando um Hierofante Bio-titânico recua, ele pode até se mover sobre modelos de INFANTARIA inimigos, embora no final de seu movimento ele esteja a mais de 1" de distância de todas as unidades inimigas. Um Hierofante Bio-Titã pode atirar mesmo se houver inimigos modelos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra-chave INFANTRY. Neste caso, ele pode atirar na unidade inimiga que estiver a menos de 1" ou qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Bio-titã Hierofante pode se mover e disparar armas pesadas sem sofrer a penalidade em seus jogadas para acertar. Finalmente, o Hierophant Bio-titan só ganha o benefício da cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="b45b-d17c-7722-1954" name="Hierophant Bio-titan" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -13364,6 +13529,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="60.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -13386,7 +13552,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Sempre que uma unidade inimiga infligir uma ou mais feridas neste modelo na fase de combate, jogue um dado no final da fase de combate. Em um 4+, essa unidade imediatamente sofre uma Ferimento Mortal."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Sempre que uma unidade inimiga infligir uma ou mais feridas neste modelo na fase de combate, jogue um dado no final da fase de combate. Em um 4+, essa unidade imediatamente sofre um Ferimento Mortal."/>
          </characteristics>
         </profile>
        </profiles>
@@ -13401,6 +13567,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="69bd-9704-93a5-68d3" name="Swarm Incubation Chamber" type="upgrade">
@@ -13434,6 +13601,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -13495,6 +13663,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="2000.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="90.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5c6d-f382-b731-f5ca" name="Stone Crusher Carnifex Brood" type="unit">
@@ -13505,7 +13674,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Stone Crusher Carnifex termina um movimento de carga, jogue um dado; em 4+, uma unidade inimiga de sua escolha a menos de 1" sofre uma Ferimento Mortal. Se esta unidade for um VEÍCULO ou CONSTRUÇÃO, em vez disso, ela sofre D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Stone Crusher Carnifex termina um movimento de carga, jogue um dado; em 4+, uma unidade inimiga de sua escolha a menos de 1" sofre um Ferimento Mortal. Se esta unidade for um VEÍCULO ou CONSTRUÇÃO, em vez disso, ela sofre D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="7ffd-38df-aa10-b858" name="Stone Crusher Carnifex Brood" profileTypeId="b900-0afb-e411-2cbb" profileTypeName="Keywords">
@@ -13650,6 +13819,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="18.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="8a27-35c2-0cb3-c215" name="Wrecker Claw &amp; Bio-flail" type="upgrade">
@@ -13678,6 +13848,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="25.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -13731,6 +13902,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="80.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -13739,6 +13911,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4272-bdbd-78b2-08bf" name="Bio-acid Spray" type="upgrade">
@@ -13761,6 +13934,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="edbe-6b66-80b6-3a5f" name="Bio-cannon" type="upgrade">
@@ -13783,6 +13957,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6d47-9d36-fc89-1316" name="Bio-plasma Torrent" type="upgrade">
@@ -13805,6 +13980,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8d2d-472c-af91-a46d" name="Dire Bio-cannon" type="upgrade">
@@ -13827,6 +14003,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="73b0-88c7-e9bd-3eca" name="Bio-flail" type="upgrade">
@@ -13849,6 +14026,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="a477-c4f7-3478-8670" name="Grasping Tail" type="upgrade">
@@ -13871,6 +14049,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7db0-b30f-6c80-6bb9" name="Grasping Talons and Thorax Spine-maw" type="upgrade">
@@ -13893,6 +14072,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="53cc-27e1-9cd2-65ff" name="Lashwhip Pods" type="upgrade">
@@ -13915,6 +14095,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a8e7-240e-26c7-f27a" name="Sickle Claws" type="upgrade">
@@ -13937,6 +14118,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="afd5-2e14-a36e-7887" name="3. The Horror" type="upgrade">
@@ -13967,6 +14149,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="275e-be2c-2912-b825" name="2. Catalyst" type="upgrade">
@@ -13997,6 +14180,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6208-036c-2a57-caed" name="4. Onslaught" type="upgrade">
@@ -14027,6 +14211,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7cd5-1124-4d20-3675" name="Show Spore Mine Rules" type="upgrade">
@@ -14081,6 +14266,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1e74-63b9-9478-0dc8" name="Hive Fleet" type="upgrade">
@@ -14123,7 +14309,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode rolar novamente os testes de carga com falha para unidades com essa adaptação."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar os testes de carga malsucedida para unidades com essa adaptação."/>
          </characteristics>
         </profile>
        </profiles>
@@ -14138,6 +14324,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="92a3-51dc-e17d-d95f" name="Gorgon" type="upgrade">
@@ -14148,7 +14335,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas de ferimento de 1 na fase de combate para unidades com esta adaptação."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para ferir de 1 na fase de combate para unidades com esta adaptação."/>
          </characteristics>
         </profile>
        </profiles>
@@ -14163,6 +14350,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="f973-c605-fcc3-5af8" name="Hydra" type="upgrade">
@@ -14173,7 +14361,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar testes de acerto na fase de combate para unidades com essa adaptação que miram em unidades contendo menos modelos do que as próprias."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar jogadas para acertar na fase de combate para unidades com essa adaptação que miram em unidades contendo menos modelos do que as próprias."/>
          </characteristics>
         </profile>
        </profiles>
@@ -14188,6 +14376,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="6ee0-91dd-71bf-d44f" name="Jormungandr" type="upgrade">
@@ -14213,6 +14402,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="222e-9b92-1970-a607" name="Kraken" type="upgrade">
@@ -14238,6 +14428,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="db16-a8c3-e63a-1f1c" name="Kronos" type="upgrade">
@@ -14248,7 +14439,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar 1s nos testes de acerto para unidades com esta adaptação na fase de tiro se elas não se moverem na fase de movimento anterior."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Você pode re-rolar 1s nas jogadas para acertar para unidades com esta adaptação na fase de tiro se elas não se moverem na fase de movimento anterior."/>
          </characteristics>
         </profile>
        </profiles>
@@ -14263,6 +14454,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="fce9-099b-a913-2dc8" name="Leviathan" type="upgrade">
@@ -14273,7 +14465,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que uma unidade com esta adaptação perder uma ferida enquanto estiver a no máximo 6" de uma unidade Synapse aliada da mesma frota da colméia. Em um 6, o dano é ignorado e a unidade não perde uma ferida. Ignore esta adaptação em uma unidade atualmente afetada pelo poder psíquico do catalisador.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Role um D6 cada vez que uma unidade com esta adaptação perder um Ponto de Vida enquanto estiver a no máximo 6" de uma unidade Synapse aliada da mesma frota da colméia. Em um 6, o dano é ignorado e a unidade não perde um Ponto de Vida. Ignore esta adaptação em uma unidade atualmente afetada pelo poder psíquico do catalisador.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -14288,6 +14480,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -14299,6 +14492,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="647c-8d7d-26ea-40bd" name="6. Psychic Scream" type="upgrade">
@@ -14329,6 +14523,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="797b-c7fe-679a-7117" name="Screamer-Killers" type="unit">
@@ -14339,7 +14534,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Screamer-Killer terminar um movimento de carga, jogue um dado; em 4+ uma unidade inimiga com 1" sofre uma Ferimento Mortal. Além disso, adicione 1 a todas as jogadas de acerto na fase de combate para um Assassino de Cerrar que tenha carregado no mesmo turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Screamer-Killer terminar um movimento de carga, jogue um dado; em 4+ uma unidade inimiga com 1" sofre um Ferimento Mortal. Além disso, adicione 1 a todas as jogadas para acertar na fase de combate para um Assassino de Cerrar que tenha carregado no mesmo turno.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="428b-5171-dcf3-a598" name="Terrifying" page="103" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14475,6 +14670,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="ced2-9981-e329-e6f1" name="2x Monstrous Scything Talons" type="upgrade">
@@ -14500,6 +14696,7 @@
        <costs>
         <cost costTypeId="points" name="pts" value="15.0"/>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -14555,6 +14752,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="90.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -14563,6 +14761,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1469-304f-ef9e-7b75" name="1. Dominion" type="upgrade">
@@ -14593,6 +14792,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0d04-1d81-fb42-b2d4" name="5. Paroxysm" type="upgrade">
@@ -14623,6 +14823,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8a16-fcf0-8e16-083b" name="Spine Banks" type="upgrade">
@@ -14645,6 +14846,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="2.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b774-7145-5f59-9e9b" name="Monstrous Acid Maw" type="upgrade">
@@ -14667,6 +14869,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6c79-005f-7fc6-aceb" name="Spore Cysts" type="upgrade">
@@ -14677,7 +14880,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de suas testes de acerto para todos os ataques à distância que tenham como alvo um modelo com cistos de esporos. Isto não é cumulativo com as penalidades para acertar as jogadas incorridas pela habilidade Esmagar os Esforços."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de seus jogadas para acertar para todos os ataques à distância que tenham como alvo um modelo com cistos de esporos. Isto não é cumulativo com as penalidades para acertar as jogadas incorridas pela habilidade Esmagar os Esforços."/>
      </characteristics>
     </profile>
    </profiles>
@@ -14692,6 +14895,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0af1-5d39-8da1-53c0" name="Chitin Thorns" type="upgrade">
@@ -14714,6 +14918,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="5.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="fd3c-0d6f-c0b5-3e03" name="Enhanced Senses" type="upgrade">
@@ -14739,6 +14944,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="10.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6661-b7b0-872d-d0dc" name="Tusks" type="upgrade">
@@ -14764,6 +14970,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="8.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="cd9f-f30b-27c3-2869" name="Neurothrope" type="model">
@@ -14990,6 +15197,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="90.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="true" hidden="false" id="29c0-c68e-5bdc-9b99" name="Extended Carapace" type="upgrade">
@@ -15015,6 +15223,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="2.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6f2a-1546-df78-9521" name="Thornbacks" type="unit">
@@ -15025,7 +15234,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Thornback terminar uma jogada, jogue um dado; em 4+ uma unidade inimiga com 1" sofre uma Ferimento Mortal. Unidades de INFANTARIA, ao invés disso, sofrem D3 ferimentos mortais. Além disso, adicione 1 a todas as jogadas de acerto na fase de combate para um Tiro de Espinhos que sofreu uma carga no mesmo turno.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Thornback terminar uma jogada, jogue um dado; em 4+ uma unidade inimiga com 1" sofre um Ferimento Mortal. Unidades de INFANTARIA, ao invés disso, sofrem D3 Ferimentos Mortais. Além disso, adicione 1 a todas as jogadas para acertar na fase de combate para um Tiro de Espinhos que sofreu uma carga no mesmo turno.'/>
      </characteristics>
     </profile>
     <profile book="Codex: Tyranids" hidden="false" id="6b7f-660e-1a2f-bfbb" name="Vicious Hunter" page="104" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -15201,6 +15410,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="14.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
         <selectionEntry collective="false" hidden="false" id="a35b-d5e3-2150-647d" name="Two Devourers with Brainleech Worms" type="upgrade">
@@ -15223,6 +15433,7 @@
          <costs>
           <cost costTypeId="points" name="pts" value="14.0"/>
           <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+          <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -15312,6 +15523,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="70.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15320,6 +15532,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c1e2-406a-e7c9-749c" name="Acid Maw" type="upgrade">
@@ -15342,6 +15555,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c832-2f4e-ee51-f481" name="Warlord" type="upgrade">
@@ -15367,9 +15581,10 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="6b0e-e4eb-91ab-6e4c" name="Stratagem: Bounty of the Hive Fleet (-1 CP)" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="6b0e-e4eb-91ab-6e4c" name="Stratagem: Bounty of the Hive Fleet" type="upgrade">
    <profiles>
     <profile book="Codex: Tyranids" hidden="false" id="242b-ce50-9f44-80ad" name="Bounty of the Hive Fleet" page="118" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
      <profiles/>
@@ -15383,15 +15598,7 @@
    </profiles>
    <rules/>
    <infoLinks/>
-   <modifiers>
-    <modifier field="name" type="set" value="Stratagem: Bounty of the Hive Fleet (-3 CP)">
-     <repeats/>
-     <conditions>
-      <condition childId="6e93-50ba-cbf3-f88f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="6b0e-e4eb-91ab-6e4c" shared="true" type="atLeast" value="1.0"/>
-     </conditions>
-     <conditionGroups/>
-    </modifier>
-   </modifiers>
+   <modifiers/>
    <constraints>
     <constraint field="selections" id="795d-1b62-bf36-086d" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -15409,17 +15616,11 @@
      </constraints>
      <categoryLinks/>
      <selectionEntries>
-      <selectionEntry collective="false" hidden="false" id="c70d-fb73-b3fc-e301" name="1 Extra Bio-artefact (-1 CP)" type="upgrade">
+      <selectionEntry collective="false" hidden="false" id="c70d-fb73-b3fc-e301" name="1 Extra Bio-artefact" type="upgrade">
        <profiles/>
        <rules/>
        <infoLinks/>
-       <modifiers>
-        <modifier field="name" type="set" value="1 Extra Bio-artefact">
-         <repeats/>
-         <conditions/>
-         <conditionGroups/>
-        </modifier>
-       </modifiers>
+       <modifiers/>
        <constraints/>
        <categoryLinks/>
        <selectionEntries/>
@@ -15428,19 +15629,14 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
        </costs>
       </selectionEntry>
-      <selectionEntry collective="false" hidden="false" id="6e93-50ba-cbf3-f88f" name="2 Extra Bio-artefacts (-3 CP)" type="upgrade">
+      <selectionEntry collective="false" hidden="false" id="6e93-50ba-cbf3-f88f" name="2 Extra Bio-artefacts" type="upgrade">
        <profiles/>
        <rules/>
        <infoLinks/>
-       <modifiers>
-        <modifier field="name" type="set" value="2 Extra Bio-artefacts">
-         <repeats/>
-         <conditions/>
-         <conditionGroups/>
-        </modifier>
-       </modifiers>
+       <modifiers/>
        <constraints/>
        <categoryLinks/>
        <selectionEntries/>
@@ -15449,6 +15645,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-3.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -15460,6 +15657,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dc31-a954-25ed-be9a" name="Extensions of the Hive Mind" type="upgrade">
@@ -15495,6 +15693,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -15527,6 +15726,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15707,6 +15907,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="14.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="20ea-e945-2233-72bc" name="Two Devourers with Brainleech Worms" type="upgrade">
@@ -15731,6 +15932,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="14.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15931,6 +16133,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="3949-786e-c9fd-140f" name="Slimer Maggot Infestation" type="upgrade">
@@ -15946,7 +16149,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma."/>
        </characteristics>
       </profile>
       <profile book="Codex: Tyranids" hidden="false" id="f42f-e548-f8fb-9829" name="Slimer Maggot Infestation" page="123" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16003,6 +16206,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="39cc-9246-635b-460c" name="The Miasma Cannon" type="upgrade">
@@ -16062,6 +16266,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="0dc7-b755-cb9a-b78b" name="Hyper-adaptive Biology" type="upgrade">
@@ -16103,6 +16308,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="92b0-89f7-d021-e23e" name="Scythes of Tyran" type="upgrade">
@@ -16118,7 +16324,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Este modelo pode fazer 1 ataque adicional com esta arma cada vez que lutar. Além disso, cada vez que você fizer um teste de 6+ para essa arma, você poderá fazer um teste de acerto adicional. Essas rolagens de hits adicionais não podem gerar mais rolagens de resultados adicionais."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Este modelo pode fazer 1 ataque adicional com esta arma cada vez que lutar. Além disso, cada vez que você fizer um teste de 6+ para essa arma, você poderá fazer um jogada para acertar adicional. Essas rolagens de hits adicionais não podem gerar mais rolagens de resultados adicionais."/>
        </characteristics>
       </profile>
       <profile book="Codex: Tyranids" hidden="false" id="4dcd-3dd1-c364-ada4" name="Scythes of Tyran" page="122" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16175,6 +16381,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="cd0f-7a40-e768-0175" name="The Ymgarl Factor" type="upgrade">
@@ -16229,6 +16436,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="acbe-148d-e7d1-85bb" name="The Reaper of Obilterax" type="upgrade">
@@ -16273,6 +16481,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="595b-7c26-fcbb-a97e" name="Chameleonic Mutation" type="upgrade">
@@ -16283,7 +16492,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Apenas modelo KRAKEN. Seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este modelo."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Apenas modelo KRAKEN. Seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que tenham como alvo este modelo."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16314,6 +16523,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4cd2-d56c-29e1-796d" name="Slayer Sabres" type="upgrade">
@@ -16329,7 +16539,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um modelo armado com o Slayer Sabers pode fazer 1 ataque adicional com eles na fase de combate. Além disso, se um modelo de INFANTARIA ou MOTOCICLISTA sofrer dano desta arma, mas não estiver morto, role um D3 no final da fase de combate. Se o resultado for maior que o número restante de feridas do modelo, ele será morto."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Um modelo armado com o Slayer Sabers pode fazer 1 ataque adicional com eles na fase de combate. Além disso, se um modelo de INFANTARIA ou BIKER sofrer dano desta arma, mas não estiver morto, role um D3 no final da fase de combate. Se o resultado for maior que o número restante de feridas do modelo, ele será morto."/>
        </characteristics>
       </profile>
       <profile book="Codex: Tyranids" hidden="false" id="f4a5-b4e2-ee2a-2d85" name="Slayer Sabres" page="123" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -16386,6 +16596,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="b3c9-1518-d0bd-68a8" name="The Maw-claws of Thyrax" type="upgrade">
@@ -16396,7 +16607,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelo com garras rasgadas ou apenas garras rasgadas monstruosas. Quando esse modelo mata um modelo inimigo na fase de combate, você pode rolar novamente as jogadas com falha em todas as fases subsequentes da Luta para esse modelo."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelo com garras rasgadas ou apenas garras rasgadas monstruosas. Quando esse modelo mata um modelo inimigo na fase de combate, você pode re-rolar as jogadas malsucedida em todas as fases subsequentes da Luta para esse modelo."/>
        </characteristics>
       </profile>
      </profiles>
@@ -16429,6 +16640,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="e309-529f-1605-f21a" name="The Norn Crown" type="upgrade">
@@ -16439,7 +16651,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades aliadas ​​do &lt;HIVE FLEET&gt; não sofrem penalidades em suas jogadas de acertos e nas jogadas de acréscimo decorrentes da habilidade de Comportamento Instintivo, enquanto estiverem a no máximo 30" desse modelo.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='As unidades aliadas ​​do &lt;HIVE FLEET&gt; não sofrem penalidades em suas jogadas para acertars e nas jogadas de acréscimo decorrentes da habilidade de Comportamento Instintivo, enquanto estiverem a no máximo 30" desse modelo.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -16456,6 +16668,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="7604-aeae-261b-ed20" name="Infrasonic Roar" type="upgrade">
@@ -16504,6 +16717,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -16584,6 +16798,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="942d-cb3d-b245-1450" name="2. Heightened Sensess" type="upgrade">
@@ -16594,7 +16809,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu Warlord nunca sofre penalidades em suas jogadas de acerto (embora eles ainda só acertem em 6 quando disparam Overwatch)."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu Warlord nunca sofre penalidades em suas jogadas para acertar (embora eles ainda só acertem em 6 quando disparam Overwatch)."/>
          </characteristics>
         </profile>
        </profiles>
@@ -16631,6 +16846,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="101e-24a3-ec94-9119" name="3. Synaptic Lynchpin" type="upgrade">
@@ -16679,6 +16895,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="9248-5937-3434-37a5" name="4. Mind Eater" type="upgrade">
@@ -16726,6 +16943,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="9179-7949-c275-8568" name="5. Instinctive Killer" type="upgrade">
@@ -16736,7 +16954,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da batalha, mas antes do primeiro turno começar, escolha uma unidade inimiga. Você pode re-rolar testes de acerto malsucedidos para o Warlord para ataques que visam aquela unidade ou qualquer unidade que tenha a mesma folha de dados (por exemplo, todos os Intercessor Squads ou todas as unidades de Nobz etc.)."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início da batalha, mas antes do primeiro turno começar, escolha uma unidade inimiga. Você pode re-rolar jogadas para acertar malsucedidas para o Warlord para ataques que visam aquela unidade ou qualquer unidade que tenha a mesma folha de dados (por exemplo, todos os Intercessor Squads ou todas as unidades de Nobz etc.)."/>
          </characteristics>
         </profile>
        </profiles>
@@ -16774,6 +16992,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="7647-ea87-0427-b47d" name="6. Adaptive Biology" type="upgrade">
@@ -16821,6 +17040,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="ce64-1747-81c9-716e" name="Behemoth: Monstrous Hunger" type="upgrade">
@@ -16831,7 +17051,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você faz um teste de ferimento de 6+  para o Warlord na fase de combate, esse ataque causa 1 dano adicional."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você faz uma jogada para ferir de 6+  para o Warlord na fase de combate, esse ataque causa 1 dano adicional."/>
          </characteristics>
         </profile>
        </profiles>
@@ -16882,6 +17102,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="7f79-a98b-9a40-762b" name="Kraken: One Step Ahead" type="upgrade">
@@ -16943,6 +17164,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="44d7-a6a8-d0db-f678" name="Kronos: Soul Hunger" type="upgrade">
@@ -17004,6 +17226,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="b6e9-4130-fd6a-78f3" name="Leviathan: Perfectly Adapted" type="upgrade">
@@ -17014,7 +17237,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por rodada de batalha, você pode re-rolar um único teste de acerto, testes para ferir, dano, rolamento Avançado, teste de carga ou teste de resistência feito para seu Warlord."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por rodada de batalha, você pode re-rolar um único jogada para acertar, jogadas para ferir, dano, rolamento Avançado, teste de carga ou teste de resistência feito para seu Warlord."/>
          </characteristics>
         </profile>
        </profiles>
@@ -17065,6 +17288,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="955a-8fd9-c9aa-8761" name="Gorgon: Lethal Miasma" type="upgrade">
@@ -17075,7 +17299,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" do Senhor da Guerra. Em um 4+ essa unidade sofre uma Ferimento Mortal.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" do Senhor da Guerra. Em um 4+ essa unidade sofre um Ferimento Mortal.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -17126,6 +17350,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="8054-4c09-990b-5fdb" name="Jormungandr: Insidious Threat" type="upgrade">
@@ -17187,6 +17412,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="04dc-2179-9819-beaa" name="Hydra: Endless Regeneration" type="upgrade">
@@ -17248,6 +17474,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -17400,7 +17627,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma. Além disso, as unidades atacadas por esta arma não ganham nenhum bônus em seus testes de resistência por estarem em cobertura."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma. Além disso, as unidades atacadas por esta arma não ganham nenhum bônus em seus testes de resistência por estarem em cobertura."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="c7bc-14dc-e5c8-0345" name="Deathspitter" page="112" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17582,7 +17809,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Esta arma pode ser disparada a menos de 1" de uma unidade inimiga, e pode atingir unidades inimigas a menos de 1" de unidades aliadas. Você pode re-rolar todas as jogadas com falha dessa arma.'/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Esta arma pode ser disparada a menos de 1" de uma unidade inimiga, e pode atingir unidades inimigas a menos de 1" de unidades aliadas. Você pode re-rolar todas as jogadas malsucedida dessa arma.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="e986-1c2e-3fc5-0ea9" name="Rupture Cannon" page="113" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17610,7 +17837,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se o alvo for um VEÍCULO e você fizer um teste de ferimento de 4+, o alvo sofre 1 ferimento mortal além de qualquer outro dano. Se você fizer um teste de ferimento de 6+, inflige ferimentos mortais em D3."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se o alvo for um VEÍCULO e você fizer uma jogada para ferir de 4+, o alvo sofre 1 ferimento mortal além de qualquer outro dano. Se você fizer uma jogada para ferir de 6+, inflige Ferimentos Mortais em D3."/>
    </characteristics>
   </profile>
   <profile book="Index: Xenos 2" hidden="false" id="8fa5-5682-4bf0-d824" name="Spike Rifle" page="140" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17722,7 +17949,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar os testes de acerto malsucedidos para esta arma contra unidades que possam FLY. Além disso, se o alvo for um VEÍCULO e você fizer um teste de 4+, ele sofre 1 ferimento mortal além de qualquer outro dano. Se você fizer um teste de ferimento de 6+, inflige ferimentos mortais em D3."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar as jogadas para acertar malsucedidas para esta arma contra unidades que possam FLY. Além disso, se o alvo for um VEÍCULO e você fizer um teste de 4+, ele sofre 1 ferimento mortal além de qualquer outro dano. Se você fizer uma jogada para ferir de 6+, inflige Ferimentos Mortais em D3."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="ca3d-b44a-c608-a3c4" name="Toxic Lashes (Shooting)" page="113" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17736,7 +17963,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Esta arma pode ser disparada a menos de 1" de uma unidade inimiga, e pode atingir unidades inimigas a menos de 1" de unidades aliadas. Além disso, você pode rolar novamente testes testes para ferir malsucedidos para esta arma.'/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Esta arma pode ser disparada a menos de 1" de uma unidade inimiga, e pode atingir unidades inimigas a menos de 1" de unidades aliadas. Além disso, você pode re-rolar testes jogadas para ferir malsucedidas para esta arma.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="c22e-4741-a1a3-4d48" name="Venom Cannon" page="113" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17806,7 +18033,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer unidade sofrer algum dano não salvo desta arma, seu oponente deve subtrair 1 das jogadas de acerto daquela unidade até o final do turno."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer unidade sofrer algum dano não salvo desta arma, seu oponente deve subtrair 1 das jogadas para acertar daquela unidade até o final do turno."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="12f8-939f-a4a3-953b" name="Bone Mace" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17834,7 +18061,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você fizer um teste de ferimento de 6+ para esta arma, o alvo sofre uma Ferimento Mortal além de qualquer outro dano."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você fizer uma jogada para ferir de 6+ para esta arma, o alvo sofre um Ferimento Mortal além de qualquer outro dano."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="678e-d28c-b67c-b4a4" name="Boneswords" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17876,7 +18103,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="bd05-4d35-999b-96bb" name="Distensible Jaws" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17960,7 +18187,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="9fa5-98ff-85fe-4b50" name="Monstrous Crushing Claws" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17974,7 +18201,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="b391-f574-987c-6398" name="Monstrous Rending Claws" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -17988,7 +18215,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma. Além disso, cada vez que você fizer um teste de 6+, esse resultado é resolvido com um AP de -6 e Dano de 3."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma. Além disso, cada vez que você fizer um teste de 6+, esse resultado é resolvido com um AP de -6 e Dano de 3."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="bc0b-38c4-9cce-e264" name="Massive Sything Talons" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18002,7 +18229,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nos testes de acerto quando atacar com esta arma. Se o portador tiver mais de um par de garras em massa, pode fazer 1 ataque adicional com esta arma cada vez que lutar."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nas jogadas para acertar quando atacar com esta arma. Se o portador tiver mais de um par de garras em massa, pode fazer 1 ataque adicional com esta arma cada vez que lutar."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="50eb-e431-8604-7297" name="Monstrous Scything Talons" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18016,7 +18243,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nos testes de acerto quando atacar com esta arma. Se o portador tiver mais do que um par de garras monstruosas, pode fazer 1 ataque adicional com esta arma cada vez que lutar."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nas jogadas para acertar quando atacar com esta arma. Se o portador tiver mais do que um par de garras monstruosas, pode fazer 1 ataque adicional com esta arma cada vez que lutar."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="7542-2b3e-e85b-c2de" name="Massive Toxic Lashes (Melee)" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18030,7 +18257,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma. Um modelo armado com esta arma sempre ataca primeiro na fase de combate, mesmo que ela não seja carregada. Se o inimigo tiver unidades que tenham carregado, ou que tenham uma habilidade similar, então escolha unidades alternativas para lutar, começando com o jogador cuja vez está acontecendo."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma. Um modelo armado com esta arma sempre ataca primeiro na fase de combate, mesmo que ela não seja carregada. Se o inimigo tiver unidades que tenham carregado, ou que tenham uma habilidade similar, então escolha unidades alternativas para lutar, começando com o jogador cuja vez está acontecendo."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="ecdb-5c4d-23b3-3968" name="Powerful Limbs" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18086,7 +18313,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -4."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -4."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="dfe2-833c-353d-3e27" name="Shovelling Claws" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18114,7 +18341,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nos testes de acerto quando atacar com esta arma. Se o portador tiver mais de um par de garras, pode fazer 1 ataque adicional com esta arma cada vez que lutar."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nas jogadas para acertar quando atacar com esta arma. Se o portador tiver mais de um par de garras, pode fazer 1 ataque adicional com esta arma cada vez que lutar."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="21e5-b5c6-6195-1413" name="Scything Wings" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18128,7 +18355,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nos testes de acerto quando atacar com esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar 1s nas jogadas para acertar quando atacar com esta arma."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="a3b8-3e84-2d3e-2bd8" name="Thresher Scythe" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18142,7 +18369,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta, ele pode fazer um (e apenas um) ataque com essa arma. Faça as jogadas de acerto do D3 para este ataque em vez de um. Isto é em adição aos ataques do portador."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta, ele pode fazer um (e apenas um) ataque com essa arma. Faça as jogadas para acertar do D3 para este ataque em vez de um. Isto é em adição aos ataques do portador."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="4684-22c8-a90a-13c3" name="Toxic Lashes (Melee)" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18156,7 +18383,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos para esta arma. Um modelo armado com esta arma sempre ataca primeiro na fase de combate, mesmo que ela não seja carregada. Se o inimigo tiver unidades que tenham carregado, ou que tenham uma habilidade similar, então escolha unidades alternativas para lutar, começando com o jogador cuja vez está acontecendo."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma. Um modelo armado com esta arma sempre ataca primeiro na fase de combate, mesmo que ela não seja carregada. Se o inimigo tiver unidades que tenham carregado, ou que tenham uma habilidade similar, então escolha unidades alternativas para lutar, começando com o jogador cuja vez está acontecendo."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="a178-b129-6e08-9a88" name="Toxinspike" page="111" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18188,7 +18415,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Qualquer teste para ferir de 6+ na fase de combate para um modelo com sacos de toxina causa 1 dano adicional."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Qualquer jogada para ferir de 6+ na fase de combate para um modelo com sacos de toxina causa 1 dano adicional."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="3e97-1173-dc2a-49e6" name="Termagant" page="90" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -18223,7 +18450,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo com essa habilidade tem um 4+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um modelo com essa habilidade tem um salvamento invulnerável de 4+ ."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="6515-364e-86c7-5f9f" name="Death Throes" page="" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18232,7 +18459,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha; em um 6, ele ataca em agonia, e cada unidade a no máximo 3" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, jogue um dado antes de removê-lo do campo de batalha; em um 6, ele ataca em agonia, e cada unidade a no máximo 3" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="91dd-d2c6-4db5-3bf1" name="Lightning Reflexes" page="89" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18241,7 +18468,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 5+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um salvamento invulnerável de 5+ ."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="bc40-384b-8bf8-f27e" name="Swift and Deadly" page="89" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18295,7 +18522,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que esse modelo perde uma ferida na fase de combate, role um D6; em um 6, a unidade que infligiu o dano sofre uma Ferimento Mortal após todos os seus ataques terem sido resolvidos."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que esse modelo perde um Ponto de Vida na fase de combate, role um D6; em um 6, a unidade que infligiu o dano sofre um Ferimento Mortal após todos os seus ataques terem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="a08a-d545-b128-7054" name="Death from Below" page="98" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18313,7 +18540,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se esta unidade contiver 20 ou mais modelos, você poderá re-rolar jogadas de ferimento de 1 quando disparar."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se esta unidade contiver 20 ou mais modelos, você poderá re-rolar jogadas para ferir de 1 quando disparar."/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour - Index: Xenos" hidden="false" id="2e26-53a3-b827-cd3a" name="Bio-acid Spray" page="83" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18383,7 +18610,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Cada vez que o portador luta, um (e apenas um) de seus ataques pode ser feito com esta arma. Quando o portador luta com esta arma, faça um número de jogadas de acerto contra uma unidade alvo igual ao número de modelos que a unidade alvo tem a no máximo 2" do portador.'/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Cada vez que o portador luta, um (e apenas um) de seus ataques pode ser feito com esta arma. Quando o portador luta com esta arma, faça um número de jogadas para acertar contra uma unidade alvo igual ao número de modelos que a unidade alvo tem a no máximo 2" do portador.'/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour - Index: Xenos" hidden="false" id="98b4-26f2-f8ed-1bbd" name="Wrecker Claws" page="83" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18397,7 +18624,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra VEÍCULOS e EDIFÍCIOS, re-role todos os testes para ferir com esta arma. Se este modelo tiver duas garras de destruidor, ele também re-rola testes de acerto malsucedidos contra VEÍCULOS e EDIFÍCIOS"/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra VEÍCULOS e EDIFÍCIOS, re-role todos as jogadas para ferir com esta arma. Se este modelo tiver duas garras de destruidor, ele também re-rola jogadas para acertar malsucedidas contra VEÍCULOS e EDIFÍCIOS"/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour - Index: Xenos" hidden="false" id="c4df-752f-d415-9f56" name="Grasping Tail" page="83" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18439,7 +18666,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas de acerto para cada ataque com esta arma."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas para acertar para cada ataque com esta arma."/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour - Index: Xenos" hidden="false" id="3bb6-33f6-8eec-ae18" name="Sickle Claws" page="83" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18453,7 +18680,7 @@
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um teste de acerto com esta arma for 6, resolva esse acerto com um AP de -4 e um Dano de D6."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se um jogada para acertar com esta arma for 6, resolva esse acerto com um AP de -4 e um Dano de D6."/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour - Index: Xenos" hidden="false" id="0d39-0421-a840-1b44" name="Gargantuan Scything Talons" page="83" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18494,7 +18721,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 5+, ele ataca em agonia, e cada unidade a no máximo 3" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; em um 5+, ele ataca em agonia, e cada unidade a no máximo 3" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="1e3b-eeef-c059-088a" name="Onslaught" page="121" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
@@ -18553,7 +18780,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma Spore Mine explode se estiver a no máximo 3" de qualquer unidade inimiga no final de qualquer fase de Charge. Toda vez que uma Spore Mine explodir, faça um D6; em um 1 ela não causa dano, em 2-5 ela inflige 1 Ferimento Mortal na unidade inimiga mais próxima, e em 6 ela inflige ferimentos mortais a D3 naquela unidade.A Mina do Esporo é então destruída.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Uma Spore Mine explode se estiver a no máximo 3" de qualquer unidade inimiga no final de qualquer fase de Charge. Toda vez que uma Spore Mine explodir, faça um D6; em um 1 ela não causa dano, em 2-5 ela inflige 1 Ferimento Mortal na unidade inimiga mais próxima, e em 6 ela inflige Ferimentos Mortais a D3 naquela unidade.A Mina do Esporo é então destruída.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="90c1-637d-0a42-dcf4" name="Floating Death (Mucolid Spore)" page="99" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18562,7 +18789,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Esporo Mucolido explode se estiver a 3" de qualquer unidade inimiga no final de qualquer fase de Encargos. Toda vez que um Esporo de Mucolidar explodir, faça um D6; em um 1 ele não causa dano, em 2-5 ele inflige D3 ferimentos mortais na unidade inimiga mais próxima, e em 6 ela inflige Ferimentos Mortais a D6 naquela unidade O Esporo de Mucolid é então destruído.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Esporo Mucolido explode se estiver a 3" de qualquer unidade inimiga no final de qualquer fase de Encargos. Toda vez que um Esporo de Mucolidar explodir, faça um D6; em um 1 ele não causa dano, em 2-5 ele inflige D3 Ferimentos Mortais na unidade inimiga mais próxima, e em 6 ela inflige Ferimentos Mortais a D6 naquela unidade O Esporo de Mucolid é então destruído.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="4fed-d3da-008a-a905" name="Mucolid Spore" page="99" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -18626,7 +18853,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A menos que uma unidade &lt;HIVE FLEET&gt; com essa habilidade esteja a no máximo 24" de qualquer unidade aliada Synapse, você deve subtrair 1 de todas as jogadas de acerto feitas ao atirar em qualquer alvo que não seja a unidade inimiga visível mais próxima, e você deve subtraia 2 de seu teste de carga se ele declarar uma carga contra qualquer unidade que não seja a unidade inimiga mais próxima.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A menos que uma unidade &lt;HIVE FLEET&gt; com essa habilidade esteja a no máximo 24" de qualquer unidade aliada Synapse, você deve subtrair 1 de todas as jogadas para acertar feitas ao atirar em qualquer alvo que não seja a unidade inimiga visível mais próxima, e você deve subtraia 2 de seu teste de carga se ele declarar uma carga contra qualquer unidade que não seja a unidade inimiga mais próxima.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="80e2-63ea-dc79-e5c7" name="Psychic Scream" page="121" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
@@ -18696,7 +18923,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" de qualquer modelo com espinhos de quitina. Em um 6, essa unidade sofre uma Ferimento Mortal.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final da fase de combate, role um D6 para cada unidade inimiga a menos de 1" de qualquer modelo com espinhos de quitina. Em um 6, essa unidade sofre um Ferimento Mortal.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="cbdf-6ba1-d438-42d4" name="Warp Field" page="94" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18705,7 +18932,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um 3+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos nesta unidade têm um salvamento invulnerável de 3+."/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="0393-2d79-0ceb-b14f" name="Bio-plasmic Scream" page="112" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -18728,7 +18955,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esse modelo escondido, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode sair do seu esconderijo - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância dos modelos inimigos. Você pode relançar a distância de carga do modelo no turno em que ele usa essa habilidade para chegar no campo de batalha.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esse modelo escondido, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode sair do seu esconderijo - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância dos modelos inimigos. Você pode re-rolar a distância de carga do modelo no turno em que ele usa essa habilidade para chegar no campo de batalha.'/>
    </characteristics>
   </profile>
   <profile book="Codex: Tyranids" hidden="false" id="24a7-441a-0231-b07b" name="Living Battering Ram" page="102" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -18737,7 +18964,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Carnifex terminar uma jogada, jogue um dado; em 4+ uma unidade inimiga com 1" sofre uma Ferimento Mortal. Além disso, adicione 1 a todas as jogadas de acerto na fase de combate para uma Carnifex que tenha efetuado uma carga no mesmo turno.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando um Carnifex terminar uma jogada, jogue um dado; em 4+ uma unidade inimiga com 1" sofre um Ferimento Mortal. Além disso, adicione 1 a todas as jogadas para acertar na fase de combate para uma Carnifex que tenha efetuado uma carga no mesmo turno.'/>
    </characteristics>
   </profile>
  </sharedProfiles>

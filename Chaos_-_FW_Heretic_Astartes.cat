@@ -655,7 +655,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Escorpião de Latão Maior de Khorne pode atirar se houver modelos inimigos a menos de 1" disto, contanto que todos os modelos inimigos tenham a palavra-chave Infantry. Neste caso, ele pode disparar a unidade inimiga que está a menos de 1" disto qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Escorpião de Latão Maior de Khorne pode se mover e disparar armas Pesadas sem sofrer a penalidade em suas jogadas de acerto. Khorne só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Escorpião de Latão Maior de Khorne pode atirar se houver modelos inimigos a menos de 1" disto, contanto que todos os modelos inimigos tenham a palavra-chave Infantry. Neste caso, ele pode disparar a unidade inimiga que está a menos de 1" disto qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Escorpião de Latão Maior de Khorne pode se mover e disparar armas Pesadas sem sofrer a penalidade em suas jogadas para acertar. Khorne só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido do portador.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="dc4e-3e73-1687-873c" name="Frenzied Charge" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -682,7 +682,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 4+ ele explode e cada unidade a no máximo 2D6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha; em um 4+ ele explode e cada unidade a no máximo 2D6" sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -999,7 +999,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um Drone de Maior Ferrugem é reduzido a 0 ferimentos, role um D6 antes de remover o modelo do campo de batalha, em um 4+ ele explode, e cada unidade com 7" sofre ferimentos mortais de D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se um Drone de Maior Ferrugem é reduzido a 0 ferimentos, role um D6 antes de remover o modelo do campo de batalha, em um 4+ ele explode, e cada unidade com 7" sofre Ferimentos Mortais de D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="57b6-2312-cad3-9f0d" name="Carrion Haunter" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1108,7 +1108,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar qualquer teste para ferir de 1 ao atacar com esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar qualquer jogada para ferir de 1 ao atacar com esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -1141,7 +1141,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 ao atacar com esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 ao atacar com esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -1174,7 +1174,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de -1."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3 em vez de -1."/>
        </characteristics>
       </profile>
      </profiles>
@@ -1310,7 +1310,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode não cair se estiver a menos de 1" de qualquer unidade de infantaria inimiga.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo pode não recuar se estiver a menos de 1" de qualquer unidade de infantaria inimiga.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1718,7 +1718,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada teste de acerto feita com esta arma inflige uma Ferimento Mortal em vez do dano normal. Se qualquer jogada feita em uma determinada fase resultar em uma pontuação de '1', então a unidade de tiro sofre 1 Ferimento Mortal. Esse efeito só pode ocorrer uma vez por fase, independentemente de quantos resultados de 1 são rolados."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada jogada para acertar feita com esta arma inflige um Ferimento Mortal em vez do dano normal. Se qualquer jogada feita em uma determinada fase resultar em uma pontuação de '1', então a unidade de tiro sofre 1 Ferimento Mortal. Esse efeito só pode ocorrer uma vez por fase, independentemente de quantos resultados de 1 são rolados."/>
          </characteristics>
         </profile>
        </profiles>
@@ -1899,7 +1899,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Kytan Devastador pode atirar se houver modelos inimigos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra-chave Infantry. Neste caso, ele pode atirar na unidade inimiga que está a menos de 1" dele ou qualquer outro visível unidade inimiga que está dentro do alcance e mais de 1" de distância de qualquer modelo aliado. Além disso, o Kytan Ravager pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas de acerto. Finalmente, o Kytan Ravager ganha apenas um bônus para salvar na tampa se pelo menos metade do modelo é obscurecido do portador.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Um Kytan Devastador pode atirar se houver modelos inimigos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra-chave Infantry. Neste caso, ele pode atirar na unidade inimiga que está a menos de 1" dele ou qualquer outro visível unidade inimiga que está dentro do alcance e mais de 1" de distância de qualquer modelo aliado. Além disso, o Kytan Ravager pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas para acertar. Finalmente, o Kytan Ravager ganha apenas um bônus para salvar na tampa se pelo menos metade do modelo é obscurecido do portador.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ea9b-8004-f3aa-2e36" name="Battle Walker" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -1917,7 +1917,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha; Em um 6 ele explode, e cada unidade a no máximo 6" sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2064,7 +2064,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas de acerto para cada ataque feito com esta arma, em vez de 1."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Faça 3 jogadas para acertar para cada ataque feito com esta arma, em vez de 1."/>
        </characteristics>
       </profile>
      </profiles>
@@ -2286,7 +2286,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade com essa habilidade tem uma proteção invulnerável de 5+ contra ataques de Tiro ou Overwatch, além de 4+ de resistência invulnerável contra ataques corpo-a-corpo na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade com essa habilidade tem uma salvamento invulnerável de 5+ contra ataques de Tiro ou Overwatch, além de 4+ de resistência invulnerável contra ataques corpo-a-corpo na fase de combate."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7ec2-af9e-3e45-dd43" name="Containment Breach" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -2295,7 +2295,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2921,7 +2921,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer acerto feito em uma determinada fase resultar em uma pontuação de 1, então a unidade de tiro sofre 1 Ferimento Mortal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer jogada para acertar feita em uma determinada fase resultar em uma pontuação de 1, então a unidade de tiro sofre 1 Ferimento Mortal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2981,7 +2981,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada teste de acerto feita com esta arma inflige uma Ferimento Mortal em vez do dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada jogada para acertar feita com esta arma inflige um Ferimento Mortal em vez do dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3503,7 +3503,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 4+."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3692,7 +3692,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada teste de acerto feita com esta arma inflige uma Ferimento Mortal em vez do dano normal. Esta arma pode ter como alvo unidades inimigas que o portador não pode ver."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada jogada para acertar feita com esta arma inflige um Ferimento Mortal em vez do dano normal. Esta arma pode ter como alvo unidades inimigas que o portador não pode ver."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3782,7 +3782,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="538b-35dc-853a-10bf" name="Hate-fuelled Rampage" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4282,7 +4282,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d1e0-d150-1fbf-d813" name="Rocket Barrage" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4549,7 +4549,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -4792,7 +4792,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Os ataques feitos com esta arma não sofrem penalidade em seu teste de acerto ao mirar em unidades com a palavra-chave FLY. Além disso, cada jogada de 6 feitos com esta arma aumenta o AP de cada ferida para -3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Os ataques feitos com esta arma não sofrem penalidade em seu jogada para acertar ao mirar em unidades com a palavra-chave FLY. Além disso, cada jogada de 6 feitos com esta arma aumenta o AP de cada ferida para -3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -4882,7 +4882,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="21cd-5d8d-97d4-6112" name="Undying Hatred" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4891,7 +4891,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se, no turno anterior, um Venerador Sicaran Forjado pelo Inferno fez com que qualquer modelo inimigo fosse removido como uma baixa, ele lança um dado adicional ao fazer jogadas de ferimento pelo seu laser de feixe Malignatas e descarta os dados mais baixos antes de calcular o resultado do teste."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se, no turno anterior, um Venerador Sicaran Forjado pelo Inferno fez com que qualquer modelo inimigo fosse removido como uma baixa, ele lança um dado adicional ao fazer jogadas para ferir pelo seu laser de feixe Malignatas e descarta os dados mais baixos antes de calcular o resultado do teste."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5224,7 +5224,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6, a menos que seja um PSYKER, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais, a menos que seja um PSYKER, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="0f7b-74b4-deee-8403" name="Hellforged Spartan Assault Tank" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -5251,7 +5251,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="217f-551c-7157-2771" name="Daemonic Machine Spirit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5260,7 +5260,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo não sofre a penalidade de suas jogadas de acerto por mover e disparar armas pesadas."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo não sofre a penalidade de suas jogadas para acertar por mover e disparar armas pesadas."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5656,7 +5656,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="71a0-6d5a-49bb-ca64" name="Helical Targeting Array" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -5665,7 +5665,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de qualquer turno, o jogador controlador pode declarar que o HELICAL TARGETING ARRAY está ativo. Enquanto o HELICAL TARGETING ARRAY está ativo, o Hellforged Deredeo Dreadnought não pode se mover, Avançar ou efetuar uma carga em qualquer fase, mas adiciona 1 às testes de acerto para mirar em veículos com a palavra-chave FLY. O array de segmentação helicoidal permanece ativo desde o início do turno em que seu uso é declarado até o início do próximo turno do jogador controlador. O array de segmentação helicoidal pode ser ativado qualquer número de vezes durante um jogo, mas não em turnos consecutivos."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de qualquer turno, o jogador controlador pode declarar que o HELICAL TARGETING ARRAY está ativo. Enquanto o HELICAL TARGETING ARRAY está ativo, o Hellforged Deredeo Dreadnought não pode se mover, Avançar ou efetuar uma carga em qualquer fase, mas adiciona 1 às jogadas para acertar para mirar em veículos com a palavra-chave FLY. O array de segmentação helicoidal permanece ativo desde o início do turno em que seu uso é declarado até o início do próximo turno do jogador controlador. O array de segmentação helicoidal pode ser ativado qualquer número de vezes durante um jogo, mas não em turnos consecutivos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5747,7 +5747,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas ​​com as palavras-chave CHAOS e &lt;LEGION&gt; que estão totalmente a no máximo 6" do Hellforged Deredeo Dreadnought ganham 5+ save invulnerável. Esse save invulnerável não acumula nem melhora os saves existentes.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Todas as unidades aliadas ​​com as palavras-chave CHAOS e &lt;LEGION&gt; que estão totalmente a no máximo 6" do Hellforged Deredeo Dreadnought ganham 5+ salvamento invulnerável. Esse salvamento invulnerável não acumula nem melhora os saves existentes.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -5939,7 +5939,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer jogada feita em uma determinada fase resultar em uma pontuação ou 1, a unidade de tiro sofre 1 Ferimento Mortal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer jogada para acertar feita em uma determinada fase resultar em uma pontuação ou 1, a unidade de tiro sofre 1 Ferimento Mortal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6426,7 +6426,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f8fe-489b-1610-423e" name="Hellfire Reactor" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -6435,7 +6435,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade com essa habilidade tem uma proteção invulnerável de 5+ contra ataques de Tiro ou Overwatch, além de 4+ de resistência invulnerável contra ataques corpo-a-corpo na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma unidade com essa habilidade tem uma salvamento invulnerável de 5+ contra ataques de Tiro ou Overwatch, além de 4+ de resistência invulnerável contra ataques corpo-a-corpo na fase de combate."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6784,7 +6784,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Re-role os testes para ferir contra INFANTARIA."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Re-role as jogadas para ferir contra INFANTARIA."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6868,7 +6868,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="-"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada teste de acerto feita com esta arma inflige uma Ferimento Mortal em vez do dano normal."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada jogada para acertar feita com esta arma inflige um Ferimento Mortal em vez do dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -6952,7 +6952,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="d1bf-1e5b-3695-2551" name="Drop Pod Assault" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7113,7 +7113,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre ferimentos mortais D3, a menos que seja um Psyker, caso em que sofre Ferimentos Mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1212-130c-0f8e-33dc" name="Hellforged Kharybdis" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -7337,7 +7337,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6 a menos que seja um Psyker, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="53bf-4a52-46c9-56bb" name="Hellforged Cerberus" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -7411,7 +7411,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se, no turno precedente, um Cérbero Forjado do Inferno fez com que qualquer modelo inimigo fosse removido como baixa, o jogador lança um dado adicional ao fazer o teste de ferimento pelo canhão de feixe de Malignatas e descarta os dados mais baixos antes de calcular o resultado do teste."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se, no turno precedente, um Cérbero Forjado do Inferno fez com que qualquer modelo inimigo fosse removido como baixa, o jogador lança um dado adicional ao fazer a jogada para ferir pelo canhão de feixe de Malignatas e descarta os dados mais baixos antes de calcular o resultado do teste."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1528-d235-431d-06cb" name="Steel Behemoth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -7420,7 +7420,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -7834,7 +7834,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6 a menos que seja um Psyker, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="a2cb-f1e2-8f57-9a86" name="Hellforged Typhon" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -7908,7 +7908,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -8172,7 +8172,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6 a menos que seja um Psyker, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="3740-2de6-ede1-8acd" name="Hellforged Fellblade" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -8246,7 +8246,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que tenham como alvo este veículo."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="7f08-ea3a-9e4b-4494" name="Steel Behemoth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8255,7 +8255,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -8600,7 +8600,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6 a menos que seja um Psyker, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1623-6257-4642-b007" name="Hellforged Falchion" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -8674,7 +8674,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que tenham como alvo este veículo."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="b813-a437-2ba3-9b49" name="Steel Behemoth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -8683,7 +8683,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
      </characteristics>
     </profile>
    </profiles>
@@ -8948,7 +8948,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos quando mirar unidades do Titanic com esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades do Titanic com esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -8973,7 +8973,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6 a menos que seja um Psyker, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4c10-7f39-32ed-affc" name="Hellforged Mastodon" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -9038,7 +9038,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode recuar na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="0823-673e-aae4-5fb5" name="In the Belly of the Beast" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9056,7 +9056,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um Mastodonte Forjado pelo Inferno é protegido por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos vazios são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou defesa invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. como salva invulnerável, as defesas de escudo vazias não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar ferimentos mortais. Neste caso, jogue um dado para cada ferimento mortal que tenha sido infligido no Mastodonte Forjado do Inferno, com a Ferimento Mortal sendo ignorada se o teste de resistência for passado."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um Mastodonte Forjado pelo Inferno é protegido por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos vazios são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou defesa invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. como salva invulnerável, as defesas de escudo vazias não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar Ferimentos Mortais. Neste caso, jogue um dado para cada ferimento mortal que tenha sido infligido no Mastodonte Forjado do Inferno, com a Ferimento Mortal sendo ignorada se o teste de resistência for passado."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="e7e8-0cbf-0954-99ad" name="Hellforged Mastodon" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -9238,7 +9238,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="5"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de acerto feitas para esta arma contra todos os outros alvos."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9310,7 +9310,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f944-2819-1291-fda9" name="Skyborn Predator" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9319,7 +9319,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao atacar unidades que podem voar, adicione 1 às suas jogadas de acerto para esse modelo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao atacar unidades que podem voar, adicione 1 às suas jogadas para acertar para esse modelo."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9519,7 +9519,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você rolar um teste de ferimento de 6+ para esta arma, o alvo sofre uma Ferimento Mortal além de qualquer outro dano."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você rolar uma jogada para ferir de 6+ para esta arma, o alvo sofre um Ferimento Mortal além de qualquer outro dano."/>
      </characteristics>
     </profile>
    </profiles>
@@ -9544,7 +9544,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4f92-2114-1e82-b1cc" name="Daemonic Machine Spirit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9754,7 +9754,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Talão do Inferno equipado com bombas incendiárias de Pyrax pode fazer um bombardeio contra uma única unidade inimiga que ele move durante uma de suas fases de Movimento. Depois que o Talon do Inferno se mover, escolha uma unidade inimiga sobre a qual ela voou e, em seguida, role um D6 para cada modelo na unidade, até um máximo de 20 D6. Adicione 1 aos resultados dos dados se o alvo for INFANTARIA. Para cada jogada de 5+, a unidade sofre uma Ferimento Mortal."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Talão do Inferno equipado com bombas incendiárias de Pyrax pode fazer um bombardeio contra uma única unidade inimiga que ele move durante uma de suas fases de Movimento. Depois que o Talon do Inferno se mover, escolha uma unidade inimiga sobre a qual ela voou e, em seguida, role um D6 para cada modelo na unidade, até um máximo de 20 D6. Adicione 1 aos resultados dos dados se o alvo for INFANTARIA. Para cada jogada de 5+, a unidade sofre um Ferimento Mortal."/>
          </characteristics>
         </profile>
        </profiles>
@@ -9779,7 +9779,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Talão do Inferno equipado com cargas de estilhaços do Baletalon pode fazer um bombardeio contra uma única unidade inimiga que ele move durante uma das fases do seu Movimento. Depois que o Talon do Inferno se mover, escolha uma unidade inimiga sobre a qual voou e, em seguida, role 6D6 para cada VEÍCULO, EDIFÍCIO ou MONSTRO na unidade, ou um único D6 para cada outro modelo na unidade, até um máximo de 6D6. Para cada jogada de 3+, a unidade que está sendo bombardeada sofre uma Ferimento Mortal."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Talão do Inferno equipado com cargas de estilhaços do Baletalon pode fazer um bombardeio contra uma única unidade inimiga que ele move durante uma das fases do seu Movimento. Depois que o Talon do Inferno se mover, escolha uma unidade inimiga sobre a qual voou e, em seguida, role 6D6 para cada VEÍCULO, EDIFÍCIO ou MONSTRO na unidade, ou um único D6 para cada outro modelo na unidade, até um máximo de 6D6. Para cada jogada de 3+, a unidade que está sendo bombardeada sofre um Ferimento Mortal."/>
          </characteristics>
         </profile>
        </profiles>
@@ -9804,7 +9804,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Talão do Inferno equipado com bombas de pulso Warp pode fazer um bombardeio contra uma única unidade inimiga que ele move durante uma de suas fases de movimento. Depois que o Talon do Inferno se mover, escolha uma unidade inimiga sobre a qual ela voou e, em seguida, role 3D6 para cada VEÍCULO ou MONSTRO na unidade ou um único D6 para cada outro modelo na unidade, até um máximo de 9D6. Para cada jogada de 5+, a unidade sofre uma Ferimento Mortal. Além disso, a unidade alvo subtrai 1 de suas jogadas de acerto e característica de Liderança até o início do próximo turno do seu oponente."/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um Talão do Inferno equipado com bombas de pulso Warp pode fazer um bombardeio contra uma única unidade inimiga que ele move durante uma de suas fases de movimento. Depois que o Talon do Inferno se mover, escolha uma unidade inimiga sobre a qual ela voou e, em seguida, role 3D6 para cada VEÍCULO ou MONSTRO na unidade ou um único D6 para cada outro modelo na unidade, até um máximo de 9D6. Para cada jogada de 5+, a unidade sofre um Ferimento Mortal. Além disso, a unidade alvo subtrai 1 de suas jogadas para acertar e característica de Liderança até o início do próximo turno do seu oponente."/>
          </characteristics>
         </profile>
        </profiles>
@@ -9876,7 +9876,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="a939-37ee-d4a2-9fbd" name="Daemonic Machine Spirit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -9894,7 +9894,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase Movement.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase de Movimento.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="45b9-5038-b2bc-d5d0" name="Chaos Storm Eagle Gunship" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -10302,7 +10302,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4c63-22ef-6382-cabc" name="Daemonic Machine Spirit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10320,7 +10320,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase Movement.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase de Movimento.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="61b3-5311-6f22-2360" name="Fire Raptor Gunship" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -10722,7 +10722,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Colossal Flyer e Supersonic até o começo de sua próxima fase Movement.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Colossal Flyer e Supersonic até o começo de sua próxima fase de Movimento.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="55fd-f7b4-f27e-9b66" name="Chaos Thunderhawk Gunship" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -10817,7 +10817,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de mesa, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa FLY, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiros contra ela. Note que isso significa que muitas armas de tiro de curto alcance não serão capazes de acertar este modelo. Seu oponente deve Também subtrai 1 das testes de acerto para ataques que visam esse modelo na fase de Tiro.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de mesa, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa FLY, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiros contra ela. Note que isso significa que muitas armas de tiro de curto alcance não serão capazes de acertar este modelo. Seu oponente deve Também subtrai 1 das jogadas para acertar para ataques que visam esse modelo na fase de Tiro.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="111a-2c9f-c660-6dcb" name="Void-hardened Hull" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -10826,7 +10826,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Caos Thunderhawk Gunship tem um 5+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Caos Thunderhawk Gunship tem um salvamento invulnerável de 5+ ."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11115,7 +11115,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um caça do fuzil sob o caos equipado com bombas de fragmentação Thunderhawk pode fazer um bombardeio contra uma única unidade inimiga em que ele se move durante uma de suas fases de movimento. Depois que o Caos Thunderhawk Gunship se moveu, escolha uma única unidade inimiga que voou. Role 3D6 para cada veículo ou monstro, ou um D6 para todos os outros modelos na unidade, até um máximo de 132D6 por unidade. Para cada jogada de 5+, a unidade sofre uma Ferimento Mortal. Uma unidade que consiste apenas em caracteres não pode ser alvo dessa habilidade."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, um caça do fuzil sob o caos equipado com bombas de fragmentação Thunderhawk pode fazer um bombardeio contra uma única unidade inimiga em que ele se move durante uma de suas fases de movimento. Depois que o Caos Thunderhawk Gunship se moveu, escolha uma única unidade inimiga que voou. Role 3D6 para cada veículo ou monstro, ou um D6 para todos os outros modelos na unidade, até um máximo de 132D6 por unidade. Para cada jogada de 5+, a unidade sofre um Ferimento Mortal. Uma unidade que consiste apenas em caracteres não pode ser alvo dessa habilidade."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11170,7 +11170,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 4+ ele trava e explode, e cada unidade a no máximo 2D6" sofre ferimentos mortais 2D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 4+ ele trava e explode, e cada unidade a no máximo 2D6" sofre Ferimentos Mortais 2D6.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="5af2-d607-c1f7-1c5a" name="Daemonic Machine Spirit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11188,7 +11188,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Colossal Flyer e Supersonic até o começo de sua próxima fase Movement.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica Move se torna 20" até o final da fase, e perde as habilidades Airborne, Colossal Flyer e Supersonic até o começo de sua próxima fase de Movimento.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="343d-6138-5973-1f08" name="Chaos Sokar Pattern Stormbird" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -11275,7 +11275,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de mesa, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa voar, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiro contra ela. Observe que isso significa que muitas armas de tiro de curto alcance não conseguirão atingir esse modelo. Seu oponente deve Também subtrai 1 das testes de acerto para ataques que visam esse modelo na fase de Tiro.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de mesa, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa voar, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiro contra ela. Observe que isso significa que muitas armas de tiro de curto alcance não conseguirão atingir esse modelo. Seu oponente deve Também subtrai 1 das jogadas para acertar para ataques que visam esse modelo na fase de Tiro.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="f4d3-790a-85e7-66c1" name="Void-hardened Hull" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11284,7 +11284,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="TheChaos Sokar Pattern Stormbird tem um 5+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="TheChaos Sokar Pattern Stormbird tem um salvamento invulnerável de 5+ ."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="b1a3-09c7-dcef-9078" name="Projected Void Shields" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11293,7 +11293,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um Padrão de Caos de Sokar O Stormbird é protegido por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos vazios são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou defesa invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. como salva invulnerável, as defesas de escudo vazias não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar ferimentos mortais. Neste caso, jogue um dado para cada ferimento mortal que tenha sido infligido no Stormbird do Padrão de Sokar do Caos, com a Ferimento Mortal sendo ignorada se o teste de resistência for passado."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Um Padrão de Caos de Sokar O Stormbird é protegido por geradores de escudos vazios especializados, barreiras de força quase impenetráveis ​​projetadas a uma distância de seus cascos em camadas e projetadas para desviar e absorver o impacto de ataques de alta energia e mísseis contra eles. Em termos de jogo, os escudos vazios são representados por um tipo único de teste de resistência que o jogador controlador pode usar em vez do seu salvamento normal ou defesa invulnerável contra qualquer forma de ataque exceto de armas com o tipo Corpo a Corpo. como salva invulnerável, as defesas de escudo vazias não são afetadas pelo AP de um ataque, mas, ao contrário das defesas invulneráveis, elas também podem ser usadas para negar Ferimentos Mortais. Neste caso, jogue um dado para cada ferimento mortal que tenha sido infligido no Stormbird do Padrão de Sokar do Caos, com a Ferimento Mortal sendo ignorada se o teste de resistência for passado."/>
      </characteristics>
     </profile>
     <profile book="" hidden="false" id="877b-10cb-ef18-2f2f" name="Shield Projection" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11513,7 +11513,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="4107-aa71-8313-a73a" name="Chaos Xiphon Interceptor" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -11595,7 +11595,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao atacar unidades que podem FLY, adicione 1 às suas jogadas de acerto para esse modelo."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao atacar unidades que podem FLY, adicione 1 às suas jogadas para acertar para esse modelo."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="dd37-0ecf-b0a5-5abe" name="Preternatural Manoeuvrability" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11744,7 +11744,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Toda vez que você fizer uma jogada de ferimento de 5+ para essa arma, o alvo sofre uma Ferimento Mortal além do dano normal da arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Toda vez que você fizer uma jogada para ferir de 5+ para essa arma, o alvo sofre um Ferimento Mortal além do dano normal da arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11774,7 +11774,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="3"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas de ferimento de 1 para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir de 1 para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -11819,7 +11819,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem um save invulnerável de 5+."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem um salvamento invulnerável de 5+."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="eaf4-a0fd-dd64-11dc" name="Rotting Curse" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -11942,7 +11942,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra alvos de INFANTARIA, rolagens de ferimentos falhos para esta arma são relaminadas."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Contra alvos de INFANTARIA, jogadas para ferir falhos para esta arma são relaminadas."/>
        </characteristics>
       </profile>
      </profiles>
@@ -12053,7 +12053,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="3"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar as jogadas de acerto malsucedidos para esta arma."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar as jogadas para acertar malsucedidas para esta arma."/>
          </characteristics>
         </profile>
        </profiles>
@@ -12310,7 +12310,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou ferimentos mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou Ferimentos Mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="4189-3282-4281-e27c" name="Battering Onslaught" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -12618,7 +12618,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou ferimentos mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No final de qualquer fase em que este modelo sofra ferimentos não salvos ou Ferimentos Mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se acumular e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.'/>
      </characteristics>
     </profile>
     <profile hidden="true" id="0810-2738-a1c1-3d97" name="Battering Onslaught" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -13144,7 +13144,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer acerto feito para esta arma resultar em um ou mais resultados de um '1', o veículo de tiro sofre 3 ferimentos mortais."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer jogada para acertar feita para esta arma resultar em um ou mais resultados de um '1', o veículo de tiro sofre 3 Ferimentos Mortais."/>
        </characteristics>
       </profile>
       <profile hidden="false" id="6d01-1f60-5a67-4c60" name="Laser volley cannon, Volley fire" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13460,7 +13460,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre ferimentos mortais D6, a menos que seja um PSYKER, caso em que sofre 2D3 ferimentos mortais.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais, a menos que seja um PSYKER, caso em que sofre 2D3 Ferimentos Mortais.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="fa05-fe38-a957-951e" name="Hellforged Termite" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
@@ -13916,7 +13916,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="x2"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do teste de acerto."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, você deve subtrair 1 do jogada para acertar."/>
        </characteristics>
       </profile>
      </profiles>
@@ -14002,7 +14002,7 @@ Se eles fizerem isso, escolha primeiro um dos quatro Deuses do Caos - Khorne, Tz
 
 Roll up to 3 dice - este é o seu teste de convocação. Você pode invocar uma nova unidade com a habilidade Ritual Daemônico no campo de batalha que tenha uma Classificação de Poder igual ou inferior ao resultado total, desde que tenha a mesma palavra-chave Chaos Deus escolhida no início (no caso de unidades que tenham a escolha de lealdade, como Fúrias, a unidade quando convocada terá essa palavra chave.) Esta unidade é tratada como reforço para o seu exército e pode ser colocada em qualquer lugar no campo de batalha que esteja inteiramente a no máximo 12" do personagem e seja maior que 9" de qualquer modelo inimigo. Se o total rolado é insuficiente para invocar qualquer unidade, o ritual falha e nenhuma nova unidade é convocada.
 
-Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre uma Ferimento Mortal. Se continha triplos, em vez disso, sofre Ferimentos Mortais D3.'>
+Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre um Ferimento Mortal. Se continha triplos, em vez disso, sofre Ferimentos Mortais D3.'>
     Instead of moving in their Movement phase, any Chaos Character can, at the end of their Movement phase, attempt to summon a Daemon unit with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn, or if they themselves have been summoned to the battlefield this turn). 
 
 If they do so, first choose one of the four Chaos Gods - Khorne, Tzeentch, Nurgle, or Slaanesh. A Character who owes allegiance to one of the Dark Gods can attempt to summon the units of their patron - for example, a Khorne Character could only attempt to summon Khorne Daemons. 
@@ -14017,7 +14017,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <rules/>
    <infoLinks/>
    <modifiers/>
-   <description description='No final da sua fase de Movimento, um Hellwright pode consertar um único &lt;LEGION&gt; / DAEMON ENGINE / QUESTOR TRAITOROUS ou DARK MECHANICUS VEHICLE (exceto modelos que podem FLY) a menos de 1" . Esse modelo recupera as D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único VEÍCULO inimigo a no máximo 18" . Role um D6; em um 2+ esse veículo sofre uma Ferimento Mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um modelo com o Mestre dos Mecanismos no mesmo turno.'>
+   <description description='No final da sua fase de Movimento, um Hellwright pode consertar um único &lt;LEGION&gt; / DAEMON ENGINE / QUESTOR TRAITOROUS ou DARK MECHANICUS VEHICLE (exceto modelos que podem FLY) a menos de 1" . Esse modelo recupera as D3 Pontos de Vida. Um Warpsmith pode amaldiçoar um único VEÍCULO inimigo a no máximo 18" . Role um D6; em um 2+ esse veículo sofre um Ferimento Mortal. Um VEÍCULO não pode ser reparado ou amaldiçoado por mais de um modelo com o Mestre dos Mecanismos no mesmo turno.'>
     At the end of your Movement phase, a Hellwright can repair a single &lt;LEGION&gt;/DAEMON ENGINE/QUESTOR TRAITOROUS or DARK MECHANICUS VEHICLE (other than models that can FLY) within 1". That model regains D3 lost wounds. A Warpsmith can instead curse a single enemy VEHICLE within 18". Roll a D6; on a 2+ that vehicle suffers a mortal wound. A VEHICLE cannot be repaired or cursed by more than one model with Master of Mechanisms in the same turn.
    </description>
   </rule>
@@ -14038,7 +14038,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem um save invulnerável de 5+."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O modelo tem um salvamento invulnerável de 5+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="d36c-b849-b0ba-625b" name="Machina Malifica" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14065,7 +14065,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as testes de acerto para armas de longo alcance que tenham como alvo este veículo."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por jogo, em vez de disparar quaisquer armas na fase de tiro, este modelo pode usar seus lançadores de fumaça; até sua próxima fase de Tiro, seu oponente deve subtrair 1 de todas as jogadas para acertar para armas de longo alcance que tenham como alvo este veículo."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b054-22a3-2ce0-ea90" name="Airborne" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14083,7 +14083,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das testes de acerto para os ataques que visam esse modelo na fase de tiro."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das jogadas para acertar para os ataques que visam esse modelo na fase de tiro."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="6e35-20da-b479-a82e" name="Baleful Aberration" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14092,7 +14092,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="0a47-f5bc-564b-bb06" name="Preternatural Manoeurverability" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14110,7 +14110,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo se move, primeiro gire-o no local até 90 ° (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente. Observe que não é possível girar novamente após o pivô inicial. Quando este modelo avança, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que este modelo se move, primeiro gire-o no local até 90 ° (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente. Observe que não é possível girar novamente após o giro inicial. Quando este modelo avança, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="269f-4abd-af31-1eb0" name="Sigil of Corruption" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14119,7 +14119,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um 4+ save invulnerável."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 4+."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="8ee7-b90d-c26a-129b" name="Death to the False Emperor" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14128,7 +14128,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você executar um teste de acerto de 6+ para um modelo com essa habilidade na fase de combate, ele poderá, imediatamente, se atacar uma unidade IMPERIUM, atacar imediatamente a mesma unidade usando a mesma arma. Esses ataques extras não podem gerar ataques adicionais."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você executar um jogada para acertar de 6+ para um modelo com essa habilidade na fase de combate, ele poderá, imediatamente, se atacar uma unidade IMPERIUM, atacar imediatamente a mesma unidade usando a mesma arma. Esses ataques extras não podem gerar ataques adicionais."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="ab0e-3e13-b00c-e2f5" name="Disgustingly Resilient" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -14137,7 +14137,7 @@ If your summoning roll included any doubles, your character then suffers a morta
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde uma ferida, role um D6; em um 5-6, não perde aquela ferida."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que este modelo perde um Ponto de Vida, role um D6; em um 5-6, não perde aquela ferida."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="23c9-2c89-9d2b-3b38" name="Slaughter blade" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -14183,7 +14183,7 @@ If your summoning roll included any doubles, your character then suffers a morta
     <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="10"/>
     <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
     <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="6"/>
-    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer acerto feito para esta arma resultar em um ou mais resultados de um '1', o veículo de tiro sofre 3 ferimentos mortais."/>
+    <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se qualquer jogada para acertar feita para esta arma resultar em um ou mais resultados de um '1', o veículo de tiro sofre 3 Ferimentos Mortais."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="b9c7-5531-26d9-7612" name="Laser volley cannon, Volley fire" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">

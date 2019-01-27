@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="/u/WindstormSCR or same on github" authorName="WindstormSCR" battleScribeVersion="2.01" book="Codex: Harlequins" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="7d24-b92f-c5d5-3bf0" name="Aeldari - Harlequins-BR" revision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="/u/WindstormSCR or same on github" authorName="WindstormSCR" battleScribeVersion="2.01" book="Codex: Harlequins" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="7d24-b92f-c5d5-3bf0" name="Aeldari - Harlequins-BR" revision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks/>
@@ -224,6 +224,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="3065-08db-9433-d9f8" name="Harlequin's Blade" type="upgrade">
@@ -254,6 +255,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="3f0f-7345-bc4f-9771" name="Plasma Grenades" type="upgrade">
@@ -284,6 +286,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="c791-d8b1-80d1-d707" name="Shuriken Cannon" type="upgrade">
@@ -299,7 +302,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -314,6 +317,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="1ed4-125a-cd0b-cf43" name="Shrieker Cannon" type="upgrade">
@@ -329,7 +333,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3. Se um modelo de INFANTARIA for morto por um ataque feito com esta arma, então sua unidade sofrerá ferimentos mortais em D3. Se qualquer modelo de uma unidade for morto por essa arma, subtraia 2 da característica de Liderança daquela unidade até o final do turno."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3. Se um modelo de INFANTARIA for morto por um ataque feito com esta arma, então sua unidade sofrerá Ferimentos Mortais em D3. Se qualquer modelo de uma unidade for morto por essa arma, subtraia 2 da característica de Liderança daquela unidade até o final do turno."/>
      </characteristics>
     </profile>
     <profile book="Codex: Harlequins" hidden="false" id="7fd7-cbc6-19cb-4354" name="Shrieker Cannon (Shuriken)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -343,7 +347,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="6"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -358,6 +362,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="a38e-00b0-2bea-3202" name="Prismatic Cannon" type="upgrade">
@@ -416,6 +421,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="20.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="dc08-7a78-9af8-9b6f" name="Neuro Disruptor" type="upgrade">
@@ -446,6 +452,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="10.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="e2fb-277f-b1db-836b" name="Haywire Cannon" type="upgrade">
@@ -461,7 +468,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se o alvo for um VEÍCULO e você rolar um teste de 4+ para essa arma, o alvo sofre 1 ferimento mortal além de qualquer outro dano. Se o teste da ferida for 6+, o alvo sofre D3 ferimentos mortais."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se o alvo for um VEÍCULO e você rolar um teste de 4+ para essa arma, o alvo sofre 1 ferimento mortal além de qualquer outro dano. Se o teste da ferida for 6+, o alvo sofre D3 Ferimentos Mortais."/>
      </characteristics>
     </profile>
    </profiles>
@@ -476,6 +483,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="15.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="4189-0d29-d473-965d" name="Hallucinogen Grenade Launcher" type="upgrade">
@@ -491,7 +499,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="*"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="*"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se uma unidade for atingida por esta arma, role 2D6 - se o teste for igual ou maior que a Liderança da unidade alvo, ela sofrerá D3 ferimentos mortais."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se uma unidade for atingida por esta arma, role 2D6 - se o teste for igual ou maior que a Liderança da unidade alvo, ela sofrerá D3 Ferimentos Mortais."/>
      </characteristics>
     </profile>
    </profiles>
@@ -506,6 +514,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="4ba5-5958-0ed5-2acb" name="Zephyrglaive" page="61" type="upgrade">
@@ -536,6 +545,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="b370-466e-0be6-214d" name="Miststave" type="upgrade">
@@ -566,6 +576,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="4f51-c975-5042-dca4" name="Harlequin's Kiss" type="upgrade">
@@ -596,6 +607,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="fddb-199b-84b4-280f" name="Harlequin's Embrace" type="upgrade">
@@ -626,6 +638,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="6.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="29c4-069f-247a-d22b" name="Harlequin's Caress" type="upgrade">
@@ -656,6 +669,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="7.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="b212-064c-a4a9-49f7" name="Shuriken Pistol" type="upgrade">
@@ -671,7 +685,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3."/>
      </characteristics>
     </profile>
    </profiles>
@@ -686,6 +700,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="5cec-256b-7cfd-038f" name="Star Bolas" type="upgrade">
@@ -716,6 +731,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="5c11-1cad-1fb1-5816" name="Troupe" page="58" type="unit">
@@ -927,6 +943,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="13.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -952,6 +969,7 @@
    <costs>
     <cost costTypeId="points" name="pts" value="0.0"/>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="5f24-c0be-025f-16aa" name="Troupe Master" page="56" type="unit">
@@ -979,7 +997,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Na fase de combate, re-role os jogadas de ferimento falhos para unidades MASQUE aliadas ​​que estejam a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Na fase de combate, re-role as jogadas para ferir falhos para unidades MASQUE aliadas ​​que estejam a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1072,7 +1090,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Na fase de combate, re-role testes de acerto malsucedidos de 1 para unidades &lt;MASQUE&gt; aliadas ​​que estão a no máximo 6" deste modelo.'/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Na fase de combate, re-role jogadas para acertar malsucedidas de 1 para unidades &lt;MASQUE&gt; aliadas ​​que estão a no máximo 6" deste modelo.'/>
        </characteristics>
       </profile>
      </profiles>
@@ -1090,6 +1108,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -1247,6 +1266,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="70.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="57e1-479c-6d5c-00b3" name="Solitaire" page="60" type="unit">
@@ -1283,7 +1303,16 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Solitaire tem um 3+ save invulnerável."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Solitaire tem um salvamento invulnerável de 3+."/>
+     </characteristics>
+    </profile>
+    <profile book="Codex: Harlequins" hidden="false" id="bf76-f717-ea7e-083a" name="The Path of Damnation" page="60" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Solitaire can never have a Warlord Trait."/>
      </characteristics>
     </profile>
    </profiles>
@@ -1412,10 +1441,21 @@
      <constraints/>
      <categoryLinks/>
     </entryLink>
+    <entryLink hidden="false" id="f0d3-8eaf-2630-c628" name="Warlord" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <constraints>
+      <constraint field="selections" id="1f7b-9819-ea6a-bc05" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <categoryLinks/>
+    </entryLink>
    </entryLinks>
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="84.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="2cb2-ebf2-3523-ad48" name="Shadowseer" page="57" type="unit">
@@ -1443,7 +1483,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu oponente deve subtrair 1 dos testes para ferir por quaisquer ataques feitos contra unidades de INFANTARIAS MASCULINAS que estejam a no máximo 6" de quaisquer modelos com essa habilidade.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Seu oponente deve subtrair 1 das jogadas para ferir por quaisquer ataques feitos contra unidades de INFANTARIAS MASCULINAS que estejam a no máximo 6" de quaisquer modelos com essa habilidade.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -1634,7 +1674,7 @@
      <constraints/>
      <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="7c24-bb1e-e935-b494" name="Harlequin Warlord" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
+    <entryLink hidden="false" id="7c24-bb1e-e935-b494" name="Warlord" targetId="a5ce-b16b-56cd-e78a" type="selectionEntry">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -1664,6 +1704,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="7.0"/>
     <cost costTypeId="points" name="pts" value="125.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="7c62-2472-fac5-49a1" name="Death Jester" page="59" type="unit">
@@ -1844,6 +1885,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="3.0"/>
     <cost costTypeId="points" name="pts" value="45.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="d96e-e7b4-6204-0b07" name="Starweaver" page="63" type="unit">
@@ -2002,6 +2044,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
     <cost costTypeId="points" name="pts" value="79.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="3e87-4146-bac7-5c55" name="Voidweaver" page="62" type="unit">
@@ -2170,6 +2213,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="6.0"/>
     <cost costTypeId="points" name="pts" value="68.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="50b6-34fa-10fe-d5be" name="Skyweavers" page="61" type="unit">
@@ -2373,6 +2417,7 @@
      <costs>
       <cost costTypeId="points" name="pts" value="30.0"/>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -2398,6 +2443,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="0e60-570d-988f-15b2" name="Psyker (Shadowseer)" page="57" type="upgrade">
@@ -2429,6 +2475,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Chapter Approved 2017" collective="false" hidden="false" id="8ffa-cedb-4c0c-1b81" name="Luck of the Laughing God" page="93" type="upgrade">
@@ -2439,7 +2486,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-rolar os testes de acerto, testes para ferir e jogadas de dano de 1 para seu Warlord."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-rolar as jogadas para acertar, jogadas para ferir e jogadas de dano de 1 para seu Warlord."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2456,6 +2503,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1b5c-b38b-24a2-63d9" name="Masque Form" type="upgrade">
@@ -2502,6 +2550,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="1de1-3493-f517-79d8" name="Ynnari" type="upgrade">
@@ -2537,6 +2586,7 @@
        <costs>
         <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
         <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
@@ -2597,6 +2647,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a5ce-b16b-56cd-e78a" name="Warlord" type="upgrade">
@@ -2648,6 +2699,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="da1e-0f68-89a5-35c9" name="The Midnight Sorrow: The Art of Death" type="upgrade">
@@ -2673,6 +2725,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dcbe-a811-be1e-ec98" name="The Veiled Path: Riddle-Smiths" type="upgrade">
@@ -2683,7 +2736,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada fase de combate, jogue dois dados e descarte o resultado mais alto. Até o final da fase, toda vez que seu oponente mirar uma unidade com este formulário e fizer um teste de acerto que, antes dos modificadores, corresponde exatamente ao resultado do seu dado, esse teste falhará."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="No início de cada fase de combate, jogue dois dados e descarte o resultado mais alto. Até o final da fase, toda vez que seu oponente mirar uma unidade com este formulário e fizer um jogada para acertar que, antes dos modificadores, corresponde exatamente ao resultado do seu dado, esse teste falhará."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2698,6 +2751,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c98a-145f-261e-195e" name="The Frozen Stars: Hysterical Fury" type="upgrade">
@@ -2723,6 +2777,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c637-b918-c0f8-1afb" name="The Soaring Spite: Serpent's Blood" type="upgrade">
@@ -2733,7 +2788,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com este formulário que podem voar, ou que estão embarcando em um TRANSPORTE que pode voar, tratam todas as armas de Pistola com as quais são equipadas como armas de Assalto 1 durante um turno em que elas (ou o transporte em que são embarcadas) Avançado. Além disso, esses modelos não sofrem a penalidade de seus testes de acerto por atirar em armas de assalto durante um turno em que eles avançaram."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos com este formulário que podem voar, ou que estão embarcando em um TRANSPORTE que pode voar, tratam todas as armas de Pistola com as quais são equipadas como armas de Assalto 1 durante um turno em que elas (ou o transporte em que são embarcadas) Avançado. Além disso, esses modelos não sofrem a penalidade de seus jogadas para acertar por atirar em armas de assalto durante um turno em que eles avançaram."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2748,6 +2803,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="381c-1c61-37b2-7870" name="The Dreaming Shadow: Sombre Sentinels" type="upgrade">
@@ -2773,6 +2829,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6666-2609-810b-8d79" name="The Silent Shroud: Dance of Nightmares Made Flesh" type="upgrade">
@@ -2798,6 +2855,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c9c4-384b-e730-8ee4" name="Veiled Path: Webway Walker" type="upgrade">
@@ -2825,6 +2883,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f112-97ca-8928-f1fb" name="A Foot in the Future" type="upgrade">
@@ -2852,6 +2911,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="2c49-f836-512c-583d" name="Fractal Storm" type="upgrade">
@@ -2879,6 +2939,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="13fa-8a9f-ccf4-e8fa" name="Player of the Dark" type="upgrade">
@@ -2889,7 +2950,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada jogada de 6+ feita para os ataques do seu Senhor da Guerra na fase de combate causa uma Ferimento Mortal além do dano normal."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada jogada de 6+ feita para os ataques do seu Senhor da Guerra na fase de combate causa um Ferimento Mortal além do dano normal."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2906,6 +2967,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2f51-a0b5-8914-7c71" name="Player of the Twilight" type="upgrade">
@@ -2916,7 +2978,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, você pode re-rolar um teste de acerto, um teste para ferir ou um Save feito para o seu senhor da guerra. Além disso, se o seu exército for forjado em batalha e o seu senhor da guerra estiver no campo de batalha, jogue um D6 toda vez que você ou seu oponente usarem um estratagema. Se o resultado corresponder exatamente ao número de pontos de comando gastos para usar esse estratagema, você ganhará muitos pontos de comando."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, você pode re-rolar um jogada para acertar, um jogada para ferir ou um Save feito para o seu senhor da guerra. Além disso, se o seu exército for forjado em batalha e o seu senhor da guerra estiver no campo de batalha, jogue um D6 toda vez que você ou seu oponente usarem um estratagema. Se o resultado corresponder exatamente ao número de pontos de comando gastos para usar esse estratagema, você ganhará muitos pontos de comando."/>
      </characteristics>
     </profile>
    </profiles>
@@ -2933,6 +2995,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6494-f334-08ad-47c7" name="Player of the Light" type="upgrade">
@@ -2943,7 +3006,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-role testes de carga malsucedidos feitos para o seu Warlord e qualquer aliada &lt;MASQUE&gt; unidades, enquanto eles estão a no máximo 6" do seu senhor da guerra.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Re-role testes de carga malsucedidas feitos para o seu Warlord e qualquer aliada &lt;MASQUE&gt; unidades, enquanto eles estão a no máximo 6" do seu senhor da guerra.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -2960,6 +3023,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4a1f-f159-c52b-a57d" name="Soaring Spite: Skystrider" type="upgrade">
@@ -2987,6 +3051,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9d36-eefd-0e4a-b678" name="Silent Shroud: The Final Joke" type="upgrade">
@@ -2997,7 +3062,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se o seu Warlord for morto na fase de combate, role um D6. Em um 2+, a unidade que matou seu Warlord sofre D3 mortal woundsafter terminou de fazer todos os seus ataques. Em um 6, a unidade inimiga sofre D6 ferimentos mortais em vez disso."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se o seu Warlord for morto na fase de combate, role um D6. Em um 2+, a unidade que matou seu Warlord sofre D3 mortal woundsafter terminou de fazer todos os seus ataques. Em um 6, a unidade inimiga sofre D6 Ferimentos Mortais em vez disso."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3014,6 +3079,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5267-24f9-3cd3-4a51" name="Midnight Sorrow: Nemesis of the Damned" type="upgrade">
@@ -3024,7 +3090,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada jogada de 6+ para o seu Warlord na fase de combate, marca 2 hits ao invés de 1. Além disso, adicione 1 aos testes de acerto feitas pelo seu Warlord contra as unidades CHAOS."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada jogada de 6+ para o seu Warlord na fase de combate, marca 2 hits ao invés de 1. Além disso, adicione 1 aas jogadas para acertar feitas pelo seu Warlord contra as unidades CHAOS."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3041,6 +3107,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ba41-2d9b-c8a7-64a4" name="Frozen Stars: Our Kin Shall Rise Again" type="upgrade">
@@ -3068,6 +3135,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="30bb-0f05-221a-14ef" name="Dreaming Shadow: Warden of the Dead" type="upgrade">
@@ -3095,6 +3163,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry book="Chapter Approved 2017" collective="false" hidden="false" id="fe9d-4b6a-a67a-4670" name="The Mask of Secrets" page="93" type="upgrade">
@@ -3132,6 +3201,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="04cd-a585-4089-a3b1" name="The Starmist Raiment" type="upgrade">
@@ -3142,7 +3212,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O usuário tem um 3+ invulnerável salvar contra armas de longo alcance. Além disso, as unidades inimigas não podem disparar Overwatch no usuário durante um turno em que o usuário avança."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O usuário tem um 3+ salvamento invulnerável contra armas de longo alcance. Além disso, as unidades inimigas não podem disparar Overwatch no usuário durante um turno em que o usuário avança."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3168,6 +3238,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7813-bd0e-4df8-dbfc" name="The Laughing God's Eye" type="upgrade">
@@ -3178,7 +3249,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='aliadas ​​unidades HARLEQUINS passam automaticamente testes de moral enquanto estão a no máximo 6" do usuário. Além disso, role um D6 cada vez que uma unidade HARLEQUINS aliada sofre uma Ferimento Mortal na fase psíquica, enquanto eles estão a no máximo 6" do usuário - em um 6 essa Ferimento Mortal é ignorada.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='aliadas ​​unidades HARLEQUINS passam automaticamente testes de moral enquanto estão a no máximo 6" do usuário. Além disso, role um D6 cada vez que uma unidade HARLEQUINS aliada sofre um Ferimento Mortal na fase psíquica, enquanto eles estão a no máximo 6" do usuário - em um 6 essa Ferimento Mortal é ignorada.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -3204,6 +3275,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6348-6bcd-afa4-0236" name="The Storied Sword" type="upgrade">
@@ -3219,7 +3291,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Re-rolar os testes de acerto malsucedidos para esta arma."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Re-rolar as jogadas para acertar malsucedidas para esta arma."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3245,6 +3317,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d8d5-d3a9-a828-34d5" name="Crescendo" type="upgrade">
@@ -3260,7 +3333,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz um teste de ferimento de 6+  para essa arma, esse acerto é resolvido com um AP de -3"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você faz uma jogada para ferir de 6+  para essa arma, esse acerto é resolvido com um AP de -3"/>
      </characteristics>
     </profile>
    </profiles>
@@ -3286,6 +3359,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ccab-73d6-dd3e-d47f" name="The Mirrorstave" type="upgrade">
@@ -3301,7 +3375,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="O teste de para ferir necessário para esta arma na fase de tiro é igual à habilidade balística não modificada das unidades alvo. Por exemplo, se a arma mirar em uma unidade com habilidade balística de 3+, a arma será usada em testes de 3+. A rolagem necessária para essa arma na fase de combate é igual à habilidade de arma não modificada da unidade alvo. Se a unidade contiver modelos com diferentes características de habilidade de habilidade / habilidade balística, use a melhor característica da unidade. Se a característica do alvo for '-', então o teste para ferir requerido é 6+"/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="O teste de para ferir necessário para esta arma na fase de tiro é igual à habilidade balística não modificada das unidades alvo. Por exemplo, se a arma mirar em uma unidade com habilidade balística de 3+, a arma será usada em testes de 3+. A rolagem necessária para essa arma na fase de combate é igual à habilidade de arma não modificada da unidade alvo. Se a unidade contiver modelos com diferentes características de habilidade de habilidade / habilidade balística, use a melhor característica da unidade. Se a característica do alvo for '-', então a jogada para ferir requerido é 6+"/>
      </characteristics>
     </profile>
     <profile hidden="false" id="ea37-ca5c-d21d-3fd3" name="The Mirrorstave (Melee)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3341,6 +3415,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7f19-f8ce-175b-6326" name="Enigma of the Black Library" type="upgrade">
@@ -3382,6 +3457,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0742-4cb7-bf4e-16cc" name="Enigmas of the Black Library (1 Relic)" type="upgrade">
@@ -3405,6 +3481,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="dc1c-c3ca-66fa-fd12" name="Enigmas of the Black Library (2 Relics)" type="upgrade">
@@ -3428,6 +3505,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="-3.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7922-1c00-c0cb-ab72" name="The Scintillant Veil" type="upgrade">
@@ -3464,6 +3542,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2fe7-1d08-cac2-4fbe" name="Faolchu's Talon" type="upgrade">
@@ -3500,6 +3579,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="32c7-f904-0a5e-c3c8" name="Midnight's Chime" type="upgrade">
@@ -3536,6 +3616,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7c01-7049-b709-d0e7" name="Curtainfall" type="upgrade">
@@ -3551,7 +3632,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, escolha um dos perfis. Cada vez que você faz um teste de 6+ para essa arma, esse acerto é resolvido com um AP de -4. Cada vez que um modelo de INFANTARIA é morto por um ataque feito com o perfil mais agudo dessa arma, sua unidade sofre ferimentos mortais em D3. Se qualquer modelo em uma unidade for morto por esta arma, subtraia 2 da característica de Liderança daquela unidade até o final do turno; este modificador não é cumulativo com aquele causado por um canhão shreiker."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Ao atacar com esta arma, escolha um dos perfis. Cada vez que você faz um teste de 6+ para essa arma, esse acerto é resolvido com um AP de -4. Cada vez que um modelo de INFANTARIA é morto por um ataque feito com o perfil mais agudo dessa arma, sua unidade sofre Ferimentos Mortais em D3. Se qualquer modelo em uma unidade for morto por esta arma, subtraia 2 da característica de Liderança daquela unidade até o final do turno; este modificador não é cumulativo com aquele causado por um canhão shreiker."/>
      </characteristics>
     </profile>
     <profile hidden="false" id="abb1-3e82-3253-3108" name="Curtainfall (shuriken)" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -3591,6 +3672,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a8d4-6c63-6856-b8fe" name="The Ghoulmask" type="upgrade">
@@ -3627,6 +3709,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="709b-ded3-c8f9-7c7b" name="Cegorach's Rose" type="upgrade">
@@ -3668,6 +3751,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="f1b4-469b-6cd2-7e71" name="The Suit of Hidden Knives" type="upgrade">
@@ -3678,7 +3762,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Jogue um D6 toda vez que um teste de acerto de 1 for feito para um modelo inimigo que tenha como alvo o usuário na fase de combate. Em um 2+, a unidade desse modelo sofre uma Ferimento Mortal após a unidade ter resolvido todos os seus ataques."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Jogue um D6 toda vez que um jogada para acertar de 1 for feito para um modelo inimigo que tenha como alvo o usuário na fase de combate. Em um 2+, a unidade desse modelo sofre um Ferimento Mortal após a unidade ter resolvido todos os seus ataques."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3695,6 +3779,7 @@
    <costs>
     <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
     <cost costTypeId="points" name="pts" value="0.0"/>
+    <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -3736,6 +3821,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="05cf-be37-16e7-b7f1" name="Fog of Dreams" page="73" type="upgrade">
@@ -3765,6 +3851,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="8792-20c9-914a-5d4b" name="Mirror of Minds" page="73" type="upgrade">
@@ -3794,6 +3881,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="dfb6-8d78-f068-27d0" name="Veil of Tears" page="73" type="upgrade">
@@ -3823,6 +3911,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="fe6f-7ac0-599b-2b51" name="Webway Dance" page="73" type="upgrade">
@@ -3852,6 +3941,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry book="Codex: Harlequins" collective="false" hidden="false" id="660f-47f7-33df-e68b" name="Shards of Light" page="73" type="upgrade">
@@ -3881,6 +3971,7 @@
      <costs>
       <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
       <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost costTypeId="2d3b-b544-ad49-fb75" name="CP" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -4433,7 +4524,7 @@ A unit can only make a Soulburst action once per turn.
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de qualquer teste de acerto feita contra esta unidade na fase de Tiro."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 de qualquer jogada para acertar feita contra esta unidade na fase de Tiro."/>
    </characteristics>
   </profile>
   <profile book="Codex: Harlequins" hidden="false" id="1fde-5ed2-74f7-f766" name="Blur of Colour" page="61" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">

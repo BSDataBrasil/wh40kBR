@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce" authorName="Jon Kissinger(Alphalas), Joe Beddoe" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="4" id="91ff-e116-e0a5-e883" name="Imperium - FW Death Korps of Krieg-BR" revision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce" authorName="Jon Kissinger(Alphalas), Joe Beddoe" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="4" id="91ff-e116-e0a5-e883" name="Imperium - FW Death Korps of Krieg-BR" revision="94" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profiles/>
  <rules/>
  <infoLinks/>
@@ -2500,7 +2500,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todos os testes de acerto de 1 feitos para &lt;Regiment&gt; Basilisks, Wyverns, Manticores ou Deathstrikes aliadas ​​quando eles mirarem unidades inimigas a mais de 36" na fase de Tiro, se estiverem a no máximo 6" deste modelo.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar todas as jogadas para acertar de 1 feitos para &lt;Regiment&gt; Basilisks, Wyverns, Manticores ou Deathstrikes aliadas ​​quando eles mirarem unidades inimigas a mais de 36" na fase de Tiro, se estiverem a no máximo 6" deste modelo.'/>
      </characteristics>
     </profile>
     <profile book="" hidden="false" id="1122-b151-7c33-81be" name="Master of Ordnance" page="" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -2531,7 +2531,7 @@
       <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
       <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-2"/>
       <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser disparada uma vez por batalha e não pode ser usada se o portador se mover. Esta arma pode ter como alvo unidades que não são visíveis para o portador (ao fazer isso, subtraia 1 das jogadas de acerto). Você só pode usar uma barragem de artilharia por turno, independentemente de quantos Mestres de Artilharia você tenha em seu exército."/>
+      <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma só pode ser disparada uma vez por batalha e não pode ser usada se o portador se mover. Esta arma pode ter como alvo unidades que não são visíveis para o portador (ao fazer isso, subtraia 1 das jogadas para acertar). Você só pode usar uma barragem de artilharia por turno, independentemente de quantos Mestres de Artilharia você tenha em seu exército."/>
      </characteristics>
     </profile>
    </profiles>
@@ -3201,7 +3201,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Hades Breaching Drill tem 4+ de save invulnerável na fase de combate."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O Hades Breaching Drill tem 4+ de salvamento invulnerável na fase de combate."/>
      </characteristics>
     </profile>
    </profiles>
@@ -5868,7 +5868,7 @@
           <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="7"/>
           <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
           <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas de acerto feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas de acerto feitas para esta arma contra todos os outros alvos."/>
+          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Adicione 1 a todas as jogadas para acertar feitas para esta arma contra alvos que possam voar. Subtraia 1 das jogadas para acertar feitas para esta arma contra todos os outros alvos."/>
          </characteristics>
         </profile>
        </profiles>
@@ -6108,13 +6108,13 @@
       <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="3+"/>
      </characteristics>
     </profile>
-    <profile hidden="false" id="cbbe-b83c-7d57-a750" name="Tank Orders" profileTypeId="92f7-e9c5-8a03-8cf2" profileTypeName="Tank Orders">
+    <profile hidden="false" id="cbbe-b83c-7d57-a750" name="Tank Orders" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
      <profiles/>
      <rules/>
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="bd0a-a703-0603-5d4c" name="Effect" value='This model can issue one order each turn to a friendly &lt;REGIMENT&gt; LEMAN RUSS at the start of your Shooting phase.  To issue a Tank Order, pick a target LEMAN RUSS within 6" of this model and choose which order you wish to issue from the Tank Orders table.  Each LEMAN RUSS can only be given a single order each turn.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='This model can issue one order each turn to a friendly &lt;REGIMENT&gt; LEMAN RUSS at the start of your Shooting phase.  To issue a Tank Order, pick a target LEMAN RUSS within 6" of this model and choose which order you wish to issue from the Tank Orders table.  Each LEMAN RUSS can only be given a single order each turn.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -6248,7 +6248,6 @@
      <modifiers/>
      <constraints>
       <constraint field="selections" id="f460-6cb5-345c-215a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-      <constraint field="selections" id="36e7-74c1-42a2-eab2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
      </constraints>
      <categoryLinks/>
      <selectionEntries/>
@@ -6275,14 +6274,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="f925-32b0-f203-c5bb" name="Command Battle Tank" page="46" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="fa50-1678-f653-52d9" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -6323,14 +6315,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="780b-f0e5-95ca-454c" name="Command Demolisher" page="47" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="b4d0-06ba-2d8c-0d65" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -6371,14 +6356,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="2844-7eff-c059-caa9" name="Command Eradicator" page="47" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="ed75-576a-cf4e-c782" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -6427,14 +6405,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="a786-68b8-ee7f-193b" name="Command Executioner" page="47" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="bfd1-9409-b297-0e52" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -6497,14 +6468,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="3ceb-4339-0946-2a51" name="Command Exterminator" page="46" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="e9b8-8605-c2f9-dd74" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -6553,14 +6517,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="ed83-867c-5118-905a" name="Command Punisher" page="47" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="01da-5cd4-19c8-d3b3" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -6601,14 +6558,7 @@
       <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="ba40-0542-8717-1f74" name="Command Vanquisher" page="47" type="model">
        <profiles/>
        <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="749a-636c-b177-b947" name="Leman Russ" targetId="59561fd3-8437-5e2e-1080-fe4d29ae4a60" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
+       <infoLinks/>
        <modifiers/>
        <constraints/>
        <categoryLinks/>
@@ -11664,7 +11614,7 @@
             <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
             <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
             <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2"/>
-            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais testes de acerto de 1, o portador sofre D6 mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+            <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Se você fizer uma ou mais jogadas para acertar de 1, o portador sofre D6 mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
            </characteristics>
           </profile>
          </profiles>
@@ -13237,7 +13187,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a qualquer teste de acerto que você fizer para este modelo para disparar ataques que tenham como alvo unidades TITANIC."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a qualquer jogada para acertar que você fizer para este modelo para disparar ataques que tenham como alvo unidades TITANIC."/>
      </characteristics>
     </profile>
    </profiles>
@@ -13329,7 +13279,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos quando mirar unidades TITANIC com esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades TITANIC com esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -14186,7 +14136,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 para acertar as jogadas para o modelo ao acionar o Overwatch."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 às jogadas para acertar para o modelo ao acionar o Overwatch."/>
      </characteristics>
     </profile>
    </profiles>
@@ -14687,7 +14637,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 4+ ele explode, e cada unidade a no máximo 2D6" sofre ferimentos mortais D6.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 4+ ele explode, e cada unidade a no máximo 2D6" sofre D6 ferimentos mortais.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -15351,7 +15301,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma proteção invulnerável de 5+ contra ataques de tiro."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma salvamento invulnerável de 5+ contra ataques de tiro."/>
      </characteristics>
     </profile>
    </profiles>
@@ -15813,7 +15763,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma proteção invulnerável de 5+ contra ataques de tiro."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem uma salvamento invulnerável de 5+ contra ataques de tiro."/>
      </characteristics>
     </profile>
    </profiles>
@@ -16228,7 +16178,7 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="bea6-8c17-aa26-9aaf" name="Stat Damage (Macharius)" type="upgrade">
    <profiles>
-    <profile hidden="false" id="9408-360a-3030-6142" name="Stat Damage (Macharius)" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
+    <profile hidden="false" id="9408-360a-3030-6142" name="Stat Damage (Macharius) 1" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -16240,7 +16190,7 @@
       <characteristic characteristicTypeId="2e64-2e5c-f4d1-52d3" name="Attacks" value="3"/>
      </characteristics>
     </profile>
-    <profile hidden="false" id="daf0-c394-b135-0d35" name="Stat Damage (Macharius)" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
+    <profile hidden="false" id="daf0-c394-b135-0d35" name="Stat Damage (Macharius) 2" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -16252,7 +16202,7 @@
       <characteristic characteristicTypeId="2e64-2e5c-f4d1-52d3" name="Attacks" value="D3"/>
      </characteristics>
     </profile>
-    <profile hidden="false" id="89bc-7f17-022b-1073" name="Stat Damage (Macharius)" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
+    <profile hidden="false" id="89bc-7f17-022b-1073" name="Stat Damage (Macharius) 3" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -17420,7 +17370,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a fase de Tiro, um único VEÍCULO &lt;REGIMENTO&gt; aliada a no máximo 6" pode ​​re-rolar qualquer teste de acerto falhado ao fazer ataques de tiro.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante a fase de Tiro, um único VEÍCULO &lt;REGIMENTO&gt; aliada a no máximo 6" pode ​​re-rolar qualquer jogada para acertar falhado ao fazer ataques de tiro.'/>
      </characteristics>
     </profile>
     <profile hidden="false" id="1fda-9146-afc8-0a3f" name='Explodes (6+/6"/D3)' profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -17429,7 +17379,16 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6 ele explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="84d3-4c58-d084-87e3" name="Transport" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
+     <profiles/>
+     <rules/>
+     <infoLinks/>
+     <modifiers/>
+     <characteristics>
+      <characteristic characteristicTypeId="15aa-1916-a38b-d223" name="Capacity" value="This model can transport 6 ASTRA MILITARUM INFANTRY models. Each heavy Weapon Team or Veteran Heavy Weapon Team takes the space fo two other models, and each OGRYN takes the spaces of three other models."/>
      </characteristics>
     </profile>
    </profiles>
@@ -17587,7 +17546,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a qualquer teste de acerto que você fizer para este modelo para disparar ataques que tenham como alvo unidades TITANIC."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adicione 1 a qualquer jogada para acertar que você fizer para este modelo para disparar ataques que tenham como alvo unidades TITANIC."/>
      </characteristics>
     </profile>
    </profiles>
@@ -17679,7 +17638,7 @@
         <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="16"/>
         <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-5"/>
         <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="2D6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar testes para ferir malsucedidos quando mirar unidades TITANIC com esta arma."/>
+        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades TITANIC com esta arma."/>
        </characteristics>
       </profile>
      </profiles>
@@ -17833,7 +17792,7 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="d9d8-c37b-b7e1-2661" name="Stat Damage (Tank Commander)" type="upgrade">
    <profiles>
-    <profile hidden="false" id="64f6-ab93-2a4b-e557" name="Leman Russ 1" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
+    <profile hidden="false" id="64f6-ab93-2a4b-e557" name="Tank Commander 1" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -17845,7 +17804,7 @@
       <characteristic characteristicTypeId="2e64-2e5c-f4d1-52d3" name="Attacks" value="3"/>
      </characteristics>
     </profile>
-    <profile hidden="false" id="f783-8a2f-61cb-80f9" name="Leman Russ 2" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
+    <profile hidden="false" id="f783-8a2f-61cb-80f9" name="Tank Commander 2" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -17857,7 +17816,7 @@
       <characteristic characteristicTypeId="2e64-2e5c-f4d1-52d3" name="Attacks" value="D3"/>
      </characteristics>
     </profile>
-    <profile hidden="false" id="8b66-8f86-5c31-a58b" name="Leman Russ 3" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
+    <profile hidden="false" id="8b66-8f86-5c31-a58b" name="Tank Commander 3" profileTypeId="e6d5-85c5-7b01-a3c4" profileTypeName="Stat Damage - M/BS/A">
      <profiles/>
      <rules/>
      <infoLinks/>
@@ -18169,7 +18128,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Apenas modelo de INFANTARIA. O portador deste item tem um 4+ save invulnerável. Além disso, uma vez por jogo, no início de qualquer um dos seus turnos, o portador pode curar imediatamente D3 Pontos de Vida."/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Apenas modelo de INFANTARIA. O portador deste item tem um salvamento invulnerável de 4+ . Além disso, uma vez por jogo, no início de qualquer um dos seus turnos, o portador pode curar imediatamente D3 Pontos de Vida."/>
      </characteristics>
     </profile>
    </profiles>
@@ -18572,7 +18531,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas de acerto quando seu Warlord e as aliadas ​​unidades FIST de EMPEROR a no máximo 6" do seu Warlord, disparar Overwatch.'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar as jogadas para acertar quando seu Warlord e as aliadas ​​unidades FIST de EMPEROR a no máximo 6" do seu Warlord, disparar Overwatch.'/>
      </characteristics>
     </profile>
    </profiles>
@@ -18608,7 +18567,7 @@
      <infoLinks/>
      <modifiers/>
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que você fizer uma jogada de ferimento de 6+ para um ataque feito por uma aliada unidade do IMPERADOR enquanto estiver a 6" do seu Senhor da Guerra na fase de Tiro, a característica de Penetração de Armadura daquele ataque é aumentada em 1 (AP0 se torna AP -1, AP-1 torna-se AP-2).'/>
+      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Cada vez que você fizer uma jogada para ferir de 6+ para um ataque feito por uma aliada unidade do IMPERADOR enquanto estiver a 6" do seu Senhor da Guerra na fase de Tiro, a característica de Penetração de Armadura daquele ataque é aumentada em 1 (AP0 se torna AP -1, AP-1 torna-se AP-2).'/>
      </characteristics>
     </profile>
    </profiles>
@@ -20163,7 +20122,7 @@
    <modifiers/>
    <constraints>
     <constraint field="selections" id="d71a-b732-aeb9-1668" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-    <constraint field="selections" id="4de8-b8e4-0d61-a549" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="4de8-b8e4-0d61-a549" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
    </constraints>
    <categoryLinks/>
    <selectionEntries/>
@@ -20195,7 +20154,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enquanto seu Warlord estiver vivo, você pode re-rolar um único teste de acerto, rolagem de mão ou teste de resistência por batalha. Além disso, se o seu exército for forjado em batalha e este Senhor da Guerra estiver no campo de batalha, jogue um dado para cada Ponto de Comando gasto ao usar o Stratagem. Em um 5+ esse ponto de comando é imediatamente reembolsado"/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enquanto seu Warlord estiver vivo, você pode re-rolar um único jogada para acertar, rolagem de mão ou teste de resistência por batalha. Além disso, se o seu exército for forjado em batalha e este Senhor da Guerra estiver no campo de batalha, jogue um dado para cada Ponto de Comando gasto ao usar o Stratagem. Em um 5+ esse ponto de comando é imediatamente reembolsado"/>
          </characteristics>
         </profile>
        </profiles>
@@ -20223,7 +20182,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Após a implantação, mas antes do início da primeira rodada de batalha, escolha uma unidade no exército do seu oponente. Você pode re-rolar testes para ferir malsucedidos para unidades ASTRA MILITARUM do seu exército que tenham como alvo a unidade que você escolheu, enquanto eles estiverem a no máximo 6" do seu Warlord.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Após a implantação, mas antes do início da primeira rodada de batalha, escolha uma unidade no exército do seu oponente. Você pode re-rolar jogadas para ferir malsucedidas para unidades ASTRA MILITARUM do seu exército que tenham como alvo a unidade que você escolheu, enquanto eles estiverem a no máximo 6" do seu Warlord.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -20251,7 +20210,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando seu Warlord e uma única unidade aliada a no máximo 3" deles Advances, eles podem adicionar 6" à sua característica Move para aquela fase Movement em vez de rolar um dado'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Quando seu Warlord e uma única unidade aliada a no máximo 3" deles Advances, eles podem adicionar 6" à sua característica Move para aquela fase de Movimento em vez de rolar um dado'/>
          </characteristics>
         </profile>
        </profiles>
@@ -20279,7 +20238,7 @@
          <infoLinks/>
          <modifiers/>
          <characteristics>
-          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de moral com falha para unidades de INFANTARIA ASTRA MILITARUM aliadas ​​a no máximo 6" do seu Warlord na fase de moral.'/>
+          <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Você pode re-rolar os testes de moral malsucedida para unidades de INFANTARIA ASTRA MILITARUM aliadas ​​a no máximo 6" do seu Warlord na fase de moral.'/>
          </characteristics>
         </profile>
        </profiles>
@@ -20411,7 +20370,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, na fase de Tiro, você pode re-rolar um único teste de acerto para um veículo com um array de augurs."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Uma vez por batalha, na fase de Tiro, você pode re-rolar um único jogada para acertar para um veículo com um array de augurs."/>
        </characteristics>
       </profile>
      </profiles>
@@ -20438,7 +20397,7 @@
        <infoLinks/>
        <modifiers/>
        <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um veículo com uma lâmina de lâmina carrega na fase de Carga, adicione 1 a todas as jogadas de acerto feitas até o final da fase de Combate."/>
+        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se um veículo com uma lâmina de lâmina carrega na fase de Carga, adicione 1 a todas as jogadas para acertar feitas até o final da fase de Combate."/>
        </characteristics>
       </profile>
      </profiles>
@@ -20848,7 +20807,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um save invulnerável de 5+."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo tem um salvamento invulnerável de 5+."/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour - Index - Forces of the Astra Militarum" hidden="false" id="f884-552c-9917-3f45" name="Implacable Officer" page="57" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21094,7 +21053,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que uma unidade Astra Militarum falhar em um teste de Moral durante a fase Moral enquanto estiver a no máximo 6" de qualquer Comissário aliada, você pode executar um modelo. Se você fizer isso, um modelo de sua escolha nessa unidade será morto e o teste de Moral é re-rolado (não inclua este modelo morto ao relançar o teste Morale).'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='A primeira vez que uma unidade Astra Militarum falhar em um teste de Moral durante a fase Moral enquanto estiver a no máximo 6" de qualquer Comissário aliada, você pode executar um modelo. Se você fizer isso, um modelo de sua escolha nessa unidade será morto e o teste de Moral é re-rolado (não inclua este modelo morto ao re-rolar o teste Morale).'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="293c-951a-190e-6ea8" name="Death Korps Death Rider Veteran" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -21400,16 +21359,16 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6+ ele explode, e cada unidade a no máximo 6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha e antes que qualquer modelo embarcado desembarque. Em um 6+ ele explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
-  <profile hidden="false" id="4769-7136-e407-4743" name="Transport (Storm Chimera)" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+  <profile hidden="false" id="4769-7136-e407-4743" name="Transport (Storm Chimera)" profileTypeId="b3a8-0452-7436-44d1" profileTypeName="Transport">
    <profiles/>
    <rules/>
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode transportar 12 modelos ASTRA MILITARUM INFANTRY. Cada Equipe de Armas Pesadas ou Equipe de Armas Pesadas de Veteranos ocupa o espaço de dois outros modelos, e cada OGRYN ocupa os espaços de três outros modelos."/>
+    <characteristic characteristicTypeId="15aa-1916-a38b-d223" name="Capacity" value="This model can transport 12 ASTRA MILITARUM INFANTRY models. Each heavy Weapon Team or Veteran Heavy Weapon Team takes the space fo two other models, and each OGRYN takes the spaces of three other models."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="9d20-fbec-6208-a911" name="Medi-pack" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21528,7 +21487,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo permanecer estacionário ou se mover abaixo da metade da velocidade na sua fase Movimento (isto é, ele mover uma distância em polegadas menor que a metade da sua característica atual de Movimento) ele poderá disparar sua arma duas vezes na seguinte fase de Tiro (a arma da torre deve atingir a mesma unidade ambas as vezes). Além disso, os testes de acerto da arma da torre deste modelo não sofrem a penalidade por se moverem e atirarem com uma arma Pesada. As armas a seguir são armas de torre: canhão de batalha, canhão de batalha Conquistador, canhão Demolidor, canhão Eradicator nova, canhão de plasma carrasco, canhão automático Exterminador, canhão Gatling Punisher, canhão de batalha Stygies Vanquisher, canhão de batalha duplo lascannon e Vanquisher."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo permanecer estacionário ou se mover abaixo da metade da velocidade na sua fase Movimento (isto é, ele mover uma distância em polegadas menor que a metade da sua característica atual de Movimento) ele poderá disparar sua arma duas vezes na seguinte fase de Tiro (a arma da torre deve atingir a mesma unidade ambas as vezes). Além disso, as jogadas para acertar da arma da torre deste modelo não sofrem a penalidade por se moverem e atirarem com uma arma Pesada. As armas a seguir são armas de torre: canhão de batalha, canhão de batalha Conquistador, canhão Demolidor, canhão Eradicator nova, canhão de plasma carrasco, canhão automático Exterminador, canhão Gatling Punisher, canhão de batalha Stygies Vanquisher, canhão de batalha duplo lascannon e Vanquisher."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="a55e-c10a-f378-b564" name="Hades Veterans" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -21602,7 +21561,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 2D6" sofre ferimentos mortais D6.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 2D6" sofre D6 ferimentos mortais.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="62e4-243e-c188-2d88" name="Steel Behemoth" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21611,7 +21570,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não sofre a penalidade de suas jogadas de acerto por mover e disparar armas pesadas. Este modelo pode cair na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Ele pode, exceto quando disparar Overwatch, também disparar suas armas se as unidades inimigas estiverem a menos de 1" (mas apenas seu pesado bolador duplo ou flautista pesado duplo pode mirar unidades que estão a menos de 1" disto - suas outras armas devem mirar em outras unidades). Além disso, este modelo só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido pelo atirador.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo não sofre a penalidade de suas jogadas para acertar por mover e disparar armas pesadas. Este modelo pode recuar na fase de movimento e ainda disparar e / ou carregar durante a sua vez. Ele pode, exceto quando disparar Overwatch, também disparar suas armas se as unidades inimigas estiverem a menos de 1" (mas apenas seu pesado bolador duplo ou flautista pesado duplo pode mirar unidades que estão a menos de 1" disto - suas outras armas devem mirar em outras unidades). Além disso, este modelo só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido pelo atirador.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="5a02-5165-adc7-f9a8" name="Twin Heavy Stubber" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -21634,7 +21593,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 2D6" sofre ferimentos mortais D3.'/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em um 6 ele explode, e cada unidade a no máximo 2D6" sofre Ferimentos Mortais D3.'/>
    </characteristics>
   </profile>
   <profile hidden="false" id="e807-fc4d-8f8a-81fe" name="Co-axial Weapon" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -21643,7 +21602,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se durante a mesma fase de Tiro este modelo dispara sua arma Principal no mesmo alvo da sua arma coaxial, ela pode rolar novamente qualquer teste de acerto falhado com sua arma principal."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se durante a mesma fase de Tiro este modelo dispara sua arma Principal no mesmo alvo da sua arma coaxial, ela pode re-rolar qualquer jogada para acertar falhado com sua arma principal."/>
    </characteristics>
   </profile>
   <profile hidden="false" id="fbb4-f93a-5627-07d5" name="Duty unto death!" profileTypeId="df35-fad2-be79-e105" profileTypeName="Death Korps Orders">
@@ -21724,7 +21683,7 @@
    <infoLinks/>
    <modifiers/>
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo disparar um canhão de plasma sobrecarregado e você rolar um ou mais testes de acerto de 1, ele não será destruído automaticamente. Em vez disso, para cada jogada de 1, o portador sofre 1 Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
+    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se este modelo disparar um canhão de plasma sobrecarregado e você rolar um ou mais jogadas para acertar de 1, ele não será destruído automaticamente. Em vez disso, para cada jogada de 1, o portador sofre 1 Ferimento Mortal depois que todos os tiros da arma tiverem sido resolvidos."/>
    </characteristics>
   </profile>
   <profile book="Imperial Armour: Forces of the Astra Militarum" hidden="false" id="307a-6b7f-691a-7934" name="Mars-Alpha Hull" page="69" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
