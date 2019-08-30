@@ -1,889 +1,561 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="Gitter: @Alphalas, twitter: @kingoverlord" authorName="Alphalas" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Index: Imperium 2" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="104e-06dd-4514-8e80" name="Imperium - Adeptus Astra Telepathica-BR" revision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
- <profiles/>
- <rules/>
- <infoLinks/>
- <costTypes/>
- <profileTypes/>
+<catalogue authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.02" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="104e-06dd-4514-8e80" library="false" name="Imperium - Adeptus Astra Telepathica-BR" revision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <publications>
+  <publication id="104e-06dd-pubN65537" name="Index: Imperium 2"/>
+  <publication id="104e-06dd-pubN65713" name="Codex: Astra Militarum"/>
+ </publications>
  <categoryEntries>
-  <categoryEntry hidden="false" id="4e73-491c-d01a-5318" name="Astra Telepathica">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="0890-8723-7184-d191" name="Scholastica Psykana">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="8b59-d0de-69c5-2c53" name="Primaris Psyker">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="751d-39bf-3f92-fc7b" name="Wyrdvane Psykers">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="0529-accb-b64c-d8a9" name="Astropath">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
+  <categoryEntry hidden="false" id="4e73-491c-d01a-5318" name="Astra Telepathica"/>
+  <categoryEntry hidden="false" id="0890-8723-7184-d191" name="Scholastica Psykana"/>
+  <categoryEntry hidden="false" id="8b59-d0de-69c5-2c53" name="Primaris Psyker"/>
+  <categoryEntry hidden="false" id="751d-39bf-3f92-fc7b" name="Wyrdvane Psykers"/>
+  <categoryEntry hidden="false" id="0529-accb-b64c-d8a9" name="Astropath"/>
  </categoryEntries>
- <forceEntries/>
- <selectionEntries/>
  <entryLinks>
-  <entryLink hidden="false" id="6ff3-27f6-d119-b33c" name="Astropath" targetId="5100-9b4f-5660-b8de" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
-  <entryLink hidden="false" id="047b-f9f0-9b96-3c75" name="Wyrdvane Psykers" targetId="fd91-34b5-8234-7d79" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
-  <entryLink hidden="false" id="c9b6-dbde-5c24-172f" name="Primaris Psyker" targetId="e58d-6a36-4927-24dd" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
+  <entryLink collective="false" hidden="false" id="6ff3-27f6-d119-b33c" name="Astropath" targetId="5100-9b4f-5660-b8de" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="047b-f9f0-9b96-3c75" name="Wyrdvane Psykers" targetId="fd91-34b5-8234-7d79" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="c9b6-dbde-5c24-172f" name="Primaris Psyker" targetId="e58d-6a36-4927-24dd" type="selectionEntry"/>
  </entryLinks>
  <sharedSelectionEntries>
-  <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="e58d-6a36-4927-24dd" name="Primaris Psyker" page="34" type="model">
+  <selectionEntry collective="false" hidden="false" id="e58d-6a36-4927-24dd" name="Primaris Psyker" page="34" publicationId="104e-06dd-pubN65713" type="model">
    <profiles>
-    <profile hidden="false" id="c1a8-b2e2-0fee-0a7e" name="Primaris Psyker" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="c1a8-b2e2-0fee-0a7e" name="Primaris Psyker" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
-      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value='6"'/>
-      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="3+"/>
-      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="3+"/>
-      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="3"/>
-      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="3"/>
-      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="4"/>
-      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="3"/>
-      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="8"/>
-      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="5+"/>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       6"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       3+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       3+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       3
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       3
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       4
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       3
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       8
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       5+
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="093a-db40-dea0-e29f" name="Psyker" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="093a-db40-dea0-e29f" name="Psyker" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
      <characteristics>
-      <characteristic characteristicTypeId="5afb-9914-904b-d3b3" name="Cast" value="This model can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 2 psychic powers from the Psykana discipline."/>
-      <characteristic characteristicTypeId="b5ac-9c20-5d5a-6f9b" name="Deny"/>
-      <characteristic characteristicTypeId="69d7-b45e-00a2-7e46" name="Powers Known"/>
-      <characteristic characteristicTypeId="c2e2-f115-0003-5d7b" name="Other"/>
+      <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">
+       This model can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 2 psychic powers from the Psykana discipline.
+      </characteristic>
+      <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b"/>
+      <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46"/>
+      <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
      </characteristics>
     </profile>
    </profiles>
-   <rules/>
    <infoLinks>
-    <infoLink hidden="false" id="81b9-4261-0949-56be" name="New InfoLink" targetId="5e70-965d-4d33-4589" type="profile">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
+    <infoLink hidden="false" id="81b9-4261-0949-56be" name="New InfoLink" targetId="5e70-965d-4d33-4589" type="profile"/>
    </infoLinks>
-   <modifiers/>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="19c6-c04a-2ee3-5f38" name="New CategoryLink" primary="false" targetId="4e73-491c-d01a-5318">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="0c5d-c9de-1af8-fdc3" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="863b-1aea-893c-fb2f" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="1584-fa2a-0d24-e9b1" name="New CategoryLink" primary="false" targetId="8b59-d0de-69c5-2c53">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="d71f-aafd-4618-2b6f" name="New CategoryLink" primary="false" targetId="e691-aad7-d21c-1023">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="91a0-3f73-cddb-ef2f" name="New CategoryLink" primary="false" targetId="0890-8723-7184-d191">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="19c6-c04a-2ee3-5f38" name="New CategoryLink" primary="false" targetId="4e73-491c-d01a-5318"/>
+    <categoryLink hidden="false" id="0c5d-c9de-1af8-fdc3" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="863b-1aea-893c-fb2f" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+    <categoryLink hidden="false" id="1584-fa2a-0d24-e9b1" name="New CategoryLink" primary="false" targetId="8b59-d0de-69c5-2c53"/>
+    <categoryLink hidden="false" id="d71f-aafd-4618-2b6f" name="New CategoryLink" primary="false" targetId="e691-aad7-d21c-1023"/>
+    <categoryLink hidden="false" id="91a0-3f73-cddb-ef2f" name="New CategoryLink" primary="false" targetId="0890-8723-7184-d191"/>
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="7f7c-000f-73b1-84de" name="Laspistol" type="upgrade">
-     <profiles/>
-     <rules/>
-     <infoLinks>
-      <infoLink hidden="false" id="c9aa-448f-9b2e-4b1f" name="New InfoLink" targetId="f2b7-768f-a270-de64" type="profile">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-      </infoLink>
-     </infoLinks>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="98f5-45b0-4abf-2dad" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="9c24-85b1-8356-fa90" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <infoLinks>
+      <infoLink hidden="false" id="c9aa-448f-9b2e-4b1f" name="New InfoLink" targetId="f2b7-768f-a270-de64" type="profile"/>
+     </infoLinks>
      <costs>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-      <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="8a89-78eb-85cb-4ade" name="Force Stave" type="upgrade">
-     <profiles/>
-     <rules/>
-     <infoLinks>
-      <infoLink hidden="false" id="c7d3-0594-c09e-a76e" name="New InfoLink" targetId="ed69-f85e-5982-9ab8" type="profile">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-      </infoLink>
-     </infoLinks>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="9490-23a2-6cec-4ac2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="3a8f-23bc-9bfc-76a7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <infoLinks>
+      <infoLink hidden="false" id="c7d3-0594-c09e-a76e" name="New InfoLink" targetId="ed69-f85e-5982-9ab8" type="profile"/>
+     </infoLinks>
      <costs>
-      <cost costTypeId="points" name="pts" value="12.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="12.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="c23d-ac93-df2c-5d47" name="Psykana Discipline" targetId="dd59-c8d7-84f3-3c67" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <entryLink collective="false" hidden="false" id="c23d-ac93-df2c-5d47" name="Psykana Discipline" targetId="dd59-c8d7-84f3-3c67" type="selectionEntryGroup">
      <constraints>
       <constraint field="selections" id="7f10-5a48-4690-7e7b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0.0"/>
       <constraint field="selections" id="7267-56f4-f89c-4d5c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
      </constraints>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="7e1c-8d38-2d09-ec53" name="Warlord" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <entryLink collective="false" hidden="false" id="7e1c-8d38-2d09-ec53" name="Warlord" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="0301-2a4a-8814-6136" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="515b-a427-45b3-071b" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
+    <entryLink collective="false" hidden="false" id="515b-a427-45b3-071b" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
-       <repeats/>
        <conditions>
         <condition childId="33f6-60da-7b70-5fee" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
        </conditions>
-       <conditionGroups/>
       </modifier>
      </modifiers>
-     <constraints/>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="5b06-b389-dd45-bbd3" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="dc1c-6669-ca0a-e5a1" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="5b06-b389-dd45-bbd3" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="dc1c-6669-ca0a-e5a1" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="28.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="2.0"/>
+    <cost name="pts" typeId="points" value="28.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry book="Codex: Astra Militarum" collective="false" hidden="false" id="fd91-34b5-8234-7d79" name="Wyrdvane Psykers" page="42" type="unit">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
+  <selectionEntry collective="false" hidden="false" id="fd91-34b5-8234-7d79" name="Wyrdvane Psykers" page="42" publicationId="104e-06dd-pubN65713" type="unit">
    <modifiers>
     <modifier field="e356-c769-5920-6e14" type="increment" value="1">
-     <repeats/>
      <conditions>
       <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="fd91-34b5-8234-7d79" shared="true" type="greaterThan" value="6.0"/>
      </conditions>
-     <conditionGroups/>
     </modifier>
     <modifier field="e356-c769-5920-6e14" type="increment" value="1">
-     <repeats/>
      <conditions>
       <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="fd91-34b5-8234-7d79" shared="true" type="greaterThan" value="3.0"/>
      </conditions>
-     <conditionGroups/>
     </modifier>
    </modifiers>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="0203-141b-a19e-9fc4" name="New CategoryLink" primary="false" targetId="4e73-491c-d01a-5318">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="e32b-d64c-0eb2-aa15" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="dcd9-e6fd-03c7-61a0" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="082c-9634-1096-6cf2" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="8293-407f-d514-571c" name="New CategoryLink" primary="false" targetId="e691-aad7-d21c-1023">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="7b3c-563c-3853-8050" name="New CategoryLink" primary="false" targetId="0890-8723-7184-d191">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="d5e6-f719-5ab5-cbd0" name="New CategoryLink" primary="false" targetId="751d-39bf-3f92-fc7b">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="0203-141b-a19e-9fc4" name="New CategoryLink" primary="false" targetId="4e73-491c-d01a-5318"/>
+    <categoryLink hidden="false" id="e32b-d64c-0eb2-aa15" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="dcd9-e6fd-03c7-61a0" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+    <categoryLink hidden="false" id="082c-9634-1096-6cf2" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="8293-407f-d514-571c" name="New CategoryLink" primary="false" targetId="e691-aad7-d21c-1023"/>
+    <categoryLink hidden="false" id="7b3c-563c-3853-8050" name="New CategoryLink" primary="false" targetId="0890-8723-7184-d191"/>
+    <categoryLink hidden="false" id="d5e6-f719-5ab5-cbd0" name="New CategoryLink" primary="false" targetId="751d-39bf-3f92-fc7b"/>
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="b433-169f-06f0-4fcf" name="Wyrdvane Psyker" page="0" type="model">
-     <profiles>
-      <profile hidden="false" id="4b0a-3f7b-5b97-6d53" name="Choir of Minds" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Toda vez que você fizer um teste psíquico ou o teste Negar a Bruxa para esta unidade, role 1D6 ao invés de 2D6. Você pode adicionar 1 ao teste psíquico que você faz para esta unidade se tiver 3 ou mais modelos, ou 2 para o teste se tiver 6 ou mais modelos."/>
-       </characteristics>
-      </profile>
-      <profile hidden="false" id="c908-62cd-1d4a-d4e7" name="Psyker" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="5afb-9914-904b-d3b3" name="Cast" value='This unit can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 1 psychic powers from the Psykana discipline.  When Manifesting or denying a psychic power, first select a model in the unit - measure range, visibility, etc from this model.  If this unit suffers Perils of the Warp, it suffers D3 mortal wounds as described in the core rules, but units within 6" only suffer damage if the perils of the Warp causes the last model in the manifesting unit to be slain.'/>
-        <characteristic characteristicTypeId="b5ac-9c20-5d5a-6f9b" name="Deny"/>
-        <characteristic characteristicTypeId="69d7-b45e-00a2-7e46" name="Powers Known"/>
-        <characteristic characteristicTypeId="c2e2-f115-0003-5d7b" name="Other"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks>
-      <infoLink hidden="false" id="3ce2-79f5-634d-c97e" name="Wyrdvane Psyker" targetId="ba66-8ca0-fc60-66aa" type="profile">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-      </infoLink>
-     </infoLinks>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="b278-91e5-7b14-49a1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="3.0"/>
       <constraint field="selections" id="9471-f020-f26d-23f7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="9.0"/>
      </constraints>
-     <categoryLinks/>
+     <profiles>
+      <profile hidden="false" id="4b0a-3f7b-5b97-6d53" name="Choir of Minds" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         Toda vez que você fizer um teste psíquico ou o teste Negar a Bruxa para esta unidade, role 1D6 ao invés de 2D6. Você pode adicionar 1 ao teste psíquico que você faz para esta unidade se tiver 3 ou mais modelos, ou 2 para o teste se tiver 6 ou mais modelos.
+        </characteristic>
+       </characteristics>
+      </profile>
+      <profile hidden="false" id="c908-62cd-1d4a-d4e7" name="Psyker" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+       <characteristics>
+        <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">
+         This unit can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 1 psychic powers from the Psykana discipline.  When Manifesting or denying a psychic power, first select a model in the unit - measure range, visibility, etc from this model.  If this unit suffers Perils of the Warp, it suffers D3 mortal wounds as described in the core rules, but units within 6" only suffer damage if the perils of the Warp causes the last model in the manifesting unit to be slain.
+        </characteristic>
+        <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b"/>
+        <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46"/>
+        <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="3ce2-79f5-634d-c97e" name="Wyrdvane Psyker" targetId="ba66-8ca0-fc60-66aa" type="profile"/>
+     </infoLinks>
      <selectionEntries>
       <selectionEntry collective="true" hidden="false" id="3994-16cd-27fd-2658" name="Laspistol" type="upgrade">
-       <profiles/>
-       <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="a357-1c74-9f3d-9583" name="New InfoLink" targetId="f2b7-768f-a270-de64" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
-       <modifiers/>
        <constraints>
         <constraint field="selections" id="fd1b-c530-9811-9ebb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="08cf-dc65-2bb5-5ece" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
-       <categoryLinks/>
-       <selectionEntries/>
-       <selectionEntryGroups/>
-       <entryLinks/>
+       <infoLinks>
+        <infoLink hidden="false" id="a357-1c74-9f3d-9583" name="New InfoLink" targetId="f2b7-768f-a270-de64" type="profile"/>
+       </infoLinks>
        <costs>
-        <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-        <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="true" hidden="false" id="7376-bfe7-ec6e-9e8b" name="Wyrdvane Stave" type="upgrade">
-       <profiles>
-        <profile hidden="false" id="475b-e9a3-4732-8431" name="Wyrdvane Stave" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-         <characteristics>
-          <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-          <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
-          <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
-          <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
-          <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities"/>
-         </characteristics>
-        </profile>
-       </profiles>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
        <constraints>
         <constraint field="selections" id="c4ec-729e-dee5-69ba" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="2a06-3ee0-6b8f-0261" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
-       <categoryLinks/>
-       <selectionEntries/>
-       <selectionEntryGroups/>
-       <entryLinks/>
+       <profiles>
+        <profile hidden="false" id="475b-e9a3-4732-8431" name="Wyrdvane Stave" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+           Melee
+          </characteristic>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+           Melee
+          </characteristic>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466">
+           +1
+          </characteristic>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484">
+           0
+          </characteristic>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+           1
+          </characteristic>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+         </characteristics>
+        </profile>
+       </profiles>
        <costs>
-        <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-        <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
-     <selectionEntryGroups/>
-     <entryLinks/>
      <costs>
-      <cost costTypeId="points" name="pts" value="8.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="8.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="056d-0bc0-6e1d-adce" name="New EntryLink" targetId="dd59-c8d7-84f3-3c67" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <entryLink collective="false" hidden="false" id="056d-0bc0-6e1d-adce" name="New EntryLink" targetId="dd59-c8d7-84f3-3c67" type="selectionEntryGroup">
      <constraints>
       <constraint field="selections" id="30ad-e8d9-9a51-d092" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0.0"/>
       <constraint field="selections" id="de27-811b-4b34-42d0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="8f76-fa55-9f41-1bc3" name="Unit has battle honors?" targetId="4763-757f-499f-d998" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="19c7-c094-8fe4-d557" name="Battle Honors" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="8f76-fa55-9f41-1bc3" name="Unit has battle honors?" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="19c7-c094-8fe4-d557" name="Battle Honors" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="0.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5100-9b4f-5660-b8de" name="Astropath" page="0" type="upgrade">
    <profiles>
-    <profile hidden="false" id="b608-4226-9a55-7541" name="Astral Divination" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="b608-4226-9a55-7541" name="Astral Divination" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='No início da sua fase de Tiro, escolha uma unidade inimiga a no máximo 18" desse modelo. Durante a fase, a unidade que você escolheu não ganha nenhum bônus em seus testes de resistência por estar em cobertura quando for alvo de ataques feitos por amigos Unidades ASTRA MILITARUM a no máximo 6" deste modelo.'/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       No início da sua fase de Tiro, escolha uma unidade inimiga a no máximo 18" desse modelo. Durante a fase, a unidade que você escolheu não ganha nenhum bônus em seus testes de defesa por estar em cobertura quando for alvo de ataques feitos por amigos Unidades ASTRA MILITARUM a no máximo 6" deste modelo.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="6fb5-b4f6-63da-212d" name="Telepathic Assault" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="6fb5-b4f6-63da-212d" name="Telepathic Assault" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que você faz um teste psíquico para esta unidade quando tenta manifestar Smite, role 1D6 ao invés de 2D6."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Cada vez que você faz um teste psíquico para esta unidade quando tenta manifestar Smite, role 1D6 ao invés de 2D6.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="90fe-60be-1f53-37a0" name="Psyker" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="90fe-60be-1f53-37a0" name="Psyker" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
      <characteristics>
-      <characteristic characteristicTypeId="5afb-9914-904b-d3b3" name="Cast" value="This model can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 1 psychic powers from the Psykana discipline."/>
-      <characteristic characteristicTypeId="b5ac-9c20-5d5a-6f9b" name="Deny"/>
-      <characteristic characteristicTypeId="69d7-b45e-00a2-7e46" name="Powers Known"/>
-      <characteristic characteristicTypeId="c2e2-f115-0003-5d7b" name="Other"/>
+      <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">
+       This model can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 1 psychic powers from the Psykana discipline.
+      </characteristic>
+      <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b"/>
+      <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46"/>
+      <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
      </characteristics>
     </profile>
    </profiles>
-   <rules/>
    <infoLinks>
-    <infoLink hidden="false" id="654e-a0a7-6da6-555f" name="Astropath" targetId="80af-9ba7-d28b-719f" type="profile">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
+    <infoLink hidden="false" id="654e-a0a7-6da6-555f" name="Astropath" targetId="80af-9ba7-d28b-719f" type="profile"/>
    </infoLinks>
-   <modifiers/>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="e09a-a140-d1f0-571a" name="New CategoryLink" primary="false" targetId="4e73-491c-d01a-5318">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="c8ab-9360-bbb6-32b8" name="New CategoryLink" primary="false" targetId="0529-accb-b64c-d8a9">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="87fa-383b-929a-c9d3" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="1092-252d-d454-3e2b" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="8a15-1501-474d-92db" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="5515-ea3c-ba23-a402" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="4ec5-ab38-e531-eb8d" name="New CategoryLink" primary="false" targetId="e691-aad7-d21c-1023">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="39c9-e96e-30c3-267d" name="New CategoryLink" primary="false" targetId="0890-8723-7184-d191">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="e09a-a140-d1f0-571a" name="New CategoryLink" primary="false" targetId="4e73-491c-d01a-5318"/>
+    <categoryLink hidden="false" id="c8ab-9360-bbb6-32b8" name="New CategoryLink" primary="false" targetId="0529-accb-b64c-d8a9"/>
+    <categoryLink hidden="false" id="87fa-383b-929a-c9d3" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="1092-252d-d454-3e2b" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="8a15-1501-474d-92db" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+    <categoryLink hidden="false" id="5515-ea3c-ba23-a402" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="4ec5-ab38-e531-eb8d" name="New CategoryLink" primary="false" targetId="e691-aad7-d21c-1023"/>
+    <categoryLink hidden="false" id="39c9-e96e-30c3-267d" name="New CategoryLink" primary="false" targetId="0890-8723-7184-d191"/>
    </categoryLinks>
-   <selectionEntries/>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="c413-0ad6-5399-f634" hidden="false" id="0f04-fd49-2780-0282" name="Astropath Stave">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="5ce2-da36-1f60-1c4e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
       <constraint field="selections" id="4fff-8c3b-df8a-7c27" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
      </constraints>
-     <categoryLinks/>
      <selectionEntries>
       <selectionEntry collective="false" hidden="false" id="c413-0ad6-5399-f634" name="Telepathica Stave" type="upgrade">
-       <profiles>
-        <profile hidden="false" id="00ae-1c44-28af-4bc6" name="Telepathica Stave" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-         <characteristics>
-          <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-          <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
-          <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
-          <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
-          <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-          <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities"/>
-         </characteristics>
-        </profile>
-       </profiles>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
        <constraints>
         <constraint field="selections" id="a812-855d-3f2c-324c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
-       <categoryLinks/>
-       <selectionEntries/>
-       <selectionEntryGroups/>
-       <entryLinks/>
+       <profiles>
+        <profile hidden="false" id="00ae-1c44-28af-4bc6" name="Telepathica Stave" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+           Melee
+          </characteristic>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+           Melee
+          </characteristic>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466">
+           +1
+          </characteristic>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484">
+           0
+          </characteristic>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+           D3
+          </characteristic>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+         </characteristics>
+        </profile>
+       </profiles>
        <costs>
-        <cost costTypeId="points" name="pts" value="6.0"/>
-        <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+        <cost name="pts" typeId="points" value="6.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="4727-8a03-9582-0527" name="Laspistol" type="upgrade">
-       <profiles/>
-       <rules/>
-       <infoLinks>
-        <infoLink hidden="false" id="88bf-f1a0-e4f6-0faf" name="New InfoLink" targetId="f2b7-768f-a270-de64" type="profile">
-         <profiles/>
-         <rules/>
-         <infoLinks/>
-         <modifiers/>
-        </infoLink>
-       </infoLinks>
-       <modifiers/>
        <constraints>
         <constraint field="selections" id="ccb2-4ab7-459b-814a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
-       <categoryLinks/>
-       <selectionEntries/>
-       <selectionEntryGroups/>
-       <entryLinks/>
+       <infoLinks>
+        <infoLink hidden="false" id="88bf-f1a0-e4f6-0faf" name="New InfoLink" targetId="f2b7-768f-a270-de64" type="profile"/>
+       </infoLinks>
        <costs>
-        <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-        <cost costTypeId="points" name="pts" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
        </costs>
       </selectionEntry>
      </selectionEntries>
-     <selectionEntryGroups/>
-     <entryLinks/>
     </selectionEntryGroup>
    </selectionEntryGroups>
    <entryLinks>
-    <entryLink hidden="false" id="60d6-3280-28a9-da51" name="Psykana Discipline" targetId="dd59-c8d7-84f3-3c67" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <entryLink collective="false" hidden="false" id="60d6-3280-28a9-da51" name="Psykana Discipline" targetId="dd59-c8d7-84f3-3c67" type="selectionEntryGroup">
      <constraints>
       <constraint field="selections" id="ce65-7b55-e72a-fa9d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0.0"/>
       <constraint field="selections" id="61ac-bb73-512f-21a5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="6369-eee8-89f7-d8a8" name="Warlord" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <entryLink collective="false" hidden="false" id="6369-eee8-89f7-d8a8" name="Warlord" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="56b2-3a54-2fc5-21b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="d32e-7048-96d0-5bbd" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
+    <entryLink collective="false" hidden="false" id="d32e-7048-96d0-5bbd" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
-       <repeats/>
        <conditions>
         <condition childId="33f6-60da-7b70-5fee" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
        </conditions>
-       <conditionGroups/>
       </modifier>
      </modifiers>
-     <constraints/>
-     <categoryLinks/>
     </entryLink>
-    <entryLink hidden="false" id="a1c8-1d7a-28e6-1918" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="e7a2-9836-380c-4dfd" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="a1c8-1d7a-28e6-1918" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="e7a2-9836-380c-4dfd" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="15.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="1.0"/>
+    <cost name="pts" typeId="points" value="15.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
   <selectionEntryGroup collective="false" hidden="false" id="dd59-c8d7-84f3-3c67" name="Psykana Discipline">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="9111-6c89-6d5c-c94d" name="Terrifying Visions" type="upgrade">
-     <profiles>
-      <profile hidden="false" id="bf40-ac7d-b721-057b" name="Terrifying Visions" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="5ffd-b800-c317-532a" name="Warp Charge" value="7"/>
-        <characteristic characteristicTypeId="fd64-cbc4-94de-24cc" name="Range" value='18"'/>
-        <characteristic characteristicTypeId="ad96-dfa4-b4ed-656d" name="Details" value='Choose an enemy unit within 18" of the psyker. That unit subtracts 2 from its Leadership until the start of your next turn.'/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="cf00-48dd-fe14-da05" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="bf40-ac7d-b721-057b" name="Terrifying Visions" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+       <characteristics>
+        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">
+         7
+        </characteristic>
+        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">
+         18"
+        </characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
+         Escolha uma unidade inimiga a no máximo 18" do Psyker. Aquela unidade subtrai 2 de sua liderança até o início do seu próximo turno.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-      <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="b49d-0963-0000-12a4" name="Gaze of the Emperor" type="upgrade">
-     <profiles>
-      <profile hidden="false" id="1322-19a9-0c7b-e365" name="Gaze of the Emperor" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="5ffd-b800-c317-532a" name="Warp Charge" value="6"/>
-        <characteristic characteristicTypeId="fd64-cbc4-94de-24cc" name="Range" value='2D6"'/>
-        <characteristic characteristicTypeId="ad96-dfa4-b4ed-656d" name="Details" value="draw a straight line 2D6&quot; long directly away from the psyker.  Roll a dice for each model the centre of the line passes over.  On a 4+ that model's unit suffers a mortal wound."/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="a4a7-df0c-ca07-a03b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
-     <costs>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-     </costs>
-    </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="a0bd-c1e3-3f1d-3db7" name="Psychic Barrier" type="upgrade">
      <profiles>
-      <profile hidden="false" id="180d-a98f-c490-10dc" name="Psychic Barrier" profileTypeId="ae70-4738-0161-bec0" profileTypeName="Psychic Power">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
+      <profile hidden="false" id="1322-19a9-0c7b-e365" name="Gaze of the Emperor" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
        <characteristics>
-        <characteristic characteristicTypeId="5ffd-b800-c317-532a" name="Warp Charge" value="6"/>
-        <characteristic characteristicTypeId="fd64-cbc4-94de-24cc" name="Range" value='12"'/>
-        <characteristic characteristicTypeId="ad96-dfa4-b4ed-656d" name="Details" value="Select a friendly ASTRA MILITARUM unit within 12&quot; of the psyker.  Until the start of your next psychic phase, add 1 to that unit's saving throws."/>
+        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">
+         6
+        </characteristic>
+        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">
+         2D6"
+        </characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
+         desenhe uma linha reta 2D6" longamente longe do Psyker. Jogue um dado para cada modelo que o centro da linha passar. Em um 4+ a unidade desse modelo sofre um ferimento mortal.
+        </characteristic>
        </characteristics>
       </profile>
      </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="a0bd-c1e3-3f1d-3db7" name="Psychic Barrier" type="upgrade">
      <constraints>
       <constraint field="selections" id="b143-cf58-ecc5-51de" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="180d-a98f-c490-10dc" name="Psychic Barrier" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+       <characteristics>
+        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">
+         6
+        </characteristic>
+        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">
+         12"
+        </characteristic>
+        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
+         Selecione uma unidade aliada ASTRA MILITARUM a no máximo 12" do Psyker. Até o início de sua próxima fase Psíquica, adicione 1 aos testes de defesa da unidade.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
-      <cost costTypeId="points" name="pts" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
-   <entryLinks/>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>
- <sharedRules/>
  <sharedProfiles>
-  <profile book="Codex: Astra Militarum" hidden="false" id="ba66-8ca0-fc60-66aa" name="Wyrdvane Psyker" page="42" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
+  <profile hidden="false" id="ba66-8ca0-fc60-66aa" name="Wyrdvane Psyker" page="42" publicationId="104e-06dd-pubN65713" typeId="800f-21d0-4387-c943" typeName="Unit">
    <characteristics>
-    <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M"/>
-    <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="2"/>
-    <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="3"/>
-    <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="2"/>
-    <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="3"/>
-    <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="1"/>
-    <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="1"/>
-    <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="8"/>
-    <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="5+"/>
+    <characteristic name="M" typeId="0bdf-a96e-9e38-7779"/>
+    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+     2
+    </characteristic>
+    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+     3
+    </characteristic>
+    <characteristic name="S" typeId="2218-aa3c-265f-2939">
+     2
+    </characteristic>
+    <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+     3
+    </characteristic>
+    <characteristic name="W" typeId="f330-5e6e-4110-0978">
+     1
+    </characteristic>
+    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+     1
+    </characteristic>
+    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+     8
+    </characteristic>
+    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+     5+
+    </characteristic>
    </characteristics>
   </profile>
-  <profile hidden="false" id="cf04-018c-01ec-e86d" name="Primaris Psyker" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
+  <profile hidden="false" id="cf04-018c-01ec-e86d" name="Primaris Psyker" typeId="800f-21d0-4387-c943" typeName="Unit">
    <characteristics>
-    <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M"/>
-    <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="4"/>
-    <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="4"/>
-    <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="3"/>
-    <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="3"/>
-    <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="2"/>
-    <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="2"/>
-    <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="9"/>
-    <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="5+"/>
+    <characteristic name="M" typeId="0bdf-a96e-9e38-7779"/>
+    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+     4
+    </characteristic>
+    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+     4
+    </characteristic>
+    <characteristic name="S" typeId="2218-aa3c-265f-2939">
+     3
+    </characteristic>
+    <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+     3
+    </characteristic>
+    <characteristic name="W" typeId="f330-5e6e-4110-0978">
+     2
+    </characteristic>
+    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+     2
+    </characteristic>
+    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+     9
+    </characteristic>
+    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+     5+
+    </characteristic>
    </characteristics>
   </profile>
-  <profile book="Codex: Astra Militarum" hidden="false" id="80af-9ba7-d28b-719f" name="Astropath" page="31" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
+  <profile hidden="false" id="80af-9ba7-d28b-719f" name="Astropath" page="31" publicationId="104e-06dd-pubN65713" typeId="800f-21d0-4387-c943" typeName="Unit">
    <characteristics>
-    <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value='6"'/>
-    <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="5+"/>
-    <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="6+"/>
-    <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="3"/>
-    <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="3"/>
-    <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="3"/>
-    <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="1"/>
-    <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="6"/>
-    <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="6+"/>
+    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+     6"
+    </characteristic>
+    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+     5+
+    </characteristic>
+    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+     6+
+    </characteristic>
+    <characteristic name="S" typeId="2218-aa3c-265f-2939">
+     3
+    </characteristic>
+    <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+     3
+    </characteristic>
+    <characteristic name="W" typeId="f330-5e6e-4110-0978">
+     3
+    </characteristic>
+    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+     1
+    </characteristic>
+    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+     6
+    </characteristic>
+    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+     6+
+    </characteristic>
    </characteristics>
   </profile>
-  <profile hidden="false" id="5e70-965d-4d33-4589" name="It's for Your Own Good" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
+  <profile hidden="false" id="5e70-965d-4d33-4589" name="It's for Your Own Good" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
-    <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for morto como resultado de Perigos da Urdidura enquanto a no máximo 6" de um aliada COMISSAR, eles são executados antes de qualquer coisa inconveniente pode acontecer - o poder que eles estão tentando ainda falha, mas unidades a no máximo 6" deles não sofrem D3 Ferimentos Mortais como normal.'/>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Se este modelo for morto como resultado de Perigos da Warp enquanto a no máximo 6" de um aliada COMISSAR, eles são executados antes de qualquer coisa inconveniente pode acontecer - o poder que eles estão tentando ainda falha, mas unidades a no máximo 6" deles não sofrem D3 Ferimentos Mortais como normal.
+    </characteristic>
    </characteristics>
   </profile>
  </sharedProfiles>

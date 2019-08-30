@@ -1,215 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="Gitter: @Alphalas, twitter: @kingoverlord" authorName="Alphalas" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" battleScribeVersion="2.01" book="Index: Imperium 2" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="f731-6aa6-c141-8937" name="Imperium - Officio Assassinorum-BR" revision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
- <profiles/>
- <rules/>
- <infoLinks/>
- <costTypes/>
- <profileTypes/>
+<catalogue authorContact="Discord: @Alphalas | Twitter: @kingoverlord" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.02" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="f731-6aa6-c141-8937" library="false" name="Imperium - Officio Assassinorum-BR" revision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <publications>
+  <publication id="f731-6aa6-pubN65537" name="Index: Imperium 2"/>
+  <publication id="f731-6aa6-pubN66377" name="Codex: Officio Assassinorum"/>
+ </publications>
  <categoryEntries>
-  <categoryEntry hidden="false" id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="ff36a6f3-19bf-4f48-8956-adacfd28fe74" name="No Force Org Slot">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="4ad1-1315-97ea-dd25" name="Officio Assassinorum">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="b961-92d7-c36f-fa6f" name="Vindicare Assassin">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="80f8-6d43-129c-995e" name="Callidus Assassin">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="cb26-b18b-847d-368f" name="Culexus Assassin">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
-  <categoryEntry hidden="false" id="6488-77cc-2ad3-7ae6" name="Eversor Assassin">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-  </categoryEntry>
+  <categoryEntry hidden="false" id="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" name="Elites"/>
+  <categoryEntry hidden="false" id="ff36a6f3-19bf-4f48-8956-adacfd28fe74" name="No Force Org Slot"/>
+  <categoryEntry hidden="false" id="848a6ff2-0def-4c72-8433-ff7da70e6bc7" name="HQ"/>
+  <categoryEntry hidden="false" id="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" name="Troops"/>
+  <categoryEntry hidden="false" id="c274d0b0-5866-44bc-9810-91c136ae7438" name="Fast Attack"/>
+  <categoryEntry hidden="false" id="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" name="Heavy Support"/>
+  <categoryEntry hidden="false" id="b961-92d7-c36f-fa6f" name="Vindicare Assassin"/>
+  <categoryEntry hidden="false" id="80f8-6d43-129c-995e" name="Callidus Assassin"/>
+  <categoryEntry hidden="false" id="cb26-b18b-847d-368f" name="Culexus Assassin"/>
+  <categoryEntry hidden="false" id="6488-77cc-2ad3-7ae6" name="Eversor Assassin"/>
  </categoryEntries>
  <forceEntries>
   <forceEntry hidden="false" id="0383-bad5-390e-4cca" name="Vanguard Detachment">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
    <forceEntries>
     <forceEntry hidden="false" id="ff3a-fba8-4f66-fe7e" name="Vanguard Detachment">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <forceEntries/>
      <categoryLinks>
-      <categoryLink hidden="false" id="252f-c1ff-8221-7ded" name="No Force Org Slot" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
-      <categoryLink hidden="false" id="1771-dd1b-11e6-43d0" name="Troops" primary="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
-      <categoryLink hidden="false" id="7fd7-8b99-ac88-8069" name="Elites" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
-      <categoryLink hidden="false" id="42fe-6cd3-da91-11fb" name="Fast Attack" primary="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
-      <categoryLink hidden="false" id="54c6-9e68-2d64-6bb4" name="Heavy Support" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
-      <categoryLink hidden="false" id="bf72-ed07-1fd4-c59c" name="Flyer" primary="false" targetId="e888-1504-aa61-95ff">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
-      <categoryLink hidden="false" id="035f-4885-38b3-62ad" name="Dedicated Transport" primary="false" targetId="1b66-3f5f-6705-079a">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <constraints/>
-      </categoryLink>
+      <categoryLink hidden="false" id="252f-c1ff-8221-7ded" name="No Force Org Slot" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+      <categoryLink hidden="false" id="1771-dd1b-11e6-43d0" name="Troops" primary="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+      <categoryLink hidden="false" id="7fd7-8b99-ac88-8069" name="Elites" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      <categoryLink hidden="false" id="42fe-6cd3-da91-11fb" name="Fast Attack" primary="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+      <categoryLink hidden="false" id="54c6-9e68-2d64-6bb4" name="Heavy Support" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+      <categoryLink hidden="false" id="bf72-ed07-1fd4-c59c" name="Flyer" primary="false" targetId="e888-1504-aa61-95ff"/>
+      <categoryLink hidden="false" id="035f-4885-38b3-62ad" name="Dedicated Transport" primary="false" targetId="1b66-3f5f-6705-079a"/>
      </categoryLinks>
     </forceEntry>
    </forceEntries>
    <categoryLinks>
-    <categoryLink hidden="false" id="aa44-0720-c786-3f16" name="No Force Org Slot" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="aa44-0720-c786-3f16" name="No Force Org Slot" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
     <categoryLink hidden="false" id="ef92-397a-e8ae-4247" name="Troops" primary="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="74a9-d419-0750-7fe7" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="3.0"/>
      </constraints>
     </categoryLink>
     <categoryLink hidden="false" id="b806-0210-5b0a-e3e3" name="Elites" primary="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="1260-95a2-f111-3b36" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="min" value="3.0"/>
       <constraint field="selections" id="a39f-f0cc-48bc-cc14" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="6.0"/>
      </constraints>
     </categoryLink>
     <categoryLink hidden="false" id="54b7-18c3-0ff9-1788" name="Fast Attack" primary="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="5ad3-41d0-06b0-382f" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="2.0"/>
      </constraints>
     </categoryLink>
     <categoryLink hidden="false" id="175e-846f-5fee-c0af" name="Heavy Support" primary="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="1c40-3b26-8398-b7a5" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="2.0"/>
      </constraints>
     </categoryLink>
     <categoryLink hidden="false" id="5c63-ed0c-b241-53e8" name="Flyer" primary="false" targetId="e888-1504-aa61-95ff">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="1f52-4460-79c7-a575" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="2.0"/>
      </constraints>
     </categoryLink>
     <categoryLink hidden="false" id="78fe-c642-53cd-02c4" name="Dedicated Transport" primary="false" targetId="1b66-3f5f-6705-079a">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
      <modifiers>
       <modifier field="ad3b-39d0-127d-22d7" type="increment" value="1">
        <repeats>
@@ -220,1061 +70,960 @@
         <repeat childId="e888-1504-aa61-95ff" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="force" shared="true" value="1.0"/>
         <repeat childId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="force" shared="true" value="1.0"/>
        </repeats>
-       <conditions/>
-       <conditionGroups/>
       </modifier>
      </modifiers>
      <constraints>
       <constraint field="selections" id="ad3b-39d0-127d-22d7" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="0.0"/>
      </constraints>
     </categoryLink>
-    <categoryLink hidden="true" id="bf38-950d-c2fe-675e" name="Warlord" primary="false" targetId="ae09-117e-a6fa-316b">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="40ac-0dab-737b-4ac1" name="Relic Elites" primary="false" targetId="8d86-9490-0f7d-a5b5">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="6076-877b-5363-d98e" name="Relic Heavy Support" primary="false" targetId="6c4c-a416-b8cb-c380">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="true" id="bf38-950d-c2fe-675e" name="Warlord" primary="false" targetId="ae09-117e-a6fa-316b"/>
+    <categoryLink hidden="false" id="40ac-0dab-737b-4ac1" name="Relic Elites" primary="false" targetId="8d86-9490-0f7d-a5b5"/>
+    <categoryLink hidden="false" id="6076-877b-5363-d98e" name="Relic Heavy Support" primary="false" targetId="6c4c-a416-b8cb-c380"/>
    </categoryLinks>
   </forceEntry>
  </forceEntries>
- <selectionEntries/>
+ <selectionEntries>
+  <selectionEntry collective="false" hidden="false" id="b2b2-a0a3-6984-ee22" name="Show Stratagems" type="upgrade">
+   <categoryLinks>
+    <categoryLink hidden="false" id="63a8-7728-13c3-d832" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="3d54-719f-dced-552e" name="General" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e6e6-5c2d-c35a-3cf5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <rules>
+      <rule hidden="false" id="a920-6294-7463-72c8" name="Priority Threat Neutralised - 1 CP">
+       <description>
+        Use esta Statagem depois que um modelo CHARACTER inimigo for morto por uma unidade OFFICIO ASSASSINORUM do seu exército. Você ganha 2 Pontos de Comando (ou 3 Pontos de Comando se o CHARACTER for o Warlord do seu oponente). Você só pode usar este estratagema uma vez para cada modelo de personagem inimigo morto.
+       </description>
+      </rule>
+     </rules>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="f169-93ec-895a-16c1" name="Callidus" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="80f8-6d43-129c-995e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="7a69-64df-d749-6af4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <rules>
+      <rule hidden="false" id="bf4b-5850-c404-e53d" name="Stratagem (Callidus) Acrobatic - 1 CP">
+       <description>
+        Use este estratagema na sua fase de movimento. Escolha um CALLIDUS ASSASSIN do seu exército. Esse modelo pode avançar e efetuar carga este turno. Além disso, até o início da próxima rodada de batalha, o subtrograma 1 do teste rola para os ataques que visam o modelo escolhido.
+       </description>
+      </rule>
+      <rule hidden="false" id="e199-9c65-6d80-8e39" name="Stratagem (Callidus) Supreme Deception - 2 CP">
+       <description>
+        Use este estratagema no início de qualquer rodada de batalha após o primeiro. Escolha um CALLIDUS ASSASSIN do seu exército. A habilidade Reigh of Confusion desse modelo é considerada em vigor até o final da rodada de batalha. Você só pode usar este estratagema uma vez por batalha.
+       </description>
+      </rule>
+     </rules>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="9b6b-ea94-3d30-fb22" name="Culexus" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="cb26-b18b-847d-368f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="fc11-6cfb-03b7-b8ac" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <rules>
+      <rule hidden="false" id="04cf-3693-e46d-116a" name="Stratagem (Culexus) Soul Horror - 2 CP">
+       <description>
+        Use este estratagema no início da fase de luta. Escolha um CULEXUS ASSASSIN do seu exército. Unidades inimigas a menos de 3 "desse modelo não podem ser escolhidas para lutar nesta fase até que todas as outras unidades o tenham feito, mesmo que elas sejam cobradas. Se uma dessas unidades tem uma habilidade que lhes permite lutar primeiro nessa fase, elas lutam em esta fase como se eles não tivessem essa habilidade.
+       </description>
+      </rule>
+      <rule hidden="false" id="2802-7ced-96c6-a859" name="Stratagem (Culexus) Pariah's Gaze - 1 CP">
+       <description>
+        Use este estratagema na sua fase de tiro, antes de escolher um Assassin CULEXUS para atirar. Até o final da fase, a característica de dano das armas de alcance do modelo é aumentada para D3.
+       </description>
+      </rule>
+     </rules>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="b180-d1ea-918a-812f" name="Eversor" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="6488-77cc-2ad3-7ae6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="6870-7294-62c5-984c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <rules>
+      <rule hidden="false" id="1d18-acd4-9a02-433e" name="Stratagem (Eversor) Hypermetabolism - 1 CP">
+       <description>
+        Use este estratagema no início de qualquer fase. Escolha um EVERSOR ASSASSIN do seu exército. Até o final dessa fase, role um D6 cada vez que o modelo perder uma ferida (excluindo os perdidos como resultado de uma ferida mortal); em um 4+ a ferida não é perdida.
+       </description>
+      </rule>
+      <rule hidden="false" id="b53f-3942-dafc-084d" name="Stratagem (Eversor) Stimm Overload - 2 CP">
+       <description>
+        Use este estratagema no final da fase de luta. Escolha um EVERSOR ASSASSIN do seu exército para lutar, mesmo que esse modelo já tenha lutado nesta fase. Após esse modelo ter lutado, role um D6. Em 1, 2 ou 3, sofre 1 ferida mortal.
+       </description>
+      </rule>
+     </rules>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="0945-f053-f64a-6e78" name="Vindicare" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="b961-92d7-c36f-fa6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="9e30-b4f9-e984-8d64" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <rules>
+      <rule hidden="false" id="50a2-9055-eda2-4d95" name="Stratagem (Vindicare) Double Kill - 1 CP">
+       <description>
+        Use este estratagema na sua fase de tiro, depois de um VINDICARE ASSASSIN do seu exército disparar. Esse modelo pode disparar um tempo adicional nesta fase (isso deve ser em um alvo diferente).
+       </description>
+      </rule>
+      <rule hidden="false" id="c804-6fed-64cd-efa2" name="Stratagem (Vindicare) Turbo-Penetrator Round - 1 CP">
+       <description>
+        Use este Estratagema na sua fase de Tiro, depois que um ataque feito com uma pistola exitus ou rifle extus por um VINDICARE ASSASSIN do seu exército fizer um ataque contra um alvo que seja um VEÍCULO ou um MONSTRO. Não faça um teste de ferida para esse ataque; em vez disso, acertar inflige ferimentos mortais a D3 no alvo. Se esse estratagema for usado, a habilidade Tiro na Cabeça não se aplica àquele ataque.
+       </description>
+      </rule>
+     </rules>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+   </selectionEntries>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+ </selectionEntries>
  <entryLinks>
-  <entryLink hidden="false" id="db00-f7c5-866c-8900" name="Callidus Assassin" targetId="08d2-59b2-b846-88c7" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
-  <entryLink hidden="false" id="6aca-ac5e-e885-5719" name="Culexus Assassin" targetId="15d3-57f0-2c9d-f074" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
-  <entryLink hidden="false" id="f2ce-ade4-1ddc-bbfa" name="Eversor Assassin" targetId="8e8a-617b-5665-f83f" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
-  <entryLink hidden="false" id="4987-9b5c-b321-8f89" name="Vindicare Assassin" targetId="8d0f-297a-5547-8a6b" type="selectionEntry">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <constraints/>
-   <categoryLinks/>
-  </entryLink>
+  <entryLink collective="false" hidden="false" id="db00-f7c5-866c-8900" name="Callidus Assassin" targetId="08d2-59b2-b846-88c7" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="6aca-ac5e-e885-5719" name="Culexus Assassin" targetId="15d3-57f0-2c9d-f074" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="f2ce-ade4-1ddc-bbfa" name="Eversor Assassin" targetId="8e8a-617b-5665-f83f" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="4987-9b5c-b321-8f89" name="Vindicare Assassin" targetId="8d0f-297a-5547-8a6b" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="2ff1-ab5c-20d9-579e" name="Execution Force" targetId="4841-da7f-fcaf-ae79" type="selectionEntry"/>
  </entryLinks>
  <sharedSelectionEntries>
   <selectionEntry collective="false" hidden="false" id="08d2-59b2-b846-88c7" name="Callidus Assassin" type="unit">
    <profiles>
-    <profile book="Codex: Officio Assassinorum" hidden="false" id="7a9966cc-d937-cff8-b2ef-a3835d634710" name="Callidus Assassin" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="7a9966cc-d937-cff8-b2ef-a3835d634710" name="Callidus Assassin" publicationId="f731-6aa6-pubN66377" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
-      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value='7"'/>
-      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="2+"/>
-      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="2+"/>
-      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="4"/>
-      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="4"/>
-      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="5"/>
-      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="5"/>
-      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="9"/>
-      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="6+"/>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       7"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       2+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       2+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       4
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       4
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       5
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       5
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       9
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       6+
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="338c-945e-a475-6b37" name="Hit and Run" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="338c-945e-a475-6b37" name="Hit and Run" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode retroceder e ainda disparar e carregar no mesmo turno."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Este modelo pode retroceder e ainda disparar e realizar uma carga no mesmo turno.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="41a0-3a33-8fa4-7367" name="Reign of Confusion" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="41a0-3a33-8fa4-7367" name="Reign of Confusion" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Se você tem algum Assassino de Callidus em seu exército, então durante a primeira rodada de batalha você deve jogar um dado toda vez que seu oponente gastar Pontos de Comando (CPs) para usar um Estratagema. Em um 4+, seu oponente deve gastar um CP extra para usar esse Stratagem, ou então ele não tem efeito (os CPs gastos até agora são perdidos). Esta habilidade não pode afetar os estratagemas usados ​​antes do início da batalha."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Se você tem algum modelo com essa habilidade em seu exército, então durante a primeira rodada de batalha você deve jogar um dado toda vez que seu oponente gastar Pontos de Comando (CPs) para usar um Estratagema. Em um 4 +, seu oponente deve gastar um CP extra para usar esse Stratagem, ou então ele não tem efeito (os CPs gastos até agora são perdidos). Esta habilidade não pode afetar os estratagemas usados ​​antes do início da batalha.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="252e-b493-59fe-9452" name="Polymorphine" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="252e-b493-59fe-9452" name="Polymorphine" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Durante o deploy, você pode colocar esse modelo disfarçado em vez de colocá-lo no campo de batalha. No final de qualquer fase do Movimento, este modelo pode reverter para a sua verdadeira forma - em qualquer lugar do campo de batalha que esteja mais do que D6+ 3" longe de qualquer inimigo. Por exemplo, se você rolar 4, o modelo pode ser definido em qualquer lugar que seja mais de 7" de qualquer modelo inimigo.'/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Durante a implantação, você pode configurar esse modelo disfarçado em vez de colocá-lo no campo de batalha. No final de qualquer uma das fases do seu Movimento, este modelo pode reverter para a sua verdadeira forma - em qualquer lugar no campo de batalha que seja mais do que D6 + 3 "longe de qualquer inimigo. Por exemplo, se você rolar 4, o modelo pode ser configurado em qualquer lugar que seja mais de 7 "de qualquer modelo inimigo.
+      </characteristic>
      </characteristics>
     </profile>
    </profiles>
-   <rules/>
    <infoLinks>
-    <infoLink hidden="false" id="b85fb9c6-1cb6-b86f-e169-38e4876f5a5e" targetId="62ec-db58-d522-deda" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="0fabde47-09f0-fbb4-bdf4-e3d7316bfe5d" targetId="6fa7-7d69-7fce-f215" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="1a42-55ae-1faa-13c3" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
+    <infoLink hidden="false" id="b85fb9c6-1cb6-b86f-e169-38e4876f5a5e" name="Lightning Reflexes" targetId="62ec-db58-d522-deda" type="rule"/>
+    <infoLink hidden="false" id="0fabde47-09f0-fbb4-bdf4-e3d7316bfe5d" name="Independent Operative" targetId="6fa7-7d69-7fce-f215" type="rule"/>
+    <infoLink hidden="false" id="1a42-55ae-1faa-13c3" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule"/>
    </infoLinks>
-   <modifiers/>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="9d86-5953-da6f-06db" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="fc32-0aaf-b457-2ae2" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="8984-3469-eae2-1ddd" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="976a-5c5a-5c9a-7499" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="e78c-d265-89b3-9c40" name="New CategoryLink" primary="false" targetId="80f8-6d43-129c-995e">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="0a5d-fefd-e95a-5993" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="9d86-5953-da6f-06db" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="fc32-0aaf-b457-2ae2" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="8984-3469-eae2-1ddd" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25"/>
+    <categoryLink hidden="false" id="976a-5c5a-5c9a-7499" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="e78c-d265-89b3-9c40" name="New CategoryLink" primary="false" targetId="80f8-6d43-129c-995e"/>
+    <categoryLink hidden="false" id="0a5d-fefd-e95a-5993" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="ccd8a82c-8335-71ad-3fe1-db6b350f808a" name="Neural Shredder" type="upgrade">
-     <profiles>
-      <profile book="Codex: Officio Assassinorum" hidden="false" id="1087ea17-340c-7b23-f6fd-a0bd958525b2" name="Neural Shredder" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='9"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="*"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="*"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Role 3D6 se uma unidade for atingida por esta arma; se o teste for igual ou maior que a característica de Liderança mais alta da unidade alvo, então ele sofrerá D3 Ferimentos Mortais."/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="1087ea17-340c-7b23-f6fd-a0bd958525b2" name="Neural Shredder" publicationId="f731-6aa6-pubN66377" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         9"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Assault 1
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         *
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         *
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         *
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Role 3D6 se uma unidade for atingida por esta arma; se o teste for igual ou maior que a característica de Liderança mais alta da unidade alvo, então ele sofrerá D3 Ferimentos Mortais.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="f50e39a4-cc9d-9eb9-316f-9825f8033f08" name="Phase Sword" type="upgrade">
-     <profiles>
-      <profile book="Codex: Officio Assassinorum" hidden="false" id="51bf8492-c218-0b3c-d1d5-a9772898d229" name="Phase Sword" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="User"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="A defesa invulnerável não pode ser tomada contra uma ferida causada por esta arma"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="51bf8492-c218-0b3c-d1d5-a9772898d229" name="Phase Sword" publicationId="f731-6aa6-pubN66377" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         Melee
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Melee
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         User
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         2
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         A defesa invulnerável não pode ser tomada contra ataques feitos com esta arma.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="4d4a171a-d572-a868-dfa8-12aeb849da38" name="Poison Blades" type="upgrade">
-     <profiles>
-      <profile book="Codex: Officio Assassinorum" hidden="false" id="c1fe0116-c198-e6d3-4b8a-43d21a86332b" name="Poison Blades" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que o portador luta, ele pode fazer 1 ataque adicional com esta arma. Esta arma fere em um 3+, a menos que tenha como alvo um VEÍCULO. caso em que feridas em um 6+"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="c1fe0116-c198-e6d3-4b8a-43d21a86332b" name="Poison Blades" publicationId="f731-6aa6-pubN66377" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         Melee
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Melee
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         *
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         1
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Cada vez que o portador luta, ele pode fazer 1 ataque adicional com esta arma. Esta arma fere em um 3+, a menos que tenha como alvo um VEÍCULO. caso em que feridas em um 6+
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="2b32-761f-43ee-1081" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="63e6-7477-d7b6-d444" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="2b32-761f-43ee-1081" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="63e6-7477-d7b6-d444" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="70.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost name="pts" typeId="points" value="85.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="15d3-57f0-2c9d-f074" name="Culexus Assassin" type="unit">
    <profiles>
-    <profile book="Codex: Officio Assassinorum" hidden="false" id="b7984e3f-310e-4b87-ad93-59fdee9b15e1" name="Culexus Assassin" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="b7984e3f-310e-4b87-ad93-59fdee9b15e1" name="Culexus Assassin" publicationId="f731-6aa6-pubN66377" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
-      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value='7"'/>
-      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="2+"/>
-      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="2+"/>
-      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="4"/>
-      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="4"/>
-      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="5"/>
-      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="4"/>
-      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="9"/>
-      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="6+"/>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       7"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       2+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       2+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       4
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       4
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       5
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       4
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       9
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       6+
+      </characteristic>
      </characteristics>
     </profile>
-    <profile book="Codex: Officio Assassinorum" hidden="false" id="08a0-a7cf-9df0-61f0" name="Etherium" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="08a0-a7cf-9df0-61f0" name="Etherium" publicationId="f731-6aa6-pubN66377" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Cada vez que um modelo inimigo ataca esse modelo, os ataques são resolvidos como se o atacante tivesse um BS / WS de 6 ou mais"/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Cada vez que um modelo inimigo ataca esse modelo, os ataques são resolvidos como se o atacante tivesse um BS / WS de 6 ou mais
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="56b8-7376-7809-cce9" name="Life Drain" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="56b8-7376-7809-cce9" name="Life Drain" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="As proteções de armadura não podem ser tomadas contra ataques de combate próximo feitos por este modelo"/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       As proteções de armadura não podem ser tomadas contra ataques de combate próximo feitos por este modelo
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="188f-a12e-5ec8-001c" name="Abomination" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="188f-a12e-5ec8-001c" name="Abomination" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Este modelo nunca pode ser alvo ou afetado por poderes psíquicos de qualquer forma. PSYKERS inimigos que estão a no máximo 18" de qualquer Assassino Culexus deve subtrair 2 de testes psíquicos e negar os testes de bruxa que eles tomam.'/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Este modelo nunca pode ser alvo ou afetado por poderes psíquicos de qualquer forma. PSYKERS que estão a menos de 18 "de qualquer Assassino Culexus deve subtrair 2 de testes psíquicos e negar os testes de Deny the Witch que eles fazem.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="a9b3-8751-d45c-5aa1" name="Psychic Assassin" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="a9b3-8751-d45c-5aa1" name="Psychic Assassin" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode ter como alvo um PERSONAGEM que seja um PSYKER, mesmo que não seja a unidade inimiga mais próxima. Além disso, este modelo pode fazer um ataque com uma granada psicodélica na mesma fase de tiro que usa seu espéculo animus."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Esse modelo pode ter como alvo um PERSONAGEM que seja um PSYKER, mesmo que não seja a unidade inimiga mais próxima. Além disso, este modelo pode fazer um ataque com uma granada psicótica na mesma fase em que usa seu espéculo animus.
+      </characteristic>
      </characteristics>
     </profile>
    </profiles>
-   <rules/>
    <infoLinks>
-    <infoLink hidden="false" id="0ed99c09-c2a6-5618-7f0d-164be6f7e135" targetId="6fa7-7d69-7fce-f215" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="da5b3a0a-5de6-8724-80e6-19467786ecd8" targetId="62ec-db58-d522-deda" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="e9c8-5d93-b106-e07f" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
+    <infoLink hidden="false" id="0ed99c09-c2a6-5618-7f0d-164be6f7e135" targetId="6fa7-7d69-7fce-f215" type="rule"/>
+    <infoLink hidden="false" id="da5b3a0a-5de6-8724-80e6-19467786ecd8" targetId="62ec-db58-d522-deda" type="rule"/>
+    <infoLink hidden="false" id="e9c8-5d93-b106-e07f" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule"/>
    </infoLinks>
-   <modifiers/>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="7a16-ed28-7f08-f3ad" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="4ec6-bee2-383f-c4f9" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="a2a0-ed3a-9c47-3bf8" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="eea9-4ec9-e108-58ee" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="28dd-63cf-5d57-8ba4" name="New CategoryLink" primary="false" targetId="cb26-b18b-847d-368f">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="b8e6-21a5-96fa-e0b5" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="7a16-ed28-7f08-f3ad" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="4ec6-bee2-383f-c4f9" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="a2a0-ed3a-9c47-3bf8" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25"/>
+    <categoryLink hidden="false" id="eea9-4ec9-e108-58ee" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="28dd-63cf-5d57-8ba4" name="New CategoryLink" primary="false" targetId="cb26-b18b-847d-368f"/>
+    <categoryLink hidden="false" id="b8e6-21a5-96fa-e0b5" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="f18e83a8-da27-0161-d471-f992ffcbeb01" name="Animus Speculum" type="upgrade">
-     <profiles>
-      <profile book="" hidden="false" id="b880e6e8-1036-c1da-270a-f2de3a110ce8" name="Animus Speculum" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='18"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault D3"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value='Mude o tipo desta arma para Assault D6 se houver PSYKERS inimigos a no máximo 18" do portador'/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="b880e6e8-1036-c1da-270a-f2de3a110ce8" name="Animus Speculum" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         18"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Assault D3
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -4
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         1
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Mude o tipo desta arma para Assault D6 se houver PSYKERS inimigos a no máximo 18" do portador
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="91095a9c-7fd4-5f44-a36d-59d1c13318d5" name="Psyk-out Grenades" type="upgrade">
-     <profiles>
-      <profile book="" hidden="false" id="294b3223-8bcf-8c7e-0ca0-93542e88eb4a" name="Psyk-out Grenades" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='6"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Grenade D3"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="2"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="0"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Cada vez que você lança um jogada para acertar de 6+ para esta arma ao mirar um PSYKER ou DAEMON, o alvo sofre um Ferimento Mortal em vez do dano normal."/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="294b3223-8bcf-8c7e-0ca0-93542e88eb4a" name="Psyk-out Grenades" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         6"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Grenade D3
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         2
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         0
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         1
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Cada vez que você lança um jogada de acerto de 6+ para esta arma ao mirar um PSYKER ou DAEMON, o alvo sofre um Ferimento Mortal em vez do dano normal.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="0df5-ab0a-2d52-7407" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="9b97-313a-1272-16ea" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="0df5-ab0a-2d52-7407" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="9b97-313a-1272-16ea" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="85.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost name="pts" typeId="points" value="85.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8e8a-617b-5665-f83f" name="Eversor Assassin" type="unit">
    <profiles>
-    <profile book="" hidden="false" id="30c1de5d-ef54-98e7-f53f-d840be9d344a" name="Eversor Assassin" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="30c1de5d-ef54-98e7-f53f-d840be9d344a" name="Eversor Assassin" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
-      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value='7"'/>
-      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="2+"/>
-      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="2+"/>
-      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="4"/>
-      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="4"/>
-      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="6"/>
-      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="6"/>
-      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="9"/>
-      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="6+"/>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       7"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       2+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       2+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       4
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       4
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       6
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       6
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       9
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       6+
+      </characteristic>
      </characteristics>
     </profile>
-    <profile book="" hidden="false" id="11ca-699d-c700-2f05" name="Frenzon" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="11ca-699d-c700-2f05" name="Frenzon" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Ao fazer um teste de carga para este modelo, role 3D6 em vez de 2D6. Além disso, adicione 2 à característica de ataque deste modelo se eles forem realizaram uma carga na fase de carga anterior."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Ao fazer um teste de carga para este modelo, role 3D6 em vez de 2D6. Além disso, adicione 2 à característica de ataque deste modelo se eles forem realizaram uma carga na fase de carga anterior.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile book="" hidden="false" id="4d49-183a-dab8-252d" name="Sentinel Array" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="4d49-183a-dab8-252d" name="Sentinel Array" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="O reroll não passou por jogadas para acertar para este modelo quando aciona o Overwatch."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Cada vez que uma unidade inimiga cai a menos de 1 "deste modelo, este modelo pode fazer um ataque de tiros contra o inimigo como se fosse sua fase de tiro.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="ac6a-7eac-95a4-487f" name="Bio-meltdown" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="ac6a-7eac-95a4-487f" name="Bio-meltdown" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value='Se este modelo for reduzido a zero Ferimentos, role um D6 para cada unidade inimiga que esteja a menos de 1" deste modelo antes de removê-lo do campo de batalha. Em um teste de 4+ a unidade inimiga sofre D3 Mortal Wounds'/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Se este modelo for reduzido a zero Ferimentos, role um D6 para cada unidade inimiga que esteja a menos de 6 "deste modelo antes de removê-lo do campo de batalha. Em um teste de 4+ a unidade inimiga sofre D3 Mortal Wounds
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="cc3f-ba70-b4e2-7e1a" name="Killing Rampage" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Cada vez que um modelo inimigo é morto como resultado de um ataque feito com uma arma branca por este modelo, este modelo pode imediatamente fazer um ataque adicional contra a mesma unidade. Esses ataques adicionais não podem gerar ataques adicionais. Além disso, este modelo pode consolidar até 6 "em vez de 3"
+      </characteristic>
      </characteristics>
     </profile>
    </profiles>
-   <rules/>
    <infoLinks>
-    <infoLink hidden="false" id="5e946fdd-eb22-855f-414f-3aa3d3dbb3a2" targetId="6fa7-7d69-7fce-f215" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="d5dc9752-0566-02d2-384d-af5344442d10" targetId="62ec-db58-d522-deda" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="50bc-d02a-4519-6b93" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
+    <infoLink hidden="false" id="5e946fdd-eb22-855f-414f-3aa3d3dbb3a2" targetId="6fa7-7d69-7fce-f215" type="rule"/>
+    <infoLink hidden="false" id="d5dc9752-0566-02d2-384d-af5344442d10" targetId="62ec-db58-d522-deda" type="rule"/>
+    <infoLink hidden="false" id="50bc-d02a-4519-6b93" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule"/>
    </infoLinks>
-   <modifiers/>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="8ea0-4983-5fa1-7123" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="d4ca-7db6-2b24-6f81" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="45e7-2ed0-143b-9ed8" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="962e-8a41-ac1e-b950" name="New CategoryLink" primary="false" targetId="6488-77cc-2ad3-7ae6">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="1c6d-18e6-23d1-95e6" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="6edd-4255-1a09-107d" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="8ea0-4983-5fa1-7123" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="d4ca-7db6-2b24-6f81" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="45e7-2ed0-143b-9ed8" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25"/>
+    <categoryLink hidden="false" id="962e-8a41-ac1e-b950" name="New CategoryLink" primary="false" targetId="6488-77cc-2ad3-7ae6"/>
+    <categoryLink hidden="false" id="1c6d-18e6-23d1-95e6" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="6edd-4255-1a09-107d" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="ef8b65c6-5292-b3bf-7559-65cc552b12a8" name="Power Sword" type="upgrade">
-     <profiles/>
-     <rules/>
-     <infoLinks>
-      <infoLink hidden="false" id="dd2d-2a36-9a7c-bd22" name="New InfoLink" targetId="47df-8e01-d0cf-58e8" type="profile">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-      </infoLink>
-     </infoLinks>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <infoLinks>
+      <infoLink hidden="false" id="dd2d-2a36-9a7c-bd22" name="Power sword" targetId="47df-8e01-d0cf-58e8" type="profile"/>
+     </infoLinks>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="226e7674-c226-7edd-3e8c-59e9434a8be7" name="Melta bombs" type="upgrade">
-     <profiles>
-      <profile hidden="false" id="8d15-0eb3-f8c9-2705" name="Melta bombs" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='4"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Grenade 1"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="8"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-4"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D6"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode re-rolar jogadas para ferir malsucedidas para esta arma se o alvo for um VEÍCULO"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="8d15-0eb3-f8c9-2705" name="Melta bombs" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         4"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Grenade 1
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         8
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -4
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         D6
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Você pode re-rolar jogadas para ferir malsucedidas para esta arma se o alvo for um VEÍCULO
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="b92ec135-7404-97df-46e7-3fc9406e2029" name="Executioner Pistol" type="upgrade">
-     <profiles>
-      <profile book="" hidden="false" id="90e5d899-878a-43d7-636c-70db0ed32ef0" name="Executioner Pistol" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='12"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol 4"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar jogadas para ferir malsucedidas para esta arma se o alvo for um modelo INFANTRY"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="90e5d899-878a-43d7-636c-70db0ed32ef0" name="Executioner Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         12"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Pistol 4
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         1
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Você pode rolar jogadas para ferir malsucedidas para esta arma se o alvo for um modelo INFANTRY
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="ee446415-1fda-3a6c-b956-f1b921d91a50" name="Neuro-gauntlet" type="upgrade">
-     <profiles>
-      <profile book="" hidden="false" id="a7674648-569b-d1b1-42a3-9aee727f249c" name="Neuro-gauntlet" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="+1"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-1"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="1"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Você pode rolar rolagens malsucedidas com esta arma"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="a7674648-569b-d1b1-42a3-9aee727f249c" name="Neuro-gauntlet" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         Melee
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Melee
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         +1
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         1
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Você pode rolar rolagens malsucedidas com esta arma
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="f129-d205-5dec-813e" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="ff02-9c36-a15b-c059" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="f129-d205-5dec-813e" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="ff02-9c36-a15b-c059" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="70.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="4.0"/>
+    <cost name="pts" typeId="points" value="85.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="8d0f-297a-5547-8a6b" name="Vindicare Assassin" type="unit">
    <profiles>
-    <profile hidden="false" id="c61f-a4b1-dfed-3178" name="Spy Mask" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="c61f-a4b1-dfed-3178" name="Spy Mask" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Modelos inimigos alvos por este modelo na Fase de Tiro não ganham um bônus em seus testes de resistência por estarem em cobertura."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Modelos inimigos não ganham bônus em seus testes de resistência por estarem em cobertura contra ataques feitos com armas de longo alcance por este modelo.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="9a9e-b03d-a60f-17bd" name="Stealth Suit" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="9a9e-b03d-a60f-17bd" name="Stealth Suit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Seu oponente deve subtrair 1 das jogadas para acertar que visam esse modelo na fase de tiro. Se esse modelo estiver em cobertura, eles devem subtrair 2."/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Subtraia 1 das jogadas de acerto para ataques feitos com armas de longo alcance que tenham como alvo este modelo. Se esse modelo estiver em um recurso de terreno, subtraia 2.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="2f1e-0051-0924-f5a5" name="Deadshot" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="2f1e-0051-0924-f5a5" name="Deadshot" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
-      <characteristic characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Este modelo pode ter como alvo um PERSONAGEM mesmo que não seja a unidade inimiga mais próxima. Além disso, toda vez que você rolar um teste de 6+ para o modelo na fase de Tiro, o Dano para aquele ataque no D6 ao invés de D3"/>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Este modelo pode ter como alvo um PERSONAGEM mesmo que não seja a unidade inimiga mais próxima. Além disso, cada vez que um teste não-modificado de 6 é feito para um ataque com uma arma de longo alcance por este modelo, o Dano para aquele ataque é D6.
+      </characteristic>
      </characteristics>
     </profile>
-    <profile book="" hidden="false" id="73a4-db77-cbfd-54af" name="Vindicare Assassin" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
+    <profile hidden="false" id="73a4-db77-cbfd-54af" name="Vindicare Assassin" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
-      <characteristic characteristicTypeId="0bdf-a96e-9e38-7779" name="M" value='7"'/>
-      <characteristic characteristicTypeId="e7f0-1278-0250-df0c" name="WS" value="2+"/>
-      <characteristic characteristicTypeId="381b-eb28-74c3-df5f" name="BS" value="2+"/>
-      <characteristic characteristicTypeId="2218-aa3c-265f-2939" name="S" value="4"/>
-      <characteristic characteristicTypeId="9c9f-9774-a358-3a39" name="T" value="4"/>
-      <characteristic characteristicTypeId="f330-5e6e-4110-0978" name="W" value="5"/>
-      <characteristic characteristicTypeId="13fc-b29b-31f2-ab9f" name="A" value="5"/>
-      <characteristic characteristicTypeId="00ca-f8b8-876d-b705" name="Ld" value="9"/>
-      <characteristic characteristicTypeId="c0df-df94-abd7-e8d3" name="Save" value="6+"/>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       7"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       2+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       2+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       4
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       4
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       5
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       5
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       9
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       6+
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="4c5b-5f0a-bd8c-0a8c" name="Faultless Aim" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Se este modelo permaneceu estacionário em sua fase anterior de movimento, ele sempre atinge um 2+ ao disparar uma arma de longo alcance, independentemente dos modificadores. (Rolos de 6 ainda são necessários ao atirar na overwatch)
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="afbe-7c9e-41ca-f2ad" name="Head Shot" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Após este modelo ter feito um ataque com uma arma de longo alcance, role um D6 se um modelo sofreu dano daquele ataque mas não foi morto; em um 3+ esse modelo sofre 1 ferimento mortal e, se esse modelo não for morto, você pode rolar mais um D6. Desta vez, esse modelo sofre 1 ferida mortal em um 4+. Continue rolando um D6, aumentando o resultado requerido, para causar um ferimento mortal em 1 de cada vez, até que o modelo sendo rolado seja morto ou o teste falhe.
+      </characteristic>
      </characteristics>
     </profile>
    </profiles>
-   <rules/>
    <infoLinks>
-    <infoLink hidden="false" id="ab27194b-af30-39f0-03e3-120426e68738" name="Independent Operative" targetId="6fa7-7d69-7fce-f215" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="d68c92bc-93c7-97b1-4dde-a4636bdd8a1f" name="Lightning Reflexes" targetId="62ec-db58-d522-deda" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
-    <infoLink hidden="false" id="a628-1545-bb46-c350" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-    </infoLink>
+    <infoLink hidden="false" id="ab27194b-af30-39f0-03e3-120426e68738" name="Independent Operative" targetId="6fa7-7d69-7fce-f215" type="rule"/>
+    <infoLink hidden="false" id="d68c92bc-93c7-97b1-4dde-a4636bdd8a1f" name="Lightning Reflexes" targetId="62ec-db58-d522-deda" type="rule"/>
+    <infoLink hidden="false" id="a628-1545-bb46-c350" name="Execution Force" targetId="2dc4-c403-ca18-9344" type="rule"/>
    </infoLinks>
-   <modifiers/>
-   <constraints/>
    <categoryLinks>
-    <categoryLink hidden="false" id="2c69-b722-161f-bc5f" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="bbc6-f971-007e-2a84" name="New CategoryLink" primary="false" targetId="b961-92d7-c36f-fa6f">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="b756-4065-3988-702a" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="3a3e-d262-1fae-73cc" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="564a-05d9-839a-cd72" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
-    <categoryLink hidden="false" id="e3ba-6c41-4f00-f19b" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-    </categoryLink>
+    <categoryLink hidden="false" id="2c69-b722-161f-bc5f" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="bbc6-f971-007e-2a84" name="New CategoryLink" primary="false" targetId="b961-92d7-c36f-fa6f"/>
+    <categoryLink hidden="false" id="b756-4065-3988-702a" name="New CategoryLink" primary="false" targetId="4ad1-1315-97ea-dd25"/>
+    <categoryLink hidden="false" id="3a3e-d262-1fae-73cc" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="564a-05d9-839a-cd72" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="e3ba-6c41-4f00-f19b" name="New CategoryLink" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="00dd29e2-73ac-c7cb-7047-22eb951c2678" name="Blind Grenades" type="upgrade">
-     <profiles>
-      <profile hidden="false" id="a993-65d8-6d9b-9eca" name="Blind Grenades" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Grenade d6"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="*"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="*"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="*"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="Esta arma não inflige nenhum dano no alvo. Em vez disso, se uma unidade é atingida por qualquer granada cega, seu oponente deve subtrair 1 de todas as jogadas para acertar feitas até o final do turno."/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="a993-65d8-6d9b-9eca" name="Blind Grenades" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         12
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Grenade d6
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         *
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         *
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         *
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Esta arma não inflige nenhum dano no alvo. Em vez disso, se uma unidade é atingida por qualquer granada cega, seu oponente deve subtrair 1 de todas as jogadas de acerto feitas até o final do turno.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="6fad1db2-4c89-7483-1542-37a1375d1f6a" name="Exitus Rifle" type="upgrade">
-     <profiles>
-      <profile book="" hidden="false" id="a2ee7b8e-eb53-29a3-ff27-a24d01c3e5f3" name="Exitus Rifle" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='72"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="5"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="A defesa invulnerável não pode ser tomada contra uma ferida infligida por esta arma. Esta arma inflige dano contra unidades de INFANTARIA em 2+"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="a2ee7b8e-eb53-29a3-ff27-a24d01c3e5f3" name="Exitus Rifle" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         72"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Heavy 1
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         D3
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         A defesa invulnerável não pode ser tomada contra uma ferida infligida por esta arma. Esta arma inflige dano contra unidades de INFANTARIA em 2+
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="f8f0db3c-0d34-8e40-c259-202f65a961fb" name="Exitus Pistol" type="upgrade">
-     <profiles>
-      <profile book="" hidden="false" id="247e1f7f-7863-0194-580f-16527c134264" name="Exitus Pistol" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-       <profiles/>
-       <rules/>
-       <infoLinks/>
-       <modifiers/>
-       <characteristics>
-        <characteristic characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value='12"'/>
-        <characteristic characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol 1"/>
-        <characteristic characteristicTypeId="59b1-319e-ec13-d466" name="S" value="4"/>
-        <characteristic characteristicTypeId="75aa-a838-b675-6484" name="AP" value="-3"/>
-        <characteristic characteristicTypeId="ae8a-3137-d65b-4ca7" name="D" value="D3"/>
-        <characteristic characteristicTypeId="837d-5e63-aeb7-1410" name="Abilities" value="A defesa invulnerável não pode ser tomada contra uma ferida infligida por esta arma. Esta arma inflige dano contra unidades de INFANTARIA em 2+"/>
-       </characteristics>
-      </profile>
-     </profiles>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
      <constraints>
       <constraint field="selections" id="minSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
       <constraint field="selections" id="maxSelections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
      </constraints>
-     <categoryLinks/>
-     <selectionEntries/>
-     <selectionEntryGroups/>
-     <entryLinks/>
+     <profiles>
+      <profile hidden="false" id="247e1f7f-7863-0194-580f-16527c134264" name="Exitus Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         12"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Pistol 1
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         D3
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         A defesa invulnerável não pode ser tomada contra uma ferida infligida por esta arma. Esta arma inflige dano contra unidades de INFANTARIA em 2+
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
-      <cost costTypeId="points" name="pts" value="0.0"/>
-      <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
-   <selectionEntryGroups/>
    <entryLinks>
-    <entryLink hidden="false" id="133d-4f4a-285d-5eae" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
-    <entryLink hidden="false" id="0f25-6eab-5a3a-3dfa" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
-     <profiles/>
-     <rules/>
-     <infoLinks/>
-     <modifiers/>
-     <constraints/>
-     <categoryLinks/>
-    </entryLink>
+    <entryLink collective="false" hidden="false" id="133d-4f4a-285d-5eae" name="Is A Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="0f25-6eab-5a3a-3dfa" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost costTypeId="points" name="pts" value="80.0"/>
-    <cost costTypeId="e356-c769-5920-6e14" name=" PL" value="5.0"/>
+    <cost name="pts" typeId="points" value="85.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="true" id="4841-da7f-fcaf-ae79" name="Execution Force" type="upgrade">
+   <modifiers>
+    <modifier field="hidden" type="set" value="false">
+     <conditionGroups>
+      <conditionGroup type="and">
+       <conditions>
+        <condition childId="08d2-59b2-b846-88c7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="15d3-57f0-2c9d-f074" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="8e8a-617b-5665-f83f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="8d0f-297a-5547-8a6b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="9723-174d-7eb5-0e38" name="New CategoryLink" primary="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="20c7-1738-6f6c-de63" name="HQ" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+   </categoryLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
- <sharedSelectionEntryGroups/>
  <sharedRules>
-  <rule book="Codex: Officio Assassinorum" hidden="false" id="6fa7-7d69-7fce-f215" name="Independent Operative">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <description description='Este modelo nunca pode ter um Warlord Trait. Durante o deploy, você pode colocar esse modelo em ocultação em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode revelar sua posição - colocá-lo em qualquer lugar no campo de batalha que seja mais de 9" de qualquer modelo inimigo.'>
-    This Model can never have a Warlord Trait. During deployment, you can set this model up in concealment instead of placing it on the battlefield. At the end of any of your movement phases, this model can reveal it's position - set it up anywhere on the battlefield that is more then 9" from any enemy model.
+  <rule hidden="false" id="6fa7-7d69-7fce-f215" name="Independent Operative" publicationId="f731-6aa6-pubN66377">
+   <description>
+    Este modelo nunca pode ter um Warlord Trait. Durante o deploy, você pode colocar esse modelo em ocultação em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode revelar sua posição - colocá-lo em qualquer lugar no campo de batalha que seja mais de 9" de qualquer modelo inimigo.
    </description>
   </rule>
-  <rule book="Codex: Officio Assassinorum" hidden="false" id="62ec-db58-d522-deda" name="Lightning Reflexes">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <description description="Um modelo com esta regra especial tem um salvamento invulnerável de 4+ .">
-    A model with this special rule has a 4+ invulnerable save.
+  <rule hidden="false" id="62ec-db58-d522-deda" name="Lightning Reflexes" publicationId="f731-6aa6-pubN66377">
+   <description>
+    Um modelo com esta regra especial tem uma defesa invulnerável de 4+ .
    </description>
   </rule>
-  <rule book="" hidden="false" id="2dc4-c403-ca18-9344" name="Execution Force" page="">
-   <profiles/>
-   <rules/>
-   <infoLinks/>
-   <modifiers/>
-   <description description="Desde que seu Warlord seja do IMPERIUM, você pode incluir esta unidade em um Destacamento de Vanguarda, mesmo que esse Detachment não contenha unidades HQ. No entanto, se você fizer isso, os Benefícios de Comando do Destacamento serão alterados para 'Nenhum'.">
-    So long as your Warlord is from the IMPERIUM, you can include this unit in a Vanguard Detachment even if that Detachment contains no HQ units. However, if you do so, that Detachment's Command Benefits are changed to 'None'.
+  <rule hidden="false" id="2dc4-c403-ca18-9344" name="Execution Force" page="">
+   <description>
+    Desde que seu Warlord seja do IMPERIUM, você pode incluir esta unidade em um Destacamento de Vanguarda, mesmo que o Detachment não contenha unidades HQ. No entanto, se você fizer isso, os Benefícios de Comando do Destacamento serão alterados para 'Nenhum', a menos que esse Detachment contenha exatamente 1 de cada assassino.
    </description>
   </rule>
  </sharedRules>
- <sharedProfiles/>
 </catalogue>
