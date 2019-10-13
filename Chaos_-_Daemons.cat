@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="422a-a40e-3f7c-e8b3" library="false" name="Chaos - Daemons-BR" revision="64" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="422a-a40e-3f7c-e8b3" library="false" name="Chaos - Daemons-BR" revision="65" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="422a-a40e-pubN71142" name="Dataslate: Be'lakor"/>
   <publication id="422a-a40e-pubN120961" name="Index: Chaos"/>
@@ -2869,7 +2869,7 @@
     <profile hidden="false" id="5467-3e7a-6ab3-14a9" name="Mischief Makers" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Quando você configura uma unidade de Nurglings durante a implantação, ela pode ser configurada em sua zona de implantação ou em qualquer lugar no campo de batalha que esteja a mais de 9" da zona de implantação inimiga e dos modelos inimigos.
+       Quando você configura uma unidade de Nurglings durante a implantação, eles podem ser configurado em sua zona de implantação, ou em qualquer lugar no campo de batalha que é mais do que 9" da zona de implantação inimigo e todos os modelos inimigas
       </characteristic>
      </characteristics>
     </profile>
@@ -10547,7 +10547,7 @@
          D6
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Qualquer acerto que gere um 6 para os testes de ferida imediatamente inflige Ferimentos Mortais D3 na unidade alvo, além de qualquer outro dano.
+         Qualquer acerto que gere um 6 para os testes para ferir imediatamente inflige Ferimentos Mortais D3 na unidade alvo, além de qualquer outro dano.
         </characteristic>
        </characteristics>
       </profile>
@@ -15373,7 +15373,7 @@
     <profile hidden="false" id="b171-f029-be85-ce53" name="Armour of Scorn" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       O portador da Armadura do Desprezo tem um 4+ defesa invulnerável e pode tentar negar um poder psíquico em cada fase psíquica inimiga.
+       O portador da Armadura do Desprezo tem um defesa invulnerável de 4+ e pode tentar negar um poder psíquico em cada fase psíquica inimiga.
       </characteristic>
      </characteristics>
     </profile>
@@ -15758,7 +15758,7 @@
     <profile hidden="false" id="9a95-cbb9-2944-ce80" name="Cloak of Constriction" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Subtraia 1 das jogadas de ferida para ataques feitos com armas de combate corpo a corpo que tenham como alvo este modelo.
+       Subtraia 1 das jogadas para ferir para ataques feitos com armas de combate corpo a corpo que tenham como alvo este modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -17022,7 +17022,7 @@ Se o seu teste de convocação ritual da Daemon-Aremônico incluísse qualquer d
      7"
     </characteristic>
     <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-     Se manifestado, a unidade inimiga mais próxima a no máximo 7" se o Psyker e visível a ela sofrer D3 feridas mortais se tiver menos de 10 modelos, ou D6 feridas mortais se tiver 10 modelos ou mais.
+     Se manifestado, a unidade inimiga mais próxima a no máximo 7" se o Psyker e visível a ela sofrer D3 ferimentos mortais se tiver menos de 10 modelos, ou D6 ferimentos mortais se tiver 10 modelos ou mais.
     </characteristic>
    </characteristics>
   </profile>
@@ -17461,7 +17461,7 @@ Se o seu teste de convocação ritual da Daemon-Aremônico incluísse qualquer d
   <profile hidden="false" id="8deb-e5f4-5173-f829" name="Prince of Slaanesh" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Volte a rolar os rolos de 1 para unidades aliados ​​SLAANESH DAEMON enquanto estiverem a menos de 6 "deste modelo.
+     Volte a rolar as jogadas de 1 para unidades aliados ​​SLAANESH DAEMON enquanto estiverem a menos de 6 "deste modelo.
     </characteristic>
    </characteristics>
   </profile>
@@ -17489,7 +17489,7 @@ Se o seu teste de convocação ritual da Daemon-Aremônico incluísse qualquer d
   <profile hidden="false" id="11de-19d6-fb18-52a8" name="Delicate Precision" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Rolar novamente rolos enrolados de 1 para ataques feitos para este modelo.
+     Re-role testes para ferir de 1 para ataques feitos para este modelo.
     </characteristic>
    </characteristics>
   </profile>

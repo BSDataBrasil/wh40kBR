@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@GenWilhelm" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="7150-5917-ae80-68c5" library="false" name="Tyranids-BR" revision="53" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@GenWilhelm" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="7150-5917-ae80-68c5" library="false" name="Tyranids-BR" revision="54" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="7150-5917-pubN65537" name="Codex: Tyranids"/>
   <publication id="7150-5917-pubN80009" name="Index: Xenos 2"/>
@@ -5309,7 +5309,7 @@
     <profile hidden="false" id="6a87-cc01-4123-45b7" name="Shrouding Spores" page="95" publicationId="7150-5917-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Seu oponente deve subtrair 1 das jogadas de acerto para armas de longo alcance que tenham como alvo &lt;FROTA DE GOLPE&gt; unidades (excluindo MONSTERS) a menos de 6 "de quaisquer tropas de Vênus amistosas. Além disso, seu oponente deve subtrair 1 das jogadas de acerto daquele alvo &lt;FROTA DE VIOLÊNCIA &gt; MONSTERS enquanto estiverem a menos de 6 "de qualquer &lt;FROTA DE HIVE&gt; unidades de tracção venométrica que contenham 3 ou mais modelos. Aumente o alcance de ambos os efeitos para 9 ", enquanto esta unidade contém 6 modelos.
+       Seu oponente deve subtrair 1 das jogadas de acerto para armas de longo alcance que tenham como alvo &lt;FROTA de acerto&gt; unidades (excluindo MONSTERS) a menos de 6 "de quaisquer tropas de Vênus amistosas. Além disso, seu oponente deve subtrair 1 das jogadas de acerto daquele alvo &lt;FROTA DE VIOLÊNCIA &gt; MONSTERS enquanto estiverem a menos de 6 "de qualquer &lt;FROTA DE HIVE&gt; unidades de tracção venométrica que contenham 3 ou mais modelos. Aumente o alcance de ambos os efeitos para 9 ", enquanto esta unidade contém 6 modelos.
       </characteristic>
      </characteristics>
     </profile>
@@ -7826,16 +7826,9 @@
      </characteristics>
     </profile>
     <profile hidden="false" id="1282-1453-4394-ba90" name="Outriders of the Swarm" page="18" publicationId="7150-5917-pubN101066" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <modifiers>
-      <modifier field="21befb24-fc85-4f52-a745-64b2e48f8228" type="set" value='When you set up this unit during deployment, it can be set up anywhere on the battlefield that is more than 9" from the enemy deployment zone and any enemy models.'>
-       <conditions>
-        <condition childId="3cf4-7a43-f7a5-51cc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="atLeast" value="1.0"/>
-       </conditions>
-      </modifier>
-     </modifiers>
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Durante o deploy, seus Meiotic Spores não são implantados com o resto do seu exército, mas são colocados em jogo em queda livre. Uma vez que ambos os exércitos estejam totalmente posicionados, pouco antes da primeira rodada de batalha, você pode colocar esta unidade em qualquer lugar no campo de batalha que esteja a mais de 12" de distância de qualquer modelo inimigo.
+       Quando você configura esta unidade Durante o deploy, ela pode ser configurada em qualquer lugar no campo de batalha que esteja a mais de 9" da zona de desdobramento do inimigo e de quaisquer modelos inimigos.
       </characteristic>
      </characteristics>
     </profile>
@@ -10014,7 +10007,7 @@
          3
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Um modelo armado com o Slayer Sabers pode fazer 1 ataque adicional com eles na fase de combate. Além disso, se um modelo de INFANTARIA ou BIKER sofrer dano desta arma, mas não estiver morto, role um D3 no final da fase de combate. Se o resultado for maior que o número restante de feridas do modelo, ele será morto.
+         Um modelo armado com o Slayer Sabers pode fazer 1 ataque adicional com eles na fase de combate. Além disso, se um modelo de INFANTARIA ou BIKER sofrer dano desta arma, mas não estiver morto, role um D3 no final da fase de combate. Se o resultado for maior que o número restante para ferirs do modelo, ele será morto.
         </characteristic>
        </characteristics>
       </profile>

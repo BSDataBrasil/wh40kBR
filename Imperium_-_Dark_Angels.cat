@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Thairne" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="b8fe-8d38-37ec-90e8" library="false" name="Imperium - Dark Angels-BR" revision="107" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Thairne" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="b8fe-8d38-37ec-90e8" library="false" name="Imperium - Dark Angels-BR" revision="113" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="b8fe-8d38-pubN65537" name="Codex: Dark Angels"/>
  </publications>
@@ -82,6 +82,7 @@
   <categoryEntry hidden="false" id="dcdc-0852-a133-666c" name="Lieutnant"/>
   <categoryEntry hidden="false" id="092f-e8c6-6aea-4445" name="Elimination Squad"/>
   <categoryEntry hidden="false" id="b10d-87e4-fe53-dbbf" name="Devastator Squad"/>
+  <categoryEntry hidden="false" id="4aa3-a88c-47fa-2e9e" name="Priest"/>
  </categoryEntries>
  <entryLinks>
   <entryLink collective="false" hidden="false" id="2df1-fcd7-f668-606a" import="true" name="Primaris Ancient" targetId="58f2-f816-58f2-0b94" type="selectionEntry"/>
@@ -263,7 +264,12 @@
   <entryLink collective="false" hidden="false" id="3ee1-a8c9-ffe4-949a" import="true" name="Astraeus Super-heavy Tank" targetId="2faf-85ff-2008-1a28" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="388f-a3c8-78df-8138" import="true" name="Thunderhawk Assault Gunship" targetId="1ea8-e5a1-3a69-7697" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="c1ae-6039-22a3-0d7f" import="true" name="Thunderhawk Transporter" targetId="0caa-04e2-7796-7750" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="4b5b-5fc0-24b7-0ec1" import="true" name="Chaplain Venerable Dreadnought" targetId="28af-fce8-2f9c-0145" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="4b5b-5fc0-24b7-0ec1" import="true" name="Chaplain Venerable Dreadnought" targetId="28af-fce8-2f9c-0145" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="f7a6-4efc-c4fb-5507" import="true" name="Warlord" targetId="33f6-60da-7b70-5fee" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="09a8-e073-499f-325d" import="true" name="Warlord Traits" targetId="25ab-3c66-3dc4-0e00" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
   <entryLink collective="false" hidden="false" id="2eeb-ba8b-f4dd-fd4b" import="true" name="Chaplain" targetId="400e-bbea-4690-6942" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="e30d-5a11-1302-527f" import="true" name="Repulsor Executioner" targetId="75a6-6038-c00a-2dfa" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="67c7-dbd5-949e-9e96" import="true" name="Impulsor" targetId="122f-106d-2ef7-11f1" type="selectionEntry"/>
@@ -271,10 +277,11 @@
   <entryLink collective="false" hidden="false" id="29b9-c1e4-4606-6b91" import="true" name="Invictor Tactical Warsuit" targetId="7f67-2ef5-b454-d93a" type="selectionEntry"/>
  </entryLinks>
  <infoLinks>
-  <infoLink hidden="false" id="8977-9ead-e618-4d17" name="Defenders of Humanity" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
   <infoLink hidden="false" id="3437-748d-fc54-4671" name="Grim Resolve" targetId="451a-c379-c037-7a51" type="rule"/>
-  <infoLink hidden="false" id="9e6e-bfa6-2d3c-33ad" name="Bolter Discipline" targetId="5a7e-f984-487c-d767" type="rule"/>
   <infoLink hidden="false" id="1111-0620-2739-a2ad" name="Shock Assault" targetId="f9ce-5a8b-7abd-2395" type="rule"/>
+  <infoLink hidden="false" id="6934-b582-7019-5723" name="Bolter Discipline" targetId="5a7e-f984-487c-d767" type="rule"/>
+  <infoLink hidden="false" id="c5d3-afe1-f36a-6ed9" name="And They Shall Know No Fear" targetId="4ea8-94d3-ba39-042f" type="rule"/>
+  <infoLink hidden="false" id="a68c-0b86-7e65-a73f" name="Combat Doctrines" targetId="9ee9-a3a2-9d63-b93f" type="rule"/>
  </infoLinks>
  <sharedSelectionEntries>
   <selectionEntry collective="false" hidden="false" id="58f2-f816-58f2-0b94" import="true" name="Primaris Ancient" page="93" publicationId="b8fe-8d38-pubN65537" type="unit">
@@ -1675,9 +1682,10 @@
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="ffaa-fa04-903b-6b53" name="New InfoLink" targetId="4ea8-94d3-ba39-042f" type="rule"/>
-    <infoLink hidden="false" id="a7f6-8b81-efe5-8ae0" name="New InfoLink" targetId="9287-78a9-f594-c601" type="profile"/>
     <infoLink hidden="false" id="86f4-0c78-3f40-f586" name="New InfoLink" targetId="3f26-e8cb-ea53-e656" type="profile"/>
     <infoLink hidden="false" id="328f-7002-1849-cadd" name="New InfoLink" targetId="b355-bd49-c5a5-805f" type="profile"/>
+    <infoLink hidden="false" id="c28e-971f-c5ac-0374" name="Priest" targetId="6785-d56b-d098-cbd9" type="profile"/>
+    <infoLink hidden="false" id="e444-dab3-7673-0f70" name="Litanies" targetId="ae29-9d94-c021-e6d3" type="infoGroup"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="487b-c429-724a-4d2f" name="New CategoryLink" primary="false" targetId="ef18-746a-369f-43a4"/>
@@ -1688,6 +1696,7 @@
     <categoryLink hidden="false" id="4dd3-f862-2e04-28fd" name="New CategoryLink" primary="false" targetId="c7b7-edbc-bc14-6238"/>
     <categoryLink hidden="false" id="e240-0189-250e-baec" name="Faction: Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
     <categoryLink hidden="false" id="ebdd-1b16-7a3a-0989" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+    <categoryLink hidden="false" id="9baf-4083-6b60-d1a5" name="Priest" primary="false" targetId="4aa3-a88c-47fa-2e9e"/>
    </categoryLinks>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="de09-eb1c-27d5-bee1" hidden="false" id="874f-8c68-7b46-d40a" import="true" name="Armament">
@@ -2327,6 +2336,7 @@
    <infoLinks>
     <infoLink hidden="false" id="24a1-e910-2cc4-a25c" name="Combat Squads" targetId="3e31-4e4b-6ab6-d90b" type="profile"/>
     <infoLink hidden="false" id="b2e0-400c-b96f-a081" name="New InfoLink" targetId="4ea8-94d3-ba39-042f" type="rule"/>
+    <infoLink hidden="false" id="a8dd-8af5-0a00-871d" name="Defenders of Humanity" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="4fed-17a3-03f7-e2f1" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
@@ -2506,6 +2516,7 @@
     <infoLink hidden="false" id="bea4-d4b1-3f45-357b" name="New InfoLink" targetId="4ea8-94d3-ba39-042f" type="rule"/>
     <infoLink hidden="false" id="0ca9-d820-5a31-89dd" name="New InfoLink" targetId="3e31-4e4b-6ab6-d90b" type="profile"/>
     <infoLink hidden="false" id="4c60-8b8a-95a1-53ae" name="Concealed Positions" targetId="78e6-c667-c714-bf9e" type="profile"/>
+    <infoLink hidden="false" id="a1f4-e1ff-d21b-74a3" name="Defenders of Humanity" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="f056-258b-eacb-76b7" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
@@ -2791,6 +2802,7 @@
    <infoLinks>
     <infoLink hidden="false" id="c130-4f91-6010-0c70" name="New InfoLink" targetId="4ea8-94d3-ba39-042f" type="rule"/>
     <infoLink hidden="false" id="179c-4534-0b9c-eaf5" name="Combat Squads" targetId="3e31-4e4b-6ab6-d90b" type="profile"/>
+    <infoLink hidden="false" id="af92-a851-20b2-904a" name="Defenders of Humanity" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="e24f-6e96-8c3c-139c" name="New CategoryLink" primary="false" targetId="3d52-fccf-10c0-3fae"/>
@@ -4303,7 +4315,9 @@
     <profile hidden="false" id="5f5e-5746-1d9a-f5a9" name="Drop Pod Assault" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Durante o deploy, você pode colocar este modelo, juntamente com quaisquer unidades embarcadas dentro dele, em órbita, em vez de implantá-lo no campo de batalha. No final de qualquer fase de movimento, esta unidade pode executar um ataque de cápsula de queda - colocá-lo no campo de batalha em qualquer lugar que esteja a mais de 9" de distância dos modelos inimigos. Todos os modelos devem ser imediatamente desembarcados, mas devem ser colocados em jogo de 9" de qualquer modelo inimigo. Qualquer modelo que não pode ser configurado porque não há espaço suficiente é morto.
+       Durante a implantação, você pode configurar esse modelo, juntamente com quaisquer unidades embarcadas dentro dela, em órbita em vez de implantá-lo no campo de batalha. No final de qualquer um dos seus fases de movimento esta unidade pode realizar um ataque gota pod - configurá-lo no campo de batalha em qualquer lugar que é mais do que 9" longe de modelos inimigas Quaisquer modelos dentro deve desembarcar imediatamente, mas eles devem ser criados mais. de 9" de quaisquer modelos inimigas. Qualquer modelo que não pode ser criada porque não há espaço suficiente é morto.
+
+Matched jogo: Este modelo e quaisquer unidades embarcou a bordo que estão isentos das reservas táticas combinadas jogar regra, exceto que se ele e quaisquer unidades embarcou a bordo de não ter chegado no campo de batalha até o final de rodada a terceira batalha, eles contam como tendo foram destruídas.
       </characteristic>
      </characteristics>
     </profile>
@@ -6122,7 +6136,7 @@
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
     <cost name="pts" typeId="points" value="180.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7d3f-a10f-0a57-d488" import="true" name="Belial" page="77" publicationId="b8fe-8d38-pubN65537" type="unit">
@@ -8925,17 +8939,6 @@
      </characteristics>
     </profile>
    </profiles>
-   <categoryLinks>
-    <categoryLink hidden="false" id="54fb-80f1-812f-0b54" name="Faction: Dark Angels" primary="false" targetId="3fd6-0b4f-6e16-5a7b"/>
-    <categoryLink hidden="false" id="f8fc-7b98-1f7d-ce7a" name="Faction: Adeptus Astartes" primary="false" targetId="c7b7-edbc-bc14-6238"/>
-    <categoryLink hidden="false" id="686e-c5ef-c636-d6ae" name="Faction: Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-    <categoryLink hidden="false" id="2d67-2948-39b0-0588" name="Faction: Ravenwing" primary="false" targetId="694b-e6b7-a740-8c14"/>
-    <categoryLink hidden="false" id="9ed9-e1a6-a7c3-aa1a" name="Vehicle" primary="false" targetId="c8fd-783f-3230-493e"/>
-    <categoryLink hidden="false" id="8ab2-1f5b-b413-4809" name="Land Speeder" primary="false" targetId="0d26-14c7-a20d-f9db"/>
-    <categoryLink hidden="false" id="6307-abbd-14e5-6a22" name="Ravenwing Land Speeder" primary="false" targetId="6085-35d8-0156-a40e"/>
-    <categoryLink hidden="false" id="4a3f-1c47-dbe4-904f" name="Fly" primary="false" targetId="3117-16d8-fcef-4f56"/>
-    <categoryLink hidden="false" id="92fd-8679-561e-7b87" name="New CategoryLink" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-   </categoryLinks>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="7329-7921-6e12-42cb" hidden="false" id="2735-5369-ff0c-02a4" import="true" name="Armament 1">
      <constraints>
@@ -10471,7 +10474,7 @@
          3
         </characteristic>
         <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
-         3
+         4
         </characteristic>
         <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
          8
@@ -10488,10 +10491,10 @@
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="true" hidden="false" id="b993-9af6-5bd8-0414" import="true" name="Aggressor" type="model">
+    <selectionEntry collective="false" hidden="false" id="b993-9af6-5bd8-0414" import="true" name="Aggressor" type="model">
      <constraints>
-      <constraint field="selections" id="29f9-e1be-413b-dcb3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
-      <constraint field="selections" id="cebe-03e5-b780-867a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5.0"/>
+      <constraint field="selections" id="29f9-e1be-413b-dcb3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2.0"/>
+      <constraint field="selections" id="cebe-03e5-b780-867a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="5.0"/>
      </constraints>
      <profiles>
       <profile hidden="false" id="7567-accd-8335-b46b" name="Aggressor" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -10515,7 +10518,7 @@
          3
         </characteristic>
         <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
-         2
+         3
         </characteristic>
         <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
          7
@@ -11335,7 +11338,7 @@
     <profile hidden="false" id="9139-4df3-9622-c5e2" name="Terror Troops" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Enquanto todas as unidades Reiver do seu exército estiverem a 3 "de qualquer unidade inimiga, subtraia 1 da característica de Liderança de cada uma dessas unidades inimigas para cada unidade Reiver do seu exército que esteja a 3" dessa unidade inimiga (no máximo - 3).
+       Enquanto nenhuma unidade de Reiver do seu exército estão dentro de 3" de quaisquer unidades inimigas, subtraia 1 do característica de liderança de cada uma dessas unidades inimigas para cada unidade de Reiver do seu exército que está dentro de 3" daquela unidade inimigo (até um máximo de - 3).
       </characteristic>
      </characteristics>
     </profile>
@@ -15390,6 +15393,7 @@
     <infoLink hidden="false" id="0720-c327-1be5-45ce" name="Combat Squads" targetId="3e31-4e4b-6ab6-d90b" type="profile"/>
     <infoLink hidden="false" id="641b-2ba9-2fd7-b305" name="Concealed Positions" targetId="78e6-c667-c714-bf9e" type="profile"/>
     <infoLink hidden="false" id="62b8-4912-1044-e9c6" name="Omni-scramblers" targetId="6f4c-1fad-ac52-9f14" type="profile"/>
+    <infoLink hidden="false" id="be0f-61b2-59bf-e407" name="Defenders of Humanity" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="694d-503c-5aa1-6c47" name="Faction: Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
@@ -15465,145 +15469,11 @@
       <cost name="pts" typeId="points" value="22.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="a08d-f97f-0ecc-0aaf" import="true" name="Infiltrator Helix Adept" type="model">
-     <constraints>
-      <constraint field="selections" id="31d9-1eab-e97d-ac2d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-     <profiles>
-      <profile hidden="false" id="b3ba-8d1f-f781-a938" name="Infiltrator Helix Adept" typeId="800f-21d0-4387-c943" typeName="Unit">
-       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
-         6"
-        </characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
-         3+
-        </characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
-         3+
-        </characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">
-         4
-        </characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">
-         4
-        </characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">
-         2
-        </characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
-         2
-        </characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
-         7
-        </characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
-         3+
-        </characteristic>
-       </characteristics>
-      </profile>
-      <profile hidden="false" id="eb06-66eb-ac4c-3b37" name="Helix Adept" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         No final da sua fase de movimento, um Infiltrator Helix Adept pode tentar curar ou reviver um modelo de sua unidade. Se a unidade do Infiltrator Helix Adept contiver um modelo ferido, esse modelo recupera 1 ferida perdida. Se a sua unidade não contiver modelos feridos, um ou mais de seus modelos foram mortos durante a batalha, role um D6. Em um modelo de 5 + um morto é retornado para a unidade com 1 restante. Se o Infiltrator Helix Adept não conseguir reviver um modelo, ele não poderá atirar na sua próxima fase de Tiro enquanto ele recupera a semente genética do guerreiro caído.
-        </characteristic>
-       </characteristics>
-      </profile>
-     </profiles>
-     <entryLinks>
-      <entryLink collective="false" hidden="false" id="0439-dca8-e980-9f93" import="true" name="Bolt pistol" targetId="37d3-7098-d596-9948" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="a658-2f77-877a-1fc0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-        <constraint field="selections" id="81e2-60c3-f166-e584" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-       </constraints>
-      </entryLink>
-      <entryLink collective="false" hidden="false" id="18fe-679c-1427-9016" import="true" name="Frag &amp; Krak grenades" targetId="cddf-945e-1335-e681" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="f4d4-d9ce-44ef-5b85" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-        <constraint field="selections" id="fdca-fc9f-04f3-ba77" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-       </constraints>
-      </entryLink>
-      <entryLink collective="false" hidden="false" id="a08f-5108-b270-48a1" import="true" name="Marksman bolt carbine" targetId="2f33-999d-5410-4353" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="30d4-73bd-9b37-d46a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-        <constraint field="selections" id="e33d-aeb7-f53c-61e6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-       </constraints>
-      </entryLink>
-     </entryLinks>
-     <costs>
-      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      <cost name="pts" typeId="points" value="32.0"/>
-     </costs>
-    </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="108d-348a-7788-8df7" import="true" name="Infilltrator" type="model">
-     <constraints>
-      <constraint field="selections" id="294e-7c54-13c5-81c0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4.0"/>
-      <constraint field="selections" id="f969-ddfa-f19d-e9e6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="8.0"/>
-     </constraints>
-     <profiles>
-      <profile hidden="false" id="e54e-3e05-9534-47fd" name="Infiltrator" typeId="800f-21d0-4387-c943" typeName="Unit">
-       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
-         6"
-        </characteristic>
-        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
-         3+
-        </characteristic>
-        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
-         3+
-        </characteristic>
-        <characteristic name="S" typeId="2218-aa3c-265f-2939">
-         4
-        </characteristic>
-        <characteristic name="T" typeId="9c9f-9774-a358-3a39">
-         4
-        </characteristic>
-        <characteristic name="W" typeId="f330-5e6e-4110-0978">
-         2
-        </characteristic>
-        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
-         2
-        </characteristic>
-        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
-         7
-        </characteristic>
-        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
-         3+
-        </characteristic>
-       </characteristics>
-      </profile>
-     </profiles>
-     <entryLinks>
-      <entryLink collective="false" hidden="false" id="8a79-1efd-579c-9bfb" import="true" name="Marksman bolt carbine" targetId="2f33-999d-5410-4353" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="ce7c-2558-dd7f-a3df" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-        <constraint field="selections" id="ea9e-a649-6a9f-5f89" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-       </constraints>
-      </entryLink>
-      <entryLink collective="false" hidden="false" id="3709-e777-d75b-f3f1" import="true" name="Bolt pistol" targetId="37d3-7098-d596-9948" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="3568-ccb8-7e26-d6b3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-        <constraint field="selections" id="d20d-786c-b101-a7ac" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-       </constraints>
-      </entryLink>
-      <entryLink collective="false" hidden="false" id="fb42-057d-888d-6b4b" import="true" name="Frag &amp; Krak grenades" targetId="cddf-945e-1335-e681" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="5314-c70e-6fca-7907" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-        <constraint field="selections" id="7ff5-bf2c-d2a4-d834" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-       </constraints>
-      </entryLink>
-     </entryLinks>
-     <costs>
-      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      <cost name="pts" typeId="points" value="22.0"/>
-     </costs>
-    </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="e860-9933-b235-f0f7" import="true" name="Infiltrator Comms Array" type="upgrade">
      <modifiers>
       <modifier field="534f-0648-9ad4-dba8" type="set" value="0.0">
        <conditions>
-        <condition childId="a08d-f97f-0ecc-0aaf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="4321-39cb-3614-42cd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
@@ -15623,6 +15493,152 @@
       <cost name="pts" typeId="points" value="10.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="d23d-8e39-d1ee-9777" import="true" name="Infiltrator" type="model">
+     <modifiers>
+      <modifier field="cd68-1c20-ea37-8c7a" type="decrement" value="1.0">
+       <conditions>
+        <condition childId="4321-39cb-3614-42cd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="040c-e2f0-1ebd-4291" type="decrement" value="1.0">
+       <conditions>
+        <condition childId="4321-39cb-3614-42cd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="cd68-1c20-ea37-8c7a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4.0"/>
+      <constraint field="selections" id="040c-e2f0-1ebd-4291" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="a8cc-a7cb-65d4-89c0" name="Infiltrator" typeId="800f-21d0-4387-c943" typeName="Unit">
+       <characteristics>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+         6"
+        </characteristic>
+        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+         3+
+        </characteristic>
+        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+         3+
+        </characteristic>
+        <characteristic name="S" typeId="2218-aa3c-265f-2939">
+         4
+        </characteristic>
+        <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+         4
+        </characteristic>
+        <characteristic name="W" typeId="f330-5e6e-4110-0978">
+         2
+        </characteristic>
+        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+         2
+        </characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+         7
+        </characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+         3+
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="2a46-dab4-027f-0ebe" import="true" name="Marksman bolt carbine" targetId="2f33-999d-5410-4353" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="9efa-63ad-9176-c694" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="92ee-9671-9e52-348c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="3743-41f7-dcaf-312a" import="true" name="Bolt pistol" targetId="37d3-7098-d596-9948" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="1eb3-9a76-10b7-a6f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="66fe-59e2-affb-7422" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="ab41-0508-9159-3ff2" import="true" name="Frag &amp; Krak grenades" targetId="cddf-945e-1335-e681" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="4051-24d3-0d0d-1062" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="9554-497f-1c5d-8b10" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="22.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="4321-39cb-3614-42cd" import="true" name="Infiltrator Helix Adept" type="model">
+     <constraints>
+      <constraint field="selections" id="2710-6af7-d2cb-522f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="022e-a0a8-140c-5528" name="Infiltrator Helix Adept" typeId="800f-21d0-4387-c943" typeName="Unit">
+       <characteristics>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+         6"
+        </characteristic>
+        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+         3+
+        </characteristic>
+        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+         3+
+        </characteristic>
+        <characteristic name="S" typeId="2218-aa3c-265f-2939">
+         4
+        </characteristic>
+        <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+         4
+        </characteristic>
+        <characteristic name="W" typeId="f330-5e6e-4110-0978">
+         2
+        </characteristic>
+        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+         2
+        </characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+         7
+        </characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+         3+
+        </characteristic>
+       </characteristics>
+      </profile>
+      <profile hidden="false" id="141f-ee3a-1c05-50ae" name="Helix Adept" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         No final da sua fase de movimento, um Infiltrator Helix Adept pode tentar curar ou reviver um modelo de sua unidade. Se a unidade do Infiltrator Helix Adept contiver um modelo ferido, esse modelo recupera 1 ferida perdida. Se a sua unidade não contiver modelos feridos, um ou mais de seus modelos foram mortos durante a batalha, role um D6. Em um modelo de 5 + um morto é retornado para a unidade com 1 restante. Se o Infiltrator Helix Adept não conseguir reviver um modelo, ele não poderá atirar na sua próxima fase de Tiro enquanto ele recupera a semente genética do guerreiro caído.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="02e6-0c90-a976-a2e9" import="true" name="Bolt pistol" targetId="37d3-7098-d596-9948" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="29e0-3877-aca8-db37" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="d53d-4fa8-4260-7cd5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="ff0e-7a29-62a4-bffa" import="true" name="Frag &amp; Krak grenades" targetId="cddf-945e-1335-e681" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="53a0-0de1-ac52-383e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="ee65-1a1e-14e5-6fa0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="84ac-1c24-6482-b127" import="true" name="Marksman bolt carbine" targetId="2f33-999d-5410-4353" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="40d2-bd8b-7d0f-bf85" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="ecfd-64e1-9e58-4170" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="32.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -15656,7 +15672,7 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Cada jogada de 6 de dano não modificada feita para os ataques desta arma automaticamente acerta e resulta em uma ferida (não faça um teste de ferida para aquele ataque).
+       Cada jogada de 6 de dano não modificada feita para os ataques desta arma automaticamente acerta e resulta em uma ferida (não faça um teste para ferir para aquele ataque).
       </characteristic>
      </characteristics>
     </profile>
@@ -15703,7 +15719,7 @@
     <profile hidden="false" id="010c-0e4e-4a93-eed6" name="Tactical Precision" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Role novamente os rolos enrolados de 1 feitos para unidades DARK ANGELS amigáveis ​​dentro de 15 cm deste modelo.
+       Role novamente os testes para ferir de 1 feitos para unidades DARK ANGELS aliadas ​​dentro de 15 cm deste modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -15806,6 +15822,11 @@
         </entryLink>
         <entryLink collective="false" hidden="false" id="a1e3-3267-87c6-e5f7" import="true" name="Paired Combat Blades" targetId="cde5-6d4d-a834-061b" type="selectionEntry"/>
        </entryLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="e887-a093-1f5d-7691" import="true" name="Heavy Bolt Pistol &amp; Smoke Grenades" type="upgrade">
        <entryLinks>
@@ -15823,6 +15844,11 @@
         </entryLink>
         <entryLink collective="false" hidden="false" id="b46a-3b8d-e2b1-593e" import="true" name="Smoke Grenades" targetId="5ad4-7b94-7946-2613" type="selectionEntry"/>
        </entryLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
       </selectionEntry>
      </selectionEntries>
     </selectionEntryGroup>
@@ -16943,7 +16969,7 @@ feridas
            D3
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Ao resolver um ataque feito com esta arma, adicione 1 à jogada de tiro se o alvo puder VOAR; caso contrário, subtraia 1 do rolo de acerto
+           Ao resolver um ataque feito com esta arma, adicione 1 à jogada de tiro se o alvo puder VOAR; caso contrário, subtraia 1 do teste de acerto
           </characteristic>
          </characteristics>
         </profile>
@@ -16974,7 +17000,7 @@ feridas
            1
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Ao resolver um ataque feito com esta arma, adicione 1 ao teste de acerto e 1 ao teste de ferida se o alvo puder VOAR; caso contrário, subtraia 1 do rolo de acerto.
+           Ao resolver um ataque feito com esta arma, adicione 1 ao teste de acerto e 1 ao teste para ferir se o alvo puder VOAR; caso contrário, subtraia 1 do teste de acerto.
           </characteristic>
          </characteristics>
         </profile>
@@ -17051,7 +17077,7 @@ feridas
     <profile hidden="false" id="122e-6589-6e40-7e69" name="Multi-spectrum array" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ao resolver um ataque feito com uma arma de longo alcance por um modelo nesta unidade, ignore os modificadores de golpe de golpe e modificadores de habilidade balística.
+       Ao resolver um ataque feito com uma arma de longo alcance por um modelo nesta unidade, ignore os modificadores de teste de acerto e modificadores de habilidade balística.
       </characteristic>
      </characteristics>
     </profile>
@@ -17066,6 +17092,7 @@ feridas
    <infoLinks>
     <infoLink hidden="false" id="9529-7a88-fe05-1a1b" name="Angels of Death" targetId="01a4-bec8-b573-fde7" type="rule"/>
     <infoLink hidden="false" id="8c74-68ae-9d1f-d87b" name="Concealed Positions" targetId="78e6-c667-c714-bf9e" type="profile"/>
+    <infoLink hidden="false" id="f881-a8eb-ca72-572b" name="Defenders of Humanity" targetId="a73d-0094-3e4e-e4ed" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="925e-65fe-98b8-d2f7" name="Infantry" primary="false" targetId="3d52-fccf-10c0-3fae"/>
@@ -18856,6 +18883,7 @@ feridas
     Você pode re-rolar todas as jogadas de acerto de 1 para esta unidade sempre que ela for disparada (incluindo ao acionar o Overwatch), desde que ela não se mova na sua fase anterior de Movimento. Além disso, esta unidade nunca pode perder mais de um modelo como resultado de qualquer teste de moral malsucedida.
    </description>
   </rule>
+  <rule hidden="false" id="9ee9-a3a2-9d63-b93f" name="Combat Doctrines"/>
  </sharedRules>
  <sharedProfiles>
   <profile hidden="false" id="242c-3bac-1ff3-48b0" name="Iron Halo" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -19550,7 +19578,7 @@ feridas
   <profile hidden="false" id="c2ad-c436-5495-cb5a" name="Shock Assault" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Se esta unidade mover uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
+     Se esta unidade realizar uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
     </characteristic>
    </characteristics>
   </profile>
@@ -19605,7 +19633,34 @@ feridas
     </characteristic>
    </characteristics>
   </profile>
+  <profile hidden="false" id="5a7e-49c4-3678-da5a" name="And They Shall Know No Fear" typeId="0891-2df5-19c2-de63" typeName="Explosion">
+   <characteristics>
+    <characteristic name="Dice roll" typeId="9e34-51af-99cf-45fa"/>
+    <characteristic name="Distance" typeId="4dfd-0acf-1a52-f75b"/>
+    <characteristic name="Mortal wounds" typeId="e715-f99d-6feb-6ceb"/>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="6785-d56b-d098-cbd9" name="Priest" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     No início da rodada de batalha, este modelo pode recitar uma ladainha ele sabe que já não tenha sido recitado por um modelo amigável que batalhar rodada. Rolar um D6; em um 3+ a ladainha recitada é inspirador e tem efeito até o fim dessa batalha rodada.
+    </characteristic>
+   </characteristics>
+  </profile>
  </sharedProfiles>
+ <sharedInfoGroups>
+  <infoGroup hidden="false" id="ae29-9d94-c021-e6d3" name="Litanies">
+   <profiles>
+    <profile hidden="false" id="f07c-d7f8-de83-17f5" name="Litany of Hate" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       If this litany is inspiring, you can re-roll  hit rolls for attacks made with melee weapons by models in friendly DARK ANGELS units whilst their unit is within 6" of  this model.
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+  </infoGroup>
+ </sharedInfoGroups>
  <catalogueLinks>
   <catalogueLink id="a18c-2ee5-7f5e-a157" importRootEntries="true" name="Imperium - FW Adeptus Astartes" targetId="dab7-e076-dd5e-d8aa" type="catalogue"/>
  </catalogueLinks>

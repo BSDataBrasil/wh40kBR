@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@WindstormSCR" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="eb0f-c144-a282-8bdc" library="false" name="Imperium - Blood Angels-BR" revision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@WindstormSCR" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="eb0f-c144-a282-8bdc" library="false" name="Imperium - Blood Angels-BR" revision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="eb0f-c144-pubN65537" name="Codex: Blood Angels"/>
   <publication id="eb0f-c144-pubN68947" name="Index: Imperium 1"/>
@@ -211,7 +211,12 @@
   <entryLink collective="false" hidden="false" id="2ed8-1316-2c2b-af86" import="true" name="Captain in Phobos Armour" targetId="b1ee-e4ba-0123-cba4" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="3a2b-20de-6fbd-437a" import="true" name="Infiltrator Squad" targetId="66fe-5358-b5ed-1397" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="f627-f293-4387-feba" import="true" name="Suppressor Squad" targetId="8dc5-2f9d-96d0-3db6" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="8039-469d-a355-88b8" import="true" name="Chaplain Venerable Dreadnought" targetId="28af-fce8-2f9c-0145" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="8039-469d-a355-88b8" import="true" name="Chaplain Venerable Dreadnought" targetId="28af-fce8-2f9c-0145" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="4722-9dc9-2153-9e5e" import="true" name="Warlord" targetId="fe32-ce90-4d6d-1883" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="4d79-9d85-2154-5c7b" import="true" name="Warlord Traits" targetId="c25d-2fbc-47b3-9e39" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
   <entryLink collective="false" hidden="false" id="d680-8513-94be-b0db" import="true" name="Damocles Command Rhino" targetId="7f53-6376-cd1f-8356" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="0d5b-6860-a0fe-64b0" import="true" name="Deimos Pattern Relic Predator" targetId="b048-66f2-3f07-e5ec" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="16e8-f1f0-fb0b-958a" import="true" name="Deimos Pattern Vindicator Laser Destroyer" targetId="1cc4-d166-fe8b-d4c7" type="selectionEntry"/>
@@ -275,6 +280,7 @@
   <entryLink collective="false" hidden="false" id="23b4-7224-1b8a-9508" import="true" name="Impulsor" targetId="f1c7-528e-2287-bde6" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="fe20-cadf-17fe-f9e0" import="true" name="Invictor Tactical Warsuit" targetId="1618-0ec1-f6e4-87bd" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="1a12-5630-43ae-2335" import="true" name="Incursor Squad" targetId="9313-9b96-05a3-f870" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="263c-6b2a-d3e8-c134" import="true" name="Malakim Phoros" targetId="09f8-7f2b-a70e-eeb7" type="selectionEntry"/>
  </entryLinks>
  <infoLinks>
   <infoLink hidden="false" id="59cb-0435-fbd6-d3d2" name="Defenders of Humanity" targetId="d8df-0f76-de5e-42a0" type="rule"/>
@@ -12378,6 +12384,9 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="fe32-ce90-4d6d-1883" import="true" name="Warlord" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="cb8f-864b-94f0-cede" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
    <categoryLinks>
     <categoryLink hidden="false" id="40bc-f8c4-fb86-7b4a" name="New CategoryLink" primary="false" targetId="ae09-117e-a6fa-316b"/>
    </categoryLinks>
@@ -13256,7 +13265,7 @@
     <profile hidden="false" id="add8-72fb-b015-1e49" name="Guided Aim" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Em vez de atirar na sua fase de Tiro, o Sargento Eliminador desta unidade pode orientar o objetivo de seu esquadrão. Até o final dessa fase, ao resolver um ataque feito com uma arma de longo alcance por um modelo nesta unidade, adicione 1 ao golpe de golpe e ao rolo de ferida.
+       Em vez de atirar na sua fase de Tiro, o Sargento Eliminador desta unidade pode orientar o objetivo de seu esquadrão. Até o final dessa fase, ao resolver um ataque feito com uma arma de longo alcance por um modelo nesta unidade, adicione 1 ao teste de acerto e ao teste para ferir.
       </characteristic>
      </characteristics>
     </profile>
@@ -13462,7 +13471,7 @@
          <costs>
           <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
           <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          <cost name="pts" typeId="points" value="0.0"/>
+          <cost name="pts" typeId="points" value="5.0"/>
          </costs>
         </selectionEntry>
        </selectionEntries>
@@ -13539,7 +13548,7 @@
        Heavy 1
       </characteristic>
       <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       4
+       5
       </characteristic>
       <characteristic name="AP" typeId="75aa-a838-b675-6484">
        -2
@@ -13561,7 +13570,7 @@
        Heavy 1
       </characteristic>
       <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       4
+       5
       </characteristic>
       <characteristic name="AP" typeId="75aa-a838-b675-6484">
        -1
@@ -13583,7 +13592,7 @@
        Heavy D3
       </characteristic>
       <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       4
+       5
       </characteristic>
       <characteristic name="AP" typeId="75aa-a838-b675-6484">
        0
@@ -13954,7 +13963,7 @@
       </entryLink>
      </entryLinks>
      <costs>
-      <cost name="pts" typeId="points" value="22.0"/>
+      <cost name="pts" typeId="points" value="32.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
@@ -13990,7 +13999,7 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Cada jogada de 6 de dano não modificada feita para os ataques desta arma automaticamente acerta e resulta em uma ferida (não faça um teste de ferida para aquele ataque).
+       Cada jogada de 6 de dano não modificada feita para os ataques desta arma automaticamente acerta e resulta em uma ferida (não faça um teste para ferir para aquele ataque).
       </characteristic>
      </characteristics>
     </profile>
@@ -14206,12 +14215,12 @@
         <constraint field="selections" id="3cfd-391a-0d00-bb77" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
        </constraints>
        <selectionEntries>
-        <selectionEntry collective="false" hidden="false" id="050d-8be9-0c25-ea53" import="true" name="Occulus Bolt" type="upgrade">
+        <selectionEntry collective="false" hidden="false" id="050d-8be9-0c25-ea53" import="true" name="Master Crafted Occulus Bolt Carbine, Paired Combat Blades, Bolt Pistol, and Grav Ghute" type="upgrade">
          <constraints>
           <constraint field="selections" id="033e-be9a-c84d-5baa" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
          </constraints>
          <selectionEntries>
-          <selectionEntry collective="false" hidden="false" id="82ba-f3ce-32be-4c60" import="true" name="Master-crafted occulus bolt rifle" type="upgrade">
+          <selectionEntry collective="false" hidden="false" id="82ba-f3ce-32be-4c60" import="true" name="Master-crafted Occulus Bolt Carbine" type="upgrade">
            <constraints>
             <constraint field="selections" id="6d1d-e1b6-74bc-841f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
             <constraint field="selections" id="365f-1b48-7df4-5666" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -14316,7 +14325,7 @@
           <cost name="pts" typeId="points" value="0.0"/>
          </costs>
         </selectionEntry>
-        <selectionEntry collective="false" hidden="false" id="c0f0-95f5-4cfb-2974" import="true" name="Reiver" type="upgrade">
+        <selectionEntry collective="false" hidden="false" id="c0f0-95f5-4cfb-2974" import="true" name="Heavy Bolt Pistol, Combat Knife, and Smoke Grenades" type="upgrade">
          <constraints>
           <constraint field="selections" id="97fc-f257-1311-eaba" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
          </constraints>
@@ -14626,7 +14635,7 @@
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-    <cost name="pts" typeId="points" value="15.0"/>
+    <cost name="pts" typeId="points" value="10.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c94c-7108-c4a6-7480" import="true" name="Repulsor Executioner" type="unit">
@@ -15100,7 +15109,7 @@
            1
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Ao resolver um ataque feito com esta arma, adicione 1 ao teste de acerto e 1 ao teste de ferida se o alvo puder VOAR; caso contrário, subtraia 1 do rolo de acerto.
+           Ao resolver um ataque feito com esta arma, adicione 1 ao teste de acerto e 1 ao teste para ferir se o alvo puder VOAR; caso contrário, subtraia 1 do teste de acerto.
           </characteristic>
          </characteristics>
         </profile>
@@ -15134,7 +15143,7 @@
            D3
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Ao resolver um ataque feito com esta arma, adicione 1 à jogada de tiro se o alvo puder VOAR; caso contrário, subtraia 1 do rolo de acerto.
+           Ao resolver um ataque feito com esta arma, adicione 1 à jogada de tiro se o alvo puder VOAR; caso contrário, subtraia 1 do teste de acerto.
           </characteristic>
          </characteristics>
         </profile>
@@ -15193,7 +15202,7 @@
         <profile hidden="false" id="52ef-4658-ab70-c46a" name="Orbital Comms Array" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Na sua fase de filmagem, um modelo do seu exército com uma matriz de comunicações orbitais que não foi usada nesta batalha pode usá-lo para chamar uma barragem orbital. Se isso acontecer, selecione um ponto no campo de batalha e role um D6 para cada unidade dentro de D6 "desse ponto, subtraindo 1 do resultado se a unidade que está sendo rolada for um CARÁTER. Em um 4+, a unidade que está sendo rolada sofre D3 feridas mortais.
+           Na sua fase de filmagem, um modelo do seu exército com uma matriz de comunicações orbitais que não foi usada nesta batalha pode usá-lo para chamar uma barragem orbital. Se isso acontecer, selecione um ponto no campo de batalha e role um D6 para cada unidade dentro de D6 "desse ponto, subtraindo 1 do resultado se a unidade que está sendo rolada for um CARÁTER. Em um 4+, a unidade que está sendo rolada sofre D3 ferimentos mortais.
           </characteristic>
          </characteristics>
         </profile>
@@ -15251,7 +15260,7 @@
     <profile hidden="false" id="a201-4b64-a717-917b" name="Multi-spectrum array" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ao resolver um ataque feito com uma arma de longo alcance por um modelo nesta unidade, ignore os modificadores de golpe de golpe e modificadores de habilidade balística.
+       Ao resolver um ataque feito com uma arma de longo alcance por um modelo nesta unidade, ignore os modificadores de teste de acerto e modificadores de habilidade balística.
       </characteristic>
      </characteristics>
     </profile>
@@ -16013,7 +16022,7 @@ A Primed Haywire Mine é representada pelo modelo Primed Haywire Mine, mas não 
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="pts" typeId="points" value="15.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
@@ -16412,7 +16421,7 @@ A Primed Haywire Mine é representada pelo modelo Primed Haywire Mine, mas não 
          6"
         </characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-         Selecione uma unidade inimiga visível a no máximo 6" do Psyker and roll 2D6. Se o total exceder a característica de Toughness mais alta na unidade alvo, a unidade sofre D3 ferimentos mortais; se o total rolado for mais que o dobro da característica de Tenacidade mais alta, a unidade sofre 3 feridas mortais em vez disso.
+         Selecione uma unidade inimiga visível a no máximo 6" do Psyker and roll 2D6. Se o total exceder a característica de Toughness mais alta na unidade alvo, a unidade sofre D3 ferimentos mortais; se o total rolado for mais que o dobro da característica de Tenacidade mais alta, a unidade sofre 3 ferimentos mortais em vez disso.
         </characteristic>
        </characteristics>
       </profile>
@@ -16512,7 +16521,7 @@ A Primed Haywire Mine é representada pelo modelo Primed Haywire Mine, mas não 
          Self
         </characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-         Se manifestado, o Psyker pode se mover imediatamente como se fosse sua fase Movement, mas sua característica Move também é aumentada para 12" e ele ganha a palavra-chave FLY até o início de sua próxima fase Psychic (isso significa que ele pode atirar se ele cair) em sua fase de movimento) Além disso, enquanto este poder estiver em vigor, você pode rolar novamente os testes de carga falhos para o Psyker.
+         Se manifestado, o Psyker pode se mover imediatamente como se fosse sua fase Movement, mas sua característica Move também é aumentada para 12" e ele ganha a palavra-chave FLY até o início de sua próxima fase Psychic (isso significa que ele pode atirar se ele cair) em sua fase de movimento) Além disso, enquanto este poder estiver em vigor, você pode re-rolar os testes de carga falhos para o Psyker.
         </characteristic>
        </characteristics>
       </profile>
@@ -16753,7 +16762,7 @@ A Primed Haywire Mine é representada pelo modelo Primed Haywire Mine, mas não 
       <profile hidden="false" id="c9c6-347b-f5ae-9325" name="Master of the Vanguard" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Adicione 1 "ao movimento característico de unidades aliados ​​do sangue dos ANJOS enquanto estiverem a menos de 6" de seu senhor da guerra. Além disso, adicione 1 para avançar e carregar os rolos para unidades DARK ANGELS aliados, enquanto eles estiverem a menos de 6 "do seu senhor da guerra.
+         Adicione 1" para a característica Movimento de unidades ANJOS DE SANGUE amigáveis, enquanto eles estão dentro de 6" de sua Warlord. Além disso, adicione 1 para avançar e cobrar rolos para as unidades ANJOS DE SANGUE amigáveis, enquanto eles estão dentro de 6" do seu senhor da guerra.
         </characteristic>
        </characteristics>
       </profile>
@@ -21378,7 +21387,7 @@ subtraia 1 da característica Liderança de cada uma dessas unidades inimigas pa
   <profile hidden="false" id="9267-1813-3c68-416d" name="Shock Assault" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Se esta unidade mover uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
+     Se esta unidade realizar uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
     </characteristic>
    </characteristics>
   </profile>

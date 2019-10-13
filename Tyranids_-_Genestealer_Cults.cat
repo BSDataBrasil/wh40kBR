@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@GenWilhelm" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="83b2-e602-931a-fea1" library="false" name="Tyranids - Genestealer Cults-BR" revision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@GenWilhelm" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="83b2-e602-931a-fea1" library="false" name="Tyranids - Genestealer Cults-BR" revision="44" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="83b2-e602-pubN65537" name="Codex: Genestealer Cults"/>
   <publication id="83b2-e602-pubN88803" name="Imperium Nihilus: Vigilus Defiant"/>
@@ -2437,7 +2437,7 @@
     <profile hidden="false" id="25a1-7625-633f-cdb3" name="Meticulous Planner" page="81" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Na primeira vez que este modelo for montado no campo de batalha, selecione uma unidade inimiga no campo de batalha. Re-rola rolos enrolados de 1 para ataques feitos por unidades &lt;CULT&gt; aliados ​​que tenham a habilidade de Abater o Culto enquanto estiverem a menos de 6 "deste modelo ao mirar essa unidade inimiga.
+       Na primeira vez que este modelo for montado no campo de batalha, selecione uma unidade inimiga no campo de batalha. Re-rola testes para ferir de 1 para ataques feitos por unidades &lt;CULT&gt; aliados ​​que tenham a habilidade de Abater o Culto enquanto estiverem a menos de 6 "deste modelo ao mirar essa unidade inimiga.
       </characteristic>
      </characteristics>
     </profile>
@@ -4859,7 +4859,7 @@
         <profile hidden="false" id="1a4c-1614-ca8e-4358" name="Subterranean Ambushers" page="109" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Até o final da primeira rodada de batalha, adicione 1 a Advance e carregue rolos feitos para unidades com este Cult Creed. A partir da segunda rodada de batalha, se uma unidade com este Credo de Culto for montada no campo de batalha, então até o final desse turno, adicione 1 a Avanço e jogue os testes feitos para aquela unidade.
+           Até o final da primeira rodada de batalha, adicione 1 a Advance e testes de carga feitos para unidades com este Cult Creed. A partir da segunda rodada de batalha, se uma unidade com este Credo de Culto for montada no campo de batalha, então até o final desse turno, adicione 1 a Avanço e jogue os testes feitos para aquela unidade.
           </characteristic>
          </characteristics>
         </profile>
@@ -6119,7 +6119,7 @@
     <profile hidden="false" id="d540-4a32-65d2-84e8" name="Proclamator Hailer" page="90" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Adicione 1 à característica de Liderança de unidades &lt;CULT&gt; enquanto eles estiverem a menos de 6 "de qualquer amigável &lt;CULT&gt; CLAMAVUSES. Além disso, adicione 1 a Avanço e carregue rolos feitos para &lt;CULT&gt; unidades que estejam a menos de 6" de qualquer amigável &lt; CULT&gt; CLAMAVUS quando o rolo é feito.
+       Adicione 1 à característica de Liderança de unidades &lt;CULT&gt; enquanto eles estiverem a menos de 6 "de qualquer amigável &lt;CULT&gt; CLAMAVUSES. Além disso, adicione 1 a Avanço e testes de carga feitos para &lt;CULT&gt; unidades que estejam a menos de 6" de qualquer amigável &lt; CULT&gt; CLAMAVUS quando o teste é feito.
       </characteristic>
      </characteristics>
     </profile>
@@ -6810,7 +6810,7 @@
     <profile hidden="false" id="3fb9-3e7f-1903-c11f" name="Heroic Deeds, Heroic Inspiration" page="92" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo matar quaisquer modelos inimigos com suas armas de longo alcance, então até o final da fase, o relançamento da rolagem atingirá jogadas de 1 para ataques feitos por unidades de &lt;CULT&gt; INFANTRY aliados, enquanto elas estiverem a menos de 6 "deste modelo.
+       Se este modelo mata qualquer modelo inimigos com suas armas de longo alcance, em seguida, até o final da fase, depois de resolver os seus ataques, re-roll bater rolos de 1 para ataques feitos por amigável &lt;CULT&gt; unidades de infantaria, enquanto eles estão dentro de 6" deste modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -7579,7 +7579,7 @@ Se o seu oponente tiver o primeiro turno, então nenhuma das suas unidades pode 
       <profile hidden="false" id="5b25-5238-371c-6b3c" name="The Gift from Beyond" page="117" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Acrescente 2 aos rolos enrolados nos ataques feitos com o rifle Jackal sniper ou o rifle sniper silenciador do modelo, a menos que ele tenha como alvo uma unidade VEÍCULO ou TITÂNICO.
+         Acrescente 2 aos testes para ferir nos ataques feitos com o rifle Jackal sniper ou o rifle sniper silenciador do modelo, a menos que ele tenha como alvo uma unidade VEÍCULO ou TITÂNICO.
         </characteristic>
        </characteristics>
       </profile>
@@ -7972,7 +7972,7 @@ Se o seu oponente tiver o primeiro turno, então nenhuma das suas unidades pode 
         <profile hidden="false" id="505e-61f9-3c61-c7e0" name="Focus of Adoration" page="114" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           As unidades de INFANTARIA e MOTOCICLISTA &lt;CULT&gt; amigáveis ​​podem executar uma Intervenção Heróica enquanto estiverem dentro de 6 "deste Senhor da Guerra, mesmo que não sejam PERSONAGENS.
+           As unidades de INFANTARIA e MOTOCICLISTA &lt;CULT&gt; aliadas ​​podem executar uma Intervenção Heróica enquanto estiverem dentro de 6 "deste Senhor da Guerra, mesmo que não sejam PERSONAGENS.
           </characteristic>
          </characteristics>
         </profile>
@@ -8133,7 +8133,7 @@ Se o seu oponente tiver o primeiro turno, então nenhuma das suas unidades pode 
         <profile hidden="false" id="0a4d-295b-3f47-bdd8" name="Inscrutable Cunning" page="115" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Uma vez por batalha, se este Senhor da Guerra estiver no campo de batalha, você pode re-rolar um teste de acerto, um rolo enrolado ou um teste de resistência feitos para uma unidade amigável do CULTO DO IMPERADOR ARMADO. Além disso, se o seu exército for forjado pela Batalha, role um D3 antes que a batalha comece; você ganha um número de Pontos de Comando adicionais igual ao resultado.
+           Uma vez por batalha, se este Senhor da Guerra estiver no campo de batalha, você pode re-rolar um teste de acerto, um teste para ferir ou um teste de resistência feitos para uma unidade amigável do CULTO DO IMPERADOR ARMADO. Além disso, se o seu exército for forjado pela Batalha, role um D3 antes que a batalha comece; você ganha um número de Pontos de Comando adicionais igual ao resultado.
           </characteristic>
          </characteristics>
         </profile>
@@ -8271,7 +8271,7 @@ Se o seu oponente tiver o primeiro turno, então nenhuma das suas unidades pode 
         <profile hidden="false" id="52f8-984f-0ee6-f84b" name="Hivelord" page="115" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Rolar novamente os testes de 1 para ataques feitos com armas de alcance à distância por unidades de HIV / ECC amigáveis, enquanto eles estiverem dentro de 6 "do seu Warlord.
+           Re-role os testes de 1 para ataques feitos com armas de alcance à distância por unidades de HIV / ECC aliadas, enquanto eles estiverem dentro de 6 "do seu Warlord.
           </characteristic>
          </characteristics>
         </profile>
@@ -8317,7 +8317,7 @@ Se o seu oponente tiver o primeiro turno, então nenhuma das suas unidades pode 
         <profile hidden="false" id="24a5-2bf4-e4b3-c7ff" name="Single-minded Obsession" page="115" publicationId="83b2-e602-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Após a implantação, mas antes do início da primeira rodada de batalha, selecione uma unidade do exército do seu oponente. Você pode re-rolar rolagens para ataques feitos por unidades amigáveis ​​do BLADED COG, enquanto eles estiverem dentro de 6 "do seu Warlord ao mirar a unidade selecionada.
+           Após a implantação, mas antes do início da primeira rodada de batalha, selecione uma unidade do exército do seu oponente. Você pode re-rolar rolagens para ataques feitos por unidades aliadas ​​do BLADED COG, enquanto eles estiverem dentro de 6 "do seu Warlord ao mirar a unidade selecionada.
           </characteristic>
          </characteristics>
         </profile>
@@ -8987,7 +8987,7 @@ BROOD BROTHERS A TAUROX PRIMES só pode transportar 10 modelos BROOD BROTHERS OF
      1
     </characteristic>
     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-     Esta arma atinge automaticamente seu alvo. Ao fazer um ataque de arremesso com esta arma, você pode usar a característica Força ou Tensão do alvo para determinar o rolo enrolado - o que for menor.
+     Esta arma atinge automaticamente seu alvo. Ao fazer um ataque de arremesso com esta arma, você pode usar a característica Força ou Tensão do alvo para determinar o teste para ferir - o que for menor.
     </characteristic>
    </characteristics>
   </profile>
@@ -9009,7 +9009,7 @@ BROOD BROTHERS A TAUROX PRIMES só pode transportar 10 modelos BROOD BROTHERS OF
      1
     </characteristic>
     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-     Esta arma atinge automaticamente seu alvo. Ao fazer um ataque de arremesso com esta arma, você pode usar a característica Força ou Tensão do alvo para determinar o rolo enrolado - o que for menor.
+     Esta arma atinge automaticamente seu alvo. Ao fazer um ataque de arremesso com esta arma, você pode usar a característica Força ou Tensão do alvo para determinar o teste para ferir - o que for menor.
     </characteristic>
    </characteristics>
   </profile>

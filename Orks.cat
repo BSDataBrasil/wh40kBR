@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Tag8833" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="11b5-77b9-31bf-7b74" library="false" name="Orks-BR" revision="56" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Tag8833" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="11b5-77b9-31bf-7b74" library="false" name="Orks-BR" revision="60" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="11b5-77b9-pubN65537" name="Codex: Orks"/>
   <publication id="11b5-77b9-pubN69765" name="Index: Xenos 2"/>
@@ -1874,7 +1874,7 @@
     <profile hidden="false" id="1ffd-2d16-f0d9-cc92" name="Grot Orderly" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma vez por jogo, quando o Painboy está tentando curar um modelo usando as ferramentas de Dok, você pode re-rolar os dados, seja ao determinar se a cirurgia foi bem sucedida, ou ao calcular o número de ferimentos recuperados. Ao rolar para ferir esta unidade, use sempre a Dureza do Painboy (enquanto estiver no campo de batalha). A morte de um Grot Orderly é ignorada para os propósitos de moral. Considera-se que o Grot Oiler possui a palavra-chave CHARACTER para os ataques.
+       Uma vez por jogo, quando o Painboy está tentando curar um modelo usando ferramentas de Dok, você pode voltar a rolar os dados, quer ao determinar se a cirurgia for bem sucedida, ou quando o cálculo do número de feridas recuperado. Quando rolar para ferir esta unidade, use sempre a Resistência do Painboy (embora seja no campo de batalha). A morte de um Grot Orderly é ignorado para efeitos de moral. O Grot Orderly é considerado ter a palavra-chave caracteres para efeitos de ataques a tiros.
       </characteristic>
      </characteristics>
     </profile>
@@ -4621,7 +4621,7 @@
     <profile hidden="false" id="a1ba-a414-d822-17d5" name="Trukk" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       12 ORK INFANTRY models.  Each MEGA ARMOUR or JUMP PACK model takes the space of 2.
+       This model can transport 12 FLASH GITZ or &lt;CLAN&gt; INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes the space of two other models.
       </characteristic>
      </characteristics>
     </profile>
@@ -6668,7 +6668,7 @@
        3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Antes de disparar esta arma, role para determinar a Força do tiro. se o resultado for 11+, não faça um teste de ferida - em vez disso, se o ataque atingir, causa 3 Ferimentos Mortais. O portador então sofre um Ferimento Mortal.
+       Antes de disparar esta arma, role para determinar a Força do tiro. se o resultado for 11+, não faça um teste para ferir - em vez disso, se o ataque atingir, causa 3 Ferimentos Mortais. O portador então sofre um Ferimento Mortal.
       </characteristic>
      </characteristics>
     </profile>
@@ -6947,7 +6947,7 @@
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Em vez de fazer um teste de ferida para essa arma, role 2D6. Se o resultado for igual ou maior que a Resistência do alvo, o ataque com sucesso será ferido.
+       Em vez de fazer um teste para ferir para essa arma, role 2D6. Se o resultado for igual ou maior que a Resistência do alvo, o ataque com sucesso será ferido.
       </characteristic>
      </characteristics>
     </profile>
@@ -8825,7 +8825,7 @@
     <profile hidden="false" id="19f3-7c2b-f950-6338" name="Tank Hunters" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Você pode re-rolar jogadas de acerto malsucedidas para os ataques feitos por essa unidade que miram em VEHICLES
+       Você pode re-roll bater rolos de ataques feitos por esta unidade que visam VEÍCULOS
       </characteristic>
      </characteristics>
     </profile>
@@ -13493,7 +13493,7 @@
          D3
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Você pode rolar rolagens de feridas para ataques feitos com esta arma.
+         Você pode rolar rolagens para ferirs para ataques feitos com esta arma.
         </characteristic>
        </characteristics>
       </profile>
@@ -13515,7 +13515,7 @@
          1
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Você pode rolar rolagens de feridas para ataques feitos com esta arma.
+         Você pode rolar rolagens para ferirs para ataques feitos com esta arma.
         </characteristic>
        </characteristics>
       </profile>
@@ -13884,10 +13884,10 @@
           <constraint field="selections" id="ee68-ecf6-69dc-2e20" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
          </constraints>
          <profiles>
-          <profile hidden="false" id="8ac0-5400-b78d-8640" name="Bile Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="8ac0-5400-b78d-8640" name="Heavy Squig Launcha - Bile Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-             36
+             36"
             </characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
              Assault 2D6
@@ -13906,7 +13906,7 @@
             </characteristic>
            </characteristics>
           </profile>
-          <profile hidden="false" id="f680-af9c-20b1-0dd1" name="Bitey Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="f680-af9c-20b1-0dd1" name="Heavy Squig Launcha - Bitey Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
              36"
@@ -13926,7 +13926,7 @@
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
            </characteristics>
           </profile>
-          <profile hidden="false" id="9f29-465c-c1ff-2075" name="Boom squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="9f29-465c-c1ff-2075" name="Heavy Squig Launcha - Boom Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
              36"
@@ -13959,10 +13959,10 @@
           <constraint field="selections" id="5ac7-b3e2-833a-11d4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
          </constraints>
          <profiles>
-          <profile hidden="false" id="8efe-5c3a-7b96-81f6" name="Bile Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="8efe-5c3a-7b96-81f6" name=" Squig Launcha - Bile Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-             36
+             36"
             </characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
              Assault D6
@@ -13981,7 +13981,7 @@
             </characteristic>
            </characteristics>
           </profile>
-          <profile hidden="false" id="34fa-45cb-97ba-961e" name="Bitey Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="34fa-45cb-97ba-961e" name=" Squig Launcha - Bitey Squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
              36"
@@ -14001,7 +14001,7 @@
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
            </characteristics>
           </profile>
-          <profile hidden="false" id="6d27-9f48-75fa-cd75" name="Boom squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="6d27-9f48-75fa-cd75" name=" Squig Launcha - Boom squig" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
              36"
@@ -15872,7 +15872,7 @@
     <profile hidden="false" id="169d-5f0a-5158-3391" name="Da Best Armour Teef Can Buy" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Seu senhor da guerra ganha 4+ defesa invulnerável.
+       Seu senhor da guerra ganha defesa invulnerável de 4+.
       </characteristic>
      </characteristics>
     </profile>
@@ -15891,8 +15891,7 @@
     <profile hidden="false" id="f9fe-ace7-5536-259e" name="Follow me Ladz!" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Seu senhor da guerra ganha o Waaagh! e habilidades de Breakin 'Heads (pág. 85). Se o seu senhor da guerra já tem o Waaagh! e habilidades de Breakin 'Heads, o alcance de cada habilidade é aumentado em 3 ". Além disso, se seu exército for Forjado em Batalha, você recebe 1 adicional
-Ponto de comando.
+       Seu senhor da guerra ganha o Waaagh! e habilidades de Breakin 'Heads (pág. 85). Se o seu senhor da guerra já tem o Waaagh! e habilidades de Breakin 'Heads, o alcance de cada habilidade é aumentado em 3". Além disso, se seu exército for Forjado em Batalha, você recebe 1 Ponto de comando adicional.
       </characteristic>
      </characteristics>
     </profile>
@@ -17672,7 +17671,7 @@ Ponto de comando.
          18"
         </characteristic>
         <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-         Se Manifestado, selecione uma unidade inimiga a no máximo 18" do Psyker. Jogue um D6 para cada modelo naquela unidade. Para cada jogada de 6, aquela unidade sofre 1 ferimento mortal. Então role 2D6; em um 10+, role um D6 uma vez mais para cada modelo naquela unidade: para cada rolo de 6, essa unidade sofre 1 ferimento mortal.
+         Se Manifestado, selecione uma unidade inimiga a no máximo 18" do Psyker. Jogue um D6 para cada modelo naquela unidade. Para cada jogada de 6, aquela unidade sofre 1 ferimento mortal. Então role 2D6; em um 10+, role um D6 uma vez mais para cada modelo naquela unidade: para cada resultado de 6, essa unidade sofre 1 ferimento mortal.
         </characteristic>
        </characteristics>
       </profile>
@@ -17872,7 +17871,7 @@ Ponto de comando.
         <profile hidden="false" id="45e8-5303-d6c7-f163" name="Dread Mek" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Modelo com a habilidade Big Mekaniak apenas. Quando seu Warlord usa sua habilidade Big Mekaniak para consertar um DREAD WAAAGH! unidade, adicione 1 ao número de feridas recuperadas
+           Modelo com a habilidade Big Mekaniak apenas. Quando seu Warlord usa sua habilidade Big Mekaniak para consertar um DREAD WAAAGH! unidade, adicione 1 ao número para ferirs recuperadas
           </characteristic>
          </characteristics>
         </profile>
@@ -18881,7 +18880,7 @@ Além disso, faça imediatamente um teste de acerto adicional contra o mesmo alv
   <profile hidden="false" id="5dbe-c4d8-6c28-07fa" name="Waaagh!" page="85" publicationId="11b5-77b9-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Unidades de infantaria amigáveis ​​&lt;CLAN&gt; a até 6 "deste modelo no início da fase Carga podem carregar, mesmo que Avançem neste turno.
+     Unidades de infantaria aliadas ​​&lt;CLAN&gt; a até 6 "deste modelo no início da fase Carga podem carregar, mesmo que Avançem neste turno.
     </characteristic>
    </characteristics>
   </profile>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="82cd-d24f-9f22-11f3" library="false" name="Imperium - Imperial Knights-BR" revision="40" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="82cd-d24f-9f22-11f3" library="false" name="Imperium - Imperial Knights-BR" revision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="82cd-d24f-pubN65537" name="Codex: Imperial Knights"/>
   <publication id="82cd-d24f-pubN82337" name="Warhammer 40,000 Rulebook"/>
@@ -1447,7 +1447,7 @@
        6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao resolver um ataque feito com esta arma contra uma unidade de VEÍCULO ou MONSTER, você pode rolar novamente o rolo de ferida.
+       Ao resolver um ataque feito com esta arma contra uma unidade de VEÍCULO ou MONSTER, você pode re-rolar o teste para ferir.
       </characteristic>
      </characteristics>
     </profile>
@@ -1469,7 +1469,7 @@
        6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao resolver um ataque feito com esta arma contra uma unidade de VEÍCULO ou MONSTER, você pode rolar novamente o rolo de ferida.
+       Ao resolver um ataque feito com esta arma contra uma unidade de VEÍCULO ou MONSTER, você pode re-rolar o teste para ferir.
       </characteristic>
      </characteristics>
     </profile>
@@ -1500,7 +1500,7 @@
        3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Quando você seleciona esse perfil para fotografar com o rolo um D6; em 1-3, o portador sofre ferimentos mortais em D3.
+       Quando você seleciona esse perfil para atiar, role um D6; em 1-3, o portador sofre D3 ferimentos mortais
       </characteristic>
      </characteristics>
     </profile>
@@ -1606,7 +1606,7 @@
        6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao resolver um ataque feito com esta arma, subtraia 1 do golpe atingido. Além disso, ao resolver um ataque feito com esta arma contra uma unidade VEÍCULO ou TITÂNICA, adicione 2 à característica de dano para esse ataque.
+       Ao resolver um ataque feito com esta arma, subtraia 1 do teste de acerto. Além disso, ao resolver um ataque feito com esta arma contra uma unidade VEÍCULO ou TITÂNICA, adicione 2 à característica de dano para esse ataque.
       </characteristic>
      </characteristics>
     </profile>
@@ -1803,7 +1803,7 @@ de 2.
        3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao resolver um ataque feito com esta arma, adicione 1 à jogada de tiro se o alvo puder VOAR; caso contrário, subtraia 1 do rolo de acerto.
+       Ao resolver um ataque feito com esta arma, adicione 1 à jogada de tiro se o alvo puder VOAR; caso contrário, subtraia 1 do teste de acerto.
       </characteristic>
      </characteristics>
     </profile>
@@ -1978,7 +1978,7 @@ de 2.
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Cada vez que um teste de ferida não modificado de 6 é feito para um ataque com esta arma, esse ataque causa uma ferida mortal no alvo, além do dano normal.
+       Cada vez que um teste para ferir não modificado de 6 é feito para um ataque com esta arma, esse ataque causa uma ferida mortal no alvo, além do dano normal.
       </characteristic>
      </characteristics>
     </profile>
@@ -2090,8 +2090,8 @@ de 2.
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="8ca8-9a45-bd4c-ca65" hidden="false" id="6699-fab4-7b2f-dd42" import="true" name="Secondary weapon">
      <constraints>
-      <constraint field="selections" id="3492-1f9c-b41a-b9db" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-      <constraint field="selections" id="fe92-5982-ab77-a866" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="3492-1f9c-b41a-b9db" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="fe92-5982-ab77-a866" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
      </constraints>
      <entryLinks>
       <entryLink collective="false" hidden="false" id="8ca8-9a45-bd4c-ca65" import="true" name="Autocannon" targetId="4bca-9a72-15f8-d798" type="selectionEntry">
@@ -2100,8 +2100,11 @@ de 2.
        </constraints>
       </entryLink>
       <entryLink collective="false" hidden="false" id="97a2-4e0b-46af-f252" import="true" name="Lascannon" targetId="6bff-6632-08e2-8afb" type="selectionEntry">
+       <modifiers>
+        <modifier field="e1d2-34d6-7f8a-40f8" type="set" value="1.0"/>
+       </modifiers>
        <constraints>
-        <constraint field="selections" id="e1d2-34d6-7f8a-40f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="e1d2-34d6-7f8a-40f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
        </constraints>
       </entryLink>
      </entryLinks>
@@ -2164,12 +2167,6 @@ de 2.
      </modifiers>
      <constraints>
       <constraint field="selections" id="f1d4-27b7-2419-46cb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="3c92-5e4b-a4f9-aefa" import="true" name="Autocannon" targetId="4bca-9a72-15f8-d798" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="a227-a5f9-a316-f77a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-      <constraint field="selections" id="dc74-9811-316a-77fa" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
      </constraints>
     </entryLink>
    </entryLinks>
@@ -7134,7 +7131,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Cada vez que um teste de ferida não modificado de 6 é feito para um ataque com esta arma, esse ataque causa uma ferida mortal no alvo, além do dano normal.
+       Cada vez que um teste para ferir não modificado de 6 é feito para um ataque com esta arma, esse ataque causa uma ferida mortal no alvo, além do dano normal.
       </characteristic>
      </characteristics>
     </profile>
@@ -7165,7 +7162,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Cada vez que um teste de ferida não modificado de 6 é feito para um ataque com esta arma, esse ataque causa uma ferida mortal no alvo, além do dano normal.
+       Cada vez que um teste para ferir não modificado de 6 é feito para um ataque com esta arma, esse ataque causa uma ferida mortal no alvo, além do dano normal.
       </characteristic>
      </characteristics>
     </profile>
@@ -7692,7 +7689,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao resolver um ataque feito com esta arma, subtraia 1 do golpe atingido. Além disso, ao resolver um ataque feito com esta arma contra uma unidade VEÍCULO ou TITÂNICA, adicione 2 à característica de dano para esse ataque.
+       Ao resolver um ataque feito com esta arma, subtraia 1 do teste de acerto. Além disso, ao resolver um ataque feito com esta arma contra uma unidade VEÍCULO ou TITÂNICA, adicione 2 à característica de dano para esse ataque.
       </characteristic>
      </characteristics>
     </profile>
@@ -8572,7 +8569,7 @@ Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no in�
   <profile hidden="false" id="fdc7-7a52-e6d7-f47b" name="Ion Bulwark" publicationId="82cd-d24f-pubN65537" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
    <characteristics>
     <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
-     Seu Warlord tem 4+ defesa invulnerável contra armas de longo alcance.
+     Seu Warlord tem defesa invulnerável de 4+ contra armas de longo alcance.
     </characteristic>
    </characteristics>
   </profile>
@@ -8733,7 +8730,7 @@ Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no in�
   <profile hidden="false" id="0f80-49ad-4b4e-336d" name="Exiled in Shame" publicationId="82cd-d24f-pubN65537" typeId="6da8-0171-efd2-dd94" typeName="Burden">
    <characteristics>
     <characteristic name="Description" typeId="4b0a-bc39-def5-9052">
-     Enquanto este Burden se aplicar, o Freeblade não pode ser afetado por qualquer Estratagema (isso inclui usar o Estratagema de 'Command Re-roll' para re-rolar um dado para este Freeblade).
+     Enquanto este Burden se aplicar, o Freeblade não pode ser afetado por qualquer Estratagema (isso inclui usar o Estratagema de 'Command Re-roll' para Re-role um dado para este Freeblade).
     </characteristic>
    </characteristics>
   </profile>

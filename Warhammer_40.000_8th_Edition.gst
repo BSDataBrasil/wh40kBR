@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gameSystem authorContact="@Developer" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" id="49b6-bc6f-0390-1e40" name="Warhammer 40,000 8th Edition-BR" revision="106" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem authorContact="@Developer" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" id="49b6-bc6f-0390-1e40" name="Warhammer 40,000 8th Edition-BR" revision="108" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
  <publications>
   <publication id="28ec-711c-pubN72690" name="Warhammer 40,000 Rulebook"/>
   <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
@@ -8700,12 +8700,12 @@
   </rule>
   <rule hidden="false" id="f9ce-5a8b-7abd-2395" name="Shock Assault">
    <description>
-    Se esta unidade mover uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
+    Se esta unidade realizar uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
    </description>
   </rule>
   <rule hidden="false" id="73c3-c791-cd2f-6ad2" name="Hateful Assault">
    <description>
-    Se esta unidade mover uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
+    Se esta unidade realizar uma carga, carregar ou executar uma Intervenção Heroica, adicione 1 às características dos modelos de Ataques nesta unidade até o final do turno.
    </description>
   </rule>
  </sharedRules>
@@ -11825,7 +11825,7 @@
      18"
     </characteristic>
     <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-     Smite tem um valor de carga de dobra de 5. Se manifestado, a unidade inimiga visível mais próxima a no máximo 18" do Psyker sofre D3 ferimentos mortais (pg 181). Se o resultado do teste psíquico foi mais de 10 o alvo sofre D6 feridas mortais vez .
+     Smite tem um valor de carga de Warp de 5. Se manifestado, a unidade inimiga visível mais próxima a no máximo 18" do Psyker sofre D3 ferimentos mortais (pg 181). Se o resultado do teste psíquico foi mais de 10 o alvo sofre D6 ferimentos mortais vez .
     </characteristic>
    </characteristics>
   </profile>

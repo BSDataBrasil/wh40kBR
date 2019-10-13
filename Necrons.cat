@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="61c6-c8c5-a304-ff5f" library="false" name="Necrons-BR" revision="54" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="61c6-c8c5-a304-ff5f" library="false" name="Necrons-BR" revision="55" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="61c6-c8c5-pubN65537" name="Codex: Necrons"/>
   <publication id="61c6-c8c5-pubN79401" name="Imperial Armour - Index: Xenos"/>
@@ -5800,7 +5800,7 @@
     <profile hidden="false" id="caf9-3ce3-5c82-1c44" name="Phase Shift Generator" publicationId="61c6-c8c5-pubN79401" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Todos os modelos NECRONS aliadas ​​recebem um 5+ defesa invulnerável enquanto eles permanecem a no máximo 6" deste modelo.
+       Todos os modelos NECRONS aliadas ​​recebem um defesa invulnerável de 5+ enquanto eles permanecem a no máximo 6" deste modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -6338,7 +6338,7 @@
     <profile hidden="false" id="86c2-acb9-83e4-8869" name="Chronometron (Maynarkh)" publicationId="61c6-c8c5-pubN79401" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Unidades de infantaria MAYNARKH aliadas ​​a no máximo 3" desta unidade têm um 5+ defesa invulnerável contra ataques de tiroteio.
+       Unidades de infantaria MAYNARKH aliadas ​​a no máximo 3" desta unidade têm um defesa invulnerável de 5+ contra ataques de tiroteio.
       </characteristic>
      </characteristics>
     </profile>
@@ -8573,7 +8573,7 @@
     <profile hidden="false" id="15d4-b6db-d4c9-a4d8" name="Chronometron" publicationId="61c6-c8c5-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       &lt;DYNASTY&gt; unidades de INFANTARIA a no máximo 3" de um modelo &lt;DYNASTY&gt; aliada com um cronometron tem um 5+ defesa invulnerável contra armas de longo alcance.
+       &lt;DYNASTY&gt; unidades de INFANTARIA a no máximo 3" de um modelo &lt;DYNASTY&gt; aliada com um cronometron tem um defesa invulnerável de 5+ contra armas de longo alcance.
       </characteristic>
      </characteristics>
     </profile>
@@ -9982,7 +9982,7 @@
   <profile hidden="false" id="1150-997b-6843-8342" name="Immobile" page="" publicationId="61c6-c8c5-pubN79401" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Este modelo não pode se mover por qualquer motivo, nem pode lutar na fase de combate. Os modelos inimigos atingem automaticamente esse modelo na fase de combate - não faça jogadas de acerto. No entanto, este modelo ainda pode disparar se houver modelos inimigos a menos de 1" , e unidades aliadas ​​ainda podem atingir unidades inimigas que estão a menos de 1" deste modelo.
+     Este modelo não pode se mover por qualquer razão, exceto quando ele está configurado usando a capacidade Teletransporte Matrix, nem pode lutar na fase de luta. modelos inimigos bater automaticamente este modelo na fase de luta - não fazem bater rolos. Ele pode, exceto quando queima Overwatch, também ainda disparar suas armas, se as unidades inimigas estão dentro de 1” do mesmo (mas apenas seu arco tesla pode direcionar unidades que estão dentro de 1” dela - suas outras armas deve ter como alvo outras unidades). Além disso, unidades amigas ainda pode direcionar as unidades inimigas que estão dentro de 1” deste modelo.
     </characteristic>
    </characteristics>
   </profile>

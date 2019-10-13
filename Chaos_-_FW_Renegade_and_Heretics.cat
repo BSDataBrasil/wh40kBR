@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="7" id="2ebb-7865-3983-640d" library="false" name="Chaos - Renegades &amp; Heretics-BR" revision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="7" id="2ebb-7865-3983-640d" library="false" name="Chaos - Renegades &amp; Heretics-BR" revision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="2ebb-7865-pubN65537" name="Imperial Armour - Index: Forces of the Astra Militarum"/>
   <publication id="2ebb-7865-pubN72363" name="Codex: Astra Militarum"/>
@@ -44,7 +44,7 @@
   <categoryEntry hidden="false" id="b434-566e-a3d5-e9a5" name="Renegade ogryn brutes"/>
   <categoryEntry hidden="false" id="dfe7-1721-b839-f85e" name="Renegade plague ogryns"/>
   <categoryEntry hidden="false" id="7901-d348-894f-2eb2" name="Renegade heavy weapons squad"/>
-  <categoryEntry hidden="false" id="05a7-e634-b238-5f56" name="Renegades And Heretics"/>
+  <categoryEntry hidden="false" id="05a7-e634-b238-5f56" name="Faction: Renegades and Heretics"/>
   <categoryEntry hidden="false" id="be7b-34e0-86c1-16c8" name="Salamander"/>
   <categoryEntry hidden="false" id="875c-33dc-468f-18ad" name="Medusa Carriage"/>
   <categoryEntry hidden="false" id="807c-005f-b685-8105" name="Renegade crew"/>
@@ -55,6 +55,7 @@
   <categoryEntry hidden="false" id="28b4-0363-b329-8c7e" name="Macharius Omega"/>
   <categoryEntry hidden="false" id="fb63-3e4c-88aa-de49" name="Macharius Vanquisher"/>
   <categoryEntry hidden="false" id="abbf-901b-b033-d48c" name="Macharius Vulcan"/>
+  <categoryEntry hidden="false" id="8949-e40b-576b-a519" name="Valdor Tank Hunter"/>
  </categoryEntries>
  <entryLinks>
   <entryLink collective="false" hidden="false" id="1452-4de7-f3c8-6b49" import="true" name="Chimera" targetId="ce6c-996a-ef9e-96c6" type="selectionEntry">
@@ -479,6 +480,16 @@
   <entryLink collective="false" hidden="false" id="04e9-e376-c98e-fca0" import="true" name="Chaos Covenant" targetId="6a6f-327e-1b3b-154e" type="selectionEntry">
    <categoryLinks>
     <categoryLink hidden="false" id="c2d8-4361-2b52-2556" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="3ed7-04c8-7e1c-c938" import="true" name="Valdor Tank Hunter" targetId="6100-9b7a-6db6-c0b4" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="123b-9508-9f82-4e38" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+    <categoryLink hidden="false" id="4771-b9e9-0ce6-244f" name="Faction: Chaos" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+    <categoryLink hidden="false" id="4579-57d8-1688-1572" name="Renegades And Heretics" primary="false" targetId="05a7-e634-b238-5f56"/>
+    <categoryLink hidden="false" id="5f9a-8674-362d-7c59" name="Vehicle" primary="false" targetId="c8fd-783f-3230-493e"/>
+    <categoryLink hidden="false" id="86e0-6443-5e6e-30a3" name="Titanic" primary="false" targetId="bdda-36f0-4f32-1639"/>
+    <categoryLink hidden="false" id="bc8e-959c-0804-a34b" name="Valdor Tank Hunter" primary="false" targetId="8949-e40b-576b-a519"/>
    </categoryLinks>
   </entryLink>
  </entryLinks>
@@ -4847,7 +4858,7 @@
       <constraint field="selections" id="56a8-3e62-20ce-f815" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="19.0"/>
      </constraints>
      <selectionEntries>
-      <selectionEntry collective="false" hidden="false" id="a779-701d-0cda-a3e5" import="true" name="Renegade Militia Weapon Team" type="model">
+      <selectionEntry collective="false" hidden="false" id="a779-701d-0cda-a3e5" import="true" name="Renegade Militia Weapon Team" type="upgrade">
        <modifiers>
         <modifier field="8695-3076-ca0c-b7de" type="set" value="2">
          <conditions>
@@ -4892,7 +4903,7 @@
         </profile>
        </profiles>
        <selectionEntries>
-        <selectionEntry collective="false" hidden="false" id="b105-4a3f-9564-95b7" import="true" name="Renegade Militia" type="upgrade">
+        <selectionEntry collective="false" hidden="false" id="b105-4a3f-9564-95b7" import="true" name="Renegade Militia" type="model">
          <constraints>
           <constraint field="selections" id="8bbf-2151-7f2c-d361" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
           <constraint field="selections" id="61e8-9aba-2f18-9683" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
@@ -4960,12 +4971,12 @@
        <modifiers>
         <modifier field="f2ce-2e25-63a1-9233" type="increment" value="1">
          <conditions>
-          <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="517d-ad0d-cf72-801f" shared="true" type="greaterThan" value="10.0"/>
+          <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="517d-ad0d-cf72-801f" shared="true" type="atLeast" value="15.0"/>
          </conditions>
         </modifier>
-        <modifier field="f2ce-2e25-63a1-9233" type="increment" value="1">
+        <modifier field="f2ce-2e25-63a1-9233" type="increment" value="1.0">
          <conditions>
-          <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="517d-ad0d-cf72-801f" shared="true" type="greaterThan" value="15.0"/>
+          <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="517d-ad0d-cf72-801f" shared="true" type="atLeast" value="20.0"/>
          </conditions>
         </modifier>
        </modifiers>
@@ -7661,7 +7672,7 @@
     <profile hidden="false" id="98eb-0afd-ad91-2dd2" name="Chaos Sigil" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma unidade com um Sigilo do Caos lança dois dados ao fazer testes de moral e escolhe a pontuação mais baixa.
+       Se esta unidade contém um modelo com um sigilo Chaos, quando se toma um teste moral para esta unidade, rolar um D6 adicional e descartar o maior resultado. Se dois dos maiores resultados são os mesmos, selecione um desses dados para descartar.
       </characteristic>
      </characteristics>
     </profile>
@@ -9534,6 +9545,225 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="6100-9b7a-6db6-c0b4" import="true" name="Valdor Tank Hunter" type="upgrade">
+   <profiles>
+    <profile hidden="false" id="8f0a-e753-f4df-2614" name="Unstable Reactor" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Se este modelo for reduzido a 0 ponto de vida, jogue um dado. Em um 2+ ele explode, e cada unidade a no máximo 2D6" sofre D6 ferimentos mortais.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="21d8-bd47-de61-1613" name="Tank Hunter" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Se este modelo atacar um VEÍCULO com seu projetor de laser de nêutrons, role dois dados ao infligir dano e descarte o resultado mais baixo.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="3914-5f80-7c53-f197" name="Valdor Tank Hunter 1" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+     <characteristics>
+      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
+       10-20+
+      </characteristic>
+      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
+       10"
+      </characteristic>
+      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
+       4+
+      </characteristic>
+      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
+       3
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="f45d-c7dc-21e1-9c69" name="Valdor Tank Hunter 2" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+     <characteristics>
+      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
+       5-9
+      </characteristic>
+      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
+       7"
+      </characteristic>
+      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
+       5+
+      </characteristic>
+      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
+       D3
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="f47d-9fc8-2a81-5304" name="Valdor Tank Hunter 3" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+     <characteristics>
+      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
+       1-4
+      </characteristic>
+      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
+       4"
+      </characteristic>
+      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
+       6+
+      </characteristic>
+      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="999e-96f8-b5dc-1f1f" name="Valdor Tank Hunter" typeId="800f-21d0-4387-c943" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       *
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       6+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       *
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       7
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       8
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       20
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       *
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       8
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       3+
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="963e-f2f4-cd64-4d27" name="Valdor Tank Hunter" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+     <characteristics>
+      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
+       -
+      </characteristic>
+      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
+       M
+      </characteristic>
+      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
+       BS
+      </characteristic>
+      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
+       A
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="1698-461a-2f35-85c9" name="Smoke Launchers" targetId="c883-3078-1367-cc2c" type="profile"/>
+    <infoLink hidden="false" id="f1eb-3703-0ac9-2883" name="Steel Behemoth" targetId="7ec4-03b3-3612-0cfd" type="profile"/>
+   </infoLinks>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="d690-2e3a-af24-f0a3" import="true" name="Neutron Laser Projector" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="6934-be16-5d8b-b02a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="68c9-b493-f064-7e32" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="5d0e-95b2-c114-99c0" name="Neutron Laser Projector" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         72"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Heavy 2D3
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         14
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -4
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         D6
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Qualquer VEÍCULO que sofra ferimentos desta arma, mas não seja morto, deve subtrair 1 de seu teste de arremesso até o final do próximo turno de seu jogador controlador.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+     </costs>
+    </selectionEntry>
+   </selectionEntries>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" defaultSelectionEntryId="a0c5-07f9-8e91-b1e1" hidden="false" id="e377-af3a-1c72-ddd6" import="true" name="Hull weapon">
+     <constraints>
+      <constraint field="selections" id="f63d-5231-0e7c-34c2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="90da-0c13-f184-cbc6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="a0c5-07f9-8e91-b1e1" import="true" name="Heavy stubber" targetId="cfa3-5fcd-af10-5520" type="selectionEntry">
+       <modifiers>
+        <modifier field="points" type="set" value="2.0"/>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="f175-21a8-764e-633c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="d370-76bb-4202-972f" import="true" name="Lascannon" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+       <modifiers>
+        <modifier field="points" type="set" value="20"/>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="a3f7-b3d1-e02b-7978" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="1d2f-ffc9-d36b-1df8" import="true" name="Heavy flamer" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+       <modifiers>
+        <modifier field="points" type="set" value="14"/>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="c2c8-3597-222c-6209" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="a451-4086-8c7a-cc77" import="true" name="Heavy bolter" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+       <modifiers>
+        <modifier field="points" type="set" value="8"/>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="a1ab-86d6-c1d7-26e4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="f721-ae18-b4e6-25b2" import="true" name="Autocannon" targetId="5210-8cb2-b5a2-a04f" type="selectionEntry">
+       <modifiers>
+        <modifier field="points" type="set" value="10"/>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="f22a-f377-a490-383c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="adb8-4abe-fc7b-96e7" import="true" name="Pintle Mount" targetId="8849-60ae-2e7d-e4cb" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="b9ba-693a-26f3-7918" import="true" name="Hunter-killer missile" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="c522-708c-d38a-7f52" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="30cc-b069-f5a9-5723" import="true" name="Unit has battle honors?" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="cc16-b853-df65-4c39" import="true" name="Battle Honors" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+   </entryLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
+    <cost name="pts" typeId="points" value="370.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
   <selectionEntryGroup collective="false" hidden="false" id="eb2c-02f8-88b3-7f35" import="true" name="Ranged Weapons">
@@ -10528,7 +10758,7 @@
   <profile hidden="false" id="7ec4-03b3-3612-0cfd" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Este modelo pode recuar na fase de movimento e ainda disparar e / ou realizar uma carga durante a sua vez. Ele também pode disparar suas armas se as unidades inimigas estiverem a menos de 1" (mas apenas seus bolteros pesados ​​ou flechas pesadas podem atingir unidades que estão a menos de 1" disso - suas outras armas devem mirar em outras unidades). Além disso, este modelo só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do firer.
+     Este modelo pode cair de volta na fase de movimento e ainda atirar e / ou carga durante o seu turno. Ele também pode ainda disparar suas armas, se as unidades inimigas estão dentro de 1" do mesmo (mas apenas seus pesados ​​bolters ou flamers pesados ​​pode direcionar unidades que estão dentro de 1" dela - suas outras armas deve ter como alvo outras unidades). Além disso, este modelo só ganha um bônus ao seu save na tampa se pelo menos metade do modelo é obscurecida do atirador. Este modelo não sofrer a penalidade para bater rolos para mover e disparar armas pesadas.
     </characteristic>
    </characteristics>
   </profile>

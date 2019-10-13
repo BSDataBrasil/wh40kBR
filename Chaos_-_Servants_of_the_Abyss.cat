@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="58" id="9837-3435-7452-d14b" library="false" name="Chaos - Servants of the Abyss-BR" revision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="58" id="9837-3435-7452-d14b" library="false" name="Chaos - Servants of the Abyss-BR" revision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="9837-3435-pubN65537" name="Warhammer Quest: Blackstone Fortress"/>
+  <publication id="8259-2a22-78ba-716a" name="Warhammer Quest: Blackstone Fortress - Escalation"/>
  </publications>
  <categoryEntries>
   <categoryEntry hidden="false" id="3644-2f4f-07ce-6116" name="Faction: Heretic Astartes"/>
@@ -19,6 +20,7 @@
   <categoryEntry hidden="false" id="fae9-a44d-32c3-21c6" name="Chaos Beastmen"/>
   <categoryEntry hidden="false" id="c1b2-f117-cdcc-9145" name="Traitor Commissar"/>
   <categoryEntry hidden="false" id="1f31-34ea-bcdb-de6e" name="Chaos Ogryn"/>
+  <categoryEntry hidden="false" id="1aad-1bc4-6055-639e" name="Cultists of the Abyss"/>
  </categoryEntries>
  <entryLinks>
   <entryLink collective="false" hidden="false" id="254c-526d-2d8b-1a4b" import="true" name="Obsidius Mallex" targetId="25bc-f094-37a2-21fe" type="selectionEntry"/>
@@ -98,6 +100,30 @@
   </entryLink>
   <entryLink collective="false" hidden="false" id="a233-6294-11f8-ec93" import="true" name="Chaos Ogryn" targetId="2484-a240-4b43-4bbd" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="1468-f116-994c-52a2" import="true" name="Traitor Commissar" targetId="2b45-2846-0bd4-2201" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="387e-75c7-eccb-27c6" import="true" name="Cultists of the Abyss" targetId="69b4-3c70-f40b-f1b9" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="2cd3-3a95-3ba5-f6a8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="lessThan" value="1.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="ded7-eff6-4679-b78e" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="8b16-3101-dd68-f578" import="true" name="Cultists of the Abyss" targetId="69b4-3c70-f40b-f1b9" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="2cd3-3a95-3ba5-f6a8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="atLeast" value="1.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="be9c-6068-b54a-1529" name="New CategoryLink" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+   </categoryLinks>
+  </entryLink>
  </entryLinks>
  <sharedSelectionEntries>
   <selectionEntry collective="false" hidden="false" id="25bc-f094-37a2-21fe" import="true" name="Obsidius Mallex" type="model">
@@ -1100,7 +1126,7 @@
     <profile hidden="false" id="0799-b4df-81a6-3e48" name="Enforcer" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Unidades amigáveis ​​dos GUARDSMEN TRAITOR em um raio de 15 cm deste modelo podem usar a Liderança deste modelo em vez da sua.
+       Unidades aliadas ​​dos GUARDSMEN TRAITOR em um raio de 15 cm deste modelo podem usar a Liderança deste modelo em vez da sua.
       </characteristic>
      </characteristics>
     </profile>
@@ -1186,7 +1212,7 @@
     <profile hidden="false" id="db76-1b3f-f8e4-769e" name="Bodyguard" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Role um D6 toda vez que um COMISSÁRIO TRAITOR perder uma ferida enquanto estiver a 5 cm de qualquer modelo amigável com essa habilidade; em um 3+, o COMISSÁRIO TRAITOR não perde uma ferida, mas um desses modelos amigáveis ​​sofre uma ferida mortal.
+       Role um D6 toda vez que um COMISSÁRIO TRAITOR perder uma ferida enquanto estiver a 5 cm de qualquer modelo amigável com essa habilidade; em um 3+, o COMISSÁRIO TRAITOR não perde uma ferida, mas um desses modelos aliadas ​​sofre uma ferida mortal.
       </characteristic>
      </characteristics>
     </profile>
@@ -1266,7 +1292,7 @@
          2
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Cada vez que o portador luta, antes que o portador faça outros ataques, ele pode fazer um (e apenas um) ataque com esta arma. Se o ataque ocorrer, você poderá rolar novamente os ataques feitos pelo portador que manuseiam a unidade até o final da fase.
+         Cada vez que o portador luta, antes que o portador faça outros ataques, ele pode fazer um (e apenas um) ataque com esta arma. Se o ataque ocorrer, você poderá Re-role os ataques feitos pelo portador que manuseiam a unidade até o final da fase.
         </characteristic>
        </characteristics>
       </profile>
@@ -1283,6 +1309,262 @@
     <cost name="pts" typeId="points" value="65.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="69b4-3c70-f40b-f1b9" import="true" name="Cultists of the Abyss" type="unit">
+   <profiles>
+    <profile hidden="false" id="341a-f59b-94f9-261e" name="Cultist" typeId="800f-21d0-4387-c943" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       6"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       4+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       4+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       3
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       3
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       1
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       1
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       5
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       6+
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="2a0c-97ea-5fec-4fd6" name="Servants of the Abyss" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+   </infoLinks>
+   <categoryLinks>
+    <categoryLink hidden="false" id="61df-3575-6092-7ac1" name="New CategoryLink" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+    <categoryLink hidden="false" id="68b6-4714-f81f-23e8" name="Faction: Chaos" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+    <categoryLink hidden="false" id="da2d-a016-5b30-43ce" name="Faction: Servants of the Abyss" primary="false" targetId="b0c7-cff4-f82b-2007"/>
+    <categoryLink hidden="false" id="b09d-9db0-7f44-b448" name="Infantry" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="ae75-4bf6-642e-60f2" name="Cultists of the Abyss" primary="false" targetId="1aad-1bc4-6055-639e"/>
+   </categoryLinks>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="59ee-8eeb-482e-59e2" import="true" name="Cultist Champion" type="model">
+     <constraints>
+      <constraint field="selections" id="484f-109f-af63-54f5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="5c6c-210a-e1f4-8ec2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="fa88-dc9b-b51a-ee2f" name="Cultist Champion" typeId="800f-21d0-4387-c943" typeName="Unit">
+       <characteristics>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+         6"
+        </characteristic>
+        <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+         4+
+        </characteristic>
+        <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+         4+
+        </characteristic>
+        <characteristic name="S" typeId="2218-aa3c-265f-2939">
+         3
+        </characteristic>
+        <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+         3
+        </characteristic>
+        <characteristic name="W" typeId="f330-5e6e-4110-0978">
+         1
+        </characteristic>
+        <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+         2
+        </characteristic>
+        <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+         6
+        </characteristic>
+        <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+         6+
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="0a79-630c-4385-da4f" import="true" name="Stubcarbine" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="0a9c-59e0-622b-af91" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="c13e-f728-3356-19f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="2728-4cf7-ceca-49ee" name="Stubcarbine" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+           18"
+          </characteristic>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+           Pistol 3
+          </characteristic>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466">
+           4
+          </characteristic>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484">
+           0
+          </characteristic>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+           1
+          </characteristic>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+      </selectionEntry>
+     </selectionEntries>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="8f34-a9f6-3ce3-0758" import="true" name="Chainsword" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="1d95-4bf4-fa6e-cbc8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="630f-2890-cc59-b4dc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="1fcb-f0a4-58de-e840" import="true" name="Frag &amp; Krak grenades" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="b5a4-cd3c-fa38-a349" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="7efe-d12d-2b1f-47de" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="0f63-3ac7-de6c-9f05" import="true" name="Cultists" type="model">
+     <constraints>
+      <constraint field="selections" id="b3c4-c9f4-2441-3e8a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4.0"/>
+      <constraint field="selections" id="da2d-55c7-5ccd-6cf0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="dcf2-316b-b43a-9193" import="true" name="Autogun" targetId="85e4-602d-e3a1-92b0" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="73d7-9542-f16c-102b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="7dc1-2b56-a947-ff25" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="6781-5d18-08fe-b3bd" import="true" name="Frag &amp; Krak grenades" targetId="cddf-945e-1335-e681" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="f137-0012-30a3-629e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="760f-35d3-b3f9-80e6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="08bb-dfd1-3363-aaef" import="true" name="Cultist w/ Heavy Stubber" type="model">
+     <constraints>
+      <constraint field="selections" id="d4cf-ddb7-0200-3a9d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="f4d3-c276-33ea-e50a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="ce0d-f2c7-685b-6283" import="true" name="Frag &amp; Krak grenades" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="9d16-1d5c-49c4-ba63" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="eaba-2328-7f3a-a0f2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="564f-cde1-36e2-17f2" import="true" name="Heavy stubber" targetId="cfa3-5fcd-af10-5520" type="selectionEntry">
+       <modifiers>
+        <modifier field="points" type="set" value="0.0"/>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="9403-9a8c-b6a7-263e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="735f-f8be-26bb-7067" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="731e-d276-2d6b-e67b" import="true" name="Cultist w/ Grenade Launcher" type="model">
+     <constraints>
+      <constraint field="selections" id="f043-cb11-68be-22dc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="b958-fe53-eadf-b773" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="d609-505f-3010-3132" import="true" name="Grenade launcher" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="2314-66a2-3545-115c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="6bc1-3290-c563-4572" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="c108-fb7f-d4ec-493e" name="Grenade launcher - Frag" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+           24"
+          </characteristic>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+           Assault D6
+          </characteristic>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466">
+           3
+          </characteristic>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484">
+           0
+          </characteristic>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+           1
+          </characteristic>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="1c14-ebbe-883b-9563" name="Grenade launcher - Krak" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+           24"
+          </characteristic>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+           Assault 1
+          </characteristic>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466">
+           6
+          </characteristic>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484">
+           -1
+          </characteristic>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+           D3
+          </characteristic>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="735a-55fa-f2a6-d4dd" name="Grenade launcher" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466"/>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484"/>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7"/>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+           Ao atacar com esta arma, escolher um dos perfis abaixo
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntry>
+   </selectionEntries>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+    <cost name="pts" typeId="points" value="35.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="true" hidden="false" id="85e4-602d-e3a1-92b0" import="true" name="Autogun" type="upgrade">
+   <infoLinks>
+    <infoLink hidden="false" id="e54e-5606-d70b-1bca" name="Autogun" targetId="fcde-3e6a-e240-1157" type="profile"/>
+   </infoLinks>
   </selectionEntry>
  </sharedSelectionEntries>
  <sharedRules>

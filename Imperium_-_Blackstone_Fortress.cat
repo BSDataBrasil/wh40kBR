@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.02" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="58" id="7472-4b9e-c2fe-e071" library="false" name="Imperium - Blackstone Fortress-BR" revision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="58" id="7472-4b9e-c2fe-e071" library="false" name="Imperium - Blackstone Fortress-BR" revision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="7472-4b9e-pubN65537" name="Warhammer Quest: Blackstone Fortress"/>
  </publications>
@@ -15,15 +15,121 @@
   <categoryEntry hidden="false" id="5108-6e8b-3c47-721f" name="Robotica Imperialis"/>
   <categoryEntry hidden="false" id="0541-04d5-682c-e0cf" name="Spindle Drones"/>
   <categoryEntry hidden="false" id="327b-e47d-783c-ae0b" name="Faction: Blackstone Construct"/>
+  <categoryEntry hidden="false" id="a644-7e8b-9559-899d" name="Neyam Shai Murad"/>
  </categoryEntries>
+ <selectionEntries>
+  <selectionEntry collective="false" hidden="false" id="f3e9-4212-6239-d165" import="true" name="Neyam Shai Murad" type="model">
+   <constraints>
+    <constraint field="selections" id="bdc7-64f6-5641-a11c" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <profiles>
+    <profile hidden="false" id="6242-b9c0-aea8-0c41" name="Neyam Shai Murad" typeId="800f-21d0-4387-c943" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+       6"
+      </characteristic>
+      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+       3+
+      </characteristic>
+      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+       4+
+      </characteristic>
+      <characteristic name="S" typeId="2218-aa3c-265f-2939">
+       3
+      </characteristic>
+      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+       3
+      </characteristic>
+      <characteristic name="W" typeId="f330-5e6e-4110-0978">
+       4
+      </characteristic>
+      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+       3
+      </characteristic>
+      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+       9
+      </characteristic>
+      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+       4+
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="3986-5f75-75a5-f9fe" name="All Guns Blazing" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Em sua fase de Tiro, pistolas negociador Neyam Shai Murad ter um tipo de pistola 4 se ela não se moveu em sua fase de movimento anterior.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="14d3-c54a-fefb-7c9f" name="Servo-skull Assisted Targeting" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Unidades inimigas não recebem o benefício de cobertura para seus testes de resistência para ataques feitos com armas de longo alcance por Neyam Shai Murad.
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="bbb6-d687-b2aa-5dd0" name="Warrant of Trade" targetId="4761-709d-8677-02c0" type="profile"/>
+   </infoLinks>
+   <categoryLinks>
+    <categoryLink hidden="false" id="d295-3353-4fb7-415b" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+    <categoryLink hidden="false" id="7c5a-6ada-e465-1c3c" name="Faction: Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+    <categoryLink hidden="false" id="d035-a0ba-c75c-06f1" name="Faction: Astra Cartographica" primary="false" targetId="110e-77c9-259a-1fda"/>
+    <categoryLink hidden="false" id="8a78-2af4-cd21-f539" name="Character" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="2fef-014d-54a6-3fc3" name="Infantry" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="9cca-28e3-b5bf-d57f" name="Rogue Trader" primary="false" targetId="2581-a621-228e-433d"/>
+    <categoryLink hidden="false" id="ce93-2140-11f6-46ae" name="Neyam Shai Murad" primary="false" targetId="a644-7e8b-9559-899d"/>
+   </categoryLinks>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="bb3a-21d0-8d15-1bf7" import="true" name="Negotiator pistol" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="80ae-3917-e3f9-4359" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="e8a6-0916-26f6-04bf" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="95ff-7fde-cea8-63fd" name="Negotiator pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         12"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Pistol 2
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         1
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         -
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="9bb8-fefa-4fb8-1685" import="true" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
+   </entryLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+    <cost name="pts" typeId="points" value="50.0"/>
+   </costs>
+  </selectionEntry>
+ </selectionEntries>
  <entryLinks>
-  <entryLink collective="false" hidden="false" id="47f4-9866-46dd-c9e3" name="Janus Draik" targetId="ff61-7c0c-bd4d-0657" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="9985-cfd3-2828-97b8" name="Espern Locarno" targetId="55b1-6539-c83a-5aa7" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="4de0-1d8e-d91e-298b" name="UR-025" targetId="ccbe-3d16-5567-97ae" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="6311-80f5-ac2a-2a83" name="Spindle Drones" targetId="c0da-c185-688c-3857" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="47f4-9866-46dd-c9e3" import="true" name="Janus Draik" targetId="ff61-7c0c-bd4d-0657" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="9985-cfd3-2828-97b8" import="true" name="Espern Locarno" targetId="55b1-6539-c83a-5aa7" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="4de0-1d8e-d91e-298b" import="true" name="UR-025" targetId="ccbe-3d16-5567-97ae" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="6311-80f5-ac2a-2a83" import="true" name="Spindle Drones" targetId="c0da-c185-688c-3857" type="selectionEntry"/>
  </entryLinks>
  <sharedSelectionEntries>
-  <selectionEntry collective="false" hidden="false" id="ff61-7c0c-bd4d-0657" name="Janus Draik" type="model">
+  <selectionEntry collective="false" hidden="false" id="ff61-7c0c-bd4d-0657" import="true" name="Janus Draik" type="model">
    <constraints>
     <constraint field="selections" id="1614-250b-be6a-6b71" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -59,13 +165,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="f6e5-88f5-f729-eb89" name="Warrant of Trade" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       O Janus Draik pode embarcar em qualquer TRANSPORTE IMPERIUM, mesmo que o transporte em questão possa normalmente permitir que apenas modelos com outras palavras-chave Faction façam isso. Todas as outras restrições se aplicam normalmente.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="be89-b60a-ddbe-abdb" name="Multi-spectral Auspicator" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -88,6 +187,9 @@
      </characteristics>
     </profile>
    </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="e38c-ad8c-8cd0-fc6d" name="Warrant of Trade" targetId="4761-709d-8677-02c0" type="profile"/>
+   </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="d6a0-35a9-36cb-04ea" name="Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
     <categoryLink hidden="false" id="8bbb-d8e9-0061-6ea4" name="Astra Cartographica" primary="false" targetId="110e-77c9-259a-1fda"/>
@@ -98,7 +200,7 @@
     <categoryLink hidden="false" id="500a-6759-dd4d-e3a0" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="9a0a-be6a-0585-f127" name="Heirloom pistol" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="9a0a-be6a-0585-f127" import="true" name="Heirloom pistol" type="upgrade">
      <constraints>
       <constraint field="selections" id="03ff-9d5e-210e-6eda" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="47e8-671b-c364-f317" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -133,7 +235,7 @@
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="842b-91ab-3fc3-e589" name="Monomolecular rapier" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="842b-91ab-3fc3-e589" import="true" name="Monomolecular rapier" type="upgrade">
      <constraints>
       <constraint field="selections" id="4310-0819-d6ba-fcc4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="c172-d316-e273-90c1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -168,7 +270,7 @@
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="9c72-de82-c9cd-6171" name="Archeotech grenade" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="9c72-de82-c9cd-6171" import="true" name="Archeotech grenade" type="upgrade">
      <constraints>
       <constraint field="selections" id="af3a-b419-0bf0-dbba" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="5c5f-8884-6efc-cdcc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -205,8 +307,8 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="3e4f-b9cc-82da-316a" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="4608-def6-ae75-d83a" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="3e4f-b9cc-82da-316a" import="true" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="4608-def6-ae75-d83a" import="true" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="40.0"/>
@@ -214,7 +316,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="55b1-6539-c83a-5aa7" name="Espern Locarno" type="model">
+  <selectionEntry collective="false" hidden="false" id="55b1-6539-c83a-5aa7" import="true" name="Espern Locarno" type="model">
    <constraints>
     <constraint field="selections" id="6953-a975-481f-9e54" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -292,7 +394,7 @@
     <categoryLink hidden="false" id="5f77-88fc-5bcb-426f" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="cd9b-a439-7073-35dc" name="Force-orb cane" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="cd9b-a439-7073-35dc" import="true" name="Force-orb cane" type="upgrade">
      <constraints>
       <constraint field="selections" id="41e8-90d3-9f4a-470d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="8722-dea3-3cc1-b73c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -329,20 +431,20 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="b436-1604-0298-fbcc" name="Laspistol" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="b436-1604-0298-fbcc" import="true" name="Laspistol" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="45b2-7327-1aa4-677d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="d746-a9f6-deae-e01c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="c9e5-5a51-1016-7858" name="Smite" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="c9e5-5a51-1016-7858" import="true" name="Smite" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="0f4a-661b-6f76-a0da" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="4a24-df97-ff35-e2b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="a640-a283-d5fb-93ed" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="ccbc-ced6-7390-628a" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="a640-a283-d5fb-93ed" import="true" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="ccbc-ced6-7390-628a" import="true" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="30.0"/>
@@ -350,7 +452,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="401e-5471-c6ad-683b" name="Warlord" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="401e-5471-c6ad-683b" import="true" name="Warlord" type="upgrade">
    <constraints>
     <constraint field="selections" id="63d0-6b6b-c883-632a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -363,7 +465,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="ccbe-3d16-5567-97ae" name="UR-025" type="model">
+  <selectionEntry collective="false" hidden="false" id="ccbe-3d16-5567-97ae" import="true" name="UR-025" type="model">
    <constraints>
     <constraint field="selections" id="219c-d2e3-776d-ebb6" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -417,7 +519,7 @@
     <categoryLink hidden="false" id="bc62-fb09-1a48-5e8a" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="f88f-86e6-9ab0-bf98" name="Mk I assault cannon" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="f88f-86e6-9ab0-bf98" import="true" name="Mk I assault cannon" type="upgrade">
      <constraints>
       <constraint field="selections" id="2d02-1b0b-a6ed-bed9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="5dfa-6ca9-f177-ec6d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -452,7 +554,7 @@
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="e29b-5e93-c867-7ab9" name="Power claw" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="e29b-5e93-c867-7ab9" import="true" name="Power claw" type="upgrade">
      <constraints>
       <constraint field="selections" id="055d-a5a8-2a1f-cc26" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="0987-aefd-fe05-84f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -489,8 +591,8 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="8328-a880-45b5-1d4f" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="9641-8209-933e-2fdf" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="8328-a880-45b5-1d4f" import="true" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="9641-8209-933e-2fdf" import="true" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -498,7 +600,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="c0da-c185-688c-3857" name="Spindle Drones" type="unit">
+  <selectionEntry collective="false" hidden="false" id="c0da-c185-688c-3857" import="true" name="Spindle Drones" type="unit">
    <constraints>
     <constraint field="selections" id="d294-cb50-cab3-03fe" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -519,7 +621,7 @@
     <categoryLink hidden="false" id="da6a-7bb0-ebe8-ec8c" name="New CategoryLink" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="a04c-4d46-c9db-f21f" name="Spindle Drone" type="model">
+    <selectionEntry collective="false" hidden="false" id="a04c-4d46-c9db-f21f" import="true" name="Spindle Drone" type="model">
      <constraints>
       <constraint field="selections" id="06e1-6546-44ce-8d59" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4.0"/>
       <constraint field="selections" id="211a-49fb-7674-6eb7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4.0"/>
@@ -558,7 +660,7 @@
       </profile>
      </profiles>
      <selectionEntries>
-      <selectionEntry collective="true" hidden="false" id="e100-149e-a1da-aa11" name="Drone pulse" type="upgrade">
+      <selectionEntry collective="true" hidden="false" id="e100-149e-a1da-aa11" import="true" name="Drone pulse" type="upgrade">
        <constraints>
         <constraint field="selections" id="0e4d-567e-57ef-3be1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="7c7b-c71f-8614-7c34" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -609,7 +711,7 @@
   </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
-  <selectionEntryGroup collective="false" hidden="false" id="8206-10e1-8d1e-b6ef" name="Warlord Traits">
+  <selectionEntryGroup collective="false" hidden="false" id="8206-10e1-8d1e-b6ef" import="true" name="Warlord Traits">
    <modifiers>
     <modifier field="hidden" type="set" value="true">
      <conditions>
@@ -621,9 +723,18 @@
     <constraint field="selections" id="552a-b809-a627-555e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="e6b7-7fae-76ef-00d8" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="11e3-9203-e782-ca9c" name="Warlord Traits (CA)" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="e6b7-7fae-76ef-00d8" import="true" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="11e3-9203-e782-ca9c" import="true" name="Warlord Traits (CA)" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
    </entryLinks>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>
+ <sharedProfiles>
+  <profile hidden="false" id="4761-709d-8677-02c0" name="Warrant of Trade" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Este modelo pode embarcar em qualquer TRANSPORTE IMPERIUM, embora o transporte em questão pode normalmente só permitem modelos com outras palavras-chave facção para fazê-lo. Todas as outras restrições se aplicam normalmente.
+    </characteristic>
+   </characteristics>
+  </profile>
+ </sharedProfiles>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="cb54-c035-5759-7697" library="false" name="Chaos - Chaos Space Marines-BR" revision="108" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="cb54-c035-5759-7697" library="false" name="Chaos - Chaos Space Marines-BR" revision="111" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="cb54-c035-pubN85174" name="Escalation"/>
   <publication id="cb54-c035-pubN125652" name="Codex: Heretic Astartes - Chaos Space Marines"/>
@@ -51,7 +51,7 @@
   <categoryEntry hidden="false" id="5280-7fb9-d4da-d2ff" name="Bloodletter"/>
   <categoryEntry hidden="false" id="31eb-b14e-89a2-73d1" name="Daemonette"/>
   <categoryEntry hidden="false" id="ab84-97e0-111c-9ff0" name="Plaguebearer"/>
-  <categoryEntry hidden="false" id="2398-1be3-3391-6984" name="Crimson Slaughter"/>
+  <categoryEntry hidden="false" id="2398-1be3-3391-6984" name="Faction: Crimson Slaughter"/>
   <categoryEntry hidden="false" id="4796-e195-faf7-d932" name="Exalted Champion"/>
   <categoryEntry hidden="false" id="b36f-fae2-eca4-6d1f" name="Warpsmith"/>
   <categoryEntry hidden="false" id="1e3f-0a7b-0c8f-84db" name="Faction: Alpha Legion"/>
@@ -70,6 +70,7 @@
   <categoryEntry hidden="false" id="4af3-e55f-a4c9-299f" name="Noctilith Crown"/>
   <categoryEntry hidden="false" id="0385-8978-4a91-7695" name="Sorcerer"/>
   <categoryEntry hidden="false" id="0f07-4225-76e2-c25e" name="Chosen"/>
+  <categoryEntry hidden="false" id="a923-d468-2a1f-3abe" name="Termite Assault Drill"/>
  </categoryEntries>
  <forceEntries>
   <forceEntry hidden="false" id="f733-c79b-0ac7-764e" name="Testing Detachment">
@@ -711,7 +712,7 @@
    <modifiers>
     <modifier field="hidden" type="set" value="true">
      <conditions>
-      <condition childId="a459-6417-3709-336c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+      <condition childId="a459-6417-3709-336c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
      </conditions>
     </modifier>
    </modifiers>
@@ -737,6 +738,370 @@
      </conditions>
     </modifier>
    </modifiers>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="18d8-c011-604a-5ff0" import="true" name="Blood Slaughterer of Khorne" targetId="5017-7367-84ad-4f2d" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="e536-b475-827e-e3cf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="51f6-1db1-3e75-3d4b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d252-6d80-3f9a-1352" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="b63b-82db-05ab-5b24" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="f1dd-d8b2-1fd2-7fd6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="c582-8330-bc33-7120" name="New CategoryLink" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="5832-f0af-f600-6ff1" import="true" name="Greater Blight Drone" targetId="3ffd-e386-5370-dbb4" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="e536-b475-827e-e3cf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="51f6-1db1-3e75-3d4b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="c623-e693-f04a-841a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d252-6d80-3f9a-1352" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="b63b-82db-05ab-5b24" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="b25e-d73c-25e3-b709" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="363f-b552-f80e-659c" import="true" name="Chaos Decimator" targetId="19d7-59fa-6050-caf8" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="0110-75bb-59e6-343a" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="3aad-3cfb-b684-dd31" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="c043-40ba-796e-b657" import="true" name="Plague Hulk of Nurgle" targetId="d9a0-b543-74aa-fe4f" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="e536-b475-827e-e3cf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="51f6-1db1-3e75-3d4b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="c623-e693-f04a-841a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d252-6d80-3f9a-1352" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="b63b-82db-05ab-5b24" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="787a-fdba-496e-31f2" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="e16a-d60f-8ff7-afd7" import="true" name="Kytan Ravager" targetId="dea5-3c5a-b066-f76a" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="e536-b475-827e-e3cf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="51f6-1db1-3e75-3d4b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d252-6d80-3f9a-1352" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="b63b-82db-05ab-5b24" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="f1dd-d8b2-1fd2-7fd6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="e634-c4d9-9ac4-e413" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="ea4b-1b65-2652-2b95" import="true" name="Greater Brass Scorpion of Khorne" targetId="41e5-6a66-73db-29e5" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="e536-b475-827e-e3cf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="51f6-1db1-3e75-3d4b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d252-6d80-3f9a-1352" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="b63b-82db-05ab-5b24" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="f1dd-d8b2-1fd2-7fd6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="c7b7-571f-2d02-1058" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="b674-9fc9-142f-0747" import="true" name="Hellforged Contemptor Dreadnought" targetId="c593-94fc-fbf9-d0df" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="61f2-84a2-1bc9-1c66" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="d94b-dac3-f597-40bb" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="0c12-3f1f-9592-5595" import="true" name="Hellforged Land Raider Proteus" targetId="cbe6-e033-9937-7a1d" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="b5fa-8fea-6315-b156" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="199d-4bee-6748-0463" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="c9a0-1be0-ca32-a0c8" import="true" name="Hellforged Land Raider Achilles" targetId="315a-a3db-0caa-6446" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="c05e-6952-5815-d4ac" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="fc0e-1217-6cc4-7ba0" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="7d53-0e18-ad7c-4682" import="true" name="Hellforged Predator" targetId="9e4c-e0d2-2ff0-5e95" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="ce08-6ba8-31b8-0bbd" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="9669-bea4-e1bd-82c7" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="db59-b57a-b63d-7692" import="true" name="Hellforged Scorpius" targetId="d174-1eae-f6b8-e293" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="ef3b-1f01-5cb5-8eaa" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="5bb1-f91d-c25a-bcff" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="2e5d-2855-33f3-0236" import="true" name="Hellforged Sicaran" targetId="f280-8863-be14-0159" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="3172-a91a-9061-b9cc" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="4112-01e7-51d4-a98f" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="b826-c324-1250-45c9" import="true" name="Hellforged Sicaran Venator" targetId="31a0-13f1-0374-f511" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="0c88-dc96-c698-8455" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="3995-78c5-d7ed-efe6" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="c374-32f4-ecf3-a138" import="true" name="Hellforged Spartan Assault Tank" targetId="eb46-865e-8ccf-a439" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="8b18-bcf9-fd00-392e" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="9d5b-1cc5-e366-c3f1" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="c4aa-56f5-41fe-9d8c" import="true" name="Hellforged Deredeo Dreadnought" targetId="e261-2875-56c7-caf9" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="3741-c1dc-0fbd-8347" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="f184-0bc1-a9b0-2596" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="103d-497f-f6ab-d8b0" import="true" name="Hellforged Rapier Battery" targetId="ffd9-5eea-5484-df0a" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="695f-712c-b3e6-038c" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="b6b3-807a-2baa-2a46" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="343c-ff4c-c223-67f5" import="true" name="Hellforged Leviathan Dreadnought" targetId="f6c4-89ad-891b-4beb" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="89e9-771e-459b-2c4b" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="1ae9-b8c8-a29a-41de" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="aed1-d36f-0a94-c180" import="true" name="Hellforged Dreadclaw Drop Pod" targetId="f5b8-443f-f85c-90f1" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="dfb4-6d0f-cb08-f13d" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="d8b1-4394-7432-66c8" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="3c6b-e4b6-f3fc-ea12" import="true" name="Hellforged Kharybdis Assault Claw" targetId="e730-3bab-f956-9a95" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="df5e-fa8b-43cc-ae46" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="b946-3a81-21cc-ba3d" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="0cc2-7af8-069b-c01c" import="true" name="Hellforged Cerberus Heavy Destroyer" targetId="0c8f-8122-f2dc-ba7b" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="81aa-178d-d9a5-96cc" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="bc2a-08b2-db86-3aac" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="4cd1-60ff-2efc-f98f" import="true" name="Hellforged Typhon Heavy Siege Tank" targetId="c011-cf2f-ae1e-3b1a" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="f67a-541a-0307-de7d" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="7a1f-b4bc-ca38-be5b" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="f3a8-8bc8-8258-2a8d" import="true" name="Hellforged Fellblade" targetId="6fe4-b1d3-46d1-3481" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="0c59-4ad1-5e35-3291" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="fd54-05b2-4690-98f5" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="843d-5e1c-68ca-f1a3" import="true" name="Hellforged Falchion" targetId="a308-f638-e0af-3e5e" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="3fe2-2e92-4e71-b64d" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="88e9-e98a-a848-1dbc" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="8571-4267-3e09-c22b" import="true" name="Hellforged Mastodon" targetId="3099-f431-71d0-f357" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="9429-5a22-0284-6dda" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="0655-edda-95a3-ba44" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="a66c-1b88-fbfa-4178" import="true" name="Chaos Hell Blade" targetId="5d38-a97d-a864-dd4b" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="8ce1-3dee-c1be-98e5" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="fc5d-3dc4-5dee-054b" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="44bf-f04f-7def-1eed" import="true" name="Chaos Hell Talon" targetId="dc79-77bc-6adb-dfbe" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="3e60-b479-f284-77a0" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="b01e-4c19-90ea-b876" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="a885-d8d1-4e31-c659" import="true" name="Chaos Storm Eagle Assault Gunship" targetId="0ebf-e4c7-f8ca-ce1b" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="6769-27fd-bc22-eacb" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="379a-e8c9-7617-13a8" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="7a65-a802-d5ae-4163" import="true" name="Chaos Fire Raptor Assault Gunship" targetId="ceaa-1081-bed7-f249" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="fe79-37ac-d314-a9f6" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="83d2-8a63-676d-df04" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="64b8-a4dd-499e-0aa6" import="true" name="Chaos Thunderhawk Assault Gunship" targetId="5994-ab72-97e3-f36b" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="c2f7-903f-da91-af36" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="365c-b74a-7ec3-0e8d" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="d8be-ac11-2b09-b3b6" import="true" name="Chaos Sokar Pattern Stormbird Gunship" targetId="086a-3326-18e2-477f" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="1a31-6d20-4ac9-825f" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="1839-2533-5a7f-108c" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="3ae2-6895-1a5f-0465" import="true" name="Chaos Xiphon Interceptor" targetId="a096-b74b-efa6-9bb4" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="b4b3-cce1-5ed4-48f6" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="ad0b-a3ee-8757-6c3b" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="62b8-4013-c248-b070" import="true" name="Terrax-Pattern Termite Assault Drill" targetId="732b-967e-1bca-5846" type="selectionEntry">
+   <profiles>
+    <profile hidden="false" id="cd18-1337-dbfd-02b7" name="Terrax-Pattern Termite Assault Drill" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+     <characteristics>
+      <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
+       This model can transport 12 &lt;LEGION&gt; INFANTRY models. It cannot transport JUMP PACK, TERMINATOR or CULT OF DESTRUCTION models
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <categoryLinks>
+    <categoryLink hidden="false" id="9c11-62dd-63a9-a75c" name="Faction: Chaos" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+    <categoryLink hidden="false" id="3763-3907-9540-a78e" name="Faction: Heretic Astartes" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+    <categoryLink hidden="false" id="f221-a76b-eb9c-c980" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+    <categoryLink hidden="false" id="695e-e22f-f9fd-e4d8" name="Termite Assault Drill" primary="false" targetId="a923-d468-2a1f-3abe"/>
+    <categoryLink hidden="false" id="25b7-55ef-ce50-2f4b" name="New CategoryLink" primary="true" targetId="1b66-3f5f-6705-079a"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="4b36-5249-7ea8-1135" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="e230-6c30-8ad6-af2d" import="true" name="Ferrum Infernus Dreadnought" targetId="2cc8-0e93-7906-cdf0" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="940e-cef1-f32e-4a94" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="05ea-692c-42b6-bc66" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="de8d-d067-2891-b3bc" import="true" name="Sonic Dreadnought" targetId="3672-0dd5-d396-dc4b" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="e536-b475-827e-e3cf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="c623-e693-f04a-841a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="b63b-82db-05ab-5b24" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d252-6d80-3f9a-1352" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="6222-79d4-1a5e-243a" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="6e79-16e2-f5d0-a1a1" import="true" name="Chaos Vindicator Laser Destroyer" targetId="f957-f774-e452-34ea" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="eb6f-eb12-9a78-ac86" name="Faction: &lt;Legion&gt;" primary="false" targetId="b2b6-8e4a-9c74-cc37"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="ccbf-468c-ccd2-ebcd" import="true" name="Mark of Chaos" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup"/>
+   </entryLinks>
   </entryLink>
  </entryLinks>
  <rules>
@@ -12061,7 +12426,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
        6"
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestado, selecione uma unidade inimiga que esteja a menos de 6 "do psyker e visível para ele e role um D6. Se o resultado for maior que a Resistência do inimigo, ele sofre D3 + 3 feridas mortais. Se um personagem é morto por este poder , você pode adicionar um Caos ao seu exército a menos de 6 "do personagem e mais de 1" de qualquer modelo inimigo antes que eles sejam removidos como uma vítima.
+       Se manifestado, selecione uma unidade inimiga que esteja a menos de 6 "do psyker e visível para ele e role um D6. Se o resultado for maior que a Resistência do inimigo, ele sofre D3 + 3 ferimentos mortais. Se um personagem é morto por este poder , você pode adicionar um Caos ao seu exército a menos de 6 "do personagem e mais de 1" de qualquer modelo inimigo antes que eles sejam removidos como uma vítima.
       </characteristic>
      </characteristics>
     </profile>
@@ -12825,18 +13190,6 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="36f0-3b3d-1a2a-bd29" import="true" name="Vrosh Tattersoul" type="model">
-   <modifiers>
-    <modifier field="f92c-717e-63e7-adf2" type="set" value="0.0">
-     <conditionGroups>
-      <conditionGroup type="and">
-       <conditions>
-        <condition childId="7049-f86b-e228-bbaf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
-        <condition childId="c4a9-5a33-d824-bcf8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
-       </conditions>
-      </conditionGroup>
-     </conditionGroups>
-    </modifier>
-   </modifiers>
    <constraints>
     <constraint field="selections" id="2777-2f08-6fbf-1f36" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
     <constraint field="selections" id="f92c-717e-63e7-adf2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
@@ -12933,18 +13286,6 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="29e1-7a0e-ccc0-1c01" import="true" name="Kranon the Relentless" type="model">
-   <modifiers>
-    <modifier field="fda7-a3e4-a89f-8f3d" type="set" value="0.0">
-     <conditionGroups>
-      <conditionGroup type="and">
-       <conditions>
-        <condition childId="7049-f86b-e228-bbaf" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
-        <condition childId="c4a9-5a33-d824-bcf8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
-       </conditions>
-      </conditionGroup>
-     </conditionGroups>
-    </modifier>
-   </modifiers>
    <constraints>
     <constraint field="selections" id="db38-edb9-408b-0e95" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
     <constraint field="selections" id="fda7-a3e4-a89f-8f3d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
@@ -13029,13 +13370,6 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="551b-c441-ba4d-f592" import="true" name="Draznicht's Ravagers" type="unit">
-   <modifiers>
-    <modifier field="702a-3b56-7559-60fe" type="set" value="0.0">
-     <conditions>
-      <condition childId="c4a9-5a33-d824-bcf8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
-     </conditions>
-    </modifier>
-   </modifiers>
    <constraints>
     <constraint field="selections" id="c651-2986-9289-3009" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
     <constraint field="selections" id="702a-3b56-7559-60fe" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
@@ -13675,7 +14009,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
            D6
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Cada vez que você faz um teste de ferida de 6+ para esta arma, a arma faz um acerto automático adicional no perfil normal da arma, que é resolvido após os ataques iniciais para a arma na mesma unidade. Esses hits adicionais não geram mais hits adicionais.
+           Cada vez que você faz um teste para ferir de 6+ para esta arma, a arma faz um acerto automático adicional no perfil normal da arma, que é resolvido após os ataques iniciais para a arma na mesma unidade. Esses hits adicionais não geram mais hits adicionais.
           </characteristic>
          </characteristics>
         </profile>
@@ -14869,6 +15203,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
      </profiles>
      <infoLinks>
       <infoLink hidden="false" id="58cd-b3d8-2a85-c806" name="Daemonic" targetId="94f5-82c3-bb66-ac0c" type="profile"/>
+      <infoLink hidden="false" id="c5f1-6a08-161d-148f" name="Death to the False Emperor" targetId="37a4-1d84-4ef0-c4f6" type="profile"/>
      </infoLinks>
      <selectionEntries>
       <selectionEntry collective="false" hidden="false" id="c3c4-2f59-a707-b59a" import="true" name="Daemonic mutations" type="upgrade">
@@ -15035,7 +15370,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
        Melee
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestada, até o início da sua próxima fase psíquica, a característica de Penetração de Armadura da arma corpo a corpo do psyker é melhorada em 2 (por exemplo, um AP de -1 torna-se -3). Além disso, até o início de sua próxima fase psíquica, cada vez que o psyker destrói um personagem de infantaria inimigo na fase de luta, você pode adicionar um modelo de Caos ao seu exército. Se o modelo destruído for ADEPTUS ASTARTES ou HERETIC ASTARTES, você pode adicionar um modelo Greater Possessed ao seu exército. Se um novo modelo for adicionado ao seu exército, configure-o a menos de 6 "do psyker e mais de 1" de qualquer modelo inimigo. Além disso, toda vez que o psyker destrói um modelo de VEÍCULO inimigo na fase de Luta que pode explodir, ele explode automaticamente; nenhum rolo de dados é feito e quaisquer feridas mortais sofridas pelo psyker na explosão resultante são ignoradas.
+       Se manifestada, até o início da sua próxima fase psíquica, a característica de Penetração de Armadura da arma corpo a corpo do psyker é melhorada em 2 (por exemplo, um AP de -1 torna-se -3). Além disso, até o início de sua próxima fase psíquica, cada vez que o psyker destrói um personagem de infantaria inimigo na fase de luta, você pode adicionar um modelo de Caos ao seu exército. Se o modelo destruído for ADEPTUS ASTARTES ou HERETIC ASTARTES, você pode adicionar um modelo Greater Possessed ao seu exército. Se um novo modelo for adicionado ao seu exército, configure-o a menos de 6 "do psyker e mais de 1" de qualquer modelo inimigo. Além disso, toda vez que o psyker destrói um modelo de VEÍCULO inimigo na fase de Luta que pode explodir, ele explode automaticamente; nenhuma rolagem de dados é feito e quaisquer ferimentos mortais sofridas pelo psyker na explosão resultante são ignoradas.
       </characteristic>
      </characteristics>
     </profile>
@@ -15890,7 +16225,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
     <profile hidden="false" id="5d17-9343-9106-81e0" name="Spirit Thief" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Cada vez que este modelo destrói uma unidade VEÍCULO inimigo na fase de Luta, este modelo pode reparar um Mecanismo de Daemon amigável ou liberar um raio de energia. Se você optar por reparar um amigável Mecanismo Daemon, escolha um &lt;LEGION&gt; DAEMON ENGINE amigável (exceto modelos que possam FLY) a menos de 3 "desse modelo. Que DAEMON ENGINE recupere as feridas perdidas D3. Se você optar por liberar um raio de energia , escolha um VEÍCULO inimigo a menos de 12 "deste modelo e role um D6. Em um 2+ que VEÍCULO sofre D3 feridas mortais.
+       Cada vez que este modelo destrói uma unidade VEÍCULO inimigo na fase de Luta, este modelo pode reparar um Mecanismo de Daemon amigável ou liberar um raio de energia. Se você optar por reparar um amigável Mecanismo Daemon, escolha um &lt;LEGION&gt; DAEMON ENGINE amigável (exceto modelos que possam FLY) a menos de 3 "desse modelo. Que DAEMON ENGINE recupere as feridas perdidas D3. Se você optar por liberar um raio de energia , escolha um VEÍCULO inimigo a menos de 12 "deste modelo e role um D6. Em um 2+ que VEÍCULO sofre D3 ferimentos mortais.
       </characteristic>
      </characteristics>
     </profile>
@@ -16150,7 +16485,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
     <profile hidden="false" id="fb8d-0e2f-acdf-bb71" name="Followers" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Apenas uma unidade de Discípulos Negros pode ser incluída em seu exército para cada Apóstolo das Trevas em seu exército. &lt;LEGION&gt; Unidades de Discípulos Negros não ocupam caça-níqueis em um Destacamento que inclua quaisquer &lt;LEGION&gt; Dark Apostles. Enquanto esta unidade está a 2 "de qualquer Apóstolos Escuros &lt;LEGION&gt; aliados, os modelos inimigos só podem disparar esta unidade se esta for a unidade inimiga mais próxima (ignore PERSONAGENS com uma característica de Feridas inferior a 10 ao determinar se esta unidade é o inimigo mais próximo unidade ao modelo de queima).
+       Apenas uma unidade de Discípulos Negros pode ser incluída em seu exército para cada Apóstolo das Trevas em seu exército. &lt;LEGION&gt; Unidades de Discípulos Negros não ocupam caça-níqueis em um Destacamento que inclua quaisquer &lt;LEGION&gt; Dark Apostles. Enquanto esta unidade está a 2 "de qualquer Apóstolos Escuros &lt;LEGION&gt; aliados, os modelos inimigos só podem disparar esta unidade se esta for a unidade inimiga mais próxima (ignore PERSONAGENS com uma característica para ferirs inferior a 10 ao determinar se esta unidade é o inimigo mais próximo unidade ao modelo de queima).
       </characteristic>
      </characteristics>
     </profile>
@@ -17859,7 +18194,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="04b5-616b-e468-c069" name="Siege Lords" page="157" publicationId="cb54-c035-pubN125652" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Se o seu exército for forjado em batalha, todas as unidades CARACTER, INFANTRY, BIKER e HELBRUTE em um Destacamento IRON WARRIORS ganham a seguinte habilidade: Unidades inimigas atacadas por unidades com este traço não ganham nenhum bônus em seus testes de resistência por estarem em cobertura. Além disso, você pode rolar novamente rolagens com falha para unidades com esse atributo quando elas segmentarem um CONSTRUÇÃO.
+         Se o seu exército for forjado em batalha, todas as unidades CARACTER, INFANTRY, BIKER e HELBRUTE em um Destacamento IRON WARRIORS ganham a seguinte habilidade: Unidades inimigas atacadas por unidades com este traço não ganham nenhum bônus em seus testes de resistência por estarem em cobertura. Além disso, você pode re-rolar rolagens com falha para unidades com esse atributo quando elas segmentarem um CONSTRUÇÃO.
         </characteristic>
        </characteristics>
       </profile>
@@ -19394,7 +19729,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="3042-6056-b550-c31c" name="Blessed Mission" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Re-rolar rolos enrolados de 1 para ataques feitos pelo seu Warlord. Além disso, você pode re-jogar as jogadas de dano das armas usadas pelo seu Warlord.
+         Re-role testes para ferir de 1 para ataques feitos pelo seu Warlord. Além disso, você pode re-jogar as jogadas de dano das armas usadas pelo seu Warlord.
         </characteristic>
        </characteristics>
       </profile>
@@ -19637,7 +19972,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="b14b-84cf-1331-43a4" name="Infernal Gaze" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Se o seu Warlord manifestar com sucesso o poder psíquico Smite, a unidade inimiga visível mais próxima a menos de 24 "sofre feridas mortais, em vez de 18".
+         Se o seu Warlord manifestar com sucesso o poder psíquico Smite, a unidade inimiga visível mais próxima a menos de 24 "sofre ferimentos mortais, em vez de 18".
         </characteristic>
        </characteristics>
       </profile>
@@ -19656,7 +19991,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="c21c-ad52-17a2-5bed" name="Warp Lord" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Você pode re-rolar rolos de 1 ao fazer um teste psíquico para seu Warlord.
+         Você pode re-rolar jogadas de 1 ao fazer um teste psíquico para seu Warlord.
         </characteristic>
        </characteristics>
       </profile>
@@ -19854,7 +20189,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="4495-5654-fd6d-b7fd" name="Chosen of the Warmaster" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Re-rolar golpes de 1 para ataques feitos por unidades aliados ​​de BRINGERS OF DESPAIR enquanto eles estiverem com 6 "de seu Warlord. Se seu Warlord tiver a habilidade Lord of Chaos, você pode re-rolar rolagens de sucesso para ataques feitos por BRINGERS aliados. OF DESPAIR enquanto estiverem a 6 "do seu Warlord.
+         Re-role golpes de 1 para ataques feitos por unidades aliados ​​de BRINGERS OF DESPAIR enquanto eles estiverem com 6 "de seu Warlord. Se seu Warlord tiver a habilidade Lord of Chaos, você pode re-rolar rolagens de sucesso para ataques feitos por BRINGERS aliados. OF DESPAIR enquanto estiverem a 6 "do seu Warlord.
         </characteristic>
        </characteristics>
       </profile>
@@ -19892,7 +20227,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="621f-b915-5e48-454c" name="Armour Bane" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Rolar novamente rolos enrolados de 1 para ataques feitos por unidades de BATERIA DE DEVASTAÇÃO aliados ​​que estejam a menos de 6 "do seu Senhor da Guerra se o alvo for um VEÍCULO.
+         Re-role testes para ferir de 1 para ataques feitos por unidades de BATERIA DE DEVASTAÇÃO aliados ​​que estejam a menos de 6 "do seu Senhor da Guerra se o alvo for um VEÍCULO.
         </characteristic>
        </characteristics>
       </profile>
@@ -19991,7 +20326,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <profile hidden="false" id="0d0a-aa5a-0886-c5ce" name="Exultant Preacher" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Você pode re-rolar os rolos de carga para unidades aliados ​​de CULT OF THE DAMNED enquanto estiverem a menos de 6 "do seu Warlord.
+         Você pode re-rolar as jogadas de carga para unidades aliados ​​de CULT OF THE DAMNED enquanto estiverem a menos de 6 "do seu Warlord.
         </characteristic>
        </characteristics>
       </profile>
@@ -21362,4 +21697,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
    </characteristics>
   </profile>
  </sharedProfiles>
+ <catalogueLinks>
+  <catalogueLink id="52c8-0d45-fb87-0d1f" importRootEntries="true" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue"/>
+ </catalogueLinks>
 </catalogue>
