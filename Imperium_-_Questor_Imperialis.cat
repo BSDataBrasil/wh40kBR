@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="82cd-d24f-9f22-11f3" library="false" name="Imperium - Imperial Knights-BR" revision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="128" id="82cd-d24f-9f22-11f3" library="false" name="Imperium - Imperial Knights-BR" revision="52" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
-  <publication id="82cd-d24f-pubN65537" name="Codex: Imperial Knights"/>
-  <publication id="82cd-d24f-pubN82337" name="Warhammer 40,000 Rulebook"/>
-  <publication id="ddcc-9444-870e-9593" name="Imperial Knights FW Army List"/>
+  <publication id="82cd-d24f-pubN65537" name="Codex: Imperial Knights" publisher="Codex: Imperial Knights" shortName="Codex"/>
+  <publication id="82cd-d24f-pubN82337" name="Warhammer 40,000 Rulebook" publisher="Warhammer 40,000 Rulebook" shortName="BRB"/>
+  <publication id="ddcc-9444-870e-9593" name="Imperial Knights FW Army List" publisher="Imperial Knights FW Army List" shortName="Forgeworld"/>
+  <publication id="ecea-8b62-fefb-9f8e" name="Psychic Awakening - Engine War" publisher="Psychic Awakening - Engine War" shortName="Engine War"/>
  </publications>
  <profileTypes>
   <profileType id="6535-c5b9-7431-63ec" name="Explosion (Details)">
@@ -47,6 +48,11 @@
     <characteristicType id="ff90-7fe2-7db1-7561" name="Dice Roll"/>
     <characteristicType id="4312-9d24-49af-67a2" name="Distance"/>
     <characteristicType id="9088-4f12-5b1b-70c1" name="Mortal Wounds"/>
+   </characteristicTypes>
+  </profileType>
+  <profileType id="b797-3df8-cff8-b29f" name="Allegiance Oath">
+   <characteristicTypes>
+    <characteristicType id="01d0-a64f-195c-598f" name="Description"/>
    </characteristicTypes>
   </profileType>
  </profileTypes>
@@ -100,17 +106,17 @@
   <entryLink collective="false" hidden="false" id="6d58-8b70-8309-d28a" import="true" name="Canis Rex" targetId="3a62-00de-b0b5-7cf4" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="ded5-1fe0-0e0a-72ce" import="true" name="Household Choice" targetId="1599-8972-0135-ab65" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="1f9a-f7ec-5549-de99" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="736f-79b2-3fd3-bf3f" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="aeaf-4f9e-30bd-1417" import="true" name="Exalted Court" targetId="aa6c-e36b-69dd-0739" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="adfc-aeed-2f2a-e3c3" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="00ac-4546-7ec8-c68c" name="New CategoryLink" primary="true" targetId="c845-c72c-6afe-3fc2"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="648d-9a92-1e53-c5a2" import="true" name="Heirlooms of the Household" targetId="9630-827b-a78d-63b7" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="5062-e860-dd8e-e33d" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="42c3-0252-970d-11ab" name="New CategoryLink" primary="true" targetId="c845-c72c-6afe-3fc2"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="18c8-58b7-dac2-87b2" import="true" name="Sacristan Forgeshrine" targetId="ec59-dc13-e945-efd2" type="selectionEntry">
@@ -123,21 +129,67 @@
   <entryLink collective="false" hidden="false" id="bac1-80cb-6067-602f" import="true" name="!Knight Preceptor" targetId="e02a-99d0-202d-01fc" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="07c3-5d3e-59b4-59c9" import="true" name="[Reference] Warlord Traits (All)" targetId="3e00-eb05-5e60-6a05" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="2160-9d0d-2a76-6b36" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="dd3e-f185-31a5-0491" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="07f5-7afb-c7e2-705d" import="true" name="[Reference] Burdens (All)" targetId="dfb9-3e7e-733b-8911" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="2267-8511-de8b-dde2" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="a251-e925-6407-ad30" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="104a-4f22-3352-c6de" import="true" name="[Reference] Qualities (All)" targetId="3327-6472-1de8-71e3" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="7569-da76-d52e-6484" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="3105-dc1f-d59e-5a68" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="57a5-b7c0-5aa6-bb23" import="true" name="Acastus Knight Asterius" targetId="2519-4676-1fcc-31da" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="9199-fffd-6062-308d" import="true" name="Armiger Moiraxes" targetId="f45f-a084-c34a-8f5e" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="bceb-2fd8-bd33-6304" import="true" name="Operative Requisition Sanctioned" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="e23d-395b-1a08-eb6a" import="true" name="Inquisitor" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="9798-a341-5f2d-ef3e" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="2a14-52e4-3c27-4380" import="true" name="Inquisitor Coteaz" targetId="81d1-1b5f-e97c-35ba" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="3bd9-27c1-89c5-c83e" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="4963-b7c6-41af-ff69" import="true" name="Inquisitor Eisenhorn" targetId="86b2-7c8b-a051-60ca" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="1a05-268b-b0bd-10ae" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="c794-e3ae-0cb2-e00c" import="true" name="Inquisitor Greyfax" targetId="9d0c-6df4-8f5d-5a34" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="2709-0efc-6192-5ee1" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="e574-bb78-9308-ee8b" import="true" name="Inquisitor Karamazov" targetId="59d5-160c-f21d-6e49" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="38a3-d1b4-4b73-8ca0" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="3bb6-5060-e1d3-a74c" import="true" name="Inquisitor-Lord Hector Rex" targetId="f34a-e3be-53b1-d783" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="154a-edd9-d2de-fd27" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="aa1a-18fa-8587-2ab7" import="true" name="Inquisitor-Lord Solomon Lok" targetId="027b-c552-db2c-f5f0" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="ab04-60e9-f149-6138" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="3b99-dd0e-e9de-da8b" import="true" name="Ordo Malleus Inquisitor in Terminator Armour" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="7b8a-0768-7e08-bd35" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="a918-6474-d9de-4dc6" import="true" name="[Reference] Household Traditions (All)" targetId="1378-7ed6-3271-7431" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="9b57-68d4-862a-114d" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+   </categoryLinks>
+  </entryLink>
  </entryLinks>
  <rules>
   <rule hidden="false" id="018d-3e97-9dda-db9b" name="Knight Lance" publicationId="82cd-d24f-pubN65537">
@@ -205,7 +257,7 @@
        6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao atacar com esta arma, você deve subtrair 1 do jogada de acerto. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.
+       Ao atacar com esta arma, você deve subtrair 1 da jogada de acerto. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.
       </characteristic>
      </characteristics>
     </profile>
@@ -391,7 +443,7 @@
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+       Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
       </characteristic>
      </characteristics>
     </profile>
@@ -596,6 +648,19 @@
       <constraint field="selections" id="edf2-ccac-3cab-9b42" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="04cf-2c76-6cff-6de2" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="2bc0-7d63-af5c-4ae9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="cf2f-805f-ffff-f0cf" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="285.0"/>
@@ -768,6 +833,19 @@
       <constraint field="selections" id="67aa-6ac6-20b7-ce34" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="2bf3-4e12-363b-cab3" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="8d5b-229c-ddfb-7d0a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="3130-3b38-9a6d-31eb" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="285.0"/>
@@ -924,9 +1002,22 @@
       <constraint field="selections" id="a652-27aa-247c-c218" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="68f6-1e39-aa63-e793" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="6e7e-0140-01b0-ef47" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="9bf0-86aa-d025-af49" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="285.0"/>
+    <cost name="pts" typeId="points" value="305.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="20.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -1090,6 +1181,19 @@
       <constraint field="selections" id="0987-f5e0-c379-d85a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="318b-0418-7e8e-eda2" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="add4-b643-fbd4-1007" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="dc01-09f1-ed29-13ae" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="285.0"/>
@@ -1241,6 +1345,19 @@
       <constraint field="selections" id="0f53-db7c-2a36-e221" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="cd80-cfb0-daa3-26e9" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="c247-3ab8-1541-905c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="0131-b629-24ec-6b50" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="285.0"/>
@@ -1420,6 +1537,19 @@
       <constraint field="selections" id="6977-44ed-9ad0-68e1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="2a83-8f0d-8980-f057" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="4930-cb0d-ce91-b437" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="fce8-4e1b-6f44-0dab" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="28.0"/>
@@ -1535,7 +1665,7 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="577f-7d01-d772-e3d0" import="true" name="Cerastus Shock Lance" publicationId="ddcc-9444-870e-9593" type="upgrade">
    <profiles>
-    <profile hidden="false" id="3170-0f11-8759-c88f" name="Cerastus Shock Lance (Melee)" publicationId="ddcc-9444-870e-9593" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile hidden="false" id="3170-0f11-8759-c88f" name="Cerastus Shock Lance" publicationId="ddcc-9444-870e-9593" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
      <characteristics>
       <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
        Melee
@@ -1554,28 +1684,6 @@
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
        Esta arma tem uma característica de Força de x2 e uma característica de Dano de 8 se o portador fizer um movimento de ataque neste turno.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="99a3-303b-d6aa-bba9" name="Cerastus Shock Lance (Shooting)" publicationId="ddcc-9444-870e-9593" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-     <characteristics>
-      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-       18"
-      </characteristic>
-      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-       Heavy 6
-      </characteristic>
-      <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       6
-      </characteristic>
-      <characteristic name="AP" typeId="75aa-a838-b675-6484">
-       -1
-      </characteristic>
-      <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-       D3
-      </characteristic>
-      <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       -
       </characteristic>
      </characteristics>
     </profile>
@@ -2169,6 +2277,19 @@ de 2.
       <constraint field="selections" id="f1d4-27b7-2419-46cb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="7720-25f9-f1c2-fb44" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="81f1-1030-0551-5fa2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="63fa-eef3-5d89-79e2" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="40.0"/>
@@ -2327,6 +2448,19 @@ de 2.
       <constraint field="selections" id="8950-f42a-ac16-76d1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="a71b-60fa-35cb-411d" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="acdb-e46f-a943-dc75" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="4c87-7dc3-1b47-fc3d" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
@@ -2479,6 +2613,19 @@ de 2.
       <constraint field="selections" id="f744-9102-0b58-4653" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="082e-77b6-b604-cd89" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="9f2c-378d-0ecb-ac83" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="5344-6a08-91ca-dca6" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
@@ -2567,10 +2714,16 @@ de 2.
       </characteristic>
      </characteristics>
     </profile>
+    <profile hidden="false" id="f106-a11d-27d9-6b7a" name="Ion Gauntlet Shield" publicationId="ddcc-9444-870e-9593" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+       Este modelo tem um salvamento invulnerável de mais de 5. Isso aumenta para 4+ invulnerável de salvamento contra ataques feitos com armas brancas. Além disso, subtraia 1 das jogadas de acerto para ataques feitos com armas brancas por unidades TITANIC que visam esse modelo.
+      </characteristic>
+     </characteristics>
+    </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="7f9e-eee9-57b8-1154" name="Explodes" page="" targetId="383d-e9e6-b605-f6a9" type="profile"/>
-    <infoLink hidden="false" id="7dca-1650-9b7d-b3b9" name="Ion Gauntlet Shield" targetId="869a-af45-3ca3-43a9" type="profile"/>
     <infoLink hidden="false" id="f0be-f5fa-9341-86e0" name="Super-Heavy Walker" targetId="184b-c0f6-24c8-8b65" type="profile"/>
    </infoLinks>
    <categoryLinks>
@@ -2625,6 +2778,25 @@ de 2.
       <constraint field="selections" id="6cda-8c03-f729-2a1b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="14a7-9576-d680-3096" import="true" name="Shock Blast" targetId="a3de-c3ee-0ca8-2148" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="a722-aea4-2624-5a04" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="349b-b7e0-3bc5-1489" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="9df9-1a28-d999-f4c5" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="0ceb-e3fe-c7f7-e12d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="f2d4-65a1-da58-2d12" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="21.0"/>
@@ -2800,6 +2972,19 @@ de 2.
       <constraint field="selections" id="75e2-17e3-da2f-8a47" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="c1b7-fc6c-f2b0-18fc" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="d78b-61a1-a941-1795" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="f675-e6fd-5758-c658" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="380.0"/>
@@ -2975,6 +3160,19 @@ de 2.
       <constraint field="selections" id="1a5f-e647-eede-2727" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="55f2-540a-b5b2-5986" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="2ca0-756b-952e-6671" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="6ff3-0588-8517-e996" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name="pts" typeId="points" value="340.0"/>
@@ -2994,12 +3192,12 @@ de 2.
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="5973-c86d-b500-4a14" import="true" name="Character (Knight Lance)" type="upgrade">
    <modifiers>
-    <modifier field="c305-5c6f-852e-1408" type="increment" value="1">
+    <modifier field="c305-5c6f-852e-1408" type="increment" value="1.0">
      <conditions>
       <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="instanceOf" value="0.0"/>
      </conditions>
     </modifier>
-    <modifier field="339a-5a97-b770-dc51" type="increment" value="1">
+    <modifier field="339a-5a97-b770-dc51" type="increment" value="1.0">
      <repeats>
       <repeat childId="d513-cbf5-9bfc-7270" field="forces" includeChildForces="true" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1.0"/>
      </repeats>
@@ -3023,7 +3221,7 @@ de 2.
    <modifiers>
     <modifier field="a0c0-82a2-a3bb-7b17" type="set" value="1">
      <conditions>
-      <condition childId="6d58-8b70-8309-d28a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0.0"/>
+      <condition childId="3a62-00de-b0b5-7cf4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0.0"/>
      </conditions>
     </modifier>
    </modifiers>
@@ -3236,10 +3434,23 @@ de 2.
       <constraint field="selections" id="5261-6ed9-3eca-0b3e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="4215-8a96-6846-81a0" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="bbe0-c0f2-8013-e505" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="c1d3-9aa7-9f84-dd0a" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
-    <cost name="pts" typeId="points" value="160.0"/>
+    <cost name="pts" typeId="points" value="145.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3316,7 +3527,7 @@ de 2.
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+       Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
       </characteristic>
      </characteristics>
     </profile>
@@ -3464,19 +3675,6 @@ de 2.
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="d0ab-1822-7a8b-874b" import="true" name="Warlord Trait (Cadmus): Vereran of Gryphonne IV" publicationId="82cd-d24f-pubN65537" type="upgrade">
-   <constraints>
-    <constraint field="selections" id="41d8-96b4-1ef6-5d53" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
-   </constraints>
-   <infoLinks>
-    <infoLink hidden="false" id="cf2c-c9db-9e19-d332" name="Vereran of Gryphonne IV" targetId="09f9-ddb3-cd79-018a" type="profile"/>
-   </infoLinks>
-   <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="0.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-   </costs>
-  </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="e338-0993-1683-aa21" import="true" name="Warlord Trait (Taranis): Knight of Mars" publicationId="82cd-d24f-pubN65537" type="upgrade">
    <constraints>
     <constraint field="selections" id="e7f6-5a6d-b134-05d5" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
@@ -3521,11 +3719,439 @@ de 2.
     <constraint field="selections" id="1f12-fd8a-2a60-6081" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
     <constraint field="selections" id="2f48-faf8-ffe0-4dc8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="min" value="1.0"/>
    </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="e86d-7d38-04ce-e045" import="true" name="Household" targetId="40e9-fb6e-09fd-ed2f" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="9551-ce5e-81a4-7378" import="true" name="Allegiance" targetId="4a46-5e8f-6bcc-dc4f" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="6824-f068-07a6-d5ca" import="true" name="Household Tradition" targetId="d0c9-be02-2a4e-6239" type="selectionEntryGroup"/>
-   </entryLinks>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" defaultSelectionEntryId="58e7-47ff-1a57-b1c5" hidden="false" id="0f82-a8ca-137a-4ca0" import="true" name="Household">
+     <constraints>
+      <constraint field="selections" id="6eb4-cc0f-b300-64ed" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="a89e-9e9d-8bb2-c804" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="58e7-47ff-1a57-b1c5" import="true" name="House Cadmus" targetId="1a3e-2757-cab2-5bde" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="11c0-416b-217d-599c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="c356-156b-c8a2-958f" import="true" name="House Hawkshroud" targetId="c430-2abc-7440-ea3d" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="0131-860f-b1e7-59eb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="7eec-f009-06fd-d85f" import="true" name="House Terryn" targetId="643d-392f-e1cb-8739" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="a0ef-aa21-86af-8ebf" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="dd10-9ac8-974b-602b" import="true" name="House Griffith" targetId="46c4-d7d5-e181-3d7c" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="4b24-9972-fa11-4494" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="ec24-830e-1051-01a6" import="true" name="House Mortan" targetId="f648-9f71-21e9-7b3a" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="28a2-488b-86fa-2e88" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="fa4a-0854-7878-d061" import="true" name="House Krast" targetId="c611-7ad7-b2d5-4c22" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="5929-580c-a203-a1ea" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="69d9-e722-984f-738c" import="true" name="House Raven" targetId="3be9-ae63-fcc3-8c2c" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="aea0-3cec-1ae9-84d8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="184d-7294-d50f-aabe" import="true" name="House Taranis" targetId="9bf4-333b-a60a-49f4" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="4d92-da03-515a-118b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="359b-bbdf-62a3-5c93" import="true" name="House Vulker" targetId="33f6-664b-bd3a-4f1d" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="b692-ef54-3b55-622e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="6f32-8384-4412-3f26" import="true" name="House &lt;Custom&gt;" targetId="e7b7-7e60-d76d-15fc" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="d54f-0407-167a-9361" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" defaultSelectionEntryId="5738-3ac0-e204-7197" hidden="false" id="bf18-d429-e046-689e" import="true" name="Allegiance">
+     <constraints>
+      <constraint field="selections" id="b38b-780a-a0f9-2dd6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="04e2-733e-e877-dc5a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="5738-3ac0-e204-7197" import="true" name="Questor Imperialis" targetId="0331-f3d9-7e76-8298" type="selectionEntry">
+       <infoLinks>
+        <infoLink hidden="false" id="cb85-e7f4-ecda-7771" name="Vow of Honour" targetId="28a0-3aa5-799b-71b0" type="profile">
+         <modifiers>
+          <modifier field="hidden" type="set" value="true">
+           <conditions>
+            <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="0.0"/>
+           </conditions>
+          </modifier>
+         </modifiers>
+        </infoLink>
+       </infoLinks>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="2460-3c41-dcff-0fee" import="true" name="Questor Mechanicus" targetId="05dc-b991-1a99-40e6" type="selectionEntry">
+       <infoLinks>
+        <infoLink hidden="false" id="442d-b520-433c-75a1" name="Sacristan Pledge" targetId="b9b9-92f8-a081-9524" type="profile">
+         <modifiers>
+          <modifier field="hidden" type="set" value="true">
+           <conditions>
+            <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="0.0"/>
+           </conditions>
+          </modifier>
+         </modifiers>
+        </infoLink>
+       </infoLinks>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" hidden="false" id="d4b4-0f03-05bb-daf8" import="true" name="Household Tradition">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="e7b7-7e60-d76d-15fc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+          <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+      <modifier field="b7d3-5806-ef85-f45a" type="set" value="0.0">
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="e7b7-7e60-d76d-15fc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+          <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="8ba4-8710-d2b7-25cb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="b7d3-5806-ef85-f45a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="c4f4-827b-eead-4b9f" import="true" name="Household Traditions (Engine War)" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="78ad-9bc3-7bdf-0eae" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="1594-ae81-c110-6792" import="true" name="Household Traditions (Codex)" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="b265-abc7-f7e0-a941" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" hidden="false" id="02f5-d667-799d-f0aa" import="true" name="Household Traditions (Codex)">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
+          <condition childId="1594-ae81-c110-6792" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+      <modifier field="2ad4-b31b-6d82-b7a0" type="set" value="0.0">
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
+          <condition childId="1594-ae81-c110-6792" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="2ad4-b31b-6d82-b7a0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="359f-5724-93ef-d21a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="7c4a-b835-1870-4cf4" import="true" name="Household Tradition: Close-Quarters Killers" targetId="8b05-b932-2769-f64e" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="b540-e77a-cc18-8d37" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="f6d3-af61-7761-71a4" import="true" name="Household Tradition: Cold Fury" targetId="eb48-0271-3b6c-aa85" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="59c6-7d49-200e-5d25" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="8b91-a06a-0782-06d6" import="true" name="Household Tradition: Firestorm Protocols" targetId="7967-fd17-eedc-4c06" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="b14b-ac2a-731a-6ebb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="5f9c-16cd-a979-5e4d" import="true" name="Household Tradition: Gallant Warriors" targetId="f799-da81-8e33-486f" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="7354-15f6-c8de-db3d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="662b-9d7c-faa4-4080" import="true" name="Household Tradition: Glory of the Charge" targetId="4e80-5172-db74-d245" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="8d28-2266-0a72-c705" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="0fbd-0038-fb4d-0387" import="true" name="Household Tradition: Oathkeepers" targetId="8822-84d6-96ee-4680" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="784e-c1d4-fd2b-c373" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="76ea-05bb-3a2c-2655" import="true" name="Household Tradition: Relentless Advance" targetId="0958-f61f-8933-2c50" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="d597-af87-9e0e-5dc8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="10e8-ca1d-bcad-120d" import="true" name="Household Tradition: Hunters of the Foe" targetId="4a3a-0d9f-3435-a5eb" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="7848-2002-c801-96cf" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="ecf0-9d29-82ce-596a" import="true" name="Household Tradition: Omnissiah's Grace" targetId="29f1-d766-fae8-6f0c" type="selectionEntry">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="263f-083a-e638-d974" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" hidden="false" id="fb0a-4c97-d4a2-0c80" import="true" name="Household Traditions (Engine War)">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="c4f4-827b-eead-4b9f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+          <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+      <modifier field="532d-32c0-7781-e8b2" type="set" value="0.0">
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
+          <condition childId="c4f4-827b-eead-4b9f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+     </modifiers>
+     <modifierGroups>
+      <modifierGroup>
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="b96e-234a-1783-2015" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+          <condition childId="2fde-9f81-ea94-27af" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+          <condition childId="2a6c-361a-0b02-a132" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+          <condition childId="625d-21a7-d156-a65e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+          <condition childId="26a8-5c56-6aeb-dd33" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+          <condition childId="6616-58ab-87e5-45d7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+          <condition childId="e664-8a50-e6e3-27b5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+       <modifiers>
+        <modifier field="532d-32c0-7781-e8b2" type="set" value="1.0"/>
+        <modifier field="a7ec-0e59-7eb7-7d56" type="set" value="1.0"/>
+       </modifiers>
+      </modifierGroup>
+     </modifierGroups>
+     <constraints>
+      <constraint field="selections" id="532d-32c0-7781-e8b2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+      <constraint field="selections" id="a7ec-0e59-7eb7-7d56" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="e477-2d17-4d6e-f361" import="true" name="Household Tradition (Counts as 2): Honoured Sacristans" targetId="6616-58ab-87e5-45d7" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="56b2-a3a4-2547-afce" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="c13a-61b5-e659-4727" import="true" name="Household Tradition (Counts as 2): Hunters of the Unseen" targetId="e664-8a50-e6e3-27b5" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="3fbf-f37c-2bcc-5545" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="90c8-c09a-e798-6665" import="true" name="Household Tradition (Counts as 2): Machine Focus" targetId="2a6c-361a-0b02-a132" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="063b-f299-0f32-bc45" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="f1fc-8e5f-6694-5c38" import="true" name="Household Tradition (Counts as 2): Pains of Old Night" targetId="b96e-234a-1783-2015" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="bdd5-da83-b460-6b32" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="3381-e71e-1b68-ebe1" import="true" name="Household Tradition (Counts as 2): Shattered Empire Stalkers" targetId="625d-21a7-d156-a65e" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="166b-9daa-5173-c04f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="b643-4ffc-92b6-5eaa" import="true" name="Household Tradition (Counts as 2): Survivors of Strife" targetId="26a8-5c56-6aeb-dd33" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="04c3-b987-1db2-dda4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="834a-bd95-7dfb-e325" import="true" name="Household Tradition (Counts as 2): Unremitting" targetId="2fde-9f81-ea94-27af" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="ebca-944e-362e-055e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="3c8d-47cf-648b-6589" import="true" name="Household Tradition: Aggressive Persecution" targetId="bfe7-389b-659d-1306" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="0d9c-55fc-b1d7-aa9d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="29a9-83f3-52a8-2368" import="true" name="Household Tradition: Blessed Arms" targetId="ea48-602e-1fd0-605e" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="f8ca-b0a2-af14-3909" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="a28c-061b-a74a-9f14" import="true" name="Household Tradition: Glorified History" targetId="90fd-c494-d317-0a87" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="fb9e-d821-9c26-db8e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="836c-db3c-cc9a-015a" import="true" name="Household Tradition: Slayers of Beasts" targetId="81cd-0643-6a4e-568e" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="644d-fdd4-1adb-592a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="a6a9-e573-7a3b-6a6b" import="true" name="Household Tradition: Defiant Fury" targetId="92d1-8e1a-3fd7-0271" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="7a63-00c8-a769-74a4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="9a72-e453-1bd0-2d27" import="true" name="Household Tradition: Stormstriders" targetId="e29a-7613-ced4-78bf" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="aac7-a78b-9968-1a98" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="e948-9b50-1961-721a" import="true" name="Household Tradition: Noble Combatants" targetId="2190-d837-6331-6125" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="5531-a4a7-2d46-0f36" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="55bb-f896-0a9d-49d7" import="true" name="Household Tradition: Hounds of War" targetId="dbae-9cc3-ffb7-0d30" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="06f1-db5b-03b5-bb8c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="5af0-56e5-5108-c88f" import="true" name="Household Tradition: Exacting Charge" targetId="8164-502c-31d9-86d4" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="b453-d626-ebdb-305b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="1cda-f534-3096-5f0f" import="true" name="Household Tradition: Guardians of the Frontier" targetId="5492-a0fe-f9bb-003b" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="af12-2533-dc5e-72a7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="b438-8740-4151-4771" import="true" name="Household Tradition: Front-line Fighters" targetId="2f53-8db7-4ec4-a19e" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="ad8f-66b8-b684-aca2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="6bae-524d-fff5-8640" import="true" name="Household Tradition: Steel-sinewed Aim" targetId="b535-9f63-551a-9750" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="33d9-0fdb-cdf2-eb98" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="1499-a1aa-56b1-b2d8" import="true" name="Household Tradition: Sanctified Armour" targetId="fb85-ae78-2f78-7f1d" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="14a7-a8b2-36e7-a9ee" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="pts" typeId="points" value="0.0"/>
@@ -3720,6 +4346,13 @@ de 2.
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7967-fd17-eedc-4c06" import="true" name="Household Tradition: Firestorm Protocols" publicationId="82cd-d24f-pubN65537" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
    <infoLinks>
     <infoLink hidden="false" id="38a1-4ef7-96ec-494a" name="Firestorm Protocols" targetId="d965-eda5-7264-bf82" type="profile">
      <modifiers>
@@ -4262,7 +4895,7 @@ de 2.
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
-    <cost name="pts" typeId="points" value="450.0"/>
+    <cost name="pts" typeId="points" value="400.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -4327,9 +4960,42 @@ de 2.
      </description>
     </rule>
    </rules>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="e084-40c3-1115-f67e" import="true" name="Freeblade Allegiance" targetId="d0e8-471a-ff1b-c0eb" type="selectionEntryGroup"/>
-   </entryLinks>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="0640-282c-524c-276a" import="true" name="Freeblade Allegiance">
+     <constraints>
+      <constraint field="selections" id="58f4-d36b-c1fe-2020" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="ead6-8861-ecb4-8f20" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="f86f-a7e0-02e2-0815" import="true" name="Freeblade Questor Imperialis" targetId="6a57-dab7-ec3c-4625" type="selectionEntry">
+       <infoLinks>
+        <infoLink hidden="false" id="4614-d27d-66da-a49d" name="Vow of Honour" targetId="28a0-3aa5-799b-71b0" type="profile">
+         <modifiers>
+          <modifier field="hidden" type="set" value="true">
+           <conditions>
+            <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="0.0"/>
+           </conditions>
+          </modifier>
+         </modifiers>
+        </infoLink>
+       </infoLinks>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="cfa1-e914-32b2-e029" import="true" name="Freeblade Questor Mechanicus" targetId="3d27-e216-2483-792d" type="selectionEntry">
+       <infoLinks>
+        <infoLink hidden="false" id="2c78-c17f-b94a-bbf6" name="Sacristan Pledge" targetId="b9b9-92f8-a081-9524" type="profile">
+         <modifiers>
+          <modifier field="hidden" type="set" value="true">
+           <conditions>
+            <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="0.0"/>
+           </conditions>
+          </modifier>
+         </modifiers>
+        </infoLink>
+       </infoLinks>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="pts" typeId="points" value="0.0"/>
@@ -4487,10 +5153,23 @@ de 2.
       <constraint field="selections" id="639e-6204-12ae-caa9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="36c5-1066-eda6-4f3d" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="1de9-d071-0ea4-8404" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="0471-cae1-77e0-408c" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
-    <cost name="pts" typeId="points" value="170.0"/>
+    <cost name="pts" typeId="points" value="155.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -4801,6 +5480,19 @@ de 2.
       <constraint field="selections" id="3240-c91a-dcb2-3ce4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="f064-ff9b-7d86-9659" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="3dea-8907-3033-ac43" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="e0c6-3486-eb48-e7b2" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="30.0"/>
@@ -4981,6 +5673,19 @@ de 2.
       <constraint field="selections" id="94a0-bfac-8b04-44ff" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="a4c9-6c04-e1f4-691d" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="f1b9-ac91-61c4-543e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="9711-a81a-c350-4523" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="30.0"/>
@@ -5092,7 +5797,7 @@ de 2.
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+       Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
       </characteristic>
      </characteristics>
     </profile>
@@ -5154,7 +5859,7 @@ de 2.
        3D3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades do Titanic com esta arma.
+       Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades TITANIC com esta arma.
       </characteristic>
      </characteristics>
     </profile>
@@ -5378,9 +6083,22 @@ de 2.
       <constraint field="selections" id="1e24-dba4-df45-2872" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="4e63-d702-fc59-4789" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="d4dc-867b-8120-13cc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="240f-44b5-56b6-937c" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="385.0"/>
+    <cost name="pts" typeId="points" value="340.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -5431,9 +6149,26 @@ de 2.
    <constraints>
     <constraint field="selections" id="5f50-3451-fc05-5c3a" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="e594-602f-4175-c88b" import="true" name="Exalted Court" targetId="0871-a553-58c5-0642" type="selectionEntryGroup"/>
-   </entryLinks>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="615a-873f-859c-2521" import="true" name="Exalted Court" publicationId="82cd-d24f-pubN65537">
+     <constraints>
+      <constraint field="selections" id="dbc6-53fc-344b-e790" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="d502-3bd2-46c4-d4d7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="8ee4-4d74-704f-fff6" import="true" name="Exalted Court: 1 Extra Warlord Trait" targetId="cfd0-ba68-323d-b19f" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="c759-9a56-8341-bc9f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="7a7e-8018-eae5-4cbd" import="true" name="Exalted Court: 2 Extra Warlord Traits" targetId="5fac-c041-e302-f2e0" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="036c-25bd-d40d-0f0e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="pts" typeId="points" value="0.0"/>
@@ -5458,9 +6193,26 @@ de 2.
    <constraints>
     <constraint field="selections" id="2496-4074-aa2b-e951" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="61fe-f180-02a9-c296" import="true" name="Heirlooms of the Household" targetId="e424-3ef8-6287-881c" type="selectionEntryGroup"/>
-   </entryLinks>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="cf22-4ab3-1895-c2db" import="true" name="Heirlooms of the Household" publicationId="82cd-d24f-pubN65537">
+     <constraints>
+      <constraint field="selections" id="e075-51e3-f168-076e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="04d9-f3d2-89ac-22e1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="2a20-d142-9d2d-72b9" import="true" name="Heirlooms of the Household: 2 Extra Heirlooms" targetId="b0b1-a088-161c-0745" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="69af-1fbe-da7d-eeb2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="d179-07e8-6f10-6b78" import="true" name="Heirlooms of the Household: 1 Extra Heirloom" targetId="43e8-f5e3-963f-4333" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="8c9d-dede-6f8c-7e8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="pts" typeId="points" value="0.0"/>
@@ -6461,9 +7213,15 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
     <constraint field="selections" id="bd0a-720d-7af1-053d" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
     <constraint field="selections" id="d784-6b51-6c10-597d" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
-   <infoLinks>
-    <infoLink hidden="false" id="27b7-8bd4-2dd2-46fc" name="Freeblade Qualities and Burdens" targetId="ba27-ec97-12b7-a1de" type="rule"/>
-   </infoLinks>
+   <rules>
+    <rule hidden="false" id="5e66-a5de-c713-f173" name="Freeblade Qualities and Burdens" publicationId="82cd-d24f-pubN65537">
+     <description>
+      Se o seu exército for forjado na Batalha, então antes da batalha você pode dar um modelo FREEBLADE em cada Qualidades e Encargos do Destacamento. Para fazer isso, primeiro escolha uma única Qualidade da tabela abaixo ou role dois D6 para gerar aleatoriamente duas Qualidades da tabela (resultados duplicados não têm efeito). Depois de determinar as Qualidades do modelo, você deve então escolher duas cargas diferentes da tabela abaixo ou rolar um D6 para gerar aleatoriamente uma carga.
+
+Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no início de cada um de seus turnos, subtraindo 1 do resultado se o Freeblade tiver o fardo Exile in Shame. Se o resultado for menor do que a característica de Liderança do Freeblade, seus Fardos não se aplicam nesse turno. Se o resultado for igual ou superior a sua característica de Liderança, então seus Encargos se aplicam até o início do seu próximo turno.
+     </description>
+    </rule>
+   </rules>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="5daf-d153-8a86-1777" hidden="false" id="d228-13e7-0fe3-a6ac" import="true" name="Burdens">
      <constraints>
@@ -6475,9 +7233,46 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
        <constraints>
         <constraint field="selections" id="772f-f0c7-1120-8fa1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
-       <entryLinks>
-        <entryLink collective="false" hidden="false" id="158e-3651-b244-c244" import="true" name="Freeblade Burdens (Chosen)" targetId="3d16-0939-74d8-aa0e" type="selectionEntryGroup"/>
-       </entryLinks>
+       <selectionEntryGroups>
+        <selectionEntryGroup collective="false" hidden="false" id="c861-dd24-1ac6-bd4d" import="true" name="Freeblade Burdens (Chosen)" publicationId="82cd-d24f-pubN65537">
+         <constraints>
+          <constraint field="selections" id="252e-061e-826a-5cd4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+          <constraint field="selections" id="bee0-9cd6-1bdc-15ef" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+         </constraints>
+         <entryLinks>
+          <entryLink collective="false" hidden="false" id="6015-bb37-a21f-3770" import="true" name="Burden: Driven to Slaughter" targetId="3cc8-9a60-5777-7e11" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="fccb-51cf-69d6-1052" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="6619-c12a-dd75-e3f5" import="true" name="Burden: Weary Machine Spirit" targetId="6dde-36cf-6109-b787" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="1105-61d6-fd78-92f3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="fa8f-2606-25ef-2d35" import="true" name="Burden: Obsessed with Vengeance" targetId="b26e-0170-8e46-10c3" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="bb61-3d7e-141a-bc30" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="f7b1-d6c8-ddb6-6c1e" import="true" name="Burden: Haunted by Failure" targetId="9979-259b-b166-140d" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="8899-7ac5-e7bb-86cc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="1d32-529e-c651-4c6e" import="true" name="Burden: Impetuous Nature" targetId="ce4b-6334-02a0-a7f8" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="0fe3-ef9f-9b75-dd58" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="c931-f127-0816-fc4e" import="true" name="Burden: Exiled in Shame" targetId="10cc-4485-8461-fdce" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="1a02-72a6-0bb7-3b06" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+         </entryLinks>
+        </selectionEntryGroup>
+       </selectionEntryGroups>
        <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6580,9 +7375,46 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
        <constraints>
         <constraint field="selections" id="65a1-2657-fca0-8757" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
-       <entryLinks>
-        <entryLink collective="false" hidden="false" id="bf56-ade4-349a-b88d" import="true" name="Freeblade Qualities (Chosen)" targetId="96ba-7dc5-3144-7a70" type="selectionEntryGroup"/>
-       </entryLinks>
+       <selectionEntryGroups>
+        <selectionEntryGroup collective="false" hidden="false" id="a2d3-0f67-b1b6-7a35" import="true" name="Freeblade Qualities (Chosen)" page="" publicationId="82cd-d24f-pubN65537">
+         <constraints>
+          <constraint field="selections" id="7ad9-d16a-971b-e960" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="8850-88c1-9e9a-18d9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <entryLinks>
+          <entryLink collective="false" hidden="false" id="7634-15a6-7390-6f2f" import="true" name="Quality: Indomitable" targetId="071a-88f8-30cf-64a6" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="1a37-de89-768e-fdf3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="250e-77e2-4518-2701" import="true" name="!Quality: Sworn to a Quest" targetId="baa8-9595-3712-9dd1" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="e209-1cd9-a0b6-b6b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="ecf7-2943-558b-390f" import="true" name="!Quality: Mysterious Guardian" targetId="947f-b87a-7936-452b" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="1c1d-5529-e234-1af5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="55ac-4e12-55a2-e535" import="true" name="!Quality: Peerless Warrior" targetId="3fc5-1dd8-87b4-9332" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="7db1-7302-b65b-237d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="488d-b132-6107-5852" import="true" name="!Quality: Legendary Hero" targetId="4e58-bb7f-de9b-130a" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="4790-9225-e548-577d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+          <entryLink collective="false" hidden="false" id="8ea8-8326-b6c8-09f9" import="true" name="!Quality: Last of their Line" targetId="4857-0680-22a6-94ba" type="selectionEntry">
+           <constraints>
+            <constraint field="selections" id="84a9-cb6f-78bd-a329" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+           </constraints>
+          </entryLink>
+         </entryLinks>
+        </selectionEntryGroup>
+       </selectionEntryGroups>
        <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -6676,6 +7508,36 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
     <infoLink hidden="false" id="b3a7-b116-7f5e-5841" name="Cunning Commander" targetId="a263-9b9d-fee2-49da" type="profile">
      <modifiers>
       <modifier field="name" type="set" value="(Codex 1) Cunning Commander"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="7095-0302-d8cf-f124" name="Paragon of the Omnissiah" targetId="f9b0-4028-7591-202d" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(Mechanicus 1) Paragon of the Omnissiah"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="f970-24ac-06ae-50d9" name="Cold Eradication" targetId="54cd-8f72-9593-eb0e" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(Mechanicus 2) Cold Eradication"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="2d5b-7a53-a436-9b85" name="Calculated Targeting" targetId="0e5c-b583-df45-cae7" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(Mechanicus 3) Calculated Targeting"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="9efc-e1af-ed0b-7939" name="Revered Knight" targetId="f26c-51be-39b4-e750" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(Imperialis 1) Revered Knight"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="d6b8-7e57-f371-82a5" name="Strike and Shield" targetId="1c03-ee1c-42bd-c2ed" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(Imperialis 2) Strike and Shield"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="3db7-0aaf-0dc9-2af9" name="Tireless Duty" targetId="dea9-c5bd-e258-797a" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(Imperialis 3) Tireless Duty"/>
      </modifiers>
     </infoLink>
    </infoLinks>
@@ -6811,9 +7673,9 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b024-daf5-66a7-50c4" import="true" name="Character (Heirloom of the House)" type="upgrade">
    <modifiers>
-    <modifier field="b1f2-7df8-6772-11b0" type="increment" value="2">
+    <modifier field="b1f2-7df8-6772-11b0" type="increment" value="2.0">
      <conditions>
-      <condition childId="46a8-ba5d-46b0-12ad" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
+      <condition childId="b0b1-a088-161c-0745" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
      </conditions>
     </modifier>
     <modifier field="hidden" type="set" value="true">
@@ -6852,9 +7714,9 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="1e10-f41d-ef8a-a6dc" import="true" name="Character (Exalted Court)" type="upgrade">
    <modifiers>
-    <modifier field="d74c-92d6-fe36-11da" type="increment" value="2">
+    <modifier field="d74c-92d6-fe36-11da" type="increment" value="2.0">
      <conditions>
-      <condition childId="2840-9b26-25f3-3cbb" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
+      <condition childId="5fac-c041-e302-f2e0" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
      </conditions>
     </modifier>
     <modifier field="hidden" type="set" value="true">
@@ -6911,7 +7773,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
        2D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao atacar com esta arma, você deve subtrair 1 do jogada de acerto. Trate qualquer dano menor que 6 feito com esta arma como 6. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.
+       Ao atacar com esta arma, você deve subtrair 1 da jogada de acerto. Trate qualquer dano menor que 6 feito com esta arma como 6. Se um VEÍCULO ou MONSTRO é morto por esta arma, escolha uma unidade inimiga a no máximo 9" do portador e role um D6. Em um 4+ aquela unidade sofre D3 Ferimentos Mortais.
       </characteristic>
      </characteristics>
     </profile>
@@ -7104,6 +7966,19 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
       <constraint field="selections" id="2e5a-a95a-3d40-fb56" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="cc1c-8c05-f7d5-57fa" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="eba3-a9c9-f326-7e47" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="cbc5-4cb0-5931-a7c2" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="42.0"/>
@@ -7503,6 +8378,19 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
       <constraint field="selections" id="c381-d628-7a1c-5953" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="8098-da5f-1507-76bf" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="ef18-746a-369f-43a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <constraints>
+      <constraint field="selections" id="3c74-0edb-af25-fe68" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+    </entryLink>
+    <entryLink collective="false" hidden="false" id="26ce-5fa6-1cdd-89ef" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
@@ -7700,6 +8588,705 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
    </costs>
   </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="a3de-c3ee-0ca8-2148" import="true" name="Shock Blast" publicationId="28ec-711c-pubN91434" type="upgrade">
+   <profiles>
+    <profile hidden="false" id="345e-8d55-9d82-b9a8" name="Shock Blast" publicationId="ddcc-9444-870e-9593" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+     <characteristics>
+      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+       18"
+      </characteristic>
+      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+       Heavy 6
+      </characteristic>
+      <characteristic name="S" typeId="59b1-319e-ec13-d466">
+       6
+      </characteristic>
+      <characteristic name="AP" typeId="75aa-a838-b675-6484">
+       -1
+      </characteristic>
+      <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+       D3
+      </characteristic>
+      <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+       -
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="155a-7ab4-c18b-d479" import="true" name="Warlord Trait (Mechanicus): Paragon of the Omnissiah" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="0730-31fe-e28e-f976" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="a9d3-d19c-dd58-4b51" name="Paragon of the Omnissiah" targetId="f9b0-4028-7591-202d" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="626a-39bb-f2b1-64fc" import="true" name="Warlord Trait (Imperialis): Revered Knight" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="06a3-d078-1e8e-becd" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="60d3-e961-59a7-0c3f" name="Revered Knight" targetId="f26c-51be-39b4-e750" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="fcef-43f3-3e26-34e2" import="true" name="Warlord Trait (Mechanicus): Cold Eradication" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="ed74-3353-2259-76a0" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="dc76-c9fe-ecec-07c9" name="Cold Eradication" targetId="54cd-8f72-9593-eb0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="8749-ede7-144a-def5" import="true" name="Warlord Trait (Mechanicus): Calculated Targeting" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="6fc1-9944-851d-eb76" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="6e28-d9da-6617-75ce" name="Calculated Targeting" targetId="0e5c-b583-df45-cae7" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="080e-b884-a03e-e9d9" import="true" name="Warlord Trait (Imperialis): Strike and Shield" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="3af4-f532-b642-6eeb" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="5478-14c8-3a25-4b38" name="Strike and Shield" targetId="1c03-ee1c-42bd-c2ed" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="9c42-4676-39ed-a12f" import="true" name="Warlord Trait (Imperialis): Tireless Duty" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="f50d-11a8-6184-0615" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="39bf-fcb2-9c7b-4ac8" name="Tireless Duty" targetId="dea9-c5bd-e258-797a" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="9847-946f-0f85-1466" import="true" name="Warlord Trait (Cadmus): Vereran of Gryphonne IV" publicationId="82cd-d24f-pubN65537" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="a653-be86-24d6-28aa" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="0dda-d449-f694-3d6b" name="Vereran of Gryphonne IV" targetId="09f9-ddb3-cd79-018a" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="e29a-7613-ced4-78bf" import="true" name="Household Tradition: Stormstriders" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="bb73-2057-c62a-efbb" name="Stormstriders" targetId="df0f-b046-c1c7-a136" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="625d-21a7-d156-a65e" import="true" name="Household Tradition (Counts as 2): Shattered Empire Stalkers" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="5691-a0dd-3f98-319e" name="!Shattered Empire Stalkers*" targetId="7564-081e-7a84-a31e" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="fb85-ae78-2f78-7f1d" import="true" name="Household Tradition: Sanctified Armour" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="d0ba-a554-7dc8-4cde" name="Sanctified Armour" targetId="e9ac-35ec-39d2-5ea7" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="90fd-c494-d317-0a87" import="true" name="Household Tradition: Glorified History" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="a1bd-5f0e-6f36-ed19" name="Glorified History" targetId="eac2-3a2d-b29d-00ad" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="81cd-0643-6a4e-568e" import="true" name="Household Tradition: Slayers of Beasts" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="1ad1-931e-5701-4417" name="Slayers of Beasts" targetId="5fc9-ee5e-dbd0-5577" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="92d1-8e1a-3fd7-0271" import="true" name="Household Tradition: Defiant Fury" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="c16a-0fbd-c4cb-0712" name="Defiant Fury" targetId="88cc-48fb-5fef-0eb5" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="ea48-602e-1fd0-605e" import="true" name="Household Tradition: Blessed Arms" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="ff2d-e053-3588-5802" name="Blessed Arms" targetId="c781-0e3d-fa0f-22c1" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="bfe7-389b-659d-1306" import="true" name="Household Tradition: Aggressive Persecution" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="bb86-c55d-532e-89a3" name="Aggressive Persecution" targetId="cdb4-9343-c6cc-9b24" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="b535-9f63-551a-9750" import="true" name="Household Tradition: Steel-sinewed Aim" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="cd73-1426-16b1-0095" name="Steel-sinewed Aim" targetId="25b2-5864-22ab-b09b" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="2f53-8db7-4ec4-a19e" import="true" name="Household Tradition: Front-line Fighters" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="d643-b998-6c73-ed0e" name="Front-line Fighters" targetId="6081-9c38-98b6-2b18" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="5492-a0fe-f9bb-003b" import="true" name="Household Tradition: Guardians of the Frontier" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="b345-8f7f-fac7-c6d8" name="Guardians of the Frontier" targetId="44ca-b175-18fc-635f" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="8164-502c-31d9-86d4" import="true" name="Household Tradition: Exacting Charge" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="b999-f002-514e-2baf" name="Exacting Charge" targetId="56a8-f73d-77c8-b99e" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="2190-d837-6331-6125" import="true" name="Household Tradition: Noble Combatants" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="5c9f-7740-172c-fe35" name="Noble Combatants" targetId="5857-2a54-1be6-7903" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="dbae-9cc3-ffb7-0d30" import="true" name="Household Tradition: Hounds of War" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="b4cc-2f3c-c574-69ff" name="Hounds of War" targetId="a5a8-825c-8c66-c793" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="e664-8a50-e6e3-27b5" import="true" name="Household Tradition (Counts as 2): Hunters of the Unseen" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="99c0-f692-1a38-bf7b" name="!Hunters of the Unseen*" targetId="f298-87aa-b1d8-e7f9" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="2fde-9f81-ea94-27af" import="true" name="Household Tradition (Counts as 2): Unremitting" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="a800-cea2-b82c-f0c0" name="!Unremitting*" targetId="dcb7-0bdf-6a5d-d701" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="b96e-234a-1783-2015" import="true" name="Household Tradition (Counts as 2): Pains of Old Night" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="97a8-e229-55c0-d673" name="!Pains of Old Night*" targetId="b999-8737-2a1e-cbf4" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="2a6c-361a-0b02-a132" import="true" name="Household Tradition (Counts as 2): Machine Focus" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="bee6-8172-7617-4a52" name="!Machine Focus*" targetId="14e4-22e5-9912-b0aa" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="26a8-5c56-6aeb-dd33" import="true" name="Household Tradition (Counts as 2): Survivors of Strife" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="7831-0598-e558-9328" name="!Survivors of Strife*" targetId="9f5d-5f43-a7f3-b8eb" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="6616-58ab-87e5-45d7" import="true" name="Household Tradition (Counts as 2): Honoured Sacristans" publicationId="ecea-8b62-fefb-9f8e" type="upgrade">
+   <modifiers>
+    <modifier field="name" type="set" value="Household Tradition: None">
+     <conditions>
+      <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="6975-8884-1926-9422" name="!Honoured Sacristans*" targetId="61c1-666d-b128-d7a4" type="profile">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="1378-7ed6-3271-7431" import="true" name="[Reference] Household Traditions (All)" publicationId="82cd-d24f-pubN65537" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="8dd0-1268-8be6-8270" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="b406-a6e3-5aea-b11d" name="Gallant Warriors" targetId="03b8-43e8-360e-f44e" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Terryn) Gallant Warriors"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="37fe-0ca4-a814-1149" name="Oathkeepers" targetId="8452-4728-7f81-9a8a" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Hawkshroud) Oathkeepers"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="6e67-f4bc-f148-5096" name="Hunters of the Foe" targetId="1962-f864-3a6b-7529" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Cadmus) Hunters of the Foe"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="e249-cf75-ba38-367a" name="Glory of the Charge" targetId="a2ac-9014-671c-2f43" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Griffith) Glory of the Charge"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="09c4-d71b-836a-3f84" name="Relentless Advance" targetId="fd9a-9acd-1f1e-2d63" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Raven) Relentless Advance"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="3ecc-e2db-db42-b15b" name="Omnissiah's Grace" targetId="cbca-2ab0-4b71-939c" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Taranis) Omnissiah's Grace"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="c6de-2329-3661-19e3" name="Cold Fury" targetId="b926-5885-f957-b6ae" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Krast) Cold Fury"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="5379-5309-189a-1d8f" name="Firestorm Protocols" targetId="d965-eda5-7264-bf82" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Vulker) Firestorm Protocols"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="79f7-ca2b-f0e5-b01f" name="Close-Quarters Killers" targetId="2fce-ca27-e931-e29b" type="profile">
+     <modifiers>
+      <modifier field="name" type="set" value="(House Mortan) Close-Quarters Killers"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="99d9-fd2b-8741-c2d4" name="Aggressive Persecution" targetId="cdb4-9343-c6cc-9b24" type="profile"/>
+    <infoLink hidden="false" id="ab11-5d50-4246-d347" name="Blessed Arms" targetId="c781-0e3d-fa0f-22c1" type="profile"/>
+    <infoLink hidden="false" id="87d0-53b9-ca5b-f468" name="Glorified History" targetId="eac2-3a2d-b29d-00ad" type="profile"/>
+    <infoLink hidden="false" id="17a9-6dbf-4d9a-ea4d" name="Unremitting" targetId="dcb7-0bdf-6a5d-d701" type="profile"/>
+    <infoLink hidden="false" id="c243-2534-7819-a767" name="Shattered Empire Stalkers" targetId="7564-081e-7a84-a31e" type="profile"/>
+    <infoLink hidden="false" id="471c-efbf-e4ac-f0cf" name="Slayers of Beasts" targetId="5fc9-ee5e-dbd0-5577" type="profile"/>
+    <infoLink hidden="false" id="6381-20c1-9892-95d9" name="Hunters of the Unseen" targetId="f298-87aa-b1d8-e7f9" type="profile"/>
+    <infoLink hidden="false" id="0147-6192-fcd2-8f49" name="Defiant Fury" targetId="88cc-48fb-5fef-0eb5" type="profile"/>
+    <infoLink hidden="false" id="4bb9-42bf-f49c-1871" name="Stormstriders" targetId="df0f-b046-c1c7-a136" type="profile"/>
+    <infoLink hidden="false" id="1643-ceca-aba2-4991" name="Hounds of War" targetId="a5a8-825c-8c66-c793" type="profile"/>
+    <infoLink hidden="false" id="9f12-9e20-ef16-53f5" name="Noble Combatants" targetId="5857-2a54-1be6-7903" type="profile"/>
+    <infoLink hidden="false" id="f3ce-eb81-eb12-fc1f" name="Exacting Charge" targetId="56a8-f73d-77c8-b99e" type="profile"/>
+    <infoLink hidden="false" id="b1ef-bdf3-8c85-5f55" name="Honoured Sacristans" targetId="61c1-666d-b128-d7a4" type="profile"/>
+    <infoLink hidden="false" id="4da5-9f59-563c-8218" name="Survivors of Strife" targetId="9f5d-5f43-a7f3-b8eb" type="profile"/>
+    <infoLink hidden="false" id="5d03-0bd6-c53b-3683" name="Pains of Old Night" targetId="b999-8737-2a1e-cbf4" type="profile"/>
+    <infoLink hidden="false" id="1f67-b3aa-3b02-2f36" name="Machine Focus" targetId="14e4-22e5-9912-b0aa" type="profile"/>
+    <infoLink hidden="false" id="cc39-8792-f346-e186" name="Guardians of the Frontier" targetId="44ca-b175-18fc-635f" type="profile"/>
+    <infoLink hidden="false" id="8c52-8797-f689-8f63" name="Front-line Fighters" targetId="6081-9c38-98b6-2b18" type="profile"/>
+    <infoLink hidden="false" id="1be1-81da-636d-3c22" name="Steel-sinewed Aim" targetId="25b2-5864-22ab-b09b" type="profile"/>
+    <infoLink hidden="false" id="40e6-7296-a0d4-e1e8" name="Sanctified Armour" targetId="e9ac-35ec-39d2-5ea7" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
   <selectionEntryGroup collective="false" hidden="false" id="8a10-ffae-4091-99d9" import="true" name="Questoris Carapace Weapons">
@@ -7707,7 +9294,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
     <constraint field="selections" id="b9e1-fea6-9a7c-d5be" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="8ab9-598f-a8b8-ffc5" import="true" name="Ironstorm missile pod" targetId="61a4-5046-5328-e81f" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="8ab9-598f-a8b8-ffc5" import="true" name="Ironstorm Missile Pod" targetId="61a4-5046-5328-e81f" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="0ec8-6202-ae87-b612" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
@@ -7760,7 +9347,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
     <constraint field="selections" id="53f8-801b-6632-635a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
    </constraints>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="6771-8104-c50c-f53f" import="true" name="Reaper chainsword" targetId="c239-09b7-6bfc-4ab8" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="6771-8104-c50c-f53f" import="true" name="Reaper Chainsword" targetId="c239-09b7-6bfc-4ab8" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="823b-81ce-3fb1-a3b7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
@@ -7772,118 +9359,6 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
     </entryLink>
    </entryLinks>
   </selectionEntryGroup>
-  <selectionEntryGroup collective="false" hidden="false" id="3d16-0939-74d8-aa0e" import="true" name="Freeblade Burdens (Chosen)" publicationId="82cd-d24f-pubN65537">
-   <constraints>
-    <constraint field="selections" id="7546-5385-1226-91d0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
-    <constraint field="selections" id="485c-0a37-2202-4986" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="e67b-af25-b25e-a5c8" import="true" name="Burden: Driven to Slaughter" targetId="3cc8-9a60-5777-7e11" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="3fde-d101-7b2f-6b0d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="64df-630d-b1d8-7842" import="true" name="!Burden: Weary Machine Spirit" targetId="6dde-36cf-6109-b787" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="11c0-609f-b63c-9a37" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="8217-e913-abe3-04ac" import="true" name="!Burden: Obsessed with Vengeance" targetId="b26e-0170-8e46-10c3" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="b76d-6138-dd30-bf3b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="00c5-a14e-5232-ad50" import="true" name="!Burden: Haunted by Failure" targetId="9979-259b-b166-140d" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="91eb-66c7-74a2-7f8a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="2ca3-e6a7-8041-b4a1" import="true" name="!Burden: Impetuous Nature" targetId="ce4b-6334-02a0-a7f8" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="7485-c5ef-69b8-321b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="e169-d0de-39e6-abf5" import="true" name="!Burden: Exiled in Shame" targetId="10cc-4485-8461-fdce" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="996a-b49c-ef0c-b401" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" defaultSelectionEntryId="7b07-6fa9-23a5-eb56" hidden="false" id="96ba-7dc5-3144-7a70" import="true" name="Freeblade Qualities (Chosen)" page="" publicationId="82cd-d24f-pubN65537">
-   <constraints>
-    <constraint field="selections" id="ec82-e7bc-5863-f9e9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-    <constraint field="selections" id="55e3-fd09-20b6-fb2e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="7b07-6fa9-23a5-eb56" import="true" name="Quality: Indomitable" targetId="071a-88f8-30cf-64a6" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="be45-c21a-cc24-2cdb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="2186-b33d-ad56-fb3d" import="true" name="!Quality: Sworn to a Quest" targetId="baa8-9595-3712-9dd1" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="58bd-dd8e-627b-8766" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="4b56-1800-2cd7-861b" import="true" name="!Quality: Mysterious Guardian" targetId="947f-b87a-7936-452b" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="950a-584a-585a-44d3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="447c-b570-c418-265a" import="true" name="!Quality: Peerless Warrior" targetId="3fc5-1dd8-87b4-9332" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="9fb6-ae2e-3402-63bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="b353-aee9-42f0-8837" import="true" name="!Quality: Legendary Hero" targetId="4e58-bb7f-de9b-130a" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="da6c-42ab-b40b-a149" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="3406-9a4f-f486-172e" import="true" name="!Quality: Last of their Line" targetId="4857-0680-22a6-94ba" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="e46c-a12f-412d-0e1d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" defaultSelectionEntryId="83ec-ac6e-1cd7-f7f5" hidden="false" id="e424-3ef8-6287-881c" import="true" name="Heirlooms of the Household" publicationId="82cd-d24f-pubN65537">
-   <constraints>
-    <constraint field="selections" id="158f-10ab-7585-0959" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-    <constraint field="selections" id="167d-e7b8-0a7c-07c8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="46a8-ba5d-46b0-12ad" import="true" name="Heirlooms of the Household: 2 Extra Heirlooms (-3CP)" targetId="b0b1-a088-161c-0745" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="9fa2-92d2-76ba-071b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="83ec-ac6e-1cd7-f7f5" import="true" name="Heirlooms of the Household: 1 Extra Heirloom (-1CP)" targetId="43e8-f5e3-963f-4333" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="41b9-eb06-5e59-c030" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" defaultSelectionEntryId="f4bd-7000-3df2-4807" hidden="false" id="0871-a553-58c5-0642" import="true" name="Exalted Court" publicationId="82cd-d24f-pubN65537">
-   <constraints>
-    <constraint field="selections" id="e792-a2e1-6e14-fd08" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-    <constraint field="selections" id="b165-247e-af15-ec55" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="f4bd-7000-3df2-4807" import="true" name="Exalted Court: 1 Extra Warlord Trait (-1CP)" targetId="cfd0-ba68-323d-b19f" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="49bc-2186-d9c4-37f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="2840-9b26-25f3-3cbb" import="true" name="!Exalted Court: 2 Extra Warlord Traits (-3CP)" targetId="5fac-c041-e302-f2e0" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="eb76-406b-9ade-3795" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
   <selectionEntryGroup collective="false" hidden="false" id="b41b-99f7-d7c3-66ee" import="true" name="Heirlooms of the Noble Houses">
    <modifiers>
     <modifier field="136b-91e1-d600-60e3" type="increment" value="1">
@@ -7891,7 +9366,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
       <condition childId="43e8-f5e3-963f-4333" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
      </conditions>
     </modifier>
-    <modifier field="136b-91e1-d600-60e3" type="increment" value="2">
+    <modifier field="136b-91e1-d600-60e3" type="increment" value="2.0">
      <conditions>
       <condition childId="b0b1-a088-161c-0745" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
      </conditions>
@@ -7905,7 +9380,7 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
      <conditionGroups>
       <conditionGroup type="and">
        <conditions>
-        <condition childId="3eeb-dbc8-8886-5ad4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="b024-daf5-66a7-50c4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="lessThan" value="1.0"/>
        </conditions>
        <conditionGroups>
         <conditionGroup type="or">
@@ -8193,247 +9668,87 @@ As unidades de INFANTARIA que estão inteiramente em uma estrutura do Setor Mec�
       <constraint field="selections" id="ad46-8797-e09f-c0e4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="7b76-0fe1-247a-a205" import="true" name="Warlord Trait (Cadmus): Vereran of Gryphonne IV" targetId="d0ab-1822-7a8b-874b" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="57d1-a30a-7587-8066" import="true" name="Warlord Trait (Imperialis): Strike and Shield" targetId="080e-b884-a03e-e9d9" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
        <conditions>
-        <condition childId="1a3e-2757-cab2-5bde" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
      <constraints>
-      <constraint field="selections" id="7350-ef34-c348-d2a6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-      <constraint field="selections" id="3288-7223-eaca-78e3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="f203-38c6-be3a-5d67" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="72eb-bc10-9747-222b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" hidden="false" id="40e9-fb6e-09fd-ed2f" import="true" name="Household">
-   <constraints>
-    <constraint field="selections" id="ff96-f760-b529-f71b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-    <constraint field="selections" id="1802-7aac-5e08-2d49" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="80ff-c6a8-a1a3-9747" import="true" name="House Cadmus" targetId="1a3e-2757-cab2-5bde" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="8936-11ba-2a51-7f1b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="eced-f682-5064-02e6" import="true" name="House Hawkshroud" targetId="c430-2abc-7440-ea3d" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="004b-a7f0-31ef-a569" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="4b0e-f00f-4d3d-f41e" import="true" name="House Terryn" targetId="643d-392f-e1cb-8739" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="f9f1-3607-cbfd-764e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="ce1b-f5f2-63f9-3bc0" import="true" name="House Griffith" targetId="46c4-d7d5-e181-3d7c" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="3c05-bdf1-5fa5-e0f9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="059c-5ec0-4b22-2305" import="true" name="House Mortan" targetId="f648-9f71-21e9-7b3a" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="1751-35ea-53c5-e372" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="e15f-6c58-6f22-1746" import="true" name="House Krast" targetId="c611-7ad7-b2d5-4c22" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="e647-87e7-4d18-ae95" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="2158-89ec-44a6-4786" import="true" name="House Raven" targetId="3be9-ae63-fcc3-8c2c" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="1ca4-01d5-5010-03d3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="b0dd-69bb-a797-3ce8" import="true" name="House Taranis" targetId="9bf4-333b-a60a-49f4" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="23ed-f64d-1db1-0d58" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="9869-d2d4-722a-c06f" import="true" name="House Vulker" targetId="33f6-664b-bd3a-4f1d" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="f138-d8a3-ed1b-8ea5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="a93b-20f8-dc96-fc91" import="true" name="House &lt;Custom&gt;" targetId="e7b7-7e60-d76d-15fc" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="b46e-4e86-d652-e0a4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" defaultSelectionEntryId="b79d-6131-6c08-cdfc" hidden="false" id="4a46-5e8f-6bcc-dc4f" import="true" name="Allegiance">
-   <constraints>
-    <constraint field="selections" id="43e2-ee2f-657b-a8e9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-    <constraint field="selections" id="3ace-ed35-387b-d718" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="b79d-6131-6c08-cdfc" import="true" name="Questor Imperialis" targetId="0331-f3d9-7e76-8298" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="c5b4-ff70-5525-fa1f" import="true" name="Questor Mechanicus" targetId="05dc-b991-1a99-40e6" type="selectionEntry"/>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" hidden="false" id="d0c9-be02-2a4e-6239" import="true" name="Household Tradition">
-   <modifiers>
-    <modifier field="hidden" type="set" value="true">
-     <conditionGroups>
-      <conditionGroup type="or">
-       <conditions>
-        <condition childId="e7b7-7e60-d76d-15fc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
-        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
-       </conditions>
-      </conditionGroup>
-     </conditionGroups>
-    </modifier>
-    <modifier field="63ca-d26a-7e72-06b9" type="set" value="0">
-     <conditionGroups>
-      <conditionGroup type="or">
-       <conditions>
-        <condition childId="e7b7-7e60-d76d-15fc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
-        <condition childId="d513-cbf5-9bfc-7270" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="notInstanceOf" value="1.0"/>
-       </conditions>
-      </conditionGroup>
-     </conditionGroups>
-    </modifier>
-   </modifiers>
-   <constraints>
-    <constraint field="selections" id="72cb-de4c-93fd-6acc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-    <constraint field="selections" id="63ca-d26a-7e72-06b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="8fcd-20e9-e25a-0b8d" import="true" name="Household Tradition: Gallant Warriors" targetId="f799-da81-8e33-486f" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="bf94-14d0-5b7e-909a" import="true" name="Warlord Trait (Imperialis): Tireless Duty" targetId="9c42-4676-39ed-a12f" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
        <conditions>
-        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
      <constraints>
-      <constraint field="selections" id="3501-89b0-5cb3-805d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="5c6c-e32d-4515-779a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="9341-86d2-a8da-5ac7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="f7fc-f139-e94f-1d1e" import="true" name="Household Tradition: Glory of the Charge" targetId="4e80-5172-db74-d245" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="9577-078a-0cff-6763" import="true" name="Warlord Trait (Imperialis): Revered Knight" targetId="626a-39bb-f2b1-64fc" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
        <conditions>
-        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
      <constraints>
-      <constraint field="selections" id="b0a2-dc15-8978-88b0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="5b2f-8bd9-1c65-db4e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="1bb8-4832-e2fc-4fcf" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="1383-ae05-ed10-df45" import="true" name="Household Tradition: Close-Quarters Killers" targetId="8b05-b932-2769-f64e" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="1973-5b46-9357-7ef7" import="true" name="Warlord Trait (Mechanicus): Cold Eradication" targetId="fcef-43f3-3e26-34e2" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
        <conditions>
-        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
      <constraints>
-      <constraint field="selections" id="eacb-5b0b-f854-436f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="aa29-c4a4-4e1c-be9e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="9a1d-d843-0d67-ce84" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="7270-a261-d6b1-7310" import="true" name="Household Tradition: Hunters of the Foe" targetId="4a3a-0d9f-3435-a5eb" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="1fe1-ad5b-da04-c009" import="true" name="Warlord Trait (Mechanicus): Calculated Targeting" targetId="8749-ede7-144a-def5" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
        <conditions>
-        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
      <constraints>
-      <constraint field="selections" id="e53e-0714-c2ae-382e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="b6be-680f-3d69-9a43" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="dc05-b182-150e-a750" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="880b-cb6d-d63b-1915" import="true" name="Household Tradition: Oathkeepers" targetId="8822-84d6-96ee-4680" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="a530-197e-22ca-9043" import="true" name="Warlord Trait (Mechanicus): Paragon of the Omnissiah" targetId="155a-7ab4-c18b-d479" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
        <conditions>
-        <condition childId="0331-f3d9-7e76-8298" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
+        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
      <constraints>
-      <constraint field="selections" id="9f24-d205-02d3-f497" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="a05e-1d0c-a2af-c508" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="71c6-1bff-1596-f304" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="b653-131f-cd85-9844" import="true" name="Household Tradition: Relentless Advance" targetId="0958-f61f-8933-2c50" type="selectionEntry">
-     <modifiers>
-      <modifier field="hidden" type="set" value="true">
-       <conditions>
-        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
-       </conditions>
-      </modifier>
-     </modifiers>
-     <constraints>
-      <constraint field="selections" id="7251-fa52-85ec-b625" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="2310-aca6-0846-4f19" import="true" name="Household Tradition: Omnissiah's Grace" targetId="29f1-d766-fae8-6f0c" type="selectionEntry">
-     <modifiers>
-      <modifier field="hidden" type="set" value="true">
-       <conditions>
-        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
-       </conditions>
-      </modifier>
-     </modifiers>
-     <constraints>
-      <constraint field="selections" id="e20f-eb5f-5052-1d5a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="dca0-90cf-ca6a-ca9c" import="true" name="Household Tradition: Firestorm Protocols" targetId="7967-fd17-eedc-4c06" type="selectionEntry">
-     <modifiers>
-      <modifier field="hidden" type="set" value="true">
-       <conditions>
-        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
-       </conditions>
-      </modifier>
-     </modifiers>
-     <constraints>
-      <constraint field="selections" id="053c-6a79-7b2b-d358" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-    <entryLink collective="false" hidden="false" id="355b-696b-0dc2-cb55" import="true" name="Household Tradition: Cold Fury" targetId="eb48-0271-3b6c-aa85" type="selectionEntry">
-     <modifiers>
-      <modifier field="hidden" type="set" value="true">
-       <conditions>
-        <condition childId="05dc-b991-1a99-40e6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="lessThan" value="1.0"/>
-       </conditions>
-      </modifier>
-     </modifiers>
-     <constraints>
-      <constraint field="selections" id="a39c-9589-b4e1-d01d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-    </entryLink>
-   </entryLinks>
-  </selectionEntryGroup>
-  <selectionEntryGroup collective="false" defaultSelectionEntryId="f6e2-a311-2fe0-49a6" hidden="false" id="d0e8-471a-ff1b-c0eb" import="true" name="Freeblade Allegiance">
-   <constraints>
-    <constraint field="selections" id="452c-4e2d-d13e-9b83" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-    <constraint field="selections" id="ede5-a8f1-1b0c-e83d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-   </constraints>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="f6e2-a311-2fe0-49a6" import="true" name="Freeblade Questor Imperialis" targetId="6a57-dab7-ec3c-4625" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="6492-e547-c719-782c" import="true" name="Freeblade Questor Mechanicus" targetId="3d27-e216-2483-792d" type="selectionEntry"/>
    </entryLinks>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>
- <sharedRules>
-  <rule hidden="false" id="ba27-ec97-12b7-a1de" name="Freeblade Qualities and Burdens" publicationId="82cd-d24f-pubN65537">
-   <description>
-    Se o seu exército for forjado na Batalha, então antes da batalha você pode dar um modelo FREEBLADE em cada Qualidades e Encargos do Destacamento. Para fazer isso, primeiro escolha uma única Qualidade da tabela abaixo ou role dois D6 para gerar aleatoriamente duas Qualidades da tabela (resultados duplicados não têm efeito). Depois de determinar as Qualidades do modelo, você deve então escolher duas cargas diferentes da tabela abaixo ou rolar um D6 para gerar aleatoriamente uma carga.
-
-Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no início de cada um de seus turnos, subtraindo 1 do resultado se o Freeblade tiver o fardo Exile in Shame. Se o resultado for menor do que a característica de Liderança do Freeblade, seus Fardos não se aplicam nesse turno. Se o resultado for igual ou superior a sua característica de Liderança, então seus Encargos se aplicam até o início do seu próximo turno.
-   </description>
-  </rule>
- </sharedRules>
  <sharedProfiles>
   <profile hidden="false" id="383d-e9e6-b605-f6a9" name="Explodes" publicationId="82cd-d24f-pubN65537" typeId="a8d9-0b84-1b10-5a8f" typeName="Explosion">
    <characteristics>
@@ -8462,24 +9777,10 @@ Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no in�
     </characteristic>
    </characteristics>
   </profile>
-  <profile hidden="false" id="9d73-c55c-3048-df16" name="Blessed Autosimulacra" publicationId="ddcc-9444-870e-9593" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-   <characteristics>
-    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     No início de cada um dos seus turnos, role um D6; no resultado de 5+ o modelo cura uma ferida.
-    </characteristic>
-   </characteristics>
-  </profile>
   <profile hidden="false" id="c2ec-9728-e39b-11df" name="Ionic Flare Shield" publicationId="ddcc-9444-870e-9593" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
      Este modelo tem uma defesa invulnerável de 5+.
-    </characteristic>
-   </characteristics>
-  </profile>
-  <profile hidden="false" id="869a-af45-3ca3-43a9" name="Ion Gauntlet Shield" publicationId="ddcc-9444-870e-9593" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-   <characteristics>
-    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Este modelo tem um salvamento invulnerável de mais de 5. Isso aumenta para 4+ invulnerável de salvamento contra ataques feitos com armas brancas. Além disso, subtraia 1 das jogadas de acerto para ataques feitos com armas brancas por unidades TITANIC que visam esse modelo.
     </characteristic>
    </characteristics>
   </profile>
@@ -8764,27 +10065,6 @@ Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no in�
     </characteristic>
    </characteristics>
   </profile>
-  <profile hidden="false" id="686d-11be-ed9b-a649" name="Tenacious Survivor" publicationId="82cd-d24f-pubN82337" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
-   <characteristics>
-    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
-     Jogue um dado cada vez que este Warlord perder um Ponto de Vida. Em um 6, o Warlord evita o dano e não perde a ferida.
-    </characteristic>
-   </characteristics>
-  </profile>
-  <profile hidden="false" id="d72b-16c2-f129-916e" name="Inspiring Leader" publicationId="82cd-d24f-pubN82337" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
-   <characteristics>
-    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
-     Unidades aliadas ​​a no máximo 6" deste Warlord podem adicionar 1 à sua característica de Liderança.
-    </characteristic>
-   </characteristics>
-  </profile>
-  <profile hidden="false" id="d1dd-c7ad-e0fd-31ed" name="Legendary Fighter" publicationId="82cd-d24f-pubN82337" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
-   <characteristics>
-    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
-     Se este Warlord atacar na fase de carga, acrescente 1 à sua característica de ataque até o final da fase de combate subsequente.
-    </characteristic>
-   </characteristics>
-  </profile>
   <profile hidden="false" id="e77c-3ffc-f26e-96ca" name="Landstrider" publicationId="82cd-d24f-pubN65537" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
    <characteristics>
     <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
@@ -8808,10 +10088,209 @@ Se um Freeblade do seu exército tiver algum Burdens, jogue 2D6 para eles no in�
   <profile hidden="false" id="3601-07ca-05b9-d2ec" name="Vehicle Squadron" publicationId="82cd-d24f-pubN65537" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Quando esta unidade é instalada, todos os seus modelos devem ser colocados a 10 cm um do outro.
-Nesse ponto em diante, cada um opera de forma independente e é tratado como uma unidade separada.
+     Quando este aparelho é configurado, todos os seus modelos deve ser colocado dentro de 6" de cada outro. A partir desse ponto em diante, cada um, independentemente, opera e é tratado como uma unidade separada.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="b9b9-92f8-a081-9524" name="Sacristan Pledge" publicationId="ecea-8b62-fefb-9f8e" typeId="b797-3df8-cff8-b29f" typeName="Allegiance Oath">
+   <characteristics>
+    <characteristic name="Description" typeId="01d0-a64f-195c-598f">
+     No início de seu turno, um modelo com este Juramento Questor Allegiance recupera 1 ferida perdida.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="28a0-3aa5-799b-71b0" name="Vow of Honour" publicationId="ecea-8b62-fefb-9f8e" typeId="b797-3df8-cff8-b29f" typeName="Allegiance Oath">
+   <characteristics>
+    <characteristic name="Description" typeId="01d0-a64f-195c-598f">
+     Adicionar uma para avançar e carga rolos feitos de um modelo com este Juramento Questor fidelidade. Este não é cumulativo com quaisquer modificadores otehr (por exemplo) Landstrider
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="f9b0-4028-7591-202d" name="Paragon of the Omnissiah" publicationId="ecea-8b62-fefb-9f8e" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
+   <characteristics>
+    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
+     Adicionar 2 a Wounds característica deste Warlord.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="54cd-8f72-9593-eb0e" name="Cold Eradication" publicationId="ecea-8b62-fefb-9f8e" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
+   <characteristics>
+    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
+     Ao determinar o número de ataques este Warlord faz com uma arma que tem um número aleatório de ataques (por exemplo, pesado D6), um rolo de dados adicionais e um descarte dos dados.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="f26c-51be-39b4-e750" name="Revered Knight" publicationId="ecea-8b62-fefb-9f8e" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
+   <characteristics>
+    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
+     Este Warlord sempre luta pela primeira vez na fase de luta, mesmo que não cobrar. Se o inimigo tem unidades que têm cobrado ou que têm uma capacidade similar, então unidades Escolhendo alternativas para combater com, começando com o jogador da vez está ocorrendo.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="0e5c-b583-df45-cae7" name="Calculated Targeting" publicationId="ecea-8b62-fefb-9f8e" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
+   <characteristics>
+    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
+     Ao resolver um ataque feito com uma arma de longo alcance por este Warlord (excluindo Overwatch), um rolo hit não modificada do 4+ sempre é bem sucedida.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="1c03-ee1c-42bd-c2ed" name="Strike and Shield" publicationId="ecea-8b62-fefb-9f8e" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
+   <characteristics>
+    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
+     Ao resolver um ataque feito com uma arma branca contra esta Warlord, subtraia 1 do rolo hit. Enquanto uma unidade inimiga fica a 1" deste Warlord, subtrair 1 dos ataques característicos de cada modelo de veículo ou MONSTER nessa unidade.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="dea9-c5bd-e258-797a" name="Tireless Duty" publicationId="ecea-8b62-fefb-9f8e" typeId="b2ac-1cb8-8f3c-8ded" typeName="Warlord Trait">
+   <characteristics>
+    <characteristic name="Description" typeId="f9f0-1b0a-0e16-84b3">
+     Este Warlord pode realizar uma intervenção Heroic se existem unidades inimigas com 6" em vez de 3" , e ao fazê-lo pode se mover até 6" em vez de 3" .
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="cdb4-9343-c6cc-9b24" name="Aggressive Persecution" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Quando um modelo com esta tradição dispara Overwatch ou é escolhido para atirar ou lutar com, você pode re-roll um único dado ao determinar danos como resultado desses ataques.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="25b2-5864-22ab-b09b" name="Steel-sinewed Aim" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Modelos com esta tradição não sofrem as penalidades para os seus rolos de sucesso para a Promoção e disparando armas de assalto.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="df0f-b046-c1c7-a136" name="Stormstriders" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Adicione 1" para a característica Mover de um modelo com esta tradição e sempre usar a linha superior de sua tabela de danos ao determinar sua característica Mover, independentemente de quantas feridas que deixou.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="a5a8-825c-8c66-c793" name="Hounds of War" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Um modelo armiger classe com esta tradição pode atirar ou carga em um turno em que ele caiu para trás. Se ele dispara, ao resolver um ataque feito por esse modelo na fase de Tiro de que sua vez, subtraia 1 do rolo hit.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="14e4-22e5-9912-b0aa" name="Machine Focus" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito por um modelo com essa tradição que está sujeita a quaisquer modificadores rolo hit negativo, adicione 1 ao rolo hit.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="6081-9c38-98b6-2b18" name="Front-line Fighters" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito com uma arma à distância por um modelo com esta tradição de encontro a uma unidade dentro de 12" , melhorar a característica de penetração Armadura de que arma por um ataque em que (por exemplo, AP 0 torna-se AP-1).
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="b999-8737-2a1e-cbf4" name="Pains of Old Night" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito por um modelo com esta tradição contra uma unidade PSYKER daemon ou, re-rolo de um rolo de uma ferida.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="44ca-b175-18fc-635f" name="Guardians of the Frontier" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Enquanto um modelo com esta tradição está dentro de 1" de quaisquer unidades inimigas que contêm 11 ou mais modelos, aumentar seus ataques característica em 1.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="5857-2a54-1be6-7903" name="Noble Combatants" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito com uma arma branca (excluindo pés titânicas) por um modelo com esta tradição, um rolo hit inalterada de 6 pontos 1 hit adicional.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="9f5d-5f43-a7f3-b8eb" name="Survivors of Strife" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Adicione 1 ao Wounds característica de modelos armiger classe com esta tradição. Adicionar 2 aos ferimentos característicos de todos os outros modelos com esta tradição.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="56a8-f73d-77c8-b99e" name="Exacting Charge" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Se um modelo com esta tradição faz um movimento de carga, é cobrado ou realiza uma intervenção Heroic, a característica Armor Penetration de armas brancas que modelo está equipado com (excluindo pés titânicas) é melhorada por 1 até o final do turno (por exemplo, AP 0 torna-se AP-1).
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="61c1-666d-b128-d7a4" name="Honoured Sacristans" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito com uma arma que tem uma característica de penetração Armadura de -1 contra um modelo com esta tradição, que arma é tratado como tendo uma característica de penetração Armadura de 0.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="88cc-48fb-5fef-0eb5" name="Defiant Fury" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Enquanto um modelo com esta tradição tem a metade perdida ou mais de suas feridas, aumentar seus ataques característicos por 1. Ao resolver um ataque feito com uma arma branca por um modelo com essa tradição que tem a metade perdida ou mais de suas feridas, adicione 1 a o rolo hit.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="f298-87aa-b1d8-e7f9" name="Hunters of the Unseen" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito com uma arma de longo alcance por um modelo com esta tradição, o alvo não recebe o benefício da cobertura ao seu teste de resistência.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="5fc9-ee5e-dbd0-5577" name="Slayers of Beasts" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito com uma arma branca (excluindo pés titânicas) por um modelo com esta tradição contra uma unidade de veículo ou MONSTER, adicione 1 ao rolo hit.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="dcb7-0bdf-6a5d-d701" name="Unremitting" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Quando um modelo com esta tradição dispara Overwatch ou é escolhido para filmar com, você pode re-roll um único dado ao determinar o número de ataques que o modelo faz ao atacar com uma arma que tem um número aleatório de ataques (por exemplo pesado D6).
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="7564-081e-7a84-a31e" name="Shattered Empire Stalkers" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Ao resolver um ataque feito com uma arma de longo alcance contra um modelo com esta tradição por um modelo que é mais do que 24" de distância, ele é tratado como tendo o benefício da cobertura a ele é teste de resistência.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="eac2-3a2d-b29d-00ad" name="Glorified History" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Quando um modelo com esta tradição dispara Overwatch ou é escolhido para atirar ou lutar com, você pode re-roll um único rolo hit feito para esse modelo.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="c781-0e3d-fa0f-22c1" name="Blessed Arms" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Adicione 6" no máximo Faixa característico de armas de longo alcance um modelo com esta tradição está equipada com que tem uma característica Gama não modificada de 24" ou mais. Adicione 2" no máximo Faixa característica de todas as outras armas de longo alcance um modelo com esta tradição está equipado com.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="e9ac-35ec-39d2-5ea7" name="Sanctified Armour" publicationId="ecea-8b62-fefb-9f8e" typeId="dfe7-9b0a-ece9-9141" typeName="Household Tradition">
+   <characteristics>
+    <characteristic name="Description" typeId="9271-9853-fe95-0c04">
+     Quando um modelo com esta tradição perderia uma ferida na fase psíquico, um rolo de D6; em um 5+ essa ferida não está perdida.
     </characteristic>
    </characteristics>
   </profile>
  </sharedProfiles>
+ <catalogueLinks>
+  <catalogueLink id="9e60-f13a-cdd0-af1c" importRootEntries="false" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue"/>
+  <catalogueLink id="9ff3-b5bc-a806-0e4e" importRootEntries="true" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue"/>
+ </catalogueLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="5d84-5102-f22c-14d4" library="false" name="Chaos - Chaos Knights-BR" revision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="128" id="5d84-5102-f22c-14d4" library="false" name="Chaos - Chaos Knights-BR" revision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="5d84-5102-pubN65537" name="Chapter Approved 2018"/>
  </publications>
@@ -7,6 +7,11 @@
   <profileType id="3f2c-38d3-b6df-df27" name="D3 Roll">
    <characteristicTypes>
     <characteristicType id="430e-a735-6e59-c8dd" name="Daemonic Surge"/>
+   </characteristicTypes>
+  </profileType>
+  <profileType id="b2ce-7355-8075-feac" name="Household Bonds">
+   <characteristicTypes>
+    <characteristicType id="11c8-2cd6-bd89-48be" name="Ability"/>
    </characteristicTypes>
   </profileType>
  </profileTypes>
@@ -32,9 +37,64 @@
   <categoryEntry hidden="false" id="fcbf-86ff-3a8f-baa2" name="Knight Magaera"/>
   <categoryEntry hidden="false" id="79cb-8b18-48ee-4550" name="Knight Styrix"/>
   <categoryEntry hidden="false" id="64bd-f43f-ffda-8ed0" name="Moirax"/>
+  <categoryEntry hidden="false" id="5f47-d9fc-bb6e-4b72" name="Faction: House Lucaris"/>
+  <categoryEntry hidden="false" id="5d43-9fd0-e47e-ac30" name="Faction: House Herpetrax"/>
+  <categoryEntry hidden="false" id="2a8c-f96a-55bd-abf7" name="Faction: House Khymere"/>
+  <categoryEntry hidden="false" id="5afd-b796-cedf-5dcd" name="Faction: House Vextrix"/>
+  <categoryEntry hidden="false" id="9bb7-97a4-987d-5b4f" name="Faction: House Khomentis"/>
+  <categoryEntry hidden="false" id="6d56-d859-f652-6933" name="Faction: &lt;Dread Household&gt;"/>
  </categoryEntries>
  <selectionEntries>
   <selectionEntry collective="false" hidden="false" id="7369-b019-44aa-f0ab" import="true" name="Cerastus Knight-Acheron" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="c38c-ebe9-c10c-17ed" name="Cerastus Knight-Acheron" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -204,7 +264,6 @@
     <entryLink collective="false" hidden="false" id="4118-8221-1eea-1b97" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="5fd6-c2d6-1f25-a521" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="e34d-165c-e56c-b0bc" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="f2e7-3a1a-36a8-7eba" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="bbe7-590c-0ff1-50b0" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="1bac-2d02-63c8-450d" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="5de9-ca82-f102-3f32" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -217,6 +276,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7171-5531-20dc-f1a4" import="true" name="Cerastus Knight-Atrapos" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="683b-ddb9-30de-4cca" name="Cerastus Knight-Atrapos" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -381,7 +489,6 @@
     <entryLink collective="false" hidden="false" id="7b9e-ff17-e08f-53c0" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="cf1f-a50a-7f0a-1215" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="5641-b697-837b-1eba" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="9f43-4d80-d860-805b" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="41a6-3e00-f874-2f2c" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="5dde-17d6-8970-287f" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="2111-9df4-f433-3c86" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -394,6 +501,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9bb8-3f81-d887-6ee1" import="true" name="Cerastus Knight-Castigator" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="8bd8-ceeb-ddf0-0d16" name="Cerastus Knight-Castigator" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -563,7 +719,6 @@
     <entryLink collective="false" hidden="false" id="0240-b506-6841-c8bb" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="9ad4-846d-13a2-b1ca" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="9f55-11d5-4d26-5970" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="06df-c066-a07a-4b7c" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="c1d8-98cf-6634-4fb9" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="8504-ee5f-7091-b4b3" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="d01b-9699-5060-16f2" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -576,6 +731,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="582b-4724-4799-d426" import="true" name="Cerastus Knight-Lancer" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="faf0-abd3-160c-da9c" name="Cerastus Knight-Lancer" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -739,7 +943,6 @@
     <entryLink collective="false" hidden="false" id="fe9e-43d0-5b37-ac6e" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="82d5-2cb2-c37b-f594" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="0c63-5e16-f036-4e98" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="f05b-0520-a2c1-94e9" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="8a6d-90da-fe6b-e5d6" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="4219-2b80-bc3c-7b46" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="cd54-ceb5-ed50-c35a" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -752,6 +955,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ed25-5bed-2c50-0a8b" import="true" name="Questoris Knight Magaera" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="b7d8-13d9-a621-7aef" name="Questoris Knight Magaera" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -934,7 +1186,6 @@
     <entryLink collective="false" hidden="false" id="e448-d2cf-fb12-8f0d" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="7a64-e8ba-0cf0-7974" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="d45e-4dc3-618f-d567" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="44ed-9299-146d-bb48" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="64ab-3901-b6ad-9454" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="4a67-ce08-334c-a7ff" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="b909-4357-5298-0117" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -947,6 +1198,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="ea00-caca-6a5c-c0ec" import="true" name="Questoris Knight Styrix" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="141d-54ad-92a4-3e90" name="Questoris Knight Styrix" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -1129,7 +1429,6 @@
     <entryLink collective="false" hidden="false" id="8a18-01e0-0f45-0beb" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="e975-a0e1-104f-ed13" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="2c0b-604c-4cd7-ad03" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="8c8b-c40c-3f1c-4357" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="bfae-2a2c-aa81-fb86" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="375c-ff57-6859-d7fd" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="d7a9-56a5-5149-227f" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -1142,6 +1441,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c52a-0565-498e-b56e" import="true" name="Acastus Knight Porphyrion" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="c6c2-746c-f165-10e1" name="Acastus Knight Porphyrion" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -1327,7 +1675,6 @@
     <entryLink collective="false" hidden="false" id="8925-5828-b261-4d64" import="true" name="Pacts and Damnations" targetId="de80-06ce-c45a-000d" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="1c2a-d912-6a62-c560" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="7af6-c282-389a-7b26" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="37d5-1836-e3c4-ea6e" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="384c-84be-143f-516c" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="5b5f-1f60-3dfe-a4ac" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="f725-1530-c6d2-99f2" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
@@ -1354,6 +1701,55 @@
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="14a0-c4da-99ff-7b20" import="true" name="War Dog" type="model">
+     <modifierGroups>
+      <modifierGroup>
+       <comment>
+        Household Faction Modifiers
+       </comment>
+       <modifiers>
+        <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+         <conditions>
+          <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+         <conditions>
+          <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+         <conditions>
+          <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+         <conditions>
+          <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+         <conditions>
+          <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+         <conditions>
+          <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+         <conditions>
+          <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="6d56-d859-f652-6933">
+         <conditions>
+          <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+      </modifierGroup>
+     </modifierGroups>
      <constraints>
       <constraint field="selections" id="0d08-8d2b-a834-92bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="13af-0a91-d9e3-e746" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3.0"/>
@@ -1605,7 +2001,7 @@
      </selectionEntryGroups>
      <entryLinks>
       <entryLink collective="false" hidden="false" id="7457-c273-314a-6ca4" import="true" name="Character" targetId="75b0-25e5-2828-0125" type="selectionEntry"/>
-      <entryLink collective="false" hidden="false" id="93fc-f483-7ad8-6bc2" import="true" name="Relics" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
+      <entryLink collective="false" hidden="false" id="93fc-f483-7ad8-6bc2" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="b1ea-4fc4-ed25-6423" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
       <entryLink collective="false" hidden="false" id="ba90-ebd8-d670-ccc6" import="true" name="Warlord Traits" targetId="076d-e9d1-ae0c-e60d" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="2982-b7db-ce90-c429" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry">
@@ -1634,7 +2030,6 @@
       </entryLink>
       <entryLink collective="false" hidden="false" id="b1cb-fd7b-e483-1d01" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="d6fb-c803-ef93-5390" import="true" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-      <entryLink collective="false" hidden="false" id="5c84-3b12-64f5-32a4" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="c914-b419-1b8f-6183" import="true" name="Dreadblade" targetId="14b0-775a-3034-6542" type="selectionEntry"/>
       <entryLink collective="false" hidden="false" id="5f11-ded4-f165-89aa" import="true" name="Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="26c4-8766-a8f5-3d2b" import="true" name="Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
@@ -1642,7 +2037,7 @@
      </entryLinks>
      <costs>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
-      <cost name="pts" typeId="points" value="160.0"/>
+      <cost name="pts" typeId="points" value="145.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
@@ -1666,6 +2061,55 @@
      </conditionGroups>
     </modifier>
    </modifiers>
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="4099-d64a-2c86-7969" name="Knight Despoiler" typeId="800f-21d0-4387-c943" typeName="Unit">
      <modifiers>
@@ -2063,7 +2507,6 @@
     </entryLink>
     <entryLink collective="false" hidden="false" id="3e51-14d9-7bdf-5cff" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="4911-88a2-3409-d805" import="true" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="5a36-535f-12de-d5ce" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="7bc2-22e3-fc42-43eb" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="061f-df07-1783-b540" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="675e-86a0-fb10-c272" import="true" name="Dreadblade" targetId="14b0-775a-3034-6542" type="selectionEntry"/>
@@ -2079,6 +2522,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3bbe-8f25-266e-9c4b" import="true" name="Knight Tyrant" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="9eb3-3ec6-d442-c974" name="Knight Tyrant" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -2208,13 +2700,27 @@
     <categoryLink hidden="false" id="9dc1-d8e2-24b4-c879" name="Knight Tyrant" primary="false" targetId="b737-d1c7-5bbb-5e13"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="b0e7-dac7-0baa-7610" import="true" name="Twin Meltagun" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="b0e7-dac7-0baa-7610" import="true" name="2x Twin Meltagun" type="upgrade">
+     <modifiers>
+      <modifier field="name" type="set" value="Serpentstrike">
+       <conditions>
+        <condition childId="6f44-5bc8-06f2-00e2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3bbe-8f25-266e-9c4b" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
      <constraints>
-      <constraint field="selections" id="e42e-9353-8ff9-79a9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
-      <constraint field="selections" id="6d94-1d2a-c3bf-23a7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+      <constraint field="selections" id="e42e-9353-8ff9-79a9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="6d94-1d2a-c3bf-23a7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
      <profiles>
       <profile hidden="false" id="6806-1345-1cf0-b19b" name="Twin Meltagun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="6f44-5bc8-06f2-00e2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3bbe-8f25-266e-9c4b" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
        <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
          12"
@@ -2232,7 +2738,36 @@
          D6
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+         Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+        </characteristic>
+       </characteristics>
+      </profile>
+      <profile hidden="false" id="bf0f-ca90-56a0-0414" name="Serpentstrike" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+       <modifiers>
+        <modifier field="hidden" type="set" value="true">
+         <conditions>
+          <condition childId="6f44-5bc8-06f2-00e2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3bbe-8f25-266e-9c4b" shared="true" type="equalTo" value="0.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+         12"
+        </characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+         Assault 4
+        </characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">
+         9
+        </characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">
+         -4
+        </characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+         D6
+        </characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         Ao resolver um ataque feito com esta arma, rolo dois D6 quando infligir danos com ela e um descarte dos resultados.
         </characteristic>
        </characteristics>
       </profile>
@@ -2315,7 +2850,7 @@
            3D3
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades do Titanic com esta arma.
+           Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades TITANIC com esta arma.
           </characteristic>
          </characteristics>
         </profile>
@@ -2327,14 +2862,28 @@
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="3948-0960-37af-328a" import="true" name="Conflagration cannon and Thundercoil harpoon" type="upgrade">
+       <modifiers>
+        <modifier field="name" type="set" value="Annihilatum and Thundercoil harpoon">
+         <conditions>
+          <condition childId="5f1a-3e87-5f68-9552" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3bbe-8f25-266e-9c4b" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
        <profiles>
-        <profile hidden="false" id="e192-d5a0-9b37-224c" name="Conflagration cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile hidden="false" id="e192-d5a0-9b37-224c" name="Annihilatum" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <modifiers>
+          <modifier field="hidden" type="set" value="true">
+           <conditions>
+            <condition childId="5f1a-3e87-5f68-9552" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3bbe-8f25-266e-9c4b" shared="true" type="equalTo" value="0.0"/>
+           </conditions>
+          </modifier>
+         </modifiers>
          <characteristics>
           <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
            18"
           </characteristic>
           <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-           Heavy 3D6
+           Assault 3D6
           </characteristic>
           <characteristic name="S" typeId="59b1-319e-ec13-d466">
            7
@@ -2343,10 +2892,10 @@
            -2
           </characteristic>
           <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-           2
+           3
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Esta arma atinge automaticamente seu alvo.
+           Ao resolver um ataque feito com esta arma, não fazer um teste de sucesso; ele automaticamente pontuações um sucesso.
           </characteristic>
          </characteristics>
         </profile>
@@ -2369,6 +2918,35 @@
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
            Você pode re-rolar jogadas de acerto malsucedidas ao mirar em unidades VEHICLE ou MONSTER com essa arma. Além disso, se esta arma infligir algum dano, a unidade alvo sofre mais Ferimentos Mortais D3.
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="5537-772a-4ccc-4c9c" name="Conflagration cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+         <modifiers>
+          <modifier field="hidden" type="set" value="true">
+           <conditions>
+            <condition childId="5f1a-3e87-5f68-9552" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3bbe-8f25-266e-9c4b" shared="true" type="equalTo" value="1.0"/>
+           </conditions>
+          </modifier>
+         </modifiers>
+         <characteristics>
+          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+           18"
+          </characteristic>
+          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+           Heavy 3D6
+          </characteristic>
+          <characteristic name="S" typeId="59b1-319e-ec13-d466">
+           7
+          </characteristic>
+          <characteristic name="AP" typeId="75aa-a838-b675-6484">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+           2
+          </characteristic>
+          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+           Esta arma atinge automaticamente seu alvo.
           </characteristic>
          </characteristics>
         </profile>
@@ -2465,10 +3043,10 @@
    </selectionEntryGroups>
    <entryLinks>
     <entryLink collective="false" hidden="false" id="3204-11b3-dac7-836b" import="true" name="Titanic feet" targetId="b873-b5d1-e25a-0b35" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="7114-d44b-9ac7-9d03" import="true" name="Character" targetId="75b0-25e5-2828-0125" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="7114-d44b-9ac7-9d03" import="true" name="Character (Traitoris Lance)" targetId="75b0-25e5-2828-0125" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="864f-4da4-1587-00ae" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="0ff8-9228-be3f-6b51" import="true" name="Warlord Traits" targetId="076d-e9d1-ae0c-e60d" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="514c-5d2a-a832-4120" import="true" name="Relics" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="514c-5d2a-a832-4120" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="a659-6559-94ae-3e65" import="true" name="Is a Custom Character" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
      <modifiers>
       <modifier field="hidden" type="set" value="true">
@@ -2495,7 +3073,6 @@
     </entryLink>
     <entryLink collective="false" hidden="false" id="09bc-e509-fef1-00e2" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="5441-bcba-a480-237f" import="true" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="2e60-4a43-d439-1482" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="8686-40c2-1c4e-fc02" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="c88b-5849-918d-fd39" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="c5a3-5c57-ee9d-a3b6" import="true" name="Dreadblade" targetId="14b0-775a-3034-6542" type="selectionEntry"/>
@@ -2511,6 +3088,55 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="b3f3-1696-6e81-4b8a" import="true" name="Knight Desecrator" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="bda0-924b-a560-258b" name="Knight Desecrator" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -2836,7 +3462,6 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="f909-609e-2b8a-7daf" import="true" name="Character (Traitoris Lance)" targetId="75b0-25e5-2828-0125" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="dcfb-0a98-237e-ba48" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="d63b-f3c4-1314-e6ae" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="d051-2875-85ce-2c2a" import="true" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="6cb4-0192-3cb6-45ef" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
@@ -2869,11 +3494,60 @@
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
-    <cost name="pts" typeId="points" value="385.0"/>
+    <cost name="pts" typeId="points" value="340.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="4ddd-2f92-8e2b-7e9b" import="true" name="Knight Rampager" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="0596-b152-0739-9c4f" name="Frenzied Rampage" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
@@ -3116,13 +3790,12 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="b159-8476-cbbe-180a" import="true" name="Titanic feet" targetId="b873-b5d1-e25a-0b35" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="5b1f-fa83-5255-c122" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="9f60-7ce3-3045-4066" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="8b8e-faf1-4ba0-9737" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="92d1-867b-f1cd-3488" import="true" name="Custom Character Selections" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="db6f-34ce-501a-151d" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="791a-e163-0c76-a1ab" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="5455-089a-18da-d869" import="true" name="Relics" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="5455-089a-18da-d869" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="dbe1-a85a-9d2e-6c05" import="true" name="Warlord Traits" targetId="076d-e9d1-ae0c-e60d" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="2642-d411-33a7-39dc" import="true" name="Character (Tyrannical Court)" targetId="6a6f-6b25-8347-4c3e" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="3d11-e645-7105-22b6" import="true" name="Corrupted Heirloom" targetId="5f95-2d49-2a64-4f9b" type="selectionEntry"/>
@@ -3140,7 +3813,7 @@
     <constraint field="selections" id="4772-3ad3-f1ef-63b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
    </constraints>
    <categoryLinks>
-    <categoryLink hidden="false" id="bd01-7f16-52ee-7f73" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="aad4-cc62-996d-b9f9" name="New CategoryLink" primary="true" targetId="c845-c72c-6afe-3fc2"/>
    </categoryLinks>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="8d41-26f6-edff-e915" hidden="false" id="0ebc-8326-a339-a5b0" import="true" name="Tyrannical Court">
@@ -3177,7 +3850,7 @@
     <constraint field="selections" id="8450-a9eb-0ff3-d7eb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
    </constraints>
    <categoryLinks>
-    <categoryLink hidden="false" id="9c02-d2cd-13a3-cdf7" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="6952-f3c0-36d2-9588" name="New CategoryLink" primary="true" targetId="c845-c72c-6afe-3fc2"/>
    </categoryLinks>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="199c-28f9-ff15-bc48" hidden="false" id="a106-3264-150b-e88e" import="true" name="Corrupted Heirlooms">
@@ -3228,7 +3901,7 @@
     <infoLink hidden="false" id="9d66-6deb-c1ea-e636" name="6. Arch-Fiend" targetId="2a87-6fac-1d5f-cf80" type="profile"/>
    </infoLinks>
    <categoryLinks>
-    <categoryLink hidden="false" id="d239-0dc2-57f2-91dc" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="92d1-5c99-02d2-898b" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3257,7 +3930,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
     <infoLink hidden="false" id="115f-658e-1bd5-7d4f" name="6. Defiant Machine-spirit" targetId="b112-f7bd-15f2-75e9" type="profile"/>
    </infoLinks>
    <categoryLinks>
-    <categoryLink hidden="false" id="1254-7e64-5d7f-0394" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="3b46-9bd8-ad5e-620a" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3275,7 +3948,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
     <infoLink hidden="false" id="fcd5-8980-708a-b3a1" name="6. Aura of Terror" targetId="6629-ae0b-93d9-7835" type="profile"/>
    </infoLinks>
    <categoryLinks>
-    <categoryLink hidden="false" id="402a-a21e-9201-5d74" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="9a8e-aff1-4606-11c5" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3284,6 +3957,55 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="9b09-5b9b-944e-3f9b" import="true" name="Acastus Knight Asterius" type="model">
+   <modifierGroups>
+    <modifierGroup>
+     <comment>
+      Household Faction Modifiers
+     </comment>
+     <modifiers>
+      <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+       <conditions>
+        <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+       <conditions>
+        <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </modifier>
+      <modifier field="category" type="add" value="6d56-d859-f652-6933">
+       <conditions>
+        <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+    </modifierGroup>
+   </modifierGroups>
    <profiles>
     <profile hidden="false" id="d1e2-7edc-5b6b-950d" name="Acastus Knight Asterius" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
@@ -3583,7 +4305,6 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
    <entryLinks>
     <entryLink collective="false" hidden="false" id="e43d-db01-ec27-a03c" import="true" name="Titanic feet" targetId="b873-b5d1-e25a-0b35" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="a7af-87f0-4c31-3490" import="true" name="Character (Traitoris Lance)" targetId="75b0-25e5-2828-0125" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="17cc-6602-f920-58b0" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="83a1-c3bc-c37e-df3d" import="true" name="Character (Tyrannical Court)" targetId="6a6f-6b25-8347-4c3e" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="1430-7b53-dba2-f7ba" import="true" name="Dreadblade" targetId="14b0-775a-3034-6542" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="475f-61f9-1729-1d1f" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
@@ -3604,7 +4325,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="cb14-79f1-3b26-ec63" import="true" name="War Dogs Moirax" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="cb14-79f1-3b26-ec63" import="true" name="War Dogs Moirax" type="unit">
    <profiles>
     <profile hidden="false" id="d5dd-6124-3de1-d9e4" name="Vehicle Squadron" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
@@ -3619,6 +4340,55 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
    </categoryLinks>
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="1e52-a8e1-92e4-3005" import="true" name="War Dog Moirax" type="upgrade">
+     <modifierGroups>
+      <modifierGroup>
+       <comment>
+        Household Faction Modifiers
+       </comment>
+       <modifiers>
+        <modifier field="category" type="add" value="5f47-d9fc-bb6e-4b72">
+         <conditions>
+          <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="0982-3556-d477-7b2c">
+         <conditions>
+          <condition childId="dda8-83fc-2616-8e6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="14fa-557d-c5e1-9b16">
+         <conditions>
+          <condition childId="e1af-47ba-b849-0a40" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="9bb7-97a4-987d-5b4f">
+         <conditions>
+          <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="2a8c-f96a-55bd-abf7">
+         <conditions>
+          <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="5d43-9fd0-e47e-ac30">
+         <conditions>
+          <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="5afd-b796-cedf-5dcd">
+         <conditions>
+          <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </modifier>
+        <modifier field="category" type="add" value="6d56-d859-f652-6933">
+         <conditions>
+          <condition childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+      </modifierGroup>
+     </modifierGroups>
      <constraints>
       <constraint field="selections" id="7dfb-f4f6-ce91-9563" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="7c4f-bc7c-eba7-1d9f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3.0"/>
@@ -3980,7 +4750,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
             <profile hidden="false" id="ebfc-0bca-faba-c91d" name="Rad cleanser" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
              <characteristics>
               <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-               8"
+               9"
               </characteristic>
               <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
                Assault D6
@@ -4061,7 +4831,6 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
       <entryLink collective="false" hidden="false" id="bbdb-01e4-0961-3d31" import="true" name="Rune Pact and Damnation" targetId="3b3a-f65a-9ded-b130" type="selectionEntry"/>
       <entryLink collective="false" hidden="false" id="972e-23fe-0e76-a40f" import="true" name="Warlord" targetId="c50f-9cc4-a751-6707" type="selectionEntry"/>
       <entryLink collective="false" hidden="false" id="742b-7595-be06-3d71" import="true" name="Artefacts of Tyranny" targetId="b64a-6b3c-e424-afb3" type="selectionEntryGroup"/>
-      <entryLink collective="false" hidden="false" id="0c94-6725-7de0-77c6" import="true" name="Allegiance" targetId="4f6a-0a86-fd1c-0485" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="cedd-edf2-00f7-b149" import="true" name="Dreadblade Damnations" targetId="969c-cc25-3095-53f9" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="8b64-daad-6f59-bc52" import="true" name="Dreadblade Pacts" targetId="657f-9c45-e0dd-883c" type="selectionEntryGroup"/>
       <entryLink collective="false" hidden="false" id="cb75-955c-ffd9-fc27" import="true" name="Warlord Traits" targetId="076d-e9d1-ae0c-e60d" type="selectionEntryGroup"/>
@@ -4073,6 +4842,23 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
      </costs>
     </selectionEntry>
    </selectionEntries>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="36d2-28c1-68c2-84ba" import="true" name="Dread Household" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="49a0-327a-9891-1ee6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
+    <constraint field="selections" id="c72c-1993-3da1-c967" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="min" value="1.0"/>
+   </constraints>
+   <categoryLinks>
+    <categoryLink hidden="false" id="2675-30b9-3943-044f" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="8d38-fb00-0848-ca0b" import="true" name="Dread Household" targetId="4f6a-0a86-fd1c-0486" type="selectionEntryGroup"/>
+   </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -4557,9 +5343,9 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="de4c-2e69-bae5-256f" import="true" name="Atropos lascutter" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="de4c-2e69-bae5-256f" import="true" name="Atrapos lascutter" type="upgrade">
    <profiles>
-    <profile hidden="false" id="0c77-e02f-891d-57b4" name="Atropos lascutter (shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile hidden="false" id="0c77-e02f-891d-57b4" name="Atrapos lascutter (shooting)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
      <characteristics>
       <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
        9"
@@ -4581,7 +5367,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="e032-33b8-e670-2e04" name="Atropos lascutter (melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile hidden="false" id="e032-33b8-e670-2e04" name="Atrapos lascutter (melee)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
      <characteristics>
       <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
        Melee
@@ -4885,7 +5671,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
      <conditionGroups>
       <conditionGroup type="or">
        <conditions>
-        <condition childId="14fa-557d-c5e1-9b16" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
+        <condition childId="14fa-557d-c5e1-9b16" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
         <condition childId="edad-bca8-8b56-14f1" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
        </conditions>
       </conditionGroup>
@@ -4916,7 +5702,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
      <conditionGroups>
       <conditionGroup type="or">
        <conditions>
-        <condition childId="0982-3556-d477-7b2c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
+        <condition childId="0982-3556-d477-7b2c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0.0"/>
         <condition childId="edad-bca8-8b56-14f1" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
        </conditions>
       </conditionGroup>
@@ -5278,6 +6064,44 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
     <cost name="pts" typeId="points" value="0.0"/>
    </costs>
   </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="5f1a-3e87-5f68-9552" import="true" name="Annihilatum" type="upgrade">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+        <condition childId="3948-0960-37af-328a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="6f44-5bc8-06f2-00e2" import="true" name="Serpentstrike" type="upgrade">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+        <condition childId="b0e7-dac7-0baa-7610" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
   <selectionEntryGroup collective="false" hidden="false" id="64b8-a52e-15a1-962a" import="true" name="Carapace Weapons">
@@ -5509,7 +6333,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
          D6
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+         Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
         </characteristic>
        </characteristics>
       </profile>
@@ -5541,6 +6365,7 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
    <entryLinks>
     <entryLink collective="false" hidden="false" id="f308-efa4-c776-8f2f" import="true" name="Warlord Traits (CA)" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="8f59-fd43-ecfe-b77e" import="true" name="Warlord Traits (Codex)" targetId="c3ff-f38b-b236-791c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="9218-ab38-2a4f-e4a2" import="true" name="Warlord Traits (Household)" targetId="81ce-8d87-e3a4-9542" type="selectionEntryGroup"/>
    </entryLinks>
   </selectionEntryGroup>
   <selectionEntryGroup collective="false" hidden="false" id="b64a-6b3c-e424-afb3" import="true" name="Artefacts of Tyranny">
@@ -5590,50 +6415,261 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="1eb8-9bd9-a16c-f7ff" import="true" name="Crown of Jedathra" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="495b-7063-d1d5-d249" name="Crown of Jedathra" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         Ao resolver um ataque com uma arma branca contra um modelo com esta relíquia, subtraia 1 do rolo hit.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="2f23-665e-05e8-3c60" import="true" name="Daemonic Shrike" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="a60b-4495-825d-4de3" name="Daemonic Shrike" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         No início da fase de Fotografia, selecione uma unidade de inimigo dentro de 18" de um modelo com esta relíquia. Até o final do turno, ao resolver um ataque feito por um modelo com esta relíquia, melhorar a característica Armor Penetration dessa arma por 1 para que o ataque.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="2ee9-0ed4-cd05-d94e" import="true" name="Heretek Power Core" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="3cca-0679-4ee3-6367" name="Heretek Power Core" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         Adicione 1" para a característica Mover de um modelo com esta relíquia. Além disso, adicione 1 à característica danos do chainsword ceifador ou Thunderstrike luva de um modelo com esta relíquia. Quando um modelo com esta relíquia é destruído, adicione 1 a qualquer dados rolados para ver se que explode modelo.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
    </selectionEntries>
    <entryLinks>
     <entryLink collective="false" hidden="false" id="9caa-4f09-c42e-8db1" import="true" name="The Blasphemous Engine" targetId="5497-514f-926e-6999" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="33cc-b5cf-9de9-dc63" import="true" name="Veil of Medrengard" targetId="6f16-7817-74e4-e52c" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="dfaa-9574-f39a-c408" import="true" name="!Khornate Target" targetId="4b9d-5bc1-c4e4-0515" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="dfaa-9574-f39a-c408" import="true" name="Khornate Target" targetId="4b9d-5bc1-c4e4-0515" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="86bb-1451-9530-ae1a" import="true" name="!Tzeentchian Pyrothrone" targetId="1a04-c2af-d8ae-2f33" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="a862-0b5a-e04a-388e" import="true" name="!Helm of Warpsight" targetId="428d-e4d3-bcc8-7c0b" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="a862-0b5a-e04a-388e" import="true" name="Helm of Warpsight" targetId="428d-e4d3-bcc8-7c0b" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="8847-1027-3ede-4b40" import="true" name="!The Diamonas" targetId="253c-8df9-6fb9-8cee" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="a9a3-508f-cd9f-139f" import="true" name="!The Tyrant's Banner" targetId="6054-6128-c0ab-3023" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="a9a3-508f-cd9f-139f" import="true" name="The Tyrant's Banner" targetId="6054-6128-c0ab-3023" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="7070-f2a8-e0ea-5664" import="true" name="!The Teeth That Hunger" targetId="20f6-3a9c-732b-72a7" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="babf-d865-c5fa-3e3a" import="true" name="Rune of Nak'T'Graa" targetId="c3f8-5e45-c3d8-7129" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="999c-489b-ecab-3e56" import="true" name="The Putrid Carapace of Nurgle" targetId="22bc-dc51-a341-7f23" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="e007-3eb5-2fb9-c60d" import="true" name="Bound Varadian Psychocheist" targetId="f361-c2e0-887c-20ec" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="e007-3eb5-2fb9-c60d" import="true" name="Bound Varadian Psychogheist" targetId="f361-c2e0-887c-20ec" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="dc5b-6712-14f3-c683" import="true" name="The Quicksilver Throne of Slaanesh" targetId="e266-2864-c867-7091" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="4e4c-13f0-2a86-77c9" import="true" name="The Gauntlet of Ascension" targetId="058d-e731-d4bd-092c" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="e500-54a0-7647-ed70" import="true" name="Annihilatum" targetId="5f1a-3e87-5f68-9552" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="50bd-dacf-5d2a-6bbe" import="true" name="Serpentstrike" targetId="6f44-5bc8-06f2-00e2" type="selectionEntry"/>
    </entryLinks>
   </selectionEntryGroup>
-  <selectionEntryGroup collective="false" hidden="false" id="4f6a-0a86-fd1c-0485" import="true" name="Allegiance">
+  <selectionEntryGroup collective="false" hidden="false" id="4f6a-0a86-fd1c-0486" import="true" name="Dread Household">
+   <modifiers>
+    <modifier field="e90e-3f88-2331-2762" type="increment" value="1.0">
+     <repeats>
+      <repeat childId="a44b-c8f0-e81f-8e49" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" repeats="1" roundUp="false" scope="parent" shared="true" value="1.0"/>
+     </repeats>
+    </modifier>
+   </modifiers>
    <constraints>
     <constraint field="selections" id="e2b2-95fa-55c7-7c7b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-    <constraint field="selections" id="f0c4-6e06-583d-a7b5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+    <constraint field="selections" id="e90e-3f88-2331-2762" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
-   <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="dda8-83fc-2616-8e6d" import="true" name="Iconoclast Household" type="upgrade">
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="e1af-47ba-b849-0a40" import="true" name="Infernal Household">
+     <constraints>
+      <constraint field="selections" id="463f-baf5-0e78-9b97" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
      <categoryLinks>
-      <categoryLink hidden="false" id="dba4-feda-9a96-9619" name="Faction: Iconoclast Household" primary="false" targetId="0982-3556-d477-7b2c"/>
+      <categoryLink hidden="false" id="b0db-2030-17f0-b78f" name="Faction: Infernal Household" primary="false" targetId="14fa-557d-c5e1-9b16"/>
      </categoryLinks>
-     <costs>
-      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      <cost name="pts" typeId="points" value="0.0"/>
-     </costs>
-    </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="e1af-47ba-b849-0a40" import="true" name="Infernal Household" type="upgrade">
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="bc9a-1a51-23e0-f48e" import="true" name="House Vextrix" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="faac-5c0f-c4c1-3e14" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="0e4a-79dd-cd13-ed43" name="House Vextrix" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+         <characteristics>
+          <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+           When a unit with this bond is chosen to shoot or fight with or fires Overwatch, you can re-roll a single hit roll and a single wound roll made for that unit.
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="385a-b6d0-2eab-4925" import="true" name="House Khomentis" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="904b-5485-06bc-7d49" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="b1ff-5429-fbe0-77aa" name="House Khomentis" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+         <characteristics>
+          <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+           Whilst a model with this bond has lost half or more of its wounds, add 1 to its Attacks characteristic and when resolving an attack made with a melee weapon by that model, add 1 to the hit roll. In addition, when a model with this model would lose a wound in the Psychic phase, roll one D6; on a 5+ that wound is not lost.
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="7996-bc1f-d832-ee8f" import="true" name="Custom Household" type="upgrade">
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup collective="false" hidden="false" id="dda8-83fc-2616-8e6d" import="true" name="Iconoclast Household">
+     <constraints>
+      <constraint field="selections" id="1e21-241e-38ed-aa13" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
      <categoryLinks>
-      <categoryLink hidden="false" id="0846-aa33-7e27-a748" name="Faction: Infernal Household" primary="false" targetId="14fa-557d-c5e1-9b16"/>
+      <categoryLink hidden="false" id="319e-4953-deec-7159" name="Faction: Iconoclast Household" primary="false" targetId="0982-3556-d477-7b2c"/>
      </categoryLinks>
-     <costs>
-      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      <cost name="pts" typeId="points" value="0.0"/>
-     </costs>
-    </selectionEntry>
-   </selectionEntries>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="1eb3-afec-767e-cc4e" import="true" name="House Lucaris" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="dd6e-67ff-fa70-e84a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="a214-0f17-85fb-f5cf" name="House Lucaris" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+         <characteristics>
+          <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+           When resolving an attack made with a melee weapon by a model with this bond in a turn in which that model's unit made a charge move, was charged or performed a Heroic Intervention, add 1 to the hit roll.
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="d9c1-cf6c-bc18-30f5" import="true" name="House Herpetrax" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="9750-1a24-dcdc-e130" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="e0a1-c8b2-b8b3-9ddb" name="House Herpetrax" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+         <characteristics>
+          <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+           Add  2 to the Wounds characteristic of models with this bond (add 1 instead if that model is a WAR DOG).
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="7315-6245-a57e-0f62" import="true" name="House Khymere" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="4cce-322b-18cc-dd54" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="9ccc-64db-9eaf-ed4d" name="House Khymere" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+         <characteristics>
+          <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+           When resolving an attack made with a melee weapon (excluding titanic feet) by a model bond, re-roll a wound roll of 1.
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="8aa4-bb7e-4ca9-2222" import="true" name="Custom Household" type="upgrade">
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="7e56-9e97-f861-899e" import="true" name="&lt;Dread Household&gt;" targetId="a44b-c8f0-e81f-8e49" type="selectionEntryGroup">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditionGroups>
+        <conditionGroup type="and">
+         <conditions>
+          <condition childId="8aa4-bb7e-4ca9-2222" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0">
+           <comment>
+            Iconoclast Custom
+           </comment>
+          </condition>
+          <condition childId="7996-bc1f-d832-ee8f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0">
+           <comment>
+            Infernal Custom
+           </comment>
+          </condition>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </modifier>
+     </modifiers>
+    </entryLink>
+   </entryLinks>
   </selectionEntryGroup>
   <selectionEntryGroup collective="false" hidden="false" id="657f-9c45-e0dd-883c" import="true" name="Dreadblade Pacts">
    <modifiers>
@@ -5926,6 +6962,552 @@ Se algum Dreadblades do seu exército tiver Damnations, role 2D6 para cada um de
      <infoLinks>
       <infoLink hidden="false" id="9ec8-6a0a-d093-bae2" name="3. Knight Diabolus" targetId="b64a-27de-ef09-90a9" type="profile"/>
      </infoLinks>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+   </selectionEntries>
+  </selectionEntryGroup>
+  <selectionEntryGroup collective="false" hidden="false" id="a44b-c8f0-e81f-8e49" import="true" name="Dread Household Bonds">
+   <modifiers>
+    <modifier field="56d0-ac63-77e6-205a" type="set" value="1.0">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="a3c8-a553-5c83-3a77" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="a892-2013-ecfb-3cec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="c7d2-5e62-8a57-636f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="d714-35f2-2045-20b7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="75d8-c642-2c06-c8dc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="56bf-784c-e046-fe3e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="1cd5-3109-6dd7-1c65" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <constraints>
+    <constraint field="selections" id="56d0-ac63-77e6-205a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+    <constraint field="selections" id="80f0-4e3f-4940-3947" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+   </constraints>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="a892-2013-ecfb-3cec" import="true" name="Endless Torment (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="9a83-2011-30d2-17a3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="394b-18b0-a587-1eec" name="Endless Torment" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When a model with this bond fires Overwatch or is chosen to shoot with, you can re-roll a single diec when determining the number of attacks that model makes when attacking with a weapon that has a random number of attacks (e.g. Heavy D6).
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="ab8a-f676-a24a-cba0" import="true" name="Pinpoint Cruelty" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="2f8d-66e9-7d38-b322" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="1eb3-8022-aadd-5cd2" name="Pinpoint Cruelty" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When a model with this bond fires Overwatch or is chaosen to shoot or fight with, you can re-roll a single dice when determining damage as a result of those attacks.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="9c9d-76ca-bb8e-6a61" import="true" name="Infamous Heredity" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="bb9b-64f3-9001-7102" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="e649-b387-8748-a801" name="Infamous Heredity" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When a model with this bond fires Overwatch or is chosen to shoot or fight with, you can re-roll a single hit roll made for that model.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="a3c8-a553-5c83-3a77" import="true" name="Gheists of Ruin (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="dd48-f331-3c76-c04e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="f24e-c09f-9f74-ee09" name="Gheists of Ruin" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made with a ranged weapon against a model with this bond by a model that is more than 24" away, it is treated as having the benfit of cover to its saving throw.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="896c-7333-72b9-e6bc" import="true" name="Slayers of Kings" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="4a8d-edcf-cf28-19ae" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="b8b8-fe37-7144-291e" name="Slayers of Kings" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made with a melee weapon (excluding Titanic Feet) by a model with this bond against a VEHICLE or MONSTER unit, add 1 to the hit roll.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="8822-c056-0cc8-8a34" import="true" name="Dark Forging" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="4bae-0c03-8846-2416" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="deec-d188-ba24-4c99" name="Dark Forging" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         Add 6" to the maximum Range characteristic of ranged weapons a model with this bond is equipped with that have an unmodified Range characteristic of 24" or more. Add 2" to the maximum Range characteristic of all other ranged weapons a model with this bond is equipped with.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="c7d2-5e62-8a57-636f" import="true" name="Warp Vision (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="9833-ddf3-ddb4-e69c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="9008-2226-6d7d-f6b7" name="Warp Vision" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made with a ranged weapon by a model with this bond, the target does not receive the benefit to its saving throw as a result of cover.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="14f7-c15a-ed8b-1156" import="true" name="Pride-fuelled Fury" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="d2cc-ba48-18e7-5481" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="a68c-64ab-b59d-38dc" name="Pride-fuelled Fury" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         Whilst a model with this bond has lost half or more of its wounds, increase its Attacks characteristic by 1. When resolving an attack made with a melee weapon by a model with this bond that has lost half or more of its wounds, add 1 to the hit roll.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="5dc0-270d-3c77-535d" import="true" name="Abominable Constitution" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="082b-1e36-6d13-ff5e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="246e-c80d-e429-423d" name="Abominable Constitution" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         Increase the Move characteristic of a model with this bond by 1" and always use the top row of its damage table when determining its Move characteristic, regardless of how many wounds it has left.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="1cc5-e3e4-3a28-0bd8" import="true" name="Harrying Packs" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="2d31-ec2c-e3ca-a573" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="d3eb-f6d3-a004-7dba" name="Harrying Packs" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         A WAR DOG model with this bond can either shoot or charge in a turn in which it Fell Back. If it shoots, when resolving an attack made by that model in the Shooting phase of that turn, subtract 1 from the hit roll.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="d23f-fcf8-d300-488f" import="true" name="Frenzied Attackers" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="cd76-a256-8210-376d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="87e2-3085-3225-959f" name="Frenzied Attackers" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made with a melee weapon (excluding Titanic Feet) by a model with this bond, an unmodified hit roll of 6 scores one additional hit.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="43e4-17d4-810f-2ac6" import="true" name="Hate-driven Charge" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e4fd-9de7-5f79-e355" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="6692-a3e2-7cba-7b95" name="Hate-driven Charge" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         If a model with this bond makes a charge move, is charged or performs a Heroic Intervention, the Armour Penetration characteristic of melee weapons that model is equipped with (excluding Titanic Feet) is improved by 1 until the end of the turn (e.g. AP 0 becomes AP -1).
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="56bf-784c-e046-fe3e" import="true" name="Enlightened Idolators (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="21f7-de86-92e8-198c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="e9a1-5fa6-ce9e-ded3" name="Enlightened Idolators" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made with a weapon that has an Armour Penetration characteristic of -1 against a model with this bond, that weapon is treated has haivng an Armour Penetration characteristic of 0.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="75d8-c642-2c06-c8dc" import="true" name="Hellforged Construction (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="16bb-b1f9-3b47-910d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="4d9c-76a2-ede6-1d86" name="Hellforged Construction" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         Add 1 to the Wounds characteristic of WAR DOG models with this bond. Add 2 to the Wounds characteristic of all other models with this bond.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="d714-35f2-2045-20b7" import="true" name="Vengeful Outcasts (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="d8f3-348f-d6b1-b8cd" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="d4f1-3e4b-a3cd-eb44" name="Vengeful Outcasts" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made by a model with this bond against an IMPERIUM unit, you can re-roll a wound roll of 1.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="1cd5-3109-6dd7-1c65" import="true" name="Heretical System-bond (counts as 2)" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="76a4-26c3-16bd-d0f6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="ab94-604f-3955-2071" name="Heretical System-bond" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made by a model with this bond that is subject to any negative hit roll modifiers, add 1 to the hit roll.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="2e6e-4083-7081-15b2" import="true" name="Loathing for the Masses" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="b5f6-2b37-2b68-13ce" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="ecac-e802-dc34-2b1e" name="Loathing for the Masses" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         Whilst a model with this bond is within 1" of any enemy units that contain 11 models or more, increase its Attacks characteristic by 1.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="fdf4-7ab6-276f-e723" import="true" name="Bold Tyrants" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="8b6c-0953-8581-2fd3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="926f-c151-6e61-c3a9" name="Bold Tyrants" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When resolving an attack made with a ranged weapon by a model with this bond against a unit within 12", improve the Armour Penetration characteristic of that weapon by 1 for that attack (e.g. AP 0 becomes AP -1).
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="c390-f229-d529-ea60" import="true" name="Rapid Offense" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="6a8f-0a1d-1e99-d630" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="0f30-69a3-4e90-b9ae" name="Rapid Offense" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         Models with this bond do not suffer the penalties to their hit rolls for Advancing and shooting Assault weapons.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="9c80-4af8-5d79-966f" import="true" name="Unhallowed Inscriptions" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e19a-90cc-41c3-ee24" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="238d-8de2-9c0b-f948" name="Unhallowed Inscriptions" typeId="b2ce-7355-8075-feac" typeName="Household Bonds">
+       <characteristics>
+        <characteristic name="Ability" typeId="11c8-2cd6-bd89-48be">
+         When a model with this bonf would lose a wound in the Psychic phase, roll one D6; on a 5+ that wound is not lost.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+   </selectionEntries>
+  </selectionEntryGroup>
+  <selectionEntryGroup collective="false" hidden="false" id="81ce-8d87-e3a4-9542" import="true" name="Warlord Traits (Household)">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="4f6a-0a86-fd1c-0486" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+       <conditionGroups>
+        <conditionGroup type="or">
+         <conditions>
+          <condition childId="7996-bc1f-d832-ee8f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+          <condition childId="8aa4-bb7e-4ca9-2222" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1.0"/>
+         </conditions>
+        </conditionGroup>
+       </conditionGroups>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <constraints>
+    <constraint field="selections" id="029b-5c7e-8c8b-5843" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="bc6a-f103-2981-e2be" import="true" name="Maddened Cries" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="7315-6245-a57e-0f62" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="10e4-9a4e-89a5-28ce" name="Maddened Cries" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         Quando um teste moral é levado para uma unidade inimiga dentro de 12" deste Warlord, um rolo de D6 adicional e descartar resultar mais baixos dados. Se ambos os resultados dados são os mesmos, selecionar um deles para descartar.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="3985-c96f-3aff-b20e" import="true" name="Dread Hunter" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="385a-b6d0-2eab-4925" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="8ff0-0ee0-272b-8074" name="Dread Hunter" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         Uma vez por jogo, no início da fase de tiro, você pode declarar este Warlord vai fazer uma greve de matar. Se fizer isso, selecione uma variou arma esta Warlord está equipado com. Até o final do turno, adicione 1 ao charactersitic prejuízo dessa arma, e quando a resolução de um ataque feito com essa arma, você pode re-roll rolos de vida e rolos de feridas.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="ded7-a0d4-b7cd-8058" import="true" name="Favour of the Dark Mechanicum" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="bc9a-1a51-23e0-f48e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="401e-70e0-1290-d2dc" name="Favour of the Dark Mechanicum" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         No início de sua fase de movimento, este Warlord recupera uma ferida perdida.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="337c-9e29-c3cc-5754" import="true" name="Strike First, Strike Often" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="1eb3-afec-767e-cc4e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="2fcf-10d0-276a-13be" name="Strike First, Strike Often" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         Este Warlord sempre luta pela primeira vez na fase de luta, mesmo que não cobrar. Se o inimigo tem unidades que têm cobrado, ou que têm uma capacidade similar, então unidades Escolhendo alternativas para combater com, começando com o jogador da vez está ocorrendo.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="638d-5394-2a49-328b" import="true" name="Bound to None" type="upgrade">
+     <modifiers>
+      <modifier field="hidden" type="set" value="true">
+       <conditions>
+        <condition childId="d9c1-cf6c-bc18-30f5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </modifier>
+     </modifiers>
+     <profiles>
+      <profile hidden="false" id="a12f-eaeb-f90e-1ca6" name="Bound to None" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+       <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+         A primeira vez que este Warlord é destruído, se não explodir, um rolo de D6, no final da fase, em um 4+ retornar este modelo para brincar com feridas D3 restantes, colocando-o mais próximo possível à sua posição anterior e mais de 1" de quaisquer modelos inimigas.
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
      <costs>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>

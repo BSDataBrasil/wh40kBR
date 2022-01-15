@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@GenWilhelm" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.02" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="58" id="b619-ccba-8c99-4699" library="false" name="Imperium - Elucidian Starstriders-BR" revision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@GenWilhelm" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="b619-ccba-8c99-4699" library="false" name="Imperium - Elucidian Starstriders-BR" revision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="b619-ccba-pubN66040" name="Codex: Elucidian Starstriders"/>
  </publications>
@@ -17,22 +17,22 @@
   <categoryEntry hidden="false" id="8e86-de74-2b56-27fa" name="Death Cult Executioner"/>
  </categoryEntries>
  <entryLinks>
-  <entryLink collective="false" hidden="false" id="ace2-bf11-81ad-541b" name="Nitsch's Squad" targetId="bbfa-3999-2731-1c30" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="ace2-bf11-81ad-541b" import="true" name="Nitsch's Squad" targetId="bbfa-3999-2731-1c30" type="selectionEntry">
    <categoryLinks>
     <categoryLink hidden="false" id="33af-0728-d3ae-e793" name="New CategoryLink" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
    </categoryLinks>
   </entryLink>
-  <entryLink collective="false" hidden="false" id="7ad3-d4ce-96f4-0535" name="Elucia Vhane" targetId="399e-3014-2283-8196" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="7ad3-d4ce-96f4-0535" import="true" name="Elucia Vhane" targetId="399e-3014-2283-8196" type="selectionEntry">
    <categoryLinks>
     <categoryLink hidden="false" id="144c-d477-c6ac-a7f1" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
    </categoryLinks>
   </entryLink>
-  <entryLink collective="false" hidden="false" id="8344-4711-793c-f6ae" name="Larsen van der Grauss" targetId="fff8-6f8f-0b1a-c3f9" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="8344-4711-793c-f6ae" import="true" name="Larsen van der Grauss" targetId="fff8-6f8f-0b1a-c3f9" type="selectionEntry">
    <categoryLinks>
     <categoryLink hidden="false" id="49a1-9654-f29c-5f73" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
    </categoryLinks>
   </entryLink>
-  <entryLink collective="false" hidden="false" id="a7fe-ceb1-52bb-f240" name="Sanistasia Minst" targetId="7286-f2e2-422c-c2ef" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="a7fe-ceb1-52bb-f240" import="true" name="Sanistasia Minst" targetId="7286-f2e2-422c-c2ef" type="selectionEntry">
    <modifiers>
     <modifier field="hidden" type="set" value="true">
      <conditions>
@@ -44,12 +44,12 @@
     <categoryLink hidden="false" id="a069-bd87-a973-9b47" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
    </categoryLinks>
   </entryLink>
-  <entryLink collective="false" hidden="false" id="506b-3d3c-4a00-4869" name="Knosso Prond" targetId="99e1-4638-0d70-0391" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="506b-3d3c-4a00-4869" import="true" name="Knosso Prond" targetId="99e1-4638-0d70-0391" type="selectionEntry">
    <categoryLinks>
     <categoryLink hidden="false" id="b0a1-41dc-364a-272b" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
    </categoryLinks>
   </entryLink>
-  <entryLink collective="false" hidden="false" id="89a4-bcb2-dd94-7321" name="Sanistasia Minst" targetId="7286-f2e2-422c-c2ef" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="89a4-bcb2-dd94-7321" import="true" name="Sanistasia Minst" targetId="7286-f2e2-422c-c2ef" type="selectionEntry">
    <modifiers>
     <modifier field="hidden" type="set" value="true">
      <conditions>
@@ -61,9 +61,15 @@
     <categoryLink hidden="false" id="7b33-d8fc-ede3-df6e" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
    </categoryLinks>
   </entryLink>
+  <entryLink collective="false" hidden="false" id="bceb-2fd8-bd33-6304" import="true" name="Operative Requisition Sanctioned" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="bc86-b96d-8ef7-9dd3" import="true" name="Ephrael Stern and Kyganil of the Bloody Tears" targetId="7dca-e055-7a15-4bf3" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="bb68-4378-94e0-6819" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
  </entryLinks>
  <sharedSelectionEntries>
-  <selectionEntry collective="false" hidden="false" id="399e-3014-2283-8196" name="Elucia Vhane" type="model">
+  <selectionEntry collective="false" hidden="false" id="399e-3014-2283-8196" import="true" name="Elucia Vhane" type="model">
    <constraints>
     <constraint field="selections" id="9de4-e293-8192-3fce" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -145,7 +151,7 @@
     <categoryLink hidden="false" id="0395-cdc9-cff1-8893" name="Faction: Elucidian Starstriders" primary="false" targetId="286c-17a6-c298-88b5"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="57d2-bd0f-8bce-494b" name="Monomolecular Cane-rapier" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="57d2-bd0f-8bce-494b" import="true" name="Monomolecular Cane-rapier" type="upgrade">
      <constraints>
       <constraint field="selections" id="03d5-d231-4798-5c97" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="c566-dd56-4c2a-7154" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -180,7 +186,7 @@
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="ad15-4299-a12e-a1c6" name="Heirloom Pistol" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="ad15-4299-a12e-a1c6" import="true" name="Heirloom Pistol" type="upgrade">
      <constraints>
       <constraint field="selections" id="193f-1e51-1ce4-0f06" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="ad7b-a708-50fe-0841" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -217,8 +223,8 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="5150-ad70-4678-15e3" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="2809-35cc-66a4-91d8" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="5150-ad70-4678-15e3" import="true" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="2809-35cc-66a4-91d8" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="92b1-900b-e7c8-71d5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="6b1d-b324-ad6d-1074" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -226,12 +232,12 @@
     </entryLink>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="45.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+    <cost name="pts" typeId="points" value="50.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="99e1-4638-0d70-0391" name="Knosso Prond" type="model">
+  <selectionEntry collective="false" hidden="false" id="99e1-4638-0d70-0391" import="true" name="Knosso Prond" type="model">
    <constraints>
     <constraint field="selections" id="90d3-ed4e-b4ea-722b" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -295,7 +301,7 @@
     <categoryLink hidden="false" id="ec08-f3d0-529e-7c98" name="Death Cult Executioner" primary="false" targetId="8e86-de74-2b56-27fa"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="c2d4-a874-3ca0-25d6" name="Dartmask" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="c2d4-a874-3ca0-25d6" import="true" name="Dartmask" type="upgrade">
      <constraints>
       <constraint field="selections" id="42d2-eb64-1893-aef4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
       <constraint field="selections" id="7a8c-ed90-b7ba-0614" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
@@ -330,7 +336,7 @@
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="2b1f-3168-ca74-b55a" name="Death Cult Power Blade" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="2b1f-3168-ca74-b55a" import="true" name="Death Cult Power Blade" type="upgrade">
      <constraints>
       <constraint field="selections" id="eab5-8a54-992b-532f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
       <constraint field="selections" id="cd79-538e-6ba1-417b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
@@ -367,22 +373,22 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="c850-ada3-a294-2076" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="c850-ada3-a294-2076" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="677b-c370-1763-9c6b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="7388-d267-1f76-430c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="6bda-b3ae-79d8-e894" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="a765-bbe7-954f-e8e1" name="Warlord Traits" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="6bda-b3ae-79d8-e894" import="true" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="a765-bbe7-954f-e8e1" import="true" name="Warlord Traits" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="25.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+    <cost name="pts" typeId="points" value="28.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="fff8-6f8f-0b1a-c3f9" name="Larsen van der Grauss" type="model">
+  <selectionEntry collective="false" hidden="false" id="fff8-6f8f-0b1a-c3f9" import="true" name="Larsen van der Grauss" type="model">
    <constraints>
     <constraint field="selections" id="9b34-870c-9dbf-c24b" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -441,7 +447,7 @@
     <categoryLink hidden="false" id="0ad5-f721-f9d1-23b7" name="Tech-Priest" primary="false" targetId="7df3-2edc-c726-41b6"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="56d0-6e40-7cf5-eac8" name="Voltaic Pistol" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="56d0-6e40-7cf5-eac8" import="true" name="Voltaic Pistol" type="upgrade">
      <constraints>
       <constraint field="selections" id="13a8-59f2-73a9-19a5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="f223-4900-5149-eb18" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -478,22 +484,22 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="9b4d-7c10-0aa5-e14b" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="9b4d-7c10-0aa5-e14b" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="b7eb-d5e7-abe0-6af0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="cc00-4089-cab8-f23a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="f378-21d6-17e6-eb2e" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="9371-e341-e32b-0613" name="Warlord Traits" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="f378-21d6-17e6-eb2e" import="true" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="9371-e341-e32b-0613" import="true" name="Warlord Traits" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="22.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+    <cost name="pts" typeId="points" value="25.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="7286-f2e2-422c-c2ef" name="Sanistasia Minst" type="model">
+  <selectionEntry collective="false" hidden="false" id="7286-f2e2-422c-c2ef" import="true" name="Sanistasia Minst" type="model">
    <constraints>
     <constraint field="selections" id="1d43-638b-ef5f-389c" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -539,7 +545,7 @@
     <profile hidden="false" id="1028-a692-e050-111d" name="Healing Serum" page="17" publicationId="b619-ccba-pubN66040" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       No final de cada fase do Movemnt, este modelo pode tentar curar uma única unidade de infantaria ELUCIDIAN STARRRIDERS a no máximo 3" . Se fizer isso, role um D6; em 4+ um modelo da unidade recupere 1 Ponto de Vida. Se o unidade é NITSCH'S SQUAD, um modelo morto anteriormente na batalha é retornado para a unidade.
+       No final de cada fase de movimento, este modelo pode tentar curar uma única unidade ELUCIDIAN STARSTRIDERS INFANTARIA amigável dentro de 3" Se ele faz isso, rolo um D6;.. Em um modelo da unidade 4+ um recupera 1 ferida perdida Se o unidade é NITSCH dO PELOTÃO, um modelo que foi morto no início da batalha é devolvido para a unidade em seu lugar.
       </characteristic>
      </characteristics>
     </profile>
@@ -556,7 +562,7 @@
     <categoryLink hidden="false" id="8e5b-0e59-4504-0f8f" name="Rejuvenat Adept" primary="false" targetId="1ed0-1ca9-8c59-0acd"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="a0ce-d3d1-3536-8db1" name="Scalpel Claw" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="a0ce-d3d1-3536-8db1" import="true" name="Scalpel Claw" type="upgrade">
      <constraints>
       <constraint field="selections" id="b456-70a3-54f4-228e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="c915-8dc2-47b6-00b7" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -593,28 +599,28 @@
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="64e0-1e9d-a0fb-f560" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="64e0-1e9d-a0fb-f560" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="3bf5-ba65-48ed-6592" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="2ffb-a9bd-08c2-2f3d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="34d8-cb97-76fc-e7fd" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="34d8-cb97-76fc-e7fd" import="true" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="5b1f-8e83-9982-c06f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="c27d-92d0-658f-d5e9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="aa47-c088-32c5-c001" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="0fd9-fe38-c52c-4fff" name="Warlord Traits" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="aa47-c088-32c5-c001" import="true" name="Warlord" targetId="6217-33f6-b8f0-f1fa" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="0fd9-fe38-c52c-4fff" import="true" name="Warlord Traits" targetId="e935-78b4-b59a-7e9c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="17.0"/>
+    <cost name="pts" typeId="points" value="20.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="bbfa-3999-2731-1c30" name="Nitsch's Squad" type="unit">
+  <selectionEntry collective="false" hidden="false" id="bbfa-3999-2731-1c30" import="true" name="Nitsch's Squad" type="unit">
    <constraints>
     <constraint field="selections" id="1ff4-22b9-1594-6b23" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -645,7 +651,7 @@
     <categoryLink hidden="false" id="e728-7357-bb53-6b73" name="Voidsmen-at-Arms" primary="false" targetId="aa3d-a05c-a35a-bfe9"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="89ea-5026-b124-be6f" name="Voidsmaster Nitsch" type="model">
+    <selectionEntry collective="false" hidden="false" id="89ea-5026-b124-be6f" import="true" name="Voidsmaster Nitsch" type="model">
      <constraints>
       <constraint field="selections" id="a5e5-fa24-76ef-f646" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="e4eb-a832-b269-9537" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -684,7 +690,7 @@
       </profile>
      </profiles>
      <selectionEntries>
-      <selectionEntry collective="false" hidden="false" id="f267-cb01-e996-7e02" name="Artificer Shotgun" type="upgrade">
+      <selectionEntry collective="false" hidden="false" id="f267-cb01-e996-7e02" import="true" name="Artificer Shotgun" type="upgrade">
        <constraints>
         <constraint field="selections" id="2002-0fb8-3f24-dcd5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="8703-0ff2-6dc7-6757" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -721,13 +727,13 @@
       </selectionEntry>
      </selectionEntries>
      <entryLinks>
-      <entryLink collective="false" hidden="false" id="3676-7843-e86d-11d6" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="3676-7843-e86d-11d6" import="true" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="fe55-6ab5-66ff-29b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="bb70-6522-d01d-08da" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
       </entryLink>
-      <entryLink collective="false" hidden="false" id="984d-bfbc-a0f6-8c89" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="984d-bfbc-a0f6-8c89" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="0a29-8c5b-82ec-66dd" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="deaa-f068-09c6-96e6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -735,12 +741,12 @@
       </entryLink>
      </entryLinks>
      <costs>
-      <cost name="pts" typeId="points" value="6.0"/>
+      <cost name="pts" typeId="points" value="7.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="e774-dbaf-609a-7ea1" name="Voidsman" type="model">
+    <selectionEntry collective="false" hidden="false" id="e774-dbaf-609a-7ea1" import="true" name="Voidsman" type="model">
      <constraints>
       <constraint field="selections" id="8505-b400-8e7a-fe48" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3.0"/>
       <constraint field="selections" id="1993-f01a-4d36-99d1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3.0"/>
@@ -779,19 +785,19 @@
       </profile>
      </profiles>
      <entryLinks>
-      <entryLink collective="false" hidden="false" id="f5f0-5836-e5bf-6f0d" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="f5f0-5836-e5bf-6f0d" import="true" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="df82-252f-29b2-6c72" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="8dc0-b01c-80d0-f051" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
       </entryLink>
-      <entryLink collective="false" hidden="false" id="b63b-4553-dcf2-7639" name="Lasgun" targetId="169d-cfff-0ece-7d89" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="b63b-4553-dcf2-7639" import="true" name="Lasgun" targetId="169d-cfff-0ece-7d89" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="c298-4df4-dc48-afae" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="055f-de96-0a89-5191" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
       </entryLink>
-      <entryLink collective="false" hidden="false" id="f236-fbd6-b97b-7fcc" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="f236-fbd6-b97b-7fcc" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="6c42-7bca-9c66-4bc5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="d8e1-f404-1196-9812" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -799,12 +805,12 @@
       </entryLink>
      </entryLinks>
      <costs>
-      <cost name="pts" typeId="points" value="6.0"/>
+      <cost name="pts" typeId="points" value="7.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="3123-e13c-86c6-9129" name="Voidsman" type="model">
+    <selectionEntry collective="false" hidden="false" id="3123-e13c-86c6-9129" import="true" name="Voidsman" type="model">
      <constraints>
       <constraint field="selections" id="66fa-f982-0b3a-a831" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="2da1-1688-0990-1d5f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -843,7 +849,7 @@
       </profile>
      </profiles>
      <selectionEntries>
-      <selectionEntry collective="false" hidden="false" id="fdf2-644e-8408-452a" name="Rotor Cannon" type="upgrade">
+      <selectionEntry collective="false" hidden="false" id="fdf2-644e-8408-452a" import="true" name="Rotor Cannon" type="upgrade">
        <constraints>
         <constraint field="selections" id="8e17-3354-ee5a-4482" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="c162-b46b-de5a-4532" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -880,13 +886,13 @@
       </selectionEntry>
      </selectionEntries>
      <entryLinks>
-      <entryLink collective="false" hidden="false" id="6ec4-03c3-fefc-a5d7" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="6ec4-03c3-fefc-a5d7" import="true" name="Laspistol" targetId="b6d8-94a9-9017-cc3c" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="5c1d-d4e4-d968-2eef" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="98d1-4cd2-8a95-b63d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
       </entryLink>
-      <entryLink collective="false" hidden="false" id="c06d-dacc-b6db-48b9" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
+      <entryLink collective="false" hidden="false" id="c06d-dacc-b6db-48b9" import="true" name="Concussion Grenades" targetId="c8df-57df-b18e-397d" type="selectionEntry">
        <constraints>
         <constraint field="selections" id="e4a1-6e5b-6fa7-3464" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="9e49-3b0f-46d3-b0b9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -894,12 +900,12 @@
       </entryLink>
      </entryLinks>
      <costs>
-      <cost name="pts" typeId="points" value="6.0"/>
+      <cost name="pts" typeId="points" value="7.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
-    <selectionEntry collective="false" hidden="false" id="707b-c499-fdc5-1da4" name="Aximillion" type="model">
+    <selectionEntry collective="false" hidden="false" id="707b-c499-fdc5-1da4" import="true" name="Aximillion" type="model">
      <constraints>
       <constraint field="selections" id="5ed7-c877-0aba-ff0c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="bee0-99c6-6baa-6df2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -938,19 +944,19 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="6.0"/>
+      <cost name="pts" typeId="points" value="7.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
     <cost name="pts" typeId="points" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="true" hidden="false" id="b6d8-94a9-9017-cc3c" name="Laspistol" type="upgrade">
+  <selectionEntry collective="true" hidden="false" id="b6d8-94a9-9017-cc3c" import="true" name="Laspistol" type="upgrade">
    <infoLinks>
     <infoLink hidden="false" id="964f-123b-65ff-eb2b" name="Laspistol" targetId="f2b7-768f-a270-de64" type="profile"/>
    </infoLinks>
@@ -960,7 +966,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="true" hidden="false" id="169d-cfff-0ece-7d89" name="Lasgun" type="upgrade">
+  <selectionEntry collective="true" hidden="false" id="169d-cfff-0ece-7d89" import="true" name="Lasgun" type="upgrade">
    <infoLinks>
     <infoLink hidden="false" id="61f8-e434-3ab5-66e8" name="Lasgun" targetId="d174-eb55-aaa6-d032" type="profile"/>
    </infoLinks>
@@ -970,7 +976,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="true" hidden="false" id="c8df-57df-b18e-397d" name="Concussion Grenades" type="upgrade">
+  <selectionEntry collective="true" hidden="false" id="c8df-57df-b18e-397d" import="true" name="Concussion Grenades" type="upgrade">
    <profiles>
     <profile hidden="false" id="bbab-dc4c-eafe-b915" name="Concussion Grenade" page="" publicationId="b619-ccba-pubN66040" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
      <characteristics>
@@ -990,7 +996,7 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o alvo estiver a menos de 1" de um recurso de terreno, adicione 1 às características de Força e Dano desta arma.
+       Cada vez que um ataque é feito com esta arma que as metas de uma unidade dentro de 1" de quaisquer obstáculos ou Área Terreno recursos, adicione 1 para a força e danos características desse ataque.
       </characteristic>
      </characteristics>
     </profile>
@@ -1001,7 +1007,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="6217-33f6-b8f0-f1fa" name="Warlord" type="upgrade">
+  <selectionEntry collective="false" hidden="false" id="6217-33f6-b8f0-f1fa" import="true" name="Warlord" type="upgrade">
    <constraints>
     <constraint field="selections" id="42ae-4017-4d37-4ca0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
@@ -1016,7 +1022,7 @@
   </selectionEntry>
  </sharedSelectionEntries>
  <sharedSelectionEntryGroups>
-  <selectionEntryGroup collective="false" hidden="false" id="e935-78b4-b59a-7e9c" name="Warlord Traits">
+  <selectionEntryGroup collective="false" hidden="false" id="e935-78b4-b59a-7e9c" import="true" name="Warlord Traits">
    <modifiers>
     <modifier field="hidden" type="set" value="true">
      <conditions>
@@ -1028,8 +1034,7 @@
     <constraint field="selections" id="f947-f884-1ade-f622" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
    </constraints>
    <entryLinks>
-    <entryLink collective="false" hidden="false" id="d16a-ce33-8648-134d" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="31e4-ecfe-323c-c883" name="Warlord Traits (CA)" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="d16a-ce33-8648-134d" import="true" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
    </entryLinks>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>
@@ -1049,4 +1054,8 @@
    </characteristics>
   </profile>
  </sharedProfiles>
+ <catalogueLinks>
+  <catalogueLink id="ff76-72a1-b6ba-f98d" importRootEntries="true" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue"/>
+  <catalogueLink id="7c10-c8fc-2c4d-feb4" importRootEntries="false" name="Imperium - Officio Assassinorum" targetId="f731-6aa6-c141-8937" type="catalogue"/>
+ </catalogueLinks>
 </catalogue>

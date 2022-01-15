@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="58" id="7472-4b9e-c2fe-e071" library="false" name="Imperium - Blackstone Fortress-BR" revision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
- <publications>
-  <publication id="7472-4b9e-pubN65537" name="Warhammer Quest: Blackstone Fortress"/>
- </publications>
+<catalogue authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="7472-4b9e-c2fe-e071" library="false" name="Imperium - Blackstone Fortress-BR" revision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <categoryEntries>
   <categoryEntry hidden="false" id="110e-77c9-259a-1fda" name="Faction: Astra Cartographica"/>
   <categoryEntry hidden="false" id="2581-a621-228e-433d" name="Rogue Trader"/>
@@ -111,6 +108,11 @@
        </characteristics>
       </profile>
      </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
     </selectionEntry>
    </selectionEntries>
    <entryLinks>
@@ -118,7 +120,8 @@
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-    <cost name="pts" typeId="points" value="50.0"/>
+    <cost name="pts" typeId="points" value="55.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
  </selectionEntries>
@@ -127,6 +130,12 @@
   <entryLink collective="false" hidden="false" id="9985-cfd3-2828-97b8" import="true" name="Espern Locarno" targetId="55b1-6539-c83a-5aa7" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="4de0-1d8e-d91e-298b" import="true" name="UR-025" targetId="ccbe-3d16-5567-97ae" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="6311-80f5-ac2a-2a83" import="true" name="Spindle Drones" targetId="c0da-c185-688c-3857" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="bceb-2fd8-bd33-6304" import="true" name="Operative Requisition Sanctioned" targetId="0b7d-bfe1-b63e-ecb6" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="0cab-b01f-99ee-34f6" import="true" name="Ephrael Stern and Kyganil of the Bloody Tears" targetId="7dca-e055-7a15-4bf3" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink hidden="false" id="91b9-4f7a-11ab-d326" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+   </categoryLinks>
+  </entryLink>
  </entryLinks>
  <sharedSelectionEntries>
   <selectionEntry collective="false" hidden="false" id="ff61-7c0c-bd4d-0657" import="true" name="Janus Draik" type="model">
@@ -294,7 +303,7 @@
          D3
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Você só pode usar essa arma uma vez por batalha.
+         Você só pode usar esta arma uma vez por batalha. Explosão.
         </characteristic>
        </characteristics>
       </profile>
@@ -311,8 +320,8 @@
     <entryLink collective="false" hidden="false" id="4608-def6-ae75-d83a" import="true" name="Warlord Traits" targetId="8206-10e1-8d1e-b6ef" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="40.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+    <cost name="pts" typeId="points" value="45.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -447,7 +456,7 @@
     <entryLink collective="false" hidden="false" id="ccbc-ced6-7390-628a" import="true" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="30.0"/>
+    <cost name="pts" typeId="points" value="35.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -578,7 +587,7 @@
          D3
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Ao atacar com esta arma, subtraia 1 do jogada de acerto.
+         Ao atacar com esta arma, subtraia 1 da jogada de acerto.
         </characteristic>
        </characteristics>
       </profile>
@@ -595,8 +604,8 @@
     <entryLink collective="false" hidden="false" id="9641-8209-933e-2fdf" import="true" name="Warlord" targetId="401e-5471-c6ad-683b" type="selectionEntry"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-    <cost name="pts" typeId="points" value="40.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+    <cost name="pts" typeId="points" value="45.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -705,7 +714,7 @@
    </selectionEntries>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-    <cost name="pts" typeId="points" value="60.0"/>
+    <cost name="pts" typeId="points" value="65.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -724,7 +733,6 @@
    </constraints>
    <entryLinks>
     <entryLink collective="false" hidden="false" id="e6b7-7fae-76ef-00d8" import="true" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="11e3-9203-e782-ca9c" import="true" name="Warlord Traits (CA)" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
    </entryLinks>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>

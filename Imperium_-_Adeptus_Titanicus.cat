@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="10" id="f944-98a5-b73d-f132" library="false" name="Imperium - Adeptus Titanicus-BR" revision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Dr. Toboggan" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="12" id="f944-98a5-b73d-f132" library="false" name="Imperium - Adeptus Titanicus-BR" revision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="f944-98a5-pubN65537" name="Imperial Armour - Index: Forces of the Astra Militarum"/>
   <publication id="f944-98a5-pubN71564" name="Forgeworld Datasheet"/>
@@ -968,6 +968,8 @@
       <constraint field="selections" id="a3ea-fefa-81ce-65a1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="fbb9-554a-127e-5cdd" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="da59-04b0-8831-29bc" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="75.0"/>
@@ -1205,6 +1207,8 @@
       <constraint field="selections" id="3e38-7633-56b5-9fb8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="04d2-fd64-e6cd-0dae" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="36a2-c601-968f-dd9c" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="120.0"/>
@@ -1459,6 +1463,8 @@
       <constraint field="selections" id="d1fe-91c9-2e4d-58fd" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="4fa3-0fde-ae84-e501" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="e325-f85a-e7a7-1010" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="200.0"/>
@@ -1742,6 +1748,8 @@
       <constraint field="selections" id="f874-1a34-b176-f503" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
     </entryLink>
+    <entryLink collective="false" hidden="false" id="047e-a191-1858-f4b5" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="8c39-d2ba-b9ed-e2cd" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="175.0"/>
