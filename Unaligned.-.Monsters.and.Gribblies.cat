@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="c362-10c1-e4a1-a922" library="false" name="Unaligned - Monsters and Gribblies-BR" revision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="c362-10c1-e4a1-a922" library="false" name="Unaligned - Monsters and Gribblies-BR" revision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="4ba2-bdba-206a-4d05" name="Blackstone Fortress"/>
  </publications>
@@ -18,7 +18,7 @@
   </entryLink>
   <entryLink collective="false" hidden="false" id="9344-3719-958a-0095" import="true" name="Borewyrm Infestations" targetId="45f8-7f0c-8ada-f8bb" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="17e0-7cef-aa2a-eb79" name="New CategoryLink" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+    <categoryLink hidden="false" id="6755-0527-f96a-4f84" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="d8e6-b1a6-84e2-cdb0" import="true" name="Guardian Drone" targetId="427e-4806-c2cc-778d" type="selectionEntry">
@@ -33,7 +33,7 @@
   </entryLink>
   <entryLink collective="false" hidden="false" id="2276-f624-5e90-d0de" import="true" name="Spindle Drones" targetId="7c28-1195-26fe-5d6e" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="6544-949b-6f5c-2232" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+    <categoryLink hidden="false" id="6440-bed3-75cf-0c35" name="New CategoryLink" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
    </categoryLinks>
   </entryLink>
  </entryLinks>
@@ -139,7 +139,7 @@
    <selectionEntries>
     <selectionEntry collective="false" hidden="false" id="cc96-fb35-6664-6a81" import="true" name="Borewyrm Infestation" type="model">
      <constraints>
-      <constraint field="selections" id="5d43-dc40-1fde-79dc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="5d43-dc40-1fde-79dc" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
       <constraint field="selections" id="d775-a2b4-2174-c14f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
      </constraints>
      <profiles>
@@ -227,16 +227,16 @@
       </selectionEntry>
      </selectionEntries>
      <costs>
-      <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-      <cost name="pts" typeId="points" value="15.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-    <cost name="pts" typeId="points" value="0.0"/>
+    <cost name="pts" typeId="points" value="15.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="7c28-1195-26fe-5d6e" import="true" name="Spindle Drones" type="unit">
@@ -254,7 +254,6 @@
    </profiles>
    <categoryLinks>
     <categoryLink hidden="false" id="c093-4705-8749-bffb" name="Faction: Unaligned" primary="false" targetId="9df5-bb14-9326-4108"/>
-    <categoryLink hidden="false" id="b507-3e72-4052-26b1" name="Troops" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
     <categoryLink hidden="false" id="59d1-f2cf-27c3-7b0a" name="Faction: Blackstone Construct" primary="false" targetId="561e-a499-be4f-1c4c"/>
    </categoryLinks>
    <selectionEntries>
@@ -386,7 +385,7 @@
     <profile hidden="false" id="2026-86ad-31b2-6970" name="Disruptive Influence" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Subtract 1 from the Leadership characteristic of enemy and friendly units whilst they are within 3" of any model with this ability.
+       Subtraia 1 da característica de liderança de unidades inimigas e aliadas enquanto eles estão dentro de 3" de qualquer modelo com essa habilidade.
       </characteristic>
      </characteristics>
     </profile>
@@ -423,7 +422,7 @@
          D6
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         When resolving an attack made with this weapon the target does not receive the benefit of cover to its saving throw.
+         Ao resolver um ataque feito com esta arma, o alvo não recebe o benefício da cobertura ao seu lance de salvamento.
         </characteristic>
        </characteristics>
       </profile>
@@ -458,7 +457,7 @@
          3
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Ao resolver um ataque feito com esta arma, subtraia 1 do rolo hit.
+         Ao resolver um ataque feito com esta arma, subtraia 1 da jogada de acerto.
         </characteristic>
        </characteristics>
       </profile>
@@ -512,7 +511,7 @@
     <profile hidden="false" id="33df-f52c-648c-aa7d" name="Hover Drones" publicationId="4ba2-bdba-206a-4d05" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Quando este modelo iria perder uma ferida, um rolo de D6; em um 5+ essa ferida não está perdida.
+       Quando este modelo iria perder um ponto de vida, uma jogada de D6; em um 5+ essa ferida não está perdida.
       </characteristic>
      </characteristics>
     </profile>
@@ -560,6 +559,11 @@
        </characteristics>
       </profile>
      </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="3531-2c37-63cd-0458" import="true" name="Destroyer Pulse" type="upgrade">
      <constraints>
@@ -590,6 +594,11 @@
        </characteristics>
       </profile>
      </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="bfb7-4f40-43c2-638b" import="true" name="Manipulator Limbs" type="upgrade">
      <constraints>
@@ -620,11 +629,17 @@
        </characteristics>
       </profile>
      </profiles>
+     <costs>
+      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
+     </costs>
     </selectionEntry>
    </selectionEntries>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
     <cost name="pts" typeId="points" value="90.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
  </sharedSelectionEntries>
