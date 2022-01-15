@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="2128-f196-8f1c-b352" library="false" name="Chaos - FW Heretic Astartes-BR" revision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
- <publications>
-  <publication id="2128-f196-pubN106623" name="Index: Chaos"/>
- </publications>
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="2128-f196-8f1c-b352" library="true" name="Chaos - FW Heretic Astartes-BR" revision="56" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profileTypes>
   <profileType id="cfcb-6416-94fb-4744" name="Wound Track, Drop Pod">
    <characteristicTypes>
@@ -217,13 +214,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="b716-9a5e-f5e5-0b50" name="Titanic Daemon Engine" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Um Escorpião de Latão Maior de Khorne pode atirar se houver modelos inimigos a menos de 1" disto, contanto que todos os modelos inimigos tenham a palavra-chave Infantry. Neste caso, ele pode disparar a unidade inimiga que está a menos de 1" disto qualquer outra unidade inimiga visível que esteja dentro do alcance e a mais de 1" de distância de qualquer modelo aliada. Além disso, o Escorpião de Latão Maior de Khorne pode se mover e disparar armas Pesadas sem sofrer a penalidade em suas jogadas de acerto. Khorne só ganha um bônus para salvar em cobertura se pelo menos metade do modelo for obscurecido do portador.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="dc4e-3e73-1687-873c" name="Frenzied Charge" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -249,6 +239,8 @@
    <infoLinks>
     <infoLink hidden="false" id="cc23-2d4f-7117-0b3d" name="Infernal Regeneration" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
     <infoLink hidden="false" id="e45e-b5b0-43ec-3647" name="Daemon Engine" targetId="3058-5172-2acd-9223" type="profile"/>
+    <infoLink hidden="false" id="2fe9-b20c-800f-12bf" name="Titanic Daemon Engine" targetId="cb8d-e3ac-5ec9-e239" type="profile"/>
+    <infoLink hidden="false" id="7db3-9a10-56da-7863" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="95ff-dd50-eaae-7605" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -407,8 +399,8 @@
     <entryLink collective="false" hidden="false" id="18a1-2cbe-c823-234b" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="650.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="32.0"/>
+    <cost name="pts" typeId="points" value="600.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="30.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -512,7 +504,7 @@
     <profile hidden="false" id="c85b-4560-9970-84bd" name="Putrid Explosion" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se um Drone de Maior Ferrugem é reduzido a 0 ferimentos, role um D6 antes de remover o modelo do campo de batalha, em um 4+ ele explode, e cada unidade com 7" sofre Ferimentos Mortais de D3.
+       Se uma Grande Blight Drone é reduzida a 0 feridas, rolo um D6 antes de remover o modelo do campo de batalha, em um 4+ explode, e cada unidade dentro de 7" sofre feridas D3 mortal.
       </characteristic>
      </characteristics>
     </profile>
@@ -527,6 +519,7 @@
    <infoLinks>
     <infoLink hidden="false" id="f9a7-1bbb-f0c7-e0ef" name="Daemon Engine" targetId="3058-5172-2acd-9223" type="profile"/>
     <infoLink hidden="false" id="aa2e-ee58-afb5-41c4" name="Infernal Regeneration" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
+    <infoLink hidden="false" id="3820-c280-6544-bb24" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="01fc-2a46-b80a-1881" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -539,13 +532,13 @@
     <categoryLink hidden="false" id="c778-8241-2d6b-751d" name="New CategoryLink" primary="false" targetId="3117-16d8-fcef-4f56"/>
    </categoryLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="8039-b3cb-21df-16f7" import="true" name="Bale maw" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="8039-b3cb-21df-16f7" import="true" name="Bile maw" type="upgrade">
      <constraints>
       <constraint field="selections" id="e7d4-7357-4d6a-a34b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
       <constraint field="selections" id="564b-10d1-030b-473b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
      </constraints>
      <profiles>
-      <profile hidden="false" id="514a-7ec6-cbd6-d5ed" name="Bale maw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <profile hidden="false" id="514a-7ec6-cbd6-d5ed" name="Bile maw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
        <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
          12"
@@ -569,9 +562,9 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="18.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="a5d5-7181-6967-d120" import="true" name="Plague probe" type="upgrade">
@@ -604,9 +597,9 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="25.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="b6e8-ae76-33a8-c29e" import="true" name="Blightreaper cannon" type="upgrade">
@@ -639,9 +632,9 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="18.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
      </costs>
     </selectionEntry>
    </selectionEntries>
@@ -650,8 +643,8 @@
     <entryLink collective="false" hidden="false" id="c97e-eb29-bf7c-27cf" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="170.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+    <cost name="pts" typeId="points" value="255.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="13.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -778,6 +771,7 @@
     <infoLink hidden="false" id="4a86-ae6e-84c2-7ae3" name="Daemon Engine" targetId="3058-5172-2acd-9223" type="profile"/>
     <infoLink hidden="false" id="aa18-bd57-81a0-c2db" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
     <infoLink hidden="false" id="588f-3102-a29c-0417" name="Infernal Regeneration" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
+    <infoLink hidden="false" id="72db-852b-135e-acf1" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="356c-1080-d984-32ab" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -902,7 +896,7 @@
     <entryLink collective="false" hidden="false" id="a0d7-b474-7896-5f94" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="165.0"/>
+    <cost name="pts" typeId="points" value="180.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -961,6 +955,7 @@
       </modifier>
      </modifiers>
     </infoLink>
+    <infoLink hidden="false" id="ab47-aec3-d277-d7e1" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="b2aa-ba7b-1955-3954" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -978,6 +973,13 @@
      </constraints>
      <selectionEntries>
       <selectionEntry collective="false" hidden="false" id="00b4-0252-e233-0981" import="true" name="Decimator siege claw with hellflamer" type="upgrade">
+       <modifiers>
+        <modifier field="points" type="set" value="40.0">
+         <conditions>
+          <condition childId="00b4-0252-e233-0981" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="19d7-59fa-6050-caf8" shared="true" type="greaterThan" value="1.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
        <constraints>
         <constraint field="selections" id="2a71-6d0e-6181-7629" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2.0"/>
        </constraints>
@@ -1004,33 +1006,14 @@
           </characteristic>
          </characteristics>
         </profile>
-        <profile hidden="false" id="69fe-3aec-5659-254e" name="Hellflamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-         <characteristics>
-          <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-           8"
-          </characteristic>
-          <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-           Heavy D6
-          </characteristic>
-          <characteristic name="S" typeId="59b1-319e-ec13-d466">
-           5
-          </characteristic>
-          <characteristic name="AP" typeId="75aa-a838-b675-6484">
-           -1
-          </characteristic>
-          <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-           2
-          </characteristic>
-          <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Esta arma atinge automaticamente seu alvo.
-          </characteristic>
-         </characteristics>
-        </profile>
        </profiles>
+       <infoLinks>
+        <infoLink hidden="false" id="74c8-a148-e32a-3495" name="Hellflamer" targetId="b280-a863-de38-889b" type="profile"/>
+       </infoLinks>
        <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="47.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
        </costs>
       </selectionEntry>
       <selectionEntry collective="false" hidden="false" id="db63-6882-5080-cfc7" import="true" name="Soulburner petard" type="upgrade">
@@ -1121,8 +1104,8 @@
     <entryLink collective="false" hidden="false" id="49f1-24e4-0790-7d99" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="90.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+    <cost name="pts" typeId="points" value="100.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -1223,13 +1206,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="dda0-7fb2-c158-1ad6" name="Titanic Daemon Engine" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Um Kytan Devastador pode atirar se houver modelos inimigos a menos de 1" dele, contanto que todos os modelos inimigos tenham a palavra-chave Infantry. Neste caso, ele pode atirar na unidade inimiga que está a menos de 1" dele ou qualquer outro visível unidade inimiga que está dentro do alcance e mais de 1" de distância de qualquer modelo aliado. Além disso, o Kytan Ravager pode se mover e disparar armas pesadas sem sofrer a penalidade em suas jogadas de acerto. Finalmente, o Kytan Ravager ganha apenas um bônus para salvar na tampa se pelo menos metade do modelo é obscurecido do portador.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="ea9b-8004-f3aa-2e36" name="Battle Walker" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -1248,6 +1224,8 @@
    <infoLinks>
     <infoLink hidden="false" id="cdeb-8248-dbc8-63f4" name="Infernal Regeneration" targetId="c4c3-dbe0-1fac-32ec" type="profile"/>
     <infoLink hidden="false" id="09b1-ce04-1a9c-7389" name="Daemon Engine" targetId="3058-5172-2acd-9223" type="profile"/>
+    <infoLink hidden="false" id="747a-9954-081b-ac84" name="Titanic Daemon Engine" targetId="cb8d-e3ac-5ec9-e239" type="profile"/>
+    <infoLink hidden="false" id="465e-fd9a-13b0-eb5f" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="9c68-0fd6-cd01-007b" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -1290,9 +1268,9 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="80.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      <cost name="pts" typeId="points" value="0.0"/>
      </costs>
     </selectionEntry>
     <selectionEntry collective="false" hidden="false" id="12df-935b-a3c3-0cb8" import="true" name="Great cleaver of Khorne" type="upgrade">
@@ -1358,8 +1336,8 @@
     <entryLink collective="false" hidden="false" id="a6fb-0fbf-58f3-575d" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="330.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
+    <cost name="pts" typeId="points" value="430.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="22.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -1389,7 +1367,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="25.0"/>
+    <cost name="pts" typeId="points" value="35.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -1426,32 +1404,11 @@
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="2a58-6abe-0fb2-8aa0" import="true" name="Hellflamer" type="upgrade">
-   <profiles>
-    <profile hidden="false" id="6aa0-eab4-e5b0-043e" name="Hellflamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-     <characteristics>
-      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-       8"
-      </characteristic>
-      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-       Heavy D6
-      </characteristic>
-      <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       5
-      </characteristic>
-      <characteristic name="AP" typeId="75aa-a838-b675-6484">
-       -1
-      </characteristic>
-      <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-       2
-      </characteristic>
-      <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Esta arma atinge automaticamente seu alvo.
-      </characteristic>
-     </characteristics>
-    </profile>
-   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="1abd-7059-2cf9-b81b" name="Hellflamer" targetId="b280-a863-de38-889b" type="profile"/>
+   </infoLinks>
    <costs>
-    <cost name="pts" typeId="points" value="17.0"/>
+    <cost name="pts" typeId="points" value="20.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -1582,16 +1539,8 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="7ec2-af9e-3e45-dd43" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
    </profiles>
    <infoLinks>
-    <infoLink hidden="false" id="c505-a851-1728-8e5b" name="Explodes" targetId="3541-94a7-a138-358b" type="rule"/>
     <infoLink hidden="false" id="754a-94e7-ab05-3c6c" name="Dark Fury" targetId="b1a6-697e-dc2d-e949" type="profile">
      <modifiers>
       <modifier field="hidden" type="set" value="false">
@@ -1617,6 +1566,8 @@
      </modifiers>
     </infoLink>
     <infoLink hidden="false" id="86bf-51f7-87e4-ffc6" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
+    <infoLink hidden="false" id="0c2c-c3b5-9ae1-77d1" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="e9a8-04e8-dbda-a59a" name='Containment Breach (6"/D3/D6)' targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="93a3-da4c-a800-454c" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -1674,7 +1625,7 @@
       </entryLink>
       <entryLink collective="false" hidden="false" id="78d6-9d2a-e46f-33a1" import="true" name="Hellforged chainclaw" targetId="7ddb-5720-22f2-7236" type="selectionEntry">
        <modifiers>
-        <modifier field="points" type="set" value="24">
+        <modifier field="points" type="set" value="20.0">
          <conditions>
           <condition childId="7ddb-5720-22f2-7236" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="c593-94fc-fbf9-d0df" shared="true" type="equalTo" value="2.0"/>
          </conditions>
@@ -1686,7 +1637,7 @@
       </entryLink>
       <entryLink collective="false" hidden="false" id="461d-f3ee-6f9e-47d2" import="true" name="Hellforged deathclaw" targetId="a52d-b64c-83d6-5c20" type="selectionEntry">
        <modifiers>
-        <modifier field="points" type="set" value="20">
+        <modifier field="points" type="set" value="15.0">
          <conditions>
           <condition childId="a52d-b64c-83d6-5c20" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="c593-94fc-fbf9-d0df" shared="true" type="equalTo" value="2.0"/>
          </conditions>
@@ -1752,11 +1703,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="d968-00d3-b877-799b" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="7a1b-03c2-936f-697b" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="7a1b-03c2-936f-697b" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="88.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
+    <cost name="pts" typeId="points" value="105.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -1786,7 +1737,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="11.0"/>
+    <cost name="pts" typeId="points" value="10.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -1981,13 +1932,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="50d8-c333-13d7-add1" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma rolagem de um 6 ele explode e as energias infernais em seu núcleo são desencadeadas. Cada unidade a menos de 6 "sofre D6 mortal feridas a menos que seja um PSYKER, caso em que sofre 2D3 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="44c5-97ee-a27b-b2a8" name="Hellforged Land Raider Proteus" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <modifiers>
       <modifier field="15aa-1916-a38b-d223" type="set" value="This model can transport 6 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models).">
@@ -1998,7 +1942,7 @@
      </modifiers>
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 10 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models). If the Accursed Phylactery ability has been selected, then this model may only transport six models.
+       Este modelo pode transportar 10 &lt;LEGION&gt; modelos de infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos). Se a capacidade Accursed Phylactery foi selecionado, em seguida, este modelo só pode transportar seis modelos.
       </characteristic>
      </characteristics>
     </profile>
@@ -2006,6 +1950,8 @@
    <infoLinks>
     <infoLink hidden="false" id="e856-50fa-1164-8870" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="a9df-e39c-49de-ce2b" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
+    <infoLink hidden="false" id="341d-a922-523d-0e33" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="d95e-e9c7-17a4-0a9d" name='Containment Breach (6"/D6/2D3)' targetId="582d-9577-1c83-9240" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="a105-b2b1-452c-0867" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -2073,11 +2019,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="b38f-8097-ab6c-9e7f" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="36d3-5af4-0c12-19e7" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="36d3-5af4-0c12-19e7" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="19.0"/>
-    <cost name="pts" typeId="points" value="225.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="17.0"/>
+    <cost name="pts" typeId="points" value="210.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -2135,13 +2081,13 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       -
+       Blast.
       </characteristic>
      </characteristics>
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="6.0"/>
+    <cost name="pts" typeId="points" value="5.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -2243,24 +2189,17 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="f25c-22b1-57de-372a" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma rolagem de um 6 ele explode e as energias infernais em seu núcleo são desencadeadas. Cada unidade a menos de 6 "sofre D6 mortal feridas a menos que seja um PSYKER, caso em que sofre 2D3 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="d193-9a69-3dbc-653e" name="Hellforged Land Raider Achilles" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 6 &lt;LEGION&gt; Infantry models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models).
+       Este modelo pode transportar 6 &lt;LEGION&gt; modelos de infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos).
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="3523-2284-6ba7-e92e" name="Daemonic Resiilence" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile hidden="false" id="3523-2284-6ba7-e92e" name="Daemonic Resilience" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo tem uma defesa invulnerável de 4+
+       Este modelo tem uma defesa invulnerável de 4+.
       </characteristic>
      </characteristics>
     </profile>
@@ -2268,6 +2207,8 @@
    <infoLinks>
     <infoLink hidden="false" id="be04-c478-c7fd-49c6" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="81fc-5d1c-6c08-9903" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
+    <infoLink hidden="false" id="ff69-df99-b195-9ede" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="e50c-da5c-8faf-1dfa" name='Containment Breach (6"/D6/2D3)' targetId="582d-9577-1c83-9240" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="6ab2-2810-3961-19ec" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -2309,11 +2250,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="fbda-7fce-8bb5-a300" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="560f-6fba-db3c-fa6a" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="560f-6fba-db3c-fa6a" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="20.0"/>
-    <cost name="pts" typeId="points" value="230.0"/>
+    <cost name="pts" typeId="points" value="190.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -2337,7 +2278,7 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Cada jogada de acerto feita com esta arma inflige um Ferimento Mortal em vez do dano normal. Esta arma pode ter como alvo unidades inimigas que o portador não pode ver.
+       Cada rolo acerto feito com esta arma inflige uma ferida mortal em vez do dano normal. Esta arma pode ter como alvo as unidades inimigas que o portador não pode ver. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -2445,13 +2386,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="c54b-ac85-8518-a99a" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="538b-35dc-853a-10bf" name="Hate-fuelled Rampage" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -2463,6 +2397,8 @@
    <infoLinks>
     <infoLink hidden="false" id="261f-1745-7d9a-c869" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="bd5d-e53d-e37c-3b40" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
+    <infoLink hidden="false" id="a667-1df4-0ff0-9726" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="626c-e68b-d418-a572" name='Containment Breach (6"/D3/D6)' targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="7ecd-c5f1-394d-d15d" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -2556,11 +2492,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="37bf-069c-88cf-a776" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="fb3a-bfb9-d5f2-6f9e" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="8bfa-b050-85e8-d725" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-    <cost name="pts" typeId="points" value="95.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
+    <cost name="pts" typeId="points" value="90.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -2584,13 +2520,13 @@
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o alvo de um ataque desta arma estiver dentro da metade do range, jogue um dado adicional ao infligir dano com ele e descarte o resultado mais baixo.
+       Se o alvo de um ataque por esta arma está dentro de meia gama, um rolo dados adicionais quando infligir danos com ela e descartar o resultado mais baixo. Explosão.
       </characteristic>
      </characteristics>
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="50.0"/>
+    <cost name="pts" typeId="points" value="40.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -2615,7 +2551,7 @@
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       -
+       Blast.
       </characteristic>
      </characteristics>
     </profile>
@@ -2652,7 +2588,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="30.0"/>
+    <cost name="pts" typeId="points" value="45.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -2785,13 +2721,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="ff69-71ba-00fe-1288" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="d1e0-d150-1fbf-d813" name="Rocket Barrage" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -2803,6 +2732,8 @@
    <infoLinks>
     <infoLink hidden="false" id="f51b-b5d9-413d-9a14" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="7d60-b7fb-beac-7b25" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
+    <infoLink hidden="false" id="7d67-8a46-1fc3-a900" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="7259-e5f3-9270-a50f" name='Containment Breach (6"/D3/D6)' targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="12c1-83b7-f6a0-d573" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -2836,7 +2767,7 @@
          2
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Esta arma pode ter como alvo unidades inimigas que o portador não pode ver.
+         Esta arma pode ter como alvo as unidades inimigas o portador não pode ver. Explosão.
         </characteristic>
        </characteristics>
       </profile>
@@ -2862,7 +2793,7 @@
    <entryLinks>
     <entryLink collective="false" hidden="false" id="3ae0-8067-c322-c0be" import="true" name="Combi-bolter" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
      <constraints>
-      <constraint field="selections" id="3bc2-18c9-c091-2125" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="3bc2-18c9-c091-2125" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
       <constraint field="selections" id="938d-3aa6-75d8-8d35" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
      </constraints>
     </entryLink>
@@ -2873,11 +2804,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="c01d-7b19-4991-5f74" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="8d32-ce18-2e5c-3962" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="8d32-ce18-2e5c-3962" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-    <cost name="pts" typeId="points" value="175.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="13.0"/>
+    <cost name="pts" typeId="points" value="195.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -2978,17 +2909,12 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="82d9-fe53-3455-1fd4" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="5945-a14a-dd48-4d11" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="2e7b-44b8-350f-a3ca" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
+    <infoLink hidden="false" id="a682-a7e5-b2bd-a499" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="7f2f-06a7-6e86-0e72" name='Containment Breach (6"/D3/D6)' targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="1d26-4e5f-78af-cb1a" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -3065,11 +2991,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="72c1-e6ed-93c6-b8f4" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="a977-431a-ffb1-0827" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="a977-431a-ffb1-0827" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
-    <cost name="pts" typeId="points" value="150.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
+    <cost name="pts" typeId="points" value="180.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3201,13 +3127,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="7ba6-6227-2810-a82b" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="21cd-5d8d-97d4-6112" name="Undying Hatred" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -3219,6 +3138,8 @@
    <infoLinks>
     <infoLink hidden="false" id="a797-2223-5399-b97f" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="3035-4d21-173a-174b" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
+    <infoLink hidden="false" id="143b-6225-fb8e-0da4" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="9471-8188-d6e1-7c8f" name='Containment Breach (6"/D3/D6)' targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="0bbb-33ef-b844-de45" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -3295,11 +3216,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="0e19-e2e9-7264-277e" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="02c6-e0b9-62cc-35c5" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="02c6-e0b9-62cc-35c5" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
-    <cost name="pts" typeId="points" value="150.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="13.0"/>
+    <cost name="pts" typeId="points" value="200.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3441,7 +3362,7 @@
     <profile hidden="false" id="0f7b-74b4-deee-8403" name="Hellforged Spartan Assault Tank" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 25 &lt;LEGION&gt; Infantry models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models).
+       Este modelo pode transportar 25 modelos &lt;LEGION&gt; infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos).
       </characteristic>
      </characteristics>
     </profile>
@@ -3449,13 +3370,6 @@
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        No final de qualquer fase do Movimento em que uma ou mais unidades desembarcarem de um Spartan Forjado do Inferno, faça um D6. No lançamento de um 1, um modelo de uma unidade de desembarque, escolhido pelo jogador controlador, é morto. O número de modelos removidos devido aos efeitos desta regra são contados como modelos mortos da habilidade Machina Malefica do Spartan no final do turno.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="a686-769d-a746-ff85" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo pode recuar na fase de movimento e ainda atirar e / ou realizar uma carga durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador.
       </characteristic>
      </characteristics>
     </profile>
@@ -3471,6 +3385,9 @@
     <infoLink hidden="false" id="0b15-54a2-b741-8fca" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="795a-2e97-6f44-0737" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
     <infoLink hidden="false" id="c535-9954-7a0b-e753" name="Daemonic Machine Spirit" targetId="7d3d-583e-7352-6501" type="profile"/>
+    <infoLink hidden="false" id="4114-2ac1-eaa5-a174" name="Steel Behemoth" targetId="624e-4f09-2c68-cd55" type="profile"/>
+    <infoLink hidden="false" id="00c6-9dec-65e5-270f" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="03d6-3616-c60b-ddc4" name='Containment Breach (2D6"/D6/2D3)' targetId="1293-791c-6d72-5b82" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="2d14-e33b-04ec-3ea4" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -3551,8 +3468,8 @@
     <entryLink collective="false" hidden="false" id="7ec8-38ed-0541-5efe" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="21.0"/>
-    <cost name="pts" typeId="points" value="300.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
+    <cost name="pts" typeId="points" value="320.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3715,20 +3632,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="11e5-cf52-0a11-33dd" name="Hellfire Reactor" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma unidade com essa habilidade tem 5 ou mais invulneráveis ​​contra ataques de Tiro ou Overwatch, e um invencável de 4 ou mais contra ataques corpo a corpo na fase de combate.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="9b24-2e65-2fe1-8287" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="71a0-6d5a-49bb-ca64" name="Helical Targeting Array" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -3739,6 +3642,9 @@
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="22db-73e3-fe2b-2fbb" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
+    <infoLink hidden="false" id="c6b9-ca97-9967-afab" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="fa71-9899-e997-e234" name="Hellfire Reactor" targetId="7f71-e6c0-80fa-3467" type="profile"/>
+    <infoLink hidden="false" id="1f40-74d8-a08f-d791" name="Containment Breach" targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="086e-6d9f-2c74-95b5" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -3754,7 +3660,7 @@
      <modifiers>
       <modifier field="cc00-c901-94be-fd0c" type="set" value="0.0">
        <conditions>
-        <condition childId="4f4f-806c-876a-ba53" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+        <condition childId="7bc0-e786-b50f-2160" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
        </conditions>
       </modifier>
      </modifiers>
@@ -3771,7 +3677,7 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="35.0"/>
+      <cost name="pts" typeId="points" value="40.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
@@ -3814,11 +3720,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="e1b2-10a6-9baa-3f67" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="3192-02b4-1db2-25c1" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="3192-02b4-1db2-25c1" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="120.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="14.0"/>
+    <cost name="pts" typeId="points" value="150.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3849,7 +3755,7 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="40.0"/>
+    <cost name="pts" typeId="points" value="75.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3880,7 +3786,7 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="40.0"/>
+    <cost name="pts" typeId="points" value="50.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3911,7 +3817,7 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="50.0"/>
+    <cost name="pts" typeId="points" value="40.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -3938,13 +3844,13 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Esta arma pode mirar em unidades que não são visíveis para o portador.
+       Esta arma pode direcionar unidades que não são visíveis para o portador. Explosão.
       </characteristic>
      </characteristics>
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="21.0"/>
+    <cost name="pts" typeId="points" value="20.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -3954,11 +3860,11 @@
     <profile hidden="false" id="ef3b-00aa-fa52-1c5a" name="Artillery" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Um Forcador Forjado no Inferno só pode disparar sua arma de longo alcance se um amistoso (Legion) modelo Caos Space Marine Crewman da mesma unidade estiver a no máximo 3" . Um único Caos Espacial Marinho não pode operar vários Rapiers Forjados do Inferno desta maneira em um único turno. do Caos Space Marine Crewman da mesma unidade a no máximo 6" de um Rapier forjado do Inferno são mortos, ele perde a habilidade de artilharia e ganha a habilidade Daemon Unleashed e opera sob as regras dessa habilidade em seu lugar.
+       A Hellforged Rapier só pode disparar a sua arma de longo alcance, se um amistoso &lt;LEGION&gt; modelo Chaos Space Marine Crewman da mesma unidade está dentro de 3" . Um único Chaos Space Marine Crewman não pode operar várias Rapiers Hellforged desta forma em um único turno. Se tudo do Chaos Space Marine Crewman da mesma unidade dentro de 6" de um Hellforged Rapier são mortos, ele perde a capacidade de Artilharia e ganha a habilidade Daemon desencadeada e opera sob as regras do que a capacidade vez.
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="e2c0-7deb-1ae0-1ad6" name="Hellforged Rapier Battery" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile hidden="false" id="e2c0-7deb-1ae0-1ad6" name="Daemon Unleashed" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        Um Florete Forjado do Inferno ganha essa habilidade se todos os Tripulantes da Marinha Espacial do Caos na mesma unidade forem mortos. Enquanto um Rapier Forjado pelo Inferno tem essa habilidade, ele deve se mover o mais possível para o inimigo visível mais próximo durante a fase do Movimento (ele não precisa avançar, mas pode fazê-lo se o jogador que o controla desejar), ele pode disparar normalmente no Fase de tiro, mesmo que nenhum membro da equipe do Caos Space Marine esteja a 6 "e deve declarar uma carga na fase de carga se houver alguma unidade inimiga a menos de 12" no início da fase.
@@ -3966,6 +3872,9 @@
      </characteristics>
     </profile>
    </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="c1be-e572-aae5-651f" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+   </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="1f10-9c9f-bf47-50cf" name="New CategoryLink" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
    </categoryLinks>
@@ -4152,7 +4061,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="36.0"/>
+    <cost name="pts" typeId="points" value="60.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -4276,20 +4185,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="ac2f-5138-6089-c75d" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="f8fe-489b-1610-423e" name="Hellfire Reactor" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma unidade com essa habilidade tem uma defesa invulnerável de 5+ contra ataques de Tiro ou Overwatch, além de 4+ de resistência invulnerável contra ataques corpo-a-corpo na fase de combate.
-      </characteristic>
-     </characteristics>
-    </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="0908-f808-dd28-309f" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
@@ -4317,6 +4212,9 @@
       </modifier>
      </modifiers>
     </infoLink>
+    <infoLink hidden="false" id="cd59-6974-0ca5-63b0" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="7dfc-7b78-7755-2778" name="Hellfire Reactor" targetId="7f71-e6c0-80fa-3467" type="profile"/>
+    <infoLink hidden="false" id="5c03-3ed7-5c26-7bf8" name="Containment Breach" targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="911a-8bb9-8166-be5b" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -4346,7 +4244,7 @@
       </entryLink>
       <entryLink collective="false" hidden="false" id="3d76-559c-26c6-f8c5" import="true" name="Hellforged siege claw" targetId="8502-800f-4230-aa7e" type="selectionEntry">
        <modifiers>
-        <modifier field="points" type="set" value="20">
+        <modifier field="points" type="set" value="15.0">
          <conditions>
           <condition childId="8502-800f-4230-aa7e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="f6c4-89ad-891b-4beb" shared="true" type="equalTo" value="2.0"/>
          </conditions>
@@ -4358,7 +4256,7 @@
       </entryLink>
       <entryLink collective="false" hidden="false" id="493d-1b2f-4f95-a530" import="true" name="Hellforged siege drill" targetId="96f1-ef7c-d1bf-250e" type="selectionEntry">
        <modifiers>
-        <modifier field="points" type="set" value="25">
+        <modifier field="points" type="set" value="20.0">
          <conditions>
           <condition childId="96f1-ef7c-d1bf-250e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="f6c4-89ad-891b-4beb" shared="true" type="equalTo" value="2.0"/>
          </conditions>
@@ -4384,7 +4282,7 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="0e88-8d1a-bb23-9553" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="6ee0-a23f-a8d2-5385" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="6ee0-a23f-a8d2-5385" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
     <entryLink collective="false" hidden="false" id="f86d-5d63-168f-93ac" import="true" name="Meltagun" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
      <modifiers>
       <modifier field="396f-00df-1fd9-58bf" type="increment" value="1">
@@ -4416,8 +4314,8 @@
     </entryLink>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="175.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="16.0"/>
+    <cost name="pts" typeId="points" value="220.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -4441,7 +4339,7 @@
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o modelo de destino tiver alguma das palavras-chave Monster, Vehicle ou Titanic, a quantidade de dano sofrido será de 5 por hit. Para cada cinco modelos na unidade alvo, adicione D3 ao número de ataques feitos por esta arma.
+       Se o modelo de destino tem qualquer um dos monstro, veículo, ou Titanic palavras-chave, em seguida, a quantidade de dano sofrido torna-se 5 por hit. Para cada cinco modelos da unidade de destino, adicione D3 com o número de ataques feitos por esta arma. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -4478,7 +4376,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="30.0"/>
+    <cost name="pts" typeId="points" value="20.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -4509,7 +4407,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="40.0"/>
+    <cost name="pts" typeId="points" value="30.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -4620,27 +4518,22 @@
     <profile hidden="false" id="9522-83ed-36ac-f0c3" name="Hellforged Dreadclaw" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 10 &lt;LEGION&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes up the space of two other models. This model can instead transport a single HELLFORGED CONTEMPTOR DREADNOUGHT, CHAOS DECIMATOR or HELBRUTE, and no other models. It cannot transport a HELLFORGED LEVIATHAN DREADNOUGHT or HELLFORGED DEREDEO DREADNOUGHT.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="1306-e132-efed-268d" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
+       Este modelo pode transportar 10 &lt;LEGION&gt; modelos de Infantaria. Cada modelo PACK salto ou TERMINATOR ocupa o espaço de dois outros modelos. Este modelo pode, em vez transportar um único Hellforged CONTEMPTOR DREADNOUGHT, CHAOS Decimator ou HELBRUTE, e há outros modelos. Ele não pode transportar uma DREADNOUGHT LEVIATHAN Hellforged ou Hellforged DEREDEO DREADNOUGHT.
       </characteristic>
      </characteristics>
     </profile>
     <profile hidden="false" id="d1bf-1e5b-3695-2551" name="Drop Pod Assault" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Em vez de implantar este modelo com o resto do seu exército, você pode colocá-lo, em qualquer órbita, pronto para um Assalto ao Drop Pod. Se fizer isso, ele pode fazer um Assalto ao POD no final. de qualquer uma das suas fases de movimento. Quando isso acontecer, configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de qualquer modelo inimigo. Todos os modelos embarcados devem ser imediatamente desembarcados, mas não podem ser montados a no máximo 9" de qualquer modelo inimigo. Quaisquer modelos que não podem ser colocados em jogo porque não há espaço suficiente são mortos.
+       Em vez de implantar este modelo com o resto do seu exército, você pode configurá-lo, juntamente com quaisquer unidades embarcadas dentro dela, em órbita, pronto para um assalto Gota Pod Se você fizer isso, ele pode fazer um assalto Gota Pod no final de qualquer um dos seus fases Movimento. Quando ele faz isso, configurá-lo em qualquer lugar no campo de batalha que é mais do que 9" de quaisquer modelos inimigas. Quaisquer modelos embarcou dentro must imediatamente desembarcar, mas eles não podem ser criados no prazo de 9" de quaisquer modelos inimigas. Quaisquer modelos que não podem ser configurados porque não há espaço suficiente são mortos.
       </characteristic>
      </characteristics>
     </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="ff2a-7053-cbee-6c71" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
+    <infoLink hidden="false" id="f407-ae10-f19b-3a44" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="ee8a-f85f-4d3b-1f9b" name="Containment Breach" targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="30e3-6e82-9d1d-9f94" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -4666,11 +4559,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="60fa-c1ee-d381-5420" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="a32f-1670-9354-6a49" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="a32f-1670-9354-6a49" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-    <cost name="pts" typeId="points" value="115.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+    <cost name="pts" typeId="points" value="130.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -4683,17 +4576,10 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="43b7-3884-01fc-f98c" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="1212-130c-0f8e-33dc" name="Hellforged Kharybdis" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 20 &lt;LEGION&gt; INFANTRY models. Each JUMP PACK or TERMINATOR model takes the space of two other models, or it can be used to transport a single HELLFORGED CONTEMPTOR DREADNOUGHT, HELLFORGED RAPIER BATTERY, or CHAOS HELBRUTE and no other models.
+       Este modelo pode transportar 20 &lt;LEGION&gt; modelos de Infantaria. Cada Jump Pack ou modelo TERMINATOR toma o espaço de dois outros modelos, ou ele pode ser usado para transportar uma única Hellforged CONTEMPTOR DREADNOUGHT, Hellforged RAPIER bateria ou CHAOS HELBRUTE e há outros modelos.
       </characteristic>
      </characteristics>
     </profile>
@@ -4770,6 +4656,8 @@
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="37c3-7095-218f-9a97" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
+    <infoLink hidden="false" id="c8d8-33dd-425d-ad8c" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="20cd-f699-a693-4d56" name="Containment Breach" targetId="997e-8681-f5a3-fe65" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="a57c-376b-80f9-a2e4" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -4807,23 +4695,16 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="82f9-3b35-e201-9b5a" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="7bcc-943a-88ff-adfe" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="7bcc-943a-88ff-adfe" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="15.0"/>
-    <cost name="pts" typeId="points" value="325.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
+    <cost name="pts" typeId="points" value="350.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0c8f-8122-f2dc-ba7b" import="true" name="Hellforged Cerberus Heavy Destroyer" type="model">
    <profiles>
-    <profile hidden="false" id="6432-468f-bfce-5098" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="53bf-4a52-46c9-56bb" name="Hellforged Cerberus" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
       <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
@@ -4922,14 +4803,7 @@
     <profile hidden="false" id="a7aa-709a-cb4b-2b5b" name="Eternal Hatred" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se, no turno precedente, um Cérbero Forjado do Inferno fez com que qualquer modelo inimigo fosse removido como baixa, o jogador lança um dado adicional ao fazer a jogada para ferir pelo canhão de feixe de Malignatas e descarta os dados mais baixos antes de calcular o resultado do teste.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="1528-d235-431d-06cb" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo pode recuar na fase de movimento e ainda atirar e / ou realizar uma carga durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador.
+       Se, na volta anterior, um Hellforged Cerberus causou qualquer modelo inimigo para ser removido como um acidente, o jogador joga uma dados adicionais ao fazer rolos de ferida para a sua canhão de feixe Malignatas e desfaz as mais baixas dos dados antes de calcular o resultado do rolo.
       </characteristic>
      </characteristics>
     </profile>
@@ -4938,6 +4812,9 @@
     <infoLink hidden="false" id="9bdf-8382-550c-dbee" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="b301-38ce-563b-e7e4" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
     <infoLink hidden="false" id="5f62-a24e-b31a-75a0" name="Daemonic Machine Spirit" targetId="7d3d-583e-7352-6501" type="profile"/>
+    <infoLink hidden="false" id="26d0-7aa3-1845-b77f" name="Steel Behemoth" targetId="624e-4f09-2c68-cd55" type="profile"/>
+    <infoLink hidden="false" id="075b-c820-a596-5c80" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="b049-b129-3f5a-f2db" name='Containment Breach (2D6"/D6/2D3)' targetId="1293-791c-6d72-5b82" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="66c2-2ff4-63be-ba03" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -5009,11 +4886,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="a6a4-1ad4-8fcd-8f96" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="58df-7590-66e1-35a7" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="58df-7590-66e1-35a7" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="23.0"/>
-    <cost name="pts" typeId="points" value="650.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="36.0"/>
+    <cost name="pts" typeId="points" value="680.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -5161,7 +5038,7 @@
        2D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ataques normais podem não ser feitos usando este porifle, ao invés, se o Kharybdis Forjado do Inferno carrega com sucesso um modelo com as palavras-chave Vehicle, Monster ou Titanic, o jogador controlador pode escolher perder todos os seus ataques padrão para fazer um único ataque com esse perfil. atinge seu alvo em um 2+.
+       ataques normais não podem ser feitos usando este perfil, em vez se o Hellforged Kharybdis cobra com sucesso um modelo com o veículo, monstro, ou palavras-chave Titanic, o jogador que controla pode optar por perder todos os seus ataques normais para fazer um único ataque com este perfil que atinge o alvo em um 2+.
       </characteristic>
      </characteristics>
     </profile>
@@ -5205,13 +5082,6 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="c011-cf2f-ae1e-3b1a" import="true" name="Hellforged Typhon Heavy Siege Tank" type="model">
    <profiles>
-    <profile hidden="false" id="17b0-5804-60b2-b62e" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="a2cb-f1e2-8f57-9a86" name="Hellforged Typhon" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
       <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
@@ -5307,18 +5177,14 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="48af-7513-bda4-ed5c" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo pode recuar na fase de movimento e ainda atirar e / ou realizar uma carga durante o turno do jogador que o controla. Pode disparar suas armas se as unidades inimigas estiverem a menos de um metro de distância. Além disso, esse modelo só ganha um bônus em sua proteção se pelo menos metade do modelo for obscurecido do portador.
-      </characteristic>
-     </characteristics>
-    </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="7e74-c374-76a2-1a60" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="653e-80e3-5f5b-016f" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
     <infoLink hidden="false" id="b621-6edd-50e5-d167" name="Daemonic Machine Spirit" targetId="7d3d-583e-7352-6501" type="profile"/>
+    <infoLink hidden="false" id="e8c7-59a8-980d-a090" name="Steel Behemoth" targetId="624e-4f09-2c68-cd55" type="profile"/>
+    <infoLink hidden="false" id="71e6-36b2-70e0-8f79" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="c4cc-fcfe-0581-31d2" name='Containment Breach (2D6"/D6/2D3)' targetId="1293-791c-6d72-5b82" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="6f1d-0314-7941-d601" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -5390,11 +5256,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="4a1e-bf9d-f634-2477" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="9456-e1e7-cb44-2760" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="9456-e1e7-cb44-2760" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="25.0"/>
-    <cost name="pts" typeId="points" value="700.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="38.0"/>
+    <cost name="pts" typeId="points" value="720.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -5418,7 +5284,7 @@
        3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o Typhon não se mover na fase de Movimento, o alcance desta arma será aumentado para 48" durante o turno atual.
+       Se o Typhon não se move na fase Movimento, então o intervalo desta arma é aumentado para 48" para a duração do turno atual. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -5431,13 +5297,6 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="6fe4-b1d3-46d1-3481" import="true" name="Hellforged Fellblade" type="model">
    <profiles>
-    <profile hidden="false" id="fab7-b03d-6754-0ba6" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="3740-2de6-ede1-8acd" name="Hellforged Fellblade" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
       <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
@@ -5540,17 +5399,13 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="7f08-ea3a-9e4b-4494" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Ele pode, exceto quando disparar Overwatch, também disparar suas armas se as unidades inimigas estiverem a menos de 1 ”(no entanto, seu canhão acelerador e canhão demolidor devem ter como alvo unidades que estejam a mais de 1” de distância). Além disso, este modelo só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do portador.
-      </characteristic>
-     </characteristics>
-    </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="c2fd-7236-8e0e-1c6f" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="fb59-6b98-64f6-b3e7" name="Daemonic Machine Spirit" targetId="7d3d-583e-7352-6501" type="profile"/>
+    <infoLink hidden="false" id="ef79-6852-7e96-a34a" name="Steel Behemoth" targetId="624e-4f09-2c68-cd55" type="profile"/>
+    <infoLink hidden="false" id="b570-ac93-a3cd-1c25" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="55d9-e3cc-55af-c237" name='Containment Breach (2D6"/D6/2D3)' targetId="1293-791c-6d72-5b82" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="022b-9937-9519-d49a" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -5639,11 +5494,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="d46c-29e0-73fb-72b7" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="3d94-ae25-b5fe-9b69" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="3d94-ae25-b5fe-9b69" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="35.0"/>
-    <cost name="pts" typeId="points" value="740.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="44.0"/>
+    <cost name="pts" typeId="points" value="690.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -5689,7 +5544,7 @@
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao atacar unidades com cinco ou mais modelos, os dados rolados para decidir o número de tiros disparados podem ser rebobinados.
+       Quando unidades de ataque com cinco ou mais modelos, os dados lançados para decidir o número de tiros disparados pode ser enrolado à re. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -5733,13 +5588,6 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a308-f638-e0af-3e5e" import="true" name="Hellforged Falchion" type="model">
    <profiles>
-    <profile hidden="false" id="b59f-090c-2d68-dd61" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="1623-6257-4642-b007" name="Hellforged Falchion" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
       <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
@@ -5842,17 +5690,13 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="b813-a437-2ba3-9b49" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Ele pode, exceto quando disparar Overwatch, também disparar suas armas se as unidades inimigas estiverem a menos de 1 ”(no entanto, seu canhão de vulcão gêmeo deve mirar unidades que estão a mais de 1” de distância). Além disso, este modelo só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do portador.
-      </characteristic>
-     </characteristics>
-    </profile>
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="6375-bcc0-ab82-9af5" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="9b98-9ed5-1c9c-be1a" name="Daemonic Machine Spirit" targetId="7d3d-583e-7352-6501" type="profile"/>
+    <infoLink hidden="false" id="1a90-36b6-0be6-36c4" name="Steel Behemoth" targetId="624e-4f09-2c68-cd55" type="profile"/>
+    <infoLink hidden="false" id="d8d1-c682-5a55-e897" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="d618-37d3-7401-da82" name='Containment Breach (2D6"/D6/2D3)' targetId="1293-791c-6d72-5b82" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="f0df-5bcf-4bf3-1157" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -5935,11 +5779,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="e02c-da5a-cffa-22d2" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="8d89-37cd-27ab-f2ec" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="8d89-37cd-27ab-f2ec" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="38.0"/>
-    <cost name="pts" typeId="points" value="840.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="49.0"/>
+    <cost name="pts" typeId="points" value="790.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -5963,7 +5807,7 @@
        2D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Você pode re-rolar jogadas para ferir malsucedidas quando mirar unidades do Titanic com esta arma.
+       Você pode re-roll falhou rolos ferida quando o direcionamento unidades TITANIC com esta arma. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -5976,13 +5820,6 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="3099-f431-71d0-f357" import="true" name="Hellforged Mastodon" type="model">
    <profiles>
-    <profile hidden="false" id="8195-1b4b-c4bc-69d2" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="4c10-7f39-32ed-affc" name="Hellforged Mastodon" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
       <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
@@ -6071,13 +5908,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="378e-c501-05df-717c" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo pode cair na fase de movimento e ainda atirar e / ou carregar durante o turno do jogador que o controla. Ele pode, exceto quando disparar Overwatch, também disparar suas armas se as unidades inimigas estiverem a 1 ”(mas somente seus hellflamers e lascannons podem mirar unidades que estão a menos de 1” dela - suas outras armas de longo alcance devem mirar outras unidades). Além disso, este modelo só ganha um bônus para salvar em cobertura, se pelo menos metade do modelo é obscurecido do portador.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="0823-673e-aae4-5fb5" name="In the Belly of the Beast" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -6095,7 +5925,7 @@
     <profile hidden="false" id="e7e8-0cbf-0954-99ad" name="Hellforged Mastodon" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 40 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models). It may also transport up to two HELLFORGED CONTEMPTOR DREADNOUGHTS, CHAOS DECIMATORS, or CHAOS HELBRUTES, each taking up the space of ten models.
+       Este modelo pode transportar 40 &lt;LEGION&gt; modelos de infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos). Ele também pode transportar até duas dreadnoughts Hellforged CONTEMPTOR, o caos decimadores, ou o caos HELBRUTES, cada um ocupando o espaço de dez modelos.
       </characteristic>
      </characteristics>
     </profile>
@@ -6104,6 +5934,9 @@
     <infoLink hidden="false" id="5f48-79de-ed3f-73b5" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
     <infoLink hidden="false" id="ddc4-b8d4-28da-b134" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
     <infoLink hidden="false" id="1953-4a3e-e6e8-c5cf" name="Daemonic Machine Spirit" targetId="7d3d-583e-7352-6501" type="profile"/>
+    <infoLink hidden="false" id="8a83-e84e-0e4b-aa79" name="Steel Behemoth" targetId="624e-4f09-2c68-cd55" type="profile"/>
+    <infoLink hidden="false" id="4b1d-b539-969f-6747" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
+    <infoLink hidden="false" id="8284-3f24-edce-4aeb" name='Containment Breach (2D6"/D6/2D3)' targetId="1293-791c-6d72-5b82" type="profile"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="eb1d-a5a2-59ea-dd87" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -6145,11 +5978,11 @@
      </constraints>
     </entryLink>
     <entryLink collective="false" hidden="false" id="17db-43dd-b6c5-33c3" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="f1f2-6f5a-9b99-630d" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
+    <entryLink collective="false" hidden="false" id="f1f2-6f5a-9b99-630d" import="true" name="Battle Honours (Chapter Approved)" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="42.0"/>
-    <cost name="pts" typeId="points" value="934.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="53.0"/>
+    <cost name="pts" typeId="points" value="915.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -6179,7 +6012,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="42.0"/>
+    <cost name="pts" typeId="points" value="45.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -6204,7 +6037,7 @@
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+       Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
       </characteristic>
      </characteristics>
     </profile>
@@ -6267,7 +6100,8 @@
     <infoLink hidden="false" id="a6ec-1919-3054-9e71" name="Airborne" targetId="b054-22a3-2ce0-ea90" type="profile"/>
     <infoLink hidden="false" id="2098-07ba-3acc-27fb" name="Baleful Aberration" targetId="6e35-20da-b479-a82e" type="profile"/>
     <infoLink hidden="false" id="7312-9135-3831-af0c" name="Hard to Hit" targetId="2567-8e02-9663-8055" type="profile"/>
-    <infoLink hidden="false" id="63d7-91b9-04c8-2ad4" name="Preternatural Manoeurverability" targetId="0a47-f5bc-564b-bb06" type="profile"/>
+    <infoLink hidden="false" id="63d7-91b9-04c8-2ad4" name="Preternatural Manoeuvrability" targetId="0a47-f5bc-564b-bb06" type="profile"/>
+    <infoLink hidden="false" id="e06f-5a80-37a8-7569" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="b611-8ef0-c0f4-475e" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -6324,7 +6158,7 @@
    </entryLinks>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
-    <cost name="pts" typeId="points" value="90.0"/>
+    <cost name="pts" typeId="points" value="100.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -6354,7 +6188,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="20.0"/>
+    <cost name="pts" typeId="points" value="25.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -6365,13 +6199,6 @@
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="4f92-2114-1e82-b1cc" name="Daemonic Machine Spirit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ignore o -1 para apertar o modificador para mover e disparar armas pesadas para este modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -6476,6 +6303,7 @@
     <infoLink hidden="false" id="8f6d-a6aa-8b3f-671f" name="Baleful Aberration" targetId="6e35-20da-b479-a82e" type="profile"/>
     <infoLink hidden="false" id="621d-1d29-3f08-16d6" name="Hard to Hit" targetId="2567-8e02-9663-8055" type="profile"/>
     <infoLink hidden="false" id="1493-a74c-edcc-95ee" name="Supersonic" targetId="9207-9786-0a5b-faaf" type="profile"/>
+    <infoLink hidden="false" id="2348-b1b3-c38c-c1d7" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="0d29-1995-6a2a-53d3" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -6565,8 +6393,8 @@
     <entryLink collective="false" hidden="false" id="64a8-949c-95d4-df60" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
-    <cost name="pts" typeId="points" value="180.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="13.0"/>
+    <cost name="pts" typeId="points" value="195.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -6576,13 +6404,6 @@
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="a939-37ee-d4a2-9fbd" name="Daemonic Machine Spirit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ignore o -1 para apertar o modificador para mover e disparar armas pesadas para este modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -6691,7 +6512,7 @@
     <profile hidden="false" id="169b-cdb6-dffd-6dd1" name="Chaos Storm Eagle" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       The Chaos Storm Eagle can transport 20 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models).
+       O Chaos tempestade Águia pode transportar 20 &lt;LEGION&gt; modelos de infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos).
       </characteristic>
      </characteristics>
     </profile>
@@ -6700,6 +6521,7 @@
     <infoLink hidden="false" id="7363-ce15-182c-e79c" name="Airborne" targetId="b054-22a3-2ce0-ea90" type="profile"/>
     <infoLink hidden="false" id="81ae-6423-da14-b77a" name="Hard to Hit" targetId="2567-8e02-9663-8055" type="profile"/>
     <infoLink hidden="false" id="113a-9662-ab1a-c2de" name="Supersonic" targetId="9207-9786-0a5b-faaf" type="profile"/>
+    <infoLink hidden="false" id="44b4-73a6-5f17-2d5e" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="89e2-72d5-e339-d4af" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -6763,8 +6585,8 @@
     <entryLink collective="false" hidden="false" id="6fb5-29a0-2cf7-3883" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="18.0"/>
-    <cost name="pts" typeId="points" value="210.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="17.0"/>
+    <cost name="pts" typeId="points" value="230.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -6788,13 +6610,13 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       -
+       Blast
       </characteristic>
      </characteristics>
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="28.0"/>
+    <cost name="pts" typeId="points" value="30.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -6825,7 +6647,7 @@
     </profile>
    </profiles>
    <costs>
-    <cost name="pts" typeId="points" value="40.0"/>
+    <cost name="pts" typeId="points" value="50.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -6850,7 +6672,7 @@
        D3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       As unidades alvo desta arma não ganham nenhum bônus em seus testes de defesa por estarem em cobertura.
+       Unidades visadas por esta arma não obter qualquer bônus para seus testes de resistência por ser na tampa. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -6867,13 +6689,6 @@
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre Ferimentos Mortais D3.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="4c63-22ef-6382-cabc" name="Daemonic Machine Spirit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ignore o -1 para apertar o modificador para mover e disparar armas pesadas para este modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -6984,6 +6799,7 @@
     <infoLink hidden="false" id="78d9-91a6-2adf-881f" name="Airborne" targetId="b054-22a3-2ce0-ea90" type="profile"/>
     <infoLink hidden="false" id="7d9f-0851-d3c2-4719" name="Hard to Hit" targetId="2567-8e02-9663-8055" type="profile"/>
     <infoLink hidden="false" id="777a-3629-0e99-3233" name="Supersonic" targetId="9207-9786-0a5b-faaf" type="profile"/>
+    <infoLink hidden="false" id="3bf8-6317-96e4-3505" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="b521-175f-7f8e-f787" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -7072,7 +6888,7 @@
     <entryLink collective="false" hidden="false" id="ca38-f191-6458-5628" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="19.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="22.0"/>
     <cost name="pts" typeId="points" value="280.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -7145,13 +6961,6 @@
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 6 ele cai e explode, e cada unidade a no máximo 6" sofre 2D6 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="6a6c-ff94-25aa-0954" name="Daemonic Machine Spirit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ignore o -1 para apertar o modificador para mover e disparar armas pesadas para este modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -7260,7 +7069,7 @@
     <profile hidden="false" id="98c3-224b-3ea0-c77c" name="Chaos Thunderhawk Gunship" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       The Chaos Thunderhawk Gunship can transport 30 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models. It may also transport BIKER and CAVALRY models, these also take up the space of thee other models).
+       O Chaos Thunderhawk Gunship pode transportar 30 &lt;LEGION&gt; modelos de infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos. Ele também pode transportar BIKER e CAVALARIA modelos, estes também ocupar o espaço de ti outros modelos).
       </characteristic>
      </characteristics>
     </profile>
@@ -7283,7 +7092,7 @@
     <profile hidden="false" id="8a45-e78a-1912-a797" name="Colossal Flyer" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de tabela, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa FLY, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiros contra ela. Note que isso significa que muitas armas de tiro de curto alcance não serão capazes de acertar este modelo. Seu oponente deve Também subtrai 1 das jogadas de acerto para ataques que visam esse modelo na fase de Tiro.
+       Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de tabela, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa voar, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiro contra ela. Observe que isso significa que muitas armas de tiro de curto alcance não conseguirão atingir esse modelo. Seu oponente deve Também subtrai 1 das jogadas de acerto para ataques que visam esse modelo na fase de Tiro.
       </characteristic>
      </characteristics>
     </profile>
@@ -7298,17 +7107,18 @@
    <infoLinks>
     <infoLink hidden="false" id="3812-1f61-b740-3368" name="Airborne" targetId="b054-22a3-2ce0-ea90" type="profile"/>
     <infoLink hidden="false" id="5a37-3449-5e4f-8fa0" name="Supersonic" targetId="9207-9786-0a5b-faaf" type="profile"/>
+    <infoLink hidden="false" id="6c85-2d50-30a7-bd63" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="aa9a-d5af-1107-4b18" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
     <categoryLink hidden="false" id="b840-7348-4726-c52b" name="New CategoryLink" primary="false" targetId="c6c5-7ba3-ae32-8fc0"/>
     <categoryLink hidden="false" id="a525-7d63-faab-d7d3" name="New CategoryLink" primary="false" targetId="3117-16d8-fcef-4f56"/>
-    <categoryLink hidden="false" id="2dbd-6d7c-bce7-594c" name="New CategoryLink" primary="true" targetId="e888-1504-aa61-95ff"/>
     <categoryLink hidden="false" id="c5a9-a4f6-af63-e761" name="New CategoryLink" primary="false" targetId="5c4c-f549-6ee9-2f4b"/>
     <categoryLink hidden="false" id="9451-0e9d-3783-4850" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e"/>
     <categoryLink hidden="false" id="c712-db35-8a8e-2fb7" name="New CategoryLink" primary="false" targetId="bdda-36f0-4f32-1639"/>
     <categoryLink hidden="false" id="a9c9-01a0-ed11-21d0" name="New CategoryLink" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
     <categoryLink hidden="false" id="2d94-e06d-6a93-cd69" name="Aircraft" primary="false" targetId="d569-3d56-cd24-6a31"/>
+    <categoryLink hidden="false" id="893d-6c10-30bf-512c" name="New CategoryLink" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
    </categoryLinks>
    <selectionEntryGroups>
     <selectionEntryGroup collective="false" defaultSelectionEntryId="1ffc-a9b9-8dd8-7093" hidden="false" id="3568-e085-7a4b-e58b" import="true" name="Heavy bolter options">
@@ -7348,8 +7158,8 @@
     <entryLink collective="false" hidden="false" id="0654-9b0f-1314-2061" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="42.0"/>
-    <cost name="pts" typeId="points" value="1330.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="78.0"/>
+    <cost name="pts" typeId="points" value="1350.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -7373,7 +7183,7 @@
        D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       -
+       Blast.
       </characteristic>
      </characteristics>
     </profile>
@@ -7451,7 +7261,7 @@
        2D6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Qualquer jogada de um 6 feito com este ataque automaticamente inflige mais Ferimentos Mortais D3 no alvo.
+       Qualquer rolo enrolado de um 6 feito com este ataque causa automaticamente uma feridas mortais D3 adicionais sobre o alvo. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -7468,13 +7278,6 @@
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
        Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de remover o modelo do campo de batalha e antes de qualquer modelo embarcado desembarcar. Em um 4+ ele trava e explode, e cada unidade a no máximo 2D6" sofre Ferimentos Mortais 2D6.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="5af2-d607-c1f7-1c5a" name="Daemonic Machine Spirit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ignore o -1 para apertar o modificador para mover e disparar armas pesadas para este modelo.
       </characteristic>
      </characteristics>
     </profile>
@@ -7576,7 +7379,7 @@
     <profile hidden="false" id="3ca6-aa1a-c5e0-b224" name="Chaos Sokar Pattern Stormbird" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       The Chaos Sokar Pattern Stormbird can transport 50 &lt;LEGION&gt; INFANTRY models (each TERMINATOR and JUMP PACK model takes up the space of two other models, and each CULT OF DESTRUCTION model takes up the space of three other models. It may also transport BIKER and CAVALRY models, these also take up the space of thee other models). The Chaos Sokar Pattern Stormbird may also transport a single CHAOS RHINO, including its own transported models, occupying 25 models' worth of space. When disembarking, the Rhino may only exit via the rear of the Chaos Sokar Pattern Stormbird.
+       O Padrão Chaos Sokar Stormbird pode transportar 50 &lt;LEGION&gt; modelos de infantaria (cada modelo PACK TERMINATOR e saltar ocupa o espaço de dois outros modelos, e cada culto de modelo DESTRUIÇÃO ocupa o espaço de três outros modelos. Ele também pode transportar BIKER e modelos cavalaria, estes também ocupar o espaço de ti outros modelos). O Chaos Sokar Padrão Stormbird também pode transportar um único CAOS RINOCERONTE, incluindo seus próprios modelos transportados, ocupando a pena de espaço 25 modelos. Ao desembarcar, o Rhino pode única saída pela parte de trás do padrão Chaos Sokar Stormbird.
       </characteristic>
      </characteristics>
     </profile>
@@ -7602,7 +7405,7 @@
     <profile hidden="false" id="5663-0a64-b176-7d30" name="Colossal Flyer" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de tabela, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa FLY, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiros contra ela. Note que isso significa que muitas armas de tiro de curto alcance não serão capazes de acertar este modelo. Seu oponente deve Também subtrai 1 das jogadas de acerto para ataques que visam esse modelo na fase de Tiro.
+       Ao mirar esta unidade com ataques de arremesso e poderes psíquicos, sempre meça ao casco do modelo onde ele estaria em um nível de tabela, mesmo que ele esteja em uma base voadora. Além disso, a menos que a unidade atacante possa voar, adicione 12" à distância medida para determinar o alcance ao realizar ataques de tiro contra ela. Observe que isso significa que muitas armas de tiro de curto alcance não conseguirão atingir esse modelo. Seu oponente deve Também subtrai 1 das jogadas de acerto para ataques que visam esse modelo na fase de Tiro.
       </characteristic>
      </characteristics>
     </profile>
@@ -7631,6 +7434,7 @@
    <infoLinks>
     <infoLink hidden="false" id="93a9-8366-e10f-d954" name="Airborne" targetId="b054-22a3-2ce0-ea90" type="profile"/>
     <infoLink hidden="false" id="4097-59d2-fb66-69fd" name="Supersonic" targetId="9207-9786-0a5b-faaf" type="profile"/>
+    <infoLink hidden="false" id="420c-71a1-4335-7794" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="5ec8-b443-3238-ff51" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -7672,8 +7476,8 @@
     <entryLink collective="false" hidden="false" id="5d63-dfa3-1b6b-8785" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="50.0"/>
-    <cost name="pts" typeId="points" value="2000.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="118.0"/>
+    <cost name="pts" typeId="points" value="2100.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -7704,8 +7508,8 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="110.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
    </costs>
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="a096-b74b-efa6-9bb4" import="true" name="Chaos Xiphon Interceptor" type="model">
@@ -7787,13 +7591,6 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="d18a-904b-55c3-128a" name="Terminal Targeting" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ignore o -1 para apertar o modificador para mover e disparar armas pesadas para este modelo.
-      </characteristic>
-     </characteristics>
-    </profile>
     <profile hidden="false" id="f4e2-0cb6-16ac-4bb4" name="Skyborn Predator" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
@@ -7812,6 +7609,7 @@
    <infoLinks>
     <infoLink hidden="false" id="86ee-495b-7103-44fd" name="Airborne" targetId="b054-22a3-2ce0-ea90" type="profile"/>
     <infoLink hidden="false" id="89f2-5ff8-80b3-b7ec" name="Hard to Hit" targetId="2567-8e02-9663-8055" type="profile"/>
+    <infoLink hidden="false" id="cdcf-6a49-aaee-b298" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="d4d8-d138-f328-a650" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -7839,7 +7637,7 @@
     <entryLink collective="false" hidden="false" id="ffb1-9883-7f4b-0224" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="12.0"/>
     <cost name="pts" typeId="points" value="110.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -7864,7 +7662,7 @@
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Toda vez que você fizer uma jogada para ferir de 5+ para essa arma, o alvo sofre um Ferimento Mortal além do dano normal da arma.
+       Cada vez que você rolar um rolo ferida de 5+ para esta arma, o alvo sofre uma ferida mortal, além de dano normal da arma. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -7881,7 +7679,7 @@
     <constraint field="selections" id="ddb8-58a3-3987-1f93" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
    </constraints>
    <profiles>
-    <profile hidden="false" id="39d8-13dd-f57f-c12e" name="Blight grenades" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile hidden="false" id="39d8-13dd-f57f-c12e" name="Blight grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
      <characteristics>
       <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
        6"
@@ -7899,7 +7697,7 @@
        1
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Você pode re-rolar jogadas para ferir de 1 para esta arma.
+       Você pode re-roll ferida rolos de 1 para esta arma. Explosão.
       </characteristic>
      </characteristics>
     </profile>
@@ -8010,6 +7808,7 @@
     <infoLink hidden="false" id="11d6-ca63-019e-c59b" name="Disgustingly Resilient" targetId="ab0e-3e13-b00c-e2f5" type="profile"/>
     <infoLink hidden="false" id="28f4-17e8-4575-8c6e" name="Daemonic Ritual" targetId="3641-cfd8-80a7-ce99" type="rule"/>
     <infoLink hidden="false" id="636a-de3c-b13e-e052" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
+    <infoLink hidden="false" id="eeb2-da79-cd59-67c6" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="4977-9fb6-f1df-d57e" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -8045,7 +7844,7 @@
          2
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Contra alvos de INFANTARIA, jogadas para ferir falhos para esta arma são relaminadas.
+         Contra alvos de infantaria, rolos ferida com falha para esta arma são enrolados à re. Explosão.
         </characteristic>
        </characteristics>
       </profile>
@@ -8194,7 +7993,7 @@
        18"
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestado, selecione uma unidade visível de DEATH GUARD aliada com 18" do Psyker. Até o início de sua próxima fase Psychic, seu oponente deve subtrair 1 de todas as jogadas de acerto que visam aquela unidade.
+       Se manifesta, selecione uma unidade MORTE GUARD amigável visíveis dentro de 18" do psyker. Até o início de sua próxima fase Psychic, seu oponente deve subtrair 1 a partir de todos os testes de golpes que visam essa unidade.
       </characteristic>
      </characteristics>
     </profile>
@@ -8219,7 +8018,7 @@
        18"
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestado, selecione uma unidade inimiga visível a no máximo 18" do Psyker e role uma D3. Consulte a tabela para descobrir qual penalidade característica todos os modelos naquela unidade sofrem até o início de sua próxima fase Psíquica (isso não pode reduzir uma característica a menos de 1).
+       Se manifestado, selecione uma unidade inimiga visível a no máximo 18" do Psyker e role uma D3. Consulte a tabela para descobrir qual penalidade característica todos os modelos naquela unidade sofrem até o início de sua próxima fase Psíquica (isso não pode reduzir uma característica a menos que 1).
       </characteristic>
      </characteristics>
     </profile>
@@ -8274,7 +8073,7 @@
        18"
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestado, selecione uma unidade inimiga visível a no máximo 18" do Psyker. Jogue um dado para cada modelo naquela unidade - a unidade sofre uma ferimento mortal por cada jogada de 6.
+       Se manifesta, selecione uma unidade inimiga visíveis dentro de 18" do psyker rolo um dado para cada modelo nessa unidade -. A unidade sofre uma ferida mortal para cada rolo de 6.
       </characteristic>
      </characteristics>
     </profile>
@@ -8312,7 +8111,7 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="38.0"/>
+    <cost name="pts" typeId="points" value="30.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -8343,7 +8142,7 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="30.0"/>
+    <cost name="pts" typeId="points" value="20.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -8390,7 +8189,7 @@
     <profile hidden="false" id="5540-c898-3b8c-6dea" name="Crazed" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       No final de qualquer fase em que este modelo sofra ferimentos não salvos ou Ferimentos Mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se reagrupar(pile in) e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.
+       Ao final de qualquer fase em que este modelo sofre quaisquer feridas não guardados ou a feridas mortais, rolo um D6. Em um rolo de 6, este modelo imediatamente faz um ataque a tiros, como se fosse a sua fase de Tiro se não há inimigos dentro de 1" , ou pilhas em e lutas como se fosse na fase de luta se há inimigos dentro de 1" . Se não houver um alvo visível dentro do alcance, nada acontece.
       </characteristic>
      </characteristics>
     </profile>
@@ -8411,6 +8210,7 @@
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="7c09-e982-00a6-820b" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
+    <infoLink hidden="false" id="9920-9992-c283-97b2" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="87a8-2897-c4e8-1340" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -8432,8 +8232,8 @@
          <conditionGroups>
           <conditionGroup type="and">
            <conditions>
-            <condition childId="ed46-154a-be3c-f74c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="2cc8-0e93-7906-cdf0" shared="true" type="equalTo" value="0.0"/>
-            <condition childId="36e5-c62f-abd0-533c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="2cc8-0e93-7906-cdf0" shared="true" type="equalTo" value="1.0"/>
+            <condition childId="ff63-ac97-0a51-e8dc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="2cc8-0e93-7906-cdf0" shared="true" type="equalTo" value="0.0"/>
+            <condition childId="1469-1964-7a91-94d4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="2cc8-0e93-7906-cdf0" shared="true" type="equalTo" value="1.0"/>
            </conditions>
           </conditionGroup>
          </conditionGroups>
@@ -8466,13 +8266,13 @@
              2
             </characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-             Para cada jogada de 1, o Hellbrute sofre um MW após todos os tiros da arma terem sido resolvidos.
+             Para cada rolo hit de 1, o Hellbrute sofre uma MW afinal de tiros deste armas foram resolvidos. Explosão.
             </characteristic>
            </characteristics>
           </profile>
          </profiles>
          <costs>
-          <cost name="pts" typeId="points" value="16.0"/>
+          <cost name="pts" typeId="points" value="20.0"/>
           <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
           <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
          </costs>
@@ -8514,7 +8314,7 @@
      <entryLinks>
       <entryLink collective="false" hidden="false" id="ed46-154a-be3c-f74c" import="true" name="Helbrute fist options" targetId="ff63-ac97-0a51-e8dc" type="selectionEntryGroup">
        <modifiers>
-        <modifier field="711a-a607-774a-dc35" type="set" value="1">
+        <modifier field="711a-a607-774a-dc35" type="set" value="1.0">
          <conditions>
           <condition childId="4ec2-155e-933b-cac7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="2cc8-0e93-7906-cdf0" shared="true" type="atLeast" value="1.0"/>
          </conditions>
@@ -8529,7 +8329,7 @@
     <entryLink collective="false" hidden="false" id="2088-02ff-047e-3e8b" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="60.0"/>
+    <cost name="pts" typeId="points" value="70.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -8577,7 +8377,7 @@
     <profile hidden="false" id="2aa4-d287-c022-ac94" name="Crazed" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       No final de qualquer fase em que este modelo sofra ferimentos não salvos ou Ferimentos Mortais, role um D6. Em um teste de 6, este modelo imediatamente faz um ataque de arremesso como se fosse sua fase de Tiro se não houver inimigos a menos de 1" , ou se reagrupar(pile in) e lutar como se estivesse na fase de combate se houver inimigos a menos de 1". Se não houver um alvo visível dentro do alcance, nada acontece.
+       Ao final de qualquer fase em que este modelo sofre quaisquer feridas não guardados ou a feridas mortais, rolo um D6. Em um rolo de 6, este modelo imediatamente faz um ataque a tiros, como se fosse a sua fase de Tiro se não há inimigos dentro de 1" , ou pilhas em e lutas como se fosse na fase de luta se há inimigos dentro de 1" . Se não houver um alvo visível dentro do alcance, nada acontece.
       </characteristic>
      </characteristics>
     </profile>
@@ -8598,6 +8398,7 @@
    </profiles>
    <infoLinks>
     <infoLink hidden="false" id="27e7-0057-b83a-530b" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
+    <infoLink hidden="false" id="b122-d45d-d640-8332" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="d04d-8e70-90f6-7ea0" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
@@ -8637,7 +8438,7 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="8.0"/>
+      <cost name="pts" typeId="points" value="10.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
@@ -8652,12 +8453,12 @@
      <selectionEntryGroups>
       <selectionEntryGroup collective="false" hidden="false" id="c255-38d9-be0b-24ee" import="true" name="Multi-melta options">
        <modifiers>
-        <modifier field="b801-6976-f71d-6135" type="set" value="2">
+        <modifier field="b801-6976-f71d-6135" type="set" value="2.0">
          <conditionGroups>
           <conditionGroup type="and">
            <conditions>
-            <condition childId="790c-3620-b83c-c94b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3672-0dd5-d396-dc4b" shared="true" type="equalTo" value="0.0"/>
-            <condition childId="cd55-6b3c-a28b-618a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3672-0dd5-d396-dc4b" shared="true" type="equalTo" value="1.0"/>
+            <condition childId="ff63-ac97-0a51-e8dc" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3672-0dd5-d396-dc4b" shared="true" type="equalTo" value="0.0"/>
+            <condition childId="1469-1964-7a91-94d4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3672-0dd5-d396-dc4b" shared="true" type="equalTo" value="1.0"/>
            </conditions>
           </conditionGroup>
          </conditionGroups>
@@ -8690,30 +8491,30 @@
              2
             </characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-             Para cada jogada de 1, o Hellbrute sofre um MW após todos os tiros da arma terem sido resolvidos.
+             Para cada rolo hit de 1, o Hellbrute sofre uma MW afinal de tiros deste armas foram resolvidos. Explosão.
             </characteristic>
            </characteristics>
           </profile>
          </profiles>
          <costs>
-          <cost name="pts" typeId="points" value="16.0"/>
+          <cost name="pts" typeId="points" value="20.0"/>
           <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
           <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
          </costs>
         </selectionEntry>
-        <selectionEntry collective="false" hidden="false" id="4344-9384-6c81-0426" import="true" name="Twin blastmaster" type="upgrade">
+        <selectionEntry collective="false" hidden="false" id="4344-9384-6c81-0426" import="true" name="2 x Blastmaster" type="upgrade">
          <constraints>
           <constraint field="selections" id="70f4-7659-7261-d31d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
           <constraint field="selections" id="e127-c97b-7045-84f6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
          </constraints>
          <profiles>
-          <profile hidden="false" id="9c45-cfb2-908b-2997" name="Twin blastmaster, Single frequency" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="9c45-cfb2-908b-2997" name="Blastmaster, Single frequency" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
              48"
             </characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-             Heavy 2D3
+             Heavy D3
             </characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">
              8
@@ -8725,17 +8526,17 @@
              D3
             </characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-             As unidades alvo desta arma não ganham nenhum bônus em seus testes de defesa por estarem em cobertura.
+             Unidades não recebem o benefício de cobertura para seus testes de resistência para ataques feitos com esta arma. Explosão.
             </characteristic>
            </characteristics>
           </profile>
-          <profile hidden="false" id="9e21-abd1-c5f8-2e24" name="Twin blastmaster, Varied frequency" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <profile hidden="false" id="9e21-abd1-c5f8-2e24" name="Blastmaster, Varied frequency" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
            <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
              36"
             </characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-             Assault 2D6
+             Assault D6
             </characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">
              4
@@ -8747,13 +8548,13 @@
              1
             </characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-             As unidades alvo desta arma não ganham nenhum bônus em seus testes de defesa por estarem em cobertura.
+             Unidades não recebem o benefício de cobertura para seus testes de resistência para ataques feitos com esta arma. Explosão.
             </characteristic>
            </characteristics>
           </profile>
          </profiles>
          <costs>
-          <cost name="pts" typeId="points" value="40.0"/>
+          <cost name="pts" typeId="points" value="20.0"/>
           <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
           <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
          </costs>
@@ -8795,7 +8596,7 @@
      <entryLinks>
       <entryLink collective="false" hidden="false" id="790c-3620-b83c-c94b" import="true" name="Helbrute fist options" targetId="ff63-ac97-0a51-e8dc" type="selectionEntryGroup">
        <modifiers>
-        <modifier field="711a-a607-774a-dc35" type="set" value="1">
+        <modifier field="711a-a607-774a-dc35" type="set" value="1.0">
          <conditions>
           <condition childId="c255-38d9-be0b-24ee" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="3672-0dd5-d396-dc4b" shared="true" type="greaterThan" value="0.0"/>
          </conditions>
@@ -8810,24 +8611,14 @@
     <entryLink collective="false" hidden="false" id="6338-d808-ec74-6b2e" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="60.0"/>
+    <cost name="pts" typeId="points" value="70.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="f9c1-caf1-c410-a3d6" import="true" name="Hunter-killer missile" type="upgrade">
-   <infoLinks>
-    <infoLink hidden="false" id="4961-3974-8592-4444" name="Hunter-killer missile" targetId="e2a9-e8fc-3a6b-2eec" type="profile"/>
-   </infoLinks>
-   <costs>
-    <cost name="pts" typeId="points" value="6.0"/>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-   </costs>
-  </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="f957-f774-e452-34ea" import="true" name="Chaos Vindicator Laser Destroyer" type="model">
+  <selectionEntry collective="false" hidden="false" id="f957-f774-e452-34ea" import="true" name="Hellforged Vindicator Laser Destroyer" type="model">
    <profiles>
-    <profile hidden="false" id="6aa0-b4ec-1ba3-db91" name="Chaos Vindicator Laser Destroyer 1" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+    <profile hidden="false" id="6aa0-b4ec-1ba3-db91" name="Hellforged Vindicator Laser Destroyer1" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
      <characteristics>
       <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
        7-12+
@@ -8843,7 +8634,7 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="2c35-23ce-aac1-c46b" name="Chaos Vindicator Laser Destroyer 2" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+    <profile hidden="false" id="2c35-23ce-aac1-c46b" name="Hellforged Vindicator Laser Destroyer2" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
      <characteristics>
       <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
        3-6
@@ -8859,7 +8650,7 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="7f9b-b2e0-ed7b-f595" name="Chaos Vindicator Laser Destroyer 3" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+    <profile hidden="false" id="7f9b-b2e0-ed7b-f595" name="Hellforged Vindicator Laser Destroyer3" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
      <characteristics>
       <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
        1-2
@@ -8882,7 +8673,7 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="c3fe-da2a-1cfa-7737" name="Chaos Vindicator Laser Destroyer" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
+    <profile hidden="false" id="c3fe-da2a-1cfa-7737" name="Hellforged Vindicator Laser Destroyer" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
      <characteristics>
       <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab"/>
       <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
@@ -8896,7 +8687,7 @@
       </characteristic>
      </characteristics>
     </profile>
-    <profile hidden="false" id="cbab-24e4-b068-42d0" name="Chaos Vindicator" typeId="800f-21d0-4387-c943" typeName="Unit">
+    <profile hidden="false" id="cbab-24e4-b068-42d0" name="Hellforged Vindicator Laser Destroyer" typeId="800f-21d0-4387-c943" typeName="Unit">
      <characteristics>
       <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
        *
@@ -8932,6 +8723,7 @@
     <infoLink hidden="false" id="300a-af5b-9810-04f1" name="Smoke Launchers" targetId="9adf-09bc-1635-b650" type="profile"/>
     <infoLink hidden="false" id="6da6-f2ec-4f76-bcc0" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
     <infoLink hidden="false" id="939d-1889-ffd5-41e6" name="Machina Malifica" targetId="d36c-b849-b0ba-625b" type="profile"/>
+    <infoLink hidden="false" id="52b3-822e-b134-3963" name="Hateful Assault" targetId="73c3-c791-cd2f-6ad2" type="rule"/>
    </infoLinks>
    <categoryLinks>
     <categoryLink hidden="false" id="d36a-4b78-3f42-f33a" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e"/>
@@ -9007,7 +8799,7 @@
       <constraint field="selections" id="97a4-9a8b-1a84-e301" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
      </constraints>
     </entryLink>
-    <entryLink collective="false" hidden="false" id="bb89-de86-2d14-564f" import="true" name="Hunter-killer missile" targetId="f9c1-caf1-c410-a3d6" type="selectionEntry">
+    <entryLink collective="false" hidden="false" id="bb89-de86-2d14-564f" import="true" name="Hunter-killer missile" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="c1fd-a6e0-4a6b-94db" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
@@ -9022,8 +8814,8 @@
     <entryLink collective="false" hidden="false" id="a778-e712-8251-9f50" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
-    <cost name="pts" typeId="points" value="183.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="11.0"/>
+    <cost name="pts" typeId="points" value="200.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -9041,7 +8833,7 @@
        18"
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestado, selecione uma unidade de GUERRA DE MORTE visível a no máximo 18" do Psyker. Até o início de sua próxima fase Psíquica, adicione 1 a todas as jogadas para ferir feitas por aquela unidade. Além disso, quaisquer rolos de ferimentos de 7+ feitos para aquela unidade em A fase de Luta com uma arma de peste de combate corpo-a-corpo (isto é, uma espada de peste ou qualquer arma com a habilidade Arma de Paginação) causa uma ferimento mortal no alvo além de qualquer outro dano.
+       Se manifesta, selecione uma unidade MORTE GUARD amigável visíveis dentro de 18" do psyker. Até o início de sua próxima fase Psychic, adicione 1 em todos os testes de feridas feitas por essa unidade. Além disso, quaisquer rolos ferida de 7+ feita para essa unidade em a fase de luta com uma arma branca praga (ou seja, uma praga espada ou qualquer arma com a capacidade praga arma) infligir uma ferida mortal no alvo, além de quaisquer outros danos.
       </characteristic>
      </characteristics>
     </profile>
@@ -9091,7 +8883,7 @@
        18"
       </characteristic>
       <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">
-       Se manifestado, selecione uma unidade de INFANTARIA DE GUARDA DE MORTE visível a no máximo 18" do Psyker. Até o início de sua próxima fase Psíquica, adicione 1 às características de Resistência e Resistência da unidade.
+       Se manifesta, selecione uma unidade MORTE GUARD INFANTARIA amigável visíveis dentro de 18" do psyker. Até o início de sua próxima fase Psychic, adicione 1 a força que da unidade e características tenacidade.
       </characteristic>
      </characteristics>
     </profile>
@@ -9104,7 +8896,7 @@
   </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="0fb7-cd07-ecfc-1db8" import="true" name="Helbrute fist" type="upgrade">
    <modifiers>
-    <modifier field="points" type="set" value="20">
+    <modifier field="points" type="set" value="15.0">
      <conditions>
       <condition childId="0fb7-cd07-ecfc-1db8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="greaterThan" value="1.0"/>
      </conditions>
@@ -9146,223 +8938,8 @@
     </selectionEntryGroup>
    </selectionEntryGroups>
    <costs>
-    <cost name="pts" typeId="points" value="30.0"/>
+    <cost name="pts" typeId="points" value="20.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-   </costs>
-  </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="4df9-9170-f70c-891b" import="true" name="Hellforged Termite" type="model">
-   <profiles>
-    <profile hidden="false" id="6a7b-b6c7-305c-eb22" name="Hellforged Termite" typeId="800f-21d0-4387-c943" typeName="Unit">
-     <characteristics>
-      <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
-       6"
-      </characteristic>
-      <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
-       *
-      </characteristic>
-      <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
-       *
-      </characteristic>
-      <characteristic name="S" typeId="2218-aa3c-265f-2939">
-       7
-      </characteristic>
-      <characteristic name="T" typeId="9c9f-9774-a358-3a39">
-       8
-      </characteristic>
-      <characteristic name="W" typeId="f330-5e6e-4110-0978">
-       10
-      </characteristic>
-      <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
-       *
-      </characteristic>
-      <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
-       8
-      </characteristic>
-      <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
-       3+
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="05f6-235d-bf0f-0e5d" name="Subterranean Assault" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Durante o deploy, você pode colocar este modelo, juntamente com quaisquer unidades embarcadas dentro dele, no subsolo, em vez de colocá-lo no campo de batalha. No final de qualquer uma das suas fases de Movimento, este modelo pode realizar um ataque subterrâneo - configure-o em qualquer lugar do campo de batalha que esteja a mais de 9" de distância de qualquer modelo inimigo.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="cbf6-ab2f-e101-1caf" name="Machina Malifica" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Ao final de qualquer turno em que uma unidade com essa habilidade tenha matado quaisquer modelos na fase de combate, a não ser através de ataques de Overwatch, role um número de D6 igual ao número de modelos que ele matou. Cada um desses dados que pontuam um resultado de 5+, cura uma ferida na unidade com esta regra. Este modelo não pode ser curado por qualquer outro meio no mesmo turno daquele em que esta habilidade é usada.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="f51a-cea7-7326-2905" name="In the Belly of the Beast" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       No final de qualquer fase do Movimento em que uma ou mais unidades desembarcarem de uma Cupim Forjada do Inferno, faça um D6. No lançamento de um 1, um modelo de uma unidade de desembarque, escolhido pelo jogador controlador, é morto. O número de modelos removidos devido aos efeitos desta regra são contados como modelos mortos para a habilidade Machina Malifica do Hellforged Termite no final deste turno.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="a08f-01a1-a921-c04c" name="Breaching Tremor" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Quando este modelo chega ao campo de batalha realizando um ataque subterrâneo, unidades inimigas a no máximo 12" sofrem uma única Ferimento Mortal.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="62c8-bc1b-e786-0f47" name="Containment Breach" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-     <characteristics>
-      <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais, a menos que seja um PSYKER, caso em que sofre 2D3 Ferimentos Mortais.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="fa05-fe38-a957-951e" name="Hellforged Termite" typeId="b3a8-0452-7436-44d1" typeName="Transport">
-     <characteristics>
-      <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 12 &lt;LEGION&gt; or &lt;MARK OF CHAOS&gt; INFANTRY models. It cannot, however, transport TERMINATORS, CULT OF DESTRUCTION or JUMP PACK models.
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="b320-964a-671d-4c9a" name="Hellforged Termite" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-     <characteristics>
-      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
-       -
-      </characteristic>
-      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
-       WS
-      </characteristic>
-      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
-       BS
-      </characteristic>
-      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
-       A
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="3f73-eff6-acd6-0074" name="Hellforged Termite1" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-     <characteristics>
-      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
-       6-10+
-      </characteristic>
-      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
-       4+
-      </characteristic>
-      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
-       3+
-      </characteristic>
-      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
-       4
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="b6ca-b039-2e76-36a5" name="Hellforged Termite2" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-     <characteristics>
-      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
-       3-5
-      </characteristic>
-      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
-       5+
-      </characteristic>
-      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
-       4+
-      </characteristic>
-      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
-       3
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="ed9c-dbd2-6009-e92b" name="Hellforged Termite3" typeId="5f4f-ea74-0630-4afe" typeName="Wound Track">
-     <characteristics>
-      <characteristic name="Remaining W" typeId="8e45-c866-b2d4-c9ab">
-       1-2
-      </characteristic>
-      <characteristic name="Characteristic 1" typeId="bf41-c860-50bc-2a7e">
-       6+
-      </characteristic>
-      <characteristic name="Characteristic 2" typeId="dc18-e51f-309b-8efa">
-       5+
-      </characteristic>
-      <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">
-       D3
-      </characteristic>
-     </characteristics>
-    </profile>
-   </profiles>
-   <categoryLinks>
-    <categoryLink hidden="false" id="b7ab-da93-5631-3363" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-    <categoryLink hidden="false" id="9ab8-1ad9-8a9e-435c" name="New CategoryLink" primary="false" targetId="5c4c-f549-6ee9-2f4b"/>
-    <categoryLink hidden="false" id="bf32-8345-d140-ec07" name="New CategoryLink" primary="false" targetId="c8fd-783f-3230-493e"/>
-    <categoryLink hidden="false" id="0267-3141-e262-1f55" name="New CategoryLink" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-    <categoryLink hidden="false" id="b9cc-cb9d-994c-be07" name="New CategoryLink" primary="false" targetId="f379-3f19-8545-bfc1"/>
-    <categoryLink hidden="false" id="ef6a-b0bd-28ba-6584" name="New CategoryLink" primary="true" targetId="1b66-3f5f-6705-079a"/>
-   </categoryLinks>
-   <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="1e95-618c-cefa-67ed" import="true" name="Rock eater" type="upgrade">
-     <constraints>
-      <constraint field="selections" id="08a9-d1a6-a17d-3aef" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
-      <constraint field="selections" id="45e4-d730-6558-e7b5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-     </constraints>
-     <profiles>
-      <profile hidden="false" id="7da1-9d3f-2dcb-6c43" name="Rock eater" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-       <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-         8"
-        </characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-         Pistol 1
-        </characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">
-         8
-        </characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">
-         -4
-        </characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-         D6
-        </characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
-        </characteristic>
-       </characteristics>
-      </profile>
-     </profiles>
-     <costs>
-      <cost name="pts" typeId="points" value="10.0"/>
-      <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-      <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-     </costs>
-    </selectionEntry>
-   </selectionEntries>
-   <selectionEntryGroups>
-    <selectionEntryGroup collective="false" defaultSelectionEntryId="c4c1-6747-4c5a-96a0" hidden="false" id="85fc-405c-5e8e-bbe8" import="true" name="Sponson weapons">
-     <constraints>
-      <constraint field="selections" id="2ae8-6cf9-cf7d-c9de" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
-      <constraint field="selections" id="c598-1153-d21c-753a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
-     </constraints>
-     <entryLinks>
-      <entryLink collective="false" hidden="false" id="c4c1-6747-4c5a-96a0" import="true" name="Combi-bolter" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="fea6-ac2b-5f1b-ed55" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
-       </constraints>
-      </entryLink>
-      <entryLink collective="false" hidden="false" id="92d6-2fd6-57bd-9ef8" import="true" name="Heavy flamer" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-       <constraints>
-        <constraint field="selections" id="f035-8afa-996a-2af2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
-       </constraints>
-      </entryLink>
-     </entryLinks>
-    </selectionEntryGroup>
-   </selectionEntryGroups>
-   <entryLinks>
-    <entryLink collective="false" hidden="false" id="7fc6-ab1c-8de7-63db" import="true" name="Has Battle Honours" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-    <entryLink collective="false" hidden="false" id="29f5-0d1f-f9c7-4037" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
-   </entryLinks>
-   <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-    <cost name="pts" typeId="points" value="92.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -9379,7 +8956,7 @@
     <entryLink collective="false" hidden="false" id="3c03-47e4-2fb1-1ad8" import="true" name="Combi-bolter" targetId="eba0-9fc6-5334-a390" type="selectionEntry"/>
    </entryLinks>
   </selectionEntryGroup>
-  <selectionEntryGroup collective="false" hidden="false" id="ea58-c71e-108b-d619" import="true" name="Contagion Discipline" page="57" publicationId="2128-f196-pubN106623">
+  <selectionEntryGroup collective="false" hidden="false" id="ea58-c71e-108b-d619" import="true" name="Contagion Discipline" page="57" publicationId="28ec-711c-pubN99666">
    <entryLinks>
     <entryLink collective="false" hidden="false" id="3a61-41a9-750f-ecea" import="true" name="Blades of Putrefaction" targetId="600a-6243-caaa-9f95" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="2e0d-3936-f6ce-8574" import="true" name="Gift of Contagion" targetId="c827-4bb5-de4b-d1b1" type="selectionEntry"/>
@@ -9417,7 +8994,7 @@
          D6
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Ao atacar com esta arma, você deve subtrair 1 do jogada de acerto.
+         Ao atacar com esta arma, você deve subtrair 1 da jogada de acerto.
         </characteristic>
        </characteristics>
       </profile>
@@ -9457,7 +9034,7 @@
       </profile>
      </profiles>
      <costs>
-      <cost name="pts" typeId="points" value="35.0"/>
+      <cost name="pts" typeId="points" value="25.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
@@ -9479,13 +9056,13 @@
  <sharedRules>
   <rule hidden="false" id="3641-cfd8-80a7-ce99" name="Daemonic Ritual">
    <description>
-    Em vez de se mover na fase de Movimento, qualquer personagem do Caos pode, no final da sua fase de Movimento, tentar invocar uma unidade de Daemon com esta habilidade executando um Ritual Daemônico (o personagem não pode fazê-lo se chegar como reforços neste turno, ou se eles próprios foram convocados para o campo de batalha neste turno).
+    Em vez de mover em sua fase de movimento, qualquer personagem Chaos pode, no final de sua fase de movimento, tentar invocar uma unidade Daemon com essa capacidade através da realização de um Daemonic Ritual (o personagem não pode fazê-lo se eles chegaram como reforços neste turno, ou se eles próprios foram convocados para o jogo neste turno).
 
-Se eles fizerem isso, escolha primeiro um dos quatro Deuses do Caos - Khorne, Tzeentch, Nurgle ou Slaanesh. Um personagem que deve lealdade a um dos Deuses Negros pode tentar convocar as unidades de seu patrono - por exemplo, um Personagem Khorne só poderia tentar convocar Daemons Khorne.
+Se o fizerem, primeiro escolher um dos quatro deuses do caos - Khorne, Tzeentch, Nurgle, ou Slaanesh. Um personagem que deve obediência a um dos Deuses Escuros pode tentar invocar as unidades de seu patrono - por exemplo, um personagem Khorne só poderia tentar invocar Khorne Daemons.
 
-Roll up to 3 dice - este é o seu teste de convocação. Você pode invocar uma nova unidade com a habilidade Ritual Daemônico no campo de batalha que tenha uma Classificação de Poder igual ou inferior ao resultado total, desde que tenha a mesma palavra-chave Chaos Deus escolhida no início (no caso de unidades que tenham a escolha de lealdade, como Fúrias, a unidade quando convocada terá essa palavra chave.) Esta unidade é tratada como reforço para o seu exército e pode ser colocada em qualquer lugar no campo de batalha que esteja inteiramente a no máximo 12" do personagem e seja maior que 9" de qualquer modelo inimigo. Se o total rolado é insuficiente para invocar qualquer unidade, o ritual falha e nenhuma nova unidade é convocada.
+Rolar até 3 dados - este é o seu rolo convocação. Você pode convocar uma nova unidade com a capacidade Daemonic Ritual ao campo de batalha que tem uma potência igual ou menor do que o resultado total de tanto tempo, pois tem o mesmo Chaos Deus palavra-chave que você escolheu no início (no caso de unidades que têm a escolha de fidelidade, como Fúrias, a unidade quando convocados terão essa palavra-chave.) esta unidade é tratada como reforços para seu exército e pode ser colocado em qualquer lugar no campo de batalha que é inteiramente dentro de 12" do personagem e é mais do que 9 "a partir de qualquer modelo inimigo. Se o total rolou é insuficiente para convocar qualquer unidade, o ritual falha e nenhuma nova unidade está convocado.
 
-Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre um Ferimento Mortal. Se continha triplos, em vez disso, sofre Ferimentos Mortais D3.
+Se o seu rolo convocação incluído nenhum duplos, seu personagem, em seguida, sofre uma ferida mortal. Se ele continha quaisquer triplos, em vez sofre feridas D3 mortal.
    </description>
   </rule>
  </sharedRules>
@@ -9549,7 +9126,7 @@ Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre um
   <profile hidden="false" id="0a47-f5bc-564b-bb06" name="Preternatural Manoeuverability" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     Cada vez que este modelo se move, primeiro gire-o no local até 90 ° (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente. Você pode, então, se desejar girar novamente até 90 ° para enfrentar uma nova direção. Quando este modelo avança, aumenta sua característica de movimento por 20" unitl o fim da fase - não rola um dado.
+     Cada vez que este modelo se move, primeiro pivot-lo no local até 90 ° (isto não contribui para o quanto o modelo se move), e mova o modelo reto para a frente. Você pode então se você quiser pivot-lo novamente até 90 ° para enfrentar uma nova direção. Quando este modelo avanços, aumentar a sua característica jogada de 20" até o final da fase - não rola um dado.
     </characteristic>
    </characteristics>
   </profile>
@@ -9571,6 +9148,80 @@ Se o seu teste de convocação incluiu quaisquer duplas, seu personagem sofre um
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
      Este modelo não sofrer a penalidade para bater rolos para mover e disparar.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="cb8d-e3ac-5ec9-e239" name="Titanic Daemon Engine" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Este modelo é elegível para declarar uma carga em um turno em que ele caiu para trás. Cada vez que este modelo faz um movimento normal, adiantamentos ou cai para trás, ele pode ser movido através de outros modelos (excluindo modelos monstro e veículos) como se não estivessem
+lá, e quando isso acontece ele pode ser movido dentro Engagement Faixa de tais modelos, mas não pode terminar seu movimento dentro Engagement Faixa de qualquer um deles.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="624e-4f09-2c68-cd55" name="Steel Behemoth" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Este modelo é elegível para declarar uma carga em um turno em que ele caiu para trás. Cada vez que este modelo é selecionado para disparar enquanto ele está dentro Engagement Faixa de quaisquer unidades inimigas, ele pode fazer ataques contra unidades inimigas elegíveis que não estão dentro Engagement Faixa dele como se não existissem modelos inimigo dentro Engagement Faixa dele.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="b280-a863-de38-889b" name="Hellflamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     8"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Heavy D6
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     5
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -1
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     2
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     Esta arma atinge automaticamente seu alvo.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="7f71-e6c0-80fa-3467" name="Hellfire Reactor" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Uma unidade com essa habilidade tem uma defesa invulnerável de 5+ contra ataques de Tiro ou Overwatch, além de 4+ de resistência invulnerável contra ataques corpo-a-corpo na fase de combate.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="997e-8681-f5a3-fe65" name='Containment Breach (6"/D3/D6)' typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <modifiers>
+    <modifier field="name" type="set" value="Containment Breach"/>
+   </modifiers>
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 6" sofre Ferimentos Mortais D3, a menos que seja um Psyker, caso em que sofre D6 ferimentos mortais.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="1293-791c-6d72-5b82" name='Containment Breach (2D6"/D6/2D3)' typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <modifiers>
+    <modifier field="name" type="set" value="Containment Breach"/>
+   </modifiers>
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma jogada de um 6 ele explode e as energias infernais em seu núcleo são liberadas. Cada unidade a no máximo 2D6" sofre D6 ferimentos mortais a menos que seja um Psyker, caso em que sofre 2D3 Ferimentos Mortais.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="582d-9577-1c83-9240" name='Containment Breach (6"/D6/2D3)' typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <modifiers>
+    <modifier field="name" type="set" value="Containment Breach"/>
+   </modifiers>
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Se este modelo for reduzido a 0 ponto de vida, role um D6 antes de removê-lo do campo de batalha. Em uma rolagem de um 6 ele explode e as energias infernais em seu núcleo são desencadeadas. Cada unidade a menos de 6 "sofre D6 mortal feridas a menos que seja um PSYKER, caso em que sofre 2D3 ferimentos mortais.
     </characteristic>
    </characteristics>
   </profile>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="7" id="2ebb-7865-3983-640d" library="false" name="Chaos - Renegades &amp; Heretics-BR" revision="45" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="2ebb-7865-3983-640d" library="false" name="Chaos - Renegades &amp; Heretics-BR" revision="51" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
-  <publication id="2ebb-7865-pubN65537" name="Imperial Armour - Index: Forces of the Astra Militarum"/>
   <publication id="2ebb-7865-pubN72363" name="Codex: Astra Militarum"/>
  </publications>
  <categoryEntries>
@@ -349,7 +348,7 @@
     <categoryLink hidden="false" id="550a-90c4-d4de-3874" name="New CategoryLink" primary="false" targetId="05a7-e634-b238-5f56"/>
    </categoryLinks>
   </entryLink>
-  <entryLink collective="false" hidden="false" id="578c-04f3-3650-3f15" import="true" name="Renegade Diciple Squad" targetId="478b-40b6-b779-32f7" type="selectionEntry">
+  <entryLink collective="false" hidden="false" id="578c-04f3-3650-3f15" import="true" name="Renegade Disciple Squad" targetId="478b-40b6-b779-32f7" type="selectionEntry">
    <categoryLinks>
     <categoryLink hidden="false" id="8e01-ef80-e36a-7b5d" name="New CategoryLink" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
     <categoryLink hidden="false" id="4146-5674-b01b-1a7c" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
@@ -479,7 +478,7 @@
   </entryLink>
   <entryLink collective="false" hidden="false" id="04e9-e376-c98e-fca0" import="true" name="Chaos Covenant" targetId="6a6f-327e-1b3b-154e" type="selectionEntry">
    <categoryLinks>
-    <categoryLink hidden="false" id="c2d8-4361-2b52-2556" name="New CategoryLink" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+    <categoryLink hidden="false" id="1cf1-093f-97a5-139a" name="New CategoryLink" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
    </categoryLinks>
   </entryLink>
   <entryLink collective="false" hidden="false" id="3ed7-04c8-7e1c-c938" import="true" name="Valdor Tank Hunter" targetId="6100-9b7a-6db6-c0b4" type="selectionEntry">
@@ -531,7 +530,7 @@
    </profiles>
    <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="5.0"/>
+    <cost name="pts" typeId="points" value="9.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
@@ -670,7 +669,7 @@
     <profile hidden="false" id="86f1-5e8f-b9a6-3fa0" name="Transport Capacity" typeId="b3a8-0452-7436-44d1" typeName="Transport">
      <characteristics>
       <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-       This model can transport 12 Renegade and Heretic models.  Each Heavy Weapons Team or Veteran Heavy Weapons Team takes the place of two other models and each OGRYN takes the space of three other models.
+       Este modelo pode transportar 12 modelos Renegade e herege. Cada Armas Pesadas equipe ou Veteran armas pesadas equipe toma o lugar de dois outros modelos e cada OGRYN toma o espaço de três outros modelos.
       </characteristic>
      </characteristics>
     </profile>
@@ -1057,7 +1056,7 @@
              D6
             </characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-             Se o alvo estiver dentro da metade desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
+             Se o alvo estiver dentro da metade do alcance desta arma, jogue dois dados ao infligir dano e descarte o resultado mais baixo.
             </characteristic>
            </characteristics>
           </profile>
@@ -1355,7 +1354,7 @@
       <profile hidden="false" id="79e4-d189-9f9f-dc04" name="Transport: Valkyrie" typeId="b3a8-0452-7436-44d1" typeName="Transport">
        <characteristics>
         <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-         This model can transport 12 RENEGADES AND HERETICS INFANTRY models.  Each Heavy Weapons Team or Veteran Heavy Weapons Team takes the place of two other models and each OGRYN takes the space of three other models.
+         Este modelo pode transportar 12 renegados e modelos hereges infantaria. Cada Armas Pesadas equipe ou Veteran armas pesadas equipe toma o lugar de dois outros modelos e cada OGRYN toma o espaço de três outros modelos.
         </characteristic>
        </characteristics>
       </profile>
@@ -1462,7 +1461,7 @@
       <profile hidden="false" id="0058-c1e6-d079-b15f" name="Supersonic" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Cada vez que este modelo se move, primeiro gire-o no local até 90" (isso não contribui para o quão longe o modelo se move), e então mova o modelo para frente. Observe que ele não pode girar novamente após o giro inicial. Avança o modelo, aumenta sua característica de movimento por 20" até o final da fase - não jogue um dado.
+         Cada vez que este modelo se move, primeiro pivot-lo no local até 90" (isso não contribui para o quanto o modelo se move), e mova o modelo reto para a frente. Observe que pode não pivot novamente após o pivô inicial. Quando isso Avanços modelo, aumentar a sua característica jogada de 20" até o final da fase - não rola um dado.
         </characteristic>
        </characteristics>
       </profile>
@@ -1706,7 +1705,7 @@
         <entryLink collective="false" hidden="false" id="ffc6-6021-d4dc-6d55" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
        </entryLinks>
        <costs>
-        <cost name="pts" typeId="points" value="122.0"/>
+        <cost name="pts" typeId="points" value="107.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
        </costs>
@@ -1826,7 +1825,7 @@
     <infoLink hidden="false" id="58eb-7bde-ac9c-6b78" name="Punisher Gatling Cannon" targetId="9fac-07c9-3595-784e" type="profile"/>
    </infoLinks>
    <costs>
-    <cost name="pts" typeId="points" value="20.0"/>
+    <cost name="pts" typeId="points" value="30.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -1871,7 +1870,7 @@
        2
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Se você fizer uma ou mais jogadas de acerto de 1, o portador sofre D6 mortal depois que todos os tiros da arma tiverem sido resolvidos.
+       Se você fizer uma ou mais jogadas de acerto de 1, o portador sofre D6 mortal depois que todos os tiros da arma forem resolvidos.
       </characteristic>
      </characteristics>
     </profile>
@@ -1999,7 +1998,7 @@
       <infoLink hidden="false" id="b316-d4cd-bf21-8979" name="Explodes" targetId="3541-94a7-a138-358b" type="rule"/>
      </infoLinks>
      <selectionEntries>
-      <selectionEntry collective="false" hidden="false" id="3912-36f5-b0c1-8796" import="true" name="Wyven Quad Stormshard Mortar" page="0" type="upgrade">
+      <selectionEntry collective="false" hidden="false" id="3912-36f5-b0c1-8796" import="true" name="Wyvern Quad Stormshard Mortar" page="0" type="upgrade">
        <constraints>
         <constraint field="selections" id="0ef2-0734-c6ae-3188" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1.0"/>
         <constraint field="selections" id="29ec-4c25-daba-3d8a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1.0"/>
@@ -2043,7 +2042,7 @@
       <entryLink collective="false" hidden="false" id="ca42-5a9a-c98d-a18c" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
      </entryLinks>
      <costs>
-      <cost name="pts" typeId="points" value="95.0"/>
+      <cost name="pts" typeId="points" value="105.0"/>
       <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
       <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
      </costs>
@@ -2379,7 +2378,7 @@
     </entryLink>
     <entryLink collective="false" hidden="false" id="2a00-2c07-f6a8-5d7e" import="true" name="Demolisher cannon" targetId="1f7e-32c4-61af-510f" type="selectionEntry">
      <modifiers>
-      <modifier field="points" type="set" value="40"/>
+      <modifier field="points" type="set" value="20.0"/>
      </modifiers>
      <constraints>
       <constraint field="selections" id="4dd9-6ed2-ef24-eb05" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
@@ -2404,7 +2403,7 @@
     <entryLink collective="false" hidden="false" id="5916-cb45-a75b-14d1" import="true" name="Battle Honours" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
    </entryLinks>
    <costs>
-    <cost name="pts" typeId="points" value="390.0"/>
+    <cost name="pts" typeId="points" value="350.0"/>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="28.0"/>
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
@@ -2934,7 +2933,7 @@
          D6
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Se esta arma infligir dano com sucesso, role D6 adicional. Em um resultado de um 3-5 o dano da arma é aumentado para 2D6 em um resultado de 6 o dano de armas é aumentado para 3D6
+         Se esta arma inflige com sucesso danos, rolo um D6 adicional. Em um resultado de 3-5 dano da arma é aumentada para 2D6 em um resultado de 6 a danos armas é aumentada para 3D6
         </characteristic>
        </characteristics>
       </profile>
@@ -3269,7 +3268,7 @@
       <infoLink hidden="false" id="74e1-bb76-9581-546f" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
      </infoLinks>
      <selectionEntries>
-      <selectionEntry collective="false" hidden="false" id="ad00-b847-3a95-5fd2" import="true" name="3 X Renegade Crew" type="unit">
+      <selectionEntry collective="false" hidden="false" id="ad00-b847-3a95-5fd2" import="true" name="3 x Renegade Crew" type="unit">
        <constraints>
         <constraint field="selections" id="469e-cea0-d471-fe46" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
         <constraint field="selections" id="d603-fea0-09b8-3a38" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
@@ -3435,7 +3434,7 @@
       <constraint field="selections" id="7af2-bc46-b7fc-f621" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
      <profiles>
-      <profile hidden="false" id="4c76-e033-a4d7-652c" name="Twin eartshaker cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <profile hidden="false" id="4c76-e033-a4d7-652c" name="Twin earthshaker cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
        <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
          240"
@@ -3453,7 +3452,7 @@
          D3
         </characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-         Jogue quatro dados pelo número de ataques ao disparar esta arma e descarte os dois resultados mais baixos. Esta arma pode mirar em unidades que não são visíveis para o portador
+         Rolo quatro dados para o número de ataques ao disparar esta arma e descartar os dois resultados mais baixos. Esta arma pode direcionar unidades que não são visíveis para o portador.
         </characteristic>
        </characteristics>
       </profile>
@@ -3505,7 +3504,7 @@
       <profile hidden="false" id="a426-8e97-a4ca-ea94" name="Transport Capacity" typeId="b3a8-0452-7436-44d1" typeName="Transport">
        <characteristics>
         <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">
-         This model can transport 12 RENEGADE AND HERETICS models.  Each Heavy Weapons Team or Veteran Heavy Weapons Team takes the place of two other models. This model may not transport OGRYNS
+         Este modelo pode transportar 12 RENEGADE e hereges modelos. Cada Armas Pesadas equipe ou Veteran armas pesadas equipe toma o lugar de dois outros modelos. Este modelo não pode transportar OGRYNS
         </characteristic>
        </characteristics>
       </profile>
@@ -3543,7 +3542,7 @@
       <profile hidden="false" id="dcbf-7e34-ce60-3b45" name="Hover Jet" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá passar. Sua característica Move se torna 20 "até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o início de sua próxima fase Movement.
+         Antes que este modelo se mova na sua fase de movimento, você pode declarar que irá planar. Sua característica de movimento se torna 20" até o final da fase, e perde as habilidades Airborne, Hard to Hit e Supersonic até o começo de sua próxima fase de movimento.
         </characteristic>
        </characteristics>
       </profile>
@@ -3955,7 +3954,7 @@
       <profile hidden="false" id="f361-dc8f-c9f3-6f40" name="Artillery Battery" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         A primeira vez que esta unidade é configurada, todos os modelos devem ser colocados a no máximo 6" um do outro. A partir desse ponto, cada um opera independentemente e é tratado como uma unidade separada para todos os fins de regra.
+         A primeira vez que esta unidade é configurado, todos os modelos deve ser colocado dentro de 6" de cada outro. A partir desse ponto em diante, cada um, independentemente, opera e é tratado como uma unidade separada para todas as finalidades de regras.
         </characteristic>
        </characteristics>
       </profile>
@@ -4200,7 +4199,7 @@
     <profile hidden="false" id="cf50-1c78-2823-d6ca" name="Aura of the Master Witch" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Este modelo tem uma defesa invulnerável de 4+
+       Este modelo tem uma defesa invulnerável de 4+.
       </characteristic>
      </characteristics>
     </profile>
@@ -4213,7 +4212,7 @@
        1
       </characteristic>
       <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">
-       2 Renegade and Heretics Dicipline
+       2 Renegade and Heretics Discipline
       </characteristic>
       <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
      </characteristics>
@@ -4270,7 +4269,7 @@
        1
       </characteristic>
       <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">
-       1 Renegade and Heretics Dicipline
+       1 Renegade and Heretics Discipline
       </characteristic>
       <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">
        If this unit suffers Perils of the Warp, it suffers D3 mortal wounds, but units within 6" will only suffer damage if Perils of the Warp causes the last model in the manifesting unit to be slain.
@@ -4695,7 +4694,7 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="517d-ad0d-cf72-801f" import="true" name="Renegade Militia Squad" page="85" publicationId="2ebb-7865-pubN65537" type="unit">
+  <selectionEntry collective="false" hidden="false" id="517d-ad0d-cf72-801f" import="true" name="Renegade Militia Squad" page="85" publicationId="53e9d88f-pubN134105" type="unit">
    <modifiers>
     <modifier field="e356-c769-5920-6e14" type="increment" value="3">
      <conditions>
@@ -4922,23 +4921,17 @@
           <constraint field="selections" id="45af-19f9-62c0-1702" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
          </constraints>
          <entryLinks>
-          <entryLink collective="false" hidden="false" id="d438-9ba2-2f3c-c968" import="true" name="Lascannon" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
-           <modifiers>
-            <modifier field="points" type="set" value="20"/>
-           </modifiers>
+          <entryLink collective="false" hidden="false" id="d438-9ba2-2f3c-c968" import="true" name="Lascannon" targetId="0b65-01bf-2161-a357" type="selectionEntry">
            <constraints>
             <constraint field="selections" id="5150-0600-d41c-5115" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
            </constraints>
           </entryLink>
-          <entryLink collective="false" hidden="false" id="3351-9ff2-664d-89b8" import="true" name="Missile launcher" targetId="1469-1964-7a91-94d4" type="selectionEntry">
+          <entryLink collective="false" hidden="false" id="3351-9ff2-664d-89b8" import="true" name="Missile launcher" targetId="406e-f61c-d8d3-0c3f" type="selectionEntry">
            <constraints>
             <constraint field="selections" id="da94-66bb-da7d-ac48" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
            </constraints>
           </entryLink>
           <entryLink collective="false" hidden="false" id="82b7-8b07-4ab0-e9c5" import="true" name="Heavy bolter" targetId="0c5c-2a4f-0e90-8aaa" type="selectionEntry">
-           <modifiers>
-            <modifier field="points" type="set" value="8"/>
-           </modifiers>
            <constraints>
             <constraint field="selections" id="94d5-b748-6fa7-f25d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
            </constraints>
@@ -5626,7 +5619,9 @@
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
          2
         </characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+         -
+        </characteristic>
        </characteristics>
       </profile>
       <profile hidden="false" id="f788-e599-cd27-19e9" name="Mutated Beyond Reason" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -5935,10 +5930,10 @@
          <selectionEntries>
           <selectionEntry collective="false" hidden="false" id="7e10-5ac4-c5e4-ce8d" import="true" name="Banner of the Apostate" type="upgrade">
            <profiles>
-            <profile hidden="false" id="ef83-d43c-e19f-661d" name="Banner of the apostate" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile hidden="false" id="ef83-d43c-e19f-661d" name="Banner of the Apostate" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
              <characteristics>
               <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-               As unidades inimigas &lt;IMPERIO&gt; subtraem 1 de suas características de Liderança enquanto estiverem a no máximo 6" de qualquer modelo com uma Bandeira do Apóstata.
+               Inimigas &lt;Imperium&gt; unidades subtrair 1 a partir de sua característica de liderança, enquanto eles estão dentro de 6" de quaisquer modelos com uma bandeira do Apóstata.
               </characteristic>
              </characteristics>
             </profile>
@@ -6175,7 +6170,7 @@
         <constraint field="selections" id="7597-b521-d0a2-211f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
        </constraints>
        <profiles>
-        <profile hidden="false" id="ac97-52c7-fa9f-8874" name="Diciple Heavy Weapon Team" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile hidden="false" id="ac97-52c7-fa9f-8874" name="Disciple Heavy Weapon Team" typeId="800f-21d0-4387-c943" typeName="Unit">
          <characteristics>
           <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
            6"
@@ -6591,7 +6586,7 @@
         <profile hidden="false" id="a1a4-f362-8b4d-708c" name="Stalkers" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Seu oponente deve subtrair 1 das jogadas de acerto dos ataques que visam a unidade na fase de tiro. Além disso, os modelos na unidade ganham +1 para seu teste de defesa se estiverem em cobertura.
+           Seu oponente deve subtrair 1 a partir de rolos atingidas por ataques direcionados a esta unidade em fase de Tiro. Além disso, os modelos da unidade de ganho +1 para o seu teste de resistência se eles estão na capa.
           </characteristic>
          </characteristics>
         </profile>
@@ -6626,7 +6621,7 @@
         <profile hidden="false" id="88e1-7154-3b2a-948e" name="Murder Cultists" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
          <characteristics>
           <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-           Você pode re-rolar jogadas de acerto malsucedidas para esta unidade na fase de combates.
+           Você pode re-roll falhou rolos de sucesso para esta unidade em fase de luta.
           </characteristic>
          </characteristics>
         </profile>
@@ -6688,12 +6683,12 @@
          <modifiers>
           <modifier field="7def-6134-185c-3e46" type="set" value="2">
            <conditions>
-            <condition childId="04f5-91a2-8ab9-7b32" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
+            <condition childId="eb2c-02f8-88b3-7f35" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
            </conditions>
            <conditionGroups>
             <conditionGroup type="and">
              <conditions>
-              <condition childId="b90a-3482-2bb6-aad6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
+              <condition childId="19e7-3448-5df2-5ec0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
              </conditions>
             </conditionGroup>
            </conditionGroups>
@@ -6702,8 +6697,8 @@
            <conditionGroups>
             <conditionGroup type="or">
              <conditions>
-              <condition childId="b90a-3482-2bb6-aad6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
-              <condition childId="04f5-91a2-8ab9-7b32" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
+              <condition childId="19e7-3448-5df2-5ec0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
+              <condition childId="eb2c-02f8-88b3-7f35" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="90f3-c2a6-a422-8331" shared="true" type="equalTo" value="1.0"/>
              </conditions>
             </conditionGroup>
            </conditionGroups>
@@ -6734,15 +6729,17 @@
             <constraint field="selections" id="cceb-cfc7-c830-4003" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
            </constraints>
           </entryLink>
-          <entryLink collective="false" hidden="false" id="a14a-163e-184f-cbc1" import="true" name="Boltgun" targetId="76b1-0d23-d98a-8c72" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="0f91-fa8c-46fc-0c80" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
-           </constraints>
-          </entryLink>
           <entryLink collective="false" hidden="false" id="04f5-91a2-8ab9-7b32" import="true" name="Ranged Weapons" targetId="eb2c-02f8-88b3-7f35" type="selectionEntryGroup">
            <constraints>
             <constraint field="selections" id="9c70-f17a-1f2c-d8f5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
            </constraints>
+           <entryLinks>
+            <entryLink collective="false" hidden="false" id="55c0-30ae-4c44-4c61" import="true" name="Boltgun" targetId="76b1-0d23-d98a-8c72" type="selectionEntry">
+             <constraints>
+              <constraint field="selections" id="c3a1-700f-4f3a-d191" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+             </constraints>
+            </entryLink>
+           </entryLinks>
           </entryLink>
          </entryLinks>
         </selectionEntryGroup>
@@ -7394,7 +7391,7 @@
            D3
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Reroll falhou em jogadas para ferir em &lt;VEÍCULO&gt;
+           Contra VEÍCULOS, re-roll falhou rolos ferida.
           </characteristic>
          </characteristics>
         </profile>
@@ -7524,7 +7521,7 @@
            D3
           </characteristic>
           <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-           Reroll falhou em jogadas para ferir em modelos Não - &lt;VEÍCULO&gt;
+           Re-roll falhou rolos ferida contra modelos não-veículo.
           </characteristic>
          </characteristics>
         </profile>
@@ -7835,13 +7832,13 @@
     <infoLink hidden="false" id="bd7e-dbcd-048f-4332" name="Explodes" targetId="9446-1148-da70-4028" type="profile"/>
    </infoLinks>
    <selectionEntries>
-    <selectionEntry collective="false" hidden="false" id="c511-db75-07ac-451e" import="true" name="Battle Canon" type="upgrade">
+    <selectionEntry collective="false" hidden="false" id="c511-db75-07ac-451e" import="true" name="Battle Cannon" type="upgrade">
      <constraints>
       <constraint field="selections" id="9bfd-9841-fc23-7ce0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
       <constraint field="selections" id="64c9-7130-b139-7611" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
      </constraints>
      <infoLinks>
-      <infoLink hidden="false" id="d6c7-af71-9e82-8a1c" name="Battle Cannon" targetId="bc34-f1ec-56fa-2829" type="profile"/>
+      <infoLink hidden="false" id="d6c7-af71-9e82-8a1c" name="Battle cannon" targetId="bc34-f1ec-56fa-2829" type="profile"/>
      </infoLinks>
      <costs>
       <cost name="pts" typeId="points" value="22.0"/>
@@ -8014,7 +8011,7 @@
     <profile hidden="false" id="47c0-a001-9688-6cb9" name="Defender Protocols" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Adicione 1 às jogadas de acerto para o modelo ao disparar overwatch.
+       Adicione 1 às jogadas de acerto para o modelo ao acionar o Overwatch.
       </characteristic>
      </characteristics>
     </profile>
@@ -8271,14 +8268,14 @@
     <profile hidden="false" id="73a5-1a4d-ec6f-3e11" name="Artillery Battery" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma Eathshaker Carriage Battery e seu Guardsmen Crew devem ser posicionados como um único grupo a no máximo 3" de cada lado, e devem permanecer dentro desta distância durante a batalha, mas são tratados como unidades separadas. Os Tripulantes só podem ser escolhidos como alvo. na fase de disparo, se eles são a unidade visível mais próxima do modelo que está sendo fotografado.
+       Um Earthshaker transporte da bateria e a sua guardas grupo deve ser implementado como um único grupo em 3" uns dos outros, e deve permanecer dentro desta distância ao longo da batalha, mas são de outro modo tratado como unidades separadas. A guardas Técnica só pode ser escolhido como um alvo na fase de tiro, se eles são a unidade mais próxima visível para o modelo que está atirando.
       </characteristic>
      </characteristics>
     </profile>
     <profile hidden="false" id="5f0b-0f18-4af0-6eb5" name="Artillery" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma Eartshaker Carriage Battery só pode disparar sua arma de longo alcance se um amistoso &lt;RENEGADE&gt; guardsman crew crew estiver a no máximo 3" . Um único modelo Guardsman não pode operar vários Earthshaker Carriages desta forma em um único turno, se todos os tripulantes a no máximo 6" de um Earthshaker O carro é morto, ele imediatamente desliga e é removido do jogo.
+       Um Earthshaker Carriage bateria só pode disparar a sua arma de longo alcance, se um amistoso &lt;RENEGADE&gt; modelo tripulação guarda é dentro de 3" . Um modelo único guarda não pode operar várias Carruagens Earthshaker desta forma em um único turno, se toda a tripulação guardas dentro de 6" de um Earthshaker Carriage são mortos, ele imediatamente desliga e é removida do jogo.
       </characteristic>
      </characteristics>
     </profile>
@@ -8387,7 +8384,7 @@
     <profile hidden="false" id="c12f-8cc8-d9c2-8eb5" name="Artillery Battery" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Uma Medusa Carriage Battery e sua Guardsmen Crew devem ser posicionadas como um único grupo a no máximo 3" de cada lado, e devem permanecer dentro desta distância durante a batalha, mas são tratadas como unidades separadas. As Tripulações só podem ser escolhidas como alvo. na fase de disparo, se eles são a unidade visível mais próxima do modelo que está sendo fotografado.
+       Um Medusa transporte da bateria e a sua guardas grupo deve ser implementado como um único grupo em 3" uns dos outros, e deve permanecer dentro desta distância ao longo da batalha, mas são de outro modo tratado como unidades separadas. A guardas Técnica só pode ser escolhido como um alvo na fase de tiro, se eles são a unidade mais próxima visível para o modelo que está atirando.
       </characteristic>
      </characteristics>
     </profile>
@@ -9166,95 +9163,6 @@
     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
    </costs>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="ff43-294e-d69d-8ba2" import="true" name="Hideous Mutations" type="upgrade">
-   <profiles>
-    <profile hidden="false" id="ed1a-c984-46b3-f98b" name="Hideous Mutations" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-     <characteristics>
-      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-       Melee
-      </characteristic>
-      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-       Melee
-      </characteristic>
-      <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       User
-      </characteristic>
-      <characteristic name="AP" typeId="75aa-a838-b675-6484">
-       -2
-      </characteristic>
-      <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-       2
-      </characteristic>
-      <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-     </characteristics>
-    </profile>
-   </profiles>
-   <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="0.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-   </costs>
-  </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="8fd4-ea48-bc06-c19e" import="true" name="Ogryn Weapon" type="upgrade">
-   <profiles>
-    <profile hidden="false" id="ea54-5276-5bed-872f" name="Ogryn Weapon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-     <characteristics>
-      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-       Melee
-      </characteristic>
-      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-       Melee
-      </characteristic>
-      <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       +1
-      </characteristic>
-      <characteristic name="AP" typeId="75aa-a838-b675-6484">
-       -1
-      </characteristic>
-      <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-       2
-      </characteristic>
-      <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-     </characteristics>
-    </profile>
-   </profiles>
-   <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="1.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-   </costs>
-  </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="7778-8533-beff-fb28" import="true" name="Ogryn Power drill" type="upgrade">
-   <profiles>
-    <profile hidden="false" id="55e0-f167-d3b1-7579" name="Ogryn Power drill" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-     <characteristics>
-      <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
-       Melee
-      </characteristic>
-      <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
-       Melee
-      </characteristic>
-      <characteristic name="S" typeId="59b1-319e-ec13-d466">
-       10
-      </characteristic>
-      <characteristic name="AP" typeId="75aa-a838-b675-6484">
-       -3
-      </characteristic>
-      <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
-       D3
-      </characteristic>
-      <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Reroll falhou em jogadas para ferir em &lt;VEÍCULO&gt;
-      </characteristic>
-     </characteristics>
-    </profile>
-   </profiles>
-   <costs>
-    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-    <cost name="pts" typeId="points" value="10.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-   </costs>
-  </selectionEntry>
   <selectionEntry collective="false" hidden="false" id="411b-7e25-7056-4577" import="true" name="Power fist" type="upgrade">
    <infoLinks>
     <infoLink hidden="false" id="31d0-f8a0-1e4a-103b" name="Power fist" targetId="3520-0bb4-90f2-084b" type="profile"/>
@@ -9907,7 +9815,7 @@
      <entryLinks>
       <entryLink collective="false" hidden="false" id="fa8e-029b-439e-2a50" import="true" name="Lascannon" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
        <modifiers>
-        <modifier field="points" type="set" value="20"/>
+        <modifier field="points" type="set" value="20.0"/>
        </modifiers>
        <constraints>
         <constraint field="selections" id="2bd6-993d-71eb-943b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
@@ -9942,9 +9850,6 @@
        </constraints>
       </entryLink>
       <entryLink collective="false" hidden="false" id="1ea9-8dd4-2df6-9294" import="true" name="Twin heavy flamer" targetId="8d70-a6af-cbad-f08c" type="selectionEntry">
-       <modifiers>
-        <modifier field="points" type="set" value="30"/>
-       </modifiers>
        <constraints>
         <constraint field="selections" id="e6dc-cb95-e2d9-f0c1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
         <constraint field="selections" id="06bb-b4bf-24eb-1632" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
@@ -10172,7 +10077,7 @@
       <profile hidden="false" id="925d-c506-26c6-2f8a" name="Banner of the apostate" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
        <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-         Unidades inimigas &lt;IMPERIO&gt; subtraem 1 de sua liderança enquanto estiverem a no máximo 6" de qualquer modelo com uma bandeira do apóstata
+         Inimigas &lt;Imperium&gt; unidades subtrair 1 a partir de sua liderança, enquanto eles estão dentro de 6" de modelos ony com uma bandeira do apóstata
         </characteristic>
        </characteristics>
       </profile>
@@ -10216,7 +10121,7 @@
     <entryLink collective="false" hidden="false" id="45bb-c893-2fdb-3e2c" import="true" name="Grenade Launcher" targetId="6558-8624-4594-a84e" type="selectionEntry"/>
     <entryLink collective="false" hidden="false" id="fe60-77e8-ab0c-2b97" import="true" name="Plasma gun" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
      <modifiers>
-      <modifier field="points" type="set" value="7">
+      <modifier field="points" type="set" value="7.0">
        <conditions>
         <condition childId="3967-cabf-7c9a-6b8b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0.0"/>
        </conditions>
@@ -10338,20 +10243,9 @@
    </modifiers>
    <entryLinks>
     <entryLink collective="false" hidden="false" id="5268-2b94-8b8e-cb92" import="true" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-    <entryLink collective="false" hidden="false" id="3161-21fb-eecc-9fad" import="true" name="Warlord Traits (CA)" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
    </entryLinks>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>
- <sharedRules>
-  <rule hidden="false" id="cc56-4c8d-55d6-3671" name="Specialists">
-   <description>
-    Antes do jogo começar, escolha uma das seguintes habilidades, estas se aplicam durante a batalha.
-- Espreitadores: Seu oponente deve subtrair 1 das jogadas de acerto para ataques que visam esta unidade na fase de tiro. Além disso, os modelos na unidade ganham +1 para seu teste de defesa se estiverem em cobertura.
-- Culturistas de Assassinato: Você pode re-rolar os jogadas de acerto falhados para esta unidade na fase de luta
-- Hereteks: Todos os modelos desta unidade têm uma característica de salvaguarda de 4+ em vez de 5+. Toda a unidade também ganha granadas Krak
-   </description>
-  </rule>
- </sharedRules>
  <sharedProfiles>
   <profile hidden="false" id="3ff3-4bf6-293a-d9b4" name="Ripper claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
    <characteristics>
@@ -10526,7 +10420,7 @@
   <profile hidden="false" id="dfbb-346d-f8f4-b5aa" name="Combat Stimms" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
    <characteristics>
     <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-     No início da fase de combate você pode ativar os estímulos de combate - Se sim, role um D6. Em um 1. Um Ogryn na unidade é imediatamente morto. em um 2-6, cada Ogryn aumenta sua característica de ataque em 1. Em um 6, cada Ogryn na unidade ganha Ataques D3 (rolar para cada unidade)
+     No início da fase de luta você pode ativar as stimms combate - Se sim, rolar um D6. Em um 1. Um Ogryn na unidade é imediatamente morto. em uma 2-6, cada Ogryn aumenta a sua característica ataque por 1. Num 6, cada Ogryn na unidade ganha D3 Ataques (rolo de cada unidade).
     </characteristic>
    </characteristics>
   </profile>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="49b6-bc6f-0390-1e40" gameSystemRevision="1" id="39fd-b7cd-5074-6d2e" library="false" name="Chaos - Dark Mechanicus-BR" revision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="39fd-b7cd-5074-6d2e" library="true" name="Chaos - Dark Mechanicus-BR" revision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <categoryEntries>
   <categoryEntry hidden="false" id="2663-fe63-14ce-fd31" name="Questor Traitoris"/>
   <categoryEntry hidden="false" id="9961-3cf9-80ea-065c" name="Dark Mechanicus"/>
@@ -20,13 +20,6 @@
   <categoryEntry hidden="false" id="8692-ce0c-76f8-8da8" name="Renegade Knight Styrix"/>
  </categoryEntries>
  <entryLinks>
-  <entryLink collective="false" hidden="false" id="74f0-9e66-081c-19e7" import="true" name="Renegade Knight Styrix" targetId="efc4-53b7-43d7-0668" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="0fc8-6b7a-336d-8be6" import="true" name="Renegade Knight Porphyrion" targetId="f958-1af0-8344-b277" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="647a-a136-994d-2a0c" import="true" name="Renegade Knight Magaera" targetId="f140-7a44-d508-5b7e" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="6c5e-3e08-e0c5-8f03" import="true" name="Renegade Knight Lancer" targetId="acfc-87f8-2dac-8c5d" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="074c-8b0e-17b0-a6a4" import="true" name="Renegade Knight Castigator" targetId="7298-33a5-8120-0221" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="d897-06f7-7d54-09a0" import="true" name="Renegade Knight Atropos" targetId="cfa7-5682-a816-71aa" type="selectionEntry"/>
-  <entryLink collective="false" hidden="false" id="e3bf-e126-095d-7054" import="true" name="Renegade Knight Acheron" targetId="92d3-1e38-f536-520c" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="6985-1c48-b12c-209d" import="true" name="Chaos Hellwright" targetId="36ad-176f-7ef4-9f8f" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="72c6-93ac-3ac9-5667" import="true" name="Chaos Hellwright on Dark Abeyant" targetId="3d00-1696-b415-eee3" type="selectionEntry"/>
  </entryLinks>
@@ -374,7 +367,7 @@
        6
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Ao atacar com esta arma, subtraia 1 do jogada de acerto.
+       Ao atacar com esta arma, subtraia 1 da jogada de acerto.
       </characteristic>
      </characteristics>
     </profile>
@@ -506,7 +499,7 @@
        3
       </characteristic>
       <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-       Esta arma acerta automaticamente, e sempre causa 3+, exceto contra unidades do Titanic e do Veículo contra as quais ela sempre fere em um 6+.
+       Esta arma acerta automaticamente, e sempre causa 3+, exceto contra unidades TITANIC e VEHICLE, contra as quais ela sempre fere em 6+.
       </characteristic>
      </characteristics>
     </profile>
@@ -1351,7 +1344,7 @@
     <profile hidden="false" id="897a-a07e-5d7d-530d" name="Macro-extinction Protocols" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
      <characteristics>
       <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
-       Você pode adicionar 1 às suas jogadas de acerto com este modelo ao fazer ataques de Tiro contra alvos com a palavra-chave Titanic.
+       Você pode adicionar 1 às suas jogadas de acerto com este modelo ao fazer ataques de Tiro contra alvos com a palavra-chave TITANIC.
       </characteristic>
      </characteristics>
     </profile>

@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue authorContact="Discord: @Techno" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="153" id="ae81-fce7-bbf3-25d8" library="false" name="Imperium - Astra Cartographica-BR" revision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <categoryEntries>
+  <categoryEntry hidden="false" id="1c01-fbc3-bf36-fd05" name="Faction: Astra Cartographica"/>
+  <categoryEntry hidden="false" id="e463-f564-66ce-ec76" name="Rogue Trader"/>
+  <categoryEntry hidden="false" id="4cdc-9525-ca0a-bb11" name="Cartographica Rogue Trader"/>
+  <categoryEntry hidden="false" id="1075-4bcc-ac2c-d143" name="Concussion Grenades"/>
+  <categoryEntry hidden="false" id="db49-3f23-d911-9415" name="Voidsmen-At-Arms"/>
+ </categoryEntries>
+ <entryLinks>
+  <entryLink collective="false" hidden="false" id="189f-ec50-204a-afbf" import="false" name="Cartographica Rogue Trader" targetId="ce2e-1533-553b-6aa8" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="b734-1c2c-054d-4867" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="57fd-ff02-09b5-8330" name="New CategoryLink" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="4781-4c3e-7337-046b" import="true" name="Cartographica Rogue Trader" targetId="ce2e-1533-553b-6aa8" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="b734-1c2c-054d-4867" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+     </conditions>
+    </modifier>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="ae81-fce7-bbf3-25d8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="d377-23b8-1a5b-21c1" name="New CategoryLink" primary="true" targetId="0f35-2c34-ba6a-8105"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="0eb2-c843-6357-e487" import="false" name="Voidsmen-At-Arms" targetId="edea-9a2a-aa16-6215" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="b734-1c2c-054d-4867" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="33bf-4d7b-c4a9-9e06" name="New CategoryLink" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="eee0-b23f-fa64-5eda" import="true" name="Voidsmen-At-Arms" targetId="edea-9a2a-aa16-6215" type="selectionEntry">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="b734-1c2c-054d-4867" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1.0"/>
+     </conditions>
+    </modifier>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="ae81-fce7-bbf3-25d8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <categoryLinks>
+    <categoryLink hidden="false" id="c97e-1634-1602-3c40" name="New CategoryLink" primary="true" targetId="0f35-2c34-ba6a-8105"/>
+   </categoryLinks>
+  </entryLink>
+ </entryLinks>
+ <sharedSelectionEntries>
+  <selectionEntry collective="false" hidden="false" id="ce2e-1533-553b-6aa8" import="true" name="Cartographica Rogue Trader" type="model">
+   <constraints>
+    <constraint field="selections" id="a343-2b93-fd11-5b58" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="7173-7c74-33af-6084" name="Cartographica Rogue Trader" targetId="6ba0-4165-21a3-c297" type="profile"/>
+    <infoLink hidden="false" id="c3a6-26f5-5c76-25ba" name="Warrant of Trade" targetId="2a9c-dd5b-67bd-1afa" type="rule"/>
+    <infoLink hidden="false" id="b9d1-4770-9820-2777" name="Agent of the Imperium" targetId="7461-9f41-4788-d625" type="rule"/>
+    <infoLink hidden="false" id="a811-6c82-f416-79d6" name="Captain on Deck (Aura)" targetId="3808-afd8-5799-caab" type="profile"/>
+    <infoLink hidden="false" id="4247-086d-bbc1-a322" name="Master and Commander" targetId="1c65-e7bf-aaee-6d1d" type="profile"/>
+   </infoLinks>
+   <categoryLinks>
+    <categoryLink hidden="false" id="1470-118b-ad18-a370" name="Faction: Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+    <categoryLink hidden="false" id="b5db-c437-9af4-2ba3" name="Faction: Astra Cartographica" primary="false" targetId="1c01-fbc3-bf36-fd05"/>
+    <categoryLink hidden="false" id="0ca9-8358-f1da-375a" name="Infantry" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="651e-d490-d8bd-1f56" name="Character" primary="false" targetId="ef18-746a-369f-43a4"/>
+    <categoryLink hidden="false" id="d231-1b22-9e92-c596" name="Agent of the Imperium" primary="false" targetId="0f35-2c34-ba6a-8105"/>
+    <categoryLink hidden="false" id="ad91-51b9-0257-e261" name="Rogue Trader" primary="false" targetId="e463-f564-66ce-ec76"/>
+    <categoryLink hidden="false" id="545d-c167-28f1-d9eb" name="Cartographica Rogue Trader" primary="false" targetId="4cdc-9525-ca0a-bb11"/>
+   </categoryLinks>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" defaultSelectionEntryId="c6e9-a2dc-7790-0cc1" hidden="false" id="a255-bbb8-3ed1-f71d" import="true" name="Equipment">
+     <constraints>
+      <constraint field="selections" id="e8ee-0095-e3b7-5ef3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="9f5b-f2c5-f1ae-e0ba" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="c6e9-a2dc-7790-0cc1" import="true" name="Digital Laser Loadout" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="6694-e3a2-0d85-eb69" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <selectionEntries>
+        <selectionEntry collective="false" hidden="false" id="ba9d-0461-f17d-0004" import="true" name="Concussion Grenades" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="778f-e1a9-fc36-b0a8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="a992-9871-d6b1-4f93" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="a484-85ad-5c1b-e578" name="Concussion Grenades" targetId="41dd-c965-b8b9-4d13" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+        <selectionEntry collective="false" hidden="false" id="ec49-db8b-9be1-aeb0" import="true" name="Household Pistol" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="ada6-3821-d091-e72f" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="fceb-9c80-3d59-4a58" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="8304-32ad-3a81-162d" name="Household Pistol" targetId="6c5b-eaa8-a765-9ec3" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+        <selectionEntry collective="false" hidden="false" id="bf74-c6c0-17a6-44e8" import="true" name="Monomolecular Cane-Rapier" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="08d1-c165-7121-b5bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="7f1d-52ef-56b8-fbbd" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="600a-de94-388b-88ad" name="Monomolecular Cane-Rapier" targetId="9528-c634-1d0d-8109" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+        <selectionEntry collective="false" hidden="false" id="24d2-144c-c237-e023" import="true" name="Digital Laser" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="d329-1e05-6b6b-d116" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="9499-1bb2-ce0b-8472" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="5dbb-156b-005b-7459" name="Digital Laser" targetId="82a1-6f26-dee0-a304" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+       </selectionEntries>
+       <entryLinks>
+        <entryLink collective="false" hidden="false" id="c957-066e-585a-7e6f" import="true" name="Concealed Archeotech Weapon" targetId="4995-b227-dc7a-83e9" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="8f5b-dbb7-48cd-c349" import="true" name="Disruption Field Generator" targetId="6976-20e9-f33b-edd0" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="9b8d-d098-bfe8-bd48" import="true" name="Multi-Spectral Auspicator" targetId="392b-42ee-5832-9d31" type="selectionEntry"/>
+       </entryLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="9d7a-812e-92ba-a817" import="true" name="Negotiator Pistol Loadout" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="a888-33b8-92fb-c344" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <selectionEntries>
+        <selectionEntry collective="false" hidden="false" id="7787-c06e-378f-5ea3" import="true" name="Negotiator Pistol" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="8b17-db8c-48ad-b296" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2.0"/>
+          <constraint field="selections" id="783b-bd64-d27d-931b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="16ef-605d-6bd7-6632" name="Negotiator Pistol" targetId="f856-8bb7-4ff0-35bb" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+        <selectionEntry collective="false" hidden="false" id="f6e9-2427-bef7-b971" import="true" name="Servo-Skull Targeters" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="cd43-ee1b-79df-3fda" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="a124-3315-8be1-fda5" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="3c9e-ee74-d317-308a" name="Servo-Skull Targeters" targetId="34da-ba39-bd09-90be" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+        <selectionEntry collective="false" hidden="false" id="c4e5-4778-1b48-fbcb" import="true" name="Bladed Limb" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="1989-c61a-7443-a84d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="6d52-4f6c-525d-99f1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="8570-af03-07b8-ee41" name="Bladed Limb" targetId="4941-f2c7-0aee-f84b" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+        <selectionEntry collective="false" hidden="false" id="3fe7-790e-925a-0d0b" import="true" name="Refractor Field" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="5970-596f-9879-001e" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="b597-791e-67c5-2579" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="38fc-24ee-95bc-0bdc" name="Refractor Field" targetId="5ffc-b882-f922-b3ff" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+       </selectionEntries>
+       <entryLinks>
+        <entryLink collective="false" hidden="false" id="f8c9-0ac7-f1aa-48f3" import="true" name="Court Blade" targetId="6e86-8346-e761-79b8" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="7f4b-12c3-c744-878e" import="true" name="Archeotech Grenades" targetId="e214-09ba-7b7a-c527" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="984c-9e62-c5fb-bafd" import="true" name="Court Blade" targetId="6e86-8346-e761-79b8" type="selectionEntry"/>
+       </entryLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="fee7-6315-ffc6-fe34" import="true" name="Heirloom Pistol Loadout" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="f565-048a-6adb-a0c8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <selectionEntries>
+        <selectionEntry collective="false" hidden="false" id="903e-dc4d-e873-00d1" import="true" name="Heirloom Pistol" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="1794-3f41-c442-cd40" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="d608-2577-9f92-5814" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="062b-4c6a-4927-3ca8" name="Heirloom Pistol" targetId="7112-9237-673a-b429" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+          <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          <cost name="pts" typeId="points" value="0.0"/>
+         </costs>
+        </selectionEntry>
+       </selectionEntries>
+       <entryLinks>
+        <entryLink collective="false" hidden="false" id="a209-764e-0025-8af1" import="true" name="Concealed Archeotech Weapon" targetId="4995-b227-dc7a-83e9" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="015c-ee11-4990-4e39" import="true" name="Disruption Field Generator" targetId="6976-20e9-f33b-edd0" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="63a1-d27a-da26-c15a" import="true" name="Multi-Spectral Auspicator" targetId="392b-42ee-5832-9d31" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="b535-cbb6-24c2-981f" import="true" name="Monomolecular Rapier" targetId="71ba-c665-c287-c539" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="bee2-1113-0640-00b7" import="true" name="Archeotech Grenades" targetId="e214-09ba-7b7a-c527" type="selectionEntry"/>
+        <entryLink collective="false" hidden="false" id="0ac2-2f15-ab8c-0265" import="true" name="Court Blade" targetId="6e86-8346-e761-79b8" type="selectionEntry"/>
+       </entryLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="6bbe-486f-3cc5-eaba" import="true" name="Warlord" targetId="805d-1f48-b366-c342" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="4cd9-bad2-8a2a-a0d8" import="true" name="Stratagem: Master of the Void" targetId="fb23-f91d-a1a7-ab1a" type="selectionEntry"/>
+    <entryLink collective="false" hidden="false" id="5cca-4c62-3878-f35c" import="true" name="Warlord Traits" targetId="935b-9473-8773-3f3e" type="selectionEntryGroup"/>
+   </entryLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+    <cost name="pts" typeId="points" value="60.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="4995-b227-dc7a-83e9" import="true" name="Concealed Archeotech Weapon" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="1116-af58-6b13-189c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="50d8-458c-49ff-9aa2" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="a9a1-4351-833c-af5a" name="Concealed Archeotech Weapon" targetId="fd2b-97a9-cad9-2824" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="6976-20e9-f33b-edd0" import="true" name="Disruption Field Generator" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="06cb-6b22-5fe1-0014" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="1901-9bc6-036f-9d25" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="8b75-00f1-e343-1bdb" name="Disruption Field Generator" targetId="3948-970b-b82e-2341" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="392b-42ee-5832-9d31" import="true" name="Multi-Spectral Auspicator" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="4779-04e6-778b-1771" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="374d-4661-29d3-5672" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="9eee-53ec-a4f6-9002" name="Multi-Spectral Auspicator" targetId="dc5a-5ad6-ca01-a20b" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="6e86-8346-e761-79b8" import="true" name="Court Blade" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="d8b1-ca80-16b0-fa90" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="a26b-50dc-b4da-e4fd" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="d287-59c0-15b4-fdac" name="Court Blade" targetId="45da-3071-ce25-8d8a" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="71ba-c665-c287-c539" import="true" name="Monomolecular Rapier" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="c2c0-0661-ab96-0f24" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="ac4c-b59f-cfe8-622b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="dd39-fb80-dfaf-2b96" name="Monomolecular Rapier" targetId="56b0-31b9-6293-a1ec" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="e214-09ba-7b7a-c527" import="true" name="Archeotech Grenades" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="635d-c51d-8494-6d1b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+    <constraint field="selections" id="14e6-ab25-45b0-a56c" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="f95b-ef40-6cfd-ce63" name="Archeotech Grenades" targetId="c564-720b-4c0e-e008" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="805d-1f48-b366-c342" import="true" name="Warlord" type="upgrade">
+   <constraints>
+    <constraint field="selections" id="d95d-df14-fcb3-3f55" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+    <constraint field="selections" id="0664-fb00-b331-3caa" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <categoryLinks>
+    <categoryLink hidden="false" id="fe03-74b8-cbe7-1178" name="Warlord" primary="false" targetId="ae09-117e-a6fa-316b"/>
+   </categoryLinks>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="fb23-f91d-a1a7-ab1a" import="true" name="Stratagem: Master of the Void" type="upgrade">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditions>
+      <condition childId="805d-1f48-b366-c342" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="1.0"/>
+     </conditions>
+    </modifier>
+    <modifier field="c4b4-a354-bc2e-0c11" type="increment" value="1.0">
+     <conditions>
+      <condition childId="09f9-b586-8d63-7635" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
+     </conditions>
+    </modifier>
+    <modifier field="c4b4-a354-bc2e-0c11" type="increment" value="2.0">
+     <conditions>
+      <condition childId="fad2-035f-88a7-60c0" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <constraints>
+    <constraint field="selections" id="c4b4-a354-bc2e-0c11" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+    <constraint field="selections" id="b6a7-563a-fbfc-9677" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="0fc8-0438-5581-e1cb" name="Stratagem: Master of the Void" targetId="fe1f-6ac4-449e-d916" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+    <cost name="pts" typeId="points" value="0.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="edea-9a2a-aa16-6215" import="true" name="Voidsmen-At-Arms" type="unit">
+   <modifiers>
+    <modifier field="e356-c769-5920-6e14" type="increment" value="2.0">
+     <conditions>
+      <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="edea-9a2a-aa16-6215" shared="true" type="greaterThan" value="5.0"/>
+     </conditions>
+    </modifier>
+   </modifiers>
+   <infoLinks>
+    <infoLink hidden="false" id="b6fd-b05a-6763-301b" name="Masters of Close Confines" targetId="4704-6ac3-804e-98c1" type="profile"/>
+    <infoLink hidden="false" id="f587-a9bb-8f89-fcdd" name="Warrant of Trade" targetId="2a9c-dd5b-67bd-1afa" type="rule"/>
+    <infoLink hidden="false" id="7eb6-f3eb-82e5-7a82" name="Agent of the Imperium" targetId="7461-9f41-4788-d625" type="rule"/>
+   </infoLinks>
+   <categoryLinks>
+    <categoryLink hidden="false" id="d212-e399-0e01-969a" name="Faction: Imperium" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+    <categoryLink hidden="false" id="2896-cebc-1c4e-0270" name="Faction: Astra Cartographica" primary="false" targetId="1c01-fbc3-bf36-fd05"/>
+    <categoryLink hidden="false" id="9a3a-3134-4b51-f113" name="Infantry" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+    <categoryLink hidden="false" id="33cc-ba19-3133-abe6" name="Agent of the Imperium" primary="false" targetId="0f35-2c34-ba6a-8105"/>
+    <categoryLink hidden="false" id="46aa-4220-26f1-2278" name="Concussion Grenades" primary="false" targetId="1075-4bcc-ac2c-d143"/>
+    <categoryLink hidden="false" id="9fb2-59ef-78eb-0bcf" name="Voidsmen-At-Arms" primary="false" targetId="db49-3f23-d911-9415"/>
+   </categoryLinks>
+   <selectionEntries>
+    <selectionEntry collective="false" hidden="false" id="51e2-c842-6f82-ed82" import="true" name="Voidmaster" type="model">
+     <constraints>
+      <constraint field="selections" id="47cd-9408-0383-8ef4" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+      <constraint field="selections" id="73fc-7d5a-3ff8-aace" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <infoLinks>
+      <infoLink hidden="false" id="0876-13ef-18a8-8e02" name="Voidmaster" targetId="5b25-06b9-fcb3-93ee" type="profile"/>
+     </infoLinks>
+     <entryLinks>
+      <entryLink collective="false" hidden="false" id="caf3-6f22-a40e-9c9a" import="true" name="Artificer Shotgun" targetId="e911-b239-6af7-98b4" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="1f95-c608-0182-30e6" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="384d-37b5-9b56-1956" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+      <entryLink collective="false" hidden="false" id="7033-1864-3123-f455" import="true" name="Laspistol" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="f624-259a-a7fd-56f8" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+        <constraint field="selections" id="ce3b-6b5c-baee-87ef" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+       </constraints>
+      </entryLink>
+     </entryLinks>
+     <costs>
+      <cost name="pts" typeId="points" value="8.0"/>
+     </costs>
+    </selectionEntry>
+    <selectionEntry collective="false" hidden="false" id="def8-a689-0c8d-54c7" import="true" name="Canid" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="a43a-2b51-24e3-4a1d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+     </constraints>
+     <infoLinks>
+      <infoLink hidden="false" id="db09-4f15-a88b-4830" name="Canid" targetId="e2d9-8197-e411-a90d" type="profile"/>
+     </infoLinks>
+     <costs>
+      <cost name="pts" typeId="points" value="5.0"/>
+     </costs>
+    </selectionEntry>
+   </selectionEntries>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" defaultSelectionEntryId="5b21-37b2-b87d-30a7" hidden="false" id="a8fc-1a4d-cf07-0a34" import="true" name="Voidsmen">
+     <constraints>
+      <constraint field="selections" id="9cf0-1594-cb33-efa1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4.0"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="5b21-37b2-b87d-30a7" import="true" name="Voidsman" type="model">
+       <modifiers>
+        <modifier field="c9a1-4829-03c4-61d0" type="decrement" value="1.0">
+         <repeats>
+          <repeat childId="abd6-48f9-9c48-3e07" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="edea-9a2a-aa16-6215" shared="true" value="1.0"/>
+         </repeats>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="c9a1-4829-03c4-61d0" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9.0"/>
+        <constraint field="selections" id="db21-5f96-e7e5-b792" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3.0"/>
+       </constraints>
+       <infoLinks>
+        <infoLink hidden="false" id="dc5a-f633-c0bc-6956" name="Voidsmen" targetId="a955-0bdf-1098-10cb" type="profile"/>
+       </infoLinks>
+       <entryLinks>
+        <entryLink collective="false" hidden="false" id="06b2-3fe4-5d34-69ad" import="true" name="Lasgun" targetId="fe0c-21a6-3a11-4ff2" type="selectionEntry">
+         <constraints>
+          <constraint field="selections" id="dea0-4440-5b55-90f9" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="a909-d8b4-e98d-7ad3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+        </entryLink>
+        <entryLink collective="false" hidden="false" id="bb80-2e2a-677b-b61c" import="true" name="Laspistol" targetId="a975-45da-dc70-898d" type="selectionEntry">
+         <constraints>
+          <constraint field="selections" id="af6b-af41-6ed2-234a" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="8959-dc0e-1aba-c31b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+        </entryLink>
+       </entryLinks>
+       <costs>
+        <cost name="pts" typeId="points" value="8.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="abd6-48f9-9c48-3e07" import="true" name="Voidsman w/ Voidsman Rotor Cannon" type="model">
+       <modifiers>
+        <modifier field="9adc-9a74-3ce6-9f6b" type="set" value="1.0">
+         <conditions>
+          <condition childId="model" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="edea-9a2a-aa16-6215" shared="true" type="lessThan" value="10.0"/>
+         </conditions>
+        </modifier>
+       </modifiers>
+       <constraints>
+        <constraint field="selections" id="9adc-9a74-3ce6-9f6b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2.0"/>
+       </constraints>
+       <infoLinks>
+        <infoLink hidden="false" id="1b00-ecf8-d160-4b98" name="Voidsmen" targetId="a955-0bdf-1098-10cb" type="profile"/>
+       </infoLinks>
+       <selectionEntries>
+        <selectionEntry collective="true" hidden="false" id="a9a1-c1e0-3710-3ac0" import="true" name="Voidsman Rotor Cannon" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="2ff3-5cf6-b965-9be1" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="e5f5-b5c4-7e14-96bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+         <infoLinks>
+          <infoLink hidden="false" id="cad8-596c-3307-5aea" name="Voidsman Rotor Cannon" targetId="25ff-14ee-d6dc-e170" type="profile"/>
+         </infoLinks>
+         <costs>
+          <cost name="pts" typeId="points" value="10.0"/>
+         </costs>
+        </selectionEntry>
+       </selectionEntries>
+       <entryLinks>
+        <entryLink collective="false" hidden="false" id="c986-1823-e792-b057" import="true" name="Laspistol" targetId="a975-45da-dc70-898d" type="selectionEntry">
+         <constraints>
+          <constraint field="selections" id="6929-4287-041b-0322" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1.0"/>
+          <constraint field="selections" id="d5eb-d998-d544-5e80" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+         </constraints>
+        </entryLink>
+       </entryLinks>
+       <costs>
+        <cost name="pts" typeId="points" value="8.0"/>
+       </costs>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+   </costs>
+  </selectionEntry>
+  <selectionEntry collective="false" hidden="false" id="e911-b239-6af7-98b4" import="true" name="Artificer Shotgun" type="upgrade">
+   <infoLinks>
+    <infoLink hidden="false" id="40cf-2e49-cc7f-6952" name="Artificer Shotgun" targetId="1974-ae55-2c63-c37f" type="profile"/>
+   </infoLinks>
+  </selectionEntry>
+  <selectionEntry collective="true" hidden="false" id="fe0c-21a6-3a11-4ff2" import="true" name="Lasgun" type="upgrade">
+   <infoLinks>
+    <infoLink hidden="false" id="e58e-0cf0-147f-46c2" name="Lasgun" targetId="d174-eb55-aaa6-d032" type="profile"/>
+   </infoLinks>
+  </selectionEntry>
+  <selectionEntry collective="true" hidden="false" id="a975-45da-dc70-898d" import="true" name="Laspistol" type="upgrade">
+   <infoLinks>
+    <infoLink hidden="false" id="0d2c-4dcd-1230-eb3e" name="Laspistol" targetId="f2b7-768f-a270-de64" type="profile"/>
+   </infoLinks>
+  </selectionEntry>
+ </sharedSelectionEntries>
+ <sharedSelectionEntryGroups>
+  <selectionEntryGroup collective="false" hidden="false" id="935b-9473-8773-3f3e" import="true" name="Warlord Traits">
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="and">
+       <conditions>
+        <condition childId="805d-1f48-b366-c342" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
+        <condition childId="fb23-f91d-a1a7-ab1a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="equalTo" value="0.0"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <constraints>
+    <constraint field="selections" id="8f14-24bf-8ebf-861d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+   </constraints>
+   <selectionEntryGroups>
+    <selectionEntryGroup collective="false" hidden="false" id="fec6-009d-5f2d-1fb4" import="true" name="Warlord Traits (Astra Cartographica)">
+     <constraints>
+      <constraint field="selections" id="3450-e34c-6ae6-54f3" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+      <constraint field="selections" id="9333-0c25-6275-990f" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="3.0"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry collective="false" hidden="false" id="4e40-ff70-8109-f770" import="true" name="1. Master of High Society" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="6d59-ebf4-058e-dfbf" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="45f7-c3c8-a6ff-ac74" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <infoLinks>
+        <infoLink hidden="false" id="c875-0fcb-9e05-b5d8" name="1. Master of High Society" targetId="c1cc-23fb-7b6e-d6a6" type="profile"/>
+       </infoLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="b03c-6aa8-17ed-0f21" import="true" name="2. Privateer (Aura)" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="9177-fa17-1927-be6b" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="cc2c-67e0-5ca8-a2d6" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <infoLinks>
+        <infoLink hidden="false" id="6ced-e4ae-dda1-f5c0" name="2. Privateer (Aura)" targetId="91b8-3fbd-7e5c-211a" type="profile"/>
+       </infoLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+      <selectionEntry collective="false" hidden="false" id="e513-4653-40e9-3392" import="true" name="3. Duellist" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="7da0-065c-0846-0587" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1.0"/>
+        <constraint field="selections" id="30f1-9241-3386-1e6e" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1.0"/>
+       </constraints>
+       <infoLinks>
+        <infoLink hidden="false" id="27be-964a-06b7-3150" name="3. Duellist" targetId="4a02-9f01-779c-e9f5" type="profile"/>
+       </infoLinks>
+       <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+       </costs>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="0be6-57e0-af8b-709f" import="true" name="Warlord Traits (BRB)" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+   </entryLinks>
+  </selectionEntryGroup>
+ </sharedSelectionEntryGroups>
+ <sharedRules>
+  <rule hidden="false" id="7461-9f41-4788-d625" name="Agent of the Imperium" page="68" publicationId="255d-c624-9fcb-ca23">
+   <description>
+    Se o seu exército for forçado de batalha, você pode incluir um agente da unidade de Imperium em cada Patrulha de Imperium (excluindo unidades caídas), Batalhão e brigada em seu exército sem essas unidades que ocupam slots nesses destacamentos.A inclusão de um agente da unidade de Imperium não impede outras unidades de seu destacamento beneficiando de habilidades de destacamento (por exemplo, táticas capitais, defensores da humanidade, etc.), e não impede outras unidades do seu exército que se beneficia de habilidades que exigem todos os modelosem seu exército para ter essa habilidade (por exemplo, doutrinas de combate).Um agente da unidade de Imperium incluída em uma patrulha, batalhão ou brigada destacamento dessa maneira é ignorado para quaisquer regras que declaram todas as unidades desse desapego devem ter pelo menos uma palavra-chave de facção em comum (por exemplo, em um jogo de jogo correspondente), e quandodeterminando sua facção do exército.
+   </description>
+  </rule>
+  <rule hidden="false" id="2a9c-dd5b-67bd-1afa" name="Warrant of Trade" page="68" publicationId="255d-c624-9fcb-ca23">
+   <description>
+    Esta unidade pode ignorar os requisitos de palavra-chave ao embarcar em um modelo de transporte de Imperium.Todas as restrições do outro modelo de transporte ainda se aplicam.
+   </description>
+  </rule>
+ </sharedRules>
+ <sharedProfiles>
+  <profile hidden="false" id="6ba0-4165-21a3-c297" name="Cartographica Rogue Trader" page="70" publicationId="255d-c624-9fcb-ca23" typeId="800f-21d0-4387-c943" typeName="Unit">
+   <characteristics>
+    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+     6"
+    </characteristic>
+    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+     3+
+    </characteristic>
+    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+     3+
+    </characteristic>
+    <characteristic name="S" typeId="2218-aa3c-265f-2939">
+     3
+    </characteristic>
+    <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+     3
+    </characteristic>
+    <characteristic name="W" typeId="f330-5e6e-4110-0978">
+     4
+    </characteristic>
+    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+     3
+    </characteristic>
+    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+     9
+    </characteristic>
+    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+     4+
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="82a1-6f26-dee0-a304" name="Digital Laser" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     12"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Pistol 1
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     -
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     -
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     Cada vez que um ataque é feito com esta arma, se um sucesso for marcado, o alvo sofre 1 ferimento mortal e a sequência de ataque termina.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="6c5b-eaa8-a765-9ec3" name="Household Pistol" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     12"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Pistol 1
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     5
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -3
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     2
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="9528-c634-1d0d-8109" name="Monomolecular Cane-Rapier" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     Melee
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Melee
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     +1
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -2
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     Cada vez que as lutas ao portador, faz 3 ataques adicionais com esta arma.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="fd2b-97a9-cad9-2824" name="Concealed Archeotech Weapon" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Uma vez por batalha, no início da fase de combate, você pode selecionar uma unidade inimiga dentro da faixa de engajamento do portador.Se você faz isso, role um D6: em 2-3, essa unidade inimiga sofre 1 ferimento mortal;Em um 4-5, essa unidade inimiga sofre ferimentos mortais D3;Em um 6, essa unidade inimiga sofre 3 ferimentos mortais.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="41dd-c965-b8b9-4d13" name="Concussion Grenades" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     O portador ganha a palavra-chave Granadas de concussão.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="3948-970b-b82e-2341" name="Disruption Field Generator" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     O portador tem uma defesa invulnerável de 4+.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="dc5a-5ad6-ca01-a20b" name="Multi-Spectral Auspicator" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Cada vez que o portador faz um ataque, re-role uma jogada de sucesso de 1.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="56b0-31b9-6293-a1ec" name="Monomolecular Rapier" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     Melee
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Melee
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     +1
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -4
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     2
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="45da-3071-ce25-8d8a" name="Court Blade" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     Melee
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Melee
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     User
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -1
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     Cada vez que o portador lutas, faz d3 ataques adicionais com esta arma.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="c564-720b-4c0e-e008" name="Archeotech Grenades" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     O portador ganha a palavra-chave Archeotech Granades.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="7112-9237-673a-b429" name="Heirloom Pistol" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     12"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Pistol 2
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     4
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -1
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="4941-f2c7-0aee-f84b" name="Bladed Limb" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     Melee
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Melee
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     +3
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -2
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="5ffc-b882-f922-b3ff" name="Refractor Field" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     O portador tem um 5 + save invulnerável.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="34da-ba39-bd09-90be" name="Servo-Skull Targeters" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     No início da fase de disparo, selecione uma unidade inimiga visível para o portador.Até o final da fase, o portador ganha a seguinte capacidade: 'inimigo avistado (aura): enquanto uma aliada unidade cartográfica Astra estiver dentro de 6" deste modelo, cada vez que um modelo nessa unidade faz um ataque contra essa unidade inimiga,O alvo não recebe os benefícios da cobertura contra esse ataque.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="f856-8bb7-4ff0-35bb" name="Negotiator Pistol" page="70" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     12"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Pistol 3
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     5
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -2
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="3808-afd8-5799-caab" name="Captain on Deck (Aura)" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Enquanto uma unidade de vazio aliada estiver dentro de 6" deste modelo, os modelos nessa unidade podem usar a característica de liderança deste modelo em vez de seus próprios.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="1c65-e7bf-aaee-6d1d" name="Master and Commander" page="70" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Se o seu exército for forçado de batalha, você pode incluir um máximo de um modelo de comerciante desonesto de cartographica em cada distanciamento em seu exército.Este modelo não pode ser tomado em um slot de função de campo de batalha obrigatório, a menos que seja tomado em um descolamento de cartographica Astra.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="c1cc-23fb-7b6e-d6a6" name="1. Master of High Society" page="72" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Enquanto este senhor da Warlord está no campo de batalha, cada vez que você gasta um ponto de comando para usar um núcleo Stratagem ou Astra Cartographica Stratagem, você pode rolar um d6: em um ponto de 5+, esse ponto de comando é reembolsado.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="91b8-3fbd-7e5c-211a" name="2. Privateer (Aura)" page="72" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Enquanto uma unidade aliada de voidsmen-at armas estiver dentro de 6" deste senhor da Warlord:
+- essa unidade tem a habilidade objetiva segura.
+- essa unidade pode fazer ataques variados sem qualquer ação que esteja realizando falha.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="4a02-9f01-779c-e9f5" name="3. Duellist" page="72" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Cada vez que este senhor da guerra faz um ataque corpo a corpo:
+- Você pode re-rolar a jogada de sucesso.
+- Um jogada de ferida não modificado de 6 inflige 1 ferimento mortal no alvo além de qualquer dano normal.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="fe1f-6ac4-449e-d916" name="Stratagem: Master of the Void" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Use este estratagema antes da batalha, quando você está reunindo seu exército.Selecione um modelo de caractere de cartographica Astra em seu exército e determine um traço de guerra para esse modelo (este deve ser um traço de guerra que eles podem ter);Esse modelo é considerado apenas como seu senhor de guerra para os propósitos desse traço de guerra.Cada traço de guerra em seu exército deve ser único (se gerado aleatoriamente, rerolar resultados duplicados), e você não poderá usar este estratagema para dar um modelo dois traços de guerra.Você só pode usar este estratagema uma vez, a menos que você esteja jogando uma batalha de força de greve (caso em que você possa usar este estratagema duas vezes), ou uma batalha de ataque (caso em que você pode usar este estratagema três vezes).
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="a955-0bdf-1098-10cb" name="Voidsmen" page="71" publicationId="255d-c624-9fcb-ca23" typeId="800f-21d0-4387-c943" typeName="Unit">
+   <characteristics>
+    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+     6"
+    </characteristic>
+    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+     4+
+    </characteristic>
+    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+     3+
+    </characteristic>
+    <characteristic name="S" typeId="2218-aa3c-265f-2939">
+     3
+    </characteristic>
+    <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+     3
+    </characteristic>
+    <characteristic name="W" typeId="f330-5e6e-4110-0978">
+     1
+    </characteristic>
+    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+     1
+    </characteristic>
+    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+     6
+    </characteristic>
+    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+     4+
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="5b25-06b9-fcb3-93ee" name="Voidmaster" page="71" publicationId="255d-c624-9fcb-ca23" typeId="800f-21d0-4387-c943" typeName="Unit">
+   <characteristics>
+    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">
+     6"
+    </characteristic>
+    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">
+     4+
+    </characteristic>
+    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">
+     3+
+    </characteristic>
+    <characteristic name="S" typeId="2218-aa3c-265f-2939">
+     3
+    </characteristic>
+    <characteristic name="T" typeId="9c9f-9774-a358-3a39">
+     3
+    </characteristic>
+    <characteristic name="W" typeId="f330-5e6e-4110-0978">
+     1
+    </characteristic>
+    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">
+     2
+    </characteristic>
+    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">
+     7
+    </characteristic>
+    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">
+     4+
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="1974-ae55-2c63-c37f" name="Artificer Shotgun" page="71" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     12"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Assault 2
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     4
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -1
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="4704-6ac3-804e-98c1" name="Masters of Close Confines" page="71" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Embora esta unidade esteja totalmente dentro de um recurso de terreno de área, cada vez que um modelo nesta unidade faz um ataque corpo a corpo, adicione 1 a esse jogada de sucesso do ataque.
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="e2d9-8197-e411-a90d" name="Canid" page="71" publicationId="255d-c624-9fcb-ca23" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+   <characteristics>
+    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">
+     Uma vez por batalha, quando esta unidade é selecionada para lutar, você pode selecionar uma unidade inimiga (excluindo unidades de veículos) dentro da faixa de engajamento desta unidade.Role um D6, subtraindo 2 Se essa unidade tiver a palavra-chave monstro: em 2-5, essa unidade sofre 1 ferimento mortal;Em um 6, sofre ferimentos mortais D3.
+
+Recomendamos colocar um modelo CANID ao lado da unidade como um lembrete, removendo-a assim que esta habilidade foi usada (um canid não conta como um modelo para quaisquer fins de regras).
+    </characteristic>
+   </characteristics>
+  </profile>
+  <profile hidden="false" id="25ff-14ee-d6dc-e170" name="Voidsman Rotor Cannon" page="71" publicationId="255d-c624-9fcb-ca23" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+   <characteristics>
+    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">
+     24"
+    </characteristic>
+    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">
+     Heavy 4
+    </characteristic>
+    <characteristic name="S" typeId="59b1-319e-ec13-d466">
+     6
+    </characteristic>
+    <characteristic name="AP" typeId="75aa-a838-b675-6484">
+     -1
+    </characteristic>
+    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">
+     1
+    </characteristic>
+    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+     -
+    </characteristic>
+   </characteristics>
+  </profile>
+ </sharedProfiles>
+</catalogue>
